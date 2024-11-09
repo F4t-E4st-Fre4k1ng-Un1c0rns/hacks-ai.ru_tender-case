@@ -1,0 +1,42 @@
+**Title**  
+Automatic Traffic Sign Recognition and Alerting
+
+**Goal**  
+The Automatic Traffic Sign Recognition and Alerting system enables the vehicle to automatically identify and interpret traffic signs, providing real-time alerts to the driver. This system enhances driver awareness by notifying them of speed limits, stop signs, yield signs, and other important road sign information, ensuring compliance with traffic regulations and improving overall safety.
+
+**Preconditions**  
+- The vehicle must be equipped with appropriate sensors, including cameras or other imaging technologies, capable of detecting traffic signs.
+- The system must be activated by the driver via the vehicle's interface or automatically upon engine startup.
+- The vehicle must be in operation on a public road with visible traffic signs for detection.
+- The system may require regular software updates to ensure accuracy in recognizing new or changed traffic signs.
+
+**Main Scenario**  
+1. **Driver's Action:** Bob starts the vehicle and begins driving on a road with visible traffic signs.  
+   **System Response:** The Automatic Traffic Sign Recognition system activates and begins scanning the environment for traffic signs.  
+
+2. **Driver's Action:** Bob approaches a speed limit sign.  
+   **System Response:** The system identifies the sign, processes the information, and displays an alert on the dashboard showing the speed limit.  
+
+3. **Driver's Action:** Bob changes lanes and approaches a stop sign at an intersection.  
+   **System Response:** The system detects the stop sign, and an audible and visual alert prompts Bob to stop the vehicle.  
+
+4. **Driver's Action:** Bob continues driving, approaching a yield sign.  
+   **System Response:** The system recognizes the yield sign and notifies Bob to slow down and be prepared to yield to other traffic.  
+
+5. **Driver's Action:** Bob encounters a temporary construction zone with a modified speed limit sign.  
+   **System Response:** The system interprets the modified sign and provides an updated speed limit alert, ensuring that Bob adheres to the temporary regulation.
+
+**Alternative Scenario**  
+1. **Driver's Action:** Bob begins driving, but the system fails to recognize a traffic sign due to poor visibility (e.g., heavy rain, fog, or night driving).  
+   **System Response:** The system displays a warning message indicating that traffic sign recognition is unavailable due to environmental factors. An option is provided for Bob to manually acknowledge the situation.  
+
+2. **Driver's Action:** Bob drives past a sign, but the system misinterprets it due to incorrect positioning or obscuration (e.g., sign partially blocked by another vehicle or object).  
+   **System Response:** The system alerts Bob that it may not have correctly identified the sign and suggests driving cautiously while it reattempts to read upcoming signs.  
+
+3. **Driver's Action:** Bob activates the system, but it fails to load properly or malfunctions due to a software error.  
+   **System Response:** The system triggers a notification to Bob, indicating the malfunction and requesting that he perform a system reboot or contact service for troubleshooting.
+
+**Postconditions**  
+- After successful interaction with the Automatic Traffic Sign Recognition and Alerting system, Bob is provided with accurate, real-time information about traffic signs, enhancing his awareness and compliance with road regulations.  
+- The system continuously updates and alerts the driver as new traffic signs are encountered, ensuring safe navigation throughout the trip.  
+- If a malfunction or failure occurs, Bob is informed promptly, and corrective actions are recommended to restore full functionality.

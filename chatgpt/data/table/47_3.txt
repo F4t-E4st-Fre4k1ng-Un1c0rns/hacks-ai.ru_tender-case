@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS lacks a detailed, clear user interface description for managing hotspot settings, which is emphasized in UC. | "The Wi-Fi Hotspot Management feature must be enabled and integrated into the vehicle's operating system." |
+| SSTS does not guarantee immediate or clear system responses upon activation or deactivation of the Wi-Fi hotspot as required by UC. | "The system will activate the Wi-Fi hotspot upon user selection and connect any available devices to the network." |
+| SSTS provides limited granularity and flexibility for data usage monitoring compared to the UC's requirement for detailed breakdowns and customization. | "Data usage metrics will be displayed on the infotainment screen, showing total data consumed and real-time data usage for connected devices." |
+| SSTS offers generic error messages for network failures, whereas UC specifies more detailed error handling and user guidance. | "The system fails to provide a robust error-handling mechanism. Error messages are generic and may not fully guide users on how to resolve the issue." |
+| SSTS does not provide full customization of data limit notifications or allow finer control over thresholds, unlike the UC. | "Users can manually set data usage limits and receive alerts when nearing the limit." |
+| SSTS does not guarantee real-time updates of settings after user interaction, unlike UC's requirement for immediate updates. | "Data usage metrics will be displayed on the infotainment screen, showing total data consumed and real-time data usage for connected devices." |

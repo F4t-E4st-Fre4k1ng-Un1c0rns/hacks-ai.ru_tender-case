@@ -1,0 +1,32 @@
+**1. Title**  
+Remote Monitoring of EV Battery Health and Charging Status
+
+**2. Functional Description**  
+The "Remote Monitoring of EV Battery Health and Charging Status" sub-system provides a real-time monitoring solution for the health and status of an electric vehicle’s battery. It allows users to remotely track critical parameters such as state of charge (SOC), battery health, temperature, charging status, and voltage. The system generates alerts for abnormal conditions and provides insights on the battery’s performance, enabling users to take proactive actions for battery maintenance. The user interacts with the sub-system via a mobile application or a web platform.
+
+**3. Enabling Conditions**  
+- The EV must be equipped with a compatible onboard diagnostic system that communicates battery health and charging data.
+- A stable internet connection is required on both the EV and user’s device to ensure data exchange.
+- The user must have an active account on the platform to access the remote monitoring features.
+- The EV battery system should be fully operational and capable of delivering accurate data, including metrics such as SOC, temperature, and voltage.
+- The sub-system must be compatible with the user’s device, including mobile (iOS/Android) or desktop platforms (web browser).
+- The user must provide necessary permissions (e.g., location) if location-based monitoring is part of the service.
+
+**4. Trigger Conditions**  
+- The sub-system is triggered when the user opens the application or web platform to monitor the battery status.
+- Data retrieval is automatically triggered when the vehicle starts or begins charging, updating the user with real-time battery status.
+- The system monitors battery parameters continuously and triggers an alert if predefined thresholds (e.g., SOC below 20%, battery temperature exceeds safety limits) are breached.
+- Notifications are triggered if a malfunction is detected in the battery system or communication link, prompting the user to take action.
+  
+**5. Execution Output**  
+- The system provides real-time updates on the EV’s battery health, including SOC, voltage, temperature, and charging rate, displayed on the user interface.
+- The application outputs critical alerts if the battery health deteriorates, such as if the temperature exceeds safe thresholds or if the battery charge is low.
+- Alerts are sent via the mobile application or email to notify the user of significant issues that need attention, like abnormal battery conditions.
+- Historical data of battery performance is stored, accessible by the user for reviewing trends and making long-term maintenance decisions.
+- The user interface includes graphical representations of battery metrics (e.g., temperature gauge, battery percentage bar) for easier understanding of real-time data.
+
+**6. Exit Conditions**  
+- The sub-system terminates the remote monitoring session when the user logs out of the mobile application or web platform.
+- If the vehicle’s connection to the sub-system is lost or the vehicle is powered off, the system will exit monitoring mode and stop updating the data.
+- Once any critical battery issue is resolved (e.g., temperature returns to a safe range), the system clears the alert and resumes normal operation.
+- The sub-system exits automatically if there is no significant battery status update after a defined period, or if the vehicle has been idle without a charging or operational event.

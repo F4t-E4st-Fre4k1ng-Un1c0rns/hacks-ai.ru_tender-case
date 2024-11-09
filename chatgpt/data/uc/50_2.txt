@@ -1,0 +1,45 @@
+**Underpinning Contract: Automatic Parking Payment System via Vehicle Interface**
+
+**1. Goal**  
+The Automatic Parking Payment System via Vehicle Interface aims to provide a seamless and convenient method for users to automatically pay for parking via their vehicle's onboard interface. This system will enable the vehicle to interact directly with parking meters or parking management systems, eliminating the need for manual payment or ticket validation. Key features include:
+
+- Automatic detection of parking session initiation and completion.
+- Direct payment via the vehicle's interface.
+- Integration with various parking management systems and payment gateways.
+- Secure transaction processing.
+- Notification to the user about payment confirmation and any relevant parking status.
+
+**2. Preconditions**  
+- The vehicle must be equipped with the necessary hardware and software to interface with external parking payment systems.
+- The parking location must support automatic payment via vehicle interface, including compatibility with the system's communication protocols (e.g., RFID, Bluetooth, NFC).
+- User must have an active payment method (e.g., credit card, mobile wallet) linked to the vehicle's system.
+- Vehicle must have access to cellular data or Wi-Fi to process transactions in real-time.
+- The user’s account (e.g., vehicle profile or linked payment account) must be active and in good standing.
+
+**3. Main Scenario**  
+1. Alise parks her vehicle in a designated parking spot that supports the automatic payment system.  
+2. The vehicle automatically detects the parking space and communicates with the parking system to initiate a parking session.  
+3. The system calculates the parking fee based on the time spent and communicates the amount to the vehicle interface.  
+4. Alise confirms the payment details and authorizes the transaction via the vehicle’s interface.  
+5. Upon successful payment, the vehicle displays a payment confirmation and notifies Alise that her parking session has been successfully paid for.
+
+**4. Alternative Scenario**  
+- **Scenario 1: Payment System Unavailable**
+  1. Bob parks his vehicle in a parking space that supports automatic payment.
+  2. The vehicle attempts to communicate with the parking system, but it is unable to establish a connection due to technical issues.
+  3. The vehicle interface displays an error message stating "Unable to connect to parking payment system. Please pay manually."
+  4. Bob receives a notification on his mobile device, informing him of the issue and alternative payment methods available.
+  5. Bob manually pays at a nearby kiosk or via a mobile app, and the parking session continues as normal.
+
+- **Scenario 2: Insufficient Funds**
+  1. Alise parks her vehicle and the system initiates a parking session.
+  2. The vehicle interface detects an issue with the linked payment method (e.g., insufficient funds or expired card).
+  3. A message appears on the vehicle’s screen: "Payment failed. Please update your payment method."
+  4. Alise is prompted to update her payment information or use an alternative method.
+  5. Once updated, the payment is processed successfully, and the system confirms the parking session is paid.
+
+**5. Postconditions**  
+- After successful interaction with the Automatic Parking Payment System, the user’s parking session is paid in full, and the parking management system reflects the payment.
+- The vehicle’s onboard system records the transaction for user reference and reporting.
+- Alise or Bob receives a confirmation of the payment on their vehicle interface, as well as a digital receipt (e.g., via email or mobile app).
+- The parking space is marked as occupied and paid for, and the vehicle is free to leave without further interaction with a payment terminal.

@@ -1,0 +1,30 @@
+**Title:** Personalized Recommendations for Entertainment and Music
+
+**Goal:**  
+This sub-system will provide personalized recommendations for entertainment and music tailored to the user’s preferences. It will use data such as mood, time of day, and driving context to suggest playlists, songs, podcasts, and other audio content. The goal is to enhance the in-car experience by offering curated entertainment that aligns with the user’s tastes and preferences, ensuring an enjoyable and seamless interaction during driving.
+
+**Preconditions:**  
+- The system requires user profile data including music preferences, favorite genres, and listening habits.  
+- The vehicle’s infotainment system must be connected to the internet for content recommendations to be fetched.  
+- The system should have access to third-party music and podcast services (e.g., Spotify, Apple Music).  
+- The driver must be logged into their user profile for personalized recommendations.  
+- The vehicle's voice recognition system must be functional for hands-free interaction.
+
+**Main Scenario:**  
+1. Bob starts the vehicle, and the personalized recommendations system activates automatically based on his profile.  
+2. The system analyzes the time of day and current driving conditions (e.g., long drive, short commute) and suggests relevant music or podcasts.  
+3. Bob hears a notification prompting him with a music recommendation, and he responds, “Play music.”  
+4. The system plays the recommended track or playlist through the car's speakers, adjusting volume according to the user's previous settings.  
+5. Bob can adjust his preferences on the fly, such as skipping a song or asking for a new recommendation by voice command.
+
+**Alternative Scenario:**  
+1. The system fails to fetch content due to poor internet connectivity.  
+2. Bob is notified that recommendations are unavailable and offered the option to listen to previously saved content (e.g., offline music).  
+3. If the system still cannot retrieve data, Bob can manually select entertainment from his saved playlist or use voice commands to select from preset options.  
+4. The system suggests switching to a different mode, such as radio or Bluetooth connectivity, if preferred content is not available.  
+5. Once connectivity is restored, Bob will receive an automatic prompt to resume personalized recommendations.
+
+**Postconditions:**  
+- After the successful interaction, Bob is presented with a curated entertainment experience based on his preferences.  
+- The system logs the new selection to refine future recommendations, enhancing its accuracy over time.  
+- The system seamlessly resumes functionality after a brief disruption, ensuring continuity of user experience.

@@ -1,0 +1,6 @@
+| **Differences** | **Quotation** |
+|-----------------|-------------|
+| **Synchronization Scope**: UC specifies full synchronization across all devices in the ecosystem, but SSTS limits synchronization to devices within the vehicle’s network or with active internet access. | "All connected devices are authenticated and have either network access or are within the vehicle’s local network range." |
+| **Automatic Synchronization**: UC emphasizes fully automatic synchronization, while SSTS requires user login to trigger synchronization. | "The user logs in with a linked device upon entering the vehicle, initiating synchronization automatically." |
+| **Real-Time Preference Saving**: UC requires real-time preference updates across devices. SSTS defers synchronization until connectivity is restored if the network is unavailable. | "If network access is unavailable, settings updates are saved locally and queued for later synchronization." |
+| **Failure Handling**: UC specifies that manual settings should be stored locally and then uploaded when connectivity resumes, while SSTS states only that preferences are queued for synchronization upon network restoration. | "Once connectivity is restored, these preferences are automatically synchronized to the cloud, ensuring consistency across all authorized devices." |

@@ -1,0 +1,53 @@
+**Underpinning Contract: Vehicle Speed Limit Alerts and Compliance Monitoring**
+
+---
+
+### 1. Title  
+**Vehicle Speed Limit Alerts and Compliance Monitoring**
+
+---
+
+### 2. Goal  
+The Vehicle Speed Limit Alerts and Compliance Monitoring sub-system will enable the user to receive real-time notifications and alerts when their vehicle exceeds the predefined speed limits in different driving conditions. Additionally, it will monitor the compliance with speed regulations, provide the user with feedback on their driving behavior, and help ensure adherence to local speed laws for enhanced safety and regulatory compliance.
+
+---
+
+### 3. Preconditions  
+- The sub-system is integrated into the vehicle’s navigation and GPS systems.
+- The user (e.g., Alise or Bob) has configured their vehicle’s speed limit preferences within the system, either manually or through automatic updates based on geographical location and local speed limits.
+- The vehicle’s GPS and internet connection must be active and functioning properly for accurate real-time speed limit data to be retrieved.
+- The sub-system is enabled in the vehicle’s settings, either through a dashboard control or a mobile app interface.
+
+---
+
+### 4. Main Scenario  
+1. **User Input:** The user, Alise, starts the vehicle and begins driving.
+   - **Sub-System Response:** The system continuously monitors the vehicle’s speed in relation to the locally set speed limits using GPS data.
+   
+2. **User Input:** Alise accelerates beyond the set speed limit.
+   - **Sub-System Response:** The sub-system triggers an immediate alert, such as a visual display on the dashboard or an audible warning, notifying the user that they have exceeded the speed limit.
+   
+3. **User Input:** Alise acknowledges the alert and reduces speed.
+   - **Sub-System Response:** Once the speed is reduced to within the legal limit, the system stops the warning and provides positive feedback, such as a green check mark or a message confirming compliance.
+   
+4. **User Input:** Bob drives through a new area with different speed limits.
+   - **Sub-System Response:** The system automatically updates the speed limits based on GPS data and local regulations, ensuring Bob receives up-to-date alerts as he drives through new regions.
+   
+5. **User Input:** Bob continues driving without exceeding speed limits.
+   - **Sub-System Response:** The system monitors and confirms that Bob remains within the legal limits, and no alerts are triggered. The user may receive periodic updates or reminders of the current speed limit.
+
+---
+
+### 5. Alternative Scenario  
+1. **User Input:** Alise begins driving, but the vehicle's GPS signal is weak or unavailable.
+   - **Sub-System Response:** The system will notify Alise that it is unable to retrieve speed limit data due to GPS issues. It will continue to monitor the vehicle’s speed but will not provide specific speed limit compliance alerts until the signal is restored.
+   
+2. **User Input:** Bob accelerates beyond the speed limit, but the system fails to trigger an alert due to a technical malfunction.
+   - **Sub-System Response:** The system will log the event as an error and notify Bob through a diagnostic message, suggesting a system check or a visit to the service center. It will also prompt Bob to manually verify the speed limit in the area.
+
+---
+
+### 6. Postconditions  
+- Upon successful interaction with the sub-system, the user (e.g., Alise or Bob) is ensured that they are within the legal speed limit. If a speed violation occurs, the system alerts the user and records the event for compliance tracking.
+- The vehicle’s speed monitoring data is updated, and any non-compliance issues are logged for future review or reporting.
+- The system ensures that the user receives timely feedback on their driving behavior and makes necessary adjustments to maintain adherence to speed limits.

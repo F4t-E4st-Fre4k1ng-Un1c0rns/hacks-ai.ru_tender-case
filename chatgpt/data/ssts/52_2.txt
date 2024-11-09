@@ -1,0 +1,48 @@
+### **Title:**  
+**Mobile App-Based Vehicle Usage and Health Monitoring** – Technical Specifications
+
+---
+
+### **Functional Description:**  
+The Mobile App-Based Vehicle Usage and Health Monitoring sub-system is a mobile application designed to provide users with real-time insights into the health and usage of their electric vehicle (EV). It monitors key metrics, including battery health, tire pressure, driving efficiency, and overall system performance. The app provides users with alerts, notifications, and data visualizations, enabling them to track their vehicle's condition, optimize driving habits, and schedule maintenance proactively. 
+
+---
+
+### **Enabling Conditions:**  
+1. The mobile app must be installed and configured on a compatible smartphone device.
+2. The vehicle must be equipped with the necessary telemetry sensors to collect data on battery health, tire pressure, and other relevant vehicle health metrics.
+3. The vehicle must be paired with the app via a secure connection (Bluetooth, Wi-Fi, or cellular) to allow continuous data synchronization.
+4. The user must have a stable internet connection to sync vehicle data with cloud storage or backend systems.
+5. The app should be compatible with the vehicle’s firmware and have a current software update to ensure full functionality.
+
+---
+
+### **Trigger Conditions:**  
+1. The app is activated by the user, requiring login and authentication to begin accessing vehicle data.
+2. Vehicle health data collection is triggered automatically upon successful vehicle connection or at preset intervals (e.g., every 5 minutes).
+3. Significant changes in vehicle health (e.g., low tire pressure, battery degradation, system faults) trigger notifications or alerts to the user.
+4. The app triggers maintenance reminders based on predefined schedules or diagnostics reports from the vehicle's system.
+5. A manual data refresh request by the user or upon vehicle ignition can trigger a new collection cycle of health metrics.
+
+---
+
+### **Execution Output:**  
+1. The app displays real-time data on the vehicle's health, including:
+   - Battery charge level and health status (e.g., battery degradation, capacity)
+   - Tire pressure readings and alerts for low pressure
+   - System performance and energy efficiency metrics (e.g., energy consumption, driving patterns)
+2. The app generates alerts and notifications based on vehicle health issues, including immediate alerts for critical failures (e.g., battery faults, system malfunctions) and maintenance reminders.
+3. Usage statistics, such as driving efficiency, distance driven, and energy consumption, are presented in easy-to-read graphical reports.
+4. Error messages and troubleshooting suggestions are provided for any detected sensor or system failures, helping users take necessary actions or schedule maintenance.
+5. The system outputs a success message after maintenance tasks are scheduled or actions are taken.
+
+---
+
+### **Exit Conditions:**  
+1. After successful interaction with the app, all vehicle health data is updated, displayed, and saved.
+2. Any changes in vehicle health, including maintenance scheduling, are recorded and confirmed to the user.
+3. If the app detects a malfunction (e.g., sensor failure), it logs the issue and offers the user troubleshooting steps or directs them to customer support.
+4. Upon exiting the app, the system terminates the vehicle connection and ensures that all relevant data (e.g., driving stats, maintenance logs) is securely saved.
+5. If the app crashes or is forcibly closed, the system ensures data is preserved, and the user is notified of any unsaved information.
+
+---

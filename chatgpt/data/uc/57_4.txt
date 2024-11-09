@@ -1,0 +1,33 @@
+**Enhanced Emergency Evacuation System - Underpinning Contract**
+
+1. **Title**  
+   Enhanced Emergency Evacuation System
+
+2. **Goal**  
+   The Enhanced Emergency Evacuation System is designed to provide an intuitive and reliable mechanism for users to safely evacuate from the vehicle during emergency situations. It will automatically trigger when a life-threatening event is detected, providing clear instructions and guidance for evacuation, ensuring that all passengers can exit the vehicle swiftly and safely. This sub-system will feature automated emergency door unlocking, integrated guidance for escape routes, and emergency communication with rescue services.
+
+3. **Preconditions**  
+   - The system is integrated into the luxury electric car and activated during critical emergency situations.
+   - The vehicle must be powered on for the system to be fully operational, though certain features may still function when the vehicle is powered off.
+   - The system relies on sensors that detect fire, smoke, or collision impacts to activate.
+   - User profile is registered in the car system with emergency contacts updated for timely communication.
+   - The vehicle must be in a state of emergency, such as a crash, fire, or hazardous environment, for the system to engage.
+
+4. **Main Scenario**  
+   1. **Alise** is driving the vehicle when an emergency situation is detected, such as a severe collision or fire.  
+   2. The Enhanced Emergency Evacuation System immediately activates, and the vehicle’s doors unlock automatically.  
+   3. The system provides a clear voice prompt to Alise, instructing her to exit through the nearest available exit route.  
+   4. The system flashes an illuminated arrow on the interior display, directing Alise to the safest exit.  
+   5. After Alise exits the vehicle, the system sends an automatic distress signal to emergency services with the car's location and details of the emergency.
+
+5. **Alternative Scenario**  
+   1. **Bob** is in the vehicle when a fire breaks out, but the automatic door unlocking feature malfunctions due to electrical failure.  
+   2. The system detects the malfunction and alerts Bob with a visual prompt indicating a failure in the automatic unlocking system.  
+   3. Bob is then instructed by the system to manually unlock the doors using the emergency door release.  
+   4. If the manual unlocking also fails, the system will provide an alternate escape route through the window and give instructions on how to break the glass safely.  
+   5. Once Bob exits the vehicle, the system ensures the distress signal is sent to emergency services despite the initial failures.
+
+6. **Postconditions**  
+   - After successful evacuation, the Enhanced Emergency Evacuation System has provided clear and efficient guidance, ensuring the safe exit of the user(s).
+   - The system has sent an emergency notification to local authorities with the vehicle's exact location and emergency details, enabling a rapid response from rescue teams.
+   - All system logs, including user interactions, actions taken, and system malfunctions (if any), are recorded for post-incident analysis and improvement.

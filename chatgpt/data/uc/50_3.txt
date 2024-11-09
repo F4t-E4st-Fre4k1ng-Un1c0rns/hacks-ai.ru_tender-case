@@ -1,0 +1,49 @@
+**Underpinning Contract: Automatic Parking Payment System via Vehicle Interface**
+
+### 1. Goal  
+The **Automatic Parking Payment System via Vehicle Interface** aims to provide a seamless and efficient parking payment experience for users of luxury electric vehicles. This feature will allow users to automatically pay for parking through the vehicle's interface without the need for manual interaction with parking meters or external payment systems. The system will detect the parking session, calculate the fee, and process the payment directly from the vehicle's in-built payment system.
+
+### 2. Preconditions  
+- The vehicle is equipped with the necessary hardware and software to support the Automatic Parking Payment System.
+- The user has registered and linked a valid payment method (e.g., credit/debit card, or an in-car account) to the vehicle’s payment system.
+- The parking facility supports automatic payment through vehicle interfaces and is integrated with the vehicle’s system.
+- The vehicle is within range of the parking system’s detection capabilities.
+
+### 3. Main Scenario  
+1. **Arrival at Parking Facility**  
+   The user, Bob, parks his luxury electric vehicle in a parking space equipped with the Automatic Parking Payment System.  
+   - **Sub-System Response**: The system automatically detects the vehicle’s presence and activates the parking session on the vehicle’s display.  
+   
+2. **Vehicle Interface Displays Parking Information**  
+   The vehicle interface displays the parking details, including parking rates and estimated duration based on the user’s preferences or the vehicle’s usage time.  
+   - **Sub-System Response**: The system calculates the fee based on parking duration and applicable rates, showing it on the vehicle's dashboard.  
+
+3. **User Confirms Payment**  
+   Bob confirms the parking payment through the vehicle’s touchscreen interface by selecting the "Pay" button.  
+   - **Sub-System Response**: The system processes the payment using the linked payment method and displays a payment confirmation message on the dashboard.  
+
+4. **Parking Session Ends**  
+   When Bob returns to the vehicle and begins to drive away, the system automatically ends the parking session and finalizes the payment.  
+   - **Sub-System Response**: A receipt or transaction summary is displayed on the vehicle’s screen and optionally sent to Bob’s email or phone.  
+
+5. **User Leaves the Parking Facility**  
+   Bob exits the parking facility, having completed the payment through the vehicle interface.  
+   - **Sub-System Response**: The parking system validates the payment and allows the vehicle to exit the parking structure without additional manual payment steps.
+
+### 4. Alternative Scenario  
+**Scenario 1: Payment System Unavailable**  
+- Bob attempts to use the Automatic Parking Payment System, but due to connectivity issues, the system cannot access the payment gateway.
+   - **User Action**: Bob is informed via the vehicle interface that the payment system is temporarily unavailable.
+   - **Sub-System Response**: The vehicle prompts Bob to use an alternative payment method, such as paying at a parking meter, or directs him to customer support for assistance.
+   - **Outcome**: Bob is still able to park but needs to resolve the payment through manual intervention.
+
+**Scenario 2: Parking Session Cannot Be Automatically Detected**  
+- Bob parks the vehicle in a spot where the parking system fails to detect his vehicle due to hardware or system malfunction.
+   - **User Action**: Bob receives a notification from the vehicle interface indicating that the parking session could not be automatically initiated.
+   - **Sub-System Response**: The vehicle prompts Bob to manually start the parking session through the interface or provides guidance on how to resolve the issue.
+   - **Outcome**: Bob can still use the vehicle's interface to manually enter parking details and proceed with the payment.
+
+### 5. Postconditions  
+- After a successful interaction, the parking fee is deducted from the user’s linked payment method, and the payment transaction is logged in the vehicle’s system.
+- A transaction receipt, including the parking duration, rate, and total payment, is either displayed on the vehicle’s screen or sent electronically to the user’s email.
+- The parking system recognizes the payment, and Bob is allowed to exit the parking facility without any further action required on his part.

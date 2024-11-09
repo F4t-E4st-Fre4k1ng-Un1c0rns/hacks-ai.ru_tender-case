@@ -1,0 +1,26 @@
+---
+
+**Title:**  
+Automatic Synchronization of Vehicle Settings across Multiple Devices - Technical Specifications
+
+**Functional Description:**  
+The Automatic Synchronization sub-system is designed to synchronize user preferences (e.g., seat position, climate control, audio preferences) across devices linked to the vehicle. The current system implementation requires manual user initiation for synchronization and is limited to a single registered device per session. This version does not support real-time or cloud-based synchronization.
+
+**Enabling Conditions:**  
+- Only one user device can connect to the vehicle system at a time.
+- The device must be manually registered with the vehicle, as multiple simultaneous device registrations are not supported.
+- Synchronization functionality is limited to Bluetooth connectivity; cloud-based and Wi-Fi synchronization are unavailable.
+
+**Trigger Conditions:**  
+- Synchronization can only be initiated by the user through the vehicle’s settings menu.
+- The system does not support automatic prompts or notifications to suggest synchronization when new preferences are detected.
+
+**Execution Output:**  
+- When synchronization is triggered, the system updates vehicle settings to match the preferences stored on the connected device.
+- User profiles and preferences are not saved for future sessions; only the current session’s settings are applied.
+
+**Exit Conditions:**  
+- The system saves only the latest session settings until a new synchronization is manually triggered.
+- If a different user profile is selected, the previously saved settings will not automatically reload, requiring manual configuration for each user. 
+
+---

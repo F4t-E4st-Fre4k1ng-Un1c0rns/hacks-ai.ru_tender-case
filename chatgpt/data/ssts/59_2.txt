@@ -1,0 +1,29 @@
+**Title**  
+Remote Monitoring of EV Battery Health and Charging Status - Technical Specifications  
+
+**Functional Description**  
+The Remote Monitoring of EV Battery Health and Charging Status sub-System allows users to remotely monitor the health, charge level, and charging progress of their electric vehicle's (EV) battery. The system provides real-time data on key battery parameters such as state of charge (SOC), state of health (SOH), and estimated range. It also includes alert notifications for abnormal battery conditions and charging issues. Users can view and track the health of their battery, receive timely alerts, and make informed decisions about maintenance or charging.
+
+**Enabling Conditions**  
+- The electric vehicle must be equipped with a compatible battery management system (BMS) that supports real-time data reporting on battery health and charging status.  
+- The vehicle must be connected to the remote monitoring platform via a secure, authenticated user account.  
+- A stable internet connection (either Wi-Fi or mobile data) is required for data transmission between the vehicle and the monitoring platform.  
+- The remote monitoring platform must be able to securely store and retrieve battery data through a cloud-based service.
+
+**Trigger Conditions**  
+- The system automatically retrieves data when the vehicle starts charging or is in motion, continuously updating the battery status.  
+- The user can manually request a status update from the monitoring platform interface at any time.  
+- The system triggers alerts when predefined thresholds are met, such as when the battery charge drops below a certain percentage or when a potential issue with battery health is detected.  
+- The system responds to abnormal conditions, such as overheating, overcharging, or rapid degradation of battery health.
+
+**Execution Output**  
+- The system displays the real-time battery status, including charge level, SOH, estimated range, and charging progress.  
+- When an abnormal condition is detected, the system generates an alert notification that includes the nature of the issue (e.g., battery degradation, overheating) and recommended actions.  
+- The user interface is updated in real-time, showing any changes to the battery's status or health, as well as the progress of ongoing charging sessions.  
+- The system ensures that users are informed of both minor and critical issues with sufficient detail to allow them to take appropriate action.
+
+**Exit Conditions**  
+- The monitoring session ends when the user logs out or the vehicle disconnects from the platform due to a loss of connectivity or when the vehicle is turned off.  
+- If data transmission is interrupted, the system exits the session, notifying the user of the disconnection and the need to reconnect for further updates.  
+- After the user acknowledges an alert, the system marks the issue as resolved unless the problem persists, in which case the alert reappears until fully addressed.  
+- The system exits the monitoring process if the vehicle is no longer available or the platform detects that the vehicle is out of range or has been switched off for an extended period.

@@ -1,0 +1,28 @@
+**Underpinning Contract: Bluetooth-Based Vehicle Access System**
+
+**1. Goal**  
+The Bluetooth-Based Vehicle Access System will provide users with a seamless, keyless entry experience. It allows users to unlock, start, and lock their luxury electric vehicle via Bluetooth technology integrated with their mobile device, offering enhanced convenience and security. The system enables automatic communication between the vehicle and the user’s smartphone, granting access only to authorized devices, thus ensuring safety and exclusivity.
+
+**2. Preconditions**  
+- The user must have a compatible smartphone with the Bluetooth functionality enabled.  
+- The vehicle must be equipped with the Bluetooth-Based Vehicle Access System.  
+- The user must have registered their smartphone with the vehicle’s access system during initial setup.  
+- The smartphone must be within a certain proximity range of the vehicle for the system to function (e.g., within 10 meters).  
+- Bluetooth must be activated on both the smartphone and the vehicle for successful communication.
+
+**3. Main Scenario**  
+1. Alise approaches her parked luxury electric vehicle with her smartphone in hand, ensuring Bluetooth is enabled on both her device and the vehicle.
+2. The vehicle detects the Bluetooth signal from Alise’s smartphone and automatically unlocks the doors.
+3. Alise opens the door and enters the vehicle, where the system verifies her identity and automatically allows the vehicle to start.
+4. Alise drives the vehicle as normal. When finished, she parks and exits the car.
+5. The system locks the doors automatically once Alise steps away from the vehicle and the Bluetooth connection is no longer detected.
+
+**4. Alternative Scenario**  
+1. Bob approaches his luxury electric vehicle, but his smartphone’s Bluetooth is disabled.
+2. The vehicle fails to detect the Bluetooth signal and does not unlock the doors.
+3. Bob manually enables Bluetooth on his smartphone and reattempts to connect.  
+4. If the system still fails to detect the device, Bob will be prompted to use an alternative access method (e.g., a backup key card or PIN code).
+5. Once the connection is established, the system proceeds as described in the main scenario.
+
+**5. Postconditions**  
+After successful interaction with the Bluetooth-Based Vehicle Access System, the vehicle is either unlocked, started, or locked based on the user’s action, ensuring secure access. In case of successful entry and start, the system will maintain the vehicle’s operational status while the user is inside. Upon exiting and moving away from the vehicle, the doors will lock automatically, and the system will securely disable the vehicle’s engine.

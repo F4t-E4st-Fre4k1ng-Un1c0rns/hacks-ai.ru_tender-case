@@ -1,0 +1,49 @@
+**Underpinning Contract: Vehicle Speed Limit Alerts and Compliance Monitoring**
+
+---
+
+**1. Title**  
+Vehicle Speed Limit Alerts and Compliance Monitoring
+
+---
+
+**2. Goal**  
+The Vehicle Speed Limit Alerts and Compliance Monitoring sub-system is designed to ensure that the vehicle adheres to legal speed limits and offers real-time alerts to the driver when approaching or exceeding these limits. This sub-system will provide the following key features:
+- Continuous monitoring of vehicle speed in relation to the posted speed limits on the current route.
+- Visual and auditory alerts to notify the driver when the vehicle exceeds the speed limit.
+- Automatic adjustment of speed limit thresholds based on the vehicle's current location, including updates from GPS and map data.
+- Logging of speed violations and compliance status for review or reporting.
+- Integration with the vehicle's driver assistance systems, including cruise control and speed regulation, to help ensure compliance.
+
+---
+
+**3. Preconditions**  
+- The vehicle is equipped with GPS, speed sensors, and map data integration to accurately determine the vehicle's current location and the applicable speed limits.
+- The sub-system must be properly configured and calibrated during vehicle setup to ensure correct speed limit data and alert thresholds.
+- The driver must have basic knowledge of the vehicle’s controls, including the speedometer and alert indicators.
+
+---
+
+**4. Main Scenario**  
+1. The driver, Bob, enters the vehicle and starts driving. The vehicle's speed limit monitoring system is automatically activated.
+2. As Bob drives, the system continuously compares the vehicle's current speed with the legal speed limits based on the GPS data.
+3. If Bob exceeds the speed limit, the system triggers an auditory beep and displays a visual warning on the dashboard screen, indicating the speed limit breach.
+4. Bob reduces his speed back within the legal limit, and the system stops the alert and returns to normal monitoring mode.
+5. Throughout the drive, the system updates any changes in speed limits based on the vehicle’s current location and notifies Bob if any new speed limit restrictions are applicable.
+
+---
+
+**5. Alternative Scenario**  
+1. Bob enters the vehicle, but the speed limit monitoring system fails to activate due to a GPS signal issue.
+2. The system displays an error message on the dashboard: "Speed Limit Monitoring unavailable. GPS signal lost."
+3. Bob continues driving, but the vehicle does not provide real-time speed limit alerts or compliance monitoring.
+4. Bob pulls over and tries restarting the vehicle, hoping to resolve the GPS connectivity issue.
+5. Once the GPS signal is restored, the system automatically activates again, and normal speed limit monitoring resumes. A message is displayed: "Speed Limit Monitoring reactivated."
+
+---
+
+**6. Postconditions**  
+- After successful interaction with the sub-system, Bob will have received alerts for any speed violations and will have been reminded to comply with local speed limits.
+- The system logs all speed limit breaches and compliance data, which may be reviewed by Bob or the system administrator if needed.
+- The vehicle’s overall driving experience is enhanced by continuous, automated speed limit compliance and safety notifications.
+

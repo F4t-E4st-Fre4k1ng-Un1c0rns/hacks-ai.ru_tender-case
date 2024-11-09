@@ -1,0 +1,52 @@
+**Underpinning Contract: Driver Assistance System for Blind Spot Detection**
+
+---
+
+### 1. **Title**
+**Driver Assistance System for Blind Spot Detection**
+
+---
+
+### 2. **Goal**
+The Driver Assistance System for Blind Spot Detection (BSD) is designed to improve vehicle safety by alerting the driver to the presence of vehicles in adjacent lanes that may not be visible through standard mirrors. This system provides real-time feedback to the driver, helping to prevent accidents when changing lanes or merging onto highways.
+
+Features of this sub-system include:
+- Detection of vehicles in the vehicle's blind spots.
+- Audible and visual alerts to warn the driver of objects in the blind spots.
+- Automatic system activation when the vehicle is in motion at speeds above a preset threshold.
+- Deactivation of alerts when the vehicle is at low speeds (e.g., parking).
+
+---
+
+### 3. **Preconditions**
+- The Driver Assistance System for Blind Spot Detection is active when the vehicle ignition is on and the system is initialized.
+- Sensors installed on both sides of the vehicle are operational and free from obstructions such as dirt, snow, or ice.
+- The vehicle is moving above a certain speed (e.g., 20 km/h) for the system to engage.
+- The system is calibrated to the vehicle’s dimensions and expected range of motion.
+- The user must have a compatible vehicle model equipped with the BSD system.
+
+---
+
+### 4. **Main Scenario**
+1. **User Action**: Bob enters the vehicle, starts the engine, and begins driving on a highway.
+2. **Sub-System Response**: The system is activated automatically once the vehicle exceeds the speed threshold of 20 km/h. Sensors continuously monitor the vehicle’s blind spots.
+3. **User Action**: Bob begins to change lanes to the left.
+4. **Sub-System Response**: The system detects a vehicle in the left blind spot and triggers a visual indicator on the left-side rearview mirror and an audible alert.
+5. **User Action**: Bob decides to wait and resumes his position in the current lane, adjusting speed and direction.
+6. **Sub-System Response**: Once Bob’s lane change is canceled, the alert ceases, and the system continues to monitor the blind spot for new objects.
+
+---
+
+### 5. **Alternative Scenario**
+1. **User Action**: Alise enters the vehicle and starts driving on a highway.
+2. **Sub-System Response**: The system attempts to engage once the vehicle exceeds 20 km/h. However, the sensors detect an obstruction (e.g., mud or ice) and are unable to function properly.
+3. **User Action**: Alise attempts to change lanes to the left.
+4. **Sub-System Response**: The system fails to provide an alert, and the visual and audible warnings do not activate, leaving Alise unaware of the vehicle in the left blind spot.
+5. **User Action**: Alise notices the system's failure through an indicator light on the dashboard showing "BSD Not Available" and proceeds with caution, manually checking mirrors and performing a lane change.
+
+---
+
+### 6. **Postconditions**
+- After a successful interaction, the system will have provided the driver with a clear indication of vehicles in adjacent lanes, improving the driver’s awareness and safety.
+- If the lane change is completed safely, the system will reset and continue monitoring the vehicle’s blind spots.
+- In case of a system failure, the user will be notified through a warning indicator on the dashboard, and the system will not provide lane change assistance until the issue is resolved.

@@ -1,0 +1,50 @@
+### **Underpinning Contract: Bluetooth-Based Vehicle Access System**
+
+#### **1. Title**  
+Bluetooth-Based Vehicle Access System
+
+#### **2. Goal**  
+The Bluetooth-Based Vehicle Access System enables users to unlock and access their luxury electric vehicle using Bluetooth technology. This feature enhances convenience by eliminating the need for traditional keys, allowing the user to interact with the vehicle seamlessly via their mobile device or smartwatch. The system provides secure, contactless entry and ensures that only authorized users can access the vehicle.
+
+#### **3. Preconditions**  
+- The vehicle must be equipped with the Bluetooth-Based Vehicle Access System.
+- The user’s mobile device or smartwatch must have Bluetooth enabled.
+- The user’s device must be registered and paired with the vehicle beforehand.
+- The vehicle must be within range of the paired mobile device (typically within 10 meters).
+- The user must have authorization to access the vehicle (e.g., user profile linked to the vehicle).
+
+#### **4. Main Scenario**  
+1. **User Action:** Bob approaches the vehicle with his mobile device in hand.  
+   **Sub-System Response:** The vehicle detects the Bluetooth signal from Bob’s device and recognizes it as an authorized device.  
+   
+2. **User Action:** Bob presses the unlock button on his mobile device or taps his smartwatch to initiate the unlock process.  
+   **Sub-System Response:** The system verifies the device's authorization, ensuring it is linked to the vehicle.  
+   
+3. **User Action:** The vehicle communicates with the device via Bluetooth to confirm a secure connection.  
+   **Sub-System Response:** The system successfully establishes a connection and prepares to unlock the doors.  
+
+4. **User Action:** The doors of the vehicle unlock automatically.  
+   **Sub-System Response:** The vehicle doors open, providing Bob with access to the interior.  
+
+5. **User Action:** Bob enters the vehicle and starts the engine.  
+   **Sub-System Response:** The vehicle recognizes the authenticated device and allows the engine to start, ensuring secure access and operation.
+
+#### **5. Alternative Scenario**  
+- **Scenario 1: Bluetooth Connection Failure**
+  1. **User Action:** Bob attempts to unlock the vehicle, but his mobile device is out of range or Bluetooth is disabled.  
+     **Sub-System Response:** The vehicle does not detect the device’s Bluetooth signal.  
+  2. **User Action:** Bob checks his mobile device and enables Bluetooth or moves closer to the vehicle.  
+     **Sub-System Response:** The system waits for the signal. Once Bluetooth is enabled or the device is in range, the vehicle attempts to reconnect.  
+  3. **User Action:** Bob successfully reconnects and unlocks the vehicle.  
+     **Sub-System Response:** The vehicle successfully unlocks and grants access.  
+
+- **Scenario 2: Unauthorized Device Attempt**
+  1. **User Action:** Alise attempts to unlock the vehicle with a non-paired device.  
+     **Sub-System Response:** The vehicle detects an unrecognized Bluetooth signal and refuses to unlock.  
+  2. **User Action:** Alise is prompted with a notification on her device indicating an authorization error.  
+     **Sub-System Response:** The system denies access and remains locked.  
+
+#### **6. Postconditions**  
+- After a successful interaction, Bob is granted access to the vehicle, and the doors are unlocked.
+- The system ensures that only authorized devices can initiate the unlock process, maintaining security.
+- The vehicle remains securely locked until a valid, paired device interacts with the system again.

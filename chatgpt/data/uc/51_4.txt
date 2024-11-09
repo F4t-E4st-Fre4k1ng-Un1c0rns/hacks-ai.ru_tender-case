@@ -1,0 +1,32 @@
+**Underpinning Contract: Vehicle Speed Limit Alerts and Compliance Monitoring**
+
+**1. Title**  
+Vehicle Speed Limit Alerts and Compliance Monitoring
+
+**2. Goal**  
+The Vehicle Speed Limit Alerts and Compliance Monitoring system is designed to provide real-time alerts and feedback to the driver regarding speed limits and ensure compliance with traffic laws. This system will actively monitor the vehicle’s speed, compare it with local speed limits, and notify the driver if the vehicle exceeds the allowed speed. The system will also provide compliance reports and warnings to promote safer driving behaviors.
+
+**3. Preconditions**  
+- The vehicle is equipped with a GPS system capable of determining the vehicle’s location.
+- The system has access to up-to-date speed limit data, either through onboard maps or real-time traffic data.
+- The vehicle’s speed measurement system is functional.
+- The driver has enabled the Speed Limit Alerts feature through the vehicle's settings.
+- The system is integrated with the vehicle's dashboard or infotainment display for notifications and alerts.
+
+**4. Main Scenario**  
+1. **Driver activates the Vehicle Speed Limit Alerts**: The driver, Alise, enters the vehicle and ensures the Speed Limit Alerts feature is enabled in the vehicle settings.
+2. **Vehicle detects location and speed**: As Alise begins driving, the system uses GPS data to determine the vehicle’s current location and speed.
+3. **System compares speed with local speed limit**: The system checks the current speed limit for the area in which the vehicle is located, comparing it with Alise’s current speed.
+4. **Alert triggered for speed limit violation**: If Alise exceeds the speed limit, the system provides an audible alert and displays a visual warning on the dashboard, notifying Alise of the violation.
+5. **Driver complies and adjusts speed**: Alise reduces the vehicle’s speed below the limit, and the system confirms compliance by stopping the alert once the speed is within legal limits.
+
+**5. Alternative Scenario**  
+1. **System unable to retrieve speed limit data**: Bob is driving, but the system fails to retrieve the current speed limit data due to GPS signal loss or outdated map data.
+2. **System notifies the user of the issue**: Bob receives a notification on the dashboard stating that the speed limit data is unavailable and advises him to monitor his speed manually.
+3. **Manual speed monitoring**: Bob drives cautiously, ensuring his speed does not exceed typical speed limits for the area based on general knowledge of the road.
+4. **System resumes normal function**: Once the system regains access to updated speed limit data (through re-establishing a GPS signal or data connection), normal alerts resume.
+
+**6. Postconditions**  
+- After successful interaction, the vehicle speed remains within the legal speed limit, ensuring compliance with traffic laws.
+- If an alert was triggered, the system logs the event for future reference, enabling the vehicle owner to review compliance data.
+- The system resumes providing continuous alerts, helping the driver maintain safe driving practices throughout the journey.

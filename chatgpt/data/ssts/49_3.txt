@@ -1,0 +1,34 @@
+**Technical Specifications: Real-Time Vehicle Location and Theft Detection**
+
+**1. Title:**  
+Real-Time Vehicle Location and Theft Detection
+
+**2. Functional Description:**  
+The Real-Time Vehicle Location and Theft Detection sub-system provides continuous monitoring of the vehicle’s location through GPS and cellular networks. The system is designed to alert the user of any unauthorized movement or potential theft events. It integrates with the vehicle’s onboard security system to trigger alarms or immobilize the vehicle in case of theft detection. The sub-system also supports geofencing, enabling alerts when the vehicle enters or exits designated areas. The system logs location history for tracking and verification purposes, accessible via the user interface.
+
+**3. Enabling Conditions:**  
+- The vehicle must be equipped with a GPS tracking device and a cellular communication module.
+- The vehicle's onboard system must allow data communication with the sub-system to transmit location and status.
+- The user must have a registered account on the monitoring application with the appropriate permissions enabled for notifications and location tracking.
+- The monitoring application must be connected to a stable internet connection (Wi-Fi or cellular) to ensure continuous data synchronization.
+- The vehicle’s battery and communication hardware must be fully functional and sufficiently charged to ensure uninterrupted operation.
+
+**4. Trigger Conditions:**  
+- The user initiates a request to track the vehicle’s location using the monitoring app.
+- The vehicle exits or enters a pre-configured geofenced area.
+- The system detects movement when the vehicle is supposed to be stationary (e.g., parked, ignition off).
+- Unauthorized movement is detected while the vehicle is in an unattended or secured state.
+- A failure in GPS, cellular, or communication systems occurs, which may prevent real-time updates or location reporting.
+
+**5. Execution Output:**  
+- The system provides the user with real-time GPS location updates, visible on a map via the monitoring app.
+- Upon detecting unauthorized movement or theft, the system sends an immediate alert to the user via mobile notification.
+- If the vehicle moves outside the defined geofence, the system sends a real-time alert with details about the event.
+- The sub-system logs all vehicle locations, storing the data securely and allowing the user to review the history via the app interface.
+- In case of connectivity or hardware issues, the system will notify the user and display a warning message while halting tracking until the issue is resolved.
+
+**6. Exit Conditions:**  
+- The vehicle's location is successfully updated and displayed to the user, ensuring the system operates without interruptions.
+- In case of theft or unauthorized movement, the system alerts the user immediately, and the vehicle's security system is triggered (alarm or immobilization).
+- The user is able to access historical location data for the vehicle through the app interface.
+- The system halts operation due to connectivity or hardware issues, with an error message displayed to the user indicating the need for further troubleshooting.

@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS mentions data delays in updates, whereas UC requires real-time updates. | "The system occasionally fails to provide real-time updates, with delays of up to 10 minutes between data transmission and display." |
+| SSTS does not guarantee alerts for all abnormal battery conditions, while UC specifies alerts for abnormal battery health and charging issues. | "Alerts for abnormal conditions (e.g., overheating) are sporadic and not always generated." |
+| SSTS does not mention compatibility with all vehicle models, whereas UC assumes universal compatibility for remote monitoring. | "Not all vehicle models are compatible with the monitoring system, and some require additional hardware or firmware upgrades to enable the feature." |
+| SSTS allows the system to continue running after user logout or charging completion, which is not specified in UC. | "The system sometimes fails to exit properly when the user logs out or when charging is completed." |
+| SSTS provides a less comprehensive set of trigger conditions compared to UC, specifically lacking detailed conditions for triggering alerts. | "If the vehicle's battery health falls outside of predefined thresholds (e.g., overheating or low charge), an alert is triggered." (Note: UC specifies more detailed alert triggers.) |
+| SSTS does not mention a clear historical data access requirement, while UC highlights access to historical data on battery performance. | "Historical data logs are not always available or may be incomplete, limiting the user's ability to track long-term battery performance." |

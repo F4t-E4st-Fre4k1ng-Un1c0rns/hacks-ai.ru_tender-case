@@ -1,0 +1,44 @@
+**Technical Specifications: Real-Time Vehicle Location and Theft Detection**
+
+---
+
+**1. Title**  
+Real-Time Vehicle Location and Theft Detection
+
+---
+
+**2. Functional Description**  
+The Real-Time Vehicle Location and Theft Detection sub-System provides users with the ability to track the real-time location of their luxury electric vehicle (EV) through a dedicated mobile application. This system continuously monitors the vehicle's location via GPS and detects unauthorized movement through an integrated theft detection feature. In the event of a theft or suspicious activity, the system immediately alerts the user via the mobile app, displaying the vehicle's location and providing real-time updates. The sub-System ensures secure, continuous vehicle tracking and alert notifications to enhance vehicle security.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must have the Real-Time Vehicle Location and Theft Detection hardware and software installed and properly configured.
+- The vehicle must be able to establish and maintain a GPS signal and cellular connection for data communication.
+- The mobile application compatible with the sub-System must be installed on the user’s device, with all necessary permissions granted for location tracking and notifications.
+- The user must have registered their vehicle in the system and authenticated their account in the mobile app.
+
+---
+
+**4. Trigger Conditions**  
+- The sub-System is triggered to track the vehicle’s location when the user activates location monitoring through the mobile application.
+- Theft detection is activated when the user enables the "Theft Detection" feature, and the vehicle experiences unauthorized movement (e.g., being towed or driven without proper authentication).
+- The system is also triggered when an abnormal movement, such as unauthorized ignition or the vehicle leaving a predefined area, is detected.
+
+---
+
+**5. Execution Output**  
+- The sub-System displays the real-time location of the vehicle on a map in the mobile application.
+- When theft detection is activated, and unauthorized movement is detected, the system will send an immediate notification to the user, providing the vehicle’s updated location and triggering security alerts.
+- The vehicle’s movement history is logged and accessible to the user within the mobile app, showing any events of unauthorized movement or security breaches.
+- If there is a failure in communication (e.g., loss of GPS signal or cellular connection), the system will notify the user of the issue and request a retry.
+
+---
+
+**6. Exit Conditions**  
+- The system will exit location tracking mode once the user manually deactivates the feature through the mobile application.
+- The theft detection feature will stop alerting once the system confirms that the vehicle has returned to a secure state, either through authorized movement or by user verification.
+- If the system detects that the vehicle has been stationary for an extended period without unauthorized movement, it will return to idle mode.
+- In case of system failure (e.g., signal loss), the application will exit the tracking mode until conditions improve and the user manually restarts the feature.
+
+---

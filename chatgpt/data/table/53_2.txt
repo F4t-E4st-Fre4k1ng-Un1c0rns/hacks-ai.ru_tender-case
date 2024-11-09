@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS specifies a proximity range of 8 meters, whereas UC specifies a 10-meter range. | "The smartphone is within a proximity range of 8 meters (± 2 meters)." |
+| UC states the system should automatically start the vehicle upon entry, but SSTS requires manual interaction to start the vehicle. | "The system only starts the vehicle if the user manually interacts with the ignition (e.g., presses a start button)." |
+| UC mentions the need for a backup access method (PIN or key card), but SSTS lacks any mention of this feature. | *No mention of backup access methods in the SSTS.* |
+| SSTS allows both Bluetooth Low Energy and Classic Bluetooth, while UC specifies the use of BLE for security and energy efficiency. | "The vehicle supports both Bluetooth Low Energy (BLE) and Classic Bluetooth." |
+| UC requires immediate automatic locking when the user moves away, but SSTS introduces a configurable delay for auto-locking. | "The auto-lock feature activates after a configurable delay (up to 30 seconds) rather than immediately upon exiting the proximity range." |
+| UC requires logging of all events, including failed access attempts, whereas SSTS only logs successful actions. | "The system logs access events, including successful unlocking, starting, and locking actions." |

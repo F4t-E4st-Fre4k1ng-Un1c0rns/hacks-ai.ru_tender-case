@@ -1,0 +1,46 @@
+**Underpinning Contract: Vehicle Security System Integration with Home Automation**
+
+1. **Goal**  
+   The Vehicle Security System Integration with Home Automation will provide users with the ability to seamlessly control and monitor their electric vehicle’s security features while interacting with their home automation systems. This integration will allow users to remotely manage their vehicle’s security, access, and monitoring features from within their home, enhancing convenience and safety. Key features include:
+   - Remote vehicle lock/unlock control
+   - Real-time monitoring of vehicle status
+   - Integration with home security systems for alert notifications
+   - Automatic activation of vehicle security systems when users leave the home
+   - Geofencing for automatic vehicle lock/unlock based on proximity to the home
+
+2. **Preconditions**  
+   - The user must own a compatible luxury electric vehicle with integrated vehicle security features.
+   - The user must have an operational home automation system (e.g., smart locks, cameras, or alarm system).
+   - The vehicle and home automation system must be connected to a stable internet or Wi-Fi network.
+   - The user must have an active account and authorized access to both the vehicle and home automation systems.
+
+3. **Main Scenario**  
+   The following describes the regular user interaction with the Vehicle Security System Integration with Home Automation:
+   1. **User Action:** Bob leaves his home and walks towards his vehicle.  
+      **Sub-System Response:** The system automatically detects that Bob has left the proximity of his home and activates the vehicle's security system, locking the doors.
+   2. **User Action:** Bob receives a notification from the home automation system about the status of his vehicle's security system.  
+      **Sub-System Response:** The system sends a real-time update to Bob’s smartphone, confirming that his vehicle is securely locked and the alarm system is active.
+   3. **User Action:** Bob arrives back at home and approaches his driveway.  
+      **Sub-System Response:** The system detects Bob's proximity via geofencing, unlocking the vehicle doors and disabling the alarm.
+   4. **User Action:** Bob enters his home and his home automation system is alerted to the vehicle’s status.  
+      **Sub-System Response:** The system confirms that the vehicle’s security status is ‘secure’ and logs this information into the home system for monitoring.
+   5. **User Action:** Bob locks his house and leaves again, ensuring the vehicle’s security system is still active.  
+      **Sub-System Response:** The system reactivates the vehicle’s security and sends an alert to Bob’s smartphone confirming the vehicle’s status is secure.
+
+4. **Alternative Scenario**  
+   In the event that something fails or the system is temporarily unavailable, the following interactions may occur:
+   1. **User Action:** Alise tries to lock her vehicle from the home automation app, but the system fails to respond.  
+      **Sub-System Response:** The app notifies Alise of a connectivity issue and recommends she check the vehicle’s Wi-Fi connection or the home automation network.
+   2. **User Action:** Alise attempts to remotely monitor her vehicle but receives an error message saying the vehicle is offline.  
+      **Sub-System Response:** The system prompts Alise to check if the vehicle is within range of the home Wi-Fi network, and suggests troubleshooting steps.
+   3. **User Action:** Bob's geofencing feature doesn't activate when he leaves his home.  
+      **Sub-System Response:** The system alerts Bob that the geofencing feature was unable to connect to the GPS or location service, offering the option to manually lock the vehicle instead.
+   4. **User Action:** Bob tries to deactivate the vehicle’s alarm remotely but it remains active.  
+      **Sub-System Response:** The system sends a push notification to Bob explaining that the system is temporarily unavailable and offers alternative ways to deactivate the alarm using the vehicle's built-in controls.
+
+5. **Postconditions**  
+   After successful interaction with the Vehicle Security System Integration with Home Automation:
+   - The vehicle’s security system is activated or deactivated based on the user’s actions, ensuring that the vehicle is locked, the alarm is armed, and monitoring is in place.
+   - The user receives notifications about the vehicle's security status and updates from the home automation system.
+   - Any changes in the vehicle’s security system are logged for future reference within the home automation app.
+   - The vehicle and home system remain in sync, with proper activation or deactivation of security systems based on user location and actions.

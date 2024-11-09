@@ -1,0 +1,46 @@
+### Title:
+**Driver Assistance Systems for Blind Spot Detection**
+
+### Goal:
+The **Driver Assistance Systems for Blind Spot Detection** (BSD) is designed to enhance driver safety by alerting the driver to the presence of vehicles or objects in the blind spots of the vehicle. This system aims to provide an additional layer of awareness to reduce the risk of accidents during lane changes, merging, and other driving maneuvers. Key features include real-time alerts, visual indicators, and audible warnings to inform the driver of potential hazards.
+
+### Preconditions:
+- The Blind Spot Detection system must be activated and operational.
+- The vehicle must be equipped with sensors or cameras on both sides (typically in the rear side-view mirrors or rear bumper area).
+- The system must be configured correctly in the vehicle’s settings before use, including calibration of sensors.
+- The vehicle must be traveling at speeds above 10 km/h (6 mph) for the system to activate.
+- The system must be functional in various weather conditions but may be less effective in heavy rain, fog, or snow.
+
+### Main Scenario:
+1. **Driver initiates a lane change:**  
+   Bob is driving the car and intends to move into the next lane. He signals his intention to change lanes by activating the left indicator.
+   
+2. **System detects a vehicle in the blind spot:**  
+   The Blind Spot Detection system uses radar or cameras to scan the vehicle's side and rear. If a car is detected in the blind spot, a visual alert appears on the side mirror (e.g., an amber light).
+
+3. **Visual and audible alert:**  
+   The system provides a visual warning on the side mirror and may also generate an audible warning (a beeping sound) to indicate the presence of a vehicle in the blind spot.
+
+4. **Driver assesses the situation:**  
+   Bob checks the side mirror and sees the alert. He confirms that it is not safe to change lanes and delays the maneuver.
+
+5. **Driver safely changes lanes:**  
+   Once the blind spot is clear and the warning light disappears, Bob decides to change lanes again. The system deactivates the alert once the blind spot is clear, and Bob successfully changes lanes.
+
+### Alternative Scenario:
+1. **System detects a malfunction or failure:**  
+   Alise is driving, and the system fails to detect a vehicle in the blind spot due to sensor obstruction (e.g., dirt, ice, or rain on the sensor).
+
+2. **Warning for system failure:**  
+   The system displays an error message or an icon indicating that the Blind Spot Detection system is currently unavailable. The system might also trigger an audible alert to inform the driver that it is not functioning properly.
+
+3. **Driver decides not to rely on the system:**  
+   Alise manually checks her blind spot by looking over her shoulder and using the mirrors. She proceeds cautiously to change lanes.
+
+4. **System resumes functioning once cleared:**  
+   After cleaning the sensors or waiting for weather conditions to improve, the system is restored to full functionality. A notification on the dashboard indicates that the system is back online.
+
+### Postconditions:
+- Upon successful interaction with the system, the driver has been alerted to the presence of any vehicles or obstacles in their blind spots, enhancing their ability to perform safe lane changes.
+- If the system detects a potential hazard, it provides timely alerts, allowing the driver to avoid accidents or unsafe maneuvers.
+- If the system is not functioning due to a failure, the driver is prompted to manually assess the situation and proceed with extra caution, ensuring safety.

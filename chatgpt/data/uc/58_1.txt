@@ -1,0 +1,32 @@
+**Underpinning Contract: Vehicle-to-Infrastructure (V2I) Communication Integration**
+
+**1. Title**  
+Vehicle-to-Infrastructure (V2I) Communication Integration
+
+**2. Goal**  
+The Vehicle-to-Infrastructure (V2I) Communication Integration aims to enable seamless communication between the luxury electric vehicle (EV) and surrounding infrastructure, such as traffic lights, road signs, and charging stations. This system enhances the driving experience by providing real-time information about traffic conditions, road hazards, and charging opportunities, ultimately improving safety, convenience, and efficiency for the user.
+
+**3. Preconditions**  
+- The luxury electric vehicle must be equipped with the latest communication hardware and software to support V2I protocols.
+- The infrastructure, including traffic lights, charging stations, and road signs, must be V2I-enabled and actively transmitting data.
+- The user (e.g., Alise or Bob) must have the V2I system activated and their vehicle in an operational state for communication to occur.
+- The vehicle’s infotainment system or dashboard must display the V2I interface for the user to interact with.
+
+**4. Main Scenario**  
+1. Alise or Bob enters the vehicle, and the V2I communication system automatically activates as the vehicle starts.
+2. As they approach an intersection, the vehicle receives data from the traffic lights, notifying the system of current signal status (green, yellow, or red).
+3. The V2I system displays relevant information on the dashboard, such as upcoming red lights, optimal speed for fuel efficiency, and estimated time to the next green light.
+4. While driving, the vehicle receives notifications about road hazards, construction zones, or accidents from nearby infrastructure, and the system suggests alternate routes if necessary.
+5. Upon approaching a charging station, the system provides real-time availability and the charging status of each station, allowing Alise or Bob to make an informed decision on where to stop.
+
+**5. Alternative Scenario**  
+1. Alise or Bob starts the vehicle, but the V2I system is not responding due to a temporary loss of communication with the infrastructure.
+2. The infotainment system alerts the user with a message stating, “V2I communication unavailable. Please proceed with caution.”
+3. The user is unable to receive real-time traffic updates, hazard notifications, or charging station information during the session.
+4. The user can still drive, but the vehicle defaults to standard navigation and safety features without V2I enhancements.
+5. If the communication issue persists, the system may suggest contacting customer support or visiting a service center for further diagnostics.
+
+**6. Postconditions**  
+- After successful interaction with the V2I system, Alise or Bob benefits from real-time updates about traffic, hazards, and charging stations, enhancing their driving experience.
+- The system ensures that all data collected from the infrastructure is processed and displayed, contributing to informed decision-making and safer driving.
+- The V2I system logs all communication events for future diagnostic purposes or improvement of system performance.

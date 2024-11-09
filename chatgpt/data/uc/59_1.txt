@@ -1,0 +1,35 @@
+**Underpinning Contract: Remote Monitoring of EV Battery Health and Charging Status**
+
+**1. Goal**
+
+The goal of the "Remote Monitoring of EV Battery Health and Charging Status" sub-system is to enable users to monitor the health and charging status of their electric vehicle (EV) battery remotely. This system will provide real-time updates on battery performance, state of charge (SOC), charging progress, temperature, and potential issues affecting the battery’s performance. It allows users to track the efficiency and longevity of the battery while ensuring optimal charging conditions. 
+
+**2. Preconditions**
+
+- The sub-system requires a functional connection between the electric vehicle (EV) and the user’s mobile device or cloud-based application.
+- The user must have a registered account on the company’s platform to enable remote access to the EV's battery data.
+- The vehicle must be equipped with a compatible onboard diagnostic system to relay battery health and charging data.
+- The sub-system assumes the EV’s battery and charging hardware are in good working condition.
+- The user’s mobile device or application must have an active internet connection for real-time monitoring and alerts.
+
+**3. Main Scenario**
+
+1. The user, Bob, opens the company’s mobile application on his phone or accesses the web platform.
+2. Bob selects the option to monitor the status of his EV’s battery from the dashboard.
+3. The sub-system retrieves the latest data from the EV’s onboard diagnostics system and displays the battery health, state of charge, and charging status on Bob’s screen.
+4. Bob reviews the data, including the battery's temperature, voltage, and current charge rate. The system also provides any warnings about potential issues with the battery.
+5. Bob may choose to receive notifications for future updates, such as when the battery reaches a certain charge level or requires attention.
+
+**4. Alternative Scenario**
+
+1. Bob tries to open the mobile application to monitor the battery but encounters an error message stating that the connection to his vehicle is unavailable.
+2. The sub-system suggests checking the vehicle’s connectivity and ensuring the car is within the range of the mobile device’s signal or has an active internet connection.
+3. Bob attempts to reconnect, but the issue persists. A notification from the sub-system informs him that the battery data is temporarily unavailable due to a technical issue with the vehicle’s communication system.
+4. The system offers troubleshooting tips or directs Bob to contact customer support for further assistance.
+5. Bob waits for a resolution or attempts to reconnect at a later time.
+
+**5. Postconditions**
+
+- Upon successful interaction with the sub-system, Bob receives real-time information about the EV battery's health and charging status, enabling him to make informed decisions about charging and maintenance.
+- If Bob chooses to receive notifications, the system will alert him about significant changes in battery status, such as low charge levels, high temperature, or the need for battery servicing.
+- The system ensures that Bob has full visibility into the status of his vehicle’s battery, which can improve the overall user experience and help prolong the battery’s lifespan.

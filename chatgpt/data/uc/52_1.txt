@@ -1,0 +1,76 @@
+**Underpinning Contract for Sub-System: Mobile App-Based Vehicle Usage and Health Monitoring**
+
+---
+
+### 1. Title  
+**Mobile App-Based Vehicle Usage and Health Monitoring**
+
+---
+
+### 2. Goal  
+The Mobile App-Based Vehicle Usage and Health Monitoring sub-system provides the user with a comprehensive solution for monitoring their electric vehicle's status, performance, and overall health in real-time. The system aims to deliver the following key functionalities:
+- Real-time tracking of vehicle usage statistics (e.g., distance traveled, energy consumption, battery level).
+- Diagnostic information regarding vehicle health (e.g., battery status, engine performance, system alerts).
+- Personalized notifications for maintenance or service requirements.
+- User-friendly interface for accessing key data and system reports directly via a mobile application.
+- Secure user data management, ensuring privacy and vehicle security.
+
+---
+
+### 3. Preconditions  
+- The user must have the mobile application installed on a compatible device (smartphone/tablet).
+- The user must have registered and logged into the mobile app with a verified account.
+- The vehicle must be properly connected to the mobile app via Bluetooth, Wi-Fi, or cellular network.
+- The vehicle's internal diagnostic systems must be fully operational and able to transmit data to the mobile app.
+- The user must have granted necessary permissions for the app to access vehicle data, including location and vehicle status.
+
+---
+
+### 4. Main Scenario  
+The user interacts with the Mobile App-Based Vehicle Usage and Health Monitoring feature in the following steps:
+
+1. **Open Mobile App**: The user opens the mobile app on their smartphone or tablet (e.g., Bob opens the app).
+   - *Sub-System Response*: The app connects to the vehicle via Bluetooth or Wi-Fi, and the dashboard screen appears, displaying the vehicle's current health status and usage metrics.
+
+2. **View Vehicle Usage Data**: The user taps on the "Usage Stats" section to view detailed information about their vehicle's usage (e.g., distance traveled, battery consumption, etc.).
+   - *Sub-System Response*: The app shows a graphical representation of the vehicle’s usage metrics, including real-time statistics and historical data.
+
+3. **Check Vehicle Health**: The user navigates to the "Health Monitoring" section to check for any warnings or diagnostic alerts.
+   - *Sub-System Response*: The app displays the health status of key vehicle components (e.g., battery, motor, brakes), along with any alerts for upcoming maintenance or required repairs.
+
+4. **Receive Notifications**: The user receives a push notification on their phone regarding the upcoming maintenance requirement or low battery alert.
+   - *Sub-System Response*: A notification appears with the necessary details, such as the recommended service or battery charge level, and an option to schedule maintenance.
+
+5. **Schedule Service or Maintenance**: The user selects the "Schedule Service" button in the app to book an appointment with an authorized service provider.
+   - *Sub-System Response*: The app shows available service times, and once a time is selected, it confirms the appointment with the service provider and sends the user a confirmation.
+
+---
+
+### 5. Alternative Scenario  
+In the event of a failure or unusable condition, the user may experience the following:
+
+1. **Connection Failure**: The user attempts to open the app but cannot connect to the vehicle.
+   - *Sub-System Response*: The app displays a "Connection Error" message and suggests troubleshooting steps, such as ensuring the vehicle is powered on or reconnecting the mobile app via settings.
+
+2. **Vehicle Data Unavailable**: The user accesses the "Health Monitoring" section but no vehicle data is displayed.
+   - *Sub-System Response*: The app shows a "Data Unavailable" message and provides instructions to the user on how to resolve the issue (e.g., check vehicle sensors, ensure the app has required permissions).
+
+3. **Push Notification Failure**: The user does not receive a push notification about maintenance or battery alerts.
+   - *Sub-System Response*: The app informs the user that the notification service is temporarily unavailable and provides an option to check the vehicle status manually.
+
+4. **Maintenance Scheduling Failure**: The user tries to schedule a service appointment, but the available times cannot be retrieved.
+   - *Sub-System Response*: The app displays a message indicating a problem retrieving service times and advises the user to try again later or contact customer support.
+
+---
+
+### 6. Postconditions  
+After successful interaction with the Mobile App-Based Vehicle Usage and Health Monitoring sub-system, the following outcomes are expected:
+
+- The user will have access to up-to-date and accurate vehicle usage data and health status information.
+- Any maintenance alerts or system warnings will be acknowledged, and the user will be notified about necessary actions (e.g., charging, servicing).
+- If scheduled, the user’s maintenance or service appointment will be confirmed, ensuring the vehicle remains in optimal condition.
+- The user's data privacy and security will be maintained, with all vehicle data managed in compliance with applicable data protection regulations.
+
+--- 
+
+End of Underpinning Contract.

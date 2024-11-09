@@ -1,0 +1,43 @@
+**Underpinning Contract: Automatic Synchronization of Vehicle Settings across Multiple Devices**
+
+### 1. Goal
+The "Automatic Synchronization of Vehicle Settings across Multiple Devices" sub-system enables seamless synchronization of a vehicle’s personalized settings across various devices, such as smartphones, tablets, or in-vehicle systems. The feature ensures that any changes made to vehicle settings on one device are instantly updated and reflected on all other connected devices, providing the user with consistent and personalized driving experience regardless of the platform they use to manage their vehicle.
+
+### 2. Preconditions
+- The vehicle’s infotainment system is equipped with wireless connectivity (e.g., Bluetooth, Wi-Fi, or cellular connection) and is registered to the user’s account.
+- The user has installed and logged into the company’s vehicle management application on multiple devices (smartphone, tablet, etc.).
+- The vehicle and all devices are within the appropriate connectivity range, ensuring stable communication for data transfer.
+- The user has customized specific vehicle settings (e.g., seat position, mirror adjustment, climate control, driving mode) via at least one device.
+
+### 3. Main Scenario
+1. **User Action:** Bob opens the vehicle management app on his smartphone and adjusts the seat position for optimal comfort.
+   - **Sub-System Response:** The sub-system detects the change and synchronizes the updated seat position with all other registered devices (e.g., his tablet and in-vehicle system).
+  
+2. **User Action:** Bob gets into the vehicle and uses the in-vehicle infotainment system to check the climate control settings.
+   - **Sub-System Response:** The system automatically adjusts the in-vehicle climate control to match the settings synchronized from Bob's smartphone.
+  
+3. **User Action:** Bob uses his tablet to change the driving mode of the vehicle from Eco to Sport.
+   - **Sub-System Response:** The change is immediately synchronized with his smartphone and vehicle system, ensuring consistency across all devices.
+
+4. **User Action:** Bob exits the vehicle and checks the vehicle status on his smartphone.
+   - **Sub-System Response:** The app reflects all the vehicle settings as per the last interaction, including seat, mirror adjustments, and climate control.
+
+5. **User Action:** Bob adds a new device (e.g., a second smartphone) to the system.
+   - **Sub-System Response:** The new device automatically syncs with the vehicle settings already saved across Bob's other devices, ensuring continuity of settings.
+
+### 4. Alternative Scenario
+1. **User Action:** Alise tries to adjust the seat position through the vehicle management app on her smartphone, but her phone has lost connection to the vehicle.
+   - **Sub-System Response:** The app alerts Alise that the connection to the vehicle has been lost, and the changes cannot be applied until a stable connection is re-established.
+
+2. **User Action:** Alise gets into the vehicle, but the seat position setting has not been synchronized yet due to a connectivity issue.
+   - **Sub-System Response:** The vehicle's system notifies Alise that the settings have not yet been synchronized and will update once a stable connection is detected.
+
+3. **User Action:** Alise attempts to add a new device to the vehicle’s system, but the synchronization fails due to an app update being required on her new device.
+   - **Sub-System Response:** The system informs Alise that the new device cannot be synced until the necessary software update is installed.
+
+4. **User Action:** Bob is in the vehicle, but his tablet fails to synchronize the latest settings due to a temporary network issue.
+   - **Sub-System Response:** The tablet displays an error message, notifying Bob that synchronization will resume once the network is restored.
+
+### 5. Postconditions
+- After successful synchronization, the vehicle’s settings are identical across all connected devices. This includes adjustments made to personal settings such as seat positions, climate control preferences, and driving modes, ensuring a consistent and personalized user experience.
+- Any future changes made to the vehicle settings through any device will be automatically reflected on all other devices without requiring manual updates or adjustments.

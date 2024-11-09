@@ -1,0 +1,34 @@
+**Underpinning Contract for Automatic Parking Payment System via Vehicle Interface**
+
+1. **Title:**
+   Automatic Parking Payment System via Vehicle Interface
+
+2. **Goal:**
+   The Automatic Parking Payment System via Vehicle Interface aims to provide users with a seamless, integrated method for paying parking fees directly through their vehicle's interface. This system will allow users to automatically detect parking fees and complete payments without needing to interact with physical parking meters or mobile applications, ensuring a convenient and efficient experience for the user. It will also provide the ability to track parking duration and cost, offering real-time updates and digital receipts.
+
+3. **Preconditions:**
+   - The vehicle must be equipped with an active and compatible vehicle interface system (e.g., infotainment system).
+   - The user must have a registered payment method (e.g., credit card, mobile wallet) linked to their vehicle’s interface.
+   - The parking facility must support the Automatic Parking Payment System (i.e., be equipped with compatible sensors or systems to communicate with the vehicle).
+   - The user is within the proximity of a supported parking facility that offers automated payment integration.
+   - The vehicle's software and payment system must be updated and in working condition.
+
+4. **Main Scenario:**
+   1. The user parks the vehicle in a designated parking spot.
+   2. The vehicle's system automatically detects the parking facility and establishes a connection with the parking payment system.
+   3. The system displays parking details on the vehicle's interface, including parking duration and estimated cost.
+   4. The user confirms payment via the vehicle's interface (either automatically or manually, based on preferences).
+   5. The system processes the payment, provides a confirmation message on the vehicle's display, and sends a digital receipt to the user’s email or mobile device.
+
+5. **Alternative Scenario:**
+   1. The user parks the vehicle in a supported parking area.
+   2. The vehicle’s system fails to detect the parking facility (e.g., due to lack of sensor compatibility or network issues).
+   3. The system displays an error message prompting the user to manually interact with the parking meter or mobile app.
+   4. The user follows the on-screen instructions to complete the payment manually.
+   5. The system logs the failed attempt and provides an option for the user to report the issue.
+
+6. **Postconditions:**
+   - Upon successful interaction with the Automatic Parking Payment System, the parking fee is paid, and the user receives a digital receipt. 
+   - The vehicle's system records the transaction, and the user’s payment method is charged accordingly.
+   - If the payment is processed successfully, the parking facility grants access for vehicle exit (if applicable), and the transaction is completed without further user action.
+   - If the payment was not completed due to errors, the user is notified and the system will prompt for alternative payment options.

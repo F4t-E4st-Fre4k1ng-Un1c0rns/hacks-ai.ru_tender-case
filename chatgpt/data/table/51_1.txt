@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not specify the system’s immediate response time for speed limit violations, whereas UC requires an immediate alert. | "The system only triggers a warning after a 5-10 second delay after exceeding the speed limit." |
+| SSTS allows a static fallback speed limit when GPS is unavailable, while UC specifies that the system should not trigger speed limit alerts during GPS failure. | "In case of GPS signal failure, the system displays a message notifying the driver of the issue, and may provide a default speed limit (e.g., 50 km/h)." |
+| SSTS does not explicitly mention positive feedback for compliance when the driver is within the speed limit, which is required by UC. | "When the vehicle is operating within the speed limit, the system provides a visual confirmation (e.g., green check mark or message) to reassure the driver that they are in compliance." |
+| SSTS fails to address calibration of the vehicle’s speed sensors, which is required by UC for accurate speed measurement. | *No mention of speed sensor calibration in the SSTS.* |
+| SSTS does not include the explicit feature of automatic speed limit updates when entering a new region, although UC requires this functionality. | *No mention of automatic updates when entering new geographic regions in the SSTS.* |

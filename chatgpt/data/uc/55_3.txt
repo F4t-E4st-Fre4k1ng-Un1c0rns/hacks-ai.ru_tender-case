@@ -1,0 +1,44 @@
+**Underpinning Contract: Driver Assistance System for Blind Spot Detection**
+
+---
+
+**1. Title**  
+Driver Assistance System for Blind Spot Detection
+
+---
+
+**2. Goal**  
+The Driver Assistance System for Blind Spot Detection aims to enhance the safety of the vehicle by monitoring areas adjacent to the vehicle that are not visible to the driver through mirrors. It alerts the driver when another vehicle enters the blind spot zone, preventing potential collisions when changing lanes or making turns. The system will provide visual and/or audible warnings to the driver, allowing them to make informed decisions and avoid accidents.
+
+---
+
+**3. Preconditions**  
+- The vehicle is equipped with the Driver Assistance System for Blind Spot Detection, including sensors and cameras installed on both sides of the vehicle.
+- The system is activated and functional when the vehicle is running and the driver has engaged the lane-changing mechanism (turn signal).
+- The system will operate in a variety of driving conditions, including daylight, night, and inclement weather, as long as sensor performance is not compromised.
+- The driver is seated in the driver’s seat with the seatbelt fastened, and the vehicle is in drive mode.
+
+---
+
+**4. Main Scenario**  
+1. Bob begins driving and activates the turn signal to change lanes.
+2. The Blind Spot Detection system scans the adjacent lane for vehicles entering the blind spot.
+3. If another vehicle is detected, the system triggers a visual warning on the side mirror or dashboard display.
+4. Bob acknowledges the warning and, if necessary, waits until the adjacent lane is clear.
+5. After the blind spot is clear, Bob completes the lane change, and the warning deactivates.
+
+---
+
+**5. Alternative Scenario**  
+1. Alise attempts to change lanes and activates the turn signal.
+2. The Blind Spot Detection system scans but encounters a temporary malfunction (e.g., sensor obstruction due to rain or dirt on the sensors).
+3. The system cannot detect vehicles in the blind spot and does not provide a warning.
+4. The vehicle’s dashboard displays a message indicating that the Blind Spot Detection system is temporarily unavailable and recommends the driver use additional caution when changing lanes.
+5. Alise manually checks the blind spot and proceeds with the lane change only when safe to do so.
+
+---
+
+**6. Postconditions**  
+- Upon successful interaction with the system, Bob or Alise can safely change lanes, with a reduced risk of collision due to the timely alerts provided by the Blind Spot Detection system.
+- If the system operates correctly, the vehicle's blind spot is monitored continuously, providing peace of mind and enhancing overall driving safety.
+- After the lane change, the system returns to its monitoring mode, ready to detect any new vehicles in the blind spot during the next maneuver.

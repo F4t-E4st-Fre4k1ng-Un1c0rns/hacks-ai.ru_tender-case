@@ -1,0 +1,31 @@
+### Title:
+**Driver Assistance Systems for Blind Spot Detection - Technical Specifications**
+
+### Functional Description:
+The **Driver Assistance System for Blind Spot Detection (BSD)** is designed to enhance vehicle safety by monitoring the blind spots and alerting the driver to the presence of potential hazards, such as vehicles or objects, during lane changes or merges. The system integrates radar sensors, cameras, and advanced algorithms to provide real-time, reliable alerts. The BSD system provides both visual and audible warnings to notify the driver when an object is detected within the blind spot zone, significantly reducing the risk of accidents.
+
+### Enabling Conditions:
+- The system requires functional radar sensors or cameras installed on both the left and right sides of the vehicle, capable of detecting objects within a defined blind spot zone.
+- The system must be activated through the vehicle’s central settings interface and is enabled by default when the vehicle is started.
+- The system requires a vehicle speed of at least 10 km/h (6 mph) to become active and begin monitoring for blind spot hazards.
+- Calibration of the sensors must be completed after any vehicle maintenance, sensor repositioning, or significant changes in vehicle alignment.
+- Weather conditions should not obstruct the sensor functionality. If sensors become obstructed (e.g., by snow, rain, or dirt), the system will automatically deactivate until the obstruction is cleared.
+
+### Trigger Conditions:
+- The system is triggered when the vehicle's turn signal is activated, signaling the driver's intent to change lanes or merge.
+- The system continuously monitors the blind spot areas during vehicle operation when the vehicle is traveling at speeds above 10 km/h (6 mph).
+- If an object (such as another vehicle or obstacle) enters the defined blind spot zone on either side of the vehicle, the system will trigger an alert.
+- The system also remains active when the driver is attempting to merge into a lane with limited visibility.
+
+### Execution Output:
+- **Visual Alert:** When a potential hazard is detected in the blind spot, an amber light will appear on the relevant side mirror, indicating the presence of an object in the blind spot zone.
+- **Audible Warning:** In addition to the visual alert, the system will generate a distinctive audible warning (beep), which increases in frequency as the hazard moves closer.
+- **Combined Alerts:** Both the visual and audible alerts will be triggered simultaneously when a hazard is detected, ensuring maximum visibility and awareness for the driver.
+- **Lane Change Assistance:** If the driver attempts to change lanes while a hazard is detected, the system will continue to provide alerts until the hazard is no longer present or the turn signal is deactivated.
+
+### Exit Conditions:
+- **Hazard Clearance:** Once the object leaves the blind spot zone (or the driver cancels the lane change by turning off the indicator), the system will immediately deactivate the alerts.
+- **System Reset:** If the system detects that the blind spot zone is clear, the visual and audible alerts will cease, and the system will return to monitoring mode.
+- **Sensor Obstruction:** If sensors are obstructed (e.g., by dirt, ice, or heavy rain), the system will notify the driver through an error message on the dashboard, and the alerts will be disabled until the sensors are cleared.
+- **Manual Deactivation:** The system can be manually deactivated through the vehicle’s settings interface. Once deactivated, no alerts will be triggered until the system is re-enabled.
+- **System Malfunction:** In the event of a system failure, the system will notify the driver through an error message and/or icon on the dashboard. The BSD system will not function until the issue is resolved, and the system is recalibrated if necessary.

@@ -1,0 +1,37 @@
+---
+
+**Title:**
+Automatic Synchronization of Vehicle Settings across Multiple Devices
+
+**Goal:**
+This sub-system enables users to automatically synchronize their personalized vehicle settings—such as seat positioning, climate control, audio preferences, and navigation history—across multiple devices linked to the vehicle. This feature ensures that regardless of which device or interface the user accesses, they will experience a seamless, personalized environment tailored to their preferences.
+
+**Preconditions:**
+- The user (e.g., Alise or Bob) has registered their devices, such as a mobile phone, tablet, or another vehicle console, within the car’s system.
+- The vehicle is equipped with connectivity capabilities to interface with the user’s devices, either through Wi-Fi, Bluetooth, or cloud-based synchronization.
+- The vehicle and devices are within network range to perform the synchronization or have previously synchronized via the cloud.
+
+**Main Scenario:**
+1. **User Action:** Alise adjusts her vehicle settings on her primary device, selecting preferred seat adjustments and climate preferences.
+   - **Sub-System Response:** The system automatically saves the updated preferences to the user’s profile.
+
+2. **User Action:** Bob, a co-user, opens the vehicle app on his mobile device and logs into his profile.
+   - **Sub-System Response:** The system loads Bob’s saved settings, adjusting the vehicle environment based on his preferences.
+
+3. **User Action:** Alise enters the car and connects her phone, which has updated settings.
+   - **Sub-System Response:** The vehicle detects the updated settings and prompts Alise to synchronize with the system.
+
+4. **User Action:** Alise confirms the synchronization.
+   - **Sub-System Response:** The vehicle updates to match Alise’s latest settings, ensuring a personalized environment.
+
+5. **User Action:** Bob uses the in-car console to switch profiles back to his own.
+   - **Sub-System Response:** The system reconfigures the vehicle settings based on Bob's last-synced preferences.
+
+**Alternative Scenario:**
+- If the system fails to connect to a user’s device (e.g., no network connectivity), the system will notify the user of the issue and suggest reconnecting or trying again later.
+- If a synchronization error occurs, the vehicle system will revert to the last successfully synchronized settings and alert the user, allowing them to retry when connectivity is restored or reach out to support if needed.
+
+**Postconditions:**
+Upon successful interaction with the Automatic Synchronization sub-system, the vehicle will be configured according to the user’s most recent and preferred settings, ensuring continuity and convenience across multiple devices. Both Alise and Bob can enjoy a tailored vehicle environment aligned with their respective profiles, accessible anytime from any registered device. 
+
+---

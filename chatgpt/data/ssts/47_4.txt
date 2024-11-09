@@ -1,0 +1,34 @@
+**Technical Specifications: Wi-Fi Hotspot Management and Data Usage Monitoring**
+
+**1. Title**  
+Wi-Fi Hotspot Management and Data Usage Monitoring
+
+**2. Functional Description**  
+The Wi-Fi Hotspot Management and Data Usage Monitoring sub-system is designed to provide seamless connectivity for passengers by enabling a reliable Wi-Fi hotspot within the vehicle. The system will manage data usage, ensuring that users are informed when nearing data limits, and will allocate bandwidth efficiently across multiple connected devices to maintain optimal performance. It will notify the user of data usage thresholds, provide real-time monitoring through the infotainment system, and allow users to activate or deactivate the hotspot feature as needed.
+
+**3. Enabling Conditions**  
+- The vehicle is powered on and connected to a valid internet data source, such as a cellular network or external Wi-Fi.  
+- The onboard system, including the infotainment system, is fully operational and capable of providing user access to connectivity settings.  
+- The vehicle’s Wi-Fi hotspot feature is available and functional, with the user able to enable or disable the feature via the infotainment system.  
+- The user has an active data plan for the internet connection, with a clear understanding of data usage limits.  
+
+**4. Trigger Conditions**  
+- A user (e.g., Alise) selects the option to enable or disable the Wi-Fi hotspot feature via the vehicle’s infotainment system.  
+- A device attempts to connect to the vehicle’s Wi-Fi hotspot.  
+- Data usage reaches 80% of the allocated data limit, triggering a notification.  
+- The system detects that data usage has exceeded 90% of the allocated data limit, prompting the user to take action to either reduce consumption or purchase additional data.  
+- A failure in the network connection is detected, preventing the hotspot from functioning, which triggers a system notification informing the user of the issue.  
+
+**5. Execution Output**  
+- The Wi-Fi hotspot is activated or deactivated based on the user’s request.  
+- Devices (e.g., Bob’s phone) are successfully connected to the Wi-Fi hotspot, and real-time data usage is tracked and displayed on the infotainment system.  
+- Data usage notifications are sent to the user when thresholds (80%, 90%, 100%) are reached.  
+- A usage summary is provided to the user, showing how much data has been consumed and the remaining allowance.  
+- When data usage exceeds the set threshold, the system prompts the user to adjust data settings or purchase additional data.  
+- Multiple devices are supported, and the system ensures fair allocation of data across all connected users.
+
+**6. Exit Conditions**  
+- The hotspot feature is turned off either by user request or automatically due to the unavailability of data connectivity.  
+- If data usage reaches the maximum allowable limit and no additional data is purchased, the hotspot is disabled until the user takes corrective action.  
+- The user disconnects their device from the Wi-Fi hotspot or the vehicle is powered off, terminating the session.  
+- The system provides the user with the option to reduce data consumption or manage data settings when the data limit is close to being exceeded.

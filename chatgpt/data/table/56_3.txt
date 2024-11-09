@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| **Authentication Security:** UC requires robust two-factor authentication for accessing cloud storage, but SSTS provides only basic file-based authentication. | "The user must authenticate through the in-car interface to connect to their cloud storage account." |
+| **Music Streaming Limitations:** UC specifies seamless music streaming in all connectivity conditions, but SSTS restricts streaming to high-speed internet, with fallback to downloads in low-speed areas. | "Selected media is either streamed or downloaded for playback, depending on available network speed." |
+| **Document Compatibility:** UC requires support for displaying complex document formats (e.g., PDFs), while SSTS limits display to simpler formats. | "The vehicle system must be compatible with standard music file formats (e.g., MP3, AAC) and simple text documents." |
+| **Cloud Storage Limits:** UC requires unlimited storage and sync for personal settings, while SSTS imposes storage caps, requiring users to manage space. | "Settings are synced to the cloud storage account if space permits, preserving user adjustments across sessions." |
+| **Offline Access Functionality:** UC specifies automatic fallback to offline media if cloud access is unavailable, but SSTS requires users to manually store files for offline access. | "Loss of internet connectivity results in restricted access to cloud-based media and settings." |

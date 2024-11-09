@@ -1,0 +1,33 @@
+**1. Title**  
+Bluetooth-Based Vehicle Access System – Technical Specifications
+
+**2. Functional Description**  
+The Bluetooth-Based Vehicle Access System enables seamless keyless entry and operation for luxury electric vehicles. It uses Bluetooth technology, specifically Bluetooth Low Energy (BLE), to automatically detect an authorized user’s mobile device, unlocking the vehicle doors and allowing it to start. Once the user exits the vehicle, the system automatically locks the doors when the user moves out of proximity range, ensuring security and ease of use. The system also features event logging for access actions and provides a secure, user-friendly experience while minimizing manual interaction.
+
+**3. Enabling Conditions**  
+- The vehicle’s Bluetooth system is powered on and operational.  
+- The user’s smartphone has Bluetooth functionality enabled and is paired with the vehicle.  
+- The vehicle is in a ready state, capable of detecting Bluetooth signals.  
+- The smartphone is within a proximity range of 8 meters (± 2 meters).  
+- The user has installed and configured the Bluetooth-Based Vehicle Access application on their smartphone.  
+- The vehicle supports both Bluetooth Low Energy (BLE) and Classic Bluetooth.
+
+**4. Trigger Conditions**  
+- The vehicle detects the Bluetooth signal from a paired smartphone within the defined proximity range.  
+- The user approaches the vehicle and attempts to unlock the doors or start the vehicle, triggering the system to authenticate and grant access.  
+- The vehicle detects that the user has entered and started the vehicle.  
+- The user exits the vehicle, and the system detects that the smartphone is no longer within proximity.  
+- The system detects that the smartphone’s Bluetooth connection has been lost or disconnected.
+
+**5. Execution Output**  
+- Upon successful authentication, the system unlocks the vehicle doors.  
+- When the user enters the vehicle and the smartphone is authenticated, the system starts the vehicle.  
+- The system logs access events, including successful unlocking, starting, and locking actions.  
+- The vehicle automatically locks the doors once the user exits and moves beyond the proximity range.  
+- The system terminates the Bluetooth connection after use, returning the vehicle to a locked, idle state.
+
+**6. Exit Conditions**  
+- The vehicle doors lock automatically when the user moves out of range, and the Bluetooth connection is lost.  
+- The system successfully disables the vehicle’s ignition once the user exits and the Bluetooth signal is no longer detected.  
+- The Bluetooth connection is successfully terminated after the user exits, leaving the vehicle in a locked state.  
+- Access events, including successful and failed actions, are logged in the system for reference and troubleshooting.

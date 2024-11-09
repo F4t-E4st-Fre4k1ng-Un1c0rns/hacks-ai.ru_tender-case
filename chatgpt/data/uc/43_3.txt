@@ -1,0 +1,34 @@
+**Title**  
+Fuel Efficiency Tracking and Recommendations
+
+**Goal**  
+The Fuel Efficiency Tracking and Recommendations sub-system will provide users with real-time monitoring of their vehicle's fuel consumption, analyzing driving patterns, and offering personalized recommendations for optimizing fuel efficiency. This system aims to enhance the driving experience by helping users reduce fuel consumption and improve overall driving performance, contributing to both environmental sustainability and cost savings. The system will be intuitive and will deliver actionable insights tailored to the user’s specific driving habits and routes.
+
+**Preconditions**  
+- The user must have an active vehicle that is connected to the system and equipped with sensors to monitor fuel consumption.  
+- The vehicle must be able to transmit real-time data to the Fuel Efficiency Tracking and Recommendations sub-system.  
+- The user must have access to the vehicle’s user interface or mobile application for receiving recommendations and insights.  
+- The sub-system must be operational and able to collect, analyze, and store data related to the vehicle’s fuel usage.
+
+**Main Scenario**  
+1. **User (Alise or Bob) logs into the vehicle's application or dashboard** and accesses the "Fuel Efficiency" section of the interface.  
+   - **Sub-System Response**: Displays real-time fuel consumption data, including current efficiency, average efficiency, and total fuel used since the last reset.  
+2. **User selects a specific trip or time period for analysis** to see detailed statistics and trends.  
+   - **Sub-System Response**: Breaks down fuel efficiency data for the selected trip or period, highlighting areas of improvement or inefficiency (e.g., high fuel consumption on certain roads or driving styles).  
+3. **User receives recommendations for improvement**, such as adjusting driving habits, taking alternate routes, or maintaining optimal tire pressure.  
+   - **Sub-System Response**: Presents actionable, easy-to-understand tips that are personalized based on the user’s driving behavior and current conditions.  
+4. **User follows the recommendations** and applies changes (e.g., modifies driving style, adjusts speed, or plans a more fuel-efficient route).  
+   - **Sub-System Response**: Monitors and tracks fuel efficiency improvements in real-time as the user drives, updating recommendations accordingly.  
+5. **User monitors progress over time**, using the system’s tracking features to assess how well they are meeting fuel efficiency goals.  
+   - **Sub-System Response**: Provides visual progress reports and ongoing suggestions for further improvement based on long-term usage data.
+
+**Alternative Scenario**  
+1. **User logs into the application or dashboard** but is unable to view fuel efficiency data because the sub-system is temporarily offline.  
+   - **Sub-System Response**: Displays an error message indicating the system is unavailable and offers the option to try again later.  
+2. **User attempts to receive recommendations**, but the data feed from the vehicle’s sensors is interrupted (e.g., due to connectivity issues).  
+   - **Sub-System Response**: Informs the user that real-time data is unavailable and suggests performing a manual reset or troubleshooting the connection to the vehicle.  
+3. **User encounters an issue where the sub-system's recommendations do not load** due to system overload or maintenance.  
+   - **Sub-System Response**: Notifies the user of the issue, provides an estimated time for resolution, and suggests using basic vehicle data (e.g., current fuel usage) in the meantime.
+
+**Postconditions**  
+After a successful interaction with the Fuel Efficiency Tracking and Recommendations sub-system, the user will have a clear understanding of their vehicle’s fuel consumption patterns and receive tailored recommendations to improve efficiency. The system will continuously monitor the user’s driving habits and provide updated suggestions, allowing the user to make informed decisions that lead to better fuel economy. Additionally, the system will generate reports on long-term fuel savings and driving efficiency improvements, which can be tracked via the application or dashboard.

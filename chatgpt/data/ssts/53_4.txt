@@ -1,0 +1,32 @@
+**1. Title**  
+Bluetooth-Based Vehicle Access System - Technical Specifications
+
+**2. Functional Description**  
+The Bluetooth-Based Vehicle Access System enables secure and convenient access to the vehicle using Bluetooth technology. The system detects and authenticates a paired Bluetooth device (such as a smartphone) within proximity to the vehicle. Upon successful detection, the vehicle doors automatically unlock, and the vehicle is powered on. The user may then start the vehicle using the push-to-start button. The system ensures that Bluetooth connectivity is continuously maintained during the session and automatically locks the vehicle when the user exits. It also includes secure authentication methods to verify the user's identity before granting access.
+
+**3. Enabling Conditions**  
+- The Bluetooth device (smartphone, smartwatch, or other paired device) is within the specified proximity range (5 meters or as defined in the vehicle's Bluetooth settings).
+- Bluetooth is enabled and operational on the user's device.
+- The user’s device is paired with the vehicle’s Bluetooth system, and the pairing has been previously authorized through the vehicle’s mobile app or security settings.
+- The vehicle’s Bluetooth system is powered on and ready for communication.
+- The user’s device has the necessary permissions to communicate with the vehicle and perform access control actions (via app settings or authorized key).
+
+**4. Trigger Conditions**  
+- The Bluetooth device enters the vehicle’s proximity range (within 5 meters).
+- The vehicle's Bluetooth system detects the paired device and initiates the authentication process.
+- The user activates the app or manually presses the unlock button on the paired device (if needed) to confirm their intent to access the vehicle.
+- Upon successful authentication, the vehicle automatically unlocks, and the vehicle’s interior lights activate, signaling access approval.
+
+**5. Execution Output**  
+- The system unlocks the vehicle’s doors as soon as it detects the authorized device within range.
+- A confirmation notification is sent to the user’s device, indicating that access has been granted and the vehicle is ready to use.
+- The vehicle’s ignition is enabled, and the system continuously maintains Bluetooth connection while the vehicle is in operation.
+- The system logs the successful access event for security auditing purposes.
+- If the vehicle is in an idle state and no further actions are taken (e.g., the user does not start the vehicle), the system will automatically lock the doors and disable Bluetooth access after a predefined timeout (e.g., 2 minutes).
+
+**6. Exit Conditions/Exit Conditions**  
+- When the user exits the vehicle, the system detects the loss of Bluetooth connection and immediately locks the doors, securing the vehicle.
+- The system disables Bluetooth access when the user exits the vehicle, ensuring no further unauthorized access can occur.
+- If the Bluetooth connection is lost or the device moves out of range during vehicle operation, the system locks the doors and disables further access until the device re-establishes proximity.
+- The vehicle’s security settings will be triggered to lock the doors and disable the Bluetooth system if no authorized devices are within range for a predefined period after the user leaves the vehicle.
+- All access logs are cleared from the system once the vehicle locks and Bluetooth access is disabled.

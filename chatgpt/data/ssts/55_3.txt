@@ -1,0 +1,48 @@
+**Technical Specifications: Driver Assistance System for Blind Spot Detection**
+
+---
+
+**1. Title**  
+Driver Assistance System for Blind Spot Detection
+
+---
+
+**2. Functional Description**  
+The Driver Assistance System for Blind Spot Detection aims to enhance vehicle safety by providing early warnings to the driver regarding objects or vehicles entering the vehicle’s blind spot area. Using radar and camera-based sensors, the system monitors the adjacent lanes and alerts the driver via visual and audible warnings if an object is detected within the blind spot zone while the driver signals an intention to change lanes. This system is designed to reduce the likelihood of side-swipe accidents during lane changes and merges.
+
+However, the system is partially compliant, meaning there may be limitations under specific conditions, such as low visibility, heavy rain, or when detecting smaller objects like motorcycles.
+
+---
+
+**3. Enabling Conditions**  
+- The system is enabled when the vehicle is in drive mode and the vehicle's turn signal is activated.
+- Radar and camera sensors installed on both sides of the vehicle must be functional and free from obstructions (e.g., dirt, snow, or ice). A minimum of 80% sensor functionality is required for operation.
+- The system must be integrated with the vehicle's Electronic Control Units (ECUs) for sensor data processing and alert management.
+- The system operates when the vehicle’s speed exceeds 20 km/h (12 mph) to reduce false detections and ensure the system is only engaged in active driving scenarios.
+- Clean and properly calibrated sensors must be in place for optimal functionality.
+
+---
+
+**4. Trigger Conditions**  
+- The system activates when the vehicle’s turn signal is engaged, signaling the driver’s intent to change lanes or make a turn.
+- When the vehicle exceeds a speed of 20 km/h (12 mph), the system begins scanning the adjacent lanes for objects or vehicles.
+- If a vehicle enters the blind spot zone (within 2 meters of the vehicle’s side), the system detects it and triggers an alert.
+- The system also activates when a vehicle is rapidly approaching from behind and is about to enter the blind spot zone, issuing a preemptive warning to the driver.
+
+---
+
+**5. Execution Output**  
+- **Visual Output:** A warning light or icon will appear on the side mirror or dashboard to indicate the presence of a vehicle in the blind spot. This visual output helps the driver identify the location of the detected object.
+- **Audible Output:** A warning tone or beep will sound to alert the driver if the system detects a vehicle in the blind spot, particularly if the driver attempts to change lanes with the turn signal engaged.
+- **Warning Duration:** Warnings will persist as long as the vehicle remains in the blind spot area or until the driver disengages the turn signal. The warning stops automatically when the detected vehicle leaves the blind spot zone.
+
+---
+
+**6. Exit Conditions**  
+- The system will automatically deactivate when the lane change or turn is completed, and the turn signal is turned off.
+- If no vehicle is detected in the blind spot, the system will remain inactive, and no warning will be issued.
+- If the detected vehicle exits the blind spot zone, the warning lights and audible alerts will cease.
+- In the case of sensor malfunction or temporary failure (e.g., obstruction or sensor misalignment), the system will display a message alerting the driver that Blind Spot Detection is unavailable. If possible, a fallback alert will be shown, notifying the driver of the system’s reduced capability.
+
+---  
+

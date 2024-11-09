@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------|--------------------------------------------------------------------------------|
+| UC requires automatic data syncing upon login and exit, but SSTS specifies only on-demand sync. | “The system completes data retrieval or sync only when user action is manually triggered.” |
+| UC mandates persistent cloud connection to access real-time data, while SSTS relies on local caching if connectivity is limited. | “Personal settings and media preferences are loaded from the most recent locally cached data.” |
+| UC specifies immediate sync of user settings and playlists; however, SSTS uses a queued sync process based on connection conditions. | “Updates to user data or playlists are saved locally, and queued for upload to cloud storage when favorable connection conditions are met.” |
+| UC assumes user profile registration with cloud services as mandatory, while SSTS does not enforce registration. | “User profiles must be set up within the vehicle’s onboard system; registration with an external cloud storage service is optional.” |
+| UC requires continuous connection for seamless access across vehicles, while SSTS only attempts sync with ignition on and high-speed network. | “The cloud connection initiates only when the vehicle ignition is on and a high-speed network connection is detected.” |

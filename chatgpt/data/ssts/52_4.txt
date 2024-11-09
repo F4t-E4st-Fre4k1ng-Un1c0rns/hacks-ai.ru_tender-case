@@ -1,0 +1,47 @@
+**Technical Specifications: Mobile App-Based Vehicle Usage and Health Monitoring**
+
+---
+
+**1. Title**  
+Mobile App-Based Vehicle Usage and Health Monitoring
+
+---
+
+**2. Functional Description**  
+The Mobile App-Based Vehicle Usage and Health Monitoring subsystem is designed to continuously monitor and display the real-time status of key vehicle health metrics, including battery health, tire pressure, engine performance, and overall vehicle usage. It provides immediate notifications to the user about any detected issues or required maintenance, along with actionable recommendations for next steps (e.g., service scheduling, troubleshooting). The app allows users to interact with and analyze historical performance data, offering insights into vehicle efficiency, energy consumption, and upcoming maintenance needs. The system ensures uninterrupted synchronization between the vehicle and mobile app, with robust error handling to resolve any connectivity issues.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the necessary connectivity hardware (e.g., Bluetooth, 4G/5G) and sensors capable of monitoring vehicle health and performance metrics.
+- The mobile device must meet the app's system requirements (e.g., Android 10 or higher, iOS 14 or higher) and have Bluetooth or a mobile network connection available.
+- The user must have an active, correctly configured account in the app, with the vehicle properly paired to their account for data exchange.
+- The app must have the required permissions to access and interact with the vehicle’s data, notifications, and internet services for continuous updates.
+- The vehicle must be within operational range for communication, either via Bluetooth or an internet connection (when using mobile networks).
+
+---
+
+**4. Trigger Conditions**  
+- The vehicle is started or powered on, automatically activating the data synchronization process between the vehicle’s onboard sensors and the mobile app.
+- The user launches the mobile app, which attempts to connect to the vehicle and retrieve the latest health data from the sensors.
+- The system detects an abnormal reading (e.g., low tire pressure, battery degradation, engine temperature anomaly), triggering an immediate alert or notification to the user.
+- The user navigates within the app, selecting specific data points (e.g., battery health, tire pressure, recent trip performance) to initiate data retrieval for that particular metric.
+- The system identifies an upcoming maintenance need based on accumulated usage data (e.g., next oil change or tire rotation), prompting the app to notify the user and suggest the next steps.
+
+---
+
+**5. Execution Output**  
+- Real-time vehicle health data is displayed on the app’s main dashboard, including key metrics like battery level, tire pressure, engine status, and overall vehicle performance.
+- Notifications are triggered for any detected issues, such as low tire pressure, engine faults, or irregular battery performance. These alerts will include actionable steps such as checking the issue, scheduling a service, or contacting support.
+- The app provides detailed performance reports, showing historical trends in energy consumption, driving efficiency, and maintenance records. These reports are visualized using graphs and comparative data points.
+- Maintenance alerts will include integrated scheduling options, allowing the user to book service appointments directly within the app. The app will provide location-based recommendations for service centers and available time slots.
+- If a failure or connectivity issue occurs, the app will display an error message indicating the issue and suggest troubleshooting steps (e.g., reconnecting the vehicle, checking app permissions, or ensuring connectivity).
+
+---
+
+**6. Exit Conditions**  
+- The user completes their interaction with the system by reviewing vehicle health data, scheduling maintenance, or addressing any alerts. The app returns to the home screen, awaiting the next user input.
+- The app successfully syncs with the vehicle, providing up-to-date vehicle health information and performance data without any connection errors.
+- If the vehicle encounters a critical issue (e.g., battery failure, engine overheating), the app logs the issue and provides the user with next steps, including service scheduling or emergency recommendations.
+- In case of a connection failure or error, the app suggests troubleshooting actions, such as reconnecting the vehicle, reviewing app permissions, or contacting technical support. The system will ensure that the app retries connection until successfully re-established or user intervention occurs.
+- Upon logging out or exiting the app, the user’s session is securely closed, and all relevant vehicle data is stored or backed up according to the user's preferences, ensuring that data is available for future reference.

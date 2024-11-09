@@ -1,0 +1,32 @@
+**Title**  
+Real-Time Vehicle Location and Theft Detection - Technical Specifications  
+
+**Functional Description**  
+The Real-Time Vehicle Location and Theft Detection sub-system is designed to track the precise location of a vehicle and detect unauthorized movement, providing real-time alerts to the vehicle owner. The system integrates GPS tracking and cellular communication to monitor the vehicle’s position and notify the user if theft or tampering is detected. The user can access this information via a mobile app or web portal. The sub-system also provides logs of movement history and offers features like remote vehicle immobilization in case of theft.
+
+**Enabling Conditions**  
+- The vehicle must be equipped with functional GPS and cellular communication modules for data transmission.
+- The user must have an active and verified account in the connected mobile app or web portal.
+- The vehicle’s tracking system must be properly installed and integrated into the vehicle’s electrical system.
+- The vehicle must be in an operational state with no ongoing maintenance issues that might affect the sub-system's performance.
+- The user must have access to a stable internet connection for receiving real-time notifications and using the app or portal.
+
+**Trigger Conditions**  
+- Unauthorized movement of the vehicle, such as when the vehicle is moved without proper authorization or key entry.
+- Significant location change exceeding a defined distance within a specified time window.
+- User-initiated request for vehicle location tracking via the app or web portal.
+- Detection of tampering with the vehicle’s GPS or security systems.
+- Violation of a user-defined geofence, where the vehicle enters or exits a designated area.
+
+**Execution Output**  
+- Display of real-time vehicle location on a map in the user’s mobile app or web portal.
+- Immediate alerts, including push notifications, SMS, or email, sent to the user when unauthorized movement or tampering is detected.
+- The system logs all movement data, including timestamps and coordinates, for historical reference and security analysis.
+- The user is provided with an option to disable or activate additional security measures, such as remotely disabling the vehicle’s engine.
+- The system offers detailed location data and security status updates to the user during tracking.
+
+**Exit Conditions/Exit Criteria**  
+- Once the unauthorized movement or theft alert is resolved, the system will notify the user that the situation is under control and the vehicle is secure.
+- If tracking is manually deactivated, the system will cease providing real-time location updates and notify the user of the change in tracking status.
+- In case of a technical failure or loss of signal, the system will exit tracking mode and display an error message, advising the user to check connectivity or contact support.
+- After successful user interaction, such as immobilizing the vehicle or verifying its location, the system will return to a secure operational state and continue tracking.

@@ -1,0 +1,27 @@
+**Underpinning Contract: Automatic Traffic Sign Recognition and Alerting**
+
+**1. Goal**  
+The Automatic Traffic Sign Recognition and Alerting sub-System is designed to enable the vehicle to automatically detect and interpret traffic signs, providing the driver with timely visual and auditory alerts to ensure safe and efficient driving. The sub-System will enhance the user experience by offering real-time information about traffic regulations, such as speed limits, stop signs, and yield signs, which will be displayed on the vehicle’s dashboard or head-up display.
+
+**2. Preconditions**  
+- The vehicle is equipped with cameras, sensors, and a processing unit capable of identifying traffic signs.  
+- The vehicle’s navigation system is active and has access to the vehicle’s current location and road information.  
+- The driver has activated the Automatic Traffic Sign Recognition and Alerting feature via the vehicle’s settings menu.  
+- The traffic signs in the environment are clearly visible and legible to the cameras and sensors.
+
+**3. Main Scenario**  
+1. Bob enters the vehicle and starts the engine, activating the Automatic Traffic Sign Recognition and Alerting feature via the dashboard interface.  
+2. The sub-System continuously scans the environment for traffic signs using the cameras and sensors.  
+3. When a traffic sign is detected, the sub-System processes the image and identifies the sign (e.g., speed limit, stop sign).  
+4. Upon identification, the sub-System displays the relevant traffic sign on the dashboard or head-up display and emits an audible alert if necessary (e.g., "Speed limit 50 km/h").  
+5. Bob adjusts his driving behavior according to the information displayed, receiving further alerts as he continues to drive.
+
+**4. Alternative Scenario**  
+1. Alise starts driving, but the Automatic Traffic Sign Recognition and Alerting feature fails to activate due to a sensor malfunction.  
+2. The vehicle displays a notification on the dashboard indicating that the feature is unavailable, such as “Traffic Sign Recognition Temporarily Unavailable. Please drive with caution.”  
+3. Alise continues driving without automatic alerts, relying on her own observations for traffic signs.  
+4. The system periodically checks for sensor functionality, and once the malfunction is resolved (e.g., the sensors are cleaned or recalibrated), the feature reactivates automatically.  
+5. Alise receives a new notification informing her that the Automatic Traffic Sign Recognition and Alerting sub-System is now operational again.
+
+**5. Postconditions**  
+After successful interaction with the sub-System, the vehicle will have provided the driver with real-time traffic sign alerts, enhancing road safety. The detected traffic signs will be displayed on the dashboard or head-up display, and if the driver follows the recommendations, such as slowing down for a speed limit or stopping at a stop sign, it will contribute to safer and more informed driving. If any failure occurs, the driver will be informed, and the system will continue monitoring and attempt to restore functionality when possible.

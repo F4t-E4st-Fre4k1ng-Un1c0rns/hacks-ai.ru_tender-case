@@ -1,0 +1,46 @@
+**Technical Specifications: Remote Monitoring of EV Battery Health and Charging Status**
+
+---
+
+**1. Title**  
+Remote Monitoring of EV Battery Health and Charging Status
+
+---
+
+**2. Functional Description**  
+The Remote Monitoring of EV Battery Health and Charging Status sub-system provides users with real-time visibility into the health and charging status of their electric vehicle’s (EV) battery. The system continuously monitors battery parameters, including charge percentage, temperature, voltage, charge cycles, and overall health status. It triggers alerts for potential issues such as overheating, excessive voltage fluctuations, or significant battery degradation, helping users maintain their EV’s performance and longevity. The system updates all battery-related information and delivers notifications about charging progress and critical issues. This functionality is accessible via a mobile or desktop application.
+
+---
+
+**3. Enabling Conditions**  
+- The EV must be equipped with compatible battery management hardware that can transmit health and charging data to a central monitoring system.  
+- The vehicle must be connected to a stable internet or cellular connection to transmit real-time data.  
+- The user must have an active and verified account linked to the monitoring platform (via a mobile or desktop application).  
+- The application or platform must be installed and accessible on the user’s device, ensuring the ability to receive and view real-time battery data.  
+- The vehicle’s software and battery management system must be up-to-date and compatible with the remote monitoring feature.
+
+---
+
+**4. Trigger Conditions**  
+- The system is triggered when the vehicle’s battery health or charge percentage falls below predefined thresholds (e.g., below 20% charge or below 80% battery health).  
+- An alert is triggered if abnormal conditions are detected, such as high temperature or voltage issues that could damage the battery.  
+- The system is triggered when the user opens the monitoring application or logs in to access the battery’s real-time data.  
+- The system is triggered when the vehicle begins charging, and updates are provided on charging progress and expected time to full charge.  
+- The system triggers an alert if it loses communication with the vehicle’s battery management system or the internet connection is disrupted.
+
+---
+
+**5. Execution Output**  
+- The system provides a real-time display of the EV battery’s charge percentage, health status, voltage, temperature, and charge cycles.  
+- The system generates alerts for abnormal conditions such as low charge, overheating, or significant degradation of the battery’s health.  
+- Charging status is displayed, including current charge percentage, charging time remaining, and progress towards full charge.  
+- The system outputs a notification when critical battery issues are detected (e.g., excessive temperature or voltage), with guidance on how to address the problem.  
+- The system outputs historical data of the vehicle’s battery performance, allowing users to review past charging sessions and battery health over time.
+
+---
+
+**6. Exit Conditions**  
+- The exit condition occurs when the user logs out of the monitoring platform or exits the application, after which the system will stop transmitting real-time data unless the user re-engages with the application.  
+- If the battery’s charge level reaches an optimal percentage or the health status stabilizes (i.e., issues are resolved), the system will stop sending alerts and notifications.  
+- The system will automatically exit the monitoring mode if it detects an unresolvable error (e.g., loss of communication with the vehicle’s battery management system), prompting the user to address the issue or contact support.  
+- Session data will be saved after the user exits, allowing users to review past battery data and charging history for future reference.

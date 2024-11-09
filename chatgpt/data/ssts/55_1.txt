@@ -1,0 +1,43 @@
+**Technical Specifications: Driver Assistance System for Blind Spot Detection**
+
+---
+
+### 1. **Title**
+**Driver Assistance System for Blind Spot Detection**
+
+---
+
+### 2. **Functional Description**
+The Driver Assistance System for Blind Spot Detection (BSD) enhances driver safety by detecting objects or vehicles in the vehicle's blind spots, particularly when changing lanes. The system utilizes sensors (such as radar and cameras) mounted on both sides of the vehicle to continuously monitor adjacent lanes. When a vehicle is detected in a blind spot, the system alerts the driver with both visual and audible warnings. The BSD system automatically activates when the vehicle exceeds a speed threshold of 20 km/h and deactivates during low-speed maneuvers like parking. The system is designed to function only when the sensors are unobstructed and operational.
+
+---
+
+### 3. **Enabling Conditions**
+- The vehicle’s engine must be on and the vehicle in motion to activate the system.
+- The BSD system requires the sensors to be unobstructed (e.g., free from dirt, snow, or ice) and fully operational.
+- The vehicle must be moving at a speed of 20 km/h or greater to activate the system.
+- The system operates only when the vehicle’s onboard communication network (CAN bus or equivalent) is functioning correctly, ensuring data exchange between the sensors and the vehicle’s control unit.
+- Sensors must be properly calibrated according to the vehicle's dimensions and expected operating environment before activation.
+
+---
+
+### 4. **Trigger Conditions**
+- The BSD system is triggered automatically when the vehicle exceeds the speed threshold of 20 km/h.
+- The system is activated as soon as the vehicle enters a driving mode where lane changes are possible, and sensors begin monitoring the adjacent lanes.
+- The driver manually engages the turn signal to indicate a lane change, triggering the system to check the blind spot.
+- The system is triggered when a vehicle or object enters the vehicle’s blind spot as detected by the sensors, activating an alert.
+
+---
+
+### 5. **Execution Output**
+- **Visual Alert**: A visual indication (such as a blinking light) will appear on the side mirror or on the dashboard to notify the driver of the presence of a vehicle in the blind spot.
+- **Audible Alert**: An audible alert (a beep or tone) will be triggered to provide an additional warning to the driver when a vehicle is detected in the blind spot, especially when the turn signal is active.
+- **Warning Escalation**: If the driver attempts to change lanes while an object is detected in the blind spot, the system may escalate the alert with a continuous or louder sound.
+- The system will deactivate the alerts and reset once the lane change is completed or if the detected object no longer poses a risk.
+
+---
+
+### 6. **Exit Conditions**
+- The BSD system deactivates when the vehicle speed drops below the threshold (e.g., 20 km/h), typically during low-speed maneuvers such as parking.
+- If the system detects a malfunction, such as a blocked sensor or system failure, it will display an error message on the vehicle’s dashboard or a warning light to alert the driver. The system will enter a standby mode until the issue is resolved.
+- The system will exit the alert state once the lane change is completed or if the turn signal is turned off, signaling that the lane change is no longer being attempted.

@@ -1,0 +1,30 @@
+### **Bluetooth-Based Vehicle Access System - Technical Specifications**
+
+#### **1. Title**  
+Bluetooth-Based Vehicle Access System - Technical Specifications
+
+#### **2. Functional Description**  
+The Bluetooth-Based Vehicle Access System allows secure, contactless access to a luxury electric vehicle through Bluetooth-enabled devices such as smartphones and smartwatches. The system uses Bluetooth Low Energy (BLE) for communication, offering seamless pairing and authentication to provide vehicle access only to authorized users. Upon detecting a paired device within range, the system grants the user access by unlocking the vehicle doors and, when applicable, enabling the vehicle to start. Unauthorized devices are rejected, ensuring secure vehicle access.
+
+#### **3. Enabling Conditions**  
+- The vehicle is equipped with a Bluetooth-enabled access control system.
+- The user’s mobile device or smartwatch must be paired with the vehicle via Bluetooth during initial setup.
+- Bluetooth must be enabled on the user’s device.
+- The vehicle’s Bluetooth receiver must be functional and capable of detecting Bluetooth signals from paired devices within a 10-meter range.
+- The user’s device must be authorized for access in the vehicle’s system (linked to the correct user profile).
+
+#### **4. Trigger Conditions**  
+- The vehicle detects a Bluetooth signal from a paired, authorized device within range (typically 10 meters).
+- The user manually triggers the unlock action by pressing the unlock button in the mobile app or tapping a smartwatch.
+- The vehicle is in standby or locked mode, awaiting a valid authentication request to initiate the access process.
+
+#### **5. Execution Output**  
+- The system unlocks the vehicle doors when the user’s device is successfully authenticated.
+- Upon successful authentication, the system enables vehicle access, allowing the user to open the doors and start the vehicle, provided the system detects an authorized device.
+- If the device is not authorized or is out of range, the system will deny access and notify the user with an error message on their device.
+- The vehicle’s Bluetooth access will remain locked until a valid device is detected and authenticated again.
+
+#### **6. Exit Conditions**  
+- Once the doors are unlocked, the system enters normal operational mode and waits for future interactions.
+- If the system fails to detect a paired device, the access process will timeout and exit, requiring the user to reattempt or verify their device’s Bluetooth status.
+- If the authentication process is interrupted or unsuccessful, the system will remain in a locked state, waiting for further input from the user.

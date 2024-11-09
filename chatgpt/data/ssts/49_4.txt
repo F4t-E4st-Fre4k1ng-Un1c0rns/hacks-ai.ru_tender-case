@@ -1,0 +1,31 @@
+**Technical Specifications: Real-Time Vehicle Location and Theft Detection (Compliant Version)**
+
+**1. Title**  
+Real-Time Vehicle Location and Theft Detection
+
+**2. Functional Description**  
+The Real-Time Vehicle Location and Theft Detection sub-System is designed to track the vehicle's location in real-time, detect any unauthorized movement, and trigger an alert if potential theft is detected. The system will provide users with accurate location data, timely notifications, and actionable responses to prevent theft. It will be integrated with a secure mobile application and external security services, ensuring a seamless user experience with proactive vehicle protection.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with GPS tracking and an integrated theft detection system that is continuously operational.
+- The user must have a registered account with the company’s mobile application or web platform, with proper permissions to access location data.
+- The vehicle must be within the coverage area of the system’s tracking capabilities, with a stable network or GPS signal available at all times.
+- The user’s device (mobile app or web platform) must be properly configured and linked to the vehicle’s tracking system for secure communication.
+- The sub-System must be activated by default upon vehicle start-up, with real-time tracking enabled automatically when the vehicle is in use.
+
+**4. Trigger Conditions**  
+- The sub-System triggers real-time location tracking as soon as the vehicle is started and moving. The location data is continuously updated and displayed on the user’s device.
+- If the vehicle detects unauthorized movement, such as forceful entry or theft, the system immediately triggers an alert to the user and the company’s security service.
+- If the vehicle exits a predefined geofenced area or is moved without authorization, an immediate alert and security response are triggered.
+- In case of a low signal or GPS failure, the system will notify the user, and tracking will pause until the connection is restored.
+
+**5. Execution Output**  
+- The system provides real-time location updates on the user’s device, with a map view that reflects the current position of the vehicle.
+- If theft is detected, the system sends an immediate notification to the user, including the exact location of the vehicle and the option to contact security services.
+- The user can remotely lock the vehicle or initiate an emergency response via the app, sending alerts to security teams or local law enforcement as necessary.
+- Notifications will be sent through multiple channels (e.g., push notification, email, and SMS) to ensure immediate user awareness.
+
+**6. Exit Conditions**  
+- When the theft is resolved, or the vehicle is recovered, the system will exit the theft detection mode and return to normal tracking, updating the user on the resolution.
+- The user can manually exit tracking mode at any time by deactivating the system via the app or turning off the vehicle, with a confirmation prompt ensuring the user is aware of the action.
+- If network or GPS issues are resolved, the system will automatically re-enable tracking and alert the user once the connection is restored, resuming normal operation.

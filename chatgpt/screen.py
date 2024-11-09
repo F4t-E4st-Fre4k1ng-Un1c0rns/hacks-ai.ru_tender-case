@@ -10,10 +10,10 @@ import chime
 
 class Screen:
     def __init__(self):
-        self.new_chat_position = (334, 183)
-        self.start_prompt_position = (799, 572)
-        self.copy_result_position = (708, 783)
-        self.continue_prompt_position = (748, 944)
+        self.new_chat_position = (337, 219)
+        self.start_prompt_position = (713, 614)
+        self.copy_result_position = (714, 784)
+        self.continue_prompt_position = (761, 953)
 
 
         # self.current_handler = 0
@@ -47,18 +47,18 @@ class Screen:
                     return
                 
     def create_new_chat(self):
-        pyautogui.click(*self.new_chat_position, duration=1)
+        pyautogui.click(*self.new_chat_position, duration=2)
         time.sleep(1)
     
     def start_prompt(self, prompt: str):
-        pyautogui.click(*self.start_prompt_position, duration=1)
+        pyautogui.click(*self.start_prompt_position, duration=2)
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")
         time.sleep(1)
 
     def continue_prompt(self, prompt: str):
-        pyautogui.click(*self.continue_prompt_position, duration=1)
+        pyautogui.click(*self.continue_prompt_position, duration=2)
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")

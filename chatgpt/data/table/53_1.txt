@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS specifies the vehicle will remain locked until a valid device is detected, but the UC mentions that the vehicle unlocks automatically when the authorized device approaches. | "The vehicle will remain securely locked until a valid, paired device interacts with the system again." |
+| UC mentions the vehicle allows access once the doors are unlocked, but SSTS does not clarify what happens after unlocking in terms of access rights. | "Upon successful authentication, the system unlocks the vehicle doors and enables the vehicle to start." |
+| The UC requires that the vehicle doors automatically unlock when the paired device is within range, while SSTS only states that the unlock happens upon manual activation (e.g., pressing a button). | "The user manually triggers the unlock action by pressing the unlock button in the mobile app or tapping a smartwatch." |
+| UC implies that the system will reject unauthorized devices, but SSTS does not clearly specify the exact response to unauthorized attempts beyond the basic access denial. | "If the device is not authorized or is out of range, the system will deny access and notify the user with an error message on their device." |
+| SSTS does not explicitly mention the vehicle automatically switching to normal operational mode after unlocking, as stated in the UC. | "Once the doors are unlocked, the system enters normal operational mode and waits for future interactions." |

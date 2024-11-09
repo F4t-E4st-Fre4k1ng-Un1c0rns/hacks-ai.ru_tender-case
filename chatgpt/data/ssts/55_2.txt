@@ -1,0 +1,33 @@
+**Technical Specifications for Driver Assistance Systems – Blind Spot Detection**
+
+### 1. Title  
+Driver Assistance Systems for Blind Spot Detection
+
+### 2. Functional Description  
+The Driver Assistance System for Blind Spot Detection (BSD) is designed to assist drivers by providing real-time alerts of objects or vehicles in the vehicle’s blind spots. Using a combination of radar sensors and cameras installed on the sides and rear of the vehicle, the system monitors the areas around the car that are not visible via traditional mirrors. The system alerts the driver visually and audibly when a vehicle is detected in the blind spot during driving or lane change maneuvers, aiming to improve safety and prevent accidents.
+
+### 3. Enabling Conditions  
+- The vehicle must be equipped with radar sensors and cameras placed on both sides of the rearview mirrors or the rear corners of the vehicle.  
+- The Blind Spot Detection system is activated through the vehicle’s infotainment system or a dedicated button in the driver’s cabin.  
+- The vehicle’s speed must exceed 20 km/h (12 mph) for the Blind Spot Detection system to be operational.  
+- The system operates only when the car is in “Drive” mode and the driver’s seatbelt is fastened.  
+- Environmental conditions must allow for proper sensor functionality (e.g., clear weather, no fog, heavy rain, or snow).
+
+### 4. Trigger Conditions  
+- A vehicle or object enters the blind spot area, generally within a 5-meter (16 feet) radius from the vehicle’s side.  
+- The vehicle accelerates beyond 20 km/h (12 mph), which activates the monitoring systems.  
+- The driver engages the turn signal or initiates a lane change, and a vehicle is detected in the blind spot.  
+- The system detects a vehicle or object in the blind spot during high-speed driving on highways or busy streets.
+
+### 5. Execution Output  
+- **Visual Alert**: A warning light appears on the side mirror of the vehicle to notify the driver of the presence of an object or vehicle in the blind spot.  
+- **Auditory Alert**: An audible warning (tone or chime) will sound when a vehicle is detected in the blind spot and the driver initiates a lane change or turns on the turn signal.  
+- **System Status on Display**: The vehicle’s central display shows a visual cue of the detected vehicle’s location in relation to the car’s blind spot.  
+- **Haptic Feedback**: If the system detects a potential lane change or turn while a vehicle is in the blind spot, it may provide brief haptic feedback through the steering wheel to alert the driver and discourage the maneuver.  
+- **Feedback on System Status**: If the system detects a malfunction or environmental issue, a warning will be displayed on the instrument cluster and central display, advising the driver to manually check the mirrors.
+
+### 6. Exit Conditions  
+- The Blind Spot Detection system will deactivate when the vehicle’s speed falls below 20 km/h (12 mph), as the system only operates above this threshold.  
+- The system will exit if the driver turns off the feature through the vehicle’s infotainment settings or if the vehicle is switched to “Park” mode.  
+- In case of malfunction or environmental impairments (e.g., heavy rain, fog, or snow), the system will notify the driver through visual and auditory cues and will exit until the issue is resolved.  
+- If the sensors or system components are damaged or malfunctioning, the system will stop working and alert the driver to seek service. The driver will be advised to manually check the blind spots until the system is recalibrated or repaired.

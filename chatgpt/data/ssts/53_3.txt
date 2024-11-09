@@ -1,0 +1,41 @@
+**Title:** Bluetooth-Based Vehicle Access System - Technical Specifications
+
+---
+
+**Functional Description:**  
+The Bluetooth-Based Vehicle Access System provides seamless keyless entry and vehicle startup through Bluetooth communication. The system detects the proximity of an authorized Bluetooth-enabled device (e.g., smartphone) and automatically unlocks the vehicle's doors when the user is within range. Upon entry, the vehicle starts automatically once the brake pedal is engaged. The system ensures a smooth user experience with automatic locking when the vehicle is left unattended, and provides fallback mechanisms in case of Bluetooth connectivity issues.
+
+---
+
+**Enabling Conditions:**  
+1. The vehicle is equipped with Bluetooth technology and the necessary hardware for Bluetooth communication with user devices.  
+2. The user must have the official mobile application installed on their Bluetooth-enabled smartphone or device, and the device must be properly paired with the vehicle.  
+3. Bluetooth must be enabled on the user's device, and it should be within the specified operational range (e.g., 5 meters).  
+4. The vehicle’s Bluetooth system must be powered on and free from interference or faults.  
+5. If Bluetooth is disabled or the device is out of range, the system will send a notification to the user’s phone to inform them of the issue.  
+
+---
+
+**Trigger Conditions:**  
+1. The system detects an authorized Bluetooth-enabled device within the specified proximity range (e.g., 5 meters).  
+2. The user approaches the vehicle, and the Bluetooth device attempts to connect automatically.  
+3. The user touches the vehicle door handle or presses the unlock button, triggering the unlocking process upon successful Bluetooth connection.  
+4. If Bluetooth is disabled or the device is out of range, the system will fail to unlock the vehicle, and an alert will be sent to the user’s phone.
+
+---
+
+**Execution Output:**  
+1. The system successfully detects the user’s device within the defined proximity range and automatically unlocks the vehicle’s doors.  
+2. The vehicle’s mobile app sends a confirmation notification to the user’s device, indicating successful access and unlocking.  
+3. Upon entry and with the brake pedal engaged, the system starts the vehicle automatically without requiring a physical key.  
+4. If Bluetooth is not detected, the vehicle remains locked, and the system sends a failure notification to the user.  
+5. The vehicle remains unlocked as long as the user is inside, and the system continuously monitors the Bluetooth connection for any interruptions.
+
+---
+
+**Exit Conditions:**  
+1. Once the vehicle is started, the system exits the unlocking phase and enters the operational mode where the vehicle remains accessible while the engine is running.  
+2. If the user manually locks the vehicle or exits the vehicle, the Bluetooth connection is terminated, and the system reverts to a locked state.  
+3. If Bluetooth connectivity is lost while the vehicle is running, the system will continue to operate, but the user will be notified of the disconnection.  
+4. The system enters a standby mode once the vehicle is turned off and remains idle until the next authorized Bluetooth device connection.  
+5. After the user exits, the vehicle automatically locks after a set time period (e.g., 30 seconds) or upon detecting the departure of the user’s device from the range.

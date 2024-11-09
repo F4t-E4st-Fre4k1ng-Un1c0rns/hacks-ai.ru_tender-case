@@ -1,0 +1,45 @@
+**Underpinning Contract: Automatic Synchronization of Vehicle Settings across Multiple Devices**
+
+**1. Title**  
+Automatic Synchronization of Vehicle Settings across Multiple Devices
+
+**2. Goal**  
+The goal of this sub-System is to enable seamless synchronization of a vehicle's settings (such as seat position, climate control, and multimedia preferences) across multiple user devices (smartphone, tablet, in-car display, etc.). This feature ensures that user preferences are consistently maintained, regardless of which device or vehicle the user interacts with. It provides a seamless and personalized experience, allowing users to easily switch between devices while retaining their customized settings for optimal comfort and convenience.
+
+**3. Preconditions**  
+- The user has a valid account registered within the vehicle's ecosystem.
+- The vehicle is equipped with a connected infotainment system capable of synchronizing data.
+- The user has enabled cloud synchronization for vehicle settings across their devices.
+- Devices (smartphone, tablet, etc.) are connected to the vehicle’s system via Bluetooth or Wi-Fi and have the necessary application installed.
+- The user has previously set preferences for vehicle settings (seat position, climate control, audio settings, etc.) on at least one device.
+
+**4. Main Scenario**  
+1. **User Action**: Alise opens the vehicle's companion app on her smartphone.
+   - **Sub-System Response**: The app authenticates the user and retrieves the latest synchronized vehicle settings from the cloud.
+   
+2. **User Action**: Alise adjusts the seat position via her smartphone.
+   - **Sub-System Response**: The vehicle’s seat position is updated in real time and the new setting is automatically synchronized across all devices connected to the vehicle.
+   
+3. **User Action**: Alise enters her vehicle, and the in-car display detects the synchronization.
+   - **Sub-System Response**: The vehicle adjusts the seat and climate control settings based on the preferences synced from her smartphone.
+   
+4. **User Action**: Bob opens his tablet and connects to the same vehicle.
+   - **Sub-System Response**: The system synchronizes Bob’s preferences (audio settings, seat position, etc.) to the vehicle from the cloud, ensuring a personalized experience on his device.
+   
+5. **User Action**: Alise switches to another device (e.g., her smartwatch) and adjusts the vehicle’s climate control settings.
+   - **Sub-System Response**: The vehicle’s climate control updates in real time, and the new settings are synchronized across all devices.
+
+**5. Alternative Scenario**  
+1. **User Action**: Bob tries to access the vehicle’s settings on his tablet, but the device fails to synchronize with the vehicle.
+   - **Sub-System Response**: The tablet displays an error message indicating that the synchronization service is unavailable. Bob is offered troubleshooting steps, such as checking his internet connection or trying again later.
+   
+2. **User Action**: Alise attempts to update her seat position, but the synchronization service is temporarily down.
+   - **Sub-System Response**: The system notifies Alise that the synchronization feature is currently unavailable. Her settings are still adjusted locally on the vehicle, but they will not be synced across devices until the service is restored.
+   
+3. **User Action**: Alise tries to sync settings between devices while one device is not connected to the internet.
+   - **Sub-System Response**: The vehicle confirms the connection issue and alerts Alise that synchronization will resume once the device is reconnected to the internet.
+
+**6. Postconditions**  
+- The vehicle settings (seat position, climate control, multimedia preferences, etc.) have been successfully synchronized across all devices.
+- The user can seamlessly switch between devices (smartphone, tablet, in-car display) with their preferences automatically applied.
+- If synchronization is successful, all user modifications to vehicle settings are reflected across devices in real-time and retained for future use. If synchronization fails, the system maintains the locally updated settings until the service is restored.

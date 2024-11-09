@@ -1,0 +1,40 @@
+**Underpinning Contract: Wi-Fi Hotspot Management and Data Usage Monitoring**
+
+**1. Goal**
+
+The Wi-Fi Hotspot Management and Data Usage Monitoring system aims to provide users with seamless access to a Wi-Fi hotspot within the luxury electric car, along with the ability to monitor and manage their data usage. The system will ensure the following capabilities for the user:
+- Allowing connection to a secure, in-car Wi-Fi hotspot.
+- Enabling the user to track real-time data usage while connected to the hotspot.
+- Offering the ability to set limits or receive notifications when nearing data usage thresholds.
+- Managing multiple devices connected to the hotspot, ensuring optimal performance.
+- Displaying usage reports and summaries through an intuitive interface.
+
+**2. Preconditions**
+
+- The luxury electric car is equipped with an active and functioning in-car Wi-Fi hotspot.
+- The user (e.g., Bob or Alise) has a valid internet connection plan with the necessary data coverage for hotspot usage.
+- The user is familiar with basic interaction methods for accessing the in-car system (e.g., via touchscreen, voice control, or mobile app).
+- The in-car system has access to the necessary network infrastructure and is compatible with the user's mobile devices.
+- The data usage monitoring system is initialized and synced to track real-time usage.
+
+**3. Main Scenario**
+
+1. **User initiates the connection** – Alise or Bob opens the car’s infotainment system and selects the "Wi-Fi Hotspot" option.
+2. **System connects to Wi-Fi** – The system scans for available Wi-Fi networks, finds the car's hotspot, and automatically connects the user's device.
+3. **Data usage monitoring activates** – Once connected, the system starts monitoring the data usage for the session and displays the current data usage on the screen.
+4. **User sets data usage alerts** – Alise or Bob can set a data usage limit or enable notifications when reaching a predefined threshold (e.g., 80% of the available data).
+5. **User monitors usage** – Throughout the session, Alise or Bob can view their current data consumption and adjust the settings if necessary, ensuring they stay within their plan limits.
+
+**4. Alternative Scenario**
+
+1. **No Wi-Fi connection available** – If the system fails to detect the car's Wi-Fi hotspot, it will display a "Connection Failed" message, advising the user to check if the hotspot is enabled and functional.
+2. **Exceeded data limit** – If Alise or Bob attempts to connect when their data plan has been exhausted, the system will show a notification stating "Data Limit Reached," offering options to either disconnect or switch to an alternative data source, if available.
+3. **Failed data usage monitoring** – In the event of a system failure or miscommunication with the data tracking service, the system will notify the user with an error message such as "Data Usage Monitoring Temporarily Unavailable," and advise checking the system settings or contacting support.
+4. **System overload or device interference** – If there is an issue with too many devices connected to the hotspot, the system will display a warning and suggest removing some devices or reducing the data load for optimal performance.
+
+**5. Postconditions**
+
+- After successful connection and use of the Wi-Fi hotspot, Alise or Bob will have access to the internet through the car's Wi-Fi, with ongoing data usage tracked and displayed in real-time.
+- The user will have the ability to manage data usage settings, ensuring they are notified or alerted before reaching critical data thresholds.
+- If the system performs optimally, the user will experience uninterrupted internet access while maintaining control over their data usage, allowing them to adjust as necessary.
+- Any changes made to the data usage settings (limits, notifications, or connected devices) will be reflected in real-time, providing a responsive and reliable experience.

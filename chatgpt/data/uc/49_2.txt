@@ -1,0 +1,30 @@
+**Title**  
+Real-Time Vehicle Location and Theft Detection  
+
+**Goal**  
+The Real-Time Vehicle Location and Theft Detection sub-system provides the user with accurate and immediate tracking of the vehicle’s location, helping detect any unauthorized movement or potential theft in real-time. This system ensures that the user is immediately alerted to any suspicious activity, while providing the ability to track the vehicle’s exact position via a mobile application or website.
+
+**Preconditions**  
+- The sub-system is installed and properly integrated into the vehicle at the time of purchase.
+- The user must have a registered account in the mobile app or on the vehicle's connected portal.
+- The vehicle’s GPS and communication modules must be active and functioning correctly.
+- The user’s mobile device or computer must have an active internet connection to receive real-time notifications.
+
+**Main Scenario**  
+1. Bob logs into the mobile app connected to his vehicle’s system.
+2. Bob opens the "Vehicle Location" section of the app to view the current location of his car.
+3. The sub-system uses GPS to display the real-time location of the vehicle on a map.
+4. If the vehicle is moved without authorization, an immediate alert is sent to Bob’s phone, notifying him of potential theft.
+5. Bob can view detailed location data, including time and route, on the app and can decide to contact authorities or take other action.
+
+**Alternative Scenario**  
+1. Bob attempts to access the vehicle's location via the app but the GPS signal is temporarily lost.
+2. The sub-system responds by showing a "Signal Lost" message and attempts to re-establish connection.
+3. If the system remains unable to connect, Bob is advised via an in-app notification to check the vehicle’s connectivity or contact customer support.
+4. In case of a technical failure, Bob can still receive an SMS or email notification with the last known location and status of the vehicle.
+5. Bob is given an option to retry tracking later, or to engage manual security features like remote engine disablement.
+
+**Postconditions**  
+- Upon successful interaction, Bob is provided with an accurate real-time location of the vehicle, and if a theft is detected, the system records the event and provides immediate alerts for further action.
+- The vehicle's security status is updated, and all relevant location data is logged for future reference.
+- If necessary, authorities are notified and provided with real-time location information to aid in the recovery of the vehicle.

@@ -1,0 +1,51 @@
+**Underpinning Contract: Wi-Fi Hotspot Management and Data Usage Monitoring**
+
+---
+
+**Goal:**  
+The Wi-Fi Hotspot Management and Data Usage Monitoring sub-system will provide users with the ability to seamlessly manage their in-car Wi-Fi connections and monitor data usage. This includes managing the activation and deactivation of Wi-Fi hotspots, monitoring data consumption, setting limits or warnings for data usage, and providing real-time feedback on network status.
+
+---
+
+**Preconditions:**  
+- The vehicle must be equipped with an active Wi-Fi hotspot system.
+- The user must have a registered account with the service provider for data access.
+- The Wi-Fi hotspot feature must be enabled in the vehicle’s settings.
+- The vehicle’s internal network should have stable connectivity to enable data monitoring.
+
+---
+
+**Main Scenario:**  
+1. **User Action:** Bob enters his luxury electric car and turns on the vehicle’s infotainment system.  
+   **Sub-System Response:** The Wi-Fi Hotspot Management interface is displayed, showing the current status of the Wi-Fi hotspot (active/inactive) and the current data usage.
+
+2. **User Action:** Bob selects the "Activate Wi-Fi Hotspot" option.  
+   **Sub-System Response:** The system activates the Wi-Fi hotspot, displaying a notification that the hotspot is now active and ready for use.
+
+3. **User Action:** Bob connects his mobile device to the vehicle’s Wi-Fi network.  
+   **Sub-System Response:** The system starts tracking the data usage for the connected devices in real time, showing a data usage meter on the screen.
+
+4. **User Action:** Bob accesses the "Data Usage Settings" option to monitor his data consumption.  
+   **Sub-System Response:** The system displays a breakdown of current data usage, including the total amount of data used and any warnings if Bob is nearing a set data limit.
+
+5. **User Action:** Bob decides to set a data usage limit for the month.  
+   **Sub-System Response:** The system accepts the limit and provides a notification when the data usage reaches the specified threshold, allowing Bob to manage his usage efficiently.
+
+---
+
+**Alternative Scenario:**  
+1. **User Action:** Bob tries to activate the Wi-Fi hotspot, but the vehicle is unable to connect to the network.  
+   **Sub-System Response:** The system displays an error message: "Unable to activate Wi-Fi hotspot. Please check your network connection or try again later."
+
+2. **User Action:** Bob attempts to monitor data usage, but the sub-system fails to load data consumption details.  
+   **Sub-System Response:** A message appears stating: "Data usage information is currently unavailable. Please try again later."
+
+3. **User Action:** Bob reaches the data usage limit, and the system attempts to notify him.  
+   **Sub-System Response:** If the system fails to send a warning, it will display a notification: "Data limit exceeded. Please check your settings."
+
+---
+
+**Postconditions:**  
+- After successful interaction, Bob’s Wi-Fi hotspot is activated and functioning, with data usage accurately tracked.
+- The system continuously updates and monitors data usage in real time, alerting the user when limits are reached.
+- Bob has set a data usage limit, which is applied to prevent excess consumption, and any warnings about data usage are properly delivered.

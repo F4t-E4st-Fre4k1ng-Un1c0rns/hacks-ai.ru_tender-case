@@ -1,0 +1,61 @@
+**Underpinning Contract for Vehicle Security System Integration with Home Automation**
+
+---
+
+### 1. Title  
+**Vehicle Security System Integration with Home Automation**
+
+---
+
+### 2. Goal  
+The Vehicle Security System Integration with Home Automation sub-System will enable seamless interaction between the electric vehicle's security features and the home automation system. This integration will provide the user with the following capabilities:
+- **Remote Monitoring:** Users can monitor the security status of their vehicle from within their home via a smart device or home automation interface.
+- **Lock/Unlock Control:** The user will be able to remotely lock or unlock their vehicle doors using home automation devices (e.g., voice assistants, smart hubs).
+- **Security Alerts:** The system will notify the user if there is an attempted security breach (e.g., unauthorized entry into the vehicle or tampering).
+- **Synchronized Automation:** The vehicle's alarm system can be synchronized with home security systems, triggering home alarms if an intrusion is detected near the vehicle.
+- **Energy Efficiency Management:** When the vehicle is parked and the home security system is armed, the system can adjust home energy settings (e.g., lighting or temperature) based on the vehicle's location.
+
+---
+
+### 3. Preconditions  
+- **Vehicle System Integration:** The vehicle must be equipped with a compatible vehicle security system that supports home automation integration.
+- **Home Automation Setup:** The user must have an operational home automation system (e.g., a smart home hub) that supports vehicle integration.
+- **User Authentication:** The user must be authenticated through a secure login or verification process (e.g., biometric, password) for both the vehicle and home automation systems.
+- **Internet Connectivity:** Both the vehicle and the home automation system need a stable internet connection for remote functionality.
+- **Compatibility Check:** The integration must be confirmed as compatible with the home automation platform the user has in place (e.g., Amazon Alexa, Google Home).
+
+---
+
+### 4. Main Scenario  
+1. **User Action:** Bob opens his home automation app on his smartphone.
+   - **System Response:** The app displays all available connected devices, including the vehicle.
+  
+2. **User Action:** Bob selects the vehicle from the list of connected devices.
+   - **System Response:** The app displays the vehicle’s security status and options such as "Lock/Unlock," "View Camera Feed," and "Set Security Mode."
+   
+3. **User Action:** Bob taps the "Lock" button to secure the vehicle remotely.
+   - **System Response:** The vehicle's doors are locked, and the app confirms the action with a notification: "Vehicle successfully locked."
+   
+4. **User Action:** Bob activates "Home Security Mode" on his home automation system to ensure that both home and vehicle security are synchronized.
+   - **System Response:** The vehicle’s alarm system is synchronized with the home alarm system, and both are set to trigger if a breach is detected.
+
+5. **User Action:** Bob receives an alert on his phone that the vehicle's security system detected motion near the car.
+   - **System Response:** The home security system sounds an alarm and sends Bob a notification: "Security breach near vehicle detected."
+
+---
+
+### 5. Alternative Scenario  
+1. **User Action:** Bob opens his home automation app to check the vehicle’s status, but he cannot find the vehicle listed.
+   - **System Response:** The system notifies Bob: "Vehicle not connected. Please check the vehicle’s connection or ensure that the vehicle is within range of the home network."
+   
+2. **User Action:** Bob tries to lock the vehicle remotely, but the action fails due to a communication error.
+   - **System Response:** The system responds with an error message: "Unable to lock vehicle at this time. Please try again later or check your internet connection."
+
+3. **User Action:** Bob attempts to activate "Home Security Mode," but the system indicates that the home security system is offline.
+   - **System Response:** A notification appears: "Home Security System is currently offline. Please ensure the system is powered on and connected to the network."
+
+---
+
+### 6. Postconditions  
+- **Successful Action:** After Bob successfully locks the vehicle, the doors are securely locked, and the home automation app confirms the action with a notification. The vehicle's alarm system is also activated, ensuring protection.
+- **Synchronization Outcome:** When "Home Security Mode" is enabled, both the vehicle and home security systems are synchronized, providing an integrated security experience. If any security breach is detected near the vehicle, both alarms will trigger, providing an enhanced level of protection for both the home and the vehicle.

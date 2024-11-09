@@ -1,0 +1,28 @@
+**Title:** Bluetooth-Based Vehicle Access System
+
+**Goal:**  
+The Bluetooth-Based Vehicle Access System will allow users to seamlessly and securely access and start their luxury electric vehicle through Bluetooth connectivity. It will enable the car to recognize the user’s smartphone or other Bluetooth-enabled devices, eliminating the need for physical keys while ensuring a high level of security and convenience.
+
+**Preconditions:**  
+- The vehicle is equipped with the Bluetooth-Based Vehicle Access System.
+- The user's smartphone or Bluetooth device is paired with the vehicle's Bluetooth system.
+- The user’s smartphone or Bluetooth device has Bluetooth enabled and is within the vehicle’s proximity range.
+- The user has been authorized to access the vehicle (either through an app, predefined settings, or vehicle owner authorization).
+- The vehicle is powered on or in the "Ready" state for interaction.
+
+**Main Scenario:**
+1. **User Approach:** Alise approaches the vehicle with her smartphone in hand, which has Bluetooth enabled and is paired with the vehicle.
+2. **System Recognition:** The Bluetooth-Based Vehicle Access System detects Alise's smartphone within range and automatically establishes a connection.
+3. **Vehicle Unlock:** The system unlocks the vehicle's doors as soon as the connection is established.
+4. **Access Confirmation:** Alise can open the door and enter the vehicle. The system displays a confirmation on her smartphone that access has been granted.
+5. **Start Vehicle:** After entering the vehicle, Alise can start the car by simply pressing the start button, as the Bluetooth system has authenticated her presence.
+
+**Alternative Scenario:**
+1. **Failed Connection:** Bob approaches the vehicle, but the Bluetooth-Based Vehicle Access System fails to detect his smartphone.
+2. **Error Notification:** The system alerts Bob on the vehicle's dashboard or through an audible sound that the Bluetooth connection was unsuccessful.
+3. **Manual Unlock:** Bob manually unlocks the vehicle using the physical key or the mobile app (if enabled).
+4. **Reconnection Attempt:** Bob attempts to re-enable Bluetooth on his phone or checks for connectivity issues, then tries again to connect the vehicle system.
+5. **Access Granted or Failure:** If the system successfully connects on the second attempt, the vehicle will unlock and allow Bob to enter. If the issue persists, Bob may need to troubleshoot further or use alternative means to access the vehicle.
+
+**Postconditions:**  
+Upon successful interaction with the Bluetooth-Based Vehicle Access System, the vehicle will be unlocked and ready for use. The system will also ensure that the vehicle's security settings remain intact, and that access is logged for audit purposes. After the user has entered and started the vehicle, the Bluetooth system will remain connected until the vehicle is turned off or the user exits the vehicle, ensuring a secure and continuous user experience.

@@ -1,0 +1,57 @@
+### Title  
+**In-Vehicle Cloud Storage for Personal Data and Music**
+
+---
+
+### Goal  
+The **In-Vehicle Cloud Storage for Personal Data and Music** sub-system enables users to seamlessly store, access, and manage their personal data, including music, directly within the vehicle's cloud storage platform. It provides functionality for users to upload, download, stream, and organize personal music libraries, photos, contacts, and other media, ensuring that all data is readily available and easily accessible within the car's infotainment system. The feature also supports synchronization with other personal devices for a consistent user experience across multiple platforms.
+
+---
+
+### Preconditions  
+1. The vehicle must have internet connectivity (via mobile data or Wi-Fi) to access the cloud storage system.  
+2. The user must have a valid cloud storage account linked to the vehicle's infotainment system.  
+3. The vehicle's software should be up-to-date and support the integration of personal data storage features.  
+4. The user's mobile device should be paired with the vehicle via Bluetooth or another appropriate method for synchronization.  
+5. The user should have granted the necessary permissions to access and store personal data, including contacts, music, and photos, within the cloud system.
+
+---
+
+### Main Scenario  
+1. **User logs into the vehicle's infotainment system** using their cloud storage account credentials.  
+   - The system verifies the credentials and grants access to the personal cloud storage.
+
+2. **User selects the 'Music' or 'Personal Data' option** from the menu within the infotainment system.  
+   - The system displays the available media content stored in the cloud, such as music playlists or personal documents.
+
+3. **User selects a specific album or playlist** to play, or selects a data file to view.  
+   - The system streams the selected music or displays the selected data from the cloud storage.
+
+4. **User adds or removes media files (e.g., music, contacts, or photos)** from the cloud storage via the vehicle's touchscreen interface.  
+   - The system uploads or deletes the selected files to/from the cloud storage.
+
+5. **User logs out of the system** when done with cloud-based activities.  
+   - The system confirms log out, securely disconnecting the cloud storage and clearing any sensitive data from the vehicle's interface.
+
+---
+
+### Alternative Scenario  
+1. **User attempts to access the cloud storage** but there is no internet connectivity (e.g., no mobile data or Wi-Fi).  
+   - The system prompts the user to connect to an available network and provides options to retry or use offline functionality.
+
+2. **User encounters an error when trying to log in to their cloud account** (e.g., wrong credentials or connection issue).  
+   - The system displays an error message indicating the issue and provides options for the user to correct login details or retry after resolving the problem.
+
+3. **User selects a music playlist or personal data file, but the file is unavailable (e.g., deleted or corrupted).**  
+   - The system notifies the user that the file cannot be accessed and offers options to select other available files or attempt to re-sync the cloud storage.
+
+4. **User tries to upload a file, but the cloud storage is full or does not support the file type.**  
+   - The system informs the user of the storage limitation and suggests options to manage existing files or choose a different file format.
+
+---
+
+### Postconditions  
+1. After a successful interaction, the user’s selected music or personal data is either streamed or displayed from the cloud storage without issues.  
+2. Any new files uploaded to the cloud storage are confirmed as successfully added, and the cloud storage is updated accordingly.  
+3. If files were removed from the cloud storage, the changes are synchronized across all devices linked to the user’s cloud account.  
+4. The user’s session is securely ended upon logout, ensuring that no personal data remains exposed within the vehicle’s infotainment system.

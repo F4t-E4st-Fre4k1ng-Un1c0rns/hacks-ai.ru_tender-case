@@ -1,0 +1,46 @@
+**Underpinning Contract: Automatic Traffic Sign Recognition and Alerting**
+
+---
+
+**1. Title**  
+Automatic Traffic Sign Recognition and Alerting
+
+---
+
+**2. Goal**  
+The goal of the Automatic Traffic Sign Recognition and Alerting sub-system is to enhance the safety and awareness of the driver by automatically detecting traffic signs (such as speed limits, stop signs, yield signs, etc.) and providing clear visual or audible alerts to the driver. This feature aims to support safe driving decisions by ensuring the driver is informed of the traffic conditions and road regulations in real-time.
+
+---
+
+**3. Preconditions**  
+- The vehicle must be equipped with the required camera and sensor systems for traffic sign recognition.
+- The vehicle’s software and hardware must be up to date with the latest firmware for optimal performance.
+- The driver must have the system enabled and operational in the vehicle’s settings.
+- The road environment must include visible and readable traffic signs within the system’s detection range.
+- No obstructions (e.g., dirt or fog on the sensors) should be present that could impede the system's ability to detect signs.
+
+---
+
+**4. Main Scenario**  
+1. The driver, Alise, starts the vehicle and begins driving.  
+2. The system continuously scans the road for traffic signs using its onboard cameras and sensors.  
+3. Upon detecting a traffic sign (e.g., a speed limit sign), the system processes the information and alerts Alise with a visual display on the dashboard and an audible notification if necessary.  
+4. Alise adjusts her speed or actions accordingly based on the alert received (e.g., slowing down if a speed limit is detected).  
+5. The system continues to monitor and alert Alise of any new traffic signs as they appear along the route.
+
+---
+
+**5. Alternative Scenario**  
+1. The system fails to detect a traffic sign due to heavy rain or fog, impairing the visibility of the sensor cameras.  
+2. Alise is alerted with a warning message on the dashboard indicating that the traffic sign recognition system is temporarily unavailable.  
+3. The system advises Alise to rely on manual observation of the traffic signs until visibility improves.  
+4. Alise continues to drive cautiously, using standard road signs to guide her actions.  
+5. Once the road conditions improve and the system detects clear signage again, the alerts resume, and Alise is notified of the system’s restoration.
+
+---
+
+**6. Postconditions**  
+- After successful interaction with the system, Alise receives timely and accurate information regarding the traffic signs on the road.  
+- The vehicle’s speed and actions are adjusted based on the information provided by the system, ensuring safer and more informed driving decisions.  
+- The system records the traffic sign information for possible review or historical data analysis.
+

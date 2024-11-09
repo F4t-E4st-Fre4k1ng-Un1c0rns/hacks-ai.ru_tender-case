@@ -1,0 +1,46 @@
+**Technical Specifications for Sub-System: Automatic System Reset for Vehicle In-Car Tech**
+
+---
+
+### 1. Title  
+**Automatic System Reset for Vehicle In-Car Tech**
+
+---
+
+### 2. Functional Description  
+The **Automatic System Reset for Vehicle In-Car Tech** is a system feature designed to detect and automatically resolve specific faults or malfunctions in the vehicle’s in-car technology systems, including infotainment, navigation, and connectivity modules. When a fault is detected, the system will initiate an automatic reset process to restore the affected systems to their operational state without requiring direct user intervention. The purpose of this feature is to minimize downtime and ensure that the in-car tech remains functional, enhancing the overall user experience.
+
+---
+
+### 3. Enabling Conditions  
+- The vehicle’s in-car tech systems must be powered on and functional at the time of system initialization.
+- The **Automatic System Reset** feature is enabled by default and remains active unless manually disabled by the user through the vehicle's settings interface.
+- The system must include diagnostic capabilities that continuously monitor the health of the in-car tech modules and identify faults or issues that could benefit from an automatic reset.
+- The vehicle must have adequate power and network connectivity (e.g., Wi-Fi or mobile data) to download updates or patches if required during the reset process.
+- The in-car tech system must be in an operational state—neither in a deep sleep nor maintenance mode, preventing the reset from triggering.
+
+---
+
+### 4. Trigger Conditions  
+- A fault or malfunction is detected within the in-car tech system (e.g., unresponsive infotainment display, navigation errors, connectivity issues).
+- The diagnostic software recognizes that the fault can be addressed through an automatic reset, rather than requiring manual troubleshooting or repair.
+- The system identifies the fault as severe enough to disrupt normal user interaction, but not so critical that it impairs essential vehicle functions.
+- The system will initiate a reset if the fault persists for a set duration or after a specific threshold (e.g., user interaction timeout or prolonged system inactivity).
+
+---
+
+### 5. Execution Output  
+- Once the reset process is triggered, the affected in-car tech systems (e.g., infotainment, navigation, connectivity) will undergo a reboot or soft reset, depending on the severity of the fault.
+- A visual indicator, such as a progress bar or system notification, will appear on the vehicle’s display to inform the user of the reset status.
+- Upon successful completion of the reset, the affected systems will return to their normal operational state, with all functions restored (e.g., infotainment is responsive, navigation is available, and connectivity is reestablished).
+- If the reset is unsuccessful, the system will notify the user of the failure and provide instructions to attempt a manual reset or contact customer support for further assistance.
+
+---
+
+### 6. Exit Conditions  
+- **Successful Reset**: The in-car tech systems are restored to their operational state, with all previous issues resolved, allowing the user to resume normal interaction with the system.
+- **Failed Reset**: If the reset process fails, the system exits the reset attempt, displays an error message to the user, and provides alternative actions, such as manual reset instructions or a recommendation to contact customer support for further troubleshooting.
+
+---
+
+These technical specifications reflect the requirements and conditions necessary for the **Automatic System Reset for Vehicle In-Car Tech** feature to function effectively while acknowledging potential limitations in handling certain faults automatically.

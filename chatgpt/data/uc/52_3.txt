@@ -1,0 +1,57 @@
+**Underpinning Contract: Mobile App-Based Vehicle Usage and Health Monitoring**
+
+**1. Title**  
+Mobile App-Based Vehicle Usage and Health Monitoring
+
+**2. Goal**  
+The Mobile App-Based Vehicle Usage and Health Monitoring sub-system will provide users with real-time access to the status, performance, and health metrics of their luxury electric vehicle. Through the mobile application, users will be able to monitor vehicle usage, track battery health, receive maintenance alerts, and ensure the vehicle is functioning at optimal performance. Key features will include:
+- Real-time battery status and charging progress
+- Detailed vehicle health diagnostics (e.g., tire pressure, brake wear, coolant levels)
+- Usage statistics (e.g., distance traveled, energy consumption, driving efficiency)
+- Alerts and recommendations for vehicle maintenance or service
+- Geolocation tracking for the vehicle’s current location and journey history
+
+**3. Preconditions**  
+- The user must have a registered mobile app account linked to their vehicle.
+- The vehicle must be equipped with compatible sensors and onboard systems for monitoring usage and health data.
+- The mobile app must be installed and up-to-date on the user's device.
+- The vehicle must be within range of the mobile app or connected to the app through Bluetooth, Wi-Fi, or cellular connectivity.
+- The vehicle's onboard diagnostics system must be functioning properly to transmit accurate data to the app.
+
+**4. Main Scenario**  
+1. **User opens the mobile app**: The user (e.g., Bob) launches the app on their smartphone and logs into their account.  
+   **Sub-system response**: The app loads the user’s personalized dashboard, displaying an overview of the vehicle’s health and usage status.
+   
+2. **User checks battery health**: Bob selects the “Battery” section from the app menu to view the current charge level, estimated range, and any diagnostic information about the battery.  
+   **Sub-system response**: The app displays detailed information on the battery status, including percentage charge, health, and any alerts related to the battery (e.g., charging issues).
+
+3. **User views vehicle diagnostics**: Bob navigates to the “Vehicle Health” section to monitor other metrics such as tire pressure, fluid levels, and brake health.  
+   **Sub-system response**: The app presents a comprehensive health checkup summary, showing any components that require attention or maintenance.
+
+4. **User receives maintenance notification**: The system detects that the vehicle needs service (e.g., low tire pressure) and sends Bob an alert via the app.  
+   **Sub-system response**: The app provides a notification with details on the issue and suggests an action, such as visiting a nearby service center.
+
+5. **User tracks vehicle location**: Bob selects the “Location” tab to view the current location of the vehicle and its recent journeys.  
+   **Sub-system response**: The app shows a map with the vehicle’s current location, recent trips, and historical data on its movements.
+
+**5. Alternative Scenario**  
+1. **User opens the mobile app**: Bob attempts to open the app but encounters an error due to no internet connection or vehicle disconnection.  
+   **Sub-system response**: The app displays a “Connection Error” message and prompts Bob to ensure that the vehicle is connected or that his internet connection is stable.
+
+2. **User checks battery health**: Bob attempts to view the battery health but the vehicle is not in range or not transmitting data.  
+   **Sub-system response**: The app shows a “Data Unavailable” notification and provides an option to reconnect to the vehicle or check the vehicle’s connection status.
+
+3. **User views vehicle diagnostics**: Bob tries to check the vehicle’s diagnostics, but the app is unable to retrieve live data from the vehicle due to sensor failure.  
+   **Sub-system response**: The app displays a message stating that some diagnostic features are unavailable and suggests Bob to visit a service center for a manual check-up.
+
+4. **User receives maintenance notification**: Bob receives a notification but it contains no actionable information because the diagnostic data could not be retrieved.  
+   **Sub-system response**: The app asks Bob to manually check the vehicle or consult with customer service for further assistance.
+
+5. **User tracks vehicle location**: Bob tries to locate his vehicle but receives an “Unavailable” message due to GPS or network issues.  
+   **Sub-system response**: The app shows a message that location tracking is temporarily unavailable and suggests retrying later.
+
+**6. Postconditions**  
+- After a successful interaction, Bob will have a comprehensive view of his vehicle’s health, usage, and performance.  
+- If the vehicle requires maintenance, Bob will receive an actionable notification with instructions on how to proceed (e.g., service recommendations, nearest repair centers).
+- The app will have successfully updated the vehicle’s status, and the user will be able to continue monitoring the vehicle remotely.
+- Any errors or connection issues will be logged, and Bob will be provided with troubleshooting steps or the option to contact customer support for assistance.

@@ -1,0 +1,53 @@
+**Underpinning Contract: Remote Monitoring of EV Battery Health and Charging Status**
+
+---
+
+**Goal**  
+The Remote Monitoring of EV Battery Health and Charging Status sub-system provides users with real-time data regarding the condition and charging status of their electric vehicle (EV) batteries. This feature enables vehicle owners to monitor the health of their battery, check its charge levels, track charging progress, receive alerts about potential issues, and ensure optimal performance for efficient driving. The system will provide updates on battery temperature, charge cycles, voltage, and other critical indicators to help prevent long-term damage and enhance the vehicle’s longevity.
+
+---
+
+**Preconditions**  
+- The EV must be equipped with compatible hardware for battery monitoring and data transmission.  
+- The user must have an active user account linked to the vehicle and the remote monitoring system.  
+- The EV must be within the range of a stable internet or cellular connection for real-time updates.  
+- The user must have access to the monitoring application or platform (mobile app, web portal, etc.).  
+- The vehicle must be connected to a power source if charging status data is to be accessed.
+
+---
+
+**Main Scenario**  
+1. **User Action**: Bob opens the EV monitoring application on his mobile device.  
+   **Sub-System Response**: The application displays a dashboard showing the EV's current battery health status, charge percentage, and any alerts if necessary.
+
+2. **User Action**: Bob selects the “Battery Health” section to view detailed information.  
+   **Sub-System Response**: The system displays real-time data on the battery’s voltage, temperature, charge cycles, and overall health rating.
+
+3. **User Action**: Bob notices that the battery charge is below 20%, so he taps the “Charging Status” option.  
+   **Sub-System Response**: The application provides real-time information on the battery’s charging progress, estimated time to full charge, and any issues related to the charging process.
+
+4. **User Action**: Bob taps on the “Set Alerts” option to receive notifications if the battery health reaches a critical level.  
+   **Sub-System Response**: The system confirms that alerts have been set for when battery health falls below a predefined threshold (e.g., 10% capacity loss).
+
+5. **User Action**: Bob exits the app, confident in knowing the battery’s current status and charge health.  
+   **Sub-System Response**: The system saves the current session data and ensures ongoing monitoring of the battery’s status in the background.
+
+---
+
+**Alternative Scenario**  
+1. **User Action**: Alise opens the EV monitoring app, but there is no data displayed.  
+   **Sub-System Response**: The system shows an error message indicating that it cannot retrieve data due to a weak or absent internet connection. It suggests that Alise check her internet settings or vehicle connection.
+
+2. **User Action**: Alise tries to refresh the app, but still receives no data.  
+   **Sub-System Response**: The system advises her to check if the vehicle is powered on and connected to the network. If the issue persists, the system suggests contacting customer support for troubleshooting.
+
+3. **User Action**: Alise receives an alert that the battery’s health is below 10% capacity, but the system doesn’t update on the issue.  
+   **Sub-System Response**: The system provides an alternative action, recommending that Alise schedule an appointment for battery service or a diagnostic check, along with contact information for the nearest service center.
+
+---
+
+**Postconditions**  
+After a successful interaction with the Remote Monitoring of EV Battery Health and Charging Status sub-system:  
+- The user will have up-to-date information regarding their EV’s battery health, charge levels, and any potential issues or alerts.  
+- If the user sets alerts, notifications will be activated for future battery health or charging status changes.  
+- The application will store and track historical data for the user’s reference, contributing to proactive battery maintenance and ensuring optimal vehicle performance.

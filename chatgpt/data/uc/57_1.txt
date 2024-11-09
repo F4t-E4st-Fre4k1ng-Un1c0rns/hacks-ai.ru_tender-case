@@ -1,0 +1,31 @@
+---
+
+**Title**  
+Enhanced Emergency Evacuation System (EEES)
+
+**Goal**  
+The Enhanced Emergency Evacuation System (EEES) is designed to ensure swift, safe, and automated evacuation of the vehicle's occupants in emergency situations, such as accidents, fires, or water submersion. The EEES provides features including automated door unlocking, seat release, emergency lighting, and audible guidance to direct passengers to the nearest safe exit. This system enhances passenger safety by providing a clear, guided, and rapid evacuation process during emergencies.
+
+**Preconditions**  
+- The vehicle is operating normally or has encountered an emergency that requires immediate evacuation.
+- Sensors detecting impact, fire, or water have triggered the EEES system.
+- Passengers are seated, and doors are in a locked state.
+- Power systems within the vehicle are operational, enabling system features to engage.
+
+**Main Scenario**  
+1. **User Action**: An accident or emergency occurs (e.g., collision, fire detection).
+   - **EEES Response**: Automatically activates, assessing the severity and type of emergency.
+2. **User Action**: Alice hears the alert and sees emergency lighting indicating evacuation.
+   - **EEES Response**: Unlocks doors, releases seat locks, and initiates guiding lights toward the nearest exit.
+3. **User Action**: Alice follows the guiding lights towards the door.
+   - **EEES Response**: Maintains illumination and provides audible instructions to assist with exit.
+4. **User Action**: Alice reaches the door and attempts to open it.
+   - **EEES Response**: Confirms door is unlocked and opens if necessary, facilitating exit.
+5. **User Action**: Alice safely exits the vehicle.
+   - **EEES Response**: Confirms that all passengers have exited and shuts down emergency systems.
+
+**Alternative Scenario**  
+If the EEES is not fully operational or the exit is obstructed, the system will guide Alice and any passengers to an alternate exit. If power to the EEES fails, passengers will receive guidance through backup lighting systems and manual seat release levers. Alice is instructed by audio prompts or visual cues to manually unlock doors and use manual seat release mechanisms as a backup.
+
+**Postconditions**  
+After a successful evacuation, all passengers have exited the vehicle safely, and emergency systems record the event, sending data to the vehicle’s incident log. The vehicle’s emergency systems automatically deactivate, awaiting further inspection and reset.

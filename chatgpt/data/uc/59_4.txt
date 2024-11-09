@@ -1,0 +1,47 @@
+**Underpinning Contract for Remote Monitoring of EV Battery Health and Charging Status**
+
+**1. Goal**  
+The Remote Monitoring of EV Battery Health and Charging Status sub-system provides users with the ability to remotely monitor and track the health and charging status of their electric vehicle's (EV) battery. The key features include real-time updates on battery health, charging progress, estimated time to full charge, and alerts for any battery-related issues or abnormal charging behavior. This feature aims to enhance the user experience by ensuring the battery remains in optimal condition and the user stays informed about the vehicle's charging status.
+
+**2. Preconditions**  
+- The EV must be equipped with the necessary sensors and connectivity features to support remote monitoring.
+- The vehicle must be connected to the internet via a stable mobile or Wi-Fi network.
+- The user (Alise or Bob) must have a registered account with the manufacturer’s remote monitoring service, with appropriate permissions for battery data access.
+- The user’s mobile device or computer must have the required software (app or platform) to interact with the EV's monitoring system.
+- The EV's battery health monitoring system must be activated and functioning properly.
+
+**3. Main Scenario**  
+1. **User Login**: Alise or Bob logs into the vehicle monitoring application or platform using their credentials.  
+   *Sub-System Response*: The system verifies the user and grants access to the dashboard displaying vehicle details.  
+   
+2. **Battery Health Overview**: Alise or Bob selects the "Battery Health" tab to view the status of the EV’s battery.  
+   *Sub-System Response*: The system displays a detailed report, including battery charge level, health condition (e.g., state of charge, cycle count, temperature), and any issues detected.  
+
+3. **Monitor Charging Status**: The user connects the EV to a charger and selects the "Charging Status" option on the platform.  
+   *Sub-System Response*: The system shows real-time charging progress, including the percentage of charge, estimated time to full charge, and any alerts related to charging speed or power fluctuations.  
+
+4. **Receive Alerts**: The system sends notifications to the user if there are any significant issues, such as battery overheating or charging failure.  
+   *Sub-System Response*: Alise or Bob receives an alert on their device with a recommendation for action (e.g., unplug charger, contact service).  
+
+5. **Review Historical Data**: The user accesses the "History" section to review past battery health reports and charging logs.  
+   *Sub-System Response*: The system displays a log of previous battery health and charging status, enabling the user to track patterns or performance over time.
+
+**4. Alternative Scenario**  
+- **Scenario 1: Connection Failure**  
+  1. Alise or Bob opens the monitoring app, but the vehicle is not connecting to the system.  
+  2. The user receives a notification stating "Unable to connect to the vehicle."  
+  3. The user tries to reconnect by checking the vehicle's internet connection or the app’s network settings.  
+  4. If the issue persists, the system recommends contacting customer support.  
+  5. If the user resolves the issue, the system reconnects and restores access to the monitoring features.
+
+- **Scenario 2: Battery Health Data Unavailable**  
+  1. Bob logs in to check battery health, but the system reports "Battery data not available."  
+  2. The system prompts the user to check the vehicle’s sensor connectivity.  
+  3. If the issue cannot be resolved remotely, the system suggests scheduling a service appointment.  
+  4. Bob receives an email with troubleshooting tips and instructions to ensure the sensors are functioning correctly.  
+
+**5. Postconditions**  
+- After successful interaction, the user (Alise or Bob) will have access to real-time, up-to-date information on the EV's battery health and charging status.
+- The system will have logged any actions taken, including alerts and user responses.
+- If any issues are detected, the user will have received proper alerts and, where necessary, guidance for corrective actions.
+- The user can track their vehicle’s battery performance over time and make informed decisions about maintenance or charging practices.

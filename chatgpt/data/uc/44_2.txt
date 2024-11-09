@@ -1,0 +1,49 @@
+**Underpinning Contract for Sub-System: Automatic System Reset for Vehicle In-Car Tech**
+
+---
+
+### 1. Title  
+**Automatic System Reset for Vehicle In-Car Tech**
+
+---
+
+### 2. Goal  
+The **Automatic System Reset for Vehicle In-Car Tech** is designed to automatically detect and resolve any technical malfunctions or failures in the vehicle's in-car technology systems. The feature will allow the system to reset itself when certain faults are detected, ensuring that the vehicle's tech remains operational without requiring manual intervention. The reset will restore the in-car tech systems to their default functional state, allowing users to continue using the vehicle’s technology seamlessly and without delay.
+
+---
+
+### 3. Preconditions  
+- The **Automatic System Reset** feature is integrated into the vehicle's in-car tech system.
+- The vehicle is powered on and the in-car tech system is functioning.
+- The system includes diagnostic software capable of detecting technical faults or anomalies within the in-car tech.
+- The feature is enabled by default and can be triggered when certain failures are identified, such as crashes or freezes in the infotainment system, navigation errors, or connectivity issues.
+- The user has not manually disabled the reset feature through the vehicle’s settings menu.
+
+---
+
+### 4. Main Scenario  
+**Regular User Interaction with the Automatic System Reset:**
+
+1. **User Action**: Alise notices that the infotainment screen in her vehicle is unresponsive.
+2. **Sub-System Response**: The system automatically detects the issue and attempts a self-diagnosis.
+3. **User Action**: Alise continues driving while the system runs its diagnostic and reset process.
+4. **Sub-System Response**: The system successfully identifies the fault and automatically resets the affected in-car tech system.
+5. **User Action**: Alise observes that the infotainment screen is now responsive, and the system has resumed normal functionality.
+
+---
+
+### 5. Alternative Scenario  
+**Failure or Unavailability of the Reset Feature:**
+
+1. **User Action**: Bob attempts to use the infotainment system, but it fails to start or responds with an error message.
+2. **Sub-System Response**: The system attempts an automatic reset, but it fails due to a malfunction in the reset feature itself.
+3. **User Action**: Bob is notified through a warning message on the dashboard that the reset feature is unavailable at this time and a manual reset or troubleshooting is required.
+4. **Sub-System Response**: The system provides instructions for Bob to manually reboot the vehicle’s in-car tech or contact customer support for further assistance.
+5. **User Action**: Bob follows the instructions, manually resets the system or schedules a service appointment.
+
+---
+
+### 6. Postconditions  
+- After a successful reset, the in-car tech systems are restored to their default state and are fully functional.
+- The user can resume using the in-car tech as intended without further technical interruptions.
+- If the reset feature was unavailable due to a failure, the user is guided to take appropriate action (manual reset or contacting support) to restore the system's functionality.

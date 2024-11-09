@@ -1,0 +1,45 @@
+**Technical Specifications: Mobile App-Based Vehicle Usage and Health Monitoring**  
+**Compliance Level: Partially Compliant**
+
+---
+
+**1. Title**  
+Mobile App-Based Vehicle Usage and Health Monitoring
+
+---
+
+**2. Functional Description**  
+The Mobile App-Based Vehicle Usage and Health Monitoring sub-system enables users to remotely monitor their luxury electric vehicle's health and usage through a mobile application. The app provides information on the vehicle's battery status, usage statistics, diagnostics (including tire pressure, brake health, and fluid levels), maintenance alerts, and location tracking. While the sub-system offers key features, there are limitations with connectivity, data synchronization, and coverage across all vehicle models. Some functions may not always be available, and certain data may be delayed or incomplete depending on the vehicle's system integration and connectivity.
+
+---
+
+**3. Enabling Conditions**  
+- **Registered User Account**: The user must have an active account within the mobile app, correctly linked to their vehicle.
+- **Compatible Vehicle**: The vehicle must be equipped with the necessary sensors and onboard diagnostics that allow real-time data transmission to the mobile app.
+- **App Installation and Updates**: The user must have the mobile app installed on their smartphone, with all relevant updates installed to ensure proper functionality.
+- **Stable Connectivity**: A stable connection (via Bluetooth, Wi-Fi, or cellular network) is required for data exchange between the vehicle and the app.
+- **Vehicle Availability**: The vehicle should be within range for certain features (such as geolocation tracking and real-time diagnostics) to work as intended.
+
+---
+
+**4. Trigger Conditions**  
+- **App Launch**: When the user opens the mobile app, the system is triggered to request data from the vehicle.
+- **Vehicle Usage**: The system is triggered to collect data when the vehicle is in operation (e.g., driving, charging), or if a specific diagnostic condition arises (e.g., battery depletion).
+- **Scheduled Diagnostics**: Periodic diagnostic checks are triggered automatically based on the vehicle’s internal schedule or at specified intervals.
+- **User Request**: If the user manually requests information (e.g., battery status, vehicle health metrics), the system will trigger data retrieval from the vehicle.
+
+---
+
+**5. Execution Output**  
+- **Real-Time Data**: The system outputs live data on the app interface, including battery status, distance traveled, energy consumption, and health metrics (e.g., tire pressure, brake wear).
+- **Maintenance Alerts**: If an issue is detected, such as low tire pressure or battery issues, the system generates an alert indicating the problem and suggesting actions (e.g., visiting a service center).
+- **Geolocation Data**: The app outputs the vehicle’s current location and its historical journey data when the user requests it.
+- **Error Notifications**: In case of failure to retrieve data or connectivity issues, the app displays an error message indicating the issue (e.g., "Data unavailable" or "Connection error").
+
+---
+
+**6. Exit Conditions**  
+- **Successful Data Retrieval**: The system successfully updates the app interface with the latest data on vehicle health and usage.
+- **Error Handling**: If data retrieval fails, the system provides an error message and recommendations for corrective action, such as checking vehicle connectivity or visiting a service center.
+- **App Closure**: When the user closes the app or when the vehicle moves out of range, the system halts data transmission and monitoring until the next session.
+- **Error Logging**: If errors are encountered, they are logged within the system for future troubleshooting or improvement, but the user may not always be provided with detailed error reports beyond basic notifications.

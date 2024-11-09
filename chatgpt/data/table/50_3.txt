@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not guarantee automatic session initiation in all parking scenarios due to reliance on external parking facility systems. | "The system is triggered when the vehicle enters a parking space within a compatible parking facility." |
+| SSTS lacks full clarity on automatic receipt delivery (email or phone), unlike UC which specifies this as a requirement. | "The parking fee is charged to the user’s linked payment method, and the payment transaction is recorded in the vehicle’s system for reference." |
+| SSTS does not provide comprehensive alternative payment methods or manual user intervention steps in case of failure, which is required by the UC. | "If the system detects any failure or connectivity issue, a notification is displayed on the vehicle’s interface, prompting the user to take manual action." |
+| UC requires seamless automatic payment processing, but SSTS mentions potential delays or errors in the process. | "Payment processing may experience delays or failures in certain scenarios." |
+| SSTS does not ensure the parking session is always automatically closed upon exit, unlike the UC which requires this for seamless operation. | "If there is an issue with payment or system failure, an error message is displayed, and the user is prompted with alternative payment methods or instructed to seek assistance." |

@@ -1,0 +1,34 @@
+**Underpinning Contract: Real-Time Vehicle Location and Theft Detection**
+
+**1. Goal**  
+The Real-Time Vehicle Location and Theft Detection sub-System is designed to provide users with the ability to track the location of their vehicle in real-time, ensuring the safety and security of the luxury electric car. The system will send alerts and notifications if suspicious activity or theft is detected, allowing the user to take immediate action to protect their vehicle. It will provide accurate geolocation data, an automatic alarm in case of unauthorized movement, and integration with the company’s security services for a swift response.
+
+**2. Preconditions**  
+- The sub-System is activated by default and linked to the car’s onboard system.
+- The vehicle must be equipped with the appropriate GPS and theft detection hardware.
+- The user must have an active account with the company’s mobile application or web platform.
+- The vehicle must be within the coverage area of the tracking system (network or GPS service availability).
+- The user (e.g., Alise or Bob) must have permission to view the vehicle’s location.
+
+**3. Main Scenario**  
+1. **User Login:** Alise opens the mobile application and logs into her account.
+2. **Vehicle Selection:** Alise selects her vehicle from a list of registered vehicles in the app.
+3. **Real-Time Tracking:** The app displays the current location of the vehicle on a map, with real-time updates as the vehicle moves.
+4. **Theft Detection Activation:** If unauthorized movement is detected (such as an attempted theft), an alert is immediately sent to Alise, and the app provides the option to call the security team.
+5. **Action or Response:** Alise can choose to lock the vehicle remotely or notify the police directly via the app’s interface.
+
+**4. Alternative Scenario**  
+1. **Login Failure:** Bob tries to log into the mobile application, but due to a server issue, the login fails.
+   - *Response:* Bob is prompted to try again later, and an alternative option to recover the password or contact support is provided.
+2. **No Signal/Network Issue:** Bob attempts to track his vehicle, but no signal is available due to network problems or GPS failure.
+   - *Response:* Bob is notified that real-time tracking is temporarily unavailable, with an estimated time for service restoration and a manual location update offered.
+3. **Unauthorized Access:** If a theft attempt occurs but the system cannot confirm its location due to hardware malfunction, the app will alert Bob with a warning that the location tracking feature is offline.
+   - *Response:* Bob is given the option to manually report the incident to the security services.
+
+**5. Postconditions**  
+After successfully interacting with the sub-System:
+- Alise’s vehicle is accurately tracked on the map in real-time.
+- Any detected theft or unauthorized movement triggers an immediate alert and security action.
+- The system will provide clear steps for Alise to follow, including options to lock or call security services, ensuring her vehicle is protected.
+- If an issue arises, Bob is provided with guidance and support for troubleshooting the system or resolving connectivity problems.
+

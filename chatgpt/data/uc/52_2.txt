@@ -1,0 +1,46 @@
+**Title:** Mobile App-Based Vehicle Usage and Health Monitoring
+
+**Goal:**  
+The Mobile App-Based Vehicle Usage and Health Monitoring sub-system provides users with real-time monitoring and management of their electric vehicle (EV) through a mobile application. It enables vehicle owners to track their EV’s health, including battery status, tire pressure, and other critical systems. The app will also allow users to monitor their driving patterns, fuel efficiency, and overall vehicle usage to optimize performance and ensure long-term vehicle health.
+
+**Preconditions:**  
+1. The user must have a compatible smartphone with the mobile app installed.
+2. The electric vehicle must be connected to the mobile app through a secure pairing process.
+3. The vehicle should have all necessary sensors and telemetry systems installed and activated for health monitoring (e.g., battery monitoring, tire pressure sensors, etc.).
+4. The user must have an active internet connection for the app to sync data.
+5. The mobile app must be updated to the latest version to ensure compatibility with the vehicle's systems.
+
+**Main Scenario:**  
+1. **User Action:** Bob opens the mobile app on his smartphone.  
+   **Sub-System Response:** The app authenticates Bob’s login credentials and loads the main dashboard showing the vehicle's current health metrics and usage data.
+  
+2. **User Action:** Bob taps on the "Vehicle Health" tab to view detailed reports about the EV's battery, tires, and other critical systems.  
+   **Sub-System Response:** The app displays an overview of the vehicle’s current health status, including battery charge level, tire pressure, and any system alerts or warnings.
+  
+3. **User Action:** Bob taps on "Battery Health" to monitor the status of his vehicle's battery.  
+   **Sub-System Response:** The app shows the battery charge level, battery health status (e.g., capacity degradation), and estimated range based on current driving conditions.
+
+4. **User Action:** Bob checks the "Usage Statistics" section to view his driving history, including efficiency, total distance driven, and energy consumption trends.  
+   **Sub-System Response:** The app presents a graphical overview of Bob’s driving habits, highlighting areas for improvement (e.g., energy usage during acceleration).
+
+5. **User Action:** Bob receives a notification about an upcoming scheduled maintenance check for his EV. He taps the notification to acknowledge it.  
+   **Sub-System Response:** The app confirms the maintenance schedule, adds it to Bob’s calendar, and provides contact details for the nearest service center.
+
+**Alternative Scenario:**  
+1. **User Action:** Alise opens the mobile app but receives an error message indicating the vehicle is not connected.  
+   **Sub-System Response:** The app prompts Alise to check the vehicle’s Bluetooth connection or ensure the vehicle is powered on and properly synced with the app. A troubleshooting guide is offered.
+  
+2. **User Action:** Alise attempts to check the "Battery Health" section but the data is unavailable due to a sensor failure.  
+   **Sub-System Response:** The app displays a warning message informing Alise that battery health data is currently unavailable and suggests checking the vehicle's physical indicators for more information.
+
+3. **User Action:** Alise tries to view the "Usage Statistics," but the app fails to load the data due to connectivity issues.  
+   **Sub-System Response:** The app notifies Alise that usage data is temporarily inaccessible due to poor internet connection and prompts her to try again once connectivity is restored.
+
+4. **User Action:** Alise receives an alert that a critical system (e.g., tire pressure) is malfunctioning. She taps on the alert for more details.  
+   **Sub-System Response:** The app provides Alise with a detailed breakdown of the issue, and offers recommendations for next steps, such as visiting the nearest service center or checking the vehicle manually.
+
+**Postconditions:**  
+1. After Bob successfully interacts with the app, the vehicle's health metrics are updated and displayed in real-time, providing him with current and accurate data on the vehicle's performance.
+2. Bob’s driving statistics and usage data are saved in the app for future analysis, enabling him to track his habits and optimize vehicle efficiency.
+3. Any system errors or alerts are logged in the app and flagged for attention, ensuring that Bob is aware of any issues requiring immediate action.
+4. Alise receives troubleshooting guidance when an error or failure occurs, allowing her to attempt to resolve minor issues on her own or prepare for further action if necessary.

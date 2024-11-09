@@ -1,0 +1,46 @@
+**Underpinning Contract: Automatic Parking Payment System via Vehicle Interface**
+
+**1. Title:**  
+Automatic Parking Payment System via Vehicle Interface
+
+**2. Goal:**  
+The goal of the Automatic Parking Payment System via Vehicle Interface is to enable users to conveniently and seamlessly pay for parking services directly from their vehicle's interface without requiring manual interactions with parking meters, machines, or mobile apps. This system will allow for automatic detection of parking session start and end, as well as real-time payment processing, enhancing user experience through a quick, efficient, and hands-free process.
+
+**3. Preconditions:**  
+- The vehicle must be equipped with an active, fully functional vehicle interface system (e.g., infotainment system or touch screen).  
+- The parking lot or facility must support the Automatic Parking Payment System and be integrated with the relevant infrastructure (e.g., parking sensors, license plate recognition, etc.).  
+- The user’s vehicle must have an active and linked payment method (credit card, debit card, or a dedicated parking account).  
+- The system must have internet connectivity to process payment transactions in real-time.  
+- The user must have granted permissions for the system to access and process parking-related information.
+
+**4. Main Scenario:**  
+1. **User Action:** Bob parks his vehicle in a designated parking space at a supported facility.  
+   **System Response:** The Automatic Parking Payment System detects the vehicle's entry via the vehicle’s sensors or parking lot sensors and identifies the parking space.  
+   
+2. **User Action:** Bob exits the vehicle and begins his activities, leaving the vehicle parked.  
+   **System Response:** The system tracks the duration of the parking session using time-stamped location data and activates the payment function.  
+
+3. **User Action:** Upon returning to the vehicle, Bob opens the vehicle’s interface.  
+   **System Response:** The system automatically displays the parking session details, including the parking duration and the calculated fee.  
+
+4. **User Action:** Bob confirms the displayed payment amount and proceeds with the payment via the vehicle interface.  
+   **System Response:** The system processes the payment, deducts the amount from Bob's linked account or payment method, and sends a payment confirmation to the vehicle.  
+
+5. **User Action:** Bob receives a payment receipt on his vehicle’s display, which he can save or print for record-keeping.  
+   **System Response:** The parking session is closed, and the system marks the transaction as complete, sending a notification to the parking facility’s system.  
+
+**5. Alternative Scenario:**  
+1. **User Action:** Bob parks his vehicle in a supported facility but there is no connection to the Automatic Parking Payment System (e.g., no internet connectivity or system malfunction).  
+   **System Response:** The system displays an error message indicating that the parking payment cannot be processed at the moment and suggests alternative payment methods (e.g., using a mobile app or paying at a kiosk).  
+
+2. **User Action:** Bob exits the vehicle, but the system fails to detect the vehicle’s entry.  
+   **System Response:** The system notifies Bob of the failure to detect entry and provides instructions to manually input his parking session information (e.g., parking zone or space number).  
+
+3. **User Action:** Upon returning to the vehicle, Bob is unable to complete payment via the vehicle’s interface due to a payment method failure (e.g., expired card, insufficient balance).  
+   **System Response:** The system notifies Bob of the payment issue and prompts him to update or choose an alternative payment method.  
+
+4. **User Action:** Bob opts for an alternative payment method via a mobile app or at a kiosk within the parking facility.  
+   **System Response:** The system stores a record of the failed payment attempt and updates the parking session status once Bob completes the payment through an alternative channel.  
+
+**6. Postconditions:**  
+After the user successfully interacts with the Automatic Parking Payment System via the vehicle interface, the parking session is considered complete, and the payment is processed. The user receives a payment confirmation either on the vehicle’s interface or through another chosen notification method. The parking facility is notified of the completed transaction, and the vehicle is cleared for departure.

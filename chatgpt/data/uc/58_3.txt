@@ -1,0 +1,48 @@
+**Underpinning Contract for Vehicle-to-Infrastructure (V2I) Communication Integration**
+
+1. **Title:**
+   Vehicle-to-Infrastructure (V2I) Communication Integration
+
+2. **Goal:**
+   The Vehicle-to-Infrastructure (V2I) Communication Integration sub-system will enable seamless communication between the electric vehicle (EV) and surrounding infrastructure. This integration will allow the vehicle to exchange real-time data with traffic signals, charging stations, road sensors, and other infrastructural elements to optimize driving efficiency, safety, and convenience. Key features include:
+   - Automatic traffic light adjustments based on vehicle proximity.
+   - Enhanced route planning using live data from road sensors.
+   - Real-time updates on charging station availability.
+   - Notification of infrastructure issues or hazards ahead.
+   - Reduced energy consumption by syncing with energy-efficient infrastructure.
+
+3. **Preconditions:**
+   - The user’s electric vehicle must be equipped with compatible V2I communication hardware and software.
+   - The infrastructure (traffic signals, road sensors, charging stations) must support V2I communication protocols.
+   - A stable and secure communication network (e.g., 5G or dedicated short-range communication, DSRC) must be available for continuous data exchange.
+   - The vehicle’s V2I system must be activated and configured by the user through the vehicle's central control unit.
+   - The user must have permission to access and use V2I features as per local regulations or road authority agreements.
+
+4. **Main Scenario:**
+   1. **User Action:** Bob starts his vehicle and selects the V2I communication feature from the vehicle’s dashboard.
+      - **Sub-System Response:** The V2I system activates and establishes a secure connection with the surrounding infrastructure.
+   2. **User Action:** Bob drives toward an intersection with a traffic light.
+      - **Sub-System Response:** The V2I system detects the traffic light and adjusts the vehicle’s speed to optimize for a green light.
+   3. **User Action:** Bob approaches a public charging station for his EV.
+      - **Sub-System Response:** The V2I system communicates with the charging station to check availability and confirms an open slot.
+   4. **User Action:** Bob receives a notification on the dashboard about road construction ahead.
+      - **Sub-System Response:** The V2I system notifies Bob of a road hazard, offering alternate route suggestions based on live traffic data.
+   5. **User Action:** Bob continues driving along the suggested route.
+      - **Sub-System Response:** The V2I system monitors the route, adjusting the vehicle’s speed and navigation based on real-time data from road sensors.
+
+5. **Alternative Scenario:**
+   1. **User Action:** Bob starts his vehicle and attempts to enable V2I communication, but the system does not respond.
+      - **Sub-System Response:** The system displays an error message, indicating a failure in establishing a connection to the infrastructure network.
+   2. **User Action:** Bob attempts to drive to the intersection with the traffic light.
+      - **Sub-System Response:** The V2I system fails to adjust the vehicle's speed, and Bob must manually adjust his driving to match the traffic light cycle.
+   3. **User Action:** Bob drives to the public charging station, but the V2I system fails to check the station’s availability.
+      - **Sub-System Response:** The vehicle alerts Bob that the charging station status is unavailable and suggests using a nearby charging location.
+   4. **User Action:** Bob is notified of a potential road hazard but cannot receive detailed information.
+      - **Sub-System Response:** The system alerts Bob of a hazard but advises him to use caution without providing alternative routes due to a communication error.
+   5. **User Action:** Bob continues his drive but notices delayed navigation updates.
+      - **Sub-System Response:** The V2I system attempts to reconnect to the infrastructure, though updates may be delayed until a connection is restored.
+
+6. **Postconditions:**
+   - Upon successful interaction with the V2I system, the user experiences enhanced driving efficiency, with optimized routes, real-time updates, and adjustments made to vehicle operations based on live infrastructure data.
+   - The system improves driving comfort and safety by providing data-driven insights, reducing fuel or energy consumption, and ensuring better synchronization with traffic infrastructure.
+   - If any failures occur, the user will receive clear notifications, and alternate methods (manual adjustments or external alerts) will be available.

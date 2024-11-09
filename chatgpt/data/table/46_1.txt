@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS allows for "near real-time" synchronization, which contradicts the UC's strict "real-time" requirement for synchronization. | "The synchronization occurs in real-time or near real-time..." |
+| SSTS does not specify that the synchronization process must be instantaneous, whereas UC implies that synchronization should happen without delay. | "The synchronization occurs in real-time or near real-time to ensure that the user’s preferences are consistently applied across all devices..." |
+| UC mentions that the synchronization process should be immediate upon changes, while SSTS allows for potential delays in synchronization. | "The system synchronizes user settings... in real-time or near real-time across all devices." |
+| SSTS provides more flexibility in the types of connectivity (real-time or near real-time), while UC emphasizes immediate synchronization. | "The user settings are synchronized in real-time or near real-time..." |
+| UC specifies that the system should handle settings synchronization immediately across all devices, while SSTS introduces the possibility of delayed synchronization. | "If synchronization fails (due to network issues, device disconnection, or service unavailability), the system reverts to the last known valid settings, and the user is notified of the failure." |

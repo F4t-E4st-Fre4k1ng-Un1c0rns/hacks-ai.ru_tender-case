@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not guarantee real-time synchronization, whereas the UC specifies it as a requirement. | "Delayed Synchronization: If network conditions or multiple simultaneous changes delay synchronization, the system will still eventually sync all devices with the latest settings..." |
+| The SSTS lacks detailed conditions for error handling and recovery compared to the UC's more comprehensive error management. | "If synchronization fails due to connectivity issues or other technical problems, the system will display an error message. The message will include information on the issue..." |
+| UC requires immediate synchronization upon device addition/removal, while SSTS only partially addresses this. | "The user logs into a new device or reconfigures settings on an existing device that requires synchronization with other devices." |
+| SSTS does not specify the need for simultaneous device synchronization, which is required by the UC. | "Synchronization will occur across all devices, but simultaneous changes may result in temporary delays..." |
+| SSTS lacks explicit details on acceptable network conditions and performance, which the UC emphasizes. | "Devices must be connected to a stable network and be within range of the vehicle for synchronization to occur." |
+| UC specifies seamless functionality under suboptimal network conditions, but SSTS only partially addresses this. | "Delayed Synchronization: If network conditions or multiple simultaneous changes delay synchronization..." |

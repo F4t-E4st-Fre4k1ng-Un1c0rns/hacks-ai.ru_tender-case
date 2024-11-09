@@ -1,0 +1,47 @@
+**Underpinning Contract: Vehicle Security System Integration with Home Automation**
+
+**1. Goal**  
+The Vehicle Security System Integration with Home Automation will provide users with seamless control and enhanced security features for their luxury electric vehicles, enabling them to interact with both their vehicle and home automation systems. This integration will allow users to manage and monitor their vehicle's security while also interacting with their home systems, such as doors, lights, and security alarms, through a unified interface.
+
+**2. Preconditions**  
+- The user must have an active home automation system installed and connected to the internet.  
+- The user’s luxury electric vehicle must be compatible with the vehicle security system.  
+- The integration platform or mobile application for both the vehicle and home automation must be installed and connected to both systems (vehicle and home automation).  
+- The user (Alise or Bob) must have registered their devices and set up accounts for both the vehicle and home systems.  
+- The home automation system must support remote control of key features like lighting, doors, and alarms.
+
+**3. Main Scenario**  
+1. **User Action:** Alise or Bob opens the mobile app for the vehicle and home integration system.  
+   **Sub-System Response:** The app loads and displays the vehicle's security status along with available home automation controls.
+
+2. **User Action:** Alise or Bob selects the option to check or activate the vehicle's security system.  
+   **Sub-System Response:** The app shows the vehicle's current security status, including whether the doors are locked and if there are any alerts for the vehicle.
+
+3. **User Action:** Alise or Bob selects an option to arm the vehicle security system and simultaneously turn on the security system for their home.  
+   **Sub-System Response:** The vehicle's security system is armed, and the home automation system activates the home security features, such as locking doors and turning on lights.
+
+4. **User Action:** Alise or Bob adjusts the home automation settings through the app, such as turning off the lights or disarming the home security system.  
+   **Sub-System Response:** The home automation system updates and applies the changes accordingly, while the vehicle's security status remains unaffected.
+
+5. **User Action:** Alise or Bob receives an alert on the app about a potential breach in the vehicle security system while at home.  
+   **Sub-System Response:** The app notifies the user about the specific breach and provides options to either lock the vehicle remotely or contact the authorities.
+
+**4. Alternative Scenario**  
+- **Scenario 1: System Connection Failure**  
+   - **User Action:** Bob tries to access the vehicle security system through the app but faces connection issues.  
+   - **Sub-System Response:** The app displays an error message stating that the system is temporarily unavailable. It prompts Bob to check his internet connection or try again later.
+
+- **Scenario 2: Vehicle Security System Malfunction**  
+   - **User Action:** Alise attempts to activate the vehicle's security system but receives an error indicating that the system is not responding.  
+   - **Sub-System Response:** The app notifies Alise of a malfunction with the vehicle's security system and suggests troubleshooting steps, such as checking the vehicle's connectivity or contacting customer support.
+
+- **Scenario 3: Home Automation System Not Available**  
+   - **User Action:** Bob tries to activate the home automation features through the app but finds that the system is offline.  
+   - **Sub-System Response:** The app displays an alert that the home automation system is currently unavailable and provides an option to attempt reconnecting or manage the vehicle's security independently.
+
+**5. Postconditions**  
+After successful interaction with the system, the following outcomes are achieved:  
+- The vehicle's security system is armed or disarmed, depending on the user's selection.  
+- The home automation system is synchronized to the vehicle security status, ensuring that home security features (e.g., door locks, lights, alarms) are either activated or deactivated as desired.  
+- Notifications and alerts regarding the vehicle or home system status are sent to the user.  
+- If any malfunctions or issues occur, the user receives clear and actionable notifications for troubleshooting or contacting support.

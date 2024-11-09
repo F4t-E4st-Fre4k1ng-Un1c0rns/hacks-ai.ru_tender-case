@@ -1,0 +1,37 @@
+**Underpinning Contract for Vehicle-to-Infrastructure (V2I) Communication Integration**
+
+**1. Goal**  
+The Vehicle-to-Infrastructure (V2I) Communication Integration sub-system enables seamless interaction between the electric vehicle and the surrounding infrastructure, enhancing safety, convenience, and efficiency. This system allows for real-time communication with traffic lights, road signs, charging stations, and other infrastructure elements to provide dynamic updates, optimize route planning, improve energy usage, and ensure a more responsive driving experience. The key features include:
+- Communication with traffic signals for real-time green light or congestion alerts.
+- Integration with electric vehicle charging stations for optimal charging availability.
+- Interaction with smart road signs for speed limit adjustments or hazard warnings.
+- Real-time data sharing between the vehicle and infrastructure for improved route optimization.
+
+**2. Preconditions**  
+Before the Vehicle-to-Infrastructure (V2I) Communication Integration system can be used, the following conditions must be met:
+- The vehicle must be equipped with V2I-compatible communication hardware and software.
+- The user must have granted necessary permissions for the vehicle to connect to external infrastructure.
+- The infrastructure, including traffic signals, road signs, and charging stations, must support the V2I communication protocols and be operational.
+- The vehicle's navigation and communication systems must be activated and ready to receive real-time data.
+  
+**3. Main Scenario**  
+1. **Vehicle Initialization**: Bob starts his luxury electric vehicle, and the V2I system automatically establishes a connection with nearby infrastructure elements (traffic signals, charging stations, etc.).
+2. **Route Planning**: Bob enters his destination, and the vehicle’s navigation system integrates with the V2I sub-system to suggest the best route, considering real-time traffic data, charging station locations, and traffic signal timings.
+3. **Driving and Communication**: As Bob drives, the system continuously communicates with infrastructure elements such as adjusting the vehicle’s speed based on real-time traffic light changes, or alerting him of nearby charging stations.
+4. **Charging Station Interaction**: Bob receives a notification on the dashboard about available charging stations on his route. The system selects the most optimal charging station based on availability and proximity.
+5. **Real-Time Adjustments**: While driving, Bob approaches a traffic light that turns red; the V2I system alerts him of the upcoming signal change, allowing him to adjust his speed to avoid unnecessary stops.
+
+**4. Alternative Scenario**  
+In case of a failure or unavailable V2I connection:
+1. **System Error or Signal Loss**: Bob starts his vehicle and receives a warning on the dashboard that the V2I system is temporarily unavailable due to a loss of connection with nearby infrastructure.
+2. **Limited Functionality**: The vehicle switches to a manual mode where real-time data from infrastructure is not used, and Bob is prompted to drive without the real-time adjustments to his route or charging station selections.
+3. **Backup Systems Activation**: Bob’s vehicle utilizes a fallback system that reverts to basic GPS navigation and autonomous route planning, bypassing V2I enhancements.
+4. **Notification**: Bob is informed via the dashboard that the system is reattempting to reconnect to the V2I network, and updates will be provided once the connection is restored.
+5. **No Charge Information**: If the charging station data is unavailable, Bob is given a general recommendation for charging station locations, but the system will not provide optimal suggestions until the V2I system is restored.
+
+**5. Postconditions**  
+After a successful interaction with the Vehicle-to-Infrastructure (V2I) Communication Integration sub-system:
+- The vehicle’s navigation and route planning are optimized based on real-time data from traffic infrastructure.
+- Bob’s driving experience is enhanced with automatic adjustments based on traffic signal timings, available charging stations, and road sign updates.
+- If the V2I system has helped Bob find an available charging station, the vehicle will automatically navigate to it, ensuring minimal delay.
+- Real-time communication ensures safer, more efficient driving by informing Bob of road conditions and signal changes, resulting in improved overall driving efficiency and comfort.

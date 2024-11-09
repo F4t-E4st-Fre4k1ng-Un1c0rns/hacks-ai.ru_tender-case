@@ -1,0 +1,55 @@
+**Underpinning Contract: In-Vehicle Cloud Storage for Personal Data and Music**
+
+---
+
+### 1. Title
+**In-Vehicle Cloud Storage for Personal Data and Music**
+
+---
+
+### 2. Goal
+The In-Vehicle Cloud Storage system enables users to store and access their personal data and music collection seamlessly within the luxury electric vehicle. This system provides secure, cloud-based storage, allowing users to save settings, preferences, and media files that enhance their in-car experience. With this feature, users can enjoy personalized music playlists, voice notes, and personal documents accessible across various devices, keeping them connected and engaged without needing additional external storage devices.
+
+---
+
+### 3. Preconditions
+- The vehicle must have a secure internet connection enabled, either through an in-car cellular network or Wi-Fi.
+- Alice or Bob, as registered users, have an active cloud storage account associated with the vehicle's system.
+- Users have previously uploaded or synced data to the cloud storage account for access within the vehicle.
+
+---
+
+### 4. Main Scenario
+1. **User Action**: Alice logs into her vehicle’s system using her secure account credentials.
+   - **System Response**: The vehicle’s system verifies her identity and connects to her personal cloud storage account.
+   
+2. **User Action**: Alice selects the “Personal Music Library” option on the vehicle’s touchscreen interface.
+   - **System Response**: The vehicle retrieves Alice’s stored music library from her cloud account and displays available playlists.
+
+3. **User Action**: Alice plays a playlist from her cloud storage.
+   - **System Response**: The system begins streaming the selected playlist and displays song details on the dashboard screen.
+
+4. **User Action**: Alice adjusts the sound settings and stores the configuration as a personal setting.
+   - **System Response**: The system saves the sound configuration to Alice’s cloud storage, ensuring preferences are preserved across future sessions.
+
+5. **User Action**: Alice views and selects personal documents stored in the cloud for in-car reading (e.g., PDF files).
+   - **System Response**: The system retrieves the requested document and displays it on the vehicle’s screen, if permissible by vehicle safety standards.
+
+---
+
+### 5. Alternative Scenario
+1. **User Action**: Alice attempts to access her music library, but the vehicle's internet connection is unavailable.
+   - **System Response**: The system notifies Alice of the connection issue and provides an option to play locally stored media or connect to a hotspot if available.
+
+2. **User Action**: Bob tries to upload a new playlist but exceeds the cloud storage limit.
+   - **System Response**: The system notifies Bob of insufficient storage and suggests options to upgrade storage or delete unnecessary files to make space.
+
+3. **User Action**: Alice cannot access her cloud account due to failed authentication.
+   - **System Response**: The system prompts Alice to re-enter her credentials or troubleshoot the issue, offering customer support contact options.
+
+---
+
+### 6. Postconditions
+- After a successful interaction, Alice’s personal settings, music preferences, and documents remain securely stored and synced with her cloud account.
+- Her playlists and other settings are accessible across sessions, allowing for a seamless and personalized experience whenever she enters the vehicle.
+- Any updates or changes Alice made during the session are securely backed up, ensuring they are available the next time she accesses the system, even in a different vehicle linked to her account.

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC requires explicit mention of backup systems or manual overrides in case of EEES failure, but the SSTS does not detail manual override mechanisms. | "The system features automated door unlocking, seat release, emergency lighting, and audio guidance to direct passengers to the nearest exit." |
+| The UC specifies that the system should guide passengers with both visual and audible instructions during failures, but SSTS lacks explicit backup systems for sensor or power failures. | "The system transitions into a standby mode, awaiting a reset or inspection before reactivation." |
+| UC specifies the backup mechanisms for power or sensor failures should be more thoroughly detailed, whereas the SSTS lacks these details. | *No relevant quotation found in SSTS regarding backup or manual override mechanisms for sensor or power failures.* |
+| UC requires that the system account for both automatic and manual fail-safes in emergency evacuations, but SSTS focuses on automated systems without clarifying fail-safes. | "The system transitions into a standby mode, awaiting a reset or inspection before reactivation." |
+| The UC emphasizes the need for a manual override if the system fails, but SSTS does not include manual override procedures. | *No relevant quotation found in SSTS regarding manual override or detailed backup system.* |

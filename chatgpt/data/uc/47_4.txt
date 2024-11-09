@@ -1,0 +1,37 @@
+**Underpinning Contract: Wi-Fi Hotspot Management and Data Usage Monitoring**
+
+**1. Title**  
+Wi-Fi Hotspot Management and Data Usage Monitoring
+
+**2. Goal**  
+The Wi-Fi Hotspot Management and Data Usage Monitoring sub-system will provide the following key features:  
+- Enabling seamless Wi-Fi hotspot functionality within the vehicle for passengers to connect their devices.  
+- Monitoring data usage to ensure that data limits are not exceeded and providing notifications to the user when usage thresholds are nearing.  
+- Managing data allocation efficiently between multiple users, ensuring optimal performance of the Wi-Fi hotspot even under heavy use.  
+- Providing real-time information and alerts on available data, including usage reports for the user.  
+- Allowing users to activate or deactivate the hotspot feature based on their preference.
+
+**3. Preconditions**  
+- The vehicle is powered on, and the onboard connectivity system is functioning properly.  
+- The user has an active data plan for internet connectivity.  
+- The vehicle's Wi-Fi hotspot is available and within range for passengers to connect their devices.  
+- The user (e.g., Alise or Bob) has access to the vehicle's connectivity settings through the vehicle’s infotainment system.
+
+**4. Main Scenario**  
+1. Alise turns on the vehicle and accesses the Wi-Fi hotspot settings through the infotainment system.  
+2. Alise selects the option to enable the Wi-Fi hotspot, and the sub-system activates the hotspot functionality, allowing passengers to connect their devices.  
+3. Bob, a passenger in the car, connects his phone to the Wi-Fi network using the provided network name and password.  
+4. The sub-system tracks data usage and alerts Alise when the data usage reaches 80% of the allocated limit.  
+5. Alise receives a notification on the infotainment system providing a summary of current data usage and a prompt to monitor or adjust data settings.
+
+**5. Alternative Scenario**  
+1. Bob attempts to connect his device to the Wi-Fi network, but the hotspot feature is currently disabled.  
+2. The sub-system notifies Alise through the infotainment screen that the hotspot feature is off and provides an option to enable it.  
+3. Alise selects the option to activate the Wi-Fi hotspot.  
+4. Once activated, Bob successfully connects to the Wi-Fi network.  
+5. If data usage exceeds the vehicle’s data limit, the sub-system sends a warning message to Alise, prompting her to either reduce data consumption or purchase additional data.
+
+**6. Postconditions**  
+- After successful interaction, the Wi-Fi hotspot is active, and users can connect their devices to the internet.  
+- Data usage is continuously monitored, with notifications provided when the usage limit is close to being reached.  
+- The system ensures that data allocation is managed effectively, with the option for the user to control or adjust data preferences.

@@ -1,0 +1,30 @@
+**Technical Specifications: Automatic Traffic Sign Recognition and Alerting**
+
+**1. Title**  
+Automatic Traffic Sign Recognition and Alerting
+
+**2. Functional Description**  
+The Automatic Traffic Sign Recognition and Alerting sub-system is responsible for detecting traffic signs on the road and providing real-time notifications to the driver. The system utilizes the vehicle’s onboard sensors, including cameras and LiDAR, to identify and interpret various traffic signs such as speed limits, stop signs, yield signs, and warning signs (e.g., slippery road). Upon detection, the system issues visual alerts on the dashboard and, when necessary, auditory alerts to the driver to ensure compliance with road regulations. In case of malfunction or conditions that affect detection, the system will notify the driver of potential issues with sign recognition.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with compatible sensors, including high-definition cameras and LiDAR units, capable of capturing and interpreting traffic signs.
+- The vehicle's software and firmware must be fully updated to support the latest version of the Automatic Traffic Sign Recognition and Alerting sub-system.
+- Adequate visibility conditions are required, including sufficient lighting and clear road conditions (e.g., not obstructed by weather elements such as fog or heavy rain).
+- The vehicle must be operating in a region with known, legally valid traffic signs that are within the recognition capabilities of the system.
+
+**4. Trigger Conditions**  
+- The system is activated automatically when the vehicle is powered on or when the ignition is started.
+- Once activated, the system continuously scans the road ahead for traffic signs while the vehicle is in motion.
+- Detection of a traffic sign triggers the system to process and display the relevant information (e.g., speed limit) on the dashboard.
+- If the system is unable to detect signs or misinterprets them (due to poor visibility or sensor issues), the system will trigger a failure alert to notify the driver.
+
+**5. Execution Output**  
+- Upon detecting a traffic sign, the system will output a visual notification on the dashboard or infotainment display, indicating the sign’s type (e.g., speed limit, stop, yield).
+- The system may also provide an auditory warning when necessary (e.g., when approaching a stop sign or if the driver exceeds the speed limit).
+- If a sign is misinterpreted or not detected, the system will output an error message or visual indicator alerting the driver to the issue.
+- The system will display a message advising the driver to exercise caution in situations where sign recognition may be compromised (e.g., low visibility, bad weather).
+
+**6. Exit Conditions**  
+- The system will stop actively scanning for traffic signs when the vehicle is stationary or when the ignition is turned off.
+- If the system detects a critical malfunction (e.g., sensor failure), it will enter a fail-safe mode, disabling traffic sign recognition and alerting features until the issue is resolved.
+- The system will also exit alerting mode once the driver has acknowledged the alert (e.g., by reducing speed or responding to the sign in the correct manner).

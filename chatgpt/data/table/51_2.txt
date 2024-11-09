@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not explicitly mention the requirement for initial calibration of sensors, which is outlined in the UC as a necessary precondition for proper functionality. | "The system must be integrated with the vehicle’s infotainment system for displaying visual alerts and providing auditory feedback (beeps or sounds)." |
+| SSTS does not specify the feedback mechanism when the vehicle speed is reduced to within the legal limit, as described in the UC. | "If the vehicle’s speed is reduced to within the legal limit, the system will cease the alert and return to normal monitoring." |
+| The UC specifies that the system should notify the driver if speed limit data is not available due to GPS failure, while SSTS only mentions a general error message. | "If GPS signal is lost or there is a system malfunction, triggering an error message regarding speed limit monitoring." |
+| UC requires logging of speed violations with detailed compliance data, but SSTS only mentions logging violations without specifying the need for detailed compliance information. | "Speed limit violations are logged with timestamps and vehicle location for potential review." |
+| SSTS does not include explicit interaction with cruise control or automated driving systems for compliance enforcement, as required by the UC. | "The system will stop monitoring if the vehicle is stationary or parked for a prolonged period (e.g., ignition turned off or vehicle in park)." |

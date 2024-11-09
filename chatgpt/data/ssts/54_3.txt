@@ -1,0 +1,43 @@
+**Technical Specifications for Automatic Traffic Sign Recognition and Alerting**  
+*Compliance Level: Partially Compliant*
+
+---
+
+**1. Title**  
+Technical Specifications for Automatic Traffic Sign Recognition and Alerting
+
+---
+
+**2. Functional Description**  
+The Automatic Traffic Sign Recognition and Alerting sub-System enables the vehicle to recognize and interpret traffic signs in its environment and provide visual and audible alerts to the driver. The system uses a combination of cameras, image processing algorithms, and navigation data to detect traffic signs, including speed limits, stop signs, and other regulatory signs. Alerts are presented on the vehicle’s dashboard or head-up display and may be accompanied by an audible warning. The system is intended to improve driver awareness and enhance road safety.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with a camera system capable of recognizing traffic signs, with at least two forward-facing cameras and sufficient image-processing capabilities.  
+- The vehicle’s navigation system is active and capable of cross-checking detected signs with real-time location data for contextual relevance.  
+- The Automatic Traffic Sign Recognition and Alerting feature must be manually activated by the driver through the settings menu.  
+- The vehicle must be in motion, and the environment must have clear visibility of traffic signs (e.g., signs must not be obstructed by objects, weather conditions, or other vehicles).
+
+---
+
+**4. Trigger Conditions**  
+- The system is triggered when the vehicle’s engine is running, and the Automatic Traffic Sign Recognition and Alerting feature is enabled by the driver.  
+- The system continuously monitors the vehicle's surroundings while it is in motion and automatically detects traffic signs within the camera’s field of view.  
+- Detection of a valid traffic sign triggers an alert, either visual or auditory, depending on the type of sign and its implications for the driver’s actions.
+
+---
+
+**5. Execution Output**  
+- Upon detecting a traffic sign, the system will display the relevant sign type (e.g., speed limit, stop sign) on the vehicle’s dashboard or head-up display.  
+- The system will issue an audible alert for signs that require immediate driver action, such as speed limit changes or stop signs.  
+- For signs that do not require immediate action (e.g., advisory speed signs), only a visual alert will be provided.  
+- If the system encounters an error or malfunction, it will display a message indicating that the feature is temporarily unavailable. The system will stop providing alerts until the issue is resolved.
+
+---
+
+**6. Exit Conditions**  
+- The system remains active as long as the vehicle is moving and the feature is enabled by the driver.  
+- The system will deactivate when the vehicle stops for more than 30 seconds (e.g., at a stoplight or in a parking situation).  
+- If the driver manually disables the feature via the settings menu, the system will turn off.  
+- The system will automatically deactivate in case of a critical malfunction, such as a failure in the camera or sensor system, and will display an error message indicating the issue. The system will not resume operation until the malfunction is addressed and cleared.

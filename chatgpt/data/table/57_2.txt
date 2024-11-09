@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC assumes seamless system operation in all conditions, while the SSTS includes dependencies on vehicle power and network connectivity that may cause issues. | "The vehicle must be in an operational state, powered on, and have a functional primary or backup power source." |
+| UC requires fully automated evacuation, but the SSTS provides manual override options that could disrupt the seamless experience. | "A manual override option is available for passengers to activate evacuation features in case of system malfunction." |
+| UC assumes flawless communication with emergency services, while the SSTS mentions potential limitations in connectivity. | "The vehicle must have a network connection that allows communication with emergency services during evacuation." |
+| UC expects the system to operate flawlessly during any emergency, but SSTS specifies that manual activation may be necessary in some cases. | "Manual activation by a passenger or emergency override control in the event of system failure." |
+| UC requires the system to handle all possible emergencies, but SSTS limits the scope to specific hazards detected by sensors. | "Detection of smoke, heat, or fire inside the vehicle by the fire detection system." |
+| UC implies immediate response from the system, whereas SSTS includes steps that might delay evacuation, such as waiting for system reactivation or override. | "The system resets for future use or enters a diagnostic mode to address any failures detected during the evacuation process." |

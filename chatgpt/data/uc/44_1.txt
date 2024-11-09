@@ -1,0 +1,34 @@
+**Underpinning Contract: Automatic System Reset for Vehicle In-Car Tech**
+
+### 1. Title
+**Automatic System Reset for Vehicle In-Car Tech**
+
+### 2. Goal
+The Automatic System Reset sub-system will enable the vehicle's in-car technology to self-diagnose and reset when encountering software malfunctions or system errors, ensuring continuous, uninterrupted user experience. The sub-system will provide the following abilities:
+
+- **Self-reset**: The system will detect failures in core in-car tech components (e.g., infotainment, navigation, climate control) and automatically reset the affected module without requiring user intervention.
+- **Recovery mode**: If a reset is unsuccessful, the sub-system will enter a recovery mode to provide minimal functionality while attempting to resolve errors.
+- **Error Logging**: Any failures or resets will be logged for future diagnostics, allowing maintenance teams to analyze recurring issues.
+
+### 3. Preconditions
+- The vehicle is powered on and has an operational in-car tech system (e.g., infotainment, connectivity, climate control).
+- The vehicle's system firmware is up-to-date with the latest software release.
+- The user has authorized the vehicle to perform automatic system diagnostics and resets during setup.
+
+### 4. Main Scenario
+1. **User Action**: Bob starts the vehicle and notices that the in-car tech system is unresponsive (e.g., the navigation screen is frozen).
+2. **System Response**: The Automatic System Reset sub-system detects the unresponsiveness and initiates a system check.
+3. **User Action**: Bob does not need to manually intervene. The system begins an automatic reset process.
+4. **System Response**: The reset process takes place within a few seconds, and the affected system component (e.g., infotainment) restarts with full functionality restored.
+5. **User Action**: Bob continues using the vehicle’s in-car tech as normal, with no further interruptions.
+
+### 5. Alternative Scenario
+1. **User Action**: Bob starts the vehicle, and the in-car tech system is unresponsive, but the automatic reset fails.
+2. **System Response**: The system logs the failure and enters a recovery mode, providing minimal functionality (e.g., basic navigation or audio playback).
+3. **User Action**: Bob is notified via a message on the vehicle's display, indicating that the reset failed and recovery mode has been activated.
+4. **System Response**: The system suggests a manual reset or directs Bob to schedule an appointment with service support for further troubleshooting.
+5. **User Action**: Bob can either attempt a manual reset or use the vehicle with limited functionality while awaiting further assistance.
+
+### 6. Postconditions
+- **Successful Reset**: After a successful reset, the in-car tech system is fully functional, with all features restored to normal operation.
+- **Recovery Mode**: If the reset fails, the system enters recovery mode, ensuring that at least basic vehicle functions (e.g., navigation or audio) remain operational while the user is notified of the issue and the reset attempt is logged for analysis.

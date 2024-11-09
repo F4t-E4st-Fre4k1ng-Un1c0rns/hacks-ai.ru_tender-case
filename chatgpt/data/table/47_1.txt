@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC suggests the vehicle’s Wi-Fi hotspot should be able to connect using any available internet connection, whereas SSTS limits the connection to only cellular data. | "The vehicle must be equipped with a cellular modem capable of establishing an internet connection." |
+| UC implies the user has full control over data limits and settings, but SSTS provides limited user control for adjusting data usage beyond predefined thresholds. | "The user adjusts the data limit or resets data usage statistics within the system interface." |
+| UC specifies real-time tracking and granular notifications for data usage, while SSTS only triggers alerts at major thresholds (75%, 90%, 100%). | "The user receives notifications when data consumption reaches key thresholds (75%, 90%, and 100%)." |
+| UC anticipates a "No connection available" message if the Wi-Fi is not usable, but SSTS lacks a clear mention of this type of failure notification. | "The system detects a data connection issue, such as the loss of cellular network connectivity, prompting automatic deactivation of the hotspot." |
+| UC suggests more flexible exit points for the system (e.g., user interaction or timeout), while SSTS only mentions exit after a specific user action or system failure. | "The system exits once the user has finished viewing data usage statistics or when no further action is taken within the interface for a predefined period." |

@@ -1,0 +1,28 @@
+**Title:** Bluetooth-Based Vehicle Access System
+
+**Goal:**  
+The Bluetooth-Based Vehicle Access System enables seamless, keyless entry to the luxury electric vehicle by allowing the user to unlock and start the car through their smartphone or other Bluetooth-enabled device. This system offers enhanced convenience, security, and user experience, with additional features such as remote locking, proximity detection, and automatic vehicle entry detection.
+
+**Preconditions:**  
+- The vehicle is equipped with Bluetooth access technology.  
+- The user has installed the dedicated mobile app on their smartphone.  
+- Bluetooth is enabled on the user’s smartphone or device.  
+- The vehicle’s Bluetooth system is active and within range.
+
+**Main Scenario:**  
+1. Bob approaches the vehicle with his smartphone in his pocket, which has the vehicle’s mobile app installed and Bluetooth enabled.  
+2. The system detects Bob’s smartphone via Bluetooth when he is within proximity (e.g., 5 meters).  
+3. The vehicle automatically unlocks the doors as Bob reaches for the handle.  
+4. Bob enters the vehicle and places his foot on the brake.  
+5. The vehicle starts automatically without the need for a physical key, based on the proximity and Bluetooth pairing with Bob's phone.
+
+**Alternative Scenario:**  
+1. Bob approaches the vehicle, but his smartphone’s Bluetooth is turned off or out of range.  
+2. The system fails to detect the device and does not unlock the vehicle.  
+3. The vehicle’s app sends an alert to Bob’s phone, notifying him that Bluetooth is disabled or the range is insufficient.  
+4. Bob manually unlocks the car using the physical key or remote control.  
+5. The system logs the failed attempt and prompts Bob to ensure Bluetooth is enabled for future use.
+
+**Postconditions:**  
+- After successful interaction, the vehicle’s doors remain unlocked, and Bob can start the vehicle without any further actions.  
+- The system records the successful entry, and the Bluetooth connection remains active until the vehicle is turned off or the user exits the vehicle.

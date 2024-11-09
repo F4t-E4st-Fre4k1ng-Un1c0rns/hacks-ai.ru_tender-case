@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not provide detailed functionality for managing multiple devices connected to the hotspot, whereas UC expects this feature to be more robust. | *"The system must support connection for devices using Wi-Fi standards such as 802.11ac."* |
+| UC mentions user customization for precise data alert thresholds, but SSTS only generally mentions setting data usage alerts without specifying the level of customization. | *"A user sets or modifies data usage alerts, specifying thresholds for notifications."* |
+| SSTS lacks detailed handling of system failure scenarios or data plan exhaustion, which is explicitly described in the UC. | *"A user initiates a connection to the Wi-Fi hotspot from a compatible device."* (No mention of failure due to data exhaustion) |
+| UC specifies real-time data usage tracking and the ability to reset after each session, but SSTS does not make it clear that data tracking is reset for each new session. | *"Data usage tracking pauses or resets when the Wi-Fi hotspot is turned off or the user disconnects all devices."* (Does not mention resetting after each session) |
+| SSTS does not address the impact of overloaded systems or excessive connected devices in detail, whereas UC expects a more robust solution for this issue. | *"The system detects an overload or excessive number of connected devices, prompting a warning or adjustment request."* (Not enough detail on handling overloaded scenarios) |

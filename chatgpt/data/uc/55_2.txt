@@ -1,0 +1,34 @@
+**Underpinning Contract for Driver Assistance Systems – Blind Spot Detection**
+
+### 1. Title  
+Driver Assistance Systems for Blind Spot Detection
+
+### 2. Goal  
+The Driver Assistance System for Blind Spot Detection aims to enhance driving safety by providing real-time notifications to the driver regarding vehicles or obstacles in the vehicle’s blind spots. This feature will use sensors and cameras to detect objects in the adjacent lanes or hard-to-see areas around the car, alerting the driver of potential risks that may not be visible through conventional mirrors. The goal is to prevent accidents caused by lane changes or turns when a vehicle is present in the blind spot.
+
+### 3. Preconditions  
+- The Blind Spot Detection system must be enabled and activated within the car’s infotainment settings.
+- The vehicle must be equipped with the necessary sensors (such as radar or cameras) integrated into the side mirrors or rear corners of the car.
+- The system will function when the car is in motion at speeds above 20 km/h (12 mph).
+- The driver must be seated in the driver’s seat with the seatbelt fastened for the system to be operational.
+- The vehicle must have clear weather conditions for optimal sensor performance (e.g., no heavy rain, fog, or snow).
+
+### 4. Main Scenario  
+1. **Alise starts driving**: Alise begins driving her luxury electric car and enables the Blind Spot Detection system through the car’s settings menu.  
+2. **System monitors surroundings**: As Alise continues driving, the system actively monitors the blind spots on both sides of the car using sensors and cameras.  
+3. **Approaching a vehicle in the blind spot**: When a vehicle approaches from behind and enters the blind spot, the system detects it.  
+4. **Alert is triggered**: A visual warning appears on the side mirror of the car, indicating that there is a vehicle in the blind spot. In some models, an audible warning may also sound.  
+5. **Alise adjusts driving**: Alise sees the warning and decides to adjust her driving, either by slowing down or changing lanes when it is safe to do so, avoiding a potential collision.
+
+### 5. Alternative Scenario  
+1. **System failure or sensor malfunction**: Bob is driving when the Blind Spot Detection system fails to provide any warnings. He notices the system’s warning light on the dashboard, indicating a malfunction.  
+2. **System alerts driver to manual check**: The car displays a message instructing Bob to manually check the mirrors and surrounding traffic conditions.  
+3. **Bob remains vigilant**: Bob takes extra caution by checking his blind spots using traditional mirror checks and physically turning his head to ensure no vehicles are present in the adjacent lanes.  
+4. **Service request**: The system alerts Bob that maintenance or calibration may be needed. He is advised to visit the nearest service center to address the issue.  
+5. **Manual override**: In case of continuous failure, Bob can opt to manually turn off the Blind Spot Detection feature temporarily through the settings until the issue is resolved.
+
+### 6. Postconditions  
+- After a successful interaction with the Blind Spot Detection system, Alise or Bob will have improved situational awareness and enhanced safety when changing lanes or making turns.  
+- If the system successfully detects a vehicle in the blind spot, it will provide clear, timely warnings to allow the driver to make informed decisions.  
+- In case of system failure, the driver will receive a notification prompting them to take manual precautions, such as checking blind spots manually and visiting a service center for repairs.  
+- The vehicle will resume normal operation once the system is repaired or recalibrated, ensuring the driver’s safety and the optimal functioning of the Blind Spot Detection system.

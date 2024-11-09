@@ -1,0 +1,41 @@
+**Title: Fuel Efficiency Tracking and Recommendations**
+
+**Goal:**
+The "Fuel Efficiency Tracking and Recommendations" sub-system is designed to provide users with real-time tracking of fuel efficiency and offer personalized recommendations for improving driving behavior and energy consumption. It will enable the driver to monitor fuel usage patterns, get alerts for fuel efficiency improvements, and receive actionable suggestions to optimize energy consumption, ultimately enhancing the driving experience and supporting eco-friendly practices.
+
+**Preconditions:**
+- The vehicle must be equipped with the necessary sensors and data transmission systems to track fuel consumption and driving behavior.
+- The user must have an active account in the car’s digital ecosystem and be logged into the system.
+- The car must be in operational mode (ignition on or in motion) for fuel efficiency tracking to function.
+- The system must have access to GPS and driving data (e.g., speed, route, acceleration) to generate accurate recommendations.
+
+**Main Scenario:**
+1. **User Action:** Alise starts the vehicle and logs into the vehicle's app.
+   - **System Response:** The "Fuel Efficiency Tracking" sub-system activates, displaying real-time fuel consumption data and efficiency metrics on the dashboard.
+   
+2. **User Action:** Alise selects the "Fuel Efficiency Recommendations" option from the main menu.
+   - **System Response:** The system analyzes Alise's recent driving data, providing a summary of fuel usage and suggesting areas for improvement (e.g., smoother acceleration, maintaining consistent speed).
+   
+3. **User Action:** Alise follows one of the system's recommendations (e.g., reducing aggressive acceleration).
+   - **System Response:** The sub-system monitors her driving behavior and updates the recommendations in real-time, offering feedback if improvements are noticed.
+   
+4. **User Action:** Alise drives for a set period, and the system periodically alerts her if her driving habits are improving or if further adjustments are recommended.
+   - **System Response:** The system continues tracking, providing periodic feedback and motivational messages to encourage fuel efficiency goals.
+   
+5. **User Action:** Alise finishes her trip and reviews the fuel efficiency summary in the app.
+   - **System Response:** The system provides a final summary of fuel efficiency for the trip, offers personalized tips, and updates her efficiency score or rating.
+
+**Alternative Scenario:**
+1. **User Action:** Bob starts the vehicle, but the fuel efficiency tracking system fails to initialize due to sensor malfunction.
+   - **System Response:** The system alerts Bob with a message saying, "Fuel Efficiency Tracking Unavailable - Please check your vehicle's sensor connection."
+   
+2. **User Action:** Bob attempts to access the recommendations section, but the system remains unresponsive.
+   - **System Response:** The system displays an error message indicating that the recommendations feature is temporarily unavailable and suggests restarting the vehicle or contacting support.
+   
+3. **User Action:** Bob attempts to restart the vehicle to fix the issue.
+   - **System Response:** If the issue persists, the system prompts Bob to visit a service center for diagnostic support, while notifying him that fuel efficiency tracking will be unavailable until the issue is resolved.
+
+**Postconditions:**
+- After a successful interaction with the "Fuel Efficiency Tracking and Recommendations" sub-system, the user receives an updated summary of fuel efficiency, along with actionable insights for improving driving habits.
+- The system updates the vehicle’s overall fuel efficiency score and stores the user’s feedback for future optimization.
+- If the user consistently follows the system’s recommendations, they may see a gradual improvement in their vehicle's energy efficiency over time.

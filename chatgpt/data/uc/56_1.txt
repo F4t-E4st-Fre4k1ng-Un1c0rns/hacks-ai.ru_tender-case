@@ -1,0 +1,61 @@
+**Underpinning Contract: In-Vehicle Cloud Storage for Personal Data and Music**
+
+---
+
+### 1. Title  
+**In-Vehicle Cloud Storage for Personal Data and Music**
+
+---
+
+### 2. Goal  
+The goal of the In-Vehicle Cloud Storage for Personal Data and Music is to provide the user with seamless access to their personal data, music collection, and related content directly from the vehicle’s infotainment system. This subsystem will allow the user to upload, store, and retrieve personal data, including music playlists, preferences, contacts, and vehicle settings. It will ensure a secure, accessible, and personalized experience while driving. The cloud storage will be fully integrated with the vehicle's system, allowing for automatic synchronization and real-time access across all connected devices.
+
+---
+
+### 3. Preconditions  
+- The user must have an active account with the cloud storage service linked to the vehicle system.
+- The user’s mobile device or other connected devices must be paired with the vehicle's infotainment system.
+- The vehicle must be within range of a secure internet connection (e.g., through a cellular network or Wi-Fi).
+- The vehicle must have the necessary hardware (e.g., storage and connectivity modules) for cloud integration.
+- The user must have consented to terms and conditions of the cloud service for personal data and music storage.
+
+---
+
+### 4. Main Scenario  
+1. **User Action:** Bob enters the vehicle and starts the engine.  
+   **Sub-System Response:** The vehicle’s infotainment system powers up and automatically connects to the cloud storage service using the vehicle's internet connection.
+
+2. **User Action:** Bob selects the "Music" option from the infotainment menu.  
+   **Sub-System Response:** The system retrieves Bob's personal music library from the cloud and displays it on the screen, showing recently played tracks and playlists.
+
+3. **User Action:** Bob selects a playlist and presses "Play".  
+   **Sub-System Response:** The cloud service streams Bob’s selected playlist through the vehicle's audio system, with the option for continuous playback.
+
+4. **User Action:** Bob receives a notification prompting to update his personal preferences and data.  
+   **Sub-System Response:** The system syncs Bob's preferences (such as seat positions, temperature, and audio settings) with the cloud, ensuring a personalized experience each time he drives.
+
+5. **User Action:** Bob decides to upload a new music album from his mobile device to the cloud.  
+   **Sub-System Response:** The system detects the new music on Bob’s device and uploads it to his cloud storage for future access.
+
+---
+
+### 5. Alternative Scenario  
+1. **User Action:** Bob enters the vehicle and attempts to connect to the cloud service.  
+   **Sub-System Response:** The system detects that there is no internet connection and displays an error message: "Connection to cloud storage unavailable."
+
+2. **User Action:** Bob tries again to access his music library.  
+   **Sub-System Response:** The system informs Bob: "Music library is currently offline. Please check internet connection or try again later."
+
+3. **User Action:** Bob decides to use offline music instead.  
+   **Sub-System Response:** The system displays available offline music stored on the vehicle’s internal memory and allows Bob to play those files directly without cloud access.
+
+4. **User Action:** Bob tries to sync new data (e.g., preferences) but receives an error message.  
+   **Sub-System Response:** The system alerts Bob that synchronization is not possible due to a cloud service failure and advises to try syncing once the connection is restored.
+
+---
+
+### 6. Postconditions  
+- Upon successful interaction, Bob’s personal data and music settings are automatically updated and synced with the cloud service.
+- The cloud service will maintain an up-to-date backup of Bob's personal preferences, music library, and any other stored data.
+- Any changes to Bob’s music library, playlists, or personal data will be reflected across all connected devices, including the vehicle’s infotainment system.
+- The vehicle’s system will provide Bob with a personalized and consistent experience, reflecting his preferences every time he drives.

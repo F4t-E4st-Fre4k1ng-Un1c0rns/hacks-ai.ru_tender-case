@@ -1,0 +1,44 @@
+**Underpinning Contract for Automatic System Reset for Vehicle In-Car Tech**
+
+**1. Title:**  
+Automatic System Reset for Vehicle In-Car Tech  
+
+**2. Goal:**  
+The Automatic System Reset feature is designed to automatically reset the in-car technology systems when a malfunction or software glitch is detected. This ensures that the vehicle's infotainment, navigation, and other digital interfaces function smoothly without requiring manual intervention from the driver or passenger. By providing seamless recovery from system failures, the feature enhances the overall user experience, maintaining the luxury and convenience expected from a high-end electric vehicle.
+
+**3. Preconditions:**  
+- The vehicle must be equipped with integrated in-car technology systems such as infotainment, navigation, and voice command systems.
+- The Automatic System Reset functionality must be enabled by default as part of the vehicle’s software configuration.
+- The system must be connected to the vehicle’s diagnostic network to monitor in-car tech health in real-time.
+- The user (driver or passenger) is familiar with basic operation of the vehicle's touchscreen interface and controls.
+
+**4. Main Scenario:**  
+1. **Detection of Failure:**  
+   The in-car technology detects an issue, such as a software freeze or unresponsiveness, and triggers the Automatic System Reset protocol.
+   
+2. **User Notification:**  
+   The user (Alise or Bob) sees a subtle notification on the main screen indicating that the system is being reset. A message might appear saying, "In-Car Tech is restarting."
+
+3. **System Reset:**  
+   The Automatic System Reset process begins, and the in-car tech is restarted without requiring user intervention. The system will reboot all software components, including infotainment, navigation, and climate control interfaces.
+
+4. **System Re-initialization:**  
+   Once the reset is complete, the system automatically reinitializes and returns to its last used state, preserving user preferences and settings where possible.
+
+5. **Resumption of Functionality:**  
+   Alise or Bob can continue using the system seamlessly as the in-car tech returns to full functionality with no manual reset required.
+
+**5. Alternative Scenario:**  
+1. **Failure to Reset:**  
+   If the Automatic System Reset fails to resolve the issue (e.g., if the malfunction persists after multiple attempts), a message will appear on the screen saying, "System Reset Unsuccessful. Please contact support."  
+   
+2. **Manual Intervention Required:**  
+   Alise or Bob will be prompted to contact customer support or visit the service center for a more in-depth diagnostic check. The user will be informed of the need for professional intervention.
+
+3. **Temporary System Unavailability:**  
+   If the system is currently unavailable due to a more severe failure, Alise or Bob may receive a message stating, "In-Car Tech is temporarily unavailable. Please use manual controls." The basic functions of the vehicle, such as driving, will remain operational, but the advanced digital features may not be accessible until the issue is resolved.
+
+**6. Postconditions:**  
+- Upon successful completion of the Automatic System Reset, the in-car tech system will be fully operational, and all affected systems (infotainment, navigation, etc.) will return to their normal state.
+- User preferences (e.g., radio stations, map settings, climate control) will be preserved wherever possible, providing a seamless return to the previous state.
+- Any issues or glitches that were preventing the system from functioning properly will be resolved, and the system will continue operating without further intervention.

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC specifies that automatic unlocking of doors should always function properly, but SSTS mentions potential malfunctions. | "The system may not consistently ensure the automatic unlocking of all doors, as there are instances where failures can occur." |
+| UC expects the system to trigger based solely on critical events (collision, fire), but SSTS includes additional manual triggers. | "Manual activation by the driver or any passenger, triggered by a panic button or voice command indicating emergency conditions." |
+| UC requires full automatic operation, but SSTS provides manual alternatives in cases of failure. | "If door unlocking fails, alternative manual release methods are provided, along with escape instructions via the vehicle’s interior system." |
+| UC requires the system to ensure full evacuation and timely notification of emergency services, but SSTS acknowledges potential evacuation failures. | "In rare cases, the system might not guarantee complete evacuation or provide timely alerts to emergency services due to sensor or software failures." |
+| UC specifies the system will notify emergency services instantly after evacuation, while SSTS states this happens only after the activation of the evacuation system. | "Transmission of an emergency distress signal, including vehicle location, to local emergency services for rapid response." |

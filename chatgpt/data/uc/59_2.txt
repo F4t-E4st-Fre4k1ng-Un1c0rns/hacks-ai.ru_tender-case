@@ -1,0 +1,36 @@
+**Title**  
+Remote Monitoring of EV Battery Health and Charging Status  
+
+**Goal**  
+The Remote Monitoring of EV Battery Health and Charging Status sub-System provides users with real-time insights into the health and status of their electric vehicle's (EV) battery. This feature enables users to remotely track key metrics such as battery charge level, state of health (SOH), charging progress, and estimated range. It also alerts the user to any issues or abnormal conditions that may require attention, ensuring the EV’s battery remains in optimal condition and that charging sessions proceed smoothly.
+
+**Preconditions**  
+- The user has an electric vehicle (EV) that supports remote monitoring features.  
+- The vehicle’s battery system must be compatible with the remote monitoring system.  
+- The user must have an active account with the vehicle's remote monitoring platform and be connected to a Wi-Fi or mobile data network.  
+- The vehicle’s battery must be in a state that allows for data collection and transmission.  
+
+**Main Scenario**  
+1. **User logs into the remote monitoring platform.**  
+   - The user opens the app or website and enters their credentials to access the system.  
+2. **User selects the vehicle for monitoring.**  
+   - Once logged in, the user chooses their vehicle from the list of available vehicles connected to the account.  
+3. **User views the battery health and charging status.**  
+   - The system displays the current battery charge level, state of health (SOH), and estimated remaining range, along with real-time charging progress if the vehicle is plugged in.  
+4. **User receives notifications or alerts if there are issues.**  
+   - If the system detects any abnormalities, such as a decline in battery health or an issue during charging, the user is notified immediately via push notification or email.  
+5. **User takes corrective action based on the information provided.**  
+   - The user can choose to act upon the alerts, such as scheduling a maintenance check or adjusting the charging settings, based on the insights provided by the system.
+
+**Alternative Scenario**  
+1. **User tries to log in, but credentials are incorrect.**  
+   - The system prompts the user to re-enter their credentials or resets the password if needed.  
+2. **User attempts to access battery health, but data is unavailable.**  
+   - If the vehicle is disconnected or there is a communication failure, the system informs the user with a message such as, "Unable to retrieve battery data at this time. Please check your vehicle’s connection."  
+3. **User receives an alert about a potential issue, but they cannot address it immediately.**  
+   - The system provides recommendations for next steps, such as contacting customer support or scheduling an appointment for diagnostics, with an option to dismiss or postpone the alert.  
+
+**Postconditions**  
+- After successful interaction, the user has up-to-date information about the battery’s health and charging status.  
+- If any issues were detected, the user has received an alert or notification to take corrective action.  
+- The system ensures that the user is informed and able to manage the battery’s health and charging status proactively, leading to improved vehicle performance and battery longevity.

@@ -1,0 +1,55 @@
+**Underpinning Contract: Mobile App-Based Vehicle Usage and Health Monitoring**
+
+---
+
+**1. Title**  
+Mobile App-Based Vehicle Usage and Health Monitoring
+
+---
+
+**2. Goal**  
+The Mobile App-Based Vehicle Usage and Health Monitoring subsystem is designed to provide the user with real-time tracking and analysis of their vehicle's health and performance. This system will allow users to remotely monitor their electric vehicle's usage statistics, battery status, tire health, engine condition, and other critical data. It will also provide alerts on necessary maintenance, efficiency trends, and any detected issues that could impact the vehicle's operation.
+
+---
+
+**3. Preconditions**  
+- The user must have a compatible mobile device with the necessary app installed.
+- The vehicle must be equipped with the appropriate sensors and connectivity features to sync data with the mobile app.
+- The user must have an active user profile in the app, including the correct vehicle pairing to their account.
+- The vehicle must be powered on or within range of the app's connectivity, such as via Bluetooth or a mobile network.
+- The app must have the required permissions to access vehicle data and notifications.
+
+---
+
+**4. Main Scenario**  
+1. **User opens the mobile app**: Bob opens the app on his phone and logs into his account.
+   - The app displays the home screen with vehicle status and health information.
+2. **User selects "Vehicle Health" tab**: Bob taps on the "Vehicle Health" section from the main menu to check the current condition of his vehicle.
+   - The app retrieves data from the vehicle’s sensors and displays details such as battery health, tire pressure, and engine performance.
+3. **User checks notifications and alerts**: Bob notices a warning indicating that the vehicle’s tire pressure is low.
+   - The app shows a notification with a recommendation to check the tire pressure and provides the nearest service center.
+4. **User views vehicle performance metrics**: Bob taps on the "Performance" section to check recent trip data, including energy consumption and average speed.
+   - The app provides a detailed report with graphs showing performance trends and comparisons.
+5. **User schedules maintenance**: After reviewing the health status, Bob decides to schedule a service for his vehicle’s tires.
+   - The app allows Bob to book an appointment directly with the service center, confirming the service date and time.
+
+---
+
+**5. Alternative Scenario**  
+1. **User opens the mobile app**: Bob opens the app, but the vehicle is not connected due to a connectivity issue.
+   - The app shows an error message saying, "Vehicle not connected. Please ensure Bluetooth is on or try reconnecting."
+2. **User tries to refresh the connection**: Bob taps the "Reconnect" button, but the app still fails to sync with the vehicle.
+   - The app suggests troubleshooting steps, such as checking vehicle connectivity settings or ensuring the vehicle is within range.
+3. **User checks app permissions**: If the issue persists, the app requests Bob to review app permissions for vehicle data access.
+   - Bob is directed to the settings menu where he can confirm or update the app’s permissions.
+4. **User seeks support**: If Bob cannot resolve the issue, the app offers contact details for technical support.
+   - The app displays a link to customer service for further assistance.
+5. **User continues usage once connection is restored**: After troubleshooting, the vehicle reconnects, and Bob can proceed to check his vehicle’s health data as usual.
+
+---
+
+**6. Postconditions**  
+- Upon successful interaction, Bob is provided with up-to-date information about his vehicle’s health and performance.
+- The app will display an updated status of the vehicle’s various systems, including any potential issues and scheduled maintenance appointments.
+- If an alert or warning is triggered, Bob will receive a notification with actionable next steps, such as service scheduling or preventive maintenance recommendations.
+- Any changes made, such as scheduling maintenance or updating vehicle data, will be recorded and reflected in the user's app account for future reference.

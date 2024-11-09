@@ -1,0 +1,34 @@
+**1. Title**  
+Wi-Fi Hotspot Management and Data Usage Monitoring – Technical Specifications
+
+**2. Functional Description**  
+The Wi-Fi Hotspot Management and Data Usage Monitoring sub-system enables the vehicle to serve as a mobile Wi-Fi hotspot, allowing connected devices to access the internet through the vehicle’s cellular connection. The system monitors data consumption in real time, providing users with the ability to view data usage statistics, set data limits, and receive notifications when data thresholds are exceeded. The system also allows the user to enable or disable the hotspot feature at any time and adjust settings related to data consumption.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with a cellular modem capable of establishing an internet connection.  
+- A valid mobile data plan must be associated with the vehicle’s cellular modem.  
+- The Wi-Fi Hotspot feature must be enabled via the vehicle's infotainment system or settings interface.  
+- The vehicle must be within range of a stable cellular network to activate the Wi-Fi Hotspot.  
+- The system firmware must be updated to a version that supports hotspot management and data usage monitoring features.
+
+**4. Trigger Conditions**  
+- The user selects the "Wi-Fi Hotspot" option in the vehicle's infotainment system or settings menu.  
+- Data usage reaches 75%, 90%, or 100% of the pre-set data limit, triggering notification alerts to the user.  
+- The user adjusts the data limit or resets data usage statistics within the system interface.  
+- The system detects a data connection issue, such as the loss of cellular network connectivity, prompting automatic deactivation of the hotspot.  
+- The user manually activates or deactivates the Wi-Fi Hotspot through the vehicle's interface.
+
+**5. Execution Output**  
+- The system provides a stable internet connection to any connected devices when the Wi-Fi Hotspot is enabled.  
+- Real-time data usage statistics are displayed in the vehicle’s infotainment system.  
+- The user receives notifications when data consumption reaches key thresholds (75%, 90%, and 100%).  
+- The system adjusts data settings, such as the data limit or reset of statistics, based on user input.  
+- The system automatically disables the hotspot if the data limit is exceeded or if the cellular connection is lost.  
+- If the Wi-Fi Hotspot is deactivated, a confirmation message is displayed to the user.
+
+**6. Exit Conditions**  
+- The user successfully adjusts settings or confirms actions such as data limit changes or hotspot status updates.  
+- The Wi-Fi Hotspot feature is deactivated by the user or automatically due to exceeding the data limit or loss of cellular connectivity.  
+- The system exits the "Wi-Fi Hotspot" menu when the user has completed all actions and no further changes are made.  
+- The system exits if the vehicle loses internet connectivity or is powered off, terminating any active Wi-Fi Hotspot session.  
+- The feature exits once the user has finished viewing data usage statistics or when no further action is taken within the interface for a predefined period.

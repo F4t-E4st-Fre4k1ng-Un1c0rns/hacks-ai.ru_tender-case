@@ -1,0 +1,9 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC requires full integration with all home automation systems, but the SSTS mentions limited compatibility with older systems. | "Limited compatibility with older home automation systems." |
+| UC specifies that geofencing should work seamlessly for all devices, but the SSTS states that geofencing is not consistently triggered for all users. | "Geofencing features may not consistently trigger due to device compatibility issues." |
+| The UC requires real-time notifications, while the SSTS mentions potential delays or failure in receiving notifications. | "Users may not receive notifications due to network failures or device compatibility issues." |
+| UC mandates that the system should always log vehicle security activities, but the SSTS states that logs may be incomplete due to integration issues. | "Incomplete tracking of vehicle security events due to integration failures between the vehicle and home automation system." |
+| UC specifies automatic exit of security modes, but the SSTS states that manual intervention may be required in some cases. | "Manual intervention may be required if the system fails to properly exit a security mode (e.g., alarm or lock)." |
+| The UC expects uninterrupted network connectivity, but the SSTS mentions that connectivity issues can affect performance. | "Inconsistent network connection can interrupt system performance." |
+| UC requires full geofencing support based on proximity, whereas the SSTS indicates that geofencing may not always trigger correctly. | "Geofencing may not always trigger an automatic exit when the user returns home." |

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not fully address the management of data allocation across multiple users, as required by the UC. | "The system ensures fair allocation of data across all connected users." |
+| SSTS lacks clarity on user interface accessibility for non-primary users, which is specified in the UC. | "The user has an active data plan for the internet connection, with a clear understanding of data usage limits." |
+| SSTS does not include failure notifications for hotspot unavailability due to network issues, which the UC specifies. | "A failure in the network connection is detected, preventing the hotspot from functioning, which triggers a system notification informing the user of the issue." |
+| SSTS does not fully cover the detailed user options when data usage exceeds the limit, unlike the UC which specifies offering options to purchase additional data. | "When data usage exceeds the set threshold, the system prompts the user to adjust data settings or purchase additional data." |
+| SSTS does not detail the need for dynamic and real-time notifications for data usage thresholds at every critical level (80%, 90%, 100%), which is required in the UC. | "Data usage notifications are sent to the user when thresholds (80%, 90%, 100%) are reached." |

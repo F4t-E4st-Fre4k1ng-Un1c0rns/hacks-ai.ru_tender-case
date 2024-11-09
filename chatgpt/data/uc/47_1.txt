@@ -1,0 +1,27 @@
+**Title**  
+Wi-Fi Hotspot Management and Data Usage Monitoring
+
+**Goal**  
+The Wi-Fi Hotspot Management and Data Usage Monitoring subsystem will allow users to connect to the internet via the vehicle’s Wi-Fi hotspot, monitor their data usage, and manage connectivity settings for optimal usage. Users will be able to control the data limits, track consumption, and receive notifications when data thresholds are reached.
+
+**Preconditions**  
+- The vehicle must have an active internet connection via the in-built cellular module.  
+- User must be in the vehicle and within range of the Wi-Fi hotspot.
+- The vehicle’s Wi-Fi hotspot feature must be enabled in the system settings.  
+- A valid mobile data plan should be associated with the vehicle.
+
+**Main Scenario**  
+1. User (Alise) accesses the car’s main infotainment screen and selects "Wi-Fi Hotspot" from the menu.  
+2. The subsystem displays the current Wi-Fi hotspot status and data usage information.  
+3. Alise checks the current data usage and selects to adjust the data limit or turn off data sharing.  
+4. The system confirms the new settings, showing updated data limits or status changes.  
+5. Alise can enable or disable the Wi-Fi hotspot with a simple toggle, and the system notifies her of the action's success.
+
+**Alternative Scenario**  
+1. Bob attempts to connect to the Wi-Fi hotspot but receives a "No connection available" message.  
+2. Bob checks the vehicle's settings, and the subsystem displays a message that the hotspot is turned off due to exceeding the data limit.  
+3. Bob is prompted to either reset the data limit or connect the vehicle to a different network.  
+4. If Bob does not take action, the Wi-Fi remains unavailable until a valid connection is established.
+
+**Postconditions**  
+After successful interaction with the system, the user will either have their data limits updated, the Wi-Fi hotspot activated, or deactivated according to their preferences. Data usage is tracked and displayed in real-time, and notifications are sent if thresholds are met.

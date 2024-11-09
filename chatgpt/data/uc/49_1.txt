@@ -1,0 +1,42 @@
+**Underpinning Contract: Real-Time Vehicle Location and Theft Detection**
+
+---
+
+**1. Title**  
+Real-Time Vehicle Location and Theft Detection
+
+---
+
+**2. Goal**  
+The Real-Time Vehicle Location and Theft Detection sub-System will provide users with the ability to track the real-time location of their luxury electric vehicle (EV) and receive immediate alerts in case of theft or unauthorized movement. This sub-System will enhance vehicle security by enabling vehicle owners to monitor the precise position of their car at any given moment and act swiftly in case of suspicious activity. It will also integrate with the company's existing mobile application, ensuring seamless tracking and alert notifications.
+
+---
+
+**3. Preconditions**  
+- The vehicle is equipped with the Real-Time Vehicle Location and Theft Detection hardware and software.
+- The vehicle owner (user) has registered their vehicle and set up the tracking system via the company's mobile application.
+- The mobile application is installed and configured with the necessary permissions on the user's device (e.g., Alise or Bob).
+- The vehicle is within the operating range of GPS and cellular networks to enable location tracking.
+
+---
+
+**4. Main Scenario**  
+1. Alise opens the mobile application and logs into her account.
+2. Alise navigates to the "Vehicle Location" section in the app.
+3. The sub-System retrieves and displays the current location of her vehicle on a map in real-time.
+4. If Alise requests, she can activate the "Theft Detection" mode, which continuously monitors her vehicle for any unauthorized movement.
+5. The sub-System sends an immediate notification to Alise if any unusual or unauthorized movement is detected (e.g., vehicle being towed or driven away without authorization).
+
+---
+
+**5. Alternative Scenario**  
+- If the vehicle is not within the network range or GPS signal is weak, Bob opens the app to track his vehicle but receives an error message stating, "Unable to retrieve vehicle location. Please check the signal strength or try again later."
+- If the vehicle’s GPS or cellular hardware fails, the application notifies Bob, saying, "Real-time tracking unavailable. Please contact support for assistance."
+- If theft detection is triggered but the vehicle is in a restricted area (e.g., a garage or a secure parking space), Bob will receive a confirmation message: "Suspicious activity detected. Verify the location before taking further action."
+
+---
+
+**6. Postconditions**  
+- After successful interaction, Alise or Bob will be able to see the real-time location of their vehicle on the mobile app map.
+- If an alert is triggered for theft detection, the user will receive a detailed notification with the location and any relevant details about the vehicle's status, allowing immediate action.
+- The sub-System will store a history of the vehicle's movements and any security alerts for the user to review later via the mobile app.

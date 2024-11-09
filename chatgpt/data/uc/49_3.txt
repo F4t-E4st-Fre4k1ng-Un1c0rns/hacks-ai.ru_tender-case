@@ -1,0 +1,39 @@
+**Underpinning Contract: Real-Time Vehicle Location and Theft Detection**
+
+**1. Title:**  
+Real-Time Vehicle Location and Theft Detection
+
+**2. Goal:**  
+The Real-Time Vehicle Location and Theft Detection sub-system will provide users with the following capabilities:
+
+- Continuous tracking of vehicle location using GPS and cellular networks.
+- Instant alerts in the event of suspicious or unauthorized movement of the vehicle.
+- Real-time notifications on the status of the vehicle, including theft detection and geofencing.
+- A secure user interface to view vehicle location history and track the vehicle in case of theft.
+- Integration with the vehicle's security system to trigger alarms or immobilization in case of theft.
+
+**3. Preconditions:**  
+- The vehicle must be equipped with the necessary GPS and communication hardware.
+- The sub-system must be connected to the vehicle’s onboard network for continuous monitoring.
+- The user must have an active account with the vehicle's monitoring application.
+- The user must grant permission to receive real-time notifications and location data.
+- The system must have access to a reliable cellular network for real-time communication.
+
+**4. Main Scenario:**
+1. Bob opens the vehicle's monitoring app on his smartphone and logs in with his credentials.
+2. The sub-system verifies Bob’s identity and displays the real-time location of the vehicle on the map.
+3. Bob sets a geofence around the vehicle’s parking area for security purposes.
+4. The vehicle begins its journey, and the system continuously updates Bob with the vehicle's location in real-time.
+5. If the vehicle moves outside the geofenced area, the sub-system immediately sends an alert to Bob’s phone, indicating a potential theft.
+
+**5. Alternative Scenario:**
+1. Bob opens the vehicle’s monitoring app and tries to log in.
+2. The app fails to connect to the sub-system due to a network outage.
+3. Bob receives a notification stating that the vehicle location cannot be retrieved at this moment due to connectivity issues.
+4. Bob attempts to check the vehicle's status again, but the problem persists.
+5. Bob is advised to wait until the network connection is restored to access the vehicle’s location or contact customer support for further assistance.
+
+**6. Postconditions:**  
+- Upon successful interaction, Bob can track the vehicle’s real-time location and receive accurate, timely alerts if the vehicle is moved without authorization.
+- In the case of theft detection, Bob is notified immediately, and the vehicle’s status is updated to indicate potential theft.
+- The system successfully stores the location history for future reference or legal purposes.
