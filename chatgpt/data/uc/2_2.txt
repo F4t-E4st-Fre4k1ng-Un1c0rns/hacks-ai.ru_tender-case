@@ -1,0 +1,31 @@
+**Underpinning Contract for Driver-Assisted Parking System (Automated Parking Assistance)**
+
+**1. Title**  
+Driver-Assisted Parking System (Automated Parking Assistance)
+
+**2. Goal**  
+The Driver-Assisted Parking System (Automated Parking Assistance) aims to provide users with an enhanced parking experience by automating the process of parking the vehicle in tight or difficult spaces. The system will offer assistance in parallel parking, perpendicular parking, and garage parking by taking control of the steering, acceleration, braking, and gear shifts. The user will have the option to monitor and intervene if necessary, but the system will handle most of the tasks autonomously, ensuring a seamless and safe parking process.
+
+**3. Preconditions**  
+- The vehicle must be equipped with the necessary sensors and cameras, including proximity sensors, ultrasonic sensors, and cameras for visual detection.
+- The driver must be seated in the vehicle with the seatbelt fastened to activate the system.
+- The vehicle must be in a parking environment with clear and identifiable parking spaces.
+- The vehicle’s battery must have sufficient charge to operate the system.
+- The parking environment must not have obstructions or irregularities that interfere with sensor functionality (e.g., large objects blocking sensors).
+
+**4. Main Scenario**  
+1. Alise approaches a parking space and activates the Driver-Assisted Parking System by pressing the parking button on the dashboard.
+2. The system detects available parking spaces and displays the options on the infotainment screen, prompting Alise to choose a suitable space.
+3. Alise selects a parking spot, and the system takes control of the vehicle’s steering, acceleration, and braking, guiding the vehicle into the parking space.
+4. The system automatically maneuvers the vehicle into the space while monitoring the proximity to surrounding obstacles.
+5. Once the parking process is complete, the system notifies Alise with a confirmation on the display, and the vehicle is parked.
+
+**5. Alternative Scenario**  
+1. Bob approaches a parking space and activates the Driver-Assisted Parking System, but the system fails to detect any available spaces due to a malfunction in the sensor system.
+2. The system alerts Bob with an error message on the infotainment screen, indicating a sensor issue and the inability to proceed.
+3. Bob is prompted to manually park the vehicle or reposition it to a better location for system recalibration.
+4. After moving the vehicle to a different position, Bob reactivates the system, which successfully detects the available parking space.
+5. The system takes control, and Bob completes the parking process without further issues.
+
+**6. Postconditions**  
+After successful interaction with the Driver-Assisted Parking System, the vehicle will be securely parked within the selected parking space. The system will ensure that all necessary maneuvers, such as steering, braking, and gear shifts, are performed automatically, leaving the driver with minimal involvement. The vehicle will be in a stationary position with all necessary safety measures in place, such as the parking brake engaged, and the user will receive a confirmation of successful parking.

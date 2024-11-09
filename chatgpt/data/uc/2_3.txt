@@ -1,0 +1,29 @@
+**Title**  
+Driver-Assisted Parking System (Automated Parking Assistance)
+
+**Goal**  
+The Driver-Assisted Parking System is designed to enable drivers to automatically park their vehicle with minimal manual input. The system will assist with the identification of suitable parking spaces, and take control of the vehicle’s steering, braking, and throttle to complete parking maneuvers. It aims to reduce parking-related stress, enhance safety, and improve convenience by automating parallel, perpendicular, and angled parking tasks. The system will be user-friendly, with clear instructions and feedback to ensure confidence in its use.
+
+**Preconditions**  
+- The vehicle is equipped with the Driver-Assisted Parking System, and all necessary sensors (e.g., cameras, proximity sensors) are functional.
+- The parking environment must be clear of obstructions and large enough to accommodate the vehicle.
+- The driver is in the vehicle and ready to engage the parking system, either through the infotainment screen, voice command, or a dedicated button.
+- The vehicle must be within a reasonable distance of a valid parking space.
+- The driver must have the parking assist feature enabled via the vehicle’s settings.
+
+**Main Scenario**  
+1. Bob is driving the vehicle and approaches a parking space. The Driver-Assisted Parking System detects available parking spaces and highlights them on the infotainment display.
+2. Bob selects the desired parking space and confirms the choice on the system's interface.
+3. The system prompts Bob to engage the automated parking mode. Bob confirms by pressing the ‘Start’ button or using voice activation.
+4. The system takes control of the steering wheel, brake, and accelerator to guide the vehicle into the parking space. Bob remains inside the vehicle, observing the process.
+5. Once the parking maneuver is successfully completed, the system notifies Bob with a visual and audible confirmation that the parking is finished. The system disengages, and Bob can exit the vehicle.
+
+**Alternative Scenario**  
+1. Alise is driving the vehicle and approaches a parking space. The system identifies potential parking spots but reports that no suitable spaces are available.
+2. The system provides feedback through the infotainment screen, suggesting that Alise drive forward to find a better parking spot or manually park the vehicle.
+3. If the sensors detect an obstruction or the space is too tight for automatic parking, the system will alert Alise with a warning, advising her to park manually.
+4. In the event of a sensor failure or interference (e.g., poor weather conditions), the system will notify Alise with a message on the display and recommend switching to manual parking.
+5. Alise manually parks the vehicle, and the system stores this information for future reference, continuing to monitor the environment for future automated parking opportunities.
+
+**Postconditions**  
+After successful interaction with the Driver-Assisted Parking System, the vehicle is fully parked within the designated parking space. The system ensures that the vehicle is safely aligned and within the boundaries of the space. The driver is notified through visual and audio signals that the process is complete. The system disengages, and the driver can exit the vehicle with the peace of mind that the parking was performed automatically and safely.
