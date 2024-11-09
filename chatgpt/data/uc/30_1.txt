@@ -1,0 +1,31 @@
+**Underpinning Contract: In-Car Remote Diagnostics for Technical Support**
+
+**1. Title**  
+In-Car Remote Diagnostics for Technical Support
+
+**2. Goal**  
+The In-Car Remote Diagnostics for Technical Support system provides the user with real-time diagnostic capabilities to identify and resolve potential issues with the luxury electric vehicle. This feature allows technical support teams to remotely access the car's onboard systems, perform detailed diagnostics, monitor vehicle health, and assist with troubleshooting in real time. It ensures a seamless, efficient customer service experience by enabling swift problem identification and resolution.
+
+**3. Preconditions**  
+- The vehicle must be equipped with the latest version of the car's software and hardware to support remote diagnostics.
+- The driver or user (e.g., Bob or Alise) must be registered in the system with valid contact details for technical support communication.
+- A stable internet connection is required for the communication between the vehicle and the remote diagnostic system.
+- The vehicle's onboard diagnostic interface must be enabled and not restricted by any security protocols or permissions.
+
+**4. Main Scenario**  
+1. Bob (the user) drives the luxury electric vehicle and experiences a technical issue (e.g., warning light or malfunction indicator appears on the dashboard).  
+2. Bob presses the “Diagnostics” button on the car’s infotainment screen to initiate the remote diagnostics feature.  
+3. The In-Car Remote Diagnostics system establishes a secure connection with the technical support team via the cloud.  
+4. Alise (the technical support representative) receives the vehicle’s diagnostic data, identifies the issue, and begins guiding Bob through troubleshooting steps, if needed.  
+5. Bob receives real-time instructions on how to resolve the issue, or the support team schedules a service appointment if the problem cannot be resolved remotely.
+
+**5. Alternative Scenario**  
+1. Bob (the user) drives the vehicle, and the “Diagnostics” button on the infotainment screen becomes unresponsive.  
+2. Bob attempts to manually restart the system by turning the vehicle off and on, but the feature remains unavailable.  
+3. Bob contacts technical support through an alternative communication method (e.g., phone call or mobile app).  
+4. Alise (the technical support representative) assists Bob by manually accessing vehicle diagnostics through an alternate method and guides him through necessary steps.  
+5. If the system remains unresponsive, Alise schedules a service appointment for the vehicle to be brought in for further diagnostics and repair.
+
+**6. Postconditions**  
+- If the system successfully diagnoses and resolves the issue, Bob can continue driving with the vehicle functioning as expected, and a report is sent to both the user and the technical support team documenting the resolution.
+- If the issue cannot be resolved remotely, Bob will be informed of the necessary next steps, which may include scheduling a physical service appointment or further follow-up from technical support.

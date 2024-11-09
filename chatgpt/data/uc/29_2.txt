@@ -1,0 +1,58 @@
+**Underpinning Contract: Seamless Transition Between In-Car and Smartphone Apps**
+
+---
+
+### 1. Title  
+**Seamless Transition Between In-Car and Smartphone Apps**
+
+### 2. Goal  
+The goal of the "Seamless Transition Between In-Car and Smartphone Apps" sub-system is to provide users with a smooth and uninterrupted experience when switching between using the car's in-car system and the corresponding smartphone app. This feature will enable users to:
+
+- Instantly access the same apps, features, and settings on both the in-car system and their smartphone, ensuring consistency across devices.
+- Allow the user to start an activity (e.g., navigation, media playback, or phone calls) in the car, and seamlessly continue it on their smartphone when they leave the vehicle.
+- Enable users to initiate actions, such as adjusting vehicle settings or checking battery status, directly from their smartphone, with immediate feedback in the car system.
+- Automatically synchronize data between the smartphone and in-car systems to reflect the latest settings, preferences, and app states.
+
+### 3. Preconditions  
+- The user must have the vehicle's in-car system and the smartphone app installed and properly configured.
+- Bluetooth, Wi-Fi, or cellular connection must be enabled on both the vehicle and the smartphone to facilitate communication.
+- The smartphone must be paired or connected to the car either via Bluetooth or Wi-Fi, and the app must be logged in with the same user account used in the in-car system.
+- Both the in-car system and smartphone app must be updated to the latest software versions to ensure compatibility.
+- The car must support the feature of seamless transition, and the smartphone must support the necessary operating system (iOS or Android) with the corresponding app installed.
+
+### 4. Main Scenario  
+1. **User Action:** Alise starts a navigation route in the car’s in-car system.  
+   **Sub-System Response:** The in-car system automatically logs the navigation progress and ensures it is synced to Alise’s smartphone app.
+
+2. **User Action:** Alise leaves the vehicle and opens the smartphone app.  
+   **Sub-System Response:** The smartphone app recognizes the in-car system and presents Alise with an option to continue the navigation from where it was last left off.
+
+3. **User Action:** Alise selects the option to continue the navigation on her smartphone.  
+   **Sub-System Response:** The smartphone app instantly loads the current route and settings, resuming the navigation seamlessly.
+
+4. **User Action:** Alise changes the destination on the smartphone app.  
+   **Sub-System Response:** The new destination is reflected immediately in the in-car system when Alise enters the vehicle, ensuring continuity.
+
+5. **User Action:** Alise stops the car, and the media being played switches to her smartphone.  
+   **Sub-System Response:** The media playback seamlessly transitions from the in-car system to the smartphone, allowing Alise to continue enjoying her music without interruption.
+
+### 5. Alternative Scenario  
+1. **User Action:** Bob attempts to start navigation in the in-car system, but the connection to the smartphone is lost.  
+   **Sub-System Response:** The in-car system notifies Bob that the connection to the smartphone is unavailable, offering a manual setup to reconnect the devices.
+
+2. **User Action:** Bob tries to continue media playback via the smartphone, but the app fails to load.  
+   **Sub-System Response:** The smartphone app prompts Bob with a message indicating the failure to load, suggesting checking the device’s Wi-Fi or Bluetooth connection and ensuring the app is up to date.
+
+3. **User Action:** Bob is unable to continue navigation or media transition because of an incompatible app version between the car and the smartphone.  
+   **Sub-System Response:** The in-car system displays a message notifying Bob to update either the smartphone app or the in-car system software for compatibility. The system will suggest actions to resolve the issue.
+
+4. **User Action:** Bob drives away from the vehicle, and the transition feature becomes unavailable due to network limitations.  
+   **Sub-System Response:** The smartphone app informs Bob that the feature is temporarily unavailable due to poor connectivity, and suggests he try again when the signal improves.
+
+5. **User Action:** Bob attempts to start the vehicle, but the in-car system fails to recognize the smartphone.  
+   **Sub-System Response:** The in-car system displays a message suggesting that Bob restart his smartphone app or reconnect Bluetooth/Wi-Fi for a successful pairing.
+
+### 6. Postconditions  
+- Upon successful interaction with the "Seamless Transition Between In-Car and Smartphone Apps" feature, Alise or Bob will experience uninterrupted access to their chosen application, with data, settings, and preferences seamlessly transferred between the in-car system and their smartphone.
+- The user will be able to continue activities, such as navigation or media playback, across devices without losing progress or requiring manual input.
+- The system will keep both the in-car system and smartphone app synchronized, ensuring that updates made on one device are immediately reflected on the other.

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC requires full sensor calibration and guaranteed functionality during each trip, but the SSTS does not guarantee full calibration on every startup. | "The system is enabled and functional only when all sensors are calibrated and operational, and no obstructions or faults are detected in the system's sensors." |
+| UC specifies that the system operates within a 5-60 km/h range, but SSTS mentions that the system can operate beyond this range, though emergency braking is limited above 60 km/h. | "The vehicle’s speed must be between 5-60 km/h for optimal system performance." |
+| UC requires the system to work under all weather conditions, but the SSTS limits performance in extreme weather. | "The road conditions and visibility must be within acceptable parameters, ensuring that the sensors can operate correctly." |
+| UC expects full fallback to manual braking in case of system failure, but the SSTS provides a less detailed manual override mechanism. | "The driver will be notified via the vehicle’s dashboard" [in case of a malfunction, but no direct reference to fallback braking system]. |
+| UC specifies that the system will reset and be ready immediately after emergency braking, but the SSTS does not guarantee immediate reactivation after manual intervention. | "After a trigger event, the system will reset and be ready for further activation as long as the vehicle remains within the operating conditions." |

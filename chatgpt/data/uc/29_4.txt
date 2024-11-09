@@ -1,0 +1,39 @@
+**Underpinning Contract for Seamless Transition Between In-Car and Smartphone Apps**
+
+---
+
+### 1. Goal  
+The Seamless Transition Between In-Car and Smartphone Apps sub-System will enable users to effortlessly switch between controlling vehicle functions from the in-car infotainment system and their smartphone app. This functionality ensures that the user can access critical features such as navigation, climate control, vehicle diagnostics, and media playback across devices without interruptions or data loss.
+
+---
+
+### 2. Preconditions  
+- The user must have the official mobile app installed on their smartphone.
+- The user’s smartphone and in-car infotainment system must be paired via Bluetooth, Wi-Fi, or another supported connectivity method.
+- Both the smartphone app and the in-car infotainment system must be updated to the latest versions.
+- The sub-System should support automatic authentication for the user, ensuring secure transitions between devices without the need for manual login.
+
+---
+
+### 3. Main Scenario  
+1. **Alise** starts her drive in her car and uses the in-car infotainment system to set a destination in the navigation app.
+2. **Alise** leaves her car to head into a meeting, and the system automatically detects that she is exiting the car.
+3. The **in-car infotainment system** prompts her to switch the active session to her smartphone app, maintaining the navigation session seamlessly.
+4. **Alise** receives a notification on her phone asking if she would like to continue navigation via the app. She confirms, and the map is displayed on her phone.
+5. **Alise** completes her meeting and returns to her car. As she gets back in, the system again detects her presence, and the app transition back to the in-car system is completed, resuming the navigation session.
+
+---
+
+### 4. Alternative Scenario  
+1. **Bob** is in his car, attempting to switch his navigation app to his smartphone, but he is unable to because his phone is not paired with the car’s system.
+2. The **in-car infotainment system** displays a message stating that pairing needs to be re-established for a seamless transition.
+3. **Bob** opens the car’s Bluetooth settings and manually pairs his phone to the system.
+4. Once paired, the system prompts Bob to continue navigation on his phone. However, if he does not respond within 30 seconds, the system defaults to in-car controls.
+5. **Bob** decides to continue the session on his phone, and the navigation session is resumed.
+
+---
+
+### 5. Postconditions  
+- After **Alise** successfully transitions from the car system to the smartphone app, she is able to continue her navigation session seamlessly on her phone with no interruption.
+- After **Bob** successfully pairs his phone to the car system, he can continue using the navigation app either in the car or on his phone, depending on his choice, without any loss of data or functionality.
+

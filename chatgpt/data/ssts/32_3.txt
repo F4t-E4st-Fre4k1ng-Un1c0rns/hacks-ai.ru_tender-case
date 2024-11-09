@@ -1,0 +1,36 @@
+**Technical Specifications for Automated Emergency Brake Assistance System**  
+**Compliance Level: Partially Compliant**
+
+---
+
+1. **Title**  
+   Automated Emergency Brake Assistance System
+
+2. **Functional Description**  
+   The Automated Emergency Brake Assistance System is designed to reduce the risk of collisions by detecting obstacles in the vehicle's path and automatically applying the brakes. The system uses a combination of radar, cameras, and ultrasonic sensors to monitor surrounding traffic conditions and react accordingly to prevent or mitigate accidents. It operates within a specific speed range and is limited by environmental conditions such as weather and sensor visibility.
+
+3. **Enabling Conditions**  
+   - The vehicle must be equipped with the necessary sensors (radar, cameras, and ultrasonic) for obstacle detection.  
+   - The system must be activated through the vehicle’s control unit during vehicle startup or user settings.  
+   - The vehicle’s speed must be between 5-60 km/h for optimal system performance.  
+   - The system is enabled and functional only when all sensors are calibrated and operational, and no obstructions or faults are detected in the system's sensors.  
+   - The road conditions and visibility must be within acceptable parameters, ensuring that the sensors can operate correctly.
+
+4. **Trigger Conditions**  
+   - The system triggers if it detects an object within the vehicle's path that poses an imminent collision risk.  
+   - The system will engage if the relative speed and distance between the vehicle and the detected obstacle suggest a potential collision.  
+   - A trigger is activated when the detected object is within a pre-defined proximity (1-2 meters) and the risk of collision is high.  
+   - The system may also activate if a moving vehicle suddenly decelerates or stops in the same lane.
+
+5. **Execution Output**  
+   - Upon activation, the system will apply the vehicle's brakes to decelerate or stop the vehicle, minimizing the severity of the impact.  
+   - The system will provide a visual notification to the driver, indicating that emergency braking has been engaged.  
+   - If the system successfully avoids a collision, the vehicle will come to a full stop or significantly reduce speed.  
+   - The system will adjust the braking force based on the severity of the detected risk and environmental conditions (e.g., road type, weather).
+
+6. **Exit Conditions**  
+   - The system will disengage once the vehicle’s speed is reduced sufficiently, or the detected object is no longer in the vehicle's path.  
+   - The system will also exit if the driver manually applies the brake pedal, overriding the automatic braking action.  
+   - After a trigger event, the system will reset and be ready for further activation as long as the vehicle remains within the operating conditions.  
+   - If a malfunction occurs (e.g., sensor failure), the system will enter a diagnostic mode and deactivate until repaired or recalibrated. The driver will be notified via the vehicle’s dashboard.
+

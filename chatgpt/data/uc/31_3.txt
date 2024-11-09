@@ -1,0 +1,38 @@
+**Underpinning Contract for Voice-Controlled Vehicle Settings Customization**
+
+1. **Title**  
+   Voice-Controlled Vehicle Settings Customization
+
+2. **Goal**  
+   The goal of the Voice-Controlled Vehicle Settings Customization sub-system is to allow the user to adjust various in-vehicle settings through voice commands, enhancing convenience, safety, and personalization. This feature will enable users to modify settings such as seat position, cabin temperature, lighting, and infotainment preferences, all without the need for physical interaction with controls.
+
+3. **Preconditions**  
+   - The vehicle must be equipped with a functional voice recognition system.  
+   - The voice recognition system should be trained to recognize the user's voice or the vehicle’s default voice command settings.  
+   - The vehicle's internal systems (e.g., seat adjustments, climate control, and lighting) must be connected and accessible via the voice control interface.  
+   - The user must have the proper authorization to control the vehicle settings (e.g., they must be the driver or authorized user).  
+   - The voice control system should be enabled and operational.
+
+4. **Main Scenario**  
+   1. The user (e.g., Alise) initiates a voice command by saying, "Hey [Car Name], adjust the seat position."  
+   2. The system recognizes the voice command and responds with, "Please specify the seat position adjustment."  
+   3. Alise specifies the desired adjustment, for example, "Move the seat back by 5 inches."  
+   4. The system processes the request, adjusting the seat position accordingly, and responds, "The seat has been moved back by 5 inches."  
+   5. Alise confirms the setting, and the system finalizes the adjustment. The new seat position is now stored and active for future sessions.
+
+5. **Alternative Scenario**  
+   - **Scenario 1: Voice Command Misunderstood**  
+     1. The user (e.g., Bob) says, "Hey [Car Name], turn on the air conditioning."  
+     2. The system misunderstands the command due to background noise or poor voice recognition.  
+     3. The system responds, "I’m sorry, I didn’t understand that. Could you please repeat your request?"  
+     4. Bob repeats the command clearly.  
+     5. The system correctly interprets the command and responds, "Turning on the air conditioning now."  
+   
+   - **Scenario 2: Feature Unavailable**  
+     1. The user tries to issue a command to adjust the lighting, saying, "Hey [Car Name], dim the lights."  
+     2. The system responds, "Sorry, the lighting adjustment feature is currently unavailable."  
+     3. The user is given the option to try again later or to manually adjust the lighting through other means.  
+     4. The user acknowledges the response and proceeds to use manual controls if needed.
+
+6. **Postconditions**  
+   After a successful interaction with the Voice-Controlled Vehicle Settings Customization sub-system, the specified vehicle settings (e.g., seat position, cabin temperature, lighting, or infotainment preferences) will be adjusted and applied. These settings will be saved to the vehicle’s memory, allowing them to be recalled automatically for future use by the same user or authorized individuals. The system will confirm successful adjustments and provide feedback to the user for clarity.

@@ -1,0 +1,34 @@
+**Underpinning Contract: Driver Fatigue Detection and Alert System**
+
+**1. Title**  
+Driver Fatigue Detection and Alert System
+
+**2. Goal**  
+The Driver Fatigue Detection and Alert System aims to monitor and detect signs of driver fatigue or drowsiness during the operation of the vehicle. The system utilizes sensors and algorithms to track driver behavior, such as eye movement, head positioning, and driving patterns. When signs of fatigue are detected, the system will issue an alert to prompt the driver to take a break or become more alert, improving safety and reducing the likelihood of accidents caused by tiredness.
+
+**3. Preconditions**  
+- The vehicle is equipped with a set of sensors, including an infrared camera or eye-tracking device, capable of monitoring the driver’s facial expressions and head movement.  
+- The system is enabled and active in the vehicle's settings.  
+- The vehicle must be running, and the driver must be in the driver's seat.  
+- The system requires the driver to be wearing their seatbelt to activate and begin monitoring.  
+- Driver fatigue thresholds and alert sensitivity settings can be customized in the system interface.
+
+**4. Main Scenario**  
+1. **Driver starts the vehicle**: Bob starts the vehicle, ensuring that all necessary conditions are met, including wearing the seatbelt.  
+2. **System activates**: Upon starting the car, the Driver Fatigue Detection and Alert System automatically turns on, tracking Bob's eye movement and head position in real-time.  
+3. **System monitors for fatigue signs**: As Bob drives, the system continuously evaluates his behavior for signs of fatigue, such as slow eyelid movements, nodding off, or inconsistent driving patterns.  
+4. **Fatigue detected**: The system identifies signs of fatigue (e.g., Bob blinks excessively, nods, or swerves slightly on the road).  
+5. **Alert issued**: The system immediately triggers a visual and auditory alert, notifying Bob with a message on the dashboard and a sound alert, advising him to take a break or refresh.  
+
+**5. Alternative Scenario**  
+1. **Driver starts the vehicle**: Alise starts the vehicle and ensures she is properly seated and secured with a seatbelt.  
+2. **System fails to activate**: The system fails to turn on due to a malfunction or sensor error. A notification appears on the dashboard, alerting Alise to check the system settings or contact support.  
+3. **System under maintenance**: If the system is unavailable due to maintenance, Alise is notified at startup with a warning message indicating that the fatigue detection system is temporarily disabled.  
+4. **Driver proceeds without alerts**: Alise drives the vehicle, but since the system is disabled, there are no fatigue alerts or warnings provided.  
+5. **Driver reports issue**: Alise contacts customer support or the service center to resolve the system issue and ensure the proper function of the fatigue detection system.
+
+**6. Postconditions**  
+After a successful interaction with the Driver Fatigue Detection and Alert System:  
+- If no fatigue is detected, the system continues to monitor the driver and provides regular updates.  
+- If fatigue is detected and the alert is triggered, the driver receives a recommendation to rest, and the system resets once the driver acknowledges the alert.  
+- The system logs the fatigue incidents and alerts for future analysis or to improve the accuracy of the monitoring.

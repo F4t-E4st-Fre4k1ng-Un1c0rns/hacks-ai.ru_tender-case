@@ -1,0 +1,45 @@
+**Underpinning Contract: Integration of Third-Party Apps into Car Infotainment System**
+
+**Goal:**  
+The integration of third-party apps into the car’s infotainment system will provide users with the ability to seamlessly access and use a variety of applications directly from the car's central display. This includes music streaming services, navigation tools, messaging apps, social media platforms, and other compatible services. The feature ensures that users have an enhanced experience by offering a smooth interface and user-friendly navigation within the vehicle's infotainment system.
+
+**Preconditions:**  
+- The car’s infotainment system must be connected to the internet via Wi-Fi or mobile data.
+- The user must have an active account with the third-party service they wish to use (e.g., Spotify, Google Maps, etc.).
+- The user’s smartphone or device must be compatible with the car's infotainment system.
+- The third-party apps must be installed and updated on the user’s device before integration.
+- The car’s infotainment system should be configured to allow third-party app integrations via the appropriate platform (e.g., Apple CarPlay, Android Auto).
+
+**Main Scenario:**  
+1. **User Action:** Alise connects her smartphone to the car’s infotainment system using Bluetooth or USB cable.  
+   **Sub-System Response:** The infotainment system recognizes the connection and prompts Alise to grant permission to access compatible apps.
+
+2. **User Action:** Alise selects the third-party apps option from the infotainment menu.  
+   **Sub-System Response:** The infotainment system displays a list of available third-party apps that are supported and linked to her smartphone.
+
+3. **User Action:** Alise selects the Spotify app from the list and taps "Connect."  
+   **Sub-System Response:** The system loads Spotify and displays it on the infotainment screen. Alise can now browse playlists, play songs, and control playback.
+
+4. **User Action:** Alise uses the touchscreen or voice commands to play a specific playlist or album from Spotify.  
+   **Sub-System Response:** The system executes the action, playing the selected content through the car's speakers.
+
+5. **User Action:** Alise wishes to switch to Google Maps for navigation.  
+   **Sub-System Response:** Alise taps the navigation app on the screen, and the system seamlessly switches to Google Maps, displaying the map and initiating the route.
+
+**Alternative Scenario:**  
+1. **User Action:** Bob connects his smartphone to the car’s infotainment system.  
+   **Sub-System Response:** The system fails to recognize the smartphone or cannot establish a connection. A prompt appears asking Bob to check if Bluetooth is enabled on his phone or try using a USB cable.
+
+2. **User Action:** Bob tries to select Spotify from the list of third-party apps.  
+   **Sub-System Response:** The app is unavailable because it has not been installed on Bob’s phone. A message appears indicating that the app must be installed or updated on the phone to proceed.
+
+3. **User Action:** Bob attempts to use Google Maps but encounters an error message saying the app is not responding.  
+   **Sub-System Response:** The system advises Bob to check for app updates on his phone and try again later. Alternatively, a link to troubleshooting tips is displayed.
+
+4. **User Action:** Bob decides to disconnect the phone and restart the car’s infotainment system.  
+   **Sub-System Response:** Upon restarting, the system prompts Bob to reconnect the phone, and the previous connection issues are resolved.
+
+**Postconditions:**  
+- After successful interaction, the user will be able to use selected third-party apps, such as music streaming or navigation, seamlessly within the car's infotainment system.
+- All actions, such as selecting and controlling apps, will be reflected instantly on the infotainment screen, ensuring the user has access to the chosen services without interruptions.
+- The integration remains active until the user disconnects or switches to a different app or service.

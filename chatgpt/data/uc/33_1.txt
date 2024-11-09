@@ -1,0 +1,35 @@
+**Underpinning Contract: User Authentication and Authorization for Car Access**
+
+**1. Goal**  
+The User Authentication and Authorization for Car Access sub-system will allow authorized users (e.g., car owners, registered drivers) to securely access and operate the luxury electric car. This sub-system will manage the authentication process by verifying the user’s identity and authorize or deny access based on predefined permissions. The main capabilities of this sub-system include:  
+- Secure login using biometric authentication (fingerprint or facial recognition) or personal identification (PIN).  
+- Verification of user identity through multi-factor authentication, where applicable.  
+- Authorization to control or unlock the vehicle's systems based on the user's role (e.g., owner, driver, guest).  
+- Real-time user status update and monitoring of access rights.
+
+**2. Preconditions**  
+- The user must have a registered account in the system with an active authentication profile, such as fingerprint data, facial recognition, or a PIN.  
+- The vehicle must be equipped with compatible hardware (e.g., fingerprint scanner, facial recognition camera) and connected to the central server or authentication system.  
+- The user’s account must have appropriate permissions set by the car owner or administrator (e.g., owner can assign driving privileges to a guest).  
+- The sub-system requires a secure internet connection for real-time authorization requests to be processed.
+
+**3. Main Scenario**  
+1. The user approaches the car and attempts to unlock it by interacting with the authentication system (e.g., placing a finger on the sensor, scanning face, or entering a PIN).  
+2. The sub-system processes the user’s input, verifying the fingerprint, face, or PIN against the stored profile in the system.  
+3. If the user is successfully authenticated, the sub-system checks the user's permissions to determine their authorization level (e.g., owner, driver, guest).  
+4. Based on the results, the sub-system grants or denies access to the car’s systems (e.g., unlocking doors, starting the vehicle).  
+5. The car’s systems respond accordingly, either allowing the user to drive or providing access to limited features depending on the authorization level.
+
+**4. Alternative Scenario**  
+1. The user attempts to authenticate using their fingerprint, facial recognition, or PIN.  
+2. The sub-system fails to recognize the user's input due to poor biometric data quality (e.g., dirty sensor, poor lighting, etc.), or the PIN is incorrect.  
+3. The sub-system prompts the user to retry the authentication, offering suggestions like cleaning the sensor, adjusting the position, or trying a different method (e.g., PIN instead of fingerprint).  
+4. If the retry fails, the sub-system may prompt the user to reset their authentication data or contact the car’s support team for assistance.  
+5. As an additional security measure, after a series of failed attempts, the sub-system may lock access for a specified period or require additional verification (e.g., multi-factor authentication) to prevent unauthorized access.
+
+**5. Postconditions**  
+- Upon successful authentication and authorization, the user gains access to the vehicle’s systems according to their permissions.  
+- The vehicle’s locking system is disengaged, allowing the user to enter and operate the car.  
+- The user’s status is updated to reflect their access rights (e.g., "authenticated and authorized" for car access).  
+- Any failed login attempts are logged for security monitoring purposes.  
+- If the user’s session ends or is interrupted (e.g., car is locked, user logs out), the system ensures the vehicle is properly secured again.

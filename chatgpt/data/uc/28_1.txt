@@ -1,0 +1,29 @@
+**Underpinning Contract: Road Condition Alerts and Adaptive Driving Recommendations**
+
+---
+
+### 1. Goal
+The *Road Condition Alerts and Adaptive Driving Recommendations* sub-system provides users with real-time information regarding road conditions and offers tailored adaptive driving suggestions. This feature enhances driving safety and comfort by notifying the driver of potential hazards (e.g., wet roads, icy conditions, construction zones) and adjusting the car’s driving mode accordingly. It aims to reduce risks and improve overall driving efficiency based on environmental factors.
+
+### 2. Preconditions
+- The sub-system is available in vehicles equipped with the necessary sensors and connectivity features, such as GPS, road sensors, weather data integration, and adaptive driving technology.
+- The vehicle must be operating with an active connection to cloud services for real-time data updates and recommendations.
+- The system is active when the driver enters the vehicle and starts driving, with no manual activation required by the driver.
+
+### 3. Main Scenario
+1. **Bob starts the vehicle**: Upon starting the vehicle, the system automatically activates and begins monitoring road conditions via sensors and external data sources.
+2. **Road condition alerts are triggered**: If a hazardous road condition (e.g., wet or icy surface) is detected, Bob receives a visual and auditory alert indicating the specific hazard.
+3. **Adaptive driving recommendation**: The system provides Bob with adaptive driving suggestions, such as adjusting speed or activating a specific driving mode (e.g., slippery road mode).
+4. **Bob follows the recommendation**: Bob chooses to follow the system’s adaptive suggestions, ensuring safer and more efficient driving under the current road conditions.
+5. **System updates in real-time**: The system continuously updates road condition data and adjusts its recommendations as Bob continues driving, offering alerts for any new hazards or changes in the road environment.
+
+### 4. Alternative Scenario
+1. **Bob starts the vehicle**: Upon starting the vehicle, the system activates but is unable to connect to the cloud services due to a connectivity issue.
+2. **No road condition updates**: The system informs Bob that real-time road condition updates are temporarily unavailable, and alerts will be based on pre-existing local data or disabled.
+3. **No adaptive recommendations available**: The system informs Bob that adaptive driving suggestions cannot be generated due to the lack of external data, but it continues to provide basic vehicle control settings.
+4. **Bob continues driving**: Bob continues driving without adaptive suggestions or real-time hazard alerts but is still able to operate the vehicle normally.
+5. **System recovery**: Once the system reconnects to cloud services or updates its local data, Bob receives an alert that the feature is now operational and will resume full functionality.
+
+### 5. Postconditions
+- If the system operates successfully, Bob receives timely and accurate road condition alerts, along with adaptive driving recommendations that improve driving safety and performance.
+- The system’s feedback and suggestions are integrated into the driving experience, ensuring that the vehicle adapts to current road conditions and continuously provides relevant information throughout the journey.

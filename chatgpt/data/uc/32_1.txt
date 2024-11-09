@@ -1,0 +1,60 @@
+**Underpinning Contract: Automated Emergency Brake Assistance System**
+
+---
+
+**1. Title**  
+Automated Emergency Brake Assistance System
+
+---
+
+**2. Goal**  
+The Automated Emergency Brake Assistance System (AEBAS) is designed to provide advanced safety features to enhance driving performance, ensuring quick and effective vehicle deceleration during emergency situations. It will automatically detect an imminent collision with another vehicle or an obstacle and apply the brakes to avoid or mitigate the impact. This system aims to reduce the likelihood of accidents by responding faster than the driver in critical moments.
+
+---
+
+**3. Preconditions**  
+- The AEBAS is activated automatically when the vehicle is in motion, with the vehicle's speed exceeding 5 km/h.  
+- The system requires the vehicle's sensors (radar, lidar, cameras) to be fully operational.  
+- The system is designed to work under normal driving conditions, with the vehicle on the road and clear visibility of obstacles.  
+- The driver must have their seatbelt fastened and be seated in the driver's seat for the system to function correctly.  
+- The AEBAS is not intended to replace the driver’s attentiveness but to serve as a supplementary safety feature.
+
+---
+
+**4. Main Scenario**  
+1. **User action:** Alise is driving the vehicle at a speed of 60 km/h on a highway.  
+   **System response:** The AEBAS is actively monitoring the road ahead for potential obstacles.  
+   
+2. **User action:** Alise notices a slow-moving vehicle ahead but doesn't immediately react.  
+   **System response:** The AEBAS detects the reduced distance between Alise's vehicle and the vehicle in front, identifying a potential collision.  
+
+3. **User action:** The system determines that the collision risk is high, and Alise still doesn't apply the brakes.  
+   **System response:** The AEBAS automatically activates the emergency braking system, decelerating the vehicle to avoid or reduce the severity of the impact.  
+
+4. **User action:** The vehicle slows down, and Alise is no longer at risk of colliding with the vehicle ahead.  
+   **System response:** The AEBAS completes the braking sequence and returns control of the vehicle to Alise.  
+
+5. **User action:** Alise regains full control of the vehicle and continues driving.  
+   **System response:** The AEBAS resets, awaiting the next potential emergency situation.
+
+---
+
+**5. Alternative Scenario**  
+1. **User action:** Bob is driving, and the AEBAS detects a potential obstacle, but the sensors or camera system is malfunctioning.  
+   **System response:** The AEBAS performs a self-check and identifies the fault. A visual or auditory warning appears on the dashboard to inform Bob of the malfunction.  
+
+2. **User action:** Bob sees the warning and acknowledges it.  
+   **System response:** The AEBAS deactivates temporarily, and the vehicle relies on standard braking capabilities.  
+
+3. **User action:** Bob continues driving cautiously, aware that the AEBAS is not operational.  
+   **System response:** The system continues to monitor the environment and may activate an alternate safety feature, such as alerting Bob if the distance to the vehicle ahead becomes critically short.
+
+4. **User action:** Bob takes the vehicle to the service center for repair.  
+   **System response:** The AEBAS remains inactive until the issue is resolved, and the system is recalibrated and re-enabled.
+
+---
+
+**6. Postconditions**  
+- Upon successful operation, the AEBAS effectively avoids or mitigates the impact by applying the brakes.  
+- The vehicle slows down, and the immediate danger is resolved, allowing the driver to regain control of the situation.  
+- If the AEBAS is not functioning due to a fault, the system issues a warning to the driver, indicating that the feature is temporarily unavailable, and the driver is advised to drive with increased caution.

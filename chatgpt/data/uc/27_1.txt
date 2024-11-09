@@ -1,0 +1,33 @@
+**Underpinning Contract for On-Demand Charging for Electric Vehicles (EV)**
+
+**1. Title**  
+On-Demand Charging for Electric Vehicles (EV)
+
+**2. Goal**  
+The On-Demand Charging feature is designed to provide users with the ability to conveniently charge their electric vehicles at any time, without the need to plan charging in advance. This system will allow users to request charging services when required, ensuring their electric vehicle’s battery is optimally charged for travel. The feature will enable a seamless and flexible charging experience by offering easy access to available charging stations, tailored to the user’s current location and charging needs.
+
+**3. Preconditions**  
+- The user must have a registered electric vehicle within the system.
+- The user must have an active account with the service provider for on-demand charging.
+- The user’s electric vehicle must be in a state that supports remote charging requests.
+- A compatible mobile application or interface for requesting on-demand charging must be available to the user.
+- Charging stations in the user’s area must be operational and connected to the network.
+
+**4. Main Scenario**  
+1. The user, Bob, opens the mobile application or interface to initiate an on-demand charging request.  
+2. Bob selects the option for "On-Demand Charging" and enters the vehicle’s current battery level and desired charge percentage.  
+3. The system analyzes available charging stations nearby and offers Bob a list of options based on proximity and charging capacity.  
+4. Bob selects a preferred charging station and confirms the request for on-demand charging.  
+5. The system activates the selected charging station, and Bob receives a confirmation with the expected time of charging completion.
+
+**5. Alternative Scenario**  
+- **Scenario 1: Charging Station Unavailable**  
+   If no charging stations are available in the area or if all nearby stations are out of service, the system will notify Bob with a message saying, "No charging stations available at this time. Please try again later." Bob can then either adjust the desired location or schedule the charging for a later time.  
+   
+- **Scenario 2: Network or System Failure**  
+   If the system encounters a network error while processing Bob's request, an error message will appear, such as "Service temporarily unavailable. Please try again." Bob will be prompted to retry or contact customer support if the issue persists.
+
+**6. Postconditions**  
+- Upon successful completion of the on-demand charging request, Bob’s electric vehicle will be charged to the desired battery level.  
+- Bob will receive a notification confirming the completion of the charging session, along with a summary of the amount of energy delivered and the time spent charging.  
+- The charging session will be logged into Bob’s account for future reference and billing purposes.

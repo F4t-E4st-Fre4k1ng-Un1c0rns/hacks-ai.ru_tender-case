@@ -1,0 +1,40 @@
+**Underpinning Contract: On-Demand Charging for Electric Vehicles (EV)**
+
+**Goal:**  
+The On-Demand Charging feature is designed to enable users of luxury electric vehicles to easily locate and utilize charging stations when their vehicle's battery is running low. The system will offer real-time information about available charging stations and provide seamless interaction with the vehicle's charging system, ensuring efficient energy replenishment.
+
+**Preconditions:**  
+1. The user must be driving a compatible luxury electric vehicle with an active On-Demand Charging service account.
+2. The vehicle must be connected to the internet via a mobile device or onboard system to access the charging network.
+3. The user must have sufficient access to payment methods or subscription services for the charging stations.
+4. The On-Demand Charging system is available in the region or area where the user is currently located.
+5. The charging stations must be functional and operational within the system's database.
+
+**Main Scenario:**
+1. **User Action:** Alise drives her luxury electric vehicle and notices the battery charge is running low.
+   - **Sub-System Response:** The On-Demand Charging system notifies Alise with a prompt suggesting available nearby charging stations.
+   
+2. **User Action:** Alise selects a preferred charging station from the list provided by the system.
+   - **Sub-System Response:** The system confirms the selection, provides directions to the chosen charging station, and offers an estimated time of arrival.
+
+3. **User Action:** Upon arriving at the charging station, Alise parks her vehicle and connects it to the available charging point.
+   - **Sub-System Response:** The system automatically communicates with the charging station, initiates the charging process, and provides an estimated charge completion time.
+
+4. **User Action:** Alise monitors the charging process through her vehicle's display or a mobile app, receiving real-time updates on charge status.
+   - **Sub-System Response:** The On-Demand Charging system provides regular updates on the current battery percentage, time remaining for full charge, and any potential interruptions in service.
+
+5. **User Action:** Once the battery is fully charged, Alise disconnects the vehicle and proceeds with her journey.
+   - **Sub-System Response:** The system confirms the successful completion of the charge, sends a notification with the final charge amount, and updates the user's billing record.
+
+**Alternative Scenario:**  
+1. **User Action:** Bob attempts to use the On-Demand Charging feature, but the system fails to find any available charging stations in his area.
+   - **Sub-System Response:** The system displays a message indicating that no stations are available in the current location and provides an option to search in a wider radius or try again later.
+
+2. **User Action:** Bob tries to initiate charging at a nearby station, but the charging point is unavailable or malfunctioning.
+   - **Sub-System Response:** The system alerts Bob to the station's malfunction, suggesting alternative nearby stations or offering the ability to schedule charging at a later time.
+
+3. **User Action:** Bob’s payment method is declined during the transaction at a charging station.
+   - **Sub-System Response:** The system informs Bob of the declined payment and requests a valid payment method before proceeding with the charging session.
+
+**Postconditions:**  
+After successfully interacting with the On-Demand Charging system, the user's electric vehicle is charged to the desired level. The system updates the user’s account with the necessary billing details, including the time spent charging and the amount of energy consumed. The vehicle is now ready for continued use, and the user is notified of any relevant service details, such as the total cost of the charge and remaining battery life.

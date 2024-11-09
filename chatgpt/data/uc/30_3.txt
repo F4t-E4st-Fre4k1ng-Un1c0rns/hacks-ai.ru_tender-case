@@ -1,0 +1,31 @@
+### Title  
+**In-Car Remote Diagnostics for Technical Support**
+
+### Goal  
+The **In-Car Remote Diagnostics for Technical Support** sub-system provides remote diagnostic capabilities to vehicle owners, enabling real-time monitoring and troubleshooting of vehicle systems. This feature allows technical support teams to diagnose issues, provide guidance, and perform remote system resets or software updates without the need for the car to be physically taken to a service center. The goal is to enhance customer experience by reducing service downtime, increasing vehicle uptime, and improving the overall support process.
+
+### Preconditions  
+- The vehicle must be equipped with a compatible onboard diagnostics (OBD) system capable of transmitting data remotely.
+- The car must have an active internet connection, either through in-car Wi-Fi or mobile data, to enable remote diagnostics.
+- The user must have access to a mobile app or vehicle interface that integrates with the remote diagnostics feature.
+- The technical support team must have access to the diagnostic tools and the user’s vehicle data for analysis.
+- The user must have logged into the car’s system with authorized credentials to enable access to remote diagnostics.
+
+### Main Scenario  
+1. **User Initiates Request**: Alise opens the vehicle’s mobile app and navigates to the "Diagnostics" section of the interface.
+2. **Diagnostic Data Sent**: The app sends a request to the vehicle’s onboard system to transmit data related to engine performance, battery status, and other critical vehicle systems.
+3. **Data Analysis**: The remote diagnostics system analyzes the data and identifies any potential issues or alerts based on the current vehicle performance.
+4. **Technical Support Notification**: Alise receives a notification on her mobile app informing her of the analysis results, including any detected issues and recommended actions.
+5. **Issue Resolution**: Alise follows the instructions provided by the remote technical support team, such as performing a system reset or scheduling an in-person visit, if necessary.
+
+### Alternative Scenario  
+1. **User Tries to Initiate Diagnostics**: Bob attempts to use the remote diagnostics feature but notices that the app shows an error message indicating the system is unavailable.
+2. **Error Handling**: The app prompts Bob to check the vehicle’s internet connection or asks if he would like to try again later.
+3. **Technical Support Contact**: If the issue persists, Bob contacts technical support directly through the app to explain the issue and arrange for manual diagnostics or further assistance.
+4. **System Recovery**: If the vehicle’s onboard system is unable to connect, Bob may be directed to visit a local service center for a full diagnostic check-up.
+5. **Failure Resolution**: Bob is given the option to schedule a service appointment or receive a software update remotely if possible to restore the functionality.
+
+### Postconditions  
+- Upon successful interaction with the remote diagnostics system, Alise receives a comprehensive report detailing the vehicle’s health status, any detected issues, and the next steps required for resolution.
+- The system may have automatically resolved minor issues, such as resetting a malfunctioning module or updating vehicle software, enhancing the overall performance of the vehicle.
+- In cases where further intervention is required, Alise is notified with clear instructions on how to proceed, whether through a scheduled service appointment or further troubleshooting steps.

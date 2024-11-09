@@ -1,0 +1,47 @@
+**Underpinning Contract for On-Demand Charging for Electric Vehicles (EV)**
+
+**1. Goal**  
+The On-Demand Charging sub-System is designed to provide electric vehicle (EV) owners with the ability to request, schedule, and manage charging services for their vehicles at convenient locations. The sub-System aims to offer seamless, real-time access to charging infrastructure, ensuring that EV owners can quickly and easily charge their vehicles when needed, whether at home, on the road, or at designated charging hubs. The system will feature intuitive user controls, flexible charging options, and real-time status updates to enhance the convenience and efficiency of electric vehicle usage.
+
+**2. Preconditions**  
+- The user must have an active account with the charging service provider.
+- The user must own a compatible electric vehicle that supports on-demand charging services.
+- The vehicle must be in a location covered by the service’s available charging network.
+- The user must have a working internet connection or access to the mobile application to request charging.
+- The user must ensure the vehicle is powered on and the charging port is accessible.
+
+**3. Main Scenario**  
+1. **User action**: Alise opens the On-Demand Charging app on her smartphone.  
+   **Sub-System response**: The system displays the main dashboard with available charging stations and options to request charging.  
+
+2. **User action**: Alise selects her vehicle and inputs the desired charge level or time of charging.  
+   **Sub-System response**: The sub-System processes the request and suggests available charging stations near her location.  
+
+3. **User action**: Alise selects a charging station and confirms her request.  
+   **Sub-System response**: The system schedules the charge and sends a confirmation message, including the estimated time of charging.  
+
+4. **User action**: Alise receives real-time updates on her charging progress via the app.  
+   **Sub-System response**: The system updates the charging status, providing notifications of milestones (e.g., 50% charged, fully charged).  
+
+5. **User action**: Once the vehicle is fully charged, Alise receives a final notification and can disconnect the vehicle from the charger.  
+   **Sub-System response**: The system logs the completed charge and updates the vehicle’s status in the app, closing the session.
+
+**4. Alternative Scenario**  
+1. **User action**: Bob opens the On-Demand Charging app to request charging but the charging station is currently unavailable.  
+   **Sub-System response**: The system notifies Bob that the selected charging station is unavailable and offers alternative nearby locations or schedules.  
+
+2. **User action**: Bob attempts to select another location but faces a connectivity issue with the app.  
+   **Sub-System response**: The app prompts Bob to check his internet connection and provides an option to retry the request once the connection is stable.  
+
+3. **User action**: Bob’s vehicle is unable to establish a connection with the charging station due to compatibility issues.  
+   **Sub-System response**: The system suggests troubleshooting steps and connects Bob with customer support for further assistance.  
+
+4. **User action**: Bob’s payment method is rejected during the charging request.  
+   **Sub-System response**: The system alerts Bob of the payment failure, offers alternative payment methods, and prompts him to re-enter payment details.
+
+**5. Postconditions**  
+- After a successful interaction, the vehicle will be charged to the desired level or for the agreed time duration.
+- The system will generate a completed charge report, including the total charge amount, duration, and cost.
+- The user’s account will be updated with the charging activity and payment details.
+- The vehicle’s battery status will be updated, showing the current charge level.
+- Alise or Bob will receive an optional follow-up notification or satisfaction survey for feedback on the charging experience.

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS lacks detailed step-by-step user interaction scenarios, unlike the UC which outlines each step. | "The system generates a list of nearby available charging stations, including real-time data on station availability and estimated charging times." |
+| SSTS does not provide sufficient detail on handling various failure scenarios as outlined in the UC. | "The system will send real-time updates to the user about the charging status, including the battery percentage, time remaining to full charge, and any disruptions." |
+| SSTS fails to specify the exact conditions under which the charging process is initiated, as required in the UC. | "The user actively selects the option to locate available charging stations via the mobile app or vehicle interface." |
+| SSTS does not clearly define geographic coverage or user location limitations, which are outlined in the UC. | "The charging system must be available in the user’s location, with geographic coverage provided by the network." |
+| SSTS lacks explicit details on how post-charging notifications and billing updates are handled, unlike the UC which specifies these elements. | "After the charging session is completed, the system will provide a notification confirming the charge completion and display relevant billing details, including the cost of energy used and the duration of charging." |

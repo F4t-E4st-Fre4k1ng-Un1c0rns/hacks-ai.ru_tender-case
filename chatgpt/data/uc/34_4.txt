@@ -1,0 +1,44 @@
+**Underpinning Contract: Integration of Third-Party Apps into Car Infotainment System**
+
+1. **Title**  
+   Integration of Third-Party Apps into Car Infotainment System
+
+2. **Goal**  
+   This sub-System will enable the seamless integration of third-party applications into the car’s infotainment system. The feature will provide the user with access to a variety of third-party services, such as music streaming, navigation, and social media apps, directly from the car's interface. Users will be able to interact with these apps, control them via the car’s touch screen, voice commands, or steering wheel controls, ensuring an enhanced and convenient driving experience.
+
+3. **Preconditions**  
+   - The car’s infotainment system is compatible with third-party apps and supports integration through an open API or similar interface.
+   - The user has a compatible third-party app installed on their mobile device or on the vehicle’s cloud-connected platform.
+   - The car's infotainment system has internet connectivity (either through the vehicle’s own connection or via the user’s mobile hotspot).
+   - The user has accepted terms and conditions for integrating third-party apps into the infotainment system.
+
+4. **Main Scenario**  
+   1. **User action**: Bob enters the car and starts the ignition.  
+      **Sub-System response**: The infotainment system powers on, and the home screen loads.  
+   
+   2. **User action**: Bob selects the "Apps" menu from the main infotainment screen.  
+      **Sub-System response**: The system displays a list of available third-party apps (e.g., Spotify, Google Maps).  
+
+   3. **User action**: Bob chooses to launch the Spotify app from the available list.  
+      **Sub-System response**: The Spotify app opens on the screen, and Bob is prompted to log in if needed.  
+
+   4. **User action**: Bob logs into Spotify, then selects a playlist to play.  
+      **Sub-System response**: The selected playlist begins to play, and controls for volume, play/pause, and skip are available on the infotainment screen and steering wheel.  
+
+   5. **User action**: Bob adjusts the volume or changes a song using voice commands.  
+      **Sub-System response**: The infotainment system responds to Bob’s voice command, adjusting the volume or switching to the next track accordingly.
+
+5. **Alternative Scenario**  
+   - **Failure to connect to a third-party app**:  
+     1. **User action**: Bob selects a third-party app from the available list, but the system fails to load it.  
+        **Sub-System response**: The system displays an error message indicating that the app is unavailable due to connectivity issues.  
+
+     2. **User action**: Bob tries to connect the app again or switches to another app.  
+        **Sub-System response**: If the issue persists, the system will suggest alternative actions, such as checking the internet connection or using a mobile hotspot for a better connection.
+
+   - **Unresponsive App**:  
+     1. **User action**: Bob launches an app, but it does not respond as expected.  
+        **Sub-System response**: The infotainment system prompts Bob with a message asking if they would like to restart the app or contact support.
+
+6. **Postconditions**  
+   After a successful interaction with the sub-System, Bob is able to seamlessly enjoy the third-party app through the infotainment system, with all available features (e.g., playing music, navigation, or social media) fully functional and accessible. The system provides an efficient and enjoyable user experience, enhancing the convenience of driving without requiring Bob to use his mobile device for such services. The app’s content is displayed correctly, and Bob is able to interact with it using the infotainment system controls, including voice commands.

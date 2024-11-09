@@ -1,0 +1,47 @@
+**Technical Specifications: In-Car Remote Diagnostics for Technical Support**
+
+---
+
+### 1. Title  
+**In-Car Remote Diagnostics for Technical Support**
+
+### 2. Functional Description  
+The **In-Car Remote Diagnostics for Technical Support** subsystem allows users to remotely monitor and diagnose the health of their vehicle’s systems. This includes the ability to detect issues with the vehicle’s electrical, mechanical, and software systems. The subsystem provides real-time alerts and logs, facilitating proactive vehicle maintenance. It also connects users with technical support for troubleshooting and resolution of issues, and enables remote software updates when necessary.
+
+The subsystem includes the following features:
+- Remote scanning of vehicle systems, including battery, motor, sensors, and software.
+- Real-time alerts for system errors, warnings, and faults.
+- Integration with customer support teams to facilitate issue resolution.
+- Generation of a comprehensive diagnostic report after each scan.
+- Option for over-the-air (OTA) software updates for critical issues.
+
+### 3. Enabling Conditions  
+For the In-Car Remote Diagnostics subsystem to function, the following conditions must be met:
+- The vehicle must be equipped with the necessary hardware, including sensors, diagnostic communication modules, and internet connectivity.
+- The vehicle must be paired with an active user account, which is necessary for remote access and diagnostics.
+- The vehicle must have an active internet or mobile data connection for diagnostics to be performed.
+- The vehicle must be in a “Ready” state or powered on, depending on the diagnostic features being accessed.
+- The mobile application or infotainment system used to access diagnostics must be up-to-date and compatible with the vehicle's diagnostic system.
+
+### 4. Trigger Conditions  
+The In-Car Remote Diagnostics subsystem is triggered under the following conditions:
+- The user manually selects the “Remote Diagnostics” option through the vehicle's mobile app or infotainment system.
+- A fault or issue is automatically detected by the vehicle's system (e.g., low battery charge, tire pressure warning) and prompts the system to recommend running a diagnostic check.
+- The user initiates the diagnostic scan due to a system alert or request for technical support.
+- The vehicle detects a critical error (e.g., engine failure, brake malfunction) and automatically triggers the diagnostic system for immediate assessment.
+
+### 5. Execution Output  
+The subsystem provides the following outputs upon executing the diagnostic scan:
+- A diagnostic report showing the health status of the vehicle’s key systems, including any identified faults or warnings (e.g., low battery, malfunctioning sensor).
+- Real-time alerts for critical issues that require immediate attention, such as engine or brake malfunctions.
+- Recommendations for actions or repairs based on the diagnostic results, including options to contact technical support or schedule an in-person service appointment.
+- A history of diagnostic logs that are stored in the user’s account for future reference and maintenance tracking.
+- Notifications of successful completion of the diagnostic check, along with a summary of the vehicle’s condition.
+
+### 6. Exit Conditions  
+The subsystem exits the diagnostic process under the following conditions:
+- Upon successful completion of the diagnostic scan, the system provides a summary report and returns to the main menu of the app or infotainment system.
+- If the user chooses to cancel the diagnostic session, the system exits immediately and returns to the user interface without performing a scan.
+- If a connectivity issue prevents the system from completing the diagnostic check, the system exits with a failure message and suggests the user try again later or contact support.
+- If no issues are detected during the scan, the system provides confirmation of a clean bill of health and exits after logging the results.
+- If the system detects a severe issue requiring immediate action, the subsystem exits and prompts the user to contact technical support for further assistance.

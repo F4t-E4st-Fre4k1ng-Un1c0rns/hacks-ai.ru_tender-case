@@ -1,0 +1,35 @@
+**Underpinning Contract: Automatic Bluetooth Pairing for Multiple Devices**
+
+---
+
+### 1. Title  
+**Automatic Bluetooth Pairing for Multiple Devices**
+
+### 2. Goal  
+The **Automatic Bluetooth Pairing for Multiple Devices** sub-system enables users to seamlessly connect and manage multiple Bluetooth devices simultaneously in their luxury electric vehicle. The system will automatically detect and pair with previously connected devices, such as smartphones, tablets, or other Bluetooth-enabled accessories, without requiring manual intervention. This feature enhances user convenience by ensuring that devices are ready to use upon entering the vehicle, providing an uninterrupted and user-friendly experience.
+
+### 3. Preconditions  
+- The vehicle must be powered on or in an operational state that supports Bluetooth functionality.
+- The Bluetooth devices to be paired must have Bluetooth enabled and be in range of the vehicle's system.
+- Devices must be previously paired with the vehicle’s system or must be detected for initial pairing.
+- The vehicle's infotainment system must support the Bluetooth pairing feature.
+- The user must have paired at least one Bluetooth device previously or enabled the "Auto Pair" function for first-time pairing.
+
+### 4. Main Scenario  
+1. **User enters the vehicle** (e.g., Alise enters her car).
+2. The vehicle's system **automatically scans for available Bluetooth devices** within range.
+3. The system **detects previously paired devices** (e.g., Alise’s phone and tablet).
+4. The vehicle **pairs with the devices automatically**, establishing a connection without requiring manual input from Alise.
+5. Alise is notified via the vehicle's infotainment display that her devices have been connected successfully and are ready for use.
+
+### 5. Alternative Scenario  
+1. **User enters the vehicle** (e.g., Bob enters his car), but the vehicle does not detect any paired devices or Bluetooth is turned off on his phone.
+2. The vehicle’s system displays a **prompt indicating that no devices are found or that Bluetooth is disabled**.
+3. Bob is offered the option to **manually enable Bluetooth** on his phone or to **pair a new device** by following on-screen instructions.
+4. If Bob chooses to pair a new device, the system will guide him through the process of **pairing via Bluetooth settings** on both the vehicle and the phone.
+5. If pairing is unsuccessful (e.g., due to a connection timeout or interference), the system will display an **error message** with troubleshooting options, such as restarting Bluetooth or retrying pairing.
+
+### 6. Postconditions  
+- Upon successful pairing, the vehicle’s infotainment system will display a **confirmation message** showing the connected devices (e.g., "Alise's iPhone and iPad are now connected").
+- Bluetooth connectivity will be maintained throughout the vehicle’s operation, with automatic reconnections occurring each time the devices are in range.
+- All paired devices will be available for use in the vehicle, such as for hands-free calls, music streaming, or other Bluetooth-enabled features.

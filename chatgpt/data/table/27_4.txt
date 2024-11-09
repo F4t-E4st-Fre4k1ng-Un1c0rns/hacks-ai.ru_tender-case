@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not mention the ability to provide always-available service or coverage in remote areas, which is a key feature in the UC. | "Charging stations must be pre-registered in the system and geographically covered under the service network." |
+| UC emphasizes real-time updates on charging milestones (e.g., 50% charge), but SSTS lacks specific mention of these detailed status updates. | "The system provides real-time updates on the charging process, including charge milestones (e.g., 20% charged, 50% charged, fully charged) through the app." |
+| SSTS does not provide clear error-handling procedures for payment failures or connection issues, which are detailed in the UC. | "The user submits payment details, triggering the approval and scheduling of the charging session." |
+| UC specifies automatic logging of session details, including cost verification, but SSTS does not mention automatic charge cost verification or handling discrepancies. | "The user’s account is updated with the completed charge session, including cost and duration." |
+| SSTS only refers to basic functionality in case of charging station unavailability, but UC requires detailed alternative actions for these scenarios. | "Charging stations must be pre-registered in the system and geographically covered under the service network." |
+| SSTS lacks specific guidance on how the system handles out-of-network or incompatible charging stations, which is implied in the UC. | "Once a station is selected, the system confirms the charge request, providing the user with an estimated charge time and cost." |

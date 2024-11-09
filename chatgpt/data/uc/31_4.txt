@@ -1,0 +1,50 @@
+### Underpinning Contract: Voice-Controlled Vehicle Settings Customization
+
+#### 1. Goal
+The **Voice-Controlled Vehicle Settings Customization** sub-System enables users to adjust various vehicle settings hands-free through natural language voice commands. The system allows users to control and personalize settings such as climate control, seat adjustments, lighting, media preferences, and navigation, providing a seamless and intuitive interaction with the vehicle. The voice recognition software supports multiple languages and is designed to respond to a wide range of commands, ensuring a premium and convenient user experience in the luxury electric car environment.
+
+#### 2. Preconditions
+- The user has an active voice control system available and properly integrated into the vehicle.
+- The vehicle’s software and voice recognition system are up-to-date.
+- The vehicle’s microphones and voice input system are functional and not obstructed.
+- The user is within the vehicle and the system is powered on.
+- The vehicle's internet connectivity (if necessary for updates or cloud-based features) is active.
+- The user must be familiar with basic voice commands for the vehicle settings.
+
+#### 3. Main Scenario
+1. **User Command**: The user, Alise, says, "Set the temperature to 72 degrees."
+   - **Sub-System Response**: The system recognizes the command and adjusts the climate control system to 72°F. A confirmation message is spoken: "The temperature is now set to 72 degrees."
+   
+2. **User Command**: Alise says, "Adjust the seat position for comfort."
+   - **Sub-System Response**: The system asks, "Would you like to move the seat forward, backward, or adjust the height?"
+   
+3. **User Command**: Alise responds, "Move the seat back and recline it slightly."
+   - **Sub-System Response**: The system adjusts the seat position and provides auditory confirmation: "The seat has been moved back and reclined."
+   
+4. **User Command**: Alise says, "Play my favorite playlist."
+   - **Sub-System Response**: The system accesses the media library and starts playing the user’s most recent playlist. "Now playing your favorite playlist."
+   
+5. **User Command**: Alise says, "Turn on ambient lighting."
+   - **Sub-System Response**: The system activates the ambient lighting according to the user’s preset preferences. "Ambient lighting has been turned on."
+
+#### 4. Alternative Scenario
+1. **User Command**: Alise says, "Set the temperature to 72 degrees."
+   - **Sub-System Response**: The system fails to recognize the voice command due to background noise or technical issue. The system responds: "I'm sorry, I couldn’t hear you clearly. Could you please repeat your command?"
+   
+2. **User Command**: Alise repeats the command more clearly, "Set the temperature to 72 degrees."
+   - **Sub-System Response**: The system processes the command successfully and adjusts the temperature. "The temperature is now set to 72 degrees."
+   
+3. **User Command**: Bob says, "Adjust the seat position."
+   - **Sub-System Response**: The system fails to recognize the specific seat adjustment command. It responds, "Could you please specify whether you want to move the seat forward, backward, or adjust the height?"
+   
+4. **User Command**: Bob specifies, "Move the seat forward."
+   - **Sub-System Response**: The system adjusts the seat position as requested. "The seat has been moved forward."
+
+5. **System Error**: If the vehicle's voice control system is offline due to a connectivity issue, the system responds: "The voice control system is currently unavailable. Please use manual controls."
+
+#### 5. Postconditions
+After the successful interaction with the **Voice-Controlled Vehicle Settings Customization** sub-System:
+- The vehicle settings (e.g., climate, seat position, lighting, media) are adjusted according to the user’s commands.
+- The user is provided with auditory confirmation of each successful setting change.
+- The system logs the user’s preferences, ensuring future commands are processed with a higher degree of personalization.
+- Any commands that were not understood or could not be processed due to errors will prompt the system to request clarification or inform the user of the issue.

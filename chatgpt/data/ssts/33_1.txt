@@ -1,0 +1,32 @@
+**Technical Specifications: User Authentication and Authorization for Car Access**
+
+**1. Title**  
+User Authentication and Authorization for Car Access - Technical Specifications
+
+**2. Functional Description**  
+This sub-system provides secure authentication and authorization for vehicle access, ensuring that only authorized users (car owners, registered drivers, or granted guests) can unlock and operate the car. The system supports multiple authentication methods, including biometric (fingerprint and facial recognition) and personal identification (PIN). Access is granted based on the user’s role and permissions, and the system logs all authentication attempts for security and auditing purposes. Additionally, the system performs real-time authorization and status updates.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the necessary hardware, including biometric sensors (e.g., fingerprint scanner, facial recognition camera) and a keypad for PIN input.  
+- A secure and reliable internet connection is required for real-time authentication and authorization requests.  
+- Users must have an active account with valid authentication data (fingerprint, facial recognition, or PIN) registered in the system.  
+- The car’s central system must be integrated with the authentication sub-system to ensure seamless interaction and control.  
+- The system must have user permission configurations that define roles such as owner, driver, or guest.
+
+**4. Trigger Conditions**  
+- The user approaches the vehicle and attempts to access it using one of the available authentication methods (fingerprint scan, facial recognition, or PIN input).  
+- The vehicle’s system detects the user’s attempt to authenticate (via biometric scan or PIN input).  
+- If the authentication fails repeatedly, the system will trigger fallback mechanisms such as timeout periods or alternative verification methods.  
+- In the case of a system failure or communication error between the authentication sub-system and the car's locking mechanism, the system will trigger a failure alert.
+
+**5. Execution Output**  
+- Upon successful authentication, the system checks the user’s permissions (owner, driver, or guest) and grants access accordingly, such as unlocking doors, starting the vehicle, or limiting access to certain features based on roles.  
+- If authentication fails, the system prompts the user to retry the authentication process, offering alternatives (e.g., switch from fingerprint to PIN).  
+- If access is denied due to insufficient permissions or repeated failed authentication attempts, the system logs the failure and may temporarily lock access, triggering additional security measures (e.g., timeout or multi-factor authentication).  
+- All authentication attempts are logged with timestamps, user identification, and success/failure status for security auditing.
+
+**6. Exit Conditions/Exit Conditions**  
+- The system exits the authentication process upon granting access to the vehicle or denying access based on authentication failure.  
+- If the user cancels the authentication process, the system exits and returns to a locked state.  
+- In the case of multiple failed authentication attempts, the system will lock the user out temporarily and may require additional verification, such as multi-factor authentication, before allowing further attempts.  
+- The system ensures that the vehicle’s systems are properly secured once the user exits, either by logging out, locking the vehicle, or upon session timeout.

@@ -1,0 +1,30 @@
+**Technical Specifications: User Authentication and Authorization for Car Access**
+
+**1. Title**  
+User Authentication and Authorization for Car Access
+
+**2. Functional Description**  
+The User Authentication and Authorization for Car Access sub-System ensures that only authorized users can access and operate the luxury electric car. It offers multiple authentication methods, including biometrics (fingerprint and facial recognition), digital keys, and PIN codes. The system verifies the identity of the user and grants or denies access based on predefined user permissions. The authentication process occurs either through direct interaction with the vehicle or via a mobile app. The system logs all authentication events for audit and security purposes. The sub-System should be able to authenticate users in real time and offer alternative authentication methods in case of failure.
+
+**3. Enabling Conditions**  
+- The user must have a valid, registered account within the system via the vehicle's mobile app or onboard interface.  
+- The vehicle must be equipped with required authentication sensors (e.g., fingerprint scanner, facial recognition camera) or have access to a secure, connected mobile app for digital key usage.  
+- The authentication system must be operational and either locally hosted on the vehicle or connected to a cloud-based server for real-time verification.  
+- User credentials, including biometrics, digital keys, and PINs, must be properly registered and stored within the system.
+
+**4. Trigger Conditions**  
+- The user (e.g., Bob or Alise) approaches the vehicle, initiating authentication via either biometric methods, PIN entry, or the mobile app’s digital key.  
+- The vehicle detects the presence of the user and automatically prompts for authentication.  
+- The user manually activates the app or the vehicle's interface to initiate access.
+
+**5. Execution Output**  
+- If authentication is successful, the system grants access by unlocking the vehicle doors and enabling the vehicle’s operational features based on the user’s permissions.  
+- The system generates and logs an authentication event, including the success status, time, method used, and any related error codes.  
+- If authentication fails, the system provides an error message indicating the failure reason (e.g., incorrect fingerprint, connectivity issue), and prompts the user to retry or select an alternative authentication method.  
+- If multiple failed attempts occur, the system may temporarily lock the user out or offer manual intervention options, such as contacting support or using a backup access method.
+
+**6. Exit Conditions**  
+- If the authentication is successful, the system exits the authentication process, granting the user full access to the vehicle and its features.  
+- If the authentication fails or the user is unauthorized, the system denies access and exits with an error message or log for further analysis.  
+- After a certain number of failed attempts, the system may automatically exit the authentication process and lock further attempts until manual resolution.  
+- If the system encounters a connectivity issue or operational failure, the system exits the process and logs the error, prompting the user to attempt again or reach support.

@@ -1,0 +1,32 @@
+**Driver Fatigue Detection and Alert System Technical Specifications**
+
+**1. Title**  
+Driver Fatigue Detection and Alert System
+
+**2. Functional Description**  
+The Driver Fatigue Detection and Alert System (DFDAS) is designed to monitor the driver’s physical state while operating the vehicle. Using advanced sensors, including infrared cameras, eye-tracking devices, and motion detectors, the system continuously tracks the driver’s eye movement, head positioning, and driving patterns to detect signs of drowsiness or fatigue. If the system detects potential fatigue, it alerts the driver with both visual and auditory signals, encouraging them to take a break and reduce the risk of accidents caused by fatigue. The system also logs instances of detected fatigue for safety analysis and future improvements.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the necessary sensors (infrared camera, eye-tracking sensors, and motion detectors) installed on the dashboard or rearview mirror.  
+- The system must be activated and set up through the vehicle's settings interface. The driver must enable the system before driving.  
+- The vehicle must be in motion, and the driver must be seated with the seatbelt fastened.  
+- The system requires a functional power source connected to the vehicle’s electrical system to operate continuously during the drive.  
+- Lighting conditions must be adequate for the sensors to function optimally, and no obstructions should block the sensor’s field of view.
+
+**4. Trigger Conditions**  
+- The system is triggered when the vehicle is started and all enabling conditions are met (e.g., vehicle in motion, seatbelt fastened, system enabled).  
+- The system starts monitoring the driver as soon as the vehicle begins moving, continuously evaluating the driver’s eye activity, head movements, and driving patterns.  
+- If the system detects potential signs of fatigue (e.g., excessive eye blinking, nodding off, erratic driving), it triggers an alert to notify the driver.  
+
+**5. Execution Output**  
+- When fatigue is detected, the system activates both a visual and auditory alert:  
+  - A message is displayed on the dashboard (e.g., "Please take a break") along with a warning icon.  
+  - An auditory alert (e.g., a beeping sound) is emitted to further capture the driver's attention.  
+- The system logs each incident of detected fatigue, including the time and the frequency of alerts, which can be accessed for review through the vehicle's diagnostic tools.  
+- The driver can acknowledge the alert, which resets the system to continue monitoring, or choose to disregard the alert. If the alert is not acknowledged, the system will continue monitoring the driver and may issue additional alerts if fatigue signs persist.
+
+**6. Exit Conditions**  
+- The system exits the fatigue detection mode and returns to regular monitoring once the driver acknowledges the alert, at which point the system will resume normal operation.  
+- If no fatigue is detected, the system continues to monitor the driver silently, without triggering alerts.  
+- In the case of a malfunction (e.g., sensor failure or connectivity issues), the system will disable the fatigue detection feature and notify the driver through a warning message on the dashboard. The driver is instructed to address the issue via the vehicle’s diagnostic tools or by contacting customer support.  
+- The system logs the occurrence of any malfunctions, and the driver may be required to seek maintenance to restore full functionality.

@@ -1,0 +1,34 @@
+**Underpinning Contract for Automated Emergency Brake Assistance System**
+
+---
+
+**1. Title**  
+Automated Emergency Brake Assistance System
+
+**2. Goal**  
+The Automated Emergency Brake Assistance System is designed to enhance safety by automatically engaging the vehicle's brakes in critical situations where a collision risk is detected. The system aims to prevent or mitigate potential accidents by applying the brakes when the driver is unable to react in time, ensuring swift and effective emergency braking. It will feature object detection, obstacle assessment, and intelligent braking response, all based on real-time analysis of the vehicle’s surroundings.
+
+**3. Preconditions**  
+- The vehicle is equipped with the necessary sensors (e.g., cameras, radar, lidar) and software algorithms for detecting obstacles and hazards on the road.
+- The driver must be in the vehicle, with the seatbelt fastened and the vehicle in operation (moving at a speed where emergency braking could be required).
+- The system must be activated in the vehicle’s settings or as part of the standard safety features.
+- The vehicle’s onboard system must be functional and have sufficient power to operate the braking mechanism.
+
+**4. Main Scenario**  
+1. **Alise** is driving the vehicle on a city road when a pedestrian unexpectedly crosses in front of the car.  
+2. The **Automated Emergency Brake Assistance System** detects the pedestrian and determines that a collision is imminent based on the vehicle's speed and the distance to the pedestrian.  
+3. The system calculates the necessary braking force and prepares to engage the brakes automatically.  
+4. The system activates the brakes, bringing the vehicle to a complete stop, avoiding a potential accident.  
+5. **Alise** receives an alert on the dashboard notifying her that the emergency braking was successfully initiated and the hazard has been avoided.
+
+**5. Alternative Scenario**  
+1. **Bob** is driving the vehicle on a highway, and a sudden vehicle cut-in occurs.  
+2. The **Automated Emergency Brake Assistance System** detects the potential collision but encounters a malfunction in its radar sensor due to a blockage (e.g., dirt on the sensor).  
+3. The system alerts **Bob** with a warning on the dashboard that the emergency braking system is temporarily unavailable due to sensor malfunction.  
+4. **Bob** continues driving with caution, relying on manual braking, while the vehicle logs the issue for maintenance.  
+5. The system’s error notification disappears once the sensor is cleaned or repaired, restoring full functionality to the system.
+
+**6. Postconditions**  
+- After a successful interaction, the vehicle comes to a safe stop, preventing a collision and ensuring that both the driver and pedestrians are safe.  
+- The system logs the event and notifies the driver of the system's activation, ensuring that the driver is aware of the emergency braking event.  
+- If the system encounters a failure or malfunction, it informs the driver immediately with an error notification and logs the issue for future maintenance.

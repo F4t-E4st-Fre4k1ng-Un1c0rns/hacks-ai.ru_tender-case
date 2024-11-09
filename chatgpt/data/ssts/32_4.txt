@@ -1,0 +1,34 @@
+**Technical Specifications for Automated Emergency Brake Assistance System (AEBAS)**
+
+---
+
+### 1. Title  
+**Automated Emergency Brake Assistance System (AEBAS) - Technical Specifications**
+
+### 2. Functional Description  
+The **Automated Emergency Brake Assistance System (AEBAS)** is a safety feature that automatically applies the vehicle’s brakes when an imminent collision is detected, and the driver fails to respond in a timely manner. It uses advanced sensors such as cameras, radar, and LiDAR to detect obstacles and assess the risk of a collision. The system adjusts the braking force based on the severity of the detected risk and applies the brakes to reduce the impact or avoid a collision altogether. The system is designed to operate in both low-speed city environments and high-speed highway conditions, offering enhanced safety for the driver and passengers.
+
+### 3. Enabling Conditions  
+- **Hardware Setup**: The AEBAS relies on a combination of LiDAR, radar, and camera sensors to detect potential obstacles. These sensors must be installed and calibrated properly for accurate performance.
+- **System Calibration**: The system must pass an initial diagnostic and calibration procedure during vehicle startup to ensure accurate sensor readings and effective braking intervention.
+- **Vehicle Speed**: AEBAS will operate effectively within the speed range of **5 km/h to 180 km/h**, ensuring it functions in both low-speed urban settings and high-speed highway conditions.
+- **Clear Weather**: The system is designed to perform optimally in **clear weather** conditions, but it will still provide basic functionality in light rain and fog. The system may experience reduced performance in extreme weather such as heavy rain, snow, or dense fog.
+- **System Activation**: AEBAS will be automatically activated when the vehicle is started, and it will remain active unless manually disabled by the driver through the vehicle's control interface.
+
+### 4. Trigger Conditions  
+- **Collision Risk Detection**: The system is triggered when a potential collision with an object, vehicle, or pedestrian is detected by the sensors, and the vehicle is on a collision course with that object. The system continuously monitors the environment to assess this risk.
+- **Imminent Collision Alert**: If the system predicts that a collision is imminent and the driver does not initiate any corrective action (e.g., braking or steering), AEBAS will be triggered to apply the brakes automatically.
+- **Sensor Data Validation**: If the system detects inconsistencies or anomalies in the sensor data, it will cross-check readings from multiple sensors. If the data is validated as reliable and a collision is imminent, the system will initiate emergency braking.
+- **Driver Inaction**: If the system identifies that the driver has not reacted to a detected hazard, such as failing to brake when required, the AEBAS will automatically activate the emergency brakes to mitigate or avoid the collision.
+
+### 5. Execution Output  
+- **Automatic Braking Activation**: Once the system is triggered, AEBAS will apply the brakes in a manner that is proportional to the severity of the collision risk. The braking force will vary depending on the detected obstacle's speed, size, and proximity.
+- **Visual and Auditory Alerts**: Upon activation, the system will provide visual and auditory warnings to the driver. A message will appear on the dashboard, and an audible alarm will sound, indicating that emergency braking has been applied.
+- **Event Logging**: The system will log key data points when emergency braking is engaged, including vehicle speed, location, detected obstacles, and time of activation. This data will be available for diagnostic purposes or further analysis.
+- **Partial or Full Collision Mitigation**: The system will either slow the vehicle down significantly or bring it to a complete stop, depending on the severity of the collision risk. This helps to reduce the force of impact or avoid a crash entirely.
+
+### 6. Exit Conditions  
+- **Collision Avoidance or Mitigation**: The system exits when the vehicle has successfully slowed down or stopped, and the collision either does not occur or its severity is reduced. The system then returns to its standby monitoring mode.
+- **Driver Intervention**: If the driver intervenes by manually pressing the brake pedal or disengaging the emergency braking system (e.g., through a control on the dashboard), the system will deactivate and return full control to the driver.
+- **System Fault or Error**: If the system detects a malfunction or failure in the sensors or braking mechanism, it will enter a fail-safe mode and deactivate until repaired. The driver will be alerted via the vehicle's dashboard that the system is inoperable.
+- **Environmental Disruption**: If the weather or road conditions degrade to a point where sensor performance is severely impacted (e.g., heavy snow or dense fog), the system may reduce its functionality but will continue to monitor and attempt to provide some level of collision avoidance support.

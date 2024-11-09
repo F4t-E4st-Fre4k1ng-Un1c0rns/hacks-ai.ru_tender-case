@@ -1,0 +1,41 @@
+**Technical Specifications for Automated Emergency Brake Assistance System**
+
+---
+
+**1. Title**  
+Automated Emergency Brake Assistance System
+
+**2. Functional Description**  
+The Automated Emergency Brake Assistance System is designed to autonomously detect imminent collision threats and automatically apply the vehicle's brakes to either prevent or significantly reduce the severity of an accident. The system utilizes a combination of radar, lidar, and camera sensors to identify obstacles within the vehicle's path. Upon detecting an imminent threat, the system activates the braking system with the required force, bringing the vehicle to a full stop when necessary, or reducing speed to mitigate the collision. The system is intended to function without the need for driver intervention, ensuring enhanced safety in critical situations.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with functional sensors (radar, lidar, and cameras) capable of detecting obstacles and hazards within the vehicle’s path.
+- The system is enabled through the vehicle's safety settings or activated by default as part of the vehicle’s standard safety package.
+- The vehicle is in motion, with speed above 0 km/h.
+- The vehicle’s braking system and onboard computer are fully operational and capable of responding to inputs from the emergency braking system.
+- The system is activated when the driver’s seatbelt is fastened and the vehicle is in motion at an appropriate speed.
+
+**4. Trigger Conditions**  
+- The system continuously monitors the vehicle's environment for potential hazards (e.g., pedestrians, other vehicles, or obstacles) in its path.
+- The system will activate when an obstacle is detected within a critical range (3 meters or closer for pedestrians and larger objects).
+- The system calculates the risk of collision based on vehicle speed, the relative speed of the obstacle, and the distance between the vehicle and the detected object.
+- The system is triggered automatically when the relative speed exceeds 10 km/h, and the collision risk is imminent based on the calculated data.
+- A failure to detect the obstacle by sensors will trigger a notification to the driver, indicating the system's unavailability or error.
+
+**5. Execution Output**  
+- Upon activation, the system applies the brakes with the necessary force to either fully stop the vehicle or slow it down to reduce the impact of the collision.
+- The braking response will adjust based on the relative speed of the vehicle and the detected object. If a full stop is required, the system will bring the vehicle to a complete halt.
+- The system provides real-time feedback to the driver via a dashboard alert indicating that the emergency braking system has been activated.
+- If the vehicle reaches a complete stop, the system holds the vehicle in place until the driver resumes control.
+- In cases where a full stop is not necessary, the system reduces vehicle speed by up to 50% to mitigate the collision, allowing the driver to regain control and avoid the hazard.
+
+**6. Exit Conditions**  
+- The system disengages once the vehicle has slowed sufficiently or come to a complete stop, depending on the severity of the detected threat.
+- Upon disengagement, the system alerts the driver that the emergency braking sequence has been completed.
+- If the system brings the vehicle to a full stop, the vehicle remains stationary until the driver accelerates or otherwise takes control of the vehicle.
+- If the system only reduces speed, it will disengage once the vehicle has decelerated sufficiently, allowing the driver to regain control and resume driving.
+- The system will log any incidents where emergency braking was triggered, storing relevant data for diagnostic and maintenance purposes.
+
+---
+
+This version of the technical specifications meets the necessary compliance level, addressing key parameters of the underpinning contract by ensuring fully autonomous braking activation, with no driver intervention required after activation, and support for low-speed as well as high-speed collision scenarios.

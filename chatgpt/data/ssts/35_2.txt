@@ -1,0 +1,43 @@
+**Title:**  
+Driver Fatigue Detection and Alert System - Technical Specifications
+
+---
+
+### 1. Functional Description  
+The Driver Fatigue Detection and Alert System (DFDAS) is designed to enhance driver safety by detecting signs of drowsiness or fatigue through real-time monitoring of eye movements, head position, and driving behavior. The system uses a combination of in-vehicle cameras and sensors to assess the driver's alertness. Upon detecting potential fatigue, the system will issue visual and auditory alerts, encouraging the driver to take a break. The system is designed to operate continuously during driving and provides feedback to the driver when fatigue levels exceed safe thresholds.
+
+---
+
+### 2. Enabling Conditions  
+- The system is enabled when the vehicle's ignition is turned on.
+- The vehicle must be equipped with a camera system capable of tracking the driver's face and eyes, and sensors that detect head position.
+- The driver must be seated in the driver's seat with the seatbelt fastened and the vehicle in motion.
+- The vehicle's infotainment system or dashboard must be operational, as this is used to display alerts.
+- A functional check of the camera and sensor systems must be performed at startup to ensure accurate operation.
+- The system must be initialized and active before the vehicle reaches a predefined speed threshold (e.g., 10 km/h).
+
+---
+
+### 3. Trigger Conditions  
+- **Fatigue Detection Trigger:** The system triggers when fatigue is detected through predefined criteria, such as frequent eye closures, slow blinking, prolonged head tilting, or an irregular driving pattern indicating drowsiness.
+- **System Error Trigger:** If the system detects a malfunction or calibration issue in the sensors or cameras (e.g., poor image quality or sensor misalignment), it triggers an error alert.
+- **Manual Override Trigger:** The driver may manually disable or adjust the fatigue detection system via the vehicle's interface if the driver believes the system is malfunctioning or during specific conditions (e.g., driving at night).
+
+---
+
+### 4. Execution Output  
+- **Fatigue Alert Output:** When the system detects fatigue, it issues a visual and auditory alert on the dashboard or infotainment screen. The alert consists of a message prompting the driver to take a break and an audible tone or chime. The alert continues until the driver acknowledges it or the system determines the alert condition has passed.
+- **Fallback Output:** If the system cannot detect the driver’s face, eyes, or head position (due to obstruction or misalignment), a warning message will be displayed, advising the driver to adjust their seat position or remove obstructions for accurate monitoring.
+- **Continuous Monitoring Output:** When no signs of fatigue are detected, the system silently continues to monitor the driver’s state without issuing alerts, ensuring that monitoring is ongoing without disturbing the driver.
+
+---
+
+### 5. Exit Conditions  
+- **Successful Intervention Exit:** The system exits the alert mode once the driver acknowledges the alert by taking a break, manually resetting the system, or when the system detects that the driver's alertness has returned to a safe level.
+- **Manual Deactivation Exit:** The system can be deactivated by the driver via the vehicle’s interface. This may occur if the driver chooses not to receive alerts during certain driving conditions.
+- **Error Resolution Exit:** If the system encounters an error or malfunction, it will log the issue and notify the driver with a message indicating the nature of the problem (e.g., camera failure). The system will then enter a standby mode until the issue is resolved, either manually or through service.
+
+--- 
+
+**Compliance Level: Largely Compliant**  
+This technical specification has been designed with compliance to the underpinning contract’s requirements, addressing the core functions, triggers, and outputs of the Driver Fatigue Detection and Alert System while highlighting minor mismatches in scope and behavior monitoring.

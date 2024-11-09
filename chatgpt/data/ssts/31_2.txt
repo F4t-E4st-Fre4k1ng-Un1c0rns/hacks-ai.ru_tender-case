@@ -1,0 +1,47 @@
+**Technical Specifications: Voice-Controlled Vehicle Settings Customization**
+
+---
+
+### 1. Title  
+**Voice-Controlled Vehicle Settings Customization**
+
+---
+
+### 2. Functional Description  
+The Voice-Controlled Vehicle Settings Customization sub-system allows users to adjust and personalize the vehicle’s internal settings (e.g., seat position, climate control, audio preferences, lighting) through voice commands. It utilizes an advanced voice recognition system to process and execute commands in real-time, ensuring a seamless hands-free user experience. The system enhances user comfort, safety, and convenience by reducing the need for manual interaction with physical controls.
+
+---
+
+### 3. Enabling Conditions  
+- The vehicle must be equipped with a working voice recognition system, including microphones, speakers, and a processing unit.
+- The user must be seated in the vehicle with adequate microphone coverage and minimal background noise.
+- The system must be initialized and actively listening for commands after a predefined activation phrase is spoken.
+- All vehicle settings to be controlled by the voice system (e.g., seat position, temperature, lighting) must be pre-configured and accessible by the voice recognition system.
+- The vehicle’s infotainment system must be properly integrated with the voice control system.
+
+---
+
+### 4. Trigger Conditions  
+- The system is activated when the user speaks the predefined activation phrase, such as “Hey [Vehicle Name].”
+- The system should respond by prompting the user with a confirmation, e.g., “How can I assist you today?”
+- If the system detects an unsupported command or invalid phrase, it should request clarification, e.g., “I didn’t understand that. Please repeat.”
+- The system remains active and responsive until the user completes a command, cancels the interaction, or the system is manually deactivated.
+
+---
+
+### 5. Execution Output  
+- Upon receiving a valid command, the system adjusts the relevant vehicle setting (e.g., adjusts seat position, modifies cabin temperature, changes lighting, or adjusts audio).
+- The system provides verbal confirmation of the executed action, e.g., “Seat position adjusted” or “Temperature set to 22 degrees Celsius.”
+- In case of failure to understand or execute the command, the system provides error feedback, such as, “I’m sorry, I didn’t catch that. Please try again.”
+- If an error persists, the system prompts the user to either use manual controls or retry the command after a brief pause.
+
+---
+
+### 6. Exit Conditions  
+- After a successful action, the system returns to an idle listening state and awaits further commands.
+- If an error occurs or the command is unrecognized, the system exits the interaction mode and suggests fallback actions, such as using manual controls or troubleshooting the issue.
+- If the system fails to execute the user’s request after several attempts, it exits the voice control mode and notifies the user that manual adjustment is required.
+- The system can be re-activated at any time by the user speaking the activation phrase again.
+
+--- 
+

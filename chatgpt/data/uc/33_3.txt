@@ -1,0 +1,38 @@
+**Underpinning Contract: User Authentication and Authorization for Car Access**
+
+**1. Title**  
+User Authentication and Authorization for Car Access
+
+**2. Goal**  
+The User Authentication and Authorization for Car Access subsystem will enable users to securely access and control their luxury electric cars through a digital interface. It will provide features such as:
+- Secure login and authentication to verify the identity of the car owner.
+- Role-based access control to restrict certain functionalities based on the user's credentials.
+- Authorization mechanisms to ensure that only authenticated users can interact with the vehicle's systems.
+- Ability to add and manage multiple users with different access privileges.
+- Real-time monitoring of user access and activity on the car.
+
+**3. Preconditions**  
+- The user must have an active account in the car manufacturer's system, including a valid email address, password, and associated vehicle(s).
+- The car must be connected to the vehicle's digital infrastructure, supporting remote authentication protocols.
+- The system must have internet connectivity to verify user credentials and update access logs.
+- Users must have a valid mobile device or digital key capable of interacting with the car's authentication system.
+- The system must support multiple user profiles with configurable access levels (e.g., Owner, Driver, Guest).
+
+**4. Main Scenario**  
+1. The user, Alise, approaches her luxury electric car and opens the car's mobile application or digital key interface.
+2. Alise is prompted to authenticate using her credentials, such as entering a password or scanning her fingerprint on the mobile device.
+3. The subsystem verifies Alise's credentials against the system database. If the authentication is successful, the system checks her access permissions based on her user role (e.g., Owner).
+4. Upon successful authorization, Alise gains access to the car's controls and can perform actions like unlocking doors, starting the car, or adjusting vehicle settings.
+5. The system logs Alise’s access event, including the time, location, and actions taken, for security monitoring and auditing purposes.
+
+**5. Alternative Scenario**  
+1. The user, Bob, approaches his car and attempts to authenticate through the mobile app, but his credentials are incorrect.
+2. The system notifies Bob with an error message stating that the authentication has failed and prompts him to try again or reset his password.
+3. Bob tries to reset his password via the provided link, but he does not have internet connectivity, so he cannot complete the process.
+4. The system suggests an alternative method, such as calling customer support or using a backup physical key to access the car temporarily.
+5. Bob may also try to authenticate via another device if the current one is malfunctioning, or choose to wait until the connection is restored.
+
+**6. Postconditions**  
+- After a successful authentication and authorization, the user (Alise) gains access to the car's features and functionalities based on their predefined access level.
+- The car's system logs all actions taken by the user for security purposes.
+- The system maintains an updated status of the user’s access history and will alert administrators of any suspicious or unauthorized attempts to access the vehicle.

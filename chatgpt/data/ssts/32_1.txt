@@ -1,0 +1,42 @@
+**Technical Specifications for Automated Emergency Brake Assistance System**  
+
+---
+
+**1. Title**  
+Automated Emergency Brake Assistance System (AEBAS)
+
+---
+
+**2. Functional Description**  
+The Automated Emergency Brake Assistance System (AEBAS) is an advanced safety feature that automatically applies the vehicle’s brakes to prevent or mitigate a collision. The system uses various sensors such as radar, lidar, and cameras to monitor the environment around the vehicle. When a potential collision is detected and the driver fails to act in time, the AEBAS will autonomously apply the brakes to reduce the vehicle’s speed or bring it to a complete stop, depending on the situation. The goal is to minimize the severity of an impact or to completely avoid it, enhancing the overall safety of the vehicle and its occupants.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must be in motion, with a speed above 5 km/h for the AEBAS to be active.  
+- The vehicle’s sensor systems (radar, lidar, cameras) must be calibrated and fully operational.  
+- The system requires the driver to be seated with the seatbelt fastened to activate.  
+- The AEBAS depends on the vehicle’s Electronic Control Unit (ECU) and other critical safety systems, which must be active.  
+- The system is intended for use in normal driving conditions, and its performance may degrade in adverse weather conditions such as heavy rain, fog, or snow.  
+
+---
+
+**4. Trigger Conditions**  
+- The AEBAS triggers when the system detects an imminent collision with an object, vehicle, or obstacle. This includes situations where the relative speed and distance to the object are within a defined threshold, such as a 2-meter distance and a closing speed above a preset value.  
+- The system will activate if the vehicle’s speed is such that an impact is likely to occur within a short period, and the driver has not taken corrective action (such as braking or steering) within a set time frame (e.g., 1.5 seconds).  
+- The system can also be triggered by the detection of objects moving into the vehicle's path, or by a sudden deceleration in the vehicle ahead, indicating an emergency situation.
+
+---
+
+**5. Execution Output**  
+- When triggered, the AEBAS will autonomously apply the vehicle’s braking system to decelerate the vehicle. This may involve partial braking to reduce the severity of a collision or full emergency braking to stop the vehicle.  
+- The vehicle’s speed will be reduced, and in some cases, the vehicle will come to a complete stop to avoid a collision.  
+- The system will monitor the situation and will stop braking once the vehicle has either avoided the collision or slowed down to a safe speed.  
+- A system alert will be activated to notify the driver of the action taken by the AEBAS, including a visual or auditory warning.  
+
+---
+
+**6. Exit Conditions**  
+- The system will exit the emergency braking mode once the vehicle has slowed to a safe speed (e.g., below 10 km/h), or when the collision risk has been avoided.  
+- If the AEBAS is deactivated due to a fault, such as a sensor malfunction or system failure, the system will issue a warning to the driver and cease further action. The system will remain inactive until repaired or recalibrated.  
+- The AEBAS will return control of the vehicle to the driver once the emergency situation has been mitigated, and the vehicle is deemed to be in a stable condition. If the system is unable to resolve the emergency, the vehicle will rely on the driver’s intervention.

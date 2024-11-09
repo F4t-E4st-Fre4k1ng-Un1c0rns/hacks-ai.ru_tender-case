@@ -1,0 +1,38 @@
+**Underpinning Contract: User Authentication and Authorization for Car Access**
+
+---
+
+**Goal**  
+The User Authentication and Authorization for Car Access sub-system will enable secure and authorized access to the luxury electric car. This system ensures that only authorized users, such as the owner or designated drivers, can unlock and operate the vehicle. It will provide features such as biometric authentication (fingerprint or facial recognition), PIN-based access, and a secure mobile app integration for vehicle access control.
+
+---
+
+**Preconditions**  
+1. The user must have registered their account with the car’s manufacturer and linked their profile to their vehicle’s system.  
+2. The car is equipped with the necessary hardware for authentication, including sensors for biometric identification and an integrated mobile application for remote access.  
+3. The user’s mobile application is installed and properly configured to communicate with the car’s authentication system.  
+4. The user must have an active, verified account with the necessary credentials (e.g., password, biometrics) stored in the car’s secure system.  
+5. The user’s device (smartphone or key fob) must be within the effective communication range of the car to initiate the authentication process.
+
+---
+
+**Main Scenario**  
+1. **Step 1**: Alise approaches the car and the car’s authentication system detects her presence via Bluetooth or proximity sensors from her registered smartphone.  
+2. **Step 2**: The car requests user authentication. Alise can choose between fingerprint authentication, facial recognition, or entering a PIN code.  
+3. **Step 3**: Alise provides the chosen authentication method (e.g., she places her finger on the sensor for fingerprint authentication).  
+4. **Step 4**: The system validates her credentials. If correct, the car’s doors automatically unlock and the car’s ignition system is ready to start.  
+5. **Step 5**: Alise enters the car and begins her drive, with her mobile app confirming that authentication was successful.
+
+---
+
+**Alternative Scenario**  
+1. **Step 1**: Bob approaches the car, and the car attempts to authenticate via Bluetooth or proximity detection.  
+2. **Step 2**: The car detects an issue—either Bob’s mobile app is not within range, or the authentication hardware (e.g., biometric sensor) is malfunctioning.  
+3. **Step 3**: The car displays an error message instructing Bob to either use an alternative authentication method (e.g., PIN) or move closer to the vehicle with a valid authentication device.  
+4. **Step 4**: Bob attempts to enter the PIN code or uses a backup key fob (if provided).  
+5. **Step 5**: If authentication fails multiple times, the car locks out the user and alerts the owner via the mobile app, requesting a manual reset or reconfiguration of the authentication system.
+
+---
+
+**Postconditions**  
+Upon successful authentication, the car is unlocked, and the system authorizes access to the vehicle. The owner or authorized user can now operate the vehicle without any additional barriers. The system logs the successful authentication event, including details of the access time and the method used, for security and tracking purposes.

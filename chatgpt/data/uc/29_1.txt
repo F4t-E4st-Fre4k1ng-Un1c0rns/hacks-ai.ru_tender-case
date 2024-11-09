@@ -1,0 +1,43 @@
+**Underpinning Contract: Seamless Transition Between In-Car and Smartphone Apps**
+
+---
+
+### 1. Goal
+The *Seamless Transition Between In-Car and Smartphone Apps* sub-system aims to provide users with the ability to seamlessly switch between the car's in-built interface and a connected smartphone app. The feature allows users to start an activity on one device (car or smartphone) and continue it without interruption on the other device, ensuring a fluid experience whether controlling car functions, navigation, media, or other connected services. The goal is to enhance user convenience and interactivity, ensuring that tasks like navigation routing, media playback, and vehicle monitoring are accessible at any time, from either platform.
+
+### 2. Preconditions
+- The user must have the car's in-built system and the corresponding smartphone app installed and properly configured on their device.
+- Both the car’s system and the smartphone app must be connected to the same user account, which allows for synchronization.
+- Bluetooth, Wi-Fi, or other communication methods should be enabled for connectivity between the smartphone and the car.
+- Both devices must have active internet connections for full functionality (e.g., for map updates or media streaming).
+
+### 3. Main Scenario
+1. **User Action**: Bob starts navigation on the car's built-in system.
+   **Sub-System Response**: The navigation system begins routing to the selected destination, and the map is displayed on the car's screen.
+
+2. **User Action**: Bob exits the car but wants to continue navigation on his smartphone.
+   **Sub-System Response**: Upon opening the smartphone app, the system detects the ongoing navigation session in the car and prompts Bob to transfer it to the phone. Bob accepts the transfer.
+
+3. **User Action**: Bob continues driving while using the smartphone's navigation.
+   **Sub-System Response**: The app continues navigation, and if the car reconnects, it syncs with the smartphone’s session, ensuring no disruption in the route.
+
+4. **User Action**: Bob listens to music from the car’s media system and decides to switch to his smartphone.
+   **Sub-System Response**: The system recognizes the switch and automatically shifts the media session to the smartphone without interruption.
+
+5. **User Action**: Bob returns to the car and wants to resume media playback from where it left off on his smartphone.
+   **Sub-System Response**: The car’s system detects the smartphone’s media session and resumes playback from the same point where Bob left off on the smartphone.
+
+### 4. Alternative Scenario
+1. **User Action**: Bob attempts to transfer the navigation from the car to his smartphone but the connection fails.
+   **Sub-System Response**: The system notifies Bob of the connection failure and offers troubleshooting tips (e.g., checking Bluetooth or Wi-Fi connectivity). Bob may attempt to reconnect or manually switch to the app.
+
+2. **User Action**: Bob tries to continue media playback from the car to his smartphone, but the app is not responding.
+   **Sub-System Response**: The system alerts Bob that the smartphone app is unavailable or malfunctioning and provides a prompt to either restart the app or use an alternative method, such as continuing in the car's system.
+
+3. **User Action**: Bob’s phone loses internet connection while transferring data to the car.
+   **Sub-System Response**: The system pauses the transfer and notifies Bob that an internet connection is needed to complete the transfer. Bob is given the option to either reconnect the internet or continue the task using the car’s system.
+
+### 5. Postconditions
+- After successful interaction, Bob has the flexibility to control and monitor his car’s systems through either the in-car interface or the smartphone app, depending on his preference and the environment.
+- The data, such as navigation routes, media content, and vehicle status, remains synchronized between the car and the smartphone app, ensuring that Bob experiences no interruptions or loss of information during the transition.
+- If the transition is completed successfully, Bob can freely switch between the devices without needing to re-enter settings or restart functions, achieving a truly seamless experience.

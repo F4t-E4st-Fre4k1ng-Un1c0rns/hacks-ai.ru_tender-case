@@ -1,0 +1,55 @@
+**Underpinning Contract: Automated Emergency Brake Assistance System**
+
+---
+
+### 1. Title  
+**Automated Emergency Brake Assistance System**
+
+### 2. Goal  
+The **Automated Emergency Brake Assistance System** (AEBAS) is designed to enhance the safety and security of the vehicle by automatically applying the brakes when an imminent collision with another vehicle or obstacle is detected. The system aims to reduce the severity of accidents or prevent them entirely by taking corrective action when the driver is unable to react in time. Key features include:
+
+- Detection of potential collisions with objects or other vehicles.
+- Automatic application of the brakes if a collision is imminent.
+- Integration with other safety systems in the car (such as adaptive cruise control and lane-keeping assistance).
+- Adjustment of braking force based on the proximity and speed of the detected object.
+
+### 3. Preconditions  
+- The vehicle must be equipped with the AEBAS hardware (sensors, cameras, and braking system).
+- The system is activated and ready to operate when the vehicle is started and the drive mode is engaged.
+- AEBAS will function when the vehicle is traveling at speeds typically above 5 km/h (3 mph), as per regulatory requirements.
+- The system is calibrated and must pass initial diagnostic tests before use.
+- The vehicle's sensors must be clean and unobstructed for optimal operation.
+
+### 4. Main Scenario  
+1. **Driver starts the vehicle and drives normally**  
+   The AEBAS is active as soon as the vehicle is started and continues running in the background, constantly scanning the surrounding environment for potential hazards.
+
+2. **Driver approaches a potential obstacle or other vehicle**  
+   The system detects the obstacle or vehicle ahead, evaluating the speed, distance, and direction to assess the likelihood of a collision.
+
+3. **System identifies an imminent collision**  
+   The AEBAS evaluates the risk of collision and concludes that an emergency braking intervention is necessary based on the vehicle's speed and distance from the obstacle.
+
+4. **AEBAS automatically applies the brakes**  
+   Without driver intervention, the system engages the brakes to slow or stop the vehicle, reducing the impact or avoiding a collision.
+
+5. **Driver regains control or the vehicle comes to a complete stop**  
+   After the automatic braking is applied, the system releases the braking once the vehicle is safely stopped or the driver resumes control. The system returns to its default monitoring mode.
+
+### 5. Alternative Scenario  
+1. **Sensor malfunction or obstruction**  
+   If the system detects a fault in the sensors or if an obstruction is blocking them (such as dirt or snow), the AEBAS will alert the driver through visual and/or audible warnings. The system will not engage emergency braking if it cannot properly detect surrounding objects.
+
+2. **Failure to detect a hazard**  
+   In the case where a hazard is not detected (due to poor visibility, low lighting, or other limitations), the system will not activate emergency braking. The driver is responsible for braking manually.
+
+3. **Driver disengages or overrides the system**  
+   If the driver intervenes by pressing the brake pedal or manually overriding the system (e.g., by disabling AEBAS from the dashboard settings), the automatic braking feature will be deactivated, and the driver takes control of the vehicle’s braking.
+
+4. **System is inoperable or disabled**  
+   If for any reason the AEBAS is disabled (e.g., due to a software malfunction or maintenance mode), the vehicle will operate without the automated emergency braking feature, and the driver will need to rely solely on manual braking.
+
+### 6. Postconditions  
+- If the AEBAS successfully prevents a collision, the vehicle is either slowed down or stopped, and the driver is notified via the vehicle’s dashboard display. The system will log the event and store it for diagnostic and performance analysis.
+- In the case of a partial or complete collision prevention, the vehicle will return to a safe state, with the driver able to resume control once the brakes are released.
+- If the AEBAS fails to prevent a collision (due to sensor issues, system malfunction, or other reasons), the driver will be notified and the system will be deactivated, requiring manual intervention.

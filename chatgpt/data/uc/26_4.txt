@@ -1,0 +1,30 @@
+**Title: Remote Engine Start/Stop via Mobile App**
+
+**Goal:**
+The Remote Engine Start/Stop feature via Mobile App allows the user to start or stop the engine of their luxury electric car remotely using a mobile device. This feature provides enhanced convenience, enabling the user to control the car's engine from a distance, such as warming up the vehicle before entering or turning off the engine for security and power conservation while away.
+
+**Preconditions:**
+1. The vehicle must be equipped with the Remote Engine Start/Stop system.
+2. The mobile app must be installed and configured on the user’s smartphone.
+3. The vehicle must be within a reasonable range of the mobile app for connection (e.g., within the mobile network range or Bluetooth proximity).
+4. The user must have an active account and be authenticated to access the vehicle’s remote features.
+5. The vehicle should have sufficient battery charge and be in a safe, operational condition to allow remote engine control.
+
+**Main Scenario:**
+1. The user (Alise) opens the mobile app on her smartphone.
+2. Alise selects the "Remote Engine Start/Stop" option within the app’s menu.
+3. Alise presses the “Start Engine” button to remotely start the vehicle.
+4. The mobile app sends a signal to the vehicle to initiate the engine startup process.
+5. The vehicle confirms the action via the app, and the engine starts. Alise receives a notification on her mobile device confirming that the engine has been successfully started.
+
+**Alternative Scenario:**
+1. Bob opens the mobile app on his smartphone and attempts to start the engine.
+2. The mobile app fails to connect to the vehicle due to network issues (e.g., weak mobile signal or vehicle out of range).
+3. A notification appears on Bob's phone, informing him that the vehicle is unreachable, and the action cannot be completed.
+4. Bob checks the app for troubleshooting tips, such as moving closer to the vehicle or verifying his network connection.
+5. If the issue persists, Bob may contact customer support for assistance.
+
+**Postconditions:**
+- If the action is successful, the vehicle’s engine is remotely started or stopped, and the user receives a confirmation notification.
+- If the engine is started, the vehicle enters an operational state, ready for use, with all systems functioning as expected.
+- If the engine is stopped, the vehicle is securely powered off, and all systems enter standby mode.

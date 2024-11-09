@@ -1,0 +1,47 @@
+**Technical Specifications: User Authentication and Authorization for Car Access**
+
+---
+
+**1. Title**  
+User Authentication and Authorization for Car Access
+
+---
+
+**2. Functional Description**  
+The User Authentication and Authorization for Car Access sub-system enables secure, authorized access to the luxury electric vehicle. It supports multiple methods of authentication, including biometric (fingerprint and facial recognition), PIN-based entry, and key fob or mobile app integration for remote access. The system ensures that only registered and authorized users can unlock and start the vehicle. It also logs authentication attempts and can alert the vehicle owner if suspicious activities are detected, ensuring both secure and seamless access to the vehicle.
+
+---
+
+**3. Enabling Conditions**  
+1. The vehicle must be equipped with biometric sensors (fingerprint scanner or facial recognition system) and the necessary communication hardware (Bluetooth, NFC, etc.) for proximity-based authentication.  
+2. Users must have an active account with the car manufacturer’s authentication platform, with verified credentials linked to the vehicle system.  
+3. The vehicle system must be synchronized with the user’s mobile app or key fob, ensuring proper communication and access control.  
+4. The vehicle’s software and hardware must be updated to the latest security patches and configurations for optimal authentication.  
+5. The user’s device (smartphone or key fob) must be within the effective communication range for authentication to take place.
+
+---
+
+**4. Trigger Conditions**  
+1. A registered user approaches the vehicle with their authorized device (smartphone or key fob) within range of the vehicle's authentication system.  
+2. The user initiates authentication by selecting their preferred method (biometric, PIN, or key fob) to gain access.  
+3. The system detects a malfunction in the authentication hardware or software (e.g., biometric sensor failure, communication error with the device).  
+4. A user tries to authenticate the vehicle after a failed authentication attempt, prompting an additional attempt or alternate method of access.  
+5. The vehicle system receives a request to reset authentication credentials from the user or an authorized administrator, indicating an issue or the need for reconfiguration.
+
+---
+
+**5. Execution Output**  
+1. Upon successful authentication, the system unlocks the vehicle’s doors and prepares the ignition system for operation.  
+2. If the user selects PIN authentication and enters the correct code, the system unlocks the vehicle and displays a confirmation on the mobile app.  
+3. In the event of a failed authentication attempt, the system provides feedback to the user and offers an option to try again or use an alternative method (e.g., switch from biometric to PIN).  
+4. If the authentication fails repeatedly, the system alerts the user and locks out further attempts for a predefined period, sending a notification to the vehicle owner for security purposes.  
+5. The system logs every authentication attempt, including the method used, time of attempt, and whether it was successful or failed, for future review and security auditing.
+
+---
+
+**6. Exit Conditions/Exit Conditions**  
+1. The system successfully authenticates the user and grants access to the vehicle, allowing the user to start the ignition and drive the vehicle.  
+2. The system logs the authentication attempt, noting the outcome (successful or failed) and the authentication method used.  
+3. If multiple failed attempts occur, the system locks the user out for a period and notifies the vehicle owner about the suspicious activity.  
+4. The user or administrator has the option to reset the authentication settings in case of malfunction or unauthorized access attempts.  
+5. If the system detects an unauthorized access attempt or malfunction, it enters a secure lockout mode, and access is denied until a manual reset or troubleshooting is performed.

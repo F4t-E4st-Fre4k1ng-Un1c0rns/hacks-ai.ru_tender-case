@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not specify that real-time road condition updates are required from cloud services, while UC mentions this requirement. | "The system requires an active and stable internet connection for receiving real-time road condition updates from cloud services." |
+| SSTS does not mention that adaptive driving recommendations should change based on evolving road conditions, as described in UC. | "The system continually monitors the road and updates alerts and recommendations in real-time based on new data or changes in road conditions." |
+| SSTS mentions "loss of connectivity" but does not clarify the fallback mechanism for limited local data, as the UC specifies. | "If the vehicle’s connectivity to cloud services is lost, the system defaults to using local data until connectivity is restored." |
+| SSTS does not clearly state that the system will revert to standard driving mode once the hazard clears, which is mentioned in UC. | "The system exits or reverts to standard driving mode once the hazardous road condition has cleared or improved (e.g., road dries, ice melts)." |
+| SSTS omits the specific mention of a driving mode (e.g., slippery mode) suggested in adaptive recommendations, which is emphasized in the UC. | "The system provides adaptive driving recommendations, such as suggesting a reduction in speed or switching to a different driving mode (e.g., slippery mode)." |

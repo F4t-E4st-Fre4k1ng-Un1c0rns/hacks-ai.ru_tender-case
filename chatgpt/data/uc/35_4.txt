@@ -1,0 +1,31 @@
+**Title:**  
+Driver Fatigue Detection and Alert System
+
+**Goal:**  
+The Driver Fatigue Detection and Alert System aims to monitor and assess the driver’s alertness and fatigue levels in real-time. The system uses advanced sensors, including facial recognition, eye-tracking, and steering behavior analysis, to detect signs of fatigue. If the system identifies that the driver is becoming drowsy or is at risk of falling asleep, it will issue a timely alert to warn the driver and prompt them to take a break.
+
+**Preconditions:**  
+1. The vehicle is equipped with the necessary sensors and cameras (e.g., facial recognition, eye-tracking) to monitor the driver’s physical state.
+2. The Driver Fatigue Detection and Alert System is activated and fully operational before the vehicle begins operation.
+3. The system must be calibrated for the specific driver (e.g., recognizing their face, eye patterns) to ensure accurate detection.
+4. The driver must be seated in the driver's seat and the seatbelt must be fastened to ensure proper monitoring.
+5. The system requires the driver to be in full control of the vehicle, with the car moving at a speed above a minimum threshold (e.g., 30 km/h).
+
+**Main Scenario:**
+1. Alise starts driving the car, and the Driver Fatigue Detection and Alert System activates automatically.
+2. The system monitors Alise’s facial expressions, eye movement, and steering behavior.
+3. After some time, the system detects that Alise's eyes are closing for extended periods, indicating early signs of fatigue.
+4. The system immediately triggers an alert, such as a visual and audio warning on the dashboard, prompting Alise to take a break.
+5. Alise acknowledges the alert and pulls over at a safe location to rest before continuing her journey.
+
+**Alternative Scenario:**
+1. Bob starts driving, and the system activates as usual.
+2. The system begins monitoring his alertness but encounters an error with the facial recognition camera due to low lighting conditions inside the vehicle.
+3. The system cannot reliably detect Bob’s fatigue levels and displays a message on the dashboard saying "Fatigue Detection Unavailable – Please Ensure Proper Lighting."
+4. Bob continues driving, but the system cannot provide a fatigue alert due to the sensor failure.
+5. If the lighting conditions improve or the error is resolved, the system resumes monitoring and provides alerts as needed.
+
+**Postconditions:**
+1. After a successful interaction with the system, Alise receives an alert when her fatigue level is detected as high, prompting her to stop and rest.
+2. Bob continues to drive, but the system’s error prevents fatigue detection until the issue is resolved, meaning no fatigue alert is issued during this period.
+3. Once the system resumes full functionality, it continues to monitor Bob's alertness and will provide future alerts as needed based on his fatigue levels.

@@ -1,0 +1,30 @@
+**Underpinning Contract: In-Car Remote Diagnostics for Technical Support**
+
+1. **Title**  
+   In-Car Remote Diagnostics for Technical Support
+
+2. **Goal**  
+   The In-Car Remote Diagnostics for Technical Support system enables users to remotely diagnose vehicle performance and technical issues. It provides real-time troubleshooting assistance to both the driver and technical support personnel, ensuring timely resolution of issues, enhancing vehicle reliability, and reducing the need for physical intervention. The system will also offer preventive maintenance notifications and alert users to any potential malfunctions, ensuring optimal vehicle performance.
+
+3. **Preconditions**  
+   - The vehicle must be equipped with the necessary hardware and software for remote diagnostics.
+   - The user (e.g., Bob, the driver) must have an active internet connection and a registered account with the technical support system.
+   - The vehicle must be within an operational range for communication with remote diagnostic servers (e.g., through cellular data or Wi-Fi).
+   - The user must have access to a compatible mobile app or in-car display interface to interact with the diagnostic system.
+   
+4. **Main Scenario**  
+   1. Bob, the vehicle owner, notices a warning light on the dashboard indicating a potential issue with the car’s engine performance.  
+   2. Bob accesses the "Diagnostics" option through the vehicle's infotainment system or mobile app.  
+   3. The system establishes a secure connection to the remote diagnostic server and initiates a scan of the vehicle’s internal systems.  
+   4. The system performs a thorough analysis, checking various sensors and components for potential faults or issues.  
+   5. Bob receives a report detailing any issues identified, along with recommended actions. If a resolution is possible remotely, the system may initiate minor adjustments or reset specific systems.
+
+5. **Alternative Scenario**  
+   1. Bob tries to access the diagnostic feature but encounters an error due to a lack of internet connectivity or server downtime.  
+   2. The system notifies Bob that it cannot establish a connection to the remote diagnostic server and prompts him to check his network settings or try again later.  
+   3. The system offers an offline troubleshooting guide, providing Bob with basic diagnostics steps that can be performed manually or with the help of the nearest service center.  
+   4. If the issue persists, Bob is given the option to schedule an in-person diagnostic check with a service center.  
+   5. Bob receives a follow-up notification once the system is available again, encouraging him to retry the remote diagnostic scan.
+
+6. **Postconditions**  
+   After a successful interaction with the In-Car Remote Diagnostics for Technical Support system, Bob will have received an accurate diagnostic report detailing the condition of his vehicle. If the issue is resolved remotely, the vehicle's system will be updated accordingly, ensuring optimal operation. If further action is needed, Bob will be informed of the required steps, such as scheduling an appointment with a technician or taking preventive measures to avoid future issues. The system ensures the vehicle is maintained in the best possible condition, improving user satisfaction and vehicle performance.

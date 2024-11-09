@@ -1,0 +1,71 @@
+**Underpinning Contract for On-Demand Charging for Electric Vehicles (EV)**
+
+---
+
+### 1. Title
+**On-Demand Charging for Electric Vehicles (EV)**
+
+---
+
+### 2. Goal
+The On-Demand Charging sub-system enables electric vehicle (EV) users to request and access charging services at their convenience, ensuring that their EVs are charged when needed. This feature will allow the user to schedule, track, and control the charging process remotely, enhancing the driving experience with seamless and reliable access to charging facilities. The key abilities of this sub-system include:
+- Real-time availability of nearby charging stations.
+- User-friendly interface for scheduling charging sessions.
+- Integration with the vehicle's battery status to optimize charging duration.
+- Secure and seamless payment processing for each charging session.
+- Notifications about charging progress and completion.
+
+---
+
+### 3. Preconditions
+- The user must be registered with the EV charging network and have an active account.
+- The user’s EV must be compatible with the charging stations available within the system.
+- The charging station network must be operational and within the user’s location or service area.
+- The user must have a stable internet connection to interact with the system through the mobile application or vehicle interface.
+- The user’s EV should have sufficient battery level to initiate a charging request if needed.
+
+---
+
+### 4. Main Scenario
+1. **User Action**: Alise opens the EV mobile application or interacts with the car’s onboard system to request a charging session.
+   - **Sub-System Response**: The system displays a list of available charging stations nearby based on Alise’s current location.
+
+2. **User Action**: Alise selects a preferred charging station and specifies the charging time or immediate start.
+   - **Sub-System Response**: The system confirms the station selection and schedules the charging session. Alise receives a notification confirming the booking.
+
+3. **User Action**: Alise drives the vehicle to the selected charging station or initiates the charging request remotely from the vehicle’s system.
+   - **Sub-System Response**: The system verifies the availability of the selected station and starts the charging process once the vehicle arrives.
+
+4. **User Action**: Alise monitors the charging progress via the app or vehicle system.
+   - **Sub-System Response**: The system updates Alise with the charging status, estimated time to completion, and any necessary actions.
+
+5. **User Action**: Once the vehicle is fully charged, Alise is notified, and the system processes the payment for the service.
+   - **Sub-System Response**: The system confirms the completion of the charging session and sends a receipt to Alise.
+
+---
+
+### 5. Alternative Scenario
+1. **User Action**: Bob opens the EV mobile application to request a charging session.
+   - **Sub-System Response**: The system checks for available charging stations but detects that there are no nearby stations due to maintenance or outages.
+
+2. **User Action**: Bob receives an alert that no charging stations are available at the moment.
+   - **Sub-System Response**: The system offers Bob alternative charging stations further away or suggests rescheduling the charging session for later.
+
+3. **User Action**: Bob selects a more distant charging station or chooses to reschedule the charging session.
+   - **Sub-System Response**: The system reconfigures the request and provides Bob with updated details about the station or rescheduled session.
+
+4. **User Action**: Bob confirms his selection and proceeds with the charging request.
+   - **Sub-System Response**: The system updates Bob with a new estimated time for charging completion and ensures the station is operational.
+
+5. **User Action**: Bob attempts to start the charging process but encounters an issue due to vehicle compatibility.
+   - **Sub-System Response**: The system notifies Bob of the compatibility issue and provides him with guidance on resolving it or directs him to another available station.
+
+---
+
+### 6. Postconditions
+After a successful interaction with the On-Demand Charging sub-system:
+- Alise or Bob’s EV will be fully charged, and the user will have received a notification confirming the session’s completion.
+- The system will have processed the payment for the charging session, and a receipt will be available in the user’s account.
+- The charging station network’s operational status will be updated to reflect the completed service.
+- The user’s EV battery status will be updated, ensuring that it reflects the newly charged level.
+

@@ -1,0 +1,33 @@
+**Underpinning Contract for Automated Emergency Brake Assistance System**
+
+1. **Title**  
+   Automated Emergency Brake Assistance System
+
+2. **Goal**  
+   The Automated Emergency Brake Assistance System is designed to provide a crucial safety feature for luxury electric vehicles by automatically applying the brakes in the event of an imminent collision. The system enhances driving safety by detecting obstacles or sudden changes in traffic conditions and activating emergency braking to prevent or mitigate accidents. The system works seamlessly with the vehicle's sensors, cameras, and radar to ensure real-time hazard detection and response.
+
+3. **Preconditions**  
+   - The vehicle is equipped with the Automated Emergency Brake Assistance System, including necessary hardware (sensors, cameras, radar).  
+   - The system is enabled in the vehicle’s settings, either by the manufacturer or the user.  
+   - The vehicle is operating within a certain speed range, typically between 5-60 km/h, where emergency braking is most effective.  
+   - The system has been calibrated and is fully functional during the current trip.  
+   - The road environment is within the operational limits (e.g., clear of extreme weather conditions or obstructions that could interfere with the system’s sensors).
+
+4. **Main Scenario**  
+   1. **Alise** is driving her luxury electric vehicle in urban traffic at a speed of 45 km/h.  
+   2. The system detects an object (e.g., a car suddenly stopping ahead) in the vehicle’s path using sensors.  
+   3. The system calculates the time to collision and determines that the braking distance is insufficient.  
+   4. The system automatically applies the brakes, gradually decelerating the vehicle to avoid or reduce the severity of the collision.  
+   5. Alise’s vehicle comes to a complete stop, or the impact is significantly mitigated. A notification appears on the dashboard, informing Alise that the emergency brake system was activated.
+
+5. **Alternative Scenario**  
+   1. **Bob** is driving his vehicle, but the Automated Emergency Brake Assistance System fails to detect an obstacle due to a sensor malfunction (e.g., fog or dirt blocking the sensor).  
+   2. The system does not respond, and the vehicle continues at its current speed without braking.  
+   3. Bob notices the vehicle’s lack of response and manually applies the brakes.  
+   4. The vehicle decelerates as Bob applies the brake pedal.  
+   5. A diagnostic message appears on the dashboard, indicating a sensor malfunction, and the system is temporarily deactivated. Bob is advised to schedule a service appointment to resolve the issue.
+
+6. **Postconditions**  
+   - After successful interaction, the vehicle has either avoided or minimized the severity of a collision, significantly enhancing occupant safety.  
+   - The system returns to normal functionality, providing ongoing protection in future driving scenarios.  
+   - If a malfunction occurs and the system is disabled, the vehicle’s braking system remains fully operational, and the driver can rely on manual braking. Additionally, the system logs any errors for further inspection and maintenance.

@@ -1,0 +1,54 @@
+### 1. Title  
+**Voice-Controlled Vehicle Settings Customization**
+
+### 2. Goal  
+The Voice-Controlled Vehicle Settings Customization sub-system enables users to adjust and personalize various vehicle settings via voice commands. This feature allows for hands-free control of settings such as cabin temperature, seat position, music preferences, ambient lighting, and driving modes. The system aims to enhance the user experience by offering seamless and intuitive interaction with the vehicle’s interface, making it more accessible, efficient, and user-friendly, particularly while driving.
+
+### 3. Preconditions  
+- The vehicle must be equipped with the necessary voice recognition hardware and software.
+- The user must have successfully paired their voice profile with the vehicle’s system.
+- The vehicle’s infotainment system must be active and responsive to voice commands.
+- The user’s voice profile must be set up with access to their preferred vehicle settings (e.g., seat positions, climate settings).
+- The user should be aware of the available voice commands for controlling vehicle settings.
+
+### 4. Main Scenario  
+1. **User Action**: Alise enters the vehicle and says, "Set the cabin temperature to 22°C."
+   - **System Response**: The voice control system processes the command and adjusts the temperature to 22°C. A confirmation sound or message ("Cabin temperature set to 22°C.") is provided.
+   
+2. **User Action**: Alise then says, "Adjust the seat position to my preferred setting."
+   - **System Response**: The voice control system recalls Alise’s pre-programmed seat position and adjusts the seat accordingly. A confirmation sound or message ("Seat position adjusted.") is provided.
+   
+3. **User Action**: Alise says, "Play my favorite playlist."
+   - **System Response**: The system begins playing the playlist selected in Alise's preferences. A confirmation sound or message ("Playing your favorite playlist.") is provided.
+
+4. **User Action**: Alise says, "Set the ambient lighting to warm."
+   - **System Response**: The system adjusts the vehicle's interior lighting to the selected "warm" setting. A confirmation sound or message ("Ambient lighting set to warm.") is provided.
+   
+5. **User Action**: Alise says, "Switch to Sport driving mode."
+   - **System Response**: The system switches the vehicle to Sport driving mode. A confirmation sound or message ("Vehicle mode changed to Sport.") is provided.
+
+### 5. Alternative Scenario  
+1. **User Action**: Bob enters the vehicle and says, "Set the cabin temperature to 22°C."
+   - **System Response**: The system fails to recognize the command due to a temporary malfunction in the microphone.
+   - **Error Message**: "Sorry, I didn't catch that. Could you please repeat?"
+   
+2. **User Action**: Bob repeats the command more clearly, "Set the cabin temperature to 22°C."
+   - **System Response**: The system successfully processes the command and adjusts the temperature.
+   - **Confirmation Message**: "Cabin temperature set to 22°C."
+
+3. **User Action**: Bob says, "Adjust the seat position to my preferred setting."
+   - **System Response**: The system fails to recall Bob’s pre-set seat position because the seat memory is unavailable (e.g., the seat memory was not saved or there was an issue with the memory function).
+   - **Error Message**: "Sorry, I can't recall your seat position. Please adjust manually or set a new memory."
+
+4. **User Action**: Bob says, "Play my favorite playlist."
+   - **System Response**: The system is unable to access the playlist due to a connectivity issue with the music streaming service.
+   - **Error Message**: "I can't play your playlist right now. Please check your connection."
+
+5. **User Action**: Bob says, "Set the ambient lighting to warm."
+   - **System Response**: The system confirms the setting adjustment successfully, despite the earlier issues.
+   - **Confirmation Message**: "Ambient lighting set to warm."
+
+### 6. Postconditions  
+- After successful interaction, the system confirms that the requested vehicle settings (e.g., cabin temperature, seat position, music, ambient lighting, driving mode) have been adjusted according to the user’s voice commands.
+- The system logs the successful execution of the command in the vehicle's settings history for future reference.
+- The user can continue to interact with the system or exit the feature, knowing that the requested settings are now in place.

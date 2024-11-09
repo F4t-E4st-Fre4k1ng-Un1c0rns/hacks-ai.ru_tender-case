@@ -1,0 +1,46 @@
+**Underpinning Contract: Seamless Transition Between In-Car and Smartphone Apps**
+
+---
+
+### 1. Goal
+
+The **Seamless Transition Between In-Car and Smartphone Apps** sub-system will provide users with an intuitive and continuous experience between their in-car system and smartphone applications. This feature will allow users to easily switch between controlling their vehicle features via the car's built-in interface and their personal smartphone app, ensuring consistent access to critical functions such as navigation, media, climate control, and vehicle status updates. The system will be designed for minimal user input while maintaining high security and privacy.
+
+---
+
+### 2. Preconditions
+
+- The user must have a registered account with the car manufacturer’s mobile application.
+- The smartphone must be compatible with the vehicle's in-car system and both devices must have Bluetooth and/or Wi-Fi connectivity.
+- The vehicle's infotainment system must be powered on and fully functional.
+- The user must have enabled necessary permissions for app integration, such as location services, notifications, and in-vehicle connectivity.
+- The sub-system must be installed, tested, and fully operational in the vehicle before use.
+
+---
+
+### 3. Main Scenario
+
+1. **Alise enters the vehicle** and pairs her smartphone with the in-car system via Bluetooth or Wi-Fi connection.
+2. **The in-car system displays a prompt** asking if she wants to seamlessly switch between her in-car interface and smartphone app. She confirms by selecting the "Yes" button.
+3. **Alise uses the in-car interface** to control a feature, such as adjusting the temperature or starting navigation, while the action is mirrored on her smartphone app in real-time.
+4. **Alise receives an incoming call** while the vehicle is in motion. The smartphone app seamlessly transitions the call to the in-car system for hands-free operation.
+5. **At any point, Alise can switch back and forth** between using the in-car system or her smartphone app to control different vehicle functions without interruption.
+
+---
+
+### 4. Alternative Scenario
+
+1. **Bob tries to pair his smartphone** with the in-car system but encounters a connectivity issue due to Bluetooth interference or an unsupported app version.
+2. **The system prompts Bob** that the connection could not be established and provides options for troubleshooting, such as checking the smartphone’s Bluetooth settings or ensuring the app is up-to-date.
+3. **Bob attempts to re-pair the devices**, following the troubleshooting guide. If unsuccessful, he is advised to use the in-car system controls directly without the smartphone app.
+4. **The system provides an alternative method** to manually control key vehicle features through the in-car interface while troubleshooting the app connection.
+5. **Once the connection issue is resolved**, Bob receives a notification that the smartphone app is ready for seamless transition again.
+
+---
+
+### 5. Postconditions
+
+- After successful interaction, **Alise** can control her vehicle functions seamlessly from either her in-car system or smartphone app with minimal delay or disruption.
+- **Bob** receives an error notification if there are issues with the connection or app functionality, along with troubleshooting steps to restore full functionality of the seamless transition feature.
+- The in-car system will maintain a persistent, stable connection with the smartphone app, allowing users to enjoy continuous service as they switch between interfaces.
+

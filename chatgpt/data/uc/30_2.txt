@@ -1,0 +1,49 @@
+**Underpinning Contract: In-Car Remote Diagnostics for Technical Support**
+
+---
+
+### 1. Title  
+**In-Car Remote Diagnostics for Technical Support**
+
+### 2. Goal  
+The **In-Car Remote Diagnostics for Technical Support** subsystem will enable users to diagnose, monitor, and receive real-time technical support for the vehicle’s systems. It will provide users with the ability to remotely assess the status of the car’s electrical, mechanical, and software systems, ensuring proactive resolution of potential issues, minimizing downtime, and improving the user experience.
+
+Key features will include:
+- Remote access to vehicle diagnostics.
+- Real-time alerts for system errors or warnings.
+- Communication with technical support staff for troubleshooting.
+- Remote software updates or fixes if necessary.
+- Data logging and history of diagnostics for future reference.
+
+### 3. Preconditions  
+- The vehicle must be equipped with the necessary hardware for remote diagnostics, including sensors, internet connectivity, and a compatible communication module.
+- The vehicle owner must have an active user account linked to the car’s systems and the diagnostic platform.
+- The In-Car Remote Diagnostics subsystem must be integrated with the company’s technical support infrastructure, including diagnostic tools and support agents.
+- The user must have access to the vehicle's infotainment system or a mobile app to initiate the diagnostic process.
+- The system must be powered on, or in a “Ready” state to initiate a diagnostic check.
+
+### 4. Main Scenario  
+1. **User initiates a diagnostic check**: Bob, the vehicle owner, opens the mobile app or infotainment system in his car and selects the “Remote Diagnostics” option from the main menu.
+   
+2. **System begins diagnostic scan**: The In-Car Remote Diagnostics subsystem scans the vehicle’s systems, including battery, motor, sensors, and software for any potential issues.
+   
+3. **Real-time status update**: After a brief scan, the system displays a summary of the vehicle’s status. It shows any detected errors or warnings, such as low tire pressure or an issue with the battery’s charging system.
+
+4. **User requests technical support**: If any issues are found, Bob can request remote technical support by selecting an option to contact a technician. The system connects Bob to a technical support agent, who provides guidance on how to resolve the issue or schedules a service appointment.
+
+5. **System logs the diagnostic report**: Once the diagnostic session is completed, the system logs the findings and sends a report to Bob’s account. This report is available for future reference and can be used to track the vehicle’s maintenance history.
+
+### 5. Alternative Scenario  
+1. **Diagnostic failure**: If the system cannot connect to the vehicle or detect any issues (e.g., due to poor internet connectivity or hardware malfunction), Bob will be notified with an error message stating the problem is temporary or that the connection was lost.
+
+2. **No issues detected**: If no issues are found during the diagnostic scan, the system will display a message confirming that the vehicle is in optimal condition. Bob will then be given an option to save or dismiss the diagnostic results.
+
+3. **System not available**: If the In-Car Remote Diagnostics feature is temporarily unavailable due to maintenance or updates, Bob will receive a notification that the service is currently down, with an option to try again later or contact customer support for immediate assistance.
+
+4. **User unable to access diagnostic feature**: If Bob attempts to use the remote diagnostics feature without being logged in or if his user account has expired, the system will prompt him to log in or renew his subscription to continue.
+
+### 6. Postconditions  
+- After a successful diagnostic interaction, the system generates and logs a detailed report of the vehicle’s condition, including any issues detected and the actions taken. This report is saved in the user’s account for future reference.
+- If technical support was required, the system ensures that Bob has the necessary information to follow up with support or schedule a service appointment.
+- If no issues were detected, Bob receives peace of mind that the vehicle is in good working order, along with a confirmation of the successful scan.
+

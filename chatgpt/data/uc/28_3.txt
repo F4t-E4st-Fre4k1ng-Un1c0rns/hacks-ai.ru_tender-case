@@ -1,0 +1,46 @@
+**Underpinning Contract: Road Condition Alerts and Adaptive Driving Recommendations**
+
+1. **Goal**
+
+The "Road Condition Alerts and Adaptive Driving Recommendations" sub-System provides users with real-time information about road conditions, enhancing the driving experience by offering tailored advice on adapting driving behaviors to current road situations. This feature aims to improve safety and comfort by alerting the driver to potential hazards such as potholes, roadwork, or adverse weather conditions. It also suggests adaptive driving techniques, like adjusting speed or increasing following distance, based on the detected road conditions.
+
+2. **Preconditions**
+
+- The sub-System is integrated into the car’s infotainment system and is enabled by default for all vehicles equipped with this feature.
+- The system uses a combination of onboard sensors, external data sources (such as GPS, weather reports, and traffic updates), and machine learning algorithms to analyze road conditions and predict potential driving hazards.
+- The car must be in motion, and the driver must be actively engaged with the vehicle controls.
+- A stable internet connection is required for some external data sources to function properly (e.g., weather updates or traffic alerts).
+
+3. **Main Scenario**
+
+1. **User Action**: Bob starts driving the luxury electric car, and the Road Condition Alerts and Adaptive Driving Recommendations sub-System automatically activates.
+   - **System Response**: The system continuously monitors road conditions using sensors and external data sources, displaying any relevant alerts on the infotainment screen.
+   
+2. **User Action**: As Bob drives on a bumpy road, a notification appears on the screen, indicating the presence of roadwork ahead and suggesting a reduced speed.
+   - **System Response**: The sub-System updates the recommended speed and provides adaptive driving tips such as maintaining a greater following distance and slowing down gradually.
+   
+3. **User Action**: Bob adjusts his speed to match the recommended driving behavior, keeping a safe distance from the car in front.
+   - **System Response**: The system acknowledges the adjustment and continues monitoring road conditions, providing additional alerts if necessary.
+
+4. **User Action**: Bob approaches a section with adverse weather conditions, and the sub-System suggests activating hazard lights and reducing speed.
+   - **System Response**: The system highlights the recommendation, and the hazard lights turn on automatically if configured to do so.
+   
+5. **User Action**: After passing through the hazardous area, Bob receives a notification that the road condition has improved and can resume normal driving.
+   - **System Response**: The system restores normal driving recommendations and continues to monitor the road for any new alerts.
+
+4. **Alternative Scenario**
+
+1. **User Action**: Bob begins driving, but the system fails to provide any alerts or recommendations due to a lack of external data connection.
+   - **System Response**: The system displays a message indicating that road condition data is temporarily unavailable and suggests continuing to drive cautiously while the connection is restored.
+   
+2. **User Action**: Bob drives through an area with heavy roadwork, but no alerts appear on the infotainment screen.
+   - **System Response**: The system detects the roadwork but does not provide any recommendations due to a technical error or failure in the detection system. A notification is displayed, advising Bob to proceed with extra caution in this area.
+   
+3. **User Action**: The adaptive recommendations are not adjusting to changing conditions as expected, possibly due to a malfunction in the sensors.
+   - **System Response**: The system alerts Bob about the malfunction and advises to drive based on personal judgment while the system is repaired or recalibrated.
+
+5. **Postconditions**
+
+- After a successful interaction, Bob is presented with relevant road condition alerts and adaptive driving recommendations that help him adjust his driving style for maximum safety and comfort.
+- The system logs the driving session, including any alerts and recommendations provided, for future system improvements or diagnostic purposes.
+- If the system functioned properly, Bob’s driving behavior will have been adjusted based on real-time data, enhancing safety, reducing potential risk, and improving the overall driving experience.

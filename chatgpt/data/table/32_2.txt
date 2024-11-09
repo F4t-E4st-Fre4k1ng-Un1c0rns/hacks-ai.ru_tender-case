@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS emphasizes "assisting the driver" rather than fully automating braking in critical situations. | "The system is designed to assist the driver by applying the brakes in case of an impending collision." |
+| SSTS has a speed threshold of 10 km/h for system activation, limiting the system's operation at lower speeds. | "The system operates only when the vehicle's speed exceeds 10 km/h." |
+| SSTS only reduces speed by 50% in certain situations, while the UC requires a full stop to mitigate collision risk. | "The system will apply the brakes to reduce speed by up to 50% of the required deceleration for a full stop..." |
+| SSTS requires driver intervention after braking is applied, while UC specifies the system should stop the vehicle autonomously. | "Once the system has initiated braking, it will disengage once the vehicle’s speed drops below 5 km/h, after which the driver is expected to resume control." |
+| SSTS does not mention a full stop for all collision scenarios, only partial deceleration in certain conditions. | "Upon activation, the system applies the brakes with the necessary force to either fully stop the vehicle or slow it down to reduce the impact of the collision." |
+| SSTS only alerts the driver after the braking sequence is completed, while UC expects the system to notify the driver before braking is applied. | "The system provides real-time feedback to the driver via a dashboard alert indicating that the emergency braking system has been activated." |

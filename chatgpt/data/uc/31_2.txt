@@ -1,0 +1,32 @@
+**Underpinning Contract: Voice-Controlled Vehicle Settings Customization**
+
+**1. Title**  
+Voice-Controlled Vehicle Settings Customization
+
+**2. Goal**  
+The Voice-Controlled Vehicle Settings Customization feature allows users to control and personalize various vehicle settings using voice commands. This system enables drivers to adjust settings such as seat positions, climate control, audio preferences, ambient lighting, and driving modes without needing to physically interact with the vehicle’s controls. The goal is to provide a seamless, hands-free experience to improve user convenience, safety, and comfort while driving.
+
+**3. Preconditions**  
+- The vehicle must be equipped with a functional voice recognition system.
+- The driver must be within the vehicle and seated in a position where the microphone can clearly detect their voice.
+- The vehicle must have predefined customizable settings that are accessible through the voice control system (e.g., seat position, temperature, lighting, etc.).
+- The system should be properly calibrated to recognize the driver’s voice and respond to commands accurately.
+
+**4. Main Scenario**  
+1. The driver (e.g., Alise) activates the voice recognition system by saying the activation phrase, such as "Hey [Vehicle Name]."
+2. The system prompts with a confirmation, "How can I assist you today?"
+3. Alise gives a command, such as, "Set the seat to my preferred position."
+4. The system responds by adjusting the seat position to the saved preset and confirms, "Seat position adjusted."
+5. Alise asks the system, "Set the cabin temperature to 22 degrees Celsius," and the system responds, "Temperature set to 22 degrees Celsius."
+
+**5. Alternative Scenario**  
+1. The driver (e.g., Bob) activates the voice recognition system by saying the activation phrase.
+2. The system prompts with a confirmation, "How can I assist you today?"
+3. Bob gives a command, such as, "Set the seat to my preferred position," but the system does not respond or gives an error message.
+4. The system replies, "I’m sorry, I didn’t catch that. Please repeat your request."
+5. If the issue persists, the system displays a message on the dashboard, "Voice control system is unavailable. Please use manual controls," and offers the option to troubleshoot or re-enable the feature.
+
+**6. Postconditions**  
+- After the successful interaction, the vehicle settings, such as seat position, temperature, or ambient lighting, are customized according to the user’s command.
+- The user receives confirmation from the system that the requested change has been made (e.g., "Seat position adjusted," "Temperature set to 22 degrees Celsius").
+- The vehicle is ready for the user to continue their journey with the desired settings in place.

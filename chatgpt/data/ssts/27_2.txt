@@ -1,0 +1,47 @@
+**Technical Specifications for On-Demand Charging for Electric Vehicles (EV)**
+
+---
+
+### 1. Title  
+**On-Demand Charging for Electric Vehicles (EV)**
+
+---
+
+### 2. Functional Description  
+The On-Demand Charging sub-system enables users to easily request and access charging services for electric vehicles (EVs). It allows users to select, schedule, and initiate charging at available stations within the network via a mobile application or vehicle interface. The system provides real-time information about station availability, charging progress, and completion. The system is capable of processing payments for charging services, sending notifications about session updates, and generating receipts. It is designed to optimize the charging experience by offering flexible charging options based on user preferences and vehicle requirements.
+
+---
+
+### 3. Enabling Conditions  
+- Users must have an active account with the charging network.
+- The electric vehicle must be compatible with the available charging stations.
+- A stable internet connection must be available to interact with the system via the mobile app or vehicle interface.
+- The system must be integrated with the vehicle’s battery management system to monitor the battery level and charging requirements.
+- The charging station network must be operational and within range of the user.
+
+---
+
+### 4. Trigger Conditions  
+- The user initiates a charging request via the mobile application or vehicle system.
+- The vehicle’s battery reaches a predefined low battery threshold, triggering the need for a charging session.
+- The user selects a charging station from a list of available nearby stations.
+- The system detects that a nearby charging station is available and ready for use.
+- The user confirms the initiation of a charging session either manually or via the app/vehicle interface.
+
+---
+
+### 5. Execution Output  
+- The system verifies the availability of the selected charging station and provides the user with an estimated start time for the session.
+- Once the vehicle reaches the selected station, the system starts the charging process.
+- During the charging session, the user receives real-time updates about the charging progress, including remaining time and energy input.
+- If there are any issues, such as station unavailability or network problems, the system notifies the user and offers alternatives or rescheduling options.
+- After the session is completed, the system processes the payment for the service and generates a receipt, which is sent to the user.
+
+---
+
+### 6. Exit Conditions  
+- The charging session is completed successfully, with the vehicle’s battery fully charged or the user cancels the session before completion.
+- The system successfully processes the payment for the charging service.
+- A confirmation notification is sent to the user, and the session details are logged in the system for future reference.
+- The charging station returns to an idle state after the charging process ends.
+- The user’s charging history and payment information are updated in the user account.

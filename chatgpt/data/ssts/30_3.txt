@@ -1,0 +1,29 @@
+### Title  
+**In-Car Remote Diagnostics for Technical Support - Technical Specifications**
+
+### Functional Description  
+The **In-Car Remote Diagnostics for Technical Support** sub-system allows remote monitoring and diagnostic analysis of the vehicle’s systems. This sub-system enables the transmission of diagnostic data from the vehicle to the remote support team, allowing for troubleshooting, issue identification, and recommendations without requiring the vehicle to be physically brought to a service center. The sub-system is designed to improve customer experience by reducing service downtime and providing proactive support. However, the system also includes provisions for automatic issue resolution, such as resets and software updates, with the user receiving the appropriate notifications.
+
+### Enabling Conditions  
+- The vehicle must be equipped with an OBD-II (On-Board Diagnostics) system and necessary sensors to collect and transmit diagnostic data.
+- The vehicle must have access to a stable internet connection (via in-car Wi-Fi or mobile data) to enable communication with remote diagnostics services.
+- The user must have access to a compatible mobile app or in-vehicle interface that can interact with the diagnostic system and send requests for remote support.
+- Technical support must be available through an integrated platform capable of receiving vehicle data, analyzing it, and communicating back with the user.
+
+### Trigger Conditions  
+- The user manually triggers the diagnostics process by requesting remote support through the mobile app or in-vehicle interface.
+- The vehicle’s onboard system detects potential malfunctions or warning signs and automatically generates a diagnostic request.
+- The vehicle system generates an error code or alert indicating an issue that requires troubleshooting, prompting the system to initiate diagnostics.
+
+### Execution Output  
+- The system transmits diagnostic data from the vehicle to the remote diagnostics platform for analysis.
+- A diagnostic report is generated, identifying any issues and providing recommendations or actions to be taken.
+- For minor issues, the system may automatically apply fixes, such as resetting a malfunctioning component or updating vehicle software remotely.
+- If the issue requires further action, the system will provide clear instructions to the user, which may include steps for manual troubleshooting or scheduling a service appointment.
+- The user receives notifications regarding the status of the diagnostic process and any required next steps.
+
+### Exit Conditions  
+- The diagnostic session concludes once the system has analyzed the vehicle data and generated a diagnostic report. If no issues are detected, the user is notified that the vehicle is functioning within normal parameters.
+- If an issue is identified and resolved remotely (e.g., via a system reset or software update), the diagnostic session ends, and the user receives confirmation that the issue has been addressed.
+- If the diagnostic process cannot be completed due to connectivity issues, the system will exit and prompt the user to check their internet connection. In cases where connectivity cannot be restored, the system will suggest alternative solutions, such as scheduling an in-person service appointment.
+- If the issue cannot be resolved remotely, the session ends, and the user is instructed to visit a service center for further diagnostics or repair.

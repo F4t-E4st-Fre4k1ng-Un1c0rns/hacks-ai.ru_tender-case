@@ -1,0 +1,26 @@
+**Title:** Driver Fatigue Detection and Alert System
+
+**Goal:**  
+The Driver Fatigue Detection and Alert System is designed to enhance driver safety by monitoring the driver’s behavior for signs of fatigue or drowsiness. The system will track factors such as eye movement, head position, and overall driving patterns. Upon detecting signs of fatigue, the system will issue an alert to encourage the driver to take a break, helping to reduce the risk of accidents caused by tiredness.
+
+**Preconditions:**  
+- The vehicle must be equipped with a camera system capable of monitoring the driver’s face, eyes, and head position.
+- The system must be initialized and active before driving.
+- The driver must be seated in the driver’s seat with the seat belt fastened.
+- The vehicle’s infotainment system must be operational and display system alerts.
+
+**Main Scenario:**  
+1. **Driver enters the vehicle.** The system activates automatically upon ignition of the vehicle.
+2. **Driver begins driving.** The system continuously monitors the driver’s eye movements, head position, and driving behavior.
+3. **Signs of fatigue detected.** The system identifies signs of drowsiness, such as frequent blinking, slow eye movements, or head nodding.
+4. **Alert issued to the driver.** A visual and auditory alert (e.g., a tone and message on the dashboard) is triggered, notifying the driver to take a break.
+5. **Driver acknowledges the alert.** The driver either takes a break or disables the alert, and the system continues to monitor fatigue levels throughout the journey.
+
+**Alternative Scenario:**  
+1. **System initialization failure.** If the camera or sensor systems fail during startup, an error message is displayed on the dashboard.
+2. **System cannot detect the driver.** If the system fails to detect the driver’s face or eyes due to poor positioning or obstruction (e.g., sunglasses), a prompt on the dashboard asks the driver to adjust their seating position or remove obstructions.
+3. **Fatigue detection failure.** If the system detects an issue with detecting fatigue (e.g., poor data quality), an alert notifies the driver that the fatigue detection is unavailable and advises the driver to remain alert manually.
+4. **Alert malfunction.** If the alert mechanism fails (no sound or visual alert), the system will log an error and request a manual system check.
+
+**Postconditions:**  
+After successful interaction with the system, the driver is alerted to potential fatigue and is encouraged to take a break, potentially improving safety and reducing the risk of accidents. If the driver acknowledges the alert, they may take action to rest, thereby mitigating fatigue-related driving risks. If the system operates without any errors, the fatigue monitoring continues throughout the journey, providing ongoing safety support.

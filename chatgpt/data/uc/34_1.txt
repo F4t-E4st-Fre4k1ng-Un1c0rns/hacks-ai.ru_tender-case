@@ -1,0 +1,31 @@
+**Underpinning Contract: Integration of Third-Party Apps into Car Infotainment System**
+
+1. **Goal**  
+   The Integration of Third-Party Apps into the Car Infotainment System enables users to seamlessly access and use various third-party applications (e.g., navigation, music, communication, and entertainment apps) directly through the car's infotainment interface. This feature enhances the user experience by providing a smooth, intuitive, and safe way to interact with apps while driving.
+
+2. **Preconditions**  
+   - The vehicle is equipped with a compatible infotainment system that supports third-party app integration.
+   - The user has an active internet connection either through a mobile hotspot or built-in cellular data to access online apps.
+   - The user has installed third-party apps on their device (e.g., smartphone or tablet) and has granted necessary permissions for integration with the car’s infotainment system.
+   - The vehicle’s infotainment system is updated to the latest software version to ensure compatibility with third-party apps.
+   - Alise or Bob (the driver) has configured their user profile and app preferences within the infotainment system.
+
+3. **Main Scenario**  
+   1. Alise (or Bob) starts the vehicle and the infotainment system powers on.
+   2. The infotainment system automatically detects available third-party apps on the connected device and presents them on the screen.
+   3. Alise (or Bob) selects a third-party app (e.g., a navigation app or music streaming service) using the touch screen or voice control.
+   4. The infotainment system launches the selected app, displaying relevant information (e.g., directions or song list) on the screen and controlling app functionality through the car’s interface.
+   5. Alise (or Bob) interacts with the app (e.g., inputting a destination or selecting music) using the touchscreen, steering wheel controls, or voice commands. The app’s functionality operates seamlessly with the car’s infotainment system.
+
+4. **Alternative Scenario**  
+   - **Failure to Connect Device:**  
+     If Alise (or Bob) tries to use the system, but the third-party app fails to connect, the infotainment system will display a message indicating that the connection has failed. The system will prompt Alise (or Bob) to check the Bluetooth or internet connection, or reconnect the device.  
+   - **App Not Compatible:**  
+     If the selected app is not supported or incompatible with the infotainment system, a notification will appear informing Alise (or Bob) that the app cannot be launched. The system may offer alternatives, such as using a different app or connecting through another method (e.g., USB).
+   - **Network Issues:**  
+     If the internet connection is weak or lost during use, the infotainment system will alert Alise (or Bob) with a message about the network issue. The app may pause or fail to load new content until the connection is restored. The system will prompt the user to check their network settings.
+   - **Software Malfunction:**  
+     In case of a system error, Alise (or Bob) will receive an error message informing them that the integration feature is temporarily unavailable. The system will suggest restarting the vehicle or updating the infotainment system.
+
+5. **Postconditions**  
+   After a successful interaction with the Integration of Third-Party Apps, Alise (or Bob) will experience a fully operational third-party app embedded within the car's infotainment system. The user will be able to access the app's features (such as navigation, music, or communication) with ease, and the information will be displayed on the infotainment screen, allowing for safe and convenient control while driving. Additionally, the infotainment system will maintain the app’s functionality until the user disconnects or selects a different app.

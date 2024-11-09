@@ -1,0 +1,27 @@
+**Underpinning Contract: User Authentication and Authorization for Car Access**
+
+**Goal**  
+The User Authentication and Authorization for Car Access sub-System will enable secure and personalized access to a luxury electric car. It will verify the identity of the user and grant or deny access to the vehicle based on predefined permissions, ensuring only authorized individuals can interact with the car's features. This sub-System provides the ability to securely authenticate users through various methods, such as biometrics or digital credentials, and manage access levels for car operation.
+
+**Preconditions**  
+- The user must have a registered account within the car's system (via mobile app or vehicle interface).  
+- The user must possess the necessary credentials, such as a biometric scan, PIN, or digital key, for authentication.  
+- The vehicle's authentication system must be operational and connected to the central server or the vehicle's onboard system.
+
+**Main Scenario**  
+1. The user (e.g., Alise) approaches the vehicle with the intention of gaining access.  
+2. Alise attempts to unlock the car by scanning her fingerprint or using the mobile app with her digital credentials.  
+3. The sub-System verifies Alise’s authentication credentials against the stored data.  
+4. If Alise is successfully authenticated, the car's access is granted, and the doors unlock.  
+5. The sub-System logs the successful authentication event, allowing Alise to drive or operate the car according to her access permissions.
+
+**Alternative Scenario**  
+1. The user (e.g., Bob) approaches the vehicle and attempts to unlock the car via biometric or app authentication.  
+2. The sub-System fails to recognize Bob's credentials (e.g., fingerprint mismatch, app connectivity issue, or expired credentials).  
+3. Bob is notified with an error message explaining the failure (e.g., “Authentication failed” or “No internet connection”).  
+4. Bob can try again with an alternative method, such as entering a PIN or using another authentication device (e.g., a backup key card).  
+5. If all authentication methods fail, Bob is advised to contact customer support for assistance or to use manual access methods, if available.
+
+**Postconditions**  
+- If authentication is successful, the vehicle unlocks, and the user is granted access to operate the car, depending on the access level associated with their profile.  
+- If authentication fails, no access is granted, and the user is provided with an option to retry authentication or contact support for resolution.

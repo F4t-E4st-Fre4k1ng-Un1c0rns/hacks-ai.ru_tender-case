@@ -1,0 +1,31 @@
+**Title:**  
+Driver Fatigue Detection and Alert System – Technical Specifications
+
+**Functional Description:**  
+The Driver Fatigue Detection and Alert System is designed to monitor the driver's behavior and detect early signs of fatigue. This system uses a combination of facial recognition technology, eye-tracking sensors, head position monitoring, and steering behavior analysis to assess the driver's alertness. Upon detecting signs of fatigue, the system will issue a visual and auditory alert, advising the driver to take a break. Additionally, the system logs fatigue events, stores relevant data, and provides real-time suggestions to enhance driver safety. The system is designed to be non-intrusive and operate seamlessly with the vehicle’s other safety features.
+
+**Enabling Conditions:**  
+1. The system must be enabled through the vehicle’s settings menu, which allows the driver to adjust sensitivity and set personal preferences for alerts.
+2. Facial recognition and eye-tracking sensors, head position monitoring, and steering behavior sensors must be calibrated before initial use to ensure accuracy.
+3. The vehicle must be in motion and the driver must be seated in the driver’s seat with the seatbelt fastened for the system to be operational.
+4. The system requires a continuous power supply from the vehicle's battery and must interface with the vehicle's central control system.
+5. The environment must allow for optimal sensor function, meaning clear visibility and no obstruction of the facial recognition cameras.
+
+**Trigger Conditions:**  
+1. The system continuously monitors the driver’s eye movement, head position, and steering behavior for signs of drowsiness or fatigue.
+2. When a pre-configured threshold for abnormal behavior is exceeded—such as frequent blinking, head nodding, erratic steering, or a lack of normal reaction time—the system triggers an alert.
+3. Fatigue is also detected when the system identifies extended periods of consistent driving without adequate breaks, based on time and driving patterns.
+4. The system can be manually activated by the driver through a button on the steering wheel or touchscreen interface to confirm alertness levels in certain situations (e.g., after a long period of driving without a break).
+
+**Execution Output:**  
+1. Once triggered, the system will display a message on the dashboard and issue a sound cue to alert the driver (e.g., “Fatigue Detected. Please take a break.”).
+2. The system will log the alert event, including data on the driver’s behavior, time of alert, and driving conditions at the time of detection.
+3. A recommendation will be shown on the dashboard, suggesting that the driver take a break at the nearest safe location.
+4. If the driver does not respond to the initial alert, additional reminders will be issued until the driver either acknowledges the alert or takes corrective action, such as stopping for a rest.
+
+**Exit Conditions/Exit Conditions:**  
+1. The system exits the alert mode once the driver acknowledges the warning (e.g., by pressing a button, taking a break, or returning to normal driving behavior).
+2. The system will stop issuing alerts once it detects improved driver behavior, such as reduced signs of fatigue, more consistent steering, or a return to a normal alertness level.
+3. In the event of a system malfunction (e.g., sensor failure), the system will notify the driver of the issue and temporarily disable fatigue detection until maintenance is performed.
+4. If the vehicle stops moving or the system detects that the driver is no longer in the seat, the fatigue monitoring will be suspended, and the system will exit the active detection mode.
+

@@ -1,0 +1,31 @@
+**Technical Specifications for In-Car Remote Diagnostics for Technical Support**
+
+**1. Title**  
+In-Car Remote Diagnostics for Technical Support
+
+**2. Functional Description**  
+The In-Car Remote Diagnostics for Technical Support sub-system enables real-time remote diagnosis and troubleshooting of the vehicle’s onboard systems. This feature provides both the user and technical support teams with the ability to remotely assess the vehicle’s performance, detect and analyze error codes, and guide users through potential fixes. It is designed to enhance customer service by allowing immediate assistance in resolving technical issues, minimizing vehicle downtime, and improving overall user satisfaction. The system supports both automatic error detection and user-initiated diagnostic sessions via the vehicle's infotainment system or a mobile app.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the latest hardware and software compatible with remote diagnostics. This includes advanced sensors, communication modules, and diagnostic interfaces.
+- A stable internet connection (Wi-Fi or cellular) is required for communication between the vehicle and the remote support team.
+- The vehicle must be registered in the system with up-to-date details (e.g., Vehicle Identification Number (VIN), user contact information).
+- The user must grant permission for remote diagnostics through the vehicle’s settings or mobile app before initiating a session.
+- The vehicle's diagnostic interface must be enabled and accessible, and the system must not be restricted by privacy or security settings that prevent remote access.
+
+**4. Trigger Conditions**  
+- The system is triggered when the user manually activates the “Diagnostics” feature via the vehicle’s infotainment screen or mobile app.
+- An automatic diagnostic request is triggered when the vehicle detects a fault or error condition (e.g., warning lights, error codes) that requires troubleshooting.
+- The system is also triggered by the user selecting a specific technical issue or request for assistance via the infotainment screen or mobile interface.
+
+**5. Execution Output**  
+- Once the diagnostic session is initiated, real-time diagnostic data (error codes, performance metrics) from the vehicle is transmitted to the remote support team.
+- The support team reviews the transmitted data, identifies potential issues, and provides step-by-step troubleshooting instructions to the user.
+- If the issue is resolved remotely, a summary report is generated and sent to both the user and technical support, confirming the resolution.
+- If the issue cannot be resolved remotely, a follow-up action is scheduled, such as booking a service appointment or escalating the issue for further investigation.
+
+**6. Exit Conditions/Exit Criteria**  
+- The session ends successfully when the issue is resolved, either through remote troubleshooting or user acknowledgment of the guidance provided.
+- If the issue requires further servicing, the session ends when the support team schedules a follow-up service appointment or recommends next steps.
+- In cases where the diagnostic session cannot be completed due to technical issues (e.g., connectivity failure), the system will exit the session and notify the user of the problem. The user will be advised to contact support through alternative methods.
+- A successful exit is confirmed when all necessary steps have been completed, and the system generates a completion report or follow-up action, ensuring that no unresolved issues remain.
