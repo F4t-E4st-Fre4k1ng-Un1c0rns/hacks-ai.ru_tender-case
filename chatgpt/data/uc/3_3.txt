@@ -1,0 +1,48 @@
+**Underpinning Contract: Adaptive Cruise Control System Customization**
+
+---
+
+### 1. Goal
+
+The Adaptive Cruise Control System Customization will allow the user to tailor the driving experience by configuring the cruise control settings for their specific driving preferences and conditions. It will provide the ability to adjust the distance from the vehicle ahead, the sensitivity of speed adjustments, and enable personalized settings for different driving environments (e.g., highway, urban). This system aims to enhance comfort, convenience, and safety during long drives and in dynamic traffic situations.
+
+---
+
+### 2. Preconditions
+
+- The Adaptive Cruise Control (ACC) system is available and operational in the vehicle.
+- The user has a functioning user interface (UI) to interact with the ACC system, either through a physical dashboard or a touchscreen display.
+- The user is in an appropriate environment (e.g., on a road where ACC can be enabled, vehicle speed is within the acceptable range for activation).
+- The user has basic familiarity with the vehicle's cruise control features.
+- No active issues or errors are present in the vehicle's electronic systems that could interfere with ACC operation.
+
+---
+
+### 3. Main Scenario
+
+1. **User activates the Adaptive Cruise Control**: Alise presses the "Cruise Control" button on the dashboard or uses the touchscreen to navigate to the cruise control menu.
+2. **User adjusts speed and distance settings**: Using the interface, Alise selects the preferred speed and adjusts the following distance to a comfortable level using a slider or preset options.
+3. **User confirms settings**: Alise presses "Confirm" or "Set" on the display, locking the selected parameters.
+4. **System engages the ACC system**: The vehicle automatically adjusts to the preset speed and distance, maintaining the selected parameters until the user adjusts or disengages the system.
+5. **System continues to operate**: The ACC system continuously monitors traffic conditions and adjusts speed and following distance accordingly, ensuring safety and convenience without the need for further user intervention.
+
+---
+
+### 4. Alternative Scenario
+
+1. **User tries to activate the ACC system but encounters an issue**: Bob attempts to activate the system, but the display shows a "System Error" message.
+2. **User checks vehicle status**: Bob checks if the system is enabled and whether the vehicle's speed is within the acceptable range for ACC activation. If the vehicle is stationary or below the required speed, the system will not engage.
+3. **User addresses potential issues**: If an error is detected (e.g., sensors or cameras are obstructed), Bob removes any obstructions (e.g., dirt or debris on the sensors) or waits for the system to reset.
+4. **User attempts reactivation**: Bob presses the "Cruise Control" button again or uses the menu to reactivate the system.
+5. **System fails to activate**: If the problem persists, Bob is prompted to contact the service center for further diagnostics or troubleshooting, ensuring the system's proper functionality.
+
+---
+
+### 5. Postconditions
+
+After a successful interaction with the Adaptive Cruise Control System Customization:
+
+- The system engages smoothly and maintains the user's selected speed and distance preferences without further intervention.
+- The vehicle adjusts its speed in response to traffic conditions, enhancing driving comfort and reducing driver fatigue.
+- The customized settings are saved for future use, allowing the user to resume their preferences without reconfiguration on the next journey.
+- In case of failure, the user receives clear instructions to address issues, ensuring the system’s reliable operation when it is available again.

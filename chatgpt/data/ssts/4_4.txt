@@ -1,0 +1,29 @@
+1. **Title**  
+   Non-compliant User Preferences Management for Infotainment System
+
+2. **Functional Description**  
+   The User Preferences Management sub-system is designed to allow users to personalize settings for the infotainment system in luxury electric vehicles. It supports customization of audio, climate control, display preferences, and other system-related features. The sub-system is expected to capture and save user preferences for future sessions. However, the current version does not meet full compliance with industry standards in terms of responsiveness, system integration, and user data storage.
+
+3. **Enabling Conditions**  
+   - The infotainment system must be powered on and active.
+   - The vehicle must be connected to the central computing unit.
+   - A user profile must exist, but the system does not ensure that profiles are properly authenticated or securely stored.
+   - The system may be limited in hardware resources, such as processing speed and memory, impacting its ability to handle multiple users or settings simultaneously.
+   - Software components and modules for user preferences management must be installed, but may not include all necessary updates or security patches.
+
+4. **Trigger Conditions**  
+   - The user interacts with the infotainment system, either through touchscreen input, voice command, or physical controls.
+   - The system fails to recognize user input in some cases due to compatibility issues between the input device and the software.
+   - Connectivity to backend systems for storing preferences is intermittent, which may result in preferences not being saved.
+   - The user attempts to change preferences, but some functions may not trigger due to misconfigurations or software limitations.
+
+5. **Execution Output**  
+   - User preferences, such as audio settings or display themes, may be partially saved, but incomplete data storage could lead to inconsistencies in system behavior during subsequent interactions.
+   - The system may not provide adequate feedback, such as confirmation messages or audible prompts, regarding saved preferences.
+   - Data output might not be logged accurately, making it difficult to diagnose issues or track user behavior.
+   - Errors or unexpected outputs may occur, including failure to apply preferences across different vehicle sessions.
+
+6. **Exit Conditions**  
+   - The system may exit the preferences menu without confirming whether all changes have been applied, leaving the user uncertain about the status of their preferences.
+   - If the system encounters an error or failure during the execution of preference adjustments, it may exit without proper error handling or message notification, resulting in no feedback to the user.
+   - The user may return to the main screen or other system features, but with the possibility that the user preferences were not fully saved or reflected in the next session.

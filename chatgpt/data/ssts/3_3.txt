@@ -1,0 +1,36 @@
+**Title: Adaptive Cruise Control System Customization - Technical Specifications (Partially Compliant)**
+
+---
+
+### 1. Functional Description
+The Adaptive Cruise Control (ACC) System Customization allows the user to configure various parameters of the cruise control system, such as vehicle speed, following distance, and response sensitivity. These settings aim to enhance the driver’s control over the system, providing a tailored driving experience. The system adjusts the vehicle’s speed and maintains a safe distance from the preceding vehicle. The customization can be accessed via the vehicle's user interface, either through a dashboard control or touchscreen, depending on the vehicle model.
+
+### 2. Enabling Conditions
+- The vehicle must be equipped with operational Adaptive Cruise Control hardware, including radar, cameras, and related sensors.
+- The vehicle must be moving at or above the minimum speed required for the ACC system to engage (typically 30 km/h or 18 mph).
+- The system must be in a functional state, with no ongoing errors in its sensors or software.
+- The user must be in an appropriate driving environment, such as a road with clear lane markings and unobstructed traffic conditions.
+- The driver must be aware of the operational limits and be ready to take manual control if required.
+
+### 3. Trigger Conditions
+- The user activates the system via the user interface (button press, touchscreen, or voice command).
+- The vehicle reaches the minimum speed threshold (usually 30 km/h or 18 mph).
+- The vehicle is in a clear traffic environment, with no significant obstruction or malfunction in sensors (e.g., radar or cameras).
+- The system detects that no major system malfunctions are present, such as sensor failures, which would prevent activation.
+
+### 4. Execution Output
+- The system adjusts the vehicle’s speed to the user-defined setting or the speed of the vehicle in front, whichever is lower, while maintaining the set following distance.
+- The system provides feedback to the driver through visual indicators on the dashboard or a display (e.g., the selected speed and following distance).
+- The system continuously monitors surrounding traffic and adjusts the vehicle speed and following distance as needed. If a slower vehicle is detected, the ACC will automatically reduce speed and re-accelerate when traffic allows.
+- When the system operates normally, the user interface will display confirmation of the active settings (e.g., speed, following distance).
+
+### 5. Exit Conditions
+- The system disengages automatically if the vehicle’s speed drops below the minimum threshold for ACC activation (usually below 30 km/h or 18 mph).
+- The user manually disengages the system by pressing the "Cancel" button, turning the wheel, or applying the brakes.
+- A sensor or system malfunction is detected, causing the system to automatically disengage. In such cases, the user is alerted via a warning message on the interface.
+- If external conditions (e.g., road obstructions, extreme weather) affect the system’s functionality, the system may deactivate automatically.
+
+### 6. Exit Conditions
+- The user confirms or accepts settings via the user interface, and the system continues to operate until manually disengaged or system conditions change.
+- In case of a malfunction, the system may enter a safe mode, alerting the user and allowing them to regain manual control.
+- If the system encounters conditions that prevent safe operation (e.g., blocked sensors), the system will prompt the user to clean the sensors or resolve the issue before reactivating the system.

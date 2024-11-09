@@ -1,0 +1,38 @@
+**Underpinning Contract: Adaptive Cruise Control System Customization**
+
+---
+
+**Goal**  
+The Adaptive Cruise Control System Customization will provide users with the ability to personalize the settings and behavior of the adaptive cruise control system in their luxury electric vehicle. This feature will allow users to adjust parameters such as following distance, acceleration sensitivity, and deceleration preferences to optimize their driving experience. The system will enhance comfort, safety, and convenience by automatically maintaining a set speed and adjusting the vehicle's speed in relation to traffic conditions, based on user preferences.
+
+---
+
+**Preconditions**  
+1. The user must have access to a functioning Adaptive Cruise Control System (ACC) in the vehicle.
+2. The vehicle must be equipped with the necessary sensors, including radar and cameras, for the ACC to function.
+3. The user is required to be seated in the driver's seat with the vehicle in operational mode.
+4. The system customization options are available through the in-car infotainment system or via the mobile app linked to the vehicle.
+5. The vehicle must be in a safe driving environment with clear road conditions for ACC settings to be adjusted effectively.
+
+---
+
+**Main Scenario**  
+1. Bob starts the vehicle and activates the Adaptive Cruise Control System using the controls on the steering wheel.
+2. The vehicle automatically detects the current speed and maintains it while observing traffic ahead.
+3. Bob accesses the ACC customization menu via the vehicle’s infotainment system or mobile app.
+4. Bob selects the desired following distance (e.g., close, medium, or far) and adjusts the acceleration/deceleration sensitivity.
+5. The system applies Bob's preferences, and the Adaptive Cruise Control System operates according to the newly set parameters, ensuring a personalized driving experience.
+
+---
+
+**Alternative Scenario**  
+1. Bob attempts to activate the Adaptive Cruise Control System, but the vehicle detects insufficient sensor data (e.g., due to fog or heavy rain).
+2. The system prompts Bob with a message, “Adaptive Cruise Control unavailable due to environmental conditions.”
+3. Bob can choose to drive manually or wait for the system to become available as the weather or road conditions improve.
+4. If Bob attempts to customize the settings during this time, the system will notify him that customization is only available when the system is active and functional.
+5. Bob can exit the customization menu and manually resume driving while the ACC system remains inactive until conditions are suitable.
+
+---
+
+**Postconditions**  
+After successful interaction with the Adaptive Cruise Control System Customization, Bob’s vehicle will adjust the system’s settings based on his preferences. The system will now maintain the chosen following distance, acceleration, and deceleration characteristics during driving. The customization settings will be saved and retained for future trips until Bob decides to make further changes or reset to default.

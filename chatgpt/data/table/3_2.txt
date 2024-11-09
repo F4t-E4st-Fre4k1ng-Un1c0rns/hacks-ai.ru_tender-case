@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC describes user actions in detail (e.g., adjusting following distance), but SSTS provides more technical, operational details instead of focusing on user interaction. | "The following distance, acceleration/deceleration sensitivity, and speed thresholds are recalibrated based on the user’s preferences." |
+| UC focuses on user outcomes like "confirmation" or "smooth driving experience," whereas SSTS emphasizes system outputs and conditions. | "Feedback is provided to the user through the interface, confirming that the new settings have been successfully applied." |
+| UC mentions user-friendly descriptions for system failure (e.g., system becomes unavailable) while SSTS focuses on technical conditions, such as system malfunctions. | "The system enters a fallback mode if the conditions necessary for customization are not met." |
+| UC emphasizes "user expectations and experience," while SSTS lists precise technical conditions for operation, such as enabling conditions and triggers. | "The vehicle must be equipped with an operational Adaptive Cruise Control system." |
+| UC outlines post-action results in terms of user satisfaction, while SSTS focuses on the technical reconfiguration of the system. | "The system processes the user's input and adjusts the adaptive cruise control settings accordingly." |
