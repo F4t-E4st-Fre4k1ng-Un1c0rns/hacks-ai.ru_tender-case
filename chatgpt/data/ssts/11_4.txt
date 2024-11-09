@@ -1,0 +1,38 @@
+**Technical Specifications: Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+**1. Title**  
+Automatic Vehicle Diagnostics & Maintenance Alerts
+
+**2. Functional Description**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-System provides continuous, real-time monitoring of the vehicle’s systems, including engine performance, battery health, brake status, and other critical components. The system runs diagnostic scans automatically upon vehicle startup and at regular intervals, delivering proactive alerts to the user via the in-vehicle dashboard or connected mobile app. The system generates maintenance reminders, diagnostic feedback, and service recommendations to ensure optimal vehicle performance and prevent unexpected breakdowns. It provides detailed reports on component status, fault diagnosis, and action items.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with onboard diagnostic sensors and integrated communication hardware (e.g., OBD-II, CAN bus) that allows continuous data transmission to the sub-System.
+- The vehicle’s software must be fully updated to the latest version to support real-time diagnostics and alerts.
+- The vehicle must be connected to a reliable internet connection (via Wi-Fi or cellular data) to receive and send diagnostic updates.
+- The user must have registered the vehicle and connected the sub-System to the official mobile app or in-vehicle interface to receive notifications and alerts.
+- The sub-System requires access to the vehicle’s component performance data for analysis and alert generation.
+
+**4. Trigger Conditions**  
+- Upon starting the vehicle, the system automatically performs an initial diagnostic scan to assess the health of key components (engine, battery, brakes, etc.).
+- Alerts are triggered when a system component exceeds predefined thresholds (e.g., battery voltage drop, brake wear beyond safety limits, engine misfire).
+- Scheduled maintenance alerts are triggered based on the vehicle’s maintenance history and manufacturer-recommended intervals.
+- If a component failure or malfunction is detected during vehicle operation, the system generates immediate alerts for the user to take action.
+- The sub-System can be manually triggered for an immediate diagnostic scan by the user through the mobile app or vehicle interface.
+
+**5. Execution Output**  
+- When a fault is detected or when scheduled maintenance is due, the system outputs a detailed alert that includes:
+  - The nature of the issue (e.g., brake pads wear, battery charge status).
+  - The severity of the issue (e.g., low priority vs. urgent maintenance).
+  - Suggested maintenance actions or repairs.
+  - Nearby authorized service centers or dealer locations for repairs.
+- The system also provides real-time performance updates and diagnostic results via the vehicle’s dashboard and the mobile app.
+- A comprehensive maintenance history log is maintained, including past diagnostics, actions taken, and recommended future maintenance schedules.
+- After successful diagnostics, the system will reset the maintenance clock and schedule the next automatic check based on the vehicle’s usage and condition.
+
+**6. Exit Conditions**  
+- After the user has acknowledged or addressed an alert, the system logs the action taken and clears the alert from the active notifications.
+- The system exits the diagnostics mode once all active alerts have been addressed, and the vehicle returns to normal operating status.
+- The system exits maintenance mode when all necessary repairs or services have been completed, and the vehicle’s components are confirmed to be in optimal condition.
+- If the user dismisses an alert without taking action, the system continues to monitor the component and will trigger a follow-up alert at the next scheduled check or when the issue worsens.
+- The system completes its diagnostic cycle and exits maintenance mode after performing a full vehicle scan and providing any necessary updates to the vehicle’s performance logs.

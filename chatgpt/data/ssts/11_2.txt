@@ -1,0 +1,46 @@
+**Technical Specifications for Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+---
+
+**1. Title**  
+Automatic Vehicle Diagnostics & Maintenance Alerts
+
+---
+
+**2. Functional Description**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system is designed to continuously monitor the health of an electric vehicle's key systems. The sub-system performs real-time diagnostics to detect any anomalies in critical systems such as the battery, motor, brakes, tires, and other key components. It then alerts the user to any detected issues, providing notifications for necessary repairs or scheduled maintenance tasks. The system is also capable of generating predictive maintenance recommendations, ensuring timely attention to potential failures before they occur. Additionally, the sub-system offers seamless integration for scheduling maintenance appointments directly through the app or in-car display.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must have an active connection to the onboard diagnostic system.
+- The user must have installed the appropriate mobile application or the vehicle must have an in-car display capable of receiving diagnostic data.
+- The vehicle’s critical systems must be correctly configured and capable of transmitting diagnostic data.
+- The vehicle must be connected to a network (Wi-Fi or cellular) to facilitate data transmission.
+- The onboard diagnostics software must be up-to-date and fully functional.
+- The vehicle must support remote diagnostics and over-the-air updates.
+
+---
+
+**4. Trigger Conditions**  
+- The diagnostic system is automatically triggered when the vehicle is powered on, starting a comprehensive scan of all critical systems.
+- Maintenance alerts are generated when the system detects issues based on system performance, usage data, or predictive maintenance algorithms.
+- Routine diagnostic scans are triggered when the mobile app or in-car display is accessed by the user.
+- The system will also notify the user if it detects any failures in critical systems (e.g., engine or battery malfunction).
+
+---
+
+**5. Execution Output**  
+- The sub-system will provide real-time diagnostic data, displaying the status of each critical vehicle component with color-coded indicators (green for healthy, yellow for attention required, red for critical issues).
+- Maintenance alerts will be generated and sent via mobile app or in-car display, detailing the required actions and providing clear instructions.
+- The system will offer predictive maintenance recommendations, suggesting when specific components (e.g., battery or brake pads) should be checked or replaced.
+- Users will have the option to directly schedule maintenance appointments through the app or in-car system, with available times based on service center data.
+- The system will store all diagnostic results in the cloud, allowing for easy access to historical data and trends.
+
+---
+
+**6. Exit Conditions**  
+- The vehicle completes the diagnostic scan, providing an updated status for all monitored systems.
+- The user has been alerted to any potential issues and provided with maintenance recommendations or scheduled tasks.
+- A maintenance appointment has been scheduled, if necessary, or the issue has been resolved through user action.
+- The system returns to a standby mode once all tasks have been completed or if no issues are detected, ready for the next diagnostic scan when the vehicle is powered on again.

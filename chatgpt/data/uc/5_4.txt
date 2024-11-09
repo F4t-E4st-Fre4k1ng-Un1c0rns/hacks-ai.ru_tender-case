@@ -1,0 +1,43 @@
+**Title:**
+Wireless Charging Station Integration for Electric Vehicles (EV)
+
+**Goal:**
+The Wireless Charging Station Integration for Electric Vehicles (EV) enables seamless and convenient charging of electric vehicles without the need for physical connections. It allows users to charge their vehicles automatically when parked over a compatible wireless charging pad. The system supports efficient energy transfer, ensuring rapid charging while maintaining safety protocols and enhancing the user experience with easy-to-use interfaces.
+
+**Preconditions:**
+1. The electric vehicle (EV) must be equipped with wireless charging capabilities, including the required receiver module.
+2. The user’s vehicle must be parked within the designated charging zone over a functional wireless charging pad.
+3. The charging station must be properly installed and maintained to ensure optimal performance.
+4. The vehicle’s battery management system must be active and capable of communicating with the charging station for safe energy transfer.
+5. User must have an active account with the vehicle manufacturer or charging network to initiate the charging session.
+
+**Main Scenario:**
+1. **User Action:** Alise parks her vehicle over the wireless charging pad, ensuring it is within the optimal range.
+   **Sub-System Response:** The system detects the presence of the vehicle and verifies compatibility with the charging pad.
+   
+2. **User Action:** Alise exits the vehicle and locks it, leaving it ready for charging.
+   **Sub-System Response:** The system automatically activates and begins communicating with the vehicle's battery management system to confirm charging requirements.
+   
+3. **User Action:** The wireless charging system identifies the battery’s charging state and determines the required power level.
+   **Sub-System Response:** The charging station adjusts the power output to match the vehicle’s needs, initiating the charging process.
+
+4. **User Action:** Alise monitors the charging progress via the vehicle’s display or mobile app.
+   **Sub-System Response:** The system updates the user on the charging status, including time remaining and current power transfer rate.
+
+5. **User Action:** Once the battery is sufficiently charged, Alise is notified via the vehicle’s display or app.
+   **Sub-System Response:** The system safely terminates the charging process and deactivates, ready for the next user or vehicle interaction.
+
+**Alternative Scenario:**
+1. **User Action:** Bob parks his vehicle over the wireless charging pad, but the system fails to detect the vehicle.
+   **Sub-System Response:** The charging system prompts an error message, instructing Bob to reposition the vehicle or ensure the charging pad is functioning correctly.
+   
+2. **User Action:** Bob attempts to start the charging process again, but the system still fails to initiate.
+   **Sub-System Response:** The system advises Bob to check for vehicle compatibility issues or malfunctioning components and suggests contacting customer support.
+
+3. **User Action:** Bob leaves the vehicle and the area, uncertain of the cause of the issue.
+   **Sub-System Response:** The system logs the error and alerts the support team for further diagnostics and troubleshooting. Bob is informed that support is being engaged.
+
+**Postconditions:**
+- After a successful charging session, Alise’s vehicle will have an increased battery charge level, meeting her preset target or reaching a full charge.
+- The system will log the session for maintenance purposes, including power transferred, duration, and any anomalies.
+- The wireless charging pad remains ready for the next vehicle interaction, ensuring minimal downtime for future users.

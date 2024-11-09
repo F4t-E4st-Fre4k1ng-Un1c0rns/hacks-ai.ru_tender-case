@@ -1,0 +1,32 @@
+**Technical Specifications: Multi-User Profile Management for Vehicle Settings**
+
+**1. Title**  
+Multi-User Profile Management for Vehicle Settings
+
+**2. Functional Description**  
+The Multi-User Profile Management for Vehicle Settings sub-system enables multiple users to create, modify, and store personalized vehicle settings, including seat position, climate control, driving modes, and infotainment preferences. The system allows for seamless switching between profiles based on user identification via authentication methods such as facial recognition, voice recognition, or user ID input. It ensures that each driver can access and apply their preferred settings automatically when entering the vehicle.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with sensors or cameras capable of facial recognition, or it has an interface for inputting a user ID.
+- The vehicle’s infotainment system and control systems must support profile-based settings storage and retrieval.
+- The vehicle is connected to a local or cloud-based database for storing user profiles.
+- Users must have an active profile in the system, which contains personalized settings for the seat, climate control, driving modes, and infotainment preferences.
+- The vehicle must have mechanisms in place to authenticate the driver, either through biometrics (facial or voice recognition) or manual input (user ID).
+
+**4. Trigger Conditions**  
+- A user enters the vehicle and the system is activated (either manually or automatically).
+- The system detects the user through the selected authentication method (facial recognition, voice recognition, or manual user ID input).
+- The user makes a change to the settings (e.g., adjusting the seat position, climate control, or selecting a driving mode).
+- The system detects a new user entering the vehicle and switches to their corresponding profile.
+- The user selects a new driving mode or makes an adjustment to their preferences during the trip.
+
+**5. Execution Output**  
+- The system retrieves the appropriate user profile from the database based on successful authentication and applies the corresponding settings (e.g., seat position, mirror adjustments, climate control, driving mode).
+- If the user adjusts any settings during the session (e.g., climate control or seat position), the system updates the user’s profile accordingly.
+- Feedback is provided to the user confirming that their personalized settings have been applied successfully (via visual or auditory notification).
+- If there is a failure in profile retrieval or setting application, the system provides an error message and offers alternative options such as using default settings or manually adjusting preferences.
+
+**6. Exit Conditions**  
+- The user exits the vehicle, and the system resets or saves the changes made during the session, either returning to default settings or retaining the last applied user profile.
+- After a period of inactivity, the system may log out the user or switch to another profile automatically if a new user enters.
+- In the event of a malfunction, such as a failure to retrieve a user profile, the system notifies the user and may disable specific features (e.g., seat adjustment) while allowing manual settings adjustments.

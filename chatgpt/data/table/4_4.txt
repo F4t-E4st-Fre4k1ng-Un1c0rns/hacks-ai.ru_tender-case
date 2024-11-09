@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not explicitly state that the system will automatically detect and load user preferences upon entering the vehicle, as required by the UC. | "The user profile exists and is linked to the vehicle’s infotainment system." |
+| SSTS allows for manual login or profile creation if the system fails to detect a profile, but does not consistently prompt the user as described in the UC. | "If no profile is detected, the system prompts the user to log in or create a new profile." |
+| SSTS mentions that the system will sometimes fail to reflect changes immediately, contradicting the UC requirement for immediate reflection of user preference adjustments. | "Preferences adjusted by the user are immediately saved to the system and will be applied in future sessions." |
+| SSTS states that user preferences are persisted, but does not clearly address issues with preferences not being stored correctly, as noted in the UC. | "The system will persist user preferences even after power cycles or vehicle restarts." |
+| SSTS does not fully address that new users must manually input preferences, which the UC expects to be simplified or auto-configured. | "New users are often required to manually input all preferences every time they create a new profile." |
+| SSTS fails to clarify that the system should have an error notification or guide for profile issues, as the UC explicitly states. | "In the case of an error, the system will clearly notify the user and guide them through resolving the issue." |

@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not specify the variety of emergency services, such as tire change, towing, and battery jump-start, as fully as UC. | "Available services include, but are not limited to, towing, tire changes, fuel delivery, and battery jump-starts." |
+| SSTS only mentions user-initiated requests without mentioning automatic failure detection, as required by UC. | "The user manually initiates a request for emergency assistance via the infotainment system or voice command." |
+| SSTS does not specify the requirement for an active user account linked to the vehicle, as stated in the UC. | "The user must be logged into their account linked to the vehicle for authentication." |
+| SSTS mentions system exit when service is completed but does not explicitly mention logging service completion and providing user confirmation as required by UC. | "Once a service is completed, the system logs the assistance event, including service details such as the type of help provided and the time of service." |
+| SSTS does not clearly outline the system's capability to provide real-time updates on the assistance provider's status, such as ETA changes. | "The system provides real-time updates on the status of the service request, including ETA and any relevant notifications." |
+| SSTS does not mention the necessity for network recovery to enable future requests as stated in UC. | "If the system fails to connect to the roadside assistance service (due to network issues or unavailable providers), the system notifies the user and offers manual alternatives for assistance." |

@@ -1,0 +1,51 @@
+**Underpinning Contract: Customization of In-Car Voice Assistant Responses**
+
+1. **Goal**
+
+The "Customization of In-Car Voice Assistant Responses" sub-system is designed to allow users to personalize and customize the voice assistant's interactions within the vehicle. This feature provides the user with the ability to modify the assistant's tone, language style, and specific response patterns to enhance user experience. Customization options include selecting from a variety of voices (e.g., male, female, or neutral), adjusting the level of formality, and configuring specialized responses for common queries. The ultimate aim is to make the interaction feel more intuitive, personal, and aligned with the user’s preferences, thereby increasing comfort and satisfaction.
+
+2. **Preconditions**
+
+- The vehicle is equipped with a fully functional voice assistant system.
+- The user has access to the customization menu via the car’s infotainment system.
+- The user has been authenticated and is logged into their personalized profile.
+- A stable internet connection is available (if required for downloading voice packs or updates).
+- The vehicle’s firmware is up to date to support all customization features.
+
+3. **Main Scenario**
+
+1. **User Action:** Alise activates the voice assistant by saying "Hey, [Car Brand Name]".
+   **Sub-System Response:** The assistant responds with a greeting, such as "Hello, Alise. How can I assist you today?"
+   
+2. **User Action:** Alise navigates to the settings menu in the voice assistant interface.
+   **Sub-System Response:** The system displays a menu of voice customization options, including language, voice type, tone, and response preferences.
+
+3. **User Action:** Alise selects the "Voice Type" option and chooses "Female, Soft-Spoken" from the list.
+   **Sub-System Response:** The system confirms the selection and changes the assistant's voice to a soft-spoken female voice.
+
+4. **User Action:** Alise selects the "Response Style" option and adjusts it to "Friendly and Casual".
+   **Sub-System Response:** The system confirms the new setting and updates the assistant’s response style accordingly.
+
+5. **User Action:** Alise exits the customization menu and asks the assistant for directions.
+   **Sub-System Response:** The assistant responds in the newly selected voice with a friendly and casual tone, providing accurate and clear directions.
+
+4. **Alternative Scenario**
+
+1. **User Action:** Bob activates the voice assistant by saying "Hey, [Car Brand Name]".
+   **Sub-System Response:** The assistant fails to respond, indicating an issue: "I’m sorry, Bob. The voice assistant is currently unavailable due to a system update."
+
+2. **User Action:** Bob attempts to navigate to the settings menu but finds that the screen is frozen.
+   **Sub-System Response:** The system displays an error message: "The voice assistant settings are temporarily unavailable. Please try again later."
+
+3. **User Action:** Bob restarts the car’s infotainment system.
+   **Sub-System Response:** After restarting, the system loads, but the customization options remain unavailable due to ongoing maintenance.
+
+4. **User Action:** Bob opts to use the default voice assistant until the issue is resolved.
+   **Sub-System Response:** The assistant operates in its default configuration, offering responses in a neutral tone and providing basic functionality.
+
+5. **User Action:** Bob attempts to adjust the settings again after a system update is completed.
+   **Sub-System Response:** The assistant confirms that the customization options are now available, allowing Bob to proceed with personalizing the assistant’s responses.
+
+5. **Postconditions**
+
+After a successful interaction with the "Customization of In-Car Voice Assistant Responses" sub-system, the user’s preferences are saved to their profile. The voice assistant's responses are updated according to the customized settings (voice type, tone, style, etc.), offering a more personalized and engaging experience. The changes will remain in effect until the user decides to modify them again or resets the system. Any successful customization is stored locally on the vehicle’s system, ensuring a seamless user experience during subsequent interactions.

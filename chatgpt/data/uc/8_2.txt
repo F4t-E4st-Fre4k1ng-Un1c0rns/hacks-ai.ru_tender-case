@@ -1,0 +1,27 @@
+**Underpinning Contract: Emergency Roadside Assistance Integration**
+
+**1. Goal**  
+The Emergency Roadside Assistance Integration sub-system will provide seamless access to emergency assistance services for users of luxury electric cars. This feature allows users to quickly request roadside help in case of breakdowns, accidents, or other emergencies, ensuring that they are provided with the necessary support, such as towing, tire changes, or battery jump-starts, wherever they are.
+
+**2. Preconditions**  
+- The vehicle must be equipped with a working internet connection (via mobile network or Wi-Fi) to access the sub-system.
+- The user must have an active account linked to their vehicle’s system to authenticate and request roadside assistance.
+- The vehicle must be registered with the roadside assistance provider.
+- The vehicle's GPS system should be functioning to provide accurate location data for the assistance service.
+
+**3. Main Scenario**  
+1. The user, Alise, experiences a breakdown while driving her luxury electric car and needs immediate roadside assistance.
+2. Alise accesses the Emergency Roadside Assistance Integration feature via the car's infotainment screen or through a voice command, saying "Request emergency roadside assistance."
+3. The sub-system verifies Alise’s identity and vehicle details through the account linked to the car and the GPS location of the vehicle.
+4. The sub-system displays a list of available assistance services based on her location, such as towing, tire change, or fuel delivery.
+5. Alise selects the required service, and the sub-system sends the request to the nearest roadside assistance provider, confirming the estimated arrival time.
+
+**4. Alternative Scenario**  
+1. Bob experiences a flat tire but the Emergency Roadside Assistance Integration feature is temporarily unavailable due to network connectivity issues.
+2. Upon trying to request assistance, the system notifies Bob with a message: "Emergency roadside assistance service is currently unavailable due to connectivity issues."
+3. Bob is given the option to either retry the request later or manually call a roadside assistance provider using the contact number displayed on the screen.
+4. Bob opts to manually call the provider, using the contact number provided by the sub-system.
+5. Once the network connectivity is restored, Bob can successfully use the feature for future requests.
+
+**5. Postconditions**  
+After the successful interaction with the Emergency Roadside Assistance Integration sub-system, Alise or Bob will have received confirmation that the requested assistance is on the way. The system will send real-time updates about the service's arrival time, and once the service is completed, the sub-system will log the request, providing a summary of the service delivered for future reference.

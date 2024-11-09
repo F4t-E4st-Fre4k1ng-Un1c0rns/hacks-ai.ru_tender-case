@@ -1,0 +1,6 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC mentions "cloud system" for vehicle sync, while SSTS specifies "network connectivity" which is more general. | "A stable internet connection must be available for accessing the Vehicle Data Analytics features." |
+| UC focuses on user-driven actions for triggering data collection (e.g., selecting a vehicle), while SSTS introduces automatic triggers based on vehicle operation. | "The system is triggered to collect vehicle data automatically whenever a vehicle is in operation." |
+| UC does not mention a prompt for unsaved changes, whereas SSTS includes it as part of the exit conditions. | "If the fleet manager exits without saving any changes, the system prompts the user to confirm whether to discard the unsaved data." |
+| UC emphasizes the fleet manager logging in and accessing specific sections for analytics, but SSTS introduces automatic data collection without user intervention. | "The sub-System is triggered when the fleet manager logs into the system and accesses the 'Vehicle Data Analytics' section." |

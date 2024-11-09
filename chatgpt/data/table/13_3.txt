@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS allows video streaming when the vehicle is moving in non-autonomous mode, which contradicts UC's safety requirement. | "The system may exit streaming mode if the vehicle exits autonomous mode or begins to move." |
+| SSTS specifies video quality adjustment in case of poor internet, while UC expects uninterrupted high-definition streaming. | "The system ensures minimal buffering by adjusting video quality if internet speed fluctuates." |
+| SSTS does not clarify a smooth user experience or fallback mechanism in case of login failure, while UC expects seamless access. | "The system verifies that the user is logged into their streaming service account before proceeding to content selection." |
+| SSTS lacks a detailed approach to handling complete internet connection failure compared to UC's requirement for uninterrupted service. | "If the internet connection is lost completely, the system will pause the video and prompt the user to check the connection." |
+| SSTS does not explicitly mention that the system will resume streaming after disconnection issues are resolved, which UC implies. | "The system will resume once the connection is restored." |
+| SSTS does not address the issue of resuming the session after interruption, which UC expects to be seamless. | "The system may exit streaming mode if the user switches to another application or performs a system reset." |

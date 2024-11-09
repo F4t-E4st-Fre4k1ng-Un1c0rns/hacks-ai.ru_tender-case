@@ -1,0 +1,31 @@
+**Title:**
+AI-based Driver Assistance for Hazard Detection
+
+**Goal:**
+The AI-based Driver Assistance for Hazard Detection sub-system is designed to enhance the safety of the driver by actively detecting potential hazards on the road. This includes recognizing obstacles, pedestrians, other vehicles, road signs, and environmental factors such as weather conditions. The system will issue real-time warnings to the driver, helping prevent accidents and allowing for more responsive driving decisions. The feature aims to detect hazards early, ensure continuous monitoring, and assist in collision avoidance.
+
+**Preconditions:**
+- The vehicle must be equipped with the necessary sensors, including cameras, radar, and LIDAR, to capture real-time data.
+- The sub-system must be activated at the beginning of the driving session through the vehicle's control interface.
+- The driver must have an understanding of the system's warning signals and alerts.
+- The system must be properly calibrated to the vehicle's environment and operational conditions.
+- A stable power supply is required for the sub-system to operate throughout the journey.
+
+**Main Scenario:**
+1. Bob starts the vehicle and the AI-based Driver Assistance system is automatically activated as part of the vehicle's startup sequence.
+2. As Bob drives, the system continuously scans the environment, detecting nearby vehicles, pedestrians, and any potential hazards like debris or road signs.
+3. If a hazard is detected, such as a pedestrian crossing the road ahead, the system immediately sends a visual alert on the dashboard and an audible warning.
+4. Bob responds to the warning by adjusting his speed or taking evasive action based on the alert provided by the system.
+5. After Bob has navigated past the hazard, the system resets and continues to monitor for new threats, maintaining real-time hazard detection.
+
+**Alternative Scenario:**
+1. Bob starts the vehicle, but the system fails to initialize due to a sensor malfunction or power failure.
+2. The vehicle's dashboard displays an error message, and Bob receives an audible notification indicating the system is unavailable.
+3. Bob must drive without the AI-based Driver Assistance, relying solely on traditional vehicle controls and alert systems (e.g., manual mirrors, hazard lights).
+4. In case of a critical situation, the vehicle’s manual safety features, such as emergency braking, will activate automatically, though Bob will not receive AI-based hazard alerts.
+5. Bob can choose to visit the service center for repairs, where the system will be diagnosed and restored to full functionality.
+
+**Postconditions:**
+- After a successful interaction with the system, Bob is made aware of any potential hazards on the road through visual and auditory alerts.
+- If no immediate action is required, the system continues to monitor the environment and ensures ongoing safety.
+- In the event of a detected hazard, Bob has the necessary information to respond promptly, reducing the likelihood of an accident and enhancing the overall driving experience.

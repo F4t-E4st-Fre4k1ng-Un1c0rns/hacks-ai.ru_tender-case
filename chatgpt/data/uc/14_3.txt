@@ -1,0 +1,33 @@
+**Underpinning Contract: Multi-User Profile Management for Vehicle Settings**
+
+**1. Title:**
+Multi-User Profile Management for Vehicle Settings
+
+**2. Goal:**
+The Multi-User Profile Management for Vehicle Settings sub-system allows multiple users to create, manage, and customize individual vehicle settings profiles. Each profile will contain personalized settings such as seat position, climate control preferences, infotainment preferences, driving mode, and other vehicle features. This feature enables a seamless experience for multiple users who share the same vehicle, allowing for easy switching between profiles based on the user’s preferences.
+
+**3. Preconditions:**
+- The vehicle is equipped with the necessary hardware and software to support the Multi-User Profile Management system.
+- Each user must have a registered account or identifier that is tied to their unique profile in the system.
+- The vehicle system is operational, and the Multi-User Profile Management software is installed and functioning correctly.
+- Users must have initial access to the vehicle’s infotainment or control system to set up their profile.
+
+**4. Main Scenario:**
+1. Alise enters the vehicle and the vehicle’s infotainment system greets her with a prompt to select her user profile.
+2. Alise selects her profile from a list of saved profiles that are linked to her account.
+3. The system loads her personalized vehicle settings, including seat position, climate control, infotainment preferences, and driving mode.
+4. Alise begins her journey, and the vehicle continuously adjusts its settings to reflect her preferences based on the selected profile.
+5. At the end of the journey, Alise exits the vehicle, and the system automatically saves any changes made to the profile settings.
+
+**5. Alternative Scenario:**
+1. Bob enters the vehicle and the vehicle’s infotainment system greets him with a prompt to select his user profile.
+2. Bob attempts to select his profile but receives an error message stating that his profile cannot be loaded at the moment due to a system issue.
+3. The system prompts Bob to create a new profile, or he can choose to use the default settings temporarily.
+4. Bob opts to create a new profile and sets up his preferred settings manually (seat position, climate control, etc.).
+5. Once Bob exits the vehicle, the new profile is saved, but the system alerts him that a system update will be required for full functionality of profile switching.
+
+**6. Postconditions:**
+- After successful interaction with the Multi-User Profile Management system, the vehicle has loaded or created the user’s personalized settings based on their profile selection.
+- The system saves any changes made during the session to the user profile.
+- In case of profile creation or updates, the new settings are stored and available for future use.
+- Any system issues encountered will trigger an appropriate notification to the user, but the vehicle will function with default settings until resolved.

@@ -1,0 +1,43 @@
+**Underpinning Contract for Customization of In-Car Voice Assistant Responses**
+
+1. **Title**
+   - Customization of In-Car Voice Assistant Responses
+
+2. **Goal**
+   - The "Customization of In-Car Voice Assistant Responses" sub-system will allow users to personalize the responses provided by the car's in-built voice assistant. This feature will enable users to modify the voice assistant's tone, language, and style of communication, offering a tailored experience that aligns with their preferences. Users will be able to adjust settings such as formal vs. informal speech, accents, or specific commands they frequently use. The goal is to enhance user interaction, making the voice assistant more intuitive and aligned with the individual’s personality.
+
+3. **Preconditions**
+   - The user must have access to the vehicle’s infotainment system, with the voice assistant feature enabled and functional.
+   - The user must be logged into their personal user profile in the car’s system, allowing customization of voice settings.
+   - The vehicle’s software must be up-to-date to ensure compatibility with the customization features.
+   - The voice assistant must be capable of receiving new command styles and tone adjustments.
+   - Users should have basic knowledge of the infotainment system's settings menu for navigating through customization options.
+
+4. **Main Scenario**
+   - 1. **User Action**: Bob enters the vehicle and activates the voice assistant by saying “Hello, [Car Brand].”
+     - **Sub-System Response**: The voice assistant greets Bob with the default greeting.
+   
+   - 2. **User Action**: Bob accesses the “Voice Assistant Settings” through the infotainment screen menu.
+     - **Sub-System Response**: The system displays available customization options for tone, language, and style of communication.
+
+   - 3. **User Action**: Bob selects “Formal” tone and a British accent for the voice assistant.
+     - **Sub-System Response**: The system confirms the selection and updates the voice assistant's tone and accent.
+
+   - 4. **User Action**: Bob asks, “What’s the weather today?”
+     - **Sub-System Response**: The voice assistant responds in a formal tone with a British accent, providing the weather update.
+
+   - 5. **User Action**: Bob decides to revert to the default voice settings and asks, “Change back to default.”
+     - **Sub-System Response**: The voice assistant resets to the original tone and accent, confirming the change.
+
+5. **Alternative Scenario**
+   - 1. **User Action**: Alise enters the vehicle and tries to activate the voice assistant but the system is not responding.
+     - **Sub-System Response**: The system prompts, “Voice assistant not available at the moment, please check the system settings or try again later.”
+
+   - 2. **User Action**: Alise attempts to access the “Voice Assistant Settings,” but the settings page does not load.
+     - **Sub-System Response**: The system shows an error message, “Voice Assistant Settings are currently unavailable. Please ensure your software is up to date.”
+
+   - 3. **User Action**: Alise tries to speak a command again, but the assistant is still unresponsive.
+     - **Sub-System Response**: The system advises, “The voice assistant is temporarily disabled. Please contact support for assistance or try again after a system reboot.”
+
+6. **Postconditions**
+   - After a successful interaction with the sub-system, the user will have successfully customized the voice assistant’s tone, language, and style of communication. The changes will remain in effect until the user decides to alter them again. The assistant will respond according to the selected preferences, providing a more personalized and engaging user experience.

@@ -1,0 +1,46 @@
+**Underpinning Contract for Wireless Charging Station Integration for Electric Vehicles (EV)**
+
+---
+
+### 1. Goal
+
+The Wireless Charging Station Integration for Electric Vehicles (EV) aims to enable seamless and efficient wireless charging capabilities for luxury electric vehicles. The system will allow users to charge their vehicles without the need for physical connection, offering convenience, enhanced user experience, and reduced wear and tear on traditional charging ports. The wireless charging system will automatically detect the vehicle’s position and initiate charging as soon as the vehicle is within range of the charging pad.
+
+---
+
+### 2. Preconditions
+
+- The Wireless Charging Station must be installed at the designated location, ensuring proper alignment with the vehicle’s charging receiving unit.
+- The electric vehicle must be equipped with compatible wireless charging technology.
+- The vehicle must be within the range of the charging station for connection to occur.
+- The vehicle must be powered off or in a “charging-ready” mode for the charging session to initiate.
+- The user (e.g., Bob) should have an active user profile set up with billing information if applicable.
+
+---
+
+### 3. Main Scenario
+
+1. **Vehicle Approach**: Bob drives his electric vehicle towards the wireless charging station.
+2. **Detection and Alignment**: The wireless charging system detects the vehicle’s position and guides Bob for optimal alignment with the charging pad through visual or auditory cues.
+3. **Charging Initiation**: Once the vehicle is correctly aligned, the charging system automatically establishes a connection, and charging begins without the need for any physical action from Bob.
+4. **Charging Progress**: Bob can monitor the charging progress via a mobile app or the in-vehicle display, showing the battery level and estimated charging time.
+5. **Charging Completion**: After the vehicle reaches full charge, the system notifies Bob, and the charging station disengages, allowing the vehicle to be driven away without any manual disconnection.
+
+---
+
+### 4. Alternative Scenario
+
+1. **Vehicle Failure to Align**: If Bob fails to properly align the vehicle with the charging pad, the system will display error messages or auditory cues to help him correct the positioning.
+2. **Charging Station Unavailable**: In the event that the wireless charging station is unavailable (due to maintenance or power failure), Bob will receive a notification, and the system will suggest alternative charging options, such as the nearest available wired charging station.
+3. **Vehicle Not Compatible**: If Bob’s vehicle is not equipped with the necessary wireless charging technology, the system will alert him and recommend compatible charging methods or suggest a retrofit.
+4. **Charging Session Interrupted**: If the charging session is interrupted (e.g., due to vehicle movement or system malfunction), Bob will receive an alert, and the system will either attempt to re-establish the connection or provide further instructions.
+5. **Billing Issues**: If Bob has an issue with billing (e.g., payment failure), the system will notify him via the app, allowing him to correct the issue before charging can continue.
+
+---
+
+### 5. Postconditions
+
+- Once the charging process is successfully completed, Bob’s vehicle battery is fully charged, and the wireless charging station will disengage automatically.
+- Bob will receive a summary of the charging session, including the total charge delivered and any applicable charges through the user app or onboard vehicle display.
+- The system will update the vehicle’s status to indicate that it is fully charged and ready for use.
+- The user will be informed if any errors or issues occurred during the session, along with instructions on how to resolve them.

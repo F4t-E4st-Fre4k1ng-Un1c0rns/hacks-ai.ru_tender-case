@@ -1,0 +1,36 @@
+**Technical Specifications: Multi-User Profile Management for Vehicle Settings**
+
+---
+
+**1. Title:**  
+Multi-User Profile Management for Vehicle Settings
+
+**2. Functional Description:**  
+The Multi-User Profile Management for Vehicle Settings sub-System enables personalized user experiences by managing individual profiles. Each profile contains settings for seat position, climate control, driving modes, and infotainment preferences. The system automatically detects the user through RFID, biometrics, or manual selection and applies the corresponding settings. This sub-System supports a maximum of 5 user profiles per vehicle. It ensures that the vehicle adapts to the user’s preferences every time they enter, providing a seamless and customized driving experience.
+
+**3. Enabling Conditions:**  
+- The vehicle is equipped with the necessary hardware for user identification, including RFID scanners or biometric sensors.  
+- A vehicle infotainment system capable of storing and retrieving user profiles is installed.  
+- At least one registered user profile is required for the system to function.  
+- The vehicle is connected to a local network or server that can store and sync profiles.  
+- The system is configured to handle up to 5 profiles per vehicle and can update them in real-time.
+
+**4. Trigger Conditions:**  
+- The system detects the presence of a user via RFID or biometric scan as they enter the vehicle.  
+- A manual selection is made by the user from the profile list if automatic recognition fails.  
+- A user makes a request to modify or update their settings via the infotainment system.  
+- The system detects an error or fault in profile recognition, triggering a fallback process or error message.  
+- A reset or reboot occurs, re-initializing the system and prompting the user to select or verify their profile.
+
+**5. Execution Output:**  
+- Upon detecting a user, the system automatically applies the corresponding profile settings for seat, climate, and driving mode.  
+- The system confirms that the user’s profile has been applied and provides feedback, such as a message on the infotainment screen.  
+- Any changes to the user’s profile settings are automatically saved and confirmed.  
+- If an issue occurs (e.g., failed recognition), the system provides a user-friendly error message, guiding the user through troubleshooting steps.  
+- The system logs all changes made to user profiles for future reference.
+
+**6. Exit Conditions:**  
+- When the user exits the vehicle, the system logs out from the current profile and reverts to a default or guest profile.  
+- If no user is recognized after a defined period, the system defaults to a guest profile.  
+- In case of an error during profile application, the system logs the error, displays a message to the user, and allows the user to retry or select an alternative profile.  
+- The system automatically logs out after a set period of inactivity or when the vehicle is turned off, preserving all profile settings for the next use.

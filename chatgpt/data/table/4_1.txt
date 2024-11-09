@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies that the system should confirm both when preferences are saved and when loaded, while the SSTS only confirms preference loading. | "A confirmation message is displayed to indicate that preferences have been successfully loaded." |
+| The UC requires the system to detect user profiles through multiple methods (e.g., biometrics, fob, or manual selection), but the SSTS does not detail these specific detection methods. | "Detection methods include biometric identification, key fob proximity, or prior profile selection, allowing hands-free or minimal-input activation of preferences." |
+| The UC outlines an automatic suggestion of default settings or retry options if user preferences fail to load, which is absent in the SSTS. | "If any preferences fail to load, the system provides an error message with options to retry, load default settings, or access troubleshooting guidance." |
+| The UC specifies that all user changes should be saved to their profile in real time, but the SSTS does not provide clarity on this function. | "If the user updates settings, the system confirms that changes have been saved to the profile in real time." |
+| The UC mandates the use of automatic profile detection for every system start, whereas the SSTS does not clearly ensure consistent application of automatic detection for each start. | "Biometric recognition or user profile detection is enabled for automatic profile recognition." |

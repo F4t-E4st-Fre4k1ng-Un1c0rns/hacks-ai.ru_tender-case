@@ -1,0 +1,31 @@
+**Technical Specifications for AI-based Driver Assistance for Hazard Detection**
+
+**1. Title**  
+AI-based Driver Assistance for Hazard Detection
+
+**2. Functional Description**  
+The AI-based Driver Assistance for Hazard Detection sub-system is designed to enhance vehicle safety by automatically identifying potential hazards in the driving environment. This system uses a combination of sensors, such as cameras, radar, and LIDAR, to detect obstacles, pedestrians, vehicles, road conditions, and other hazards in real time. Upon detecting a hazard, the system provides the driver with both visual and auditory alerts. In high-risk situations, the system may also initiate automatic interventions such as emergency braking or steering adjustments to avoid accidents and ensure safe driving. The system is continually adaptive and capable of learning from various driving environments to improve hazard detection over time.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the required hardware: cameras, radar, LIDAR, and an AI processing unit capable of real-time data analysis.  
+- The system should be integrated into the vehicle’s software and activated automatically once the vehicle starts moving (e.g., above 10 km/h).  
+- The vehicle’s sensors must be calibrated to function properly under different driving conditions, including varying weather, light, and road types.  
+- The sub-system requires a stable power source from the vehicle to function continuously without interruption.  
+- The system should be updated and maintained regularly to remain compatible with new environmental conditions and driving regulations.
+
+**4. Trigger Conditions**  
+- The system is activated when the vehicle exceeds a certain speed (e.g., 10 km/h).  
+- Hazard detection is triggered by the appearance of potential risks such as pedestrians, other vehicles, sudden braking, sharp turns, or dangerous road conditions (e.g., wet or icy surfaces).  
+- The system will also be triggered if the sensors detect obstructions or if the sensor lenses are dirty, requiring maintenance or cleaning.  
+- Environmental changes such as sudden changes in weather conditions or road surface types can trigger the system’s hazard detection.
+
+**5. Execution Output**  
+- Upon detecting a hazard, the system provides a visual alert on the dashboard and an auditory warning to the driver to inform them of the potential danger.  
+- In case of high-risk scenarios, such as an imminent collision, the system may automatically engage emergency braking, provide steering adjustments, or trigger other corrective actions to prevent an accident.  
+- If the system detects a malfunction or obstruction in the sensors, it will notify the driver, advising them to clean the sensors or visit a service center.  
+- The system logs detected hazards and responses for post-event analysis and continuous learning to improve detection accuracy.
+
+**6. Exit Conditions**  
+- The system will exit hazard detection mode when the vehicle slows down to below the activation speed (e.g., below 10 km/h) or when the detected hazard is no longer present.  
+- If the driver manually disables the system or overrides the automatic intervention features, the system will exit hazard detection mode.  
+- In the event of a system malfunction, the system will enter a safe mode and deactivate the hazard detection function until the issue is resolved via maintenance or repair.

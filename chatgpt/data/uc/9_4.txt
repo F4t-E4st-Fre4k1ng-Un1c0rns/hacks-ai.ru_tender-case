@@ -1,0 +1,31 @@
+**Underpinning Contract: Vehicle Data Analytics for Fleet Management**
+
+**1. Title:**  
+Vehicle Data Analytics for Fleet Management
+
+**2. Goal:**  
+The Vehicle Data Analytics sub-system will provide users with advanced capabilities to monitor, analyze, and optimize the performance and maintenance of electric vehicle fleets. It will offer real-time data insights on vehicle health, energy consumption, route efficiency, and predictive maintenance, helping fleet managers improve operational efficiency and reduce downtime. Additionally, it will facilitate data-driven decision-making regarding vehicle replacement, energy usage patterns, and fleet scaling.
+
+**3. Preconditions:**  
+- The sub-system requires integration with the fleet’s electric vehicles and telematics systems, providing real-time data transfer.  
+- Each vehicle in the fleet must be equipped with the necessary sensors to monitor performance parameters (e.g., battery status, tire pressure, energy consumption).  
+- The fleet management platform must be accessible through a secure login, with appropriate user roles assigned (e.g., manager, technician).  
+- Users must have an active internet connection to access and use the analytics dashboard.  
+- Fleet management software should be updated to ensure compatibility with the data analytics sub-system.
+
+**4. Main Scenario:**  
+1. **Alise, the fleet manager, logs into the fleet management platform** using her username and password.  
+2. **She navigates to the Vehicle Data Analytics section**, where a dashboard displaying vehicle performance metrics appears.  
+3. **Alise selects a specific vehicle or a group of vehicles** from the fleet to view detailed analytics on metrics such as battery health, energy consumption, and maintenance status.  
+4. **The sub-system processes and displays real-time data** in the form of graphs and alerts, providing insights into each vehicle's operational efficiency and potential maintenance needs.  
+5. **Alise uses the predictive maintenance tool** to schedule preventive maintenance for vehicles flagged with potential issues, ensuring fleet optimization and reducing the likelihood of unexpected breakdowns.
+
+**5. Alternative Scenario:**  
+1. **Bob, the fleet technician, attempts to log into the platform** but encounters an error message indicating that the system is down for maintenance.  
+2. **The sub-system displays an error message** notifying Bob that vehicle data analytics features are temporarily unavailable.  
+3. **Bob checks the status page** to confirm the ongoing maintenance schedule and expected downtime for the analytics sub-system.  
+4. **While waiting for the system to come back online**, Bob contacts support for further assistance and proceeds with any immediate maintenance tasks based on previously recorded data.  
+5. **Once the system is restored**, Bob logs in again to access the updated vehicle data and analytics for the fleet, continuing his tasks without any loss of critical data.
+
+**6. Postconditions:**  
+After a successful interaction with the Vehicle Data Analytics sub-system, Alise or Bob will have access to up-to-date, actionable insights on fleet performance, vehicle condition, and energy usage. This will enable more informed decision-making regarding fleet optimization, maintenance scheduling, and energy management. The system will automatically update and store the latest data, ensuring that future analyses are based on accurate and real-time information.

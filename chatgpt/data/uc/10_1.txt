@@ -1,0 +1,33 @@
+**Title:**  
+Integration of Real-Time Traffic Updates with Navigation
+
+**Goal:**  
+The Integration of Real-Time Traffic Updates with Navigation sub-system aims to enhance the user experience by providing up-to-date traffic information that helps optimize the driving route. This feature will allow users to receive dynamic traffic data, such as congestion, road closures, and accidents, in real time. It will also automatically adjust the navigation route based on the latest traffic conditions, ensuring the user takes the most efficient path to their destination.
+
+**Preconditions:**  
+- The vehicle must be equipped with a compatible navigation system capable of receiving and processing real-time traffic data.
+- The sub-system is connected to the internet via a cellular or Wi-Fi network to retrieve traffic updates.
+- The user must have a valid subscription or access to the traffic data provider's service.
+
+**Main Scenario:**  
+1. **User Action:** The user, Alise, enters a destination into the navigation system of her luxury electric vehicle.  
+   **Sub-System Response:** The system calculates the best route to the destination based on current traffic conditions.  
+2. **User Action:** Alise starts driving, and the navigation system begins providing turn-by-turn directions.  
+   **Sub-System Response:** The system continuously monitors traffic data, updating the route if needed to avoid congestion or roadblocks.  
+3. **User Action:** While driving, Alise encounters heavy traffic ahead.  
+   **Sub-System Response:** The navigation system reroutes Alise to an alternative path, suggesting a quicker route based on real-time traffic updates.  
+4. **User Action:** Alise follows the updated route provided by the system.  
+   **Sub-System Response:** The system continues to provide live traffic updates and adjusts the route if new disruptions occur.  
+5. **User Action:** Alise reaches her destination.  
+   **Sub-System Response:** The system confirms arrival and provides a summary of the journey, including the time saved by avoiding traffic.
+
+**Alternative Scenario:**  
+1. **User Action:** Bob enters a destination into the navigation system, but the traffic data service is temporarily unavailable.  
+   **Sub-System Response:** The system notifies Bob that real-time traffic updates cannot be retrieved at the moment and suggests using the default route based on historical traffic data.  
+2. **User Action:** Bob decides to continue the journey using the suggested default route.  
+   **Sub-System Response:** The system provides standard navigation instructions without traffic optimization.  
+3. **User Action:** Bob encounters unexpected congestion.  
+   **Sub-System Response:** The system will not be able to reroute in real-time, but it will advise Bob to check traffic updates manually or suggest an alternate route at the next stop.
+
+**Postconditions:**  
+After successful interaction with the Integration of Real-Time Traffic Updates with Navigation sub-system, Alise (or Bob) will have completed their journey more efficiently, avoiding significant traffic delays. The system will have provided dynamic route adjustments based on live traffic data, ensuring an optimized and stress-free travel experience.

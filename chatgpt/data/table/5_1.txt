@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The SSTS does not specify compatibility with the company's luxury EV models, which is required by the UC. | "The system ensures compatibility with vehicles equipped with wireless charging technology." |
+| The SSTS lacks details on the minimum technical specifications of the vehicle's wireless charging receiver, which is needed for proper compatibility as per the UC. | "The vehicle must be equipped with a compatible wireless charging receiver that supports the charging frequencies and power specifications defined for the luxury EV models." |
+| The UC specifies that the user must confirm the start of charging, but the SSTS only mentions automatic connection without emphasizing user confirmation. | "The user must confirm the start of the charging process either through the mobile app or in-vehicle interface before energy transfer begins." |
+| The SSTS does not include specific battery health optimization features like reducing charging speeds near full charge, which is mentioned in the UC. | "The system dynamically adjusts power output based on the vehicle’s battery level to ensure optimal battery health, preventing overcharging and heat build-up." |
+| The SSTS does not mention explicitly notifying the user when charging is complete, as required by the UC. | "Upon completion of charging, the system alerts the user via mobile app or in-vehicle interface that the vehicle is fully charged." |

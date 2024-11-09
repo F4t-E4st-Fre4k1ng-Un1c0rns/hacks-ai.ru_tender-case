@@ -1,0 +1,52 @@
+**Underpinning Contract: Wireless Charging Station Integration for Electric Vehicles (EV)**
+
+---
+
+**1. Title**
+
+Wireless Charging Station Integration for Electric Vehicles (EV)
+
+---
+
+**2. Goal**
+
+The Wireless Charging Station Integration for Electric Vehicles (EV) aims to provide seamless, efficient, and user-friendly wireless charging solutions for luxury electric vehicle owners. This sub-system enables the automatic charging of EVs without the need for physical plugs, improving convenience, reducing wear on charging ports, and offering faster charging speeds. The system allows users to park their vehicles over the designated charging spot, and the vehicle will automatically begin charging through wireless transmission technology.
+
+---
+
+**3. Preconditions**
+
+- The user must have an EV equipped with compatible wireless charging technology.
+- The wireless charging station must be installed and fully functional within the designated area.
+- The EV owner must have registered their vehicle with the wireless charging network.
+- The wireless charging station must be properly configured and connected to the power grid.
+- The EV owner’s account must be active and in good standing for usage.
+
+---
+
+**4. Main Scenario**
+
+1. **User parks their EV** over the designated wireless charging spot.
+2. The **charging station detects** the presence of the vehicle using proximity sensors and activates the charging process.
+3. The **vehicle and charging station communicate** to establish the optimal charging parameters, such as power flow and duration.
+4. The **charging process begins** automatically, and the user can see the charging status on their EV’s dashboard or the mobile app.
+5. Once the battery is fully charged, the **charging process stops**, and the user receives a notification indicating the completion of the charging.
+
+---
+
+**5. Alternative Scenario**
+
+1. The user parks their EV over the wireless charging spot, but the system fails to detect the vehicle.
+2. The user is notified through their mobile app that the charging station is unavailable or unable to detect the vehicle.
+3. The user is advised to **check the alignment** of their vehicle or **reposition it** to ensure proper detection by the charging system.
+4. If the problem persists, the user is instructed to **contact customer support** for troubleshooting or request manual charging assistance.
+5. If the charging station is completely out of service, the user will be directed to the nearest available charging station for alternative charging options.
+
+---
+
+**6. Postconditions**
+
+- The EV is successfully charged, and the user’s vehicle battery is restored to an optimal level.
+- The user receives a notification confirming the charging process is complete, along with any associated costs or energy consumption details.
+- The wireless charging station logs the transaction, including the duration and amount of energy used.
+- The user can access detailed charging history through their mobile app or online portal for future reference.

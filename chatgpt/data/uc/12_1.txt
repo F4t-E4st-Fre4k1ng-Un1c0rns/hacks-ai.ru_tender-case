@@ -1,0 +1,49 @@
+**Underpinning Contract: Customization of In-Car Voice Assistant Responses**
+
+**1. Title**  
+Customization of In-Car Voice Assistant Responses  
+
+**2. Goal**  
+The Customization of In-Car Voice Assistant Responses subsystem will provide users with the ability to personalize and modify the responses given by the car's voice assistant system. This feature allows users to set preferences for tone, language, style, and the level of formality in the assistant's interactions, ensuring a tailored experience that aligns with the user’s desires and the luxury brand's premium identity. Additionally, the system will provide options for customizing responses to various commands, such as navigation, entertainment, climate control, and other in-car functionalities.
+
+**3. Preconditions**  
+- The user must have a compatible vehicle with the voice assistant functionality enabled.
+- The vehicle must be connected to a stable network to download or update voice response customization options.
+- The user must have access to the in-car settings menu to configure the voice assistant responses.
+- The user is familiar with basic voice commands and interface options in the vehicle’s infotainment system.
+- Customization options are available only to registered vehicle owners or authorized users.
+
+**4. Main Scenario**  
+1. **User Action:** Alise enters the car and starts the engine.  
+   **Sub-System Response:** The voice assistant greets Alise with a standard welcome message.  
+
+2. **User Action:** Alise accesses the in-car settings menu and selects “Voice Assistant Customization.”  
+   **Sub-System Response:** The system presents available customization options, such as tone, language, formality, and response style.  
+
+3. **User Action:** Alise selects a preferred response style (e.g., casual or formal) and language (e.g., English).  
+   **Sub-System Response:** The voice assistant acknowledges the selection, and the system saves the customization preferences.  
+
+4. **User Action:** Alise tests the changes by asking the voice assistant for directions or music.  
+   **Sub-System Response:** The voice assistant provides responses in the newly selected style, confirming the preferences are active.  
+
+5. **User Action:** Alise exits the vehicle, and the system saves the customization settings for future use.  
+   **Sub-System Response:** The settings are retained, and the next time Alise enters the car, the voice assistant will respond according to her selected preferences.
+
+**5. Alternative Scenario**  
+1. **User Action:** Bob enters the car and starts the engine.  
+   **Sub-System Response:** The voice assistant fails to greet Bob due to a connectivity issue or system malfunction.  
+
+2. **User Action:** Bob attempts to access the “Voice Assistant Customization” menu.  
+   **Sub-System Response:** The system notifies Bob that customization options are unavailable due to a temporary issue or lack of internet connection.  
+
+3. **User Action:** Bob is unable to complete the customization due to technical limitations.  
+   **Sub-System Response:** The system advises Bob to try again later and provides contact information for support if the issue persists.  
+
+4. **User Action:** Bob attempts to use the voice assistant for commands (e.g., directions or music).  
+   **Sub-System Response:** The voice assistant responds in its default settings until the customization issue is resolved.  
+
+5. **User Action:** Bob leaves the car and the system retains the default settings.  
+   **Sub-System Response:** The next time Bob enters the vehicle, the system will operate with default voice settings until the customization can be completed successfully.
+
+**6. Postconditions**  
+Upon successful interaction with the system, the user’s voice assistant customization preferences are saved and applied to all future voice assistant interactions. The system will recall these settings each time the user enters the vehicle, ensuring that the voice assistant responses match the user’s personal preferences. If customization is not completed, the system will continue to operate with the default voice assistant settings until the issue is resolved.

@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The SSTS omits specific mention of emergency fuel delivery as a supported service, which is outlined in the UC. | "The system must be able to automatically detect the vehicle’s location via GPS." |
+| The UC specifies automatic detection of the user's location, while the SSTS does not explicitly mention it as an enabling condition. | "The system must be connected to the vehicle’s onboard communication network and the internet or a cellular network for data transmission." |
+| The UC requires the system to support automatic detection of issues like tire failure, battery depletion, and other malfunctions, but the SSTS only mentions manual user activation and general system detection. | "The user manually activates the roadside assistance request by selecting the appropriate option on the vehicle’s central display, mobile app, or voice command system." |
+| The UC specifies that notifications should include contact information for the roadside assistance provider, but the SSTS does not clarify this detail. | "Real-time updates are provided to the user, including changes to the estimated arrival time, the status of the request, and contact details for the roadside assistance team." |
+| The UC mentions that the user should be able to cancel or modify the request, but the SSTS lacks details on cancellation scenarios. | "The system provides the user with an option to cancel or modify the request if necessary." |

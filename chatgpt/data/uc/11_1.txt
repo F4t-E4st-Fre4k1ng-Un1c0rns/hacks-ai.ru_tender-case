@@ -1,0 +1,31 @@
+**Title:**
+Automatic Vehicle Diagnostics & Maintenance Alerts
+
+**Goal:**
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system is designed to enhance the user experience by providing real-time diagnostic feedback and proactive maintenance alerts for the luxury electric car. This feature will monitor the vehicle's key systems, identify potential issues, and notify the user, ensuring the car operates optimally and reducing the risk of unexpected failures. Users will receive automated alerts for necessary maintenance, such as battery status, tire pressure, brake wear, and software updates, ensuring the vehicle is always performing at its best.
+
+**Preconditions:**
+- The vehicle is equipped with the necessary sensors and diagnostic hardware to communicate with the sub-system.
+- The car's software must be up-to-date, allowing communication with the diagnostic system.
+- The user must have an active account with the vehicle's management app and have granted permissions to receive diagnostic alerts.
+- The sub-system should be operational and connected to the vehicle's onboard computer system.
+- The user’s device (smartphone or connected device) must be enabled for notifications and alerts.
+
+**Main scenario:**
+1. The user, Bob, starts his vehicle and the sub-system automatically begins monitoring the vehicle’s key systems, including the battery, engine, tire pressure, and brakes.
+2. The sub-system detects a potential issue, such as a low tire pressure warning, and immediately sends a notification to Bob's connected device.
+3. Bob receives the alert and opens the vehicle management app to review the diagnostic details and suggested actions.
+4. Bob follows the recommended action, such as visiting the nearest service center or inflating the tires, as prompted by the system.
+5. Once the issue is resolved, the sub-system verifies the vehicle’s systems and sends a confirmation that all diagnostics are clear and the vehicle is functioning optimally.
+
+**Alternative scenario:**
+1. Bob starts his vehicle, but the sub-system fails to initialize due to a software malfunction.
+2. The sub-system displays an error message on the vehicle’s screen, informing Bob that diagnostics cannot be performed at the moment.
+3. Bob attempts to check the status of his vehicle’s diagnostics using the mobile app, but the app indicates no connection to the vehicle’s system due to the malfunction.
+4. Bob contacts customer support, and the system automatically logs the error, providing the support team with diagnostics information for troubleshooting.
+5. Bob is informed that the issue will be resolved through a software update, and in the meantime, he can continue to drive the car, though manual maintenance checks are advised.
+
+**Postconditions:**
+- After a successful interaction, such as the user addressing a diagnostic alert (e.g., fixing low tire pressure), the vehicle is restored to optimal working condition.
+- The system records the completion of maintenance and updates the vehicle’s service history, which is available for future reference.
+- Bob receives a final confirmation from the sub-system that all diagnostics are clear and no immediate maintenance is required.

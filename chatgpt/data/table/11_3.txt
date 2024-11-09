@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not mention a fallback or offline mode for diagnostics when connectivity is unavailable, which is required by UC for continued use in poor connectivity areas. | "A stable internet connection is required for data transmission and receiving real-time updates." |
+| SSTS does not provide detailed diagnostic reports in all cases, especially under weak network conditions, while UC expects consistent real-time diagnostic reports. | "The system outputs a real-time vehicle diagnostic report detailing the status of critical systems." |
+| UC expects seamless interaction with alerts, while SSTS mentions that alerts may be delayed or incomplete due to network issues. | "The system will generate alerts, but may not provide complete or immediate alerts in cases of poor connectivity." |
+| SSTS lacks specific guidance for users when network errors occur, while UC requires clear instructions for troubleshooting or offline alternatives. | "A system error or lack of connectivity triggers an error message if the diagnostics cannot be performed." |
+| SSTS does not specify that the system will remind users of unresolved maintenance issues after initial acknowledgment, which UC requires for continuous user engagement. | "Alerts remain active until the user acknowledges or resolves the issue; once acknowledged, the system enters a standby state until the next diagnostic check." |

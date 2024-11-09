@@ -1,0 +1,46 @@
+**Underpinning Contract: Customization of In-Car Voice Assistant Responses**
+
+---
+
+**1. Title**  
+Customization of In-Car Voice Assistant Responses
+
+---
+
+**2. Goal**  
+The goal of this sub-system is to allow the user to personalize and customize the responses of the in-car voice assistant in a luxury electric vehicle. Users will be able to adjust the tone, style, and content of the voice assistant's replies to enhance their in-car experience, providing a more tailored and personal interaction. This will include the ability to select different voice personas, modify speech patterns, and incorporate specific user preferences, making the interaction smoother and more aligned with the user's personality.
+
+---
+
+**3. Preconditions**  
+- The vehicle is powered on, and the in-car voice assistant system is active.  
+- The user has been authenticated and granted access to the customization settings of the voice assistant.  
+- The vehicle's infotainment system is functioning properly, and connectivity to the cloud or local data storage is available.  
+- The user is familiar with basic vehicle controls and the operation of the voice assistant system.  
+- Any software or firmware updates necessary for the customization feature are installed and up to date.
+
+---
+
+**4. Main Scenario**  
+1. The user activates the voice assistant by saying, “Hey [Assistant Name].”  
+2. The assistant responds with the default greeting and asks if the user would like to customize the responses.  
+3. The user responds, “Yes, I want to personalize the voice.”  
+4. The assistant presents a menu of available options, including voice tone (e.g., formal, casual), speech speed (e.g., slow, normal, fast), and voice type (e.g., male, female, neutral).  
+5. The user selects their preferred settings. The assistant confirms the changes and begins using the customized responses immediately.
+
+---
+
+**5. Alternative Scenario**  
+1. The user activates the voice assistant by saying, “Hey [Assistant Name].”  
+2. The assistant responds with the default greeting and asks if the user would like to customize the responses.  
+3. The user responds, “Yes, but I am having trouble with the settings.”  
+4. The assistant informs the user that customization options are temporarily unavailable due to system connectivity issues or a malfunction.  
+5. The assistant offers troubleshooting advice or an alternative option, such as performing the customization at a later time when the system is restored.
+
+---
+
+**6. Postconditions**  
+- After a successful interaction, the voice assistant adopts the customized settings chosen by the user, reflecting the preferred tone, speech speed, and voice type.  
+- The new settings will be saved in the user’s profile and automatically applied in future interactions.  
+- The user will experience a more personalized interaction with the voice assistant, improving the overall user experience in the vehicle.  
+

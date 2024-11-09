@@ -1,0 +1,41 @@
+**Technical Specifications: Customization of In-Car Voice Assistant Responses**
+
+---
+
+**1. Title**  
+Customization of In-Car Voice Assistant Responses
+
+---
+
+**2. Functional Description**  
+This sub-system allows users to customize the in-car voice assistant's responses to create a personalized interaction. The system provides options to adjust voice tone (e.g., formal, casual), speech speed (e.g., slow, normal, fast), and voice type (e.g., male, female, neutral). The customization settings can be adjusted through the vehicle’s infotainment system or voice commands. Once settings are applied, the voice assistant will consistently use the chosen preferences until modified again by the user. This feature enhances user experience by tailoring the assistant's interactions to match personal preferences.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle’s infotainment system must be powered on, and the voice assistant feature must be activated.  
+- The system must have access to either local storage or cloud-based user profiles to save customization preferences.  
+- The user must have completed any necessary authentication (e.g., logging into the vehicle’s system or voice recognition).  
+- The system must be running the latest software and firmware, including updates necessary to support the customization feature.  
+- The vehicle must be in a non-power-saving mode, and customization should be available when the vehicle is either parked or in an appropriate driving mode.
+
+---
+
+**4. Trigger Conditions**  
+- The user activates the voice assistant by issuing the wake word or using a manual button in the vehicle.  
+- The user explicitly requests customization by saying, “Customize voice settings,” “Change voice,” or similar commands.  
+- The system recognizes the activation of the voice assistant and identifies the user's request for customization, displaying available options for tone, speed, and voice type.
+
+---
+
+**5. Execution Output**  
+- The system provides a customization menu, where the user can choose from available options for tone, speech speed, and voice type.  
+- After the user selects the desired customization settings, the system applies these changes and confirms the settings verbally to the user.  
+- All future interactions with the voice assistant will reflect the updated settings, providing a personalized voice experience based on the user’s selections.
+
+---
+
+**6. Exit Conditions**  
+- The customization process concludes successfully when the system confirms the applied settings to the user.  
+- The user exits the customization menu either by confirming the settings or canceling the changes.  
+- The system then returns to the normal voice assistant mode, using the new settings for all subsequent interactions.

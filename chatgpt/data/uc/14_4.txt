@@ -1,0 +1,35 @@
+**Underpinning Contract: Multi-User Profile Management for Vehicle Settings**
+
+---
+
+**1. Title:**  
+Multi-User Profile Management for Vehicle Settings
+
+**2. Goal:**  
+The Multi-User Profile Management for Vehicle Settings sub-System allows multiple users to create, customize, and manage individual profiles for vehicle settings. Each user profile stores preferences related to seat position, climate control, driving modes, infotainment settings, and other personalized features within the vehicle. The system ensures that the settings are automatically applied when a specific user enters the vehicle, enhancing convenience and comfort. This functionality is ideal for vehicles with multiple drivers, allowing each user to enjoy their own unique driving experience without manual adjustments each time.
+
+**3. Preconditions:**  
+- The vehicle must be equipped with a compatible Multi-User Profile Management sub-System.
+- Each user must have a registered account within the vehicle’s system.
+- The vehicle should be able to detect and differentiate between individual drivers through a biometric, RFID, or other identification methods.
+- Users must have access to the vehicle's infotainment or control system to modify and save their settings.
+- The system is capable of supporting up to 5 unique user profiles per vehicle.
+
+**4. Main Scenario:**  
+1. **User Identification:** Upon entering the vehicle, Bob, identified via RFID tag or biometric scan, sits in the driver's seat.  
+2. **Profile Activation:** The vehicle automatically recognizes Bob’s profile and adjusts the seat position, mirror angle, and climate settings to his saved preferences.  
+3. **Customization:** Bob interacts with the vehicle's infotainment system to adjust additional settings, such as audio preferences or driving mode, and saves these adjustments to his profile.  
+4. **Profile Confirmation:** Once changes are saved, the system confirms that Bob’s profile has been updated, and the adjustments are automatically applied each time Bob enters the vehicle.  
+5. **Profile Switching:** Alise enters the vehicle, and the system detects her identity. The vehicle adjusts all settings to Alise’s predefined profile, ensuring a personalized experience.
+
+**5. Alternative Scenario:**  
+1. **User Identification Failure:** Upon entering the vehicle, Bob attempts to use the RFID tag, but the system fails to recognize it.  
+2. **Fallback Mechanism:** The vehicle prompts Bob to manually select his profile from a list displayed on the infotainment screen.  
+3. **Manual Configuration:** Bob selects his profile, and the vehicle applies the saved settings. If the system detects a technical issue, Bob is offered the option to reset or update his profile.  
+4. **Profile Switching Failure:** If the vehicle cannot detect Alise’s identity (e.g., due to a sensor issue), the system prompts Alise to select her profile manually.  
+5. **Error Resolution:** The vehicle displays an error message explaining the issue and provides steps for troubleshooting or contacting support.
+
+**6. Postconditions:**  
+- After successful interaction, the system applies the selected user profile settings to the vehicle, ensuring that all personalized preferences are active.  
+- The profile information is updated and saved for future use, allowing the system to automatically apply the settings the next time the user enters the vehicle.  
+- If there were any issues during the process, the system logs the error and provides a status update to the user, along with potential solutions.

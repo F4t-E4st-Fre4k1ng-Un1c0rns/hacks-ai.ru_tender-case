@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS only allows basic tone and accent customization, while UC specifies a broader range of customizations for voice assistant responses. | "The system offers options to change the tone of speech (formal or informal), adjust the accent, and switch between a small set of languages." |
+| UC requires detailed interaction steps with real-time feedback during customization, while SSTS only provides a high-level overview of the process. | "The user must navigate to the 'Voice Assistant Settings' menu from the car’s infotainment system to access customization options." |
+| SSTS lacks specific details about customizing individual commands or tailoring responses, which UC mentions as a feature. | "Users will also be able to reset to default settings easily." |
+| UC mentions advanced response tailoring and vocabulary customization, but SSTS does not support this level of detail. | "This system is designed to improve the user experience by making the voice assistant more aligned with individual preferences." |
+| SSTS does not include detailed error handling and troubleshooting procedures that UC specifies for when customization features fail. | "If the system encounters an error, it will notify the user and guide them to retry after resolving the issue." |

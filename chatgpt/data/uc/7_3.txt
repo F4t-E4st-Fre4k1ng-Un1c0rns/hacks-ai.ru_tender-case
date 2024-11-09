@@ -1,0 +1,42 @@
+**Underpinning Contract for AI-based Driver Assistance for Hazard Detection**
+
+**1. Title**  
+AI-based Driver Assistance for Hazard Detection
+
+**2. Goal**  
+The AI-based Driver Assistance for Hazard Detection sub-system is designed to enhance vehicle safety by providing real-time detection and alerting the driver about potential hazards in the driving environment. This feature will automatically identify obstacles, vehicles, pedestrians, traffic signs, and dangerous road conditions, helping to prevent accidents by notifying the driver or intervening when necessary. The goal is to reduce human error, improve reaction time, and ensure a safer driving experience.
+
+**3. Preconditions**  
+- The sub-system requires the vehicle to be equipped with appropriate sensors, including cameras, radar, and LIDAR, to detect the environment accurately.
+- The vehicle must have a fully functional AI processing unit capable of real-time data processing and hazard identification.
+- The system must be activated through the vehicle's main control interface, which is accessible to the driver.
+- The system should be calibrated according to the specific driving environment and regulations of the region.
+
+**4. Main Scenario**  
+1. **Driver Action**: Alise starts driving the luxury electric car.  
+   **Sub-System Response**: The AI-based system activates automatically, continuously scanning the environment for potential hazards.
+   
+2. **Driver Action**: Alise encounters a pedestrian crossing the road.  
+   **Sub-System Response**: The system detects the pedestrian and triggers a visual alert on the dashboard, accompanied by an auditory warning.
+
+3. **Driver Action**: Alise approaches a sharp turn with poor visibility.  
+   **Sub-System Response**: The system identifies the dangerous road condition and provides a warning to slow down, suggesting a safe speed for the turn.
+
+4. **Driver Action**: Bob drives the car in heavy rain with reduced road visibility.  
+   **Sub-System Response**: The system detects slippery road conditions and alerts Bob to adjust speed and increase distance from the vehicle ahead.
+
+5. **Driver Action**: Alise is driving on a highway and detects a vehicle suddenly braking in front of her.  
+   **Sub-System Response**: The system recognizes the sudden change in the lead vehicle's speed and triggers an immediate warning, advising Alise to reduce speed.
+
+**5. Alternative Scenario**  
+1. **Driver Action**: Bob starts driving, but the system fails to activate properly due to a sensor malfunction.  
+   **Sub-System Response**: A notification appears on the dashboard indicating the system is unavailable, and Bob is instructed to visit a service center.
+
+2. **Driver Action**: Alise encounters an obstacle, but the system fails to detect it due to sensor obstruction or dirty lenses.  
+   **Sub-System Response**: Alise receives an alert prompting her to clean the sensors to restore full functionality, with a visual cue showing the affected area.
+
+3. **Driver Action**: Bob drives in an area with poor GPS signal, causing the system to misinterpret the environment.  
+   **Sub-System Response**: The system notifies Bob of the degraded performance and advises him to drive cautiously until the signal improves.
+
+**6. Postconditions**  
+After successful interaction with the sub-system, the driver receives timely and accurate hazard detection alerts. The system improves the driver's awareness of the surrounding environment and supports decision-making in critical situations. If the system functions properly, the risk of accidents is reduced, and the driver can respond appropriately to potential dangers, leading to a safer driving experience.

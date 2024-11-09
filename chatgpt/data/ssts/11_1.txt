@@ -1,0 +1,31 @@
+**1. Title**  
+Technical Specifications for Automatic Vehicle Diagnostics & Maintenance Alerts
+
+**2. Functional description**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system is designed to monitor the vehicle's key systems and diagnose potential issues. The system generates real-time alerts for the user regarding necessary maintenance tasks or impending system failures, ensuring the vehicle operates at optimal performance. Key vehicle components such as battery health, tire pressure, brake wear, and software updates are continuously monitored, and the user receives alerts for any required maintenance or identified faults through the connected mobile app or vehicle interface. The system also logs diagnostic data for reference by the user or service center.
+
+**3. Enabling conditions**  
+- The vehicle is equipped with the required sensors and diagnostic hardware capable of interacting with the sub-system.
+- The vehicle’s onboard software is up-to-date and compatible with the diagnostic system.
+- The vehicle must have an active internet connection or another means of maintaining a stable connection with the diagnostic servers for real-time data processing and alerts.
+- The user must have granted permission within the mobile app to receive diagnostic alerts and updates.
+- The vehicle’s onboard diagnostic system must be fully integrated with the sub-system for accurate monitoring of critical systems like tire pressure, battery, brakes, and software updates.
+
+**4. Trigger conditions**  
+- The diagnostic cycle is automatically initiated when the vehicle is started or at regular intervals as determined by the manufacturer, such as every 24 hours or after a set mileage.
+- The system will trigger an alert if a fault is detected in any of the vehicle’s monitored systems (e.g., tire pressure too low, battery depletion, brake wear, or outdated software).
+- Routine alerts will be triggered for maintenance needs, such as oil changes, tire rotations, or other scheduled tasks.
+- If there is a failure in communication between the vehicle and the diagnostic system, an alert is triggered to notify the user.
+
+**5. Execution output**  
+- Upon detecting an issue, the sub-system sends an alert to the user’s connected mobile app or vehicle display. The alert will include details about the issue, suggested actions (e.g., visiting a service center or inflating tires), and severity.
+- A system log is created for each diagnostic event, which can be reviewed by the user or service personnel.
+- If necessary, the system will guide the user through the process of software updates, providing step-by-step instructions for installation or performing the update automatically, depending on the configuration.
+- Once the maintenance is performed, the system checks the vehicle's systems to confirm resolution of the issue and generates a final report, confirming that all diagnostics are clear.
+
+**6. Exit conditions/Exit conditions**  
+- After a diagnostic alert is resolved, the system resets to its monitoring state and returns to idle mode.
+- If no issues are detected, the system returns to its regular monitoring cycle.
+- The system logs the resolution of any alert and updates the vehicle’s service history accordingly.
+- If a diagnostic failure is detected (e.g., system malfunction or loss of connectivity), the user is notified, and the system advises visiting a service center for manual inspection.
+- In cases of persistent failure, the system will continue to log errors and provide guidance for troubleshooting or contacting support.

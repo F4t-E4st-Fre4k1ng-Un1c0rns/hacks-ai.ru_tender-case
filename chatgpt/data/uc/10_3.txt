@@ -1,0 +1,28 @@
+**Underpinning Contract: Integration of Real-Time Traffic Updates with Navigation**
+
+**Goal**  
+The integration of real-time traffic updates with the navigation system will enable the user to receive live traffic information, such as accidents, road closures, traffic jams, and alternate routes. This will help the driver (e.g., Alise or Bob) plan their route more effectively, avoid delays, and enhance their overall driving experience by providing real-time adjustments to their navigation.
+
+**Preconditions**  
+- The vehicle must have a functional navigation system installed.
+- The vehicle's infotainment system must be connected to a reliable internet source for live traffic data.
+- The system must have access to a real-time traffic database for accurate updates.
+- The user must enable real-time traffic updates through the vehicle’s settings or navigation menu.
+  
+**Main Scenario**  
+1. Alise (or Bob) enters a destination into the vehicle's navigation system.
+2. The navigation system calculates the optimal route based on current traffic conditions.
+3. The system displays the initial route on the map along with estimated arrival times.
+4. As Alise (or Bob) drives, the system continuously monitors traffic conditions and updates the route if necessary (e.g., rerouting around traffic congestion).
+5. Alise (or Bob) receives real-time alerts for any sudden traffic changes, such as road closures or accidents, with alternative route suggestions.
+
+**Alternative Scenario**  
+1. Alise (or Bob) enters a destination into the vehicle's navigation system.
+2. The system fails to retrieve real-time traffic updates due to a loss of internet connectivity or a technical issue.
+3. The navigation system will notify Alise (or Bob) with an error message stating that real-time traffic information is unavailable.
+4. The system will proceed with the original route calculation, without any traffic adjustments, and provide an estimated arrival time based on the current route.
+5. Alise (or Bob) may manually search for alternate routes or continue on the initial route without further traffic updates.
+
+**Postconditions**  
+- If the interaction is successful, Alise (or Bob) will receive an updated, optimized route that accounts for current traffic conditions, resulting in a potentially shorter or faster journey.
+- The system will keep Alise (or Bob) informed about ongoing traffic updates, ensuring they are aware of any new changes that could affect their route during the trip.

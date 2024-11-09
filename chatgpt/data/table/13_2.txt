@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS limits video resolution to Full HD (1080p) instead of offering 4K as stated in the UC. | "The system begins streaming the video on the car’s display, providing an HD viewing experience with minimal buffering." |
+| SSTS allows the system to function while the car is in motion, which conflicts with the UC's requirement that video streaming is only available when the car is stationary. | "The system automatically pauses the video if the car starts moving, ensuring compliance with safety protocols." |
+| SSTS does not consistently ensure universal compatibility with all streaming platforms, as required by the UC. | "The user has a valid account or subscription with one or more streaming services (Netflix, YouTube, etc.) and is logged in." |
+| SSTS does not guarantee smooth playback or minimal buffering in all circumstances, contrary to the UC's emphasis. | "Playback quality adjusts based on the available bandwidth, prioritizing continuous playback with minimal interruptions." |
+| SSTS does not automatically log the user out or return to the main menu after exiting the video, which the UC expects. | "The user can exit the video streaming interface at any time, returning to the car's main menu or other entertainment options." |

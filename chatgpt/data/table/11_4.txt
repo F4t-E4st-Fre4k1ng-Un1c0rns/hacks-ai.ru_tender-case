@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies continuous, proactive monitoring of the vehicle, while the SSTS describes a reactive approach where diagnostics are triggered by specific events. | "The system generates alerts when a fault is detected or when scheduled maintenance is due." |
+| UC implies integration with onboard diagnostics (OBD) for continuous performance monitoring, but the SSTS does not explicitly mention this integration. | "The vehicle is equipped with onboard diagnostic sensors and integrated communication hardware (e.g., OBD-II, CAN bus)..." |
+| UC requires the system to offer detailed, actionable maintenance recommendations and alerts, while the SSTS only mentions general alerts without detailed diagnostic insights. | "The system outputs a notification that includes the nature of the problem, urgency, and potential causes." |
+| UC states that alerts should be continuously updated, whereas the SSTS only provides alerts after the issue is detected or the vehicle is manually scanned. | "The system resets after an alert is acknowledged or dismissed by the user." |
+| UC specifies maintaining a continuous history of diagnostics and past alerts, but the SSTS does not mention logging or archiving of past diagnostics in detail. | "The system logs the action taken and clears the alert from the active notifications." |
+| UC requires the system to update the user on ongoing diagnostics, but the SSTS describes a cycle where the user must manually acknowledge alerts to proceed. | "The system exits the diagnostics mode once all active alerts have been addressed, and the vehicle returns to normal operating status." |

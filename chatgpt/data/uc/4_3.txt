@@ -1,0 +1,29 @@
+**Underpinning Contract for User Preferences Management for Infotainment System**
+
+**1. Goal**  
+The User Preferences Management for Infotainment System aims to provide users with a highly customizable and seamless experience when interacting with the vehicle's infotainment system. This feature will allow users to personalize their preferences for music, climate control, navigation settings, and other infotainment-related functionalities. By utilizing this system, users can set and save their preferred settings, making each drive more comfortable and tailored to their needs.
+
+**2. Preconditions**  
+- The user must have a functioning vehicle with the infotainment system installed and active.  
+- The user must be logged into their account on the vehicle's infotainment system, or their profile must be linked to the vehicle's settings.  
+- The vehicle's infotainment system must be connected to the internet (if applicable) to synchronize preferences across multiple devices (if the user has more than one vehicle or device linked).  
+- The system should support voice commands and touch-screen navigation to modify preferences.  
+
+**3. Main Scenario**  
+1. The user, Bob, enters the vehicle and starts the infotainment system.  
+2. Bob selects the "User Preferences" option from the main menu of the infotainment system.  
+3. The system displays various customizable settings (e.g., music genre, seat position, climate control, etc.).  
+4. Bob adjusts the settings to his preferred configuration for music volume, seat position, and temperature.  
+5. Once Bob is satisfied with his settings, he saves them to his profile for future use, and the system confirms the preferences are saved.
+
+**4. Alternative Scenario**  
+1. Bob enters the vehicle, but the infotainment system fails to start due to a software error.  
+2. The system displays an error message: "Infotainment System Unavailable. Please try again later."  
+3. Bob checks for connectivity issues or attempts to restart the system manually.  
+4. If the issue persists, Bob is advised to contact customer support or schedule a service visit to resolve the problem.  
+5. If the system comes online again, Bob is able to proceed with personalizing his preferences as intended.
+
+**5. Postconditions**  
+- The user's preferences (e.g., music settings, seat adjustments, climate control) are successfully saved to their profile.  
+- The infotainment system will automatically apply these saved preferences the next time the user enters the vehicle and starts the system.  
+- Bob receives a confirmation notification indicating that his preferences have been successfully updated and saved.

@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not ensure automatic user recognition at all times as required by the UC. | "The system detects the presence of a user via RFID or biometric scan as they enter the vehicle." |
+| SSTS limits the system to 3 profiles instead of the 5 profiles required by the UC. | "The system is configured to handle up to 5 profiles per vehicle and can update them in real-time." |
+| The SSTS does not always guarantee seamless switching between profiles, contrary to the UC's requirement for automatic switching. | "A manual selection is made by the user from the profile list if automatic recognition fails." |
+| SSTS does not ensure reliable saving of user profile settings, which is a key requirement in the UC. | "Any changes to the user’s profile settings are automatically saved and confirmed." |
+| Error handling in SSTS lacks sufficient detail for troubleshooting, which the UC requires for clear resolution steps. | "The system provides a user-friendly error message, guiding the user through troubleshooting steps." |
+| SSTS provides a general profile default behavior rather than a specific fallback mechanism for switching profiles if both users are in the vehicle at once. | "The system defaults to a guest profile if no user is recognized after a defined period." |

@@ -1,0 +1,38 @@
+**Underpinning Contract for Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+---
+
+**Goal**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system will enable users to receive real-time diagnostic reports and maintenance alerts for their luxury electric vehicles. This sub-system will monitor vehicle health, detect potential issues, and alert the user of necessary maintenance or repairs, ensuring optimal performance and safety of the vehicle.
+
+---
+
+**Preconditions**  
+1. The vehicle must be connected to the internet or a relevant diagnostic network to communicate with the sub-system.
+2. The sub-system is enabled within the vehicle’s onboard software and has been configured to monitor key systems (e.g., battery health, engine performance, tire pressure).
+3. User (e.g., Alise or Bob) has an active account with the vehicle manufacturer’s service platform.
+4. The vehicle is within an area with appropriate connectivity (e.g., Wi-Fi, cellular data).
+5. The vehicle’s system has been calibrated for diagnostics prior to the first use of the sub-system.
+
+---
+
+**Main Scenario**  
+1. The user (e.g., Alise) starts the vehicle and receives an initial diagnostic check from the sub-system.
+2. The sub-system continuously monitors key vehicle systems in real-time and detects any anomalies (e.g., low battery levels, tire pressure issues).
+3. The sub-system sends an alert to the user’s mobile device or vehicle screen if an issue is detected, providing relevant details (e.g., "Battery charge is at 15%—requires charging").
+4. The user, Alise, reviews the alert and follows the suggested action (e.g., find a nearby charging station or visit a service center).
+5. The sub-system updates the user with maintenance reminders based on usage patterns (e.g., "Time for tire rotation—service appointment needed").
+
+---
+
+**Alternative Scenario**  
+1. The user (e.g., Bob) attempts to check the vehicle’s diagnostics, but the sub-system fails to establish a connection due to poor internet or connectivity issues.
+2. The sub-system notifies Bob with an error message (e.g., "Unable to perform diagnostics—check network connection").
+3. Bob attempts to reconnect the vehicle to a different network or checks the vehicle’s onboard settings to restore connectivity.
+4. If the issue persists, the system suggests scheduling an offline diagnostic at a service center.
+5. Bob can continue using the vehicle with a temporary reminder to resolve the issue later.
+
+---
+
+**Postconditions**  
+After a successful interaction with the Automatic Vehicle Diagnostics & Maintenance Alerts sub-system, the user (e.g., Alise or Bob) receives an updated vehicle health report and maintenance schedule. Any identified issues are clearly communicated with actionable steps, allowing the user to address the issue promptly, ensuring the vehicle’s continued performance and safety.

@@ -1,0 +1,40 @@
+**Title**  
+In-Car Video Streaming Service Integration
+
+**Goal**  
+The In-Car Video Streaming Service Integration will provide users with seamless access to a variety of video streaming services directly within their vehicle's entertainment system. This feature will allow users to stream movies, TV shows, and other video content while ensuring a high-quality, uninterrupted experience. The system will offer personalized recommendations based on user preferences and enable control through voice commands or touchscreen interactions. It aims to enhance the driving experience, offering entertainment options for passengers, while maintaining safety for the driver.
+
+**Preconditions**  
+- The vehicle must be equipped with an active internet connection, either via mobile data or a dedicated Wi-Fi connection.
+- The user must have a valid subscription to the video streaming services integrated into the system (e.g., Netflix, YouTube, etc.).
+- The in-car multimedia system must be updated to the latest software version supporting the video streaming service integration.
+- The user must have an active user profile linked to the vehicle's infotainment system for personalized content recommendations.
+
+**Main Scenario**  
+1. **User Action**: Alise enters the vehicle and starts the ignition.  
+   **Sub-System Response**: The in-car system powers up and displays the home screen with available services, including video streaming options.
+   
+2. **User Action**: Alise selects the "Video Streaming" option from the menu.  
+   **Sub-System Response**: The system displays a list of available streaming platforms, such as Netflix, YouTube, and Hulu.
+   
+3. **User Action**: Alise selects Netflix and logs into her account using the vehicle’s touchscreen or voice command.  
+   **Sub-System Response**: The system authenticates the login and displays the main Netflix screen, showing Alise’s recommended shows and movies.
+   
+4. **User Action**: Alise selects a movie and taps "Play".  
+   **Sub-System Response**: The video begins streaming, and the system adjusts audio settings based on her preferences.
+   
+5. **User Action**: While watching, Alise uses voice commands or the touchscreen to pause, skip, or adjust the volume.  
+   **Sub-System Response**: The system responds accordingly by pausing the video, changing the volume, or skipping to the next scene.
+
+**Alternative Scenario**  
+1. **User Action**: Bob enters the vehicle and starts the ignition, but the in-car system indicates there is no internet connection available.  
+   **Sub-System Response**: The system displays a message indicating the absence of internet connection and offers options to connect to Wi-Fi or mobile hotspot.
+
+2. **User Action**: Bob tries to select a video streaming service, but the system shows that his subscription is expired.  
+   **Sub-System Response**: The system prompts Bob to log into a valid account or renew his subscription. The video streaming option remains inactive until resolved.
+
+3. **User Action**: Bob tries to use voice commands to control the video, but the system does not respond.  
+   **Sub-System Response**: The system notifies Bob of a voice recognition error and offers manual controls via the touchscreen.
+
+**Postconditions**  
+After successful interaction with the In-Car Video Streaming Service, Alise or Bob can enjoy high-quality video content while maintaining full control over playback and settings. If there were issues such as connection or subscription problems, these would be addressed either through the system’s troubleshooting steps or by the user taking corrective actions. The system logs user preferences for future content recommendations, ensuring a personalized experience for future sessions.

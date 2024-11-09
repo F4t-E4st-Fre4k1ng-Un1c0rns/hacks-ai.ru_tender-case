@@ -1,0 +1,40 @@
+---
+
+**Title**  
+Adaptive Cruise Control System Customization
+
+**Goal**  
+The Adaptive Cruise Control System Customization feature allows users to set and personalize the car’s adaptive cruise control parameters for an enhanced driving experience. It enables users to adjust following distance, acceleration sensitivity, and speed adaptation to match their preferences and driving style. This customization improves both comfort and safety by adapting the system's responsiveness to user-specific needs.
+
+**Preconditions**  
+1. The vehicle must be powered on and stationary for customization adjustments.
+2. The adaptive cruise control system must be installed and functional.
+3. The user must have access to the onboard control interface or the vehicle’s mobile application.
+
+**Main Scenario**  
+1. **User Action**: Alice accesses the vehicle’s control interface to adjust the adaptive cruise control settings.  
+   **System Response**: The system displays the customization options, including distance preference, acceleration, and deceleration sensitivity.
+
+2. **User Action**: Alice selects the “following distance” setting to adjust how closely the car follows the vehicle ahead.  
+   **System Response**: The system provides a slider allowing Alice to choose from multiple following distance settings (e.g., close, medium, far).
+
+3. **User Action**: Alice adjusts the “acceleration sensitivity” to make the car respond more gradually to changes in traffic.  
+   **System Response**: The system updates the sensitivity setting and displays a confirmation of her choice.
+
+4. **User Action**: Alice saves her customization settings.  
+   **System Response**: The system confirms that the adjustments have been saved and will be applied the next time adaptive cruise control is activated.
+
+5. **User Action**: Alice activates the adaptive cruise control while driving.  
+   **System Response**: The adaptive cruise control system operates based on her customized settings, maintaining the selected following distance and acceleration preferences.
+
+**Alternative Scenario**  
+1. **User Action**: Bob attempts to access the adaptive cruise control customization settings while the vehicle is in motion.  
+   **System Response**: The system displays a message indicating that customization adjustments can only be made while the vehicle is stationary and prevents further interaction.
+
+2. **User Action**: Bob tries to save his settings but encounters a connectivity issue with the control interface.  
+   **System Response**: The system notifies Bob of the issue and prompts him to retry or check the system status after reestablishing a stable connection.
+
+**Postconditions**  
+After successful interaction, Alice’s customized adaptive cruise control settings are saved and active. When adaptive cruise control is engaged, the system uses these preferences to adjust following distance, acceleration, and speed adaptations, enhancing Alice’s driving experience with a tailored and more comfortable cruise control behavior.
+
+---

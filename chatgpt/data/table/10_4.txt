@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not specify continuous route adjustments throughout the journey as required by the UC. | "The system outputs an optimized route based on real-time traffic data, including any alternative routes that bypass traffic delays." |
+| SSTS does not provide a clear fail-safe or fallback mechanism for when connectivity is lost, unlike the UC. | "The system requires an internet connection capable of receiving real-time traffic data from external sources." |
+| SSTS lacks a proactive notification system for minor traffic disruptions, whereas UC expects constant updates on traffic conditions. | "The system provides audio and visual alerts about upcoming traffic issues, such as accidents, road closures, or delays." |
+| SSTS does not automatically resume real-time traffic updates after connectivity is restored, contrary to UC expectations. | "Once connectivity to traffic data is restored, the system will automatically resume fetching real-time updates and re-adjust the route if necessary." |
+| SSTS does not guarantee that the system will always adjust routes for minor disruptions, unlike the UC which expects the system to handle all traffic conditions. | "The navigation system determines that an alternative route may result in a more efficient or quicker trip, triggering a re-routing process." |

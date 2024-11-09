@@ -1,0 +1,55 @@
+**Underpinning Contract: Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+---
+
+**1. Goal**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system will provide users with real-time diagnostic data regarding the condition of their electric vehicle, along with automatic alerts for necessary maintenance and potential issues. This system will allow the vehicle's onboard diagnostics to continuously monitor critical systems, alerting the user (driver or fleet manager) through their mobile device or in-car display. It will also offer predictive maintenance recommendations to help avoid potential breakdowns, thereby improving vehicle performance and extending its lifespan.
+
+---
+
+**2. Preconditions**  
+- The vehicle must be powered on and have an active connection to the central diagnostics system via the vehicle’s onboard network.
+- The vehicle's diagnostic systems must be fully functional and updated.
+- The user (Alise or Bob) must have the relevant mobile application installed and connected to the vehicle system, or the in-car display must be operational.
+- Maintenance and diagnostic data must be synchronized with a central cloud system for real-time processing and alerting.
+- The vehicle must have access to a stable network (cellular or Wi-Fi) to send diagnostic data and receive updates.
+
+---
+
+**3. Main Scenario**  
+1. **User Action:** Alise starts the vehicle and opens the vehicle’s mobile app or in-car display to access the diagnostic information.  
+   **Sub-System Response:** The system establishes a connection and begins collecting data from all relevant vehicle components (battery, engine, brakes, tires, etc.).  
+   
+2. **User Action:** Alise checks the current diagnostics displayed on the app or screen.  
+   **Sub-System Response:** The sub-system displays a comprehensive overview of the vehicle’s health, with green indicators for optimal systems, yellow for systems that need attention, and red for critical issues.  
+
+3. **User Action:** Alise receives a push notification from the system about upcoming maintenance, such as a tire rotation or brake inspection.  
+   **Sub-System Response:** The system triggers an alert with detailed instructions on the required maintenance task and the recommended timeline for addressing it.  
+
+4. **User Action:** Alise follows the system’s advice, booking an appointment with a service center directly through the app.  
+   **Sub-System Response:** The sub-system verifies the availability of service centers, books an appointment, and sends Alise a confirmation notification with the appointment details.  
+
+5. **User Action:** Alise receives a reminder alert before the maintenance due date.  
+   **Sub-System Response:** The system sends a reminder notification, ensuring that Alise completes the maintenance on time to prevent any potential issues with the vehicle.
+
+---
+
+**4. Alternative Scenario**  
+1. **User Action:** Bob attempts to open the vehicle’s app or in-car display but is unable to connect to the vehicle’s diagnostics system.  
+   **Sub-System Response:** The system displays a message indicating that the connection has failed, providing troubleshooting steps (e.g., check network, ensure the vehicle is on, try restarting the app).  
+
+2. **User Action:** Bob follows the troubleshooting steps but still cannot receive diagnostic updates.  
+   **Sub-System Response:** The system sends a secondary notification offering an option to contact customer support or visit the nearest service center for assistance.  
+
+3. **User Action:** Bob decides to ignore the issue and continues driving.  
+   **Sub-System Response:** The system continuously monitors for critical failures, and if an issue arises, an urgent notification is sent, alerting Bob to the vehicle's status (e.g., low battery, engine failure).  
+
+4. **User Action:** Bob tries to address a maintenance alert but the suggested service provider is unavailable.  
+   **Sub-System Response:** The system displays alternative service provider options with available time slots for the required maintenance.  
+
+---
+
+**5. Postconditions**  
+- After successful interaction, the vehicle’s diagnostics are updated in real time, and the system has alerted the user about any potential issues or upcoming maintenance requirements.
+- If any system failures or maintenance issues are detected, the user receives timely alerts and advice for resolution.
+- The user can proceed with maintenance as recommended, ensuring that the vehicle remains in optimal condition for continued performance.

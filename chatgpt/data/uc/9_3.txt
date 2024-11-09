@@ -1,0 +1,74 @@
+**Underpinning Contract: Vehicle Data Analytics for Fleet Management**
+
+---
+
+**Goal**
+
+The Vehicle Data Analytics for Fleet Management sub-System aims to provide users with the ability to monitor, analyze, and optimize the performance of electric vehicle (EV) fleets in real-time. This sub-System will feature advanced data collection and analysis tools, offering insights into vehicle health, battery status, route efficiency, and driver behavior. It will enable fleet managers to make data-driven decisions, improve operational efficiency, reduce downtime, and extend the lifespan of fleet vehicles. Key features will include predictive maintenance alerts, energy consumption tracking, and fleet performance reporting.
+
+---
+
+**Preconditions**
+
+- The fleet management system is integrated with the vehicle data analytics sub-System.
+- All vehicles within the fleet are equipped with the necessary sensors to collect data, including GPS, battery management systems, and performance tracking devices.
+- Fleet managers have access to the vehicle data analytics dashboard through a secure login.
+- The data analytics sub-System is operational and linked to real-time vehicle telemetry data feeds.
+- Alise, the fleet manager, has authorized access to manage the fleet's performance data.
+
+---
+
+**Main Scenario**
+
+1. **Alise logs into the system**  
+   Alise opens the fleet management application and enters her login credentials to access the Vehicle Data Analytics dashboard.
+   
+   *System Response*: The system authenticates Alise's credentials and grants access to the dashboard displaying vehicle data, performance metrics, and fleet insights.
+
+2. **Alise selects a specific vehicle for analysis**  
+   Alise clicks on a vehicle from the fleet list to view detailed performance data, including battery health, energy consumption, and driving behavior.
+
+   *System Response*: The system presents a detailed report for the selected vehicle, including graphs, alerts for maintenance needs, and efficiency metrics.
+
+3. **Alise checks predictive maintenance alerts**  
+   Alise reviews the predictive maintenance section to check for any upcoming maintenance needs based on vehicle data trends.
+
+   *System Response*: The system displays upcoming maintenance suggestions, highlighting any urgent issues or parts that need attention, as well as the estimated time for potential failures.
+
+4. **Alise adjusts fleet management parameters**  
+   Based on the analysis, Alise adjusts fleet management parameters such as route optimization, charging schedules, or energy-saving modes for specific vehicles.
+
+   *System Response*: The system confirms the new settings and applies them to the relevant vehicles, ensuring that the fleet operates with optimized performance based on the chosen criteria.
+
+5. **Alise generates a fleet performance report**  
+   Alise requests a fleet-wide performance report summarizing energy usage, vehicle health, and maintenance costs.
+
+   *System Response*: The system compiles and generates a comprehensive report for Alise, providing insights into the overall fleet performance and areas of improvement.
+
+---
+
+**Alternative Scenario**
+
+1. **Alise logs into the system, but encounters a connectivity issue**  
+   Alise attempts to log into the system, but the application fails to connect to the database or the fleet’s telemetry system.
+
+   *System Response*: The system displays an error message indicating a connection issue, with troubleshooting options such as verifying network settings or retrying the login attempt. The system may also display the estimated downtime for service restoration.
+
+2. **Alise selects a vehicle, but data is unavailable**  
+   Alise selects a vehicle, but the system fails to retrieve data, possibly due to a sensor malfunction or data feed disruption.
+
+   *System Response*: The system displays an alert stating that the vehicle data is temporarily unavailable. Alise is offered options to retry fetching the data or to check the status of the vehicle’s sensors.
+
+3. **Alise requests predictive maintenance data, but the system fails to process it**  
+   Alise requests predictive maintenance alerts, but the system encounters an error in data analysis due to an internal software failure.
+
+   *System Response*: The system informs Alise of the issue and provides an estimated time for when the predictive maintenance data will be available again. Alise is offered the option to manually review the last known data for maintenance.
+
+---
+
+**Postconditions**
+
+- After successful interaction, Alise will have access to the latest fleet performance data, with real-time insights into individual vehicle status, maintenance needs, and overall fleet efficiency.
+- Alise’s adjustments to fleet management parameters, such as route optimization and charging schedules, will be successfully applied to the fleet, improving operational efficiency and reducing costs.
+- The system will have generated a detailed report summarizing fleet performance, which Alise can use to inform future management decisions and improve overall fleet performance.
+

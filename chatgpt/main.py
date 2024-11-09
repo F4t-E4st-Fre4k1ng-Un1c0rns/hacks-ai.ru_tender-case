@@ -14,7 +14,7 @@ for theme_id, complience_level_id in helper.queue:
     filename = f"{theme_id}_{complience_level_id}.txt"
 
     screen.create_new_chat()
-    chime.info()
+
     prompt = helper.generate_prompt(1, theme_id, complience_level_id)
     screen.start_prompt(prompt)
     uc_response = screen.copy_response()
@@ -25,7 +25,6 @@ for theme_id, complience_level_id in helper.queue:
     screen.continue_prompt(prompt)
     __skip = screen.copy_response()
     print("catch - 2 - skip")
-    
 
     prompt = helper.generate_prompt(3, theme_id, complience_level_id)
     screen.continue_prompt(prompt)
@@ -37,6 +36,7 @@ for theme_id, complience_level_id in helper.queue:
     table_response = screen.copy_response()
     print("catch - 4 - table")
 
+
     # check to correct
 
     with open(f"data/uc/{filename}", "w") as F:
@@ -47,5 +47,5 @@ for theme_id, complience_level_id in helper.queue:
     
     with open(f"data/table/{filename}", "w") as F:
         F.write(table_response)
-    chime.success()
+
 

@@ -1,0 +1,40 @@
+**Title:** Personalized Navigation System with Voice Commands
+
+**Goal:**  
+The Personalized Navigation System with Voice Commands will provide users with seamless and intuitive navigation within the luxury electric vehicle. The system will offer turn-by-turn directions, real-time traffic updates, and alternative routes based on personal preferences. It will feature voice command recognition for hands-free operation, allowing the user to issue commands for route adjustments, destination settings, and control over the system without needing to take their hands off the wheel or eyes off the road.
+
+**Preconditions:**  
+- The user must have an active subscription or access to the vehicle’s advanced navigation services.  
+- The system requires a stable internet connection for real-time traffic data and map updates.  
+- The user’s voice profile needs to be set up for accurate voice command recognition.  
+- The vehicle must be in a safe operational state (engine running or in idle mode) to use the navigation system.  
+- The user’s destination or voice commands must be recognized in the system’s language settings.
+
+**Main scenario:**  
+1. **User:** Bob sits in the driver's seat and presses the "Voice Command" button on the steering wheel.  
+   **Sub-System:** The system activates, and a prompt appears: “How can I assist you with navigation today, Bob?”  
+2. **User:** Bob says, “Take me to the nearest charging station.”  
+   **Sub-System:** The system identifies Bob’s voice and searches for the nearest charging station, displaying the result on the screen.  
+3. **User:** Bob confirms the selected charging station by saying, “Yes, navigate me there.”  
+   **Sub-System:** The system sets the destination, recalculates the route, and starts providing turn-by-turn directions.  
+4. **User:** Bob drives, following the system's guidance, and asks, “What’s the current traffic situation?”  
+   **Sub-System:** The system checks real-time traffic data and replies, “There is light traffic on your route, Bob.”  
+5. **User:** Bob reaches the charging station and stops the vehicle.  
+   **Sub-System:** The system confirms, “You have arrived at your destination, Bob. Safe driving!”  
+
+**Alternative scenario:**  
+1. **User:** Bob presses the "Voice Command" button to interact with the system.  
+   **Sub-System:** The system fails to respond.  
+2. **User:** Bob repeats the command, but the system still doesn’t respond.  
+   **Sub-System:** The system displays a message: "Voice recognition is temporarily unavailable. Please use manual controls."  
+3. **User:** Bob decides to enter the destination manually using the touchscreen.  
+   **Sub-System:** The system acknowledges the manual input and recalculates the route accordingly.  
+4. **User:** Bob asks for a traffic update, but the system is unable to access real-time data.  
+   **Sub-System:** The system replies, “Real-time traffic data is unavailable at the moment. Please proceed with caution.”  
+5. **User:** Bob continues his journey without voice commands, relying on the manual navigation system until connectivity is restored.
+
+**Postconditions:**  
+- After a successful interaction with the system, Bob’s destination is set, and the navigation route is active.  
+- If the voice command feature is used, Bob’s voice preferences are saved for future interactions.  
+- The system has updated real-time traffic information, optimizing the route if necessary.  
+- The user has access to all features of the navigation system until the vehicle is turned off or the system is manually deactivated.

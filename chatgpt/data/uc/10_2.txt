@@ -1,0 +1,52 @@
+**Underpinning Contract: Integration of Real-Time Traffic Updates with Navigation**
+
+---
+
+### Goal:
+The Integration of Real-Time Traffic Updates with Navigation sub-system will provide the user with up-to-date traffic information, allowing the vehicle's navigation system to adjust routes based on real-time traffic conditions. This feature will ensure more efficient travel by suggesting alternate routes to avoid traffic jams, road closures, accidents, or any other disruptions, enhancing the overall driving experience and reducing travel time. 
+
+---
+
+### Preconditions:
+- The vehicle is equipped with an active GPS system and internet connectivity.
+- The system has access to real-time traffic data provided by third-party services.
+- The vehicle’s navigation system is operational and capable of processing real-time data.
+- The user (e.g., Bob) has set a destination in the navigation system.
+- The user has enabled the feature for real-time traffic updates.
+
+---
+
+### Main Scenario:
+1. **User Action**: Bob sets a destination in the vehicle’s navigation system.
+   - **Sub-System Response**: The navigation system calculates the best route based on the current traffic conditions.
+   
+2. **User Action**: Bob begins driving, and the navigation system starts providing turn-by-turn directions.
+   - **Sub-System Response**: The system continuously monitors the route, accessing real-time traffic updates.
+   
+3. **User Action**: A traffic jam is detected ahead along Bob’s planned route.
+   - **Sub-System Response**: The system automatically alerts Bob about the traffic delay and suggests an alternative route.
+   
+4. **User Action**: Bob agrees to take the suggested alternate route.
+   - **Sub-System Response**: The navigation system recalculates the route and updates the directions to reflect the new path.
+   
+5. **User Action**: Bob continues driving along the new route while the system continuously updates traffic conditions.
+   - **Sub-System Response**: The system keeps monitoring traffic and further adjusts the route if new disruptions are detected.
+
+---
+
+### Alternative Scenario:
+1. **User Action**: Bob sets a destination in the vehicle’s navigation system.
+   - **Sub-System Response**: The system attempts to retrieve real-time traffic data but encounters a connectivity issue or data service outage.
+   
+2. **User Action**: Bob is informed by the system that real-time traffic data is unavailable.
+   - **Sub-System Response**: The navigation system defaults to the last known map data and continues to guide Bob to the destination without live traffic updates.
+   
+3. **User Action**: Bob continues driving based on the system’s directions, but may encounter unexpected delays due to the lack of real-time traffic information.
+   - **Sub-System Response**: The system does not update the route in case of new traffic disruptions but will continue providing guidance based on the static map data.
+
+---
+
+### Postconditions:
+- After successful interaction, Bob reaches his destination in an optimized time, thanks to the dynamic routing based on real-time traffic updates.
+- The system’s real-time traffic data is stored for future use, ensuring smoother navigation in subsequent trips.
+- If the alternative scenario occurred, Bob may have experienced a longer travel time due to the absence of live traffic updates, but still arrived at the destination safely.

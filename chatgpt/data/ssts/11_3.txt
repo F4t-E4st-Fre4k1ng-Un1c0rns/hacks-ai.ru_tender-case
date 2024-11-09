@@ -1,0 +1,44 @@
+**Technical Specifications for Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+---
+
+**1. Title**  
+Technical Specifications for Automatic Vehicle Diagnostics & Maintenance Alerts
+
+---
+
+**2. Functional Description**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-system provides real-time monitoring of a vehicle's critical systems, including battery health, tire pressure, engine performance, and other essential diagnostics. It generates alerts for any detected issues, enabling the user to take immediate action for maintenance and repairs, ensuring the optimal operation and safety of the vehicle. The system supports notifications via the vehicle interface and a connected mobile application.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must have an active connection to the manufacturer’s diagnostic network.
+- A stable internet connection is required for data transmission and receiving real-time updates.
+- The vehicle must be equipped with functional diagnostic sensors that monitor key vehicle systems.
+- The user must have an active, verified account with the vehicle’s service platform.
+- The vehicle is in an operational region with sufficient network coverage for diagnostics (e.g., Wi-Fi or cellular data).
+  
+---
+
+**4. Trigger Conditions**  
+- The diagnostic check is triggered automatically when the vehicle is started or after a prolonged period of inactivity.
+- Anomaly detection triggers alerts if any issues are identified, such as low battery, tire pressure imbalance, or irregular engine behavior.
+- Scheduled maintenance reminders trigger alerts based on the vehicle’s usage, mileage, or time intervals (e.g., tire rotation, oil change).
+- A system error or lack of connectivity triggers an error message if the diagnostics cannot be performed.
+
+---
+
+**5. Execution Output**  
+- The system outputs a real-time vehicle diagnostic report detailing the status of critical systems.
+- Alerts are generated and sent to the user’s mobile app or vehicle display, highlighting detected issues with specific recommendations (e.g., “Battery charge is at 15%—please charge immediately”).
+- The system will provide actionable next steps or service recommendations based on the detected issues (e.g., “Visit a service center for tire replacement”).
+- Maintenance reminders are generated and displayed as part of the ongoing monitoring (e.g., “It’s time for an oil change”).
+  
+---
+
+**6. Exit Conditions**  
+- The diagnostic process completes successfully, and the system exits the diagnostic mode after generating a report or alert.
+- Alerts remain active until the user acknowledges or resolves the issue; once acknowledged, the system enters a standby state until the next diagnostic check.
+- If a connection failure or error occurs, the system exits the diagnostic mode and displays an error message until the connection is restored.
+- The system exits any maintenance reminder state once the suggested maintenance is completed or scheduled.

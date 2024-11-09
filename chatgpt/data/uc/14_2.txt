@@ -1,0 +1,57 @@
+**Underpinning Contract: Multi-User Profile Management for Vehicle Settings**
+
+**1. Goal**
+
+The Multi-User Profile Management for Vehicle Settings sub-system will enable users to create, manage, and personalize multiple profiles for vehicle settings. These profiles will allow different users of the vehicle to have their own distinct preferences for vehicle configurations such as seat positions, climate controls, music preferences, driving modes, and more. This feature ensures that each user can easily switch to their personalized settings whenever they use the vehicle, enhancing comfort, convenience, and overall user experience.
+
+**2. Preconditions**
+
+- The vehicle must be equipped with the necessary hardware and software to support multiple user profiles.
+- Users must have access to a vehicle interface (e.g., touchscreen or app) where profile management options are available.
+- Each user must have a unique identifier (e.g., user name or profile ID) linked to their individual settings.
+- The vehicle must be in an operational state (engine on or in accessory mode) for changes to be applied to settings.
+- Users must be able to create, modify, and delete profiles through the vehicle’s central interface or through a mobile app.
+
+**3. Main Scenario**
+
+1. **User Accesses Profile Settings**  
+   Bob, the user, enters the vehicle and accesses the profile settings through the vehicle’s touchscreen interface.  
+   - **System Response:** The vehicle displays a list of available profiles and a prompt to create a new one if none exists.
+
+2. **User Selects Profile**  
+   Bob selects his personal profile from the list of available profiles.  
+   - **System Response:** The vehicle applies all his predefined settings, such as seat position, climate preferences, and music choices.
+
+3. **User Modifies Profile Settings**  
+   Bob wants to adjust his seat position. He selects the "Modify Settings" option and adjusts the seat position to his preferred location.  
+   - **System Response:** The vehicle saves the new seat position under Bob's profile.
+
+4. **User Adds Another Profile**  
+   Alise, the co-driver, enters the vehicle and chooses to create a new profile. She enters her name and adjusts the vehicle’s settings to her preferences.  
+   - **System Response:** The vehicle saves Alise’s settings and creates a new profile for her.
+
+5. **User Switches Between Profiles**  
+   Bob exits the vehicle and Alise takes over. She selects her profile to apply her personal settings.  
+   - **System Response:** The vehicle switches to Alise’s profile, adjusting all settings according to her preferences.
+
+**4. Alternative Scenario**
+
+1. **Profile Not Available**  
+   Bob enters the vehicle and attempts to select his profile, but it is not available.  
+   - **System Response:** The vehicle displays a message indicating that his profile is not found and offers an option to create a new profile.
+
+2. **Profile Creation Fails**  
+   Alise attempts to create a new profile, but the system encounters a technical issue.  
+   - **System Response:** The vehicle notifies Alise of the failure to create the profile and suggests checking the vehicle’s connectivity or trying again later.
+
+3. **User Settings Cannot Be Applied**  
+   Bob selects his profile, but the system is unable to apply his seat position setting due to a malfunction.  
+   - **System Response:** The vehicle displays an error message and prompts Bob to adjust the settings manually or retry applying the profile.
+
+**5. Postconditions**
+
+After a successful interaction with the Multi-User Profile Management sub-system, the following results are achieved:
+
+- The selected user profile is applied, and the vehicle’s settings (seat position, climate control, driving mode, etc.) are adjusted according to the chosen profile.
+- Any modifications made to the settings are saved under the user's profile, ensuring consistency across future uses.
+- New profiles are successfully created and stored, allowing other users to access personalized vehicle settings when they use the car.

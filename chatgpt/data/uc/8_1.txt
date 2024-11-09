@@ -1,0 +1,42 @@
+**Underpinning Contract for Emergency Roadside Assistance Integration**
+
+**Goal**  
+The Emergency Roadside Assistance Integration sub-system provides users with the ability to quickly and efficiently request roadside assistance in the event of a breakdown, accident, or other emergency while driving a luxury electric car. This feature allows users to connect to a support team that can offer services such as towing, battery charging, tire replacement, or emergency fuel delivery. The integration will be seamless, ensuring that users receive immediate assistance when needed.
+
+**Preconditions**  
+- The vehicle is equipped with an active emergency roadside assistance subscription or service plan.
+- The system is connected to the vehicle's onboard communication network.
+- The user’s mobile device or in-vehicle system must be connected to the internet or a reliable cellular network.
+- The user is within the coverage area of the emergency roadside assistance provider.
+- The feature is accessible via the vehicle's central display, mobile app, or voice-activated system.
+
+**Main Scenario**  
+1. **User Action**: Bob experiences a flat tire while driving and decides to request roadside assistance.  
+   **Sub-System Response**: The system presents Bob with the option to request roadside assistance directly from the main menu.  
+
+2. **User Action**: Bob selects the “Emergency Roadside Assistance” option.  
+   **Sub-System Response**: The system prompts Bob to confirm the type of assistance needed (e.g., towing, tire change, battery charge).
+
+3. **User Action**: Bob confirms the required service and the vehicle’s location is automatically detected by the system.  
+   **Sub-System Response**: The system sends the user's current location and service request to the roadside assistance provider.
+
+4. **User Action**: Bob is asked if he would like to receive updates about the estimated arrival time of the assistance team.  
+   **Sub-System Response**: The system provides Bob with a notification of the estimated time of arrival and a contact number for the roadside assistance team.
+
+5. **User Action**: Bob confirms the details and waits for roadside assistance to arrive.  
+   **Sub-System Response**: The system continuously updates Bob on the status of the assistance request and provides support information as needed.
+
+**Alternative Scenario**  
+1. **User Action**: Bob attempts to request roadside assistance but the system shows an error message indicating no service coverage in the area.  
+   **Sub-System Response**: The system informs Bob that roadside assistance is unavailable in the current location and suggests alternatives, such as calling a local tow service or trying a different method to resolve the issue.
+
+2. **User Action**: Bob’s mobile network is disconnected, preventing the system from sending a service request.  
+   **Sub-System Response**: The system displays a notification that the service request could not be processed due to connectivity issues, and suggests reconnecting to a stronger network or manually contacting roadside assistance via phone.
+
+3. **User Action**: Bob selects “Manual Contact” to call the roadside assistance provider directly.  
+   **Sub-System Response**: The system automatically dials the phone number for the roadside assistance provider and establishes the call.
+
+**Postconditions**  
+- The user, Bob, successfully contacts a roadside assistance provider, and the service is dispatched based on the confirmed request.
+- The user is informed about the status of the service request and provided with an estimated arrival time.
+- The system logs the emergency request, including details such as the user’s location, type of assistance requested, and time of request for future reference or analysis.

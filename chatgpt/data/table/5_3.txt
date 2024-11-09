@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS allows for the possibility of manual intervention if misalignment occurs, while the UC specifies seamless automatic charging initiation. | "If alignment is incorrect, the charging process will be temporarily halted, and the system will notify the user to adjust the vehicle's position for proper charging." |
+| SSTS requires specific vehicle registration within the system, whereas the UC implies universal compatibility without such pre-conditions. | "The vehicle must be registered within the system for communication and automated charging." |
+| SSTS describes charging initiation depending on proximity and alignment, but the UC requires automatic and uninterrupted charging upon vehicle detection. | "The charging station will trigger when the vehicle is properly aligned with the charging pad, ensuring inductive charging is possible." |
+| SSTS mentions a potential failure in detecting the vehicle, which may delay charging, whereas the UC expects no failure in vehicle detection. | "The system will detect the presence of a compatible EV within a defined proximity range to the charging station." |
+| SSTS mentions charging may be halted due to environmental factors or misalignment, while the UC expects continuous, automatic charging without interruption. | "If any failure or issue occurs (e.g., misalignment or communication failure), the system will notify the user to correct the issue or seek alternative charging options." |

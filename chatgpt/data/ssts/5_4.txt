@@ -1,0 +1,33 @@
+**Title:**
+Wireless Charging Station Integration for Electric Vehicles (EV) - Technical Specifications
+
+**Functional Description:**
+The Wireless Charging Station Integration for Electric Vehicles (EV) allows for contactless charging of compatible electric vehicles by using electromagnetic induction. The system is designed to automatically detect the vehicle’s presence, initiate the charging process, and adjust power delivery based on the vehicle’s battery status. The system is fully integrated with the vehicle’s battery management system (BMS) to ensure safe and efficient energy transfer, providing users with a seamless, cable-free charging experience.
+
+**Enabling Conditions:**
+1. The vehicle must be equipped with a compatible wireless charging receiver and a functioning battery management system (BMS).
+2. The wireless charging station must be installed and calibrated according to manufacturer’s specifications to ensure correct alignment and operation.
+3. The vehicle must be parked within the specified operational range of the charging pad for proper energy transfer.
+4. The system must be connected to the electrical grid and meet regulatory safety standards for electromagnetic emissions and power handling.
+5. The charging station’s software must be up-to-date to support communication with a wide range of vehicle models, including new and older versions.
+
+**Trigger Conditions:**
+1. The vehicle is parked directly over the wireless charging pad, within the designated charging zone.
+2. The vehicle’s BMS signals that the battery is ready for charging.
+3. The wireless charging system in the vehicle is correctly paired with the charging station.
+4. The vehicle is locked, initiating the automatic charging process.
+5. The charging station detects no system faults and verifies stable power supply from the grid.
+
+**Execution Output:**
+1. The charging station detects the vehicle and verifies compatibility with the wireless charging system.
+2. The system automatically begins the charging process, adjusting power output based on the vehicle's current battery level and charging needs.
+3. Real-time updates are provided to the user via the vehicle’s display or mobile application, showing the charging status, time remaining, and power transfer rate.
+4. The system ensures that the battery is charged to the optimal level, without overcharging or undercharging, based on predefined parameters.
+5. Once charging is complete, the system safely terminates the session and notifies the user that the vehicle is fully charged.
+
+**Exit Conditions:**
+1. The charging session is successfully completed, and the vehicle’s battery reaches the target charge level or full capacity.
+2. The system automatically disconnects from the vehicle once charging is complete and the vehicle is ready for use.
+3. If the vehicle is moved or there is an interruption in power supply, the system stops the charging session and alerts the user.
+4. In case of system malfunction, the charging session is terminated, and the user is notified to check for issues with the vehicle or charging pad.
+5. The charging session data, including power transferred and session duration, is logged for maintenance and future analysis.

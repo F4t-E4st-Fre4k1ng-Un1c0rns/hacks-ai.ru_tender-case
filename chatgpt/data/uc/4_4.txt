@@ -1,0 +1,28 @@
+**Underpinning Contract: User Preferences Management for Infotainment System**
+
+1. **Goal**
+   The User Preferences Management sub-System for the infotainment system enables users to personalize their in-car entertainment and information experience. This system allows users to store and adjust preferences for various infotainment features, such as audio settings, navigation preferences, display settings, and user profiles. The system aims to ensure a seamless and tailored user experience, adapting the infotainment system to individual tastes and needs. 
+
+2. **Preconditions**
+   - The vehicle is equipped with an active infotainment system.
+   - The User Preferences Management sub-System is integrated into the infotainment software.
+   - A user profile exists in the system or the user is logged in to an existing profile.
+   - The infotainment system is powered on and operational.
+
+3. **Main Scenario**
+   1. The user, Bob, enters the vehicle and powers on the infotainment system.
+   2. The system detects Bob’s existing user profile and automatically loads his preferences for audio, display, and navigation.
+   3. Bob adjusts the volume and selects his preferred music genre via the infotainment screen.
+   4. The system saves Bob’s adjustments to the User Preferences Management sub-System, storing them for future use.
+   5. The system updates the preferences and continues to offer a personalized experience each time Bob interacts with the infotainment system.
+
+4. **Alternative Scenario**
+   1. The user, Alise, enters the vehicle but the infotainment system fails to detect her user profile due to a technical issue.
+   2. Alise is prompted by the system to either create a new profile or log in with an existing one.
+   3. Alise chooses to create a new profile and manually enters her preferences for audio, display settings, and navigation.
+   4. The system saves the newly entered preferences under her profile.
+   5. Alise’s new preferences are applied immediately, and the system continues to provide a personalized experience moving forward.
+
+5. **Postconditions**
+   - After successful interaction, the User Preferences Management sub-System updates the user profile with the latest adjustments made to settings.
+   - The system ensures that the user’s preferences are stored securely and are available for future sessions, offering a consistent and personalized experience every time the user interacts with the infotainment system.

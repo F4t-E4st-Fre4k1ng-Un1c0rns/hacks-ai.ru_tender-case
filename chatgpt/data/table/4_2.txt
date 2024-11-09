@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS mentions synchronization with a central cloud server, but UC requires direct linkage to the vehicle's main system. | "The system must be connected to a central cloud server or vehicle's main system for profile synchronization and data storage." |
+| UC specifies automatic application of preferences upon vehicle startup, but SSTS requires user interaction for confirmation. | "The system ensures that preferences are retained for future sessions, automatically applying the user-defined settings when the user returns to the vehicle." |
+| UC requires that preferences always be saved upon interaction, whereas SSTS includes a cancel option that does not save preferences. | "If the user chooses to cancel without saving, the system exits the preferences screen and retains the previously saved settings." |
+| UC specifies that all user preferences should be fully detailed (e.g., including climate control integrations), but SSTS omits climate control customization. | "This includes adjusting settings such as audio profiles, display themes, navigation preferences, and connected apps." |
+| SSTS allows the user to log out manually, while the UC implies automatic user preference application without manual logout interaction. | "Upon user logout, the system successfully logs out the current profile and reverts to the default or last used profile settings." |

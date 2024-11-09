@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not clearly specify the predictive maintenance capabilities as described in the UC. | "The system will offer predictive maintenance recommendations, suggesting when specific components (e.g., battery or brake pads) should be checked or replaced." |
+| UC specifies proactive maintenance alerts for upcoming tasks, but SSTS only mentions maintenance alerts after issues are detected. | "Maintenance alerts are generated when the system detects issues based on system performance, usage data, or predictive maintenance algorithms." |
+| SSTS does not explicitly define which vehicle systems are considered "critical," which the UC specifies. | "The sub-system performs real-time diagnostics to detect any anomalies in critical systems such as the battery, motor, brakes, tires, and other key components." |
+| The UC requires automatic booking of service appointments, whereas SSTS only mentions scheduling options without automatic integration. | "Users will have the option to directly schedule maintenance appointments through the app or in-car system, with available times based on service center data." |
+| SSTS does not mention follow-up reminders for pending maintenance tasks as outlined in the UC. | "Maintenance alerts will be generated and sent via mobile app or in-car display, detailing the required actions and providing clear instructions." |

@@ -1,0 +1,31 @@
+**Underpinning Contract: Integration of Real-Time Traffic Updates with Navigation**
+
+**1. Title**  
+Integration of Real-Time Traffic Updates with Navigation
+
+**2. Goal**  
+This sub-System provides the ability for users to receive up-to-date traffic information in real-time, integrated seamlessly with the vehicle's navigation system. The feature will enable drivers to optimize their routes, avoid traffic congestion, and improve travel time by adjusting the navigation recommendations based on current road conditions, accidents, and other traffic disruptions. It will also notify users of potential delays or alternative routes in case of unforeseen events on their current path.
+
+**3. Preconditions**  
+- The vehicle must be connected to an active internet connection to receive live traffic data.
+- The navigation system must be enabled and actively running on the vehicle's interface.
+- The user must have granted permission for the system to access real-time traffic updates.
+- The vehicle’s location tracking system must be fully operational to accurately compute the traffic information relevant to the user's current location.
+
+**4. Main Scenario**  
+1. The driver (Bob) activates the navigation system on the vehicle’s interface.  
+2. The sub-System collects real-time traffic data from external sources such as traffic management systems and GPS data.  
+3. The navigation system displays the recommended route, including real-time traffic updates, showing areas of congestion, accidents, or closures.  
+4. Bob starts driving, and the navigation system continuously monitors and adjusts the route based on incoming traffic updates.  
+5. If necessary, the system will prompt Bob with alternative routes to avoid traffic delays, ensuring a smooth journey.
+
+**5. Alternative Scenario**  
+1. Bob activates the navigation system on the vehicle, but there is no active internet connection, so real-time traffic updates cannot be retrieved.  
+2. The navigation system defaults to the standard route calculation, ignoring traffic conditions.  
+3. The system displays a message informing Bob that real-time traffic updates are unavailable due to the lack of connectivity.  
+4. Bob proceeds with the route as planned, without traffic-based adjustments.  
+5. Once connectivity is restored, the system will automatically resume fetching real-time traffic data and re-adjust the route if necessary.
+
+**6. Postconditions**  
+- After a successful interaction, the navigation system will provide an updated route that factors in real-time traffic conditions, ensuring that Bob has the most efficient path available.  
+- If connectivity is lost, the system will revert to standard navigation mode and alert the driver of the situation, maintaining safe and uninterrupted travel.

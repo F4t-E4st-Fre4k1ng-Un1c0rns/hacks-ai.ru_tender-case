@@ -1,0 +1,33 @@
+**Underpinning Contract: AI-based Driver Assistance for Hazard Detection**
+
+1. **Title**  
+   AI-based Driver Assistance for Hazard Detection
+
+2. **Goal**  
+   The AI-based Driver Assistance for Hazard Detection sub-system will provide users with the ability to detect potential hazards on the road, including but not limited to pedestrians, other vehicles, sudden obstacles, and environmental factors like slippery surfaces or sharp turns. The system will analyze real-time sensor data (cameras, radar, lidar, etc.) to warn the driver of imminent dangers, offering audio, visual, or haptic alerts to enhance safety and prevent accidents.
+
+3. **Preconditions**  
+   - The vehicle is equipped with functional sensors such as cameras, radar, and lidar.
+   - The AI system is integrated into the vehicle's onboard computer and has been trained with appropriate hazard detection models.
+   - The vehicle’s software has been updated to the latest version supporting the hazard detection feature.
+   - The user (Bob or Alise) must have the vehicle’s AI-based driving assistance system activated and properly calibrated.
+   - The vehicle is operating within the environment and road conditions where hazard detection is supported (e.g., urban roads, highways, or adverse weather conditions).
+
+4. **Main Scenario**  
+   1. Bob (or Alise) drives the vehicle on a regular road.
+   2. The vehicle’s sensors continuously monitor the surroundings for potential hazards (pedestrians, other vehicles, etc.).
+   3. A hazard is detected by the AI system (e.g., a pedestrian steps into the road).
+   4. The AI system processes the hazard information and issues an alert (audio, visual, or both) to the driver.
+   5. Bob (or Alise) receives the alert and takes appropriate action, either by braking, steering, or avoiding the hazard, as prompted by the system.
+
+5. **Alternative Scenario**  
+   1. Bob (or Alise) is driving and the AI-based hazard detection system encounters a failure (e.g., sensors malfunction, poor road conditions impair detection capabilities).
+   2. The system issues a warning indicating that the hazard detection function is temporarily unavailable.
+   3. The driver is prompted to rely on manual vigilance and to drive with caution.
+   4. The vehicle may enter a degraded mode, where fewer or no automated alerts are provided, but the system continues to monitor for hazards at a reduced level.
+   5. Once the issue is resolved (e.g., sensors are cleaned, or a system reboot restores functionality), the AI system reactivates the full hazard detection capabilities.
+
+6. **Postconditions**  
+   - If the interaction with the system is successful, the hazard detection feature alerts Bob (or Alise) to the presence of an obstacle or hazard, providing sufficient time to react and prevent an accident.
+   - After receiving the alert, Bob (or Alise) has the opportunity to take the necessary corrective action to avoid or mitigate the hazard.
+   - The system logs the detected hazard for future analysis, ensuring that the hazard detection system continually improves over time.

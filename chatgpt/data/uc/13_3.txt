@@ -1,0 +1,30 @@
+**Underpinning Contract: In-Car Video Streaming Service Integration**
+
+**1. Goal**  
+The In-Car Video Streaming Service Integration aims to provide a seamless and luxurious in-car entertainment experience for users of luxury electric vehicles. This feature allows passengers to stream high-definition video content directly within the car's infotainment system, supporting multiple platforms such as Netflix, YouTube, and other video streaming services. It ensures smooth video playback with high-quality audio, providing an immersive experience while the vehicle is stationary or in motion.
+
+**2. Preconditions**  
+- The vehicle must have a compatible infotainment system with internet connectivity (either via Wi-Fi or mobile data).
+- The user must have an active subscription to the respective video streaming services.
+- The vehicle's system must be properly configured to support video streaming integration.
+- The user must have logged into their streaming service account within the infotainment system.
+- The video streaming feature is only available when the car is parked, or if the vehicle’s self-driving mode is enabled, ensuring safety during vehicle operation.
+
+**3. Main Scenario**  
+1. Alise enters the vehicle and starts the infotainment system.  
+2. Alise navigates to the "In-Car Video Streaming" section via the touchscreen interface.  
+3. Alise selects her preferred video streaming service (e.g., Netflix) and logs into her account if required.  
+4. Alise browses through the content available and selects a movie or TV show to watch.  
+5. The video begins to stream in high-definition quality on the infotainment display, and Alise enjoys the content with audio synchronized through the vehicle's sound system.
+
+**4. Alternative Scenario**  
+1. Bob enters the vehicle and starts the infotainment system.  
+2. Bob navigates to the "In-Car Video Streaming" section, but the system shows a message indicating that there is no active internet connection.  
+3. Bob checks the vehicle's Wi-Fi settings or mobile hotspot settings and attempts to reconnect.  
+4. If the issue persists, Bob is prompted to contact customer support or try again later.  
+5. Bob can also use offline content if previously downloaded, or choose to access alternative entertainment options within the vehicle.
+
+**5. Postconditions**  
+- After a successful interaction, Alise or Bob can enjoy a video streaming experience on the car's infotainment system, with the video playing smoothly and the audio coming through the car’s speakers.  
+- The video streaming feature is now actively running, and the user can interact with it, such as pausing, skipping, or adjusting volume as needed.  
+- The system will maintain the streaming session until the vehicle is powered off, the user logs out, or the connection is lost.

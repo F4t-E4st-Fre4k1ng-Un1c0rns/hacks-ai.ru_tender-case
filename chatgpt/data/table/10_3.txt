@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS indicates potential delays in traffic updates due to network issues, whereas UC expects real-time, uninterrupted updates. | "The system may occasionally provide updates with slight delays due to network issues or data discrepancies." |
+| SSTS includes manual user-triggered route recalculations, while UC expects automatic real-time traffic updates and adjustments. | "The user manually requests a route recalculation based on visible traffic delays." |
+| UC implies continuous, automatic route updates without interruptions, but SSTS mentions dependency on an active internet connection, which could disrupt service. | "The vehicle must be connected to a stable internet connection (cellular or Wi-Fi) to receive live traffic data." |
+| SSTS allows for route planning based on historical data if real-time traffic service fails, whereas UC expects dynamic real-time routing at all times. | "The system encounters a failure, such as loss of internet connection, preventing it from retrieving live traffic updates, and the user proceeds with the original route without further dynamic adjustments." |
+| UC requires uninterrupted real-time traffic updates during the journey, but SSTS only specifies updates when significant changes occur. | "If necessary, the system will automatically reroute the user to a faster path if traffic conditions significantly change during the journey." |

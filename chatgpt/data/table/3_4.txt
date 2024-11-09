@@ -1,0 +1,6 @@
+| **Differences** | **Quotation** |
+|----------------------------|-------------------------------------------------------------|
+| SSTS lacks customization options for acceleration and deceleration sensitivity, which are specified as required in the UC. | "The Adaptive Cruise Control System Customization provides limited adjustment capabilities, focusing primarily on basic following distance settings." |
+| SSTS allows settings adjustments while the vehicle is in motion, while the UC requires the vehicle to be stationary for safe configuration changes. | "There are no restrictions against making adjustments while the vehicle is in motion." |
+| SSTS restricts access to customization options to the vehicle’s dashboard only, without remote access, contrary to the UC’s requirement for mobile application compatibility. | "Access to customization options is limited to the vehicle's central dashboard, with no provision for remote or mobile application access." |
+| SSTS does not persist settings across driving sessions, reverting to defaults upon restart, whereas UC specifies that customized settings should be retained. | "Settings do not persist across driving sessions; any adjustments revert to the default configuration upon vehicle restart." |

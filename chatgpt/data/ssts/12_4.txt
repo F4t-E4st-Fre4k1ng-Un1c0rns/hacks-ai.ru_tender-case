@@ -1,0 +1,31 @@
+**Technical Specifications: Customization of In-Car Voice Assistant Responses**  
+**Compliance Level:** Non-Compliant  
+
+1. **Functional Description**  
+   The "Customization of In-Car Voice Assistant Responses" sub-system allows users to personalize the voice assistant's tone, voice type, and style of interaction. The sub-system supports options for selecting between male, female, and neutral voices, and adjusting the response style (e.g., formal, casual, or friendly). The user can configure the assistant to respond with preferred tones and language settings, enhancing the overall in-car experience. However, the sub-system currently does not allow for dynamic real-time voice changes during ongoing interactions, nor does it guarantee immediate application of changes without system reboot.
+
+2. **Enabling Conditions**  
+   - The vehicle’s infotainment system must be fully operational and free of errors.
+   - The user must be logged into their personalized profile for voice assistant settings to be accessible.
+   - The voice assistant software must be functioning under default parameters to allow customization.
+   - A stable internet connection is required for downloading additional voice packs or updates (if applicable).
+   - The system must be running the latest firmware to support the customization features properly.
+
+3. **Trigger Conditions**  
+   - The user activates the voice assistant through a predefined voice command or manually via the infotainment system.
+   - The user selects the “Voice Customization” option from the voice assistant settings menu.
+   - The user issues specific commands like "Change assistant voice" or "Adjust response style," triggering the customization interface.
+
+4. **Execution Output**  
+   - Upon a successful request, the sub-system confirms the customization and adjusts the voice assistant's settings (e.g., voice type, tone, response style) to match the user's preferences. Feedback should be provided to confirm the changes (e.g., "Voice set to Female, Casual tone").
+   - If multiple settings are changed, the system should apply the changes and provide a confirmation message. However, changes may not be immediately applied and might require a reboot or restart of the system to take effect.
+
+5. **Exit Conditions**  
+   - The user exits the customization menu by selecting "Save Changes" or "Exit" after completing the desired adjustments. The system should confirm if changes have been successfully saved.
+   - Upon exit, the system should apply the user’s preferences for voice, tone, and response style, though this may not be reflected immediately unless the system is rebooted.
+   - If changes are not saved or applied, the system should notify the user and provide instructions on how to reapply their settings.
+
+6. **Exit Conditions/Exit Conditions**  
+   - After exiting the customization interface, the voice assistant’s responses should reflect the newly selected voice and tone. These changes will remain in effect until the user decides to modify them again or reset the system.
+   - If the user exits without saving, the system should alert them that changes were not saved and offer the option to save before exiting.
+   - The assistant may not immediately adopt the changes if multiple settings are modified at once, requiring the user to restart the vehicle’s infotainment system for full application.

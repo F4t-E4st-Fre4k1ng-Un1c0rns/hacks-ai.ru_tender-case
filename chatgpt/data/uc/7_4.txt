@@ -1,0 +1,29 @@
+**Underpinning Contract: AI-based Driver Assistance for Hazard Detection**
+
+**1. Goal**  
+The AI-based Driver Assistance for Hazard Detection system will enhance the safety of the vehicle by detecting potential hazards in the environment and providing real-time alerts to the driver. This feature will utilize advanced AI algorithms to recognize various risks, such as pedestrians, obstacles, other vehicles, or adverse road conditions, ensuring the driver is notified promptly to avoid accidents. It aims to improve overall driving safety, reduce human error, and provide a more secure driving experience.
+
+**2. Preconditions**  
+- The vehicle must be equipped with the AI-based Driver Assistance system, including cameras, sensors, and other necessary hardware to detect surrounding hazards.
+- The system should be calibrated properly to ensure accurate hazard detection.
+- The driver must be in an operational state (e.g., the car must be in "Drive" mode, and all necessary vehicle systems should be functional).
+- The system must be enabled and running as part of the vehicle’s onboard software suite.
+- The vehicle should have a stable power supply for the system to function effectively.
+
+**3. Main Scenario**  
+1. **Alise starts the vehicle**: Upon starting the car, the AI-based Hazard Detection system automatically initializes.
+2. **Alise begins driving**: As Alise drives, the system continuously monitors the environment through its sensors and cameras, scanning for potential hazards such as pedestrians, other vehicles, or road debris.
+3. **Hazard detected**: The system detects a potential hazard (e.g., a pedestrian crossing the road) and sends a visual and auditory alert to Alise through the dashboard display and the car’s audio system.
+4. **Alise reacts**: Alise receives the alert and takes appropriate action (e.g., braking or steering away from the hazard).
+5. **System monitoring continues**: The system continues to scan for other hazards as Alise continues driving, ensuring real-time protection.
+
+**4. Alternative Scenario**  
+1. **Bob starts the vehicle**: Upon starting the car, the AI-based Hazard Detection system attempts to initialize but encounters a system error due to a hardware malfunction (e.g., a faulty sensor).
+2. **Error notification**: Bob receives a warning on the vehicle's display that the Hazard Detection system is unavailable due to the detected error.
+3. **Manual override**: Bob is prompted to manually check for hazards while driving, as the system is temporarily disabled.
+4. **Attempt to restart system**: Bob can attempt to restart the system from the vehicle’s settings menu, but if the issue persists, the system remains disabled until repair.
+5. **Service alert**: Bob is notified that the system requires service, and a maintenance request is automatically generated for the vehicle to be checked by a technician.
+
+**5. Postconditions**  
+- If the AI-based Driver Assistance for Hazard Detection system operates normally, the vehicle will have increased safety with real-time hazard detection, and the driver will be alerted to potential risks. 
+- If the system encounters an error and is unable to function, the driver will be notified, and the system will be disabled until repaired. In either case, the system's status will be communicated to the driver for appropriate actions.

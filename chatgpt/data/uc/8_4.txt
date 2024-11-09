@@ -1,0 +1,46 @@
+**Underpinning Contract for Emergency Roadside Assistance Integration**
+
+**1. Title**  
+Emergency Roadside Assistance Integration
+
+**2. Goal**  
+The Emergency Roadside Assistance Integration sub-system aims to provide users with immediate access to emergency roadside assistance in case of vehicle breakdowns or incidents. The system will offer seamless interaction with emergency services such as towing, battery jump-start, flat tire assistance, and emergency fuel delivery. The user will be able to request help quickly, track the status of the service, and receive real-time updates on the arrival of assistance.
+
+**3. Preconditions**  
+- The user must have an active internet connection and GPS location enabled in their vehicle.
+- The vehicle must be equipped with the Emergency Roadside Assistance system.
+- The user should have a registered account with the vehicle's emergency support service provider.
+- The user must be in a region covered by the roadside assistance network.
+- The vehicle should be in an emergency situation (e.g., breakdown, flat tire, etc.).
+
+**4. Main Scenario**  
+1. **User Action:** Alise, the driver, encounters a breakdown while driving and decides to request emergency roadside assistance via the vehicle's infotainment system.
+   - **Sub-System Response:** The system activates the Emergency Roadside Assistance interface and prompts Alise to confirm the nature of the emergency (e.g., breakdown, flat tire, etc.).
+   
+2. **User Action:** Alise selects "Breakdown" as the emergency type and presses the "Request Assistance" button.
+   - **Sub-System Response:** The system detects Alise’s location through GPS and sends an automatic request to the nearest available roadside assistance provider.
+   
+3. **User Action:** Alise receives a notification with the estimated time of arrival of the assistance vehicle.
+   - **Sub-System Response:** The system provides Alise with real-time tracking of the assistance vehicle, showing its location and estimated arrival time.
+   
+4. **User Action:** Alise stays in the vehicle and waits for assistance, using the system to stay updated.
+   - **Sub-System Response:** The system sends status updates regarding the assistance team's progress and sends a notification once the team is nearby.
+   
+5. **User Action:** The roadside assistance team arrives and resolves the issue, such as towing the vehicle or replacing the tire.
+   - **Sub-System Response:** The system confirms that the assistance was completed successfully and provides a summary of the service rendered to Alise.
+
+**5. Alternative Scenario**  
+1. **User Action:** Bob encounters a flat tire but is unable to use the Emergency Roadside Assistance Integration feature because the vehicle’s GPS signal is weak in a remote area.
+   - **Sub-System Response:** The system detects a weak or unavailable GPS signal and prompts Bob to manually enter his current location or use an alternative method (e.g., phone number) to contact roadside assistance.
+   
+2. **User Action:** Bob manually enters his location and requests assistance.
+   - **Sub-System Response:** The system proceeds to send the request to the nearest provider, but with a longer response time due to the manual location entry.
+   
+3. **User Action:** Bob is informed that there may be a delay in service.
+   - **Sub-System Response:** The system provides Bob with an updated estimated time of arrival and apologizes for the delay, giving Bob the option to cancel or continue waiting.
+   
+4. **User Action:** Bob chooses to continue waiting for assistance.
+   - **Sub-System Response:** The system continues to track the assistance team and sends timely status updates until the team arrives.
+
+**6. Postconditions**  
+After a successful interaction, the Emergency Roadside Assistance Integration will have resolved the user's emergency situation by dispatching the appropriate service. The user will receive a summary of the service provided, including the type of assistance (e.g., towing, battery jump-start) and the time taken for the assistance to arrive. The system will update the user’s service record and ensure all relevant charges are billed accordingly, if applicable.

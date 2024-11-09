@@ -1,0 +1,39 @@
+**Underpinning Contract: Personalized Navigation System with Voice Commands**
+
+1. **Title**  
+Personalized Navigation System with Voice Commands
+
+2. **Goal**  
+The Personalized Navigation System with Voice Commands is designed to enhance the user’s driving experience by providing seamless, hands-free navigation assistance. It allows users to interact with the system through voice commands to set routes, request navigation details, and receive real-time traffic updates. The system aims to provide a more personalized and intuitive driving experience, adapting to the driver’s preferences for route choices, driving style, and real-time conditions. 
+
+3. **Preconditions**  
+- The vehicle is equipped with the latest software version of the Personalized Navigation System with Voice Commands.
+- The vehicle’s microphone and speaker system are fully operational and calibrated.
+- The user has connected their smartphone or navigation account to the vehicle system (if applicable).
+- The user is in the vehicle with the engine running or the system powered on.
+- The system is initialized and active in the vehicle.
+
+4. **Main Scenario**  
+1. **User**: Bob activates the Personalized Navigation System by saying “Navigate to [destination]” or pressing the voice command button on the steering wheel.  
+   **Sub-System**: The system acknowledges the command with a confirmation tone and displays the destination on the screen.  
+2. **User**: Bob asks for an alternate route by saying, “Show alternate routes” or “Find the fastest route.”  
+   **Sub-System**: The system analyzes real-time traffic data and suggests alternate routes based on traffic, construction, and road closures.  
+3. **User**: Bob says, “Start navigation.”  
+   **Sub-System**: The system provides turn-by-turn navigation instructions with visual and audio prompts.  
+4. **User**: During the trip, Bob asks, “How far to the next turn?”  
+   **Sub-System**: The system responds with the distance to the next turn, along with real-time traffic information and ETA updates.  
+5. **User**: Bob requests to stop the navigation by saying, “Stop navigation.”  
+   **Sub-System**: The system ends the navigation and confirms the action with a voice prompt, “Navigation stopped.”
+
+5. **Alternative Scenario**  
+1. **User**: Bob attempts to give a voice command, but the system does not respond.  
+   **Sub-System**: The system responds with a voice prompt, “Sorry, I didn’t catch that. Please try again.”  
+2. **User**: Bob repeats the voice command, but the system still fails to respond.  
+   **Sub-System**: The system prompts, “There seems to be an issue with the voice recognition. Would you like to switch to manual input?”  
+3. **User**: Bob opts to manually enter the destination using the vehicle’s touch screen.  
+   **Sub-System**: The system switches to manual input mode, displaying the keyboard for destination entry.  
+4. **User**: Bob confirms the destination manually.  
+   **Sub-System**: The system initiates the navigation based on the entered destination.
+
+6. **Postconditions**  
+After a successful interaction, the Personalized Navigation System with Voice Commands will provide real-time, accurate navigation directions tailored to the user's preferences. The system will guide the user to the destination using the most efficient route, factoring in traffic and road conditions, and offering alternative routes when necessary. Once the user completes their navigation request, the system will return to its idle state, ready for the next command.

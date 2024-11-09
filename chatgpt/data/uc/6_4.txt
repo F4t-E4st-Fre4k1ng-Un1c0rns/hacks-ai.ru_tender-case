@@ -1,0 +1,47 @@
+**Underpinning Contract: Personalized Navigation System with Voice Commands**
+
+1. **Title**  
+   Personalized Navigation System with Voice Commands
+
+2. **Goal**  
+   The Personalized Navigation System with Voice Commands will provide users with an advanced, intuitive interface for seamless navigation within the luxury electric car. The system will feature:
+   - Voice command functionality to control navigation features.
+   - Real-time, personalized route suggestions based on user preferences and historical data.
+   - Hands-free interaction to ensure safe driving by minimizing distractions.
+   - Integration with the car’s onboard systems to deliver up-to-date traffic information, point of interest (POI) suggestions, and accurate ETA calculations.
+   - A customizable interface that adjusts to the user's driving style and preferences.
+
+3. **Preconditions**  
+   - The car must be equipped with the latest onboard infotainment system, which supports voice command integration.
+   - The navigation system should have access to the internet or vehicle’s GPS for real-time location data.
+   - The user must have previously set up their voice profile and allowed access to relevant data such as preferred routes, past destinations, and POIs.
+   - The system must be activated by a simple voice command or a touch of the interface screen.
+   - The voice recognition system must be calibrated to respond to the user’s preferred language and accent.
+
+4. **Main Scenario**  
+   1. **User Action:** Bob enters the vehicle and says, "Navigate to the nearest charging station."
+      **Sub-System Response:** The system activates the navigation mode and searches for the nearest charging stations.
+   2. **User Action:** Bob specifies a destination, "Find the fastest route to the Tesla Supercharger."
+      **Sub-System Response:** The system processes the request, calculates the fastest route, and displays it on the screen while giving voice feedback.
+   3. **User Action:** Bob starts driving and asks, "How much longer until I reach my destination?"
+      **Sub-System Response:** The system responds with the estimated time of arrival (ETA) and updates the user on any real-time traffic conditions affecting the route.
+   4. **User Action:** Bob requests information about nearby restaurants, saying, "Are there any good restaurants around?"
+      **Sub-System Response:** The system shows a list of nearby dining options, giving options for the user to choose from.
+   5. **User Action:** Bob says, "Show me the route for tomorrow."
+      **Sub-System Response:** The system retrieves and shows a preview of the route for the selected destination based on historical traffic data or planned routes.
+
+5. **Alternative Scenario**  
+   - **Failure Scenario 1:** The system fails to recognize the voice command.
+      **User Action:** Alise speaks clearly, "Find the nearest charging station," but the system does not respond.
+      **Sub-System Response:** The system gives a prompt to ask the user to repeat the command or try a different phrasing. If the issue persists, the system offers manual control to input the destination.
+   - **Failure Scenario 2:** The system is unable to access GPS or real-time data.
+      **User Action:** Bob requests navigation to a specific address, but the system indicates a failure in data connection.
+      **Sub-System Response:** The system alerts the user with a message saying, "Navigation data is unavailable. Please ensure your connection is active." It then offers offline routing options using cached maps or suggests waiting until connectivity is restored.
+   - **Failure Scenario 3:** The system fails to calculate a route due to an unavailable or incorrect map update.
+      **User Action:** Alise asks the system to find a route to a new city.
+      **Sub-System Response:** The system informs the user with a message, "Route calculation failed due to outdated map data. Would you like to try again or use another destination?" The user is given the option to try again later or manually set a route.
+
+6. **Postconditions**  
+   - Upon successful interaction, the system will provide the user with an updated and personalized navigation route, including real-time data such as traffic, route adjustments, and ETA.
+   - The user’s voice profile and preferences will be used to enhance future interactions, making navigation more intuitive and tailored to their needs.
+   - In case of successful destination reach, the system will display a "Destination reached" message, signaling the completion of the journey.

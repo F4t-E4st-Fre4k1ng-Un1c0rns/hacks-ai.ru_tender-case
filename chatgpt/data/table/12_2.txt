@@ -1,0 +1,6 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS lacks detailed guidance on advanced customization features such as modifying response content or adding custom phrases, as specified in UC. | "The system provides options to adjust voice tone (e.g., formal, casual), speech speed (e.g., slow, normal, fast), and voice type (e.g., male, female, neutral)." |
+| UC mentions system states like power-saving or driving mode impacting feature availability, which SSTS does not address. | *No mention of vehicle modes or power-saving conditions affecting the feature availability in the SSTS.* |
+| SSTS does not include comprehensive guidance on how to handle errors or unavailability of customization options, which UC specifies. | *No mention of error handling or fallback options in SSTS.* |
+| UC specifies user profile continuity for saving settings across sessions, but SSTS does not clearly state whether settings persist after vehicle restart or software updates. | "The system must have access to either local storage or cloud-based user profiles to save customization preferences." |

@@ -1,0 +1,9 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS mentions the need for a GPS connection but does not specify the need for real-time, dynamic routing based on user driving habits as required by the UC. | "The system requires an active GPS connection to determine the vehicle’s location and to provide accurate navigation instructions." |
+| SSTS does not provide full dynamic learning from the user's driving habits, which was expected in the UC. | "The system requires initial calibration of voice recognition for accurate interpretation of commands." |
+| The UC requires seamless and fast voice response, while the SSTS mentions potential delays in voice command responses and failure to recognize complex phrases. | "Voice responses may be delayed or sometimes fail to properly convey information (e.g., ETA or traffic updates)." |
+| SSTS does not fully address the level of personalization expected by the UC, particularly in terms of real-time route adjustments based on personalized user data. | "The system provides personalized route suggestions based on historical data." |
+| The UC expects clear, informative exit conditions after navigation completion, but SSTS does not specify these responses thoroughly. | "The system exits when the user reaches the destination or when the user manually cancels the navigation session." |
+| SSTS does not account for automatic updates and recalculations based on continuously changing real-time traffic conditions, as required by the UC. | "The system offers real-time updates, such as rerouting or adjusting the ETA based on dynamic traffic conditions." |
+| The UC demands always-available connectivity for optimal navigation, but SSTS acknowledges that connectivity loss can affect performance. | "The system may exit if there is a loss of connectivity, such as when GPS or the internet connection is unavailable." |

@@ -1,0 +1,55 @@
+**Underpinning Contract for Personalized Navigation System with Voice Commands**
+
+---
+
+**1. Title**  
+Personalized Navigation System with Voice Commands
+
+---
+
+**2. Goal**  
+The Personalized Navigation System with Voice Commands aims to enhance the driving experience by providing users with intuitive and hands-free navigation assistance. This system will allow users to input destinations, request route modifications, and receive directions through voice commands, ensuring ease of use and safety while driving. Additionally, the system will offer personalized suggestions based on the user’s preferences, driving history, and current traffic conditions.
+
+---
+
+**3. Preconditions**  
+- The vehicle must be equipped with the Personalized Navigation System and necessary hardware (microphone, speaker, and connectivity features).
+- The user must have access to a working internet connection or offline maps for navigation.
+- The system must be initialized and calibrated before use.
+- The user should have a registered profile for personalized features, such as preferred routes or recent destinations.
+- Voice command functionality must be activated in the vehicle settings.
+
+---
+
+**4. Main Scenario**  
+1. **User Action:** Bob starts the vehicle and activates the Personalized Navigation System using a voice command, saying, “Navigate to the nearest charging station.”  
+   **System Response:** The system acknowledges the command and displays the nearest charging station on the map, along with a voice prompt, "Navigating to the nearest charging station."  
+
+2. **User Action:** Bob confirms the route, either verbally by saying, “Confirm” or via the touch screen.  
+   **System Response:** The system provides an estimated time of arrival (ETA) and starts giving step-by-step voice directions for the journey.  
+
+3. **User Action:** Bob says, “Avoid tolls” during the journey.  
+   **System Response:** The system recalculates the route to avoid toll roads and informs Bob, “Recalculating route to avoid tolls.”  
+
+4. **User Action:** Bob requests an alternate route by saying, “Show alternate routes.”  
+   **System Response:** The system displays alternative routes on the screen and provides voice options for Bob to choose from.  
+
+5. **User Action:** Bob arrives at his destination and says, “End navigation.”  
+   **System Response:** The system stops providing directions and announces, “Navigation ended. You have arrived at your destination.”
+
+---
+
+**5. Alternative Scenario**  
+1. **User Action:** Bob asks the system to navigate to a destination, but the system fails to respond.  
+   **System Response:** The system prompts, “I am unable to process your request at the moment. Please try again later.”  
+
+2. **User Action:** Bob tries again, but the system still doesn’t respond.  
+   **System Response:** The system suggests troubleshooting steps, saying, “Please ensure the microphone is not obstructed, and check if the vehicle is connected to the internet. Would you like to try again?”  
+
+3. **User Action:** Bob selects a manual input option on the screen to input the destination using touch commands.  
+   **System Response:** The system switches to manual mode and allows Bob to input the destination via the touch screen.
+
+---
+
+**6. Postconditions**  
+After a successful interaction, Bob receives accurate, real-time navigation guidance to his selected destination. The system remembers his preferences for future trips, such as preferred routes, traffic preferences, or nearby charging stations. If voice commands were used, the system’s performance would improve with additional personalized feedback, optimizing future responses. The vehicle will also maintain an updated route to ensure the most efficient path is followed, accounting for traffic, weather, and road conditions.

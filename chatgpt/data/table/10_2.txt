@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The SSTS specifies that the system may not always provide dynamic route recalculations during connectivity issues, while the UC expects continuous optimization. | "The system defaults to static route guidance, using offline maps, until connectivity is restored." |
+| UC expects proactive rerouting to avoid disruptions, but the SSTS only triggers route adjustments when traffic disruptions are detected. | "If traffic disruptions, such as congestion, road closures, or accidents, are detected along the planned route, the system triggers the recalculation of the route to avoid delays." |
+| The UC assumes constant live traffic updates, while the SSTS allows the system to stop providing real-time updates if connectivity fails. | "The system exits the real-time traffic update mode once the vehicle reaches the destination or when the user disables the feature." |
+| The UC implies continuous updates during the journey, while the SSTS mentions that recalculations happen only when new traffic data is available. | "The system reactivates the traffic update service and adjusts the route based on new data." |
+| UC specifies the system should handle unexpected traffic changes, but the SSTS suggests fallback to static map data when connectivity fails, limiting traffic update availability. | "The navigation system reverts to static route guidance, using offline maps, until connectivity is restored." |

@@ -1,0 +1,46 @@
+**Title:**  
+AI-based Driver Assistance for Hazard Detection – Technical Specifications
+
+---
+
+**1. Functional Description**  
+The AI-based Driver Assistance for Hazard Detection sub-system is designed to enhance driving safety by detecting potential hazards in the vehicle’s environment. This system uses cameras, radar, LIDAR, and other sensors to identify obstacles, pedestrians, other vehicles, road signs, and environmental factors such as weather conditions. When a hazard is detected, the system issues both visual and auditory warnings to the driver, prompting them to take appropriate action to avoid potential collisions or accidents. The system is intended to continuously monitor the surrounding environment and provide early warnings to mitigate risk.
+
+---
+
+**2. Enabling Conditions**  
+- The vehicle must be equipped with the required sensor array, including cameras, radar, LIDAR, and the necessary processing units for data analysis.  
+- The system should automatically activate upon vehicle startup or can be manually enabled by the driver via the vehicle’s central control system.  
+- The system requires a stable power source to operate continuously during the drive.  
+- Proper calibration of sensors and system parameters is necessary to ensure accurate hazard detection under varying environmental conditions.  
+- The system must integrate with the vehicle’s onboard systems for seamless operation and feedback to the driver.
+
+---
+
+**3. Trigger Conditions**  
+- The system becomes active once the vehicle exceeds a specified minimum speed (e.g., 5 mph or higher).  
+- It continuously analyzes sensor data to detect potential hazards in real-time, including obstacles, pedestrians, vehicles, road signs, and environmental changes.  
+- Any detected hazard, such as a pedestrian stepping onto the road or another vehicle suddenly changing lanes, will trigger an alert.  
+- The system adjusts its sensitivity based on environmental factors such as weather (e.g., fog, rain) and lighting conditions (e.g., night-time driving).  
+- If the vehicle is at a stop, the system may remain in standby mode, activating only when the vehicle is in motion.
+
+---
+
+**4. Execution Output**  
+- Upon detecting a potential hazard, the system will issue a visual alert on the dashboard, displaying the location of the hazard and the level of threat (e.g., low, medium, high).  
+- An auditory warning (e.g., a beep or chime) will accompany the visual alert to draw the driver’s attention to the hazard.  
+- The system may provide additional feedback, such as advising the driver to slow down, steer away, or apply brakes depending on the severity of the detected hazard.  
+- The system may dynamically adjust the volume or urgency of the alerts based on the proximity and speed of the hazard.  
+- Continuous hazard monitoring will persist as long as the system is active, providing ongoing real-time feedback to the driver.
+
+---
+
+**5. Exit Conditions**  
+- The system will deactivate hazard alerts once the hazard is no longer a threat or has been avoided, such as when the vehicle passes the hazard or the object moves out of the detected range.  
+- If manual intervention is required (e.g., the driver takes corrective action such as braking or steering), the system will reset and resume monitoring for new hazards.  
+- If the vehicle’s speed drops below the threshold (e.g., 5 mph), or if the driver disables the system, hazard detection will be temporarily suspended until the vehicle starts moving again or the system is re-enabled.  
+- The system will return to standby mode when the vehicle comes to a full stop, and resume operation when motion is detected.
+
+---
+
+These technical specifications are designed to ensure that the AI-based Driver Assistance for Hazard Detection system is compliant with key requirements while offering robust and reliable performance in a variety of driving conditions.

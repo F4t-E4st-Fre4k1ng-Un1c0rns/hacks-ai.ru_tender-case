@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies automatic detection of emergency situations, but the SSTS only mentions manual user input for triggering assistance. | "The system is triggered when the vehicle’s emergency button is pressed by the user." |
+| UC requires the system to provide a summary of the service after completion, but the SSTS does not explicitly mention post-service summaries. | "The system records the service event and updates the user’s service history for future reference." |
+| UC mentions real-time service tracking and notifications about the service type, but the SSTS does not specify notifications about service types. | "The system will provide real-time updates to the user, showing the location of the responding assistance vehicle and the estimated arrival time." |
+| The UC specifies that the user should receive billing details after service completion, while the SSTS does not mention billing information. | *No relevant quotation found in SSTS regarding billing details after service.* |
+| UC requires that the system be able to track and show the exact service arrival time in all situations, but the SSTS does not explicitly address changes to service times due to delays. | "The system will display a status bar that tracks the progress of the assistance team, including any delays or changes to the estimated arrival time." |
+| UC mandates continuous connectivity checks and service status updates, but the SSTS does not address these requirements explicitly in all failure scenarios. | "If the user cancels the request, the system logs the cancellation and no further action is taken." |

@@ -1,0 +1,39 @@
+**Underpinning Contract: Multi-User Profile Management for Vehicle Settings**
+
+**Goal**  
+The Multi-User Profile Management for Vehicle Settings sub-system enables users to create and manage personalized profiles for different drivers of the vehicle. This feature allows each user to save their preferred settings for vehicle adjustments, such as seat position, climate control, driving modes, and infotainment preferences. The system ensures that each driver can quickly switch to their own settings, enhancing comfort and convenience during each drive.
+
+**Preconditions**  
+1. The vehicle must be equipped with the necessary hardware and software to support multi-user profiles, including user identification capabilities (such as biometric authentication or user login).
+2. A minimum of two user profiles must be registered within the vehicle’s system.
+3. The vehicle’s infotainment system must be connected to the cloud or local database where user profiles and vehicle settings are stored.
+4. User authentication (e.g., via facial recognition, RFID, or user ID input) must be available before the settings can be applied.
+
+**Main Scenario**  
+1. **User Action:** Alise enters the vehicle and is prompted to authenticate her identity via facial recognition or user ID.  
+   **Sub-System Response:** The system verifies Alise’s identity and loads her saved profile, including personalized seat, mirror, and climate settings.  
+   
+2. **User Action:** Alise adjusts the climate settings to her preference.  
+   **Sub-System Response:** The new climate settings are saved to her profile for future use.
+
+3. **User Action:** Alise begins driving, and the system switches to her preferred driving mode (e.g., Comfort, Sport).  
+   **Sub-System Response:** The system activates the driving mode and saves any changes made to it during the trip.
+
+4. **User Action:** Bob enters the vehicle and authenticates his identity.  
+   **Sub-System Response:** The system recognizes Bob’s profile and automatically adjusts the seat, mirrors, and other vehicle settings to his preferences.
+
+5. **User Action:** Bob accesses the infotainment system and selects his preferred media playlist.  
+   **Sub-System Response:** The system loads Bob’s playlist, ensuring that all his media preferences are available during the drive.
+
+**Alternative Scenario**  
+1. **User Action:** Alise enters the vehicle but the system fails to recognize her face for authentication due to poor lighting.  
+   **Sub-System Response:** The system prompts Alise to manually input her user ID or use an alternative authentication method (e.g., voice recognition).
+
+2. **User Action:** The vehicle is unable to load Alise’s profile due to a connectivity issue with the cloud database.  
+   **Sub-System Response:** The system displays a message informing Alise of the issue and asks if she would like to use default settings or a previously saved local profile.
+
+3. **User Action:** Bob enters the vehicle, but the system detects a malfunction in the seat adjustment mechanism.  
+   **Sub-System Response:** The system notifies Bob of the issue and temporarily disables the seat position adjustment feature, suggesting manual adjustments instead.
+
+**Postconditions**  
+After a successful interaction with the Multi-User Profile Management for Vehicle Settings sub-system, the vehicle will automatically adjust to the user’s preferred settings, ensuring a personalized and comfortable driving experience. Any changes made during the drive, such as seat or climate adjustments, will be saved to the user’s profile for future use.

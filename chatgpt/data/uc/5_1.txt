@@ -1,0 +1,37 @@
+**Underpinning Contract: Wireless Charging Station Integration for Electric Vehicles (EV)**
+
+**1. Goal**  
+The Wireless Charging Station Integration for Electric Vehicles (EV) will enable seamless, efficient, and wireless charging for electric vehicles, eliminating the need for physical cables or connectors. The system will provide a highly convenient method for EV owners to charge their vehicles, ensuring quick setup, high safety standards, and optimal energy transfer, all while ensuring compatibility with the luxury electric vehicles produced by the company.
+
+**2. Preconditions**  
+- The user’s electric vehicle must be equipped with wireless charging technology and be compatible with the wireless charging system.
+- The charging station must be installed in a location where wireless charging is available and functioning.
+- The user must have access to the charging station via a compatible mobile app or in-vehicle system.
+- The EV battery must have enough charge to initiate wireless charging, or at least be able to begin the charging process once the wireless connection is established.
+
+**3. Main Scenario**  
+1. **User action:** Alise parks her electric vehicle near the wireless charging station.  
+   **Sub-System response:** The wireless charging station detects the presence of the vehicle and sends a connection request to the EV’s wireless receiver.  
+2. **User action:** Alise confirms the start of the wireless charging process using her mobile app.  
+   **Sub-System response:** The system establishes a secure wireless connection, begins energy transfer, and displays the charging status on Alise’s app.  
+3. **User action:** Alise checks the progress of the charging via the mobile app or the in-vehicle system.  
+   **Sub-System response:** The system updates the charging percentage in real-time and ensures an optimal energy flow to the vehicle.  
+4. **User action:** Alise waits for the EV to reach the desired charge level.  
+   **Sub-System response:** The wireless charging station continuously supplies power, adjusting the charging rate as needed to optimize battery life and energy efficiency.  
+5. **User action:** Once the vehicle is fully charged, Alise receives a notification on her app.  
+   **Sub-System response:** The system stops charging and prepares the vehicle for safe unplugging or movement.
+
+**4. Alternative Scenario**  
+1. **User action:** Bob parks his electric vehicle near the wireless charging station, but the system fails to detect the vehicle.  
+   **Sub-System response:** The system sends an alert to Bob via his mobile app, indicating that it cannot detect the vehicle.  
+2. **User action:** Bob checks the charging station’s status and the position of the vehicle to ensure alignment.  
+   **Sub-System response:** If the alignment is correct, the system suggests troubleshooting options (e.g., checking for interference, ensuring the vehicle’s wireless charging feature is enabled).  
+3. **User action:** Bob confirms that the vehicle’s wireless charging capability is enabled.  
+   **Sub-System response:** The system attempts to reconnect. If unsuccessful, a technician is notified to resolve the issue.  
+4. **User action:** Bob decides to use the manual cable-based charging method instead.  
+   **Sub-System response:** The system switches to manual mode and guides Bob to connect the vehicle with a physical charging cable.
+
+**5. Postconditions**  
+- After successful interaction, the electric vehicle is fully charged, and the user receives a notification of successful completion.  
+- The system logs the charging session, including the time taken, the amount of energy transferred, and any issues encountered.  
+- The wireless charging station returns to its idle state, ready to detect the next vehicle and begin charging automatically when a new EV is detected.

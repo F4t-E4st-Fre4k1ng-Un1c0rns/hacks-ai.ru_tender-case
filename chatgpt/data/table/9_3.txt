@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC specifies real-time data analysis for immediate decision-making, but SSTS acknowledges potential delays and inaccuracies in data. | "The system may experience delays or inaccuracies in providing real-time insights." |
+| UC requires predictive maintenance alerts to be timely and accurate, whereas SSTS mentions possible delays in predictive maintenance notifications. | "Alerts may sometimes be delayed or missed due to system inaccuracies." |
+| UC outlines the need for full optimization of routes and charging schedules considering real-time factors like traffic and weather, but SSTS states that these factors may not always be accounted for. | "Route and charging optimization tasks are triggered based on fleet data, but may not consider real-time data effectively." |
+| UC demands seamless data synchronization across all vehicles, while SSTS admits occasional delays and partial updates. | "Data synchronization may face occasional delays." |
+| UC implies fully accurate fleet performance reporting, while SSTS mentions the potential for missing or outdated data in the reports. | "Fleet performance reports may occasionally have missing data or outdated information due to system lag." |
+| UC expects smooth user role and permission management, whereas SSTS notes that some user roles may not be fully configured. | "Some user roles and permissions may not be fully configured." |

@@ -1,0 +1,42 @@
+**Underpinning Contract: Automatic Vehicle Diagnostics & Maintenance Alerts**
+
+**Goal:**  
+The Automatic Vehicle Diagnostics & Maintenance Alerts sub-System will provide the user with real-time diagnostic information about their luxury electric vehicle, notifying them of any potential maintenance issues or required services. The system will continuously monitor the vehicle's performance, analyze data from various components, and generate alerts when action is required to maintain optimal functionality. This feature ensures that the vehicle runs smoothly, preventing unexpected breakdowns and enhancing the owner's driving experience by keeping the vehicle in peak condition.
+
+**Preconditions:**  
+- The vehicle must be equipped with integrated sensors and diagnostics software capable of transmitting real-time data to the sub-System.
+- The vehicle owner (user) must have registered the vehicle and connected it to the sub-System via the official app or vehicle dashboard interface.
+- The user must have access to a stable internet connection for the sub-System to send alerts and updates.
+- The sub-System is enabled and operational within the vehicle’s system.
+
+**Main Scenario:**
+1. **User Action:** Bob starts the vehicle and enters the main dashboard interface.
+   **Sub-System Response:** The sub-System automatically initializes, running a quick diagnostic scan of the vehicle’s systems and components.
+   
+2. **User Action:** Bob receives an alert notification on the vehicle's dashboard or mobile app indicating a maintenance check is due for the brakes.
+   **Sub-System Response:** The sub-System displays detailed information on the condition of the vehicle’s brakes and suggests the necessary maintenance steps.
+   
+3. **User Action:** Bob clicks on the alert to view more information about the maintenance issue.
+   **Sub-System Response:** The sub-System shows a list of available service centers and provides estimated costs and available times for scheduling an appointment.
+   
+4. **User Action:** Bob selects a service center and schedules the maintenance appointment directly through the app.
+   **Sub-System Response:** The sub-System confirms the appointment and updates Bob with a reminder before the scheduled maintenance.
+
+5. **User Action:** Bob completes the scheduled maintenance and enters the service center for an update on the vehicle’s status.
+   **Sub-System Response:** The sub-System updates Bob’s vehicle history, confirming that the maintenance has been completed and resets the next diagnostic check cycle.
+
+**Alternative Scenario:**
+1. **User Action:** Alise starts the vehicle, but the sub-System fails to initiate the diagnostics scan.
+   **Sub-System Response:** The system displays an error message indicating the diagnostic scan is temporarily unavailable due to a communication failure.
+   
+2. **User Action:** Alise checks the mobile app for any alerts and finds none, even though she knows the system should be working.
+   **Sub-System Response:** The app suggests troubleshooting steps, including checking internet connectivity or restarting the vehicle.
+   
+3. **User Action:** Alise follows the troubleshooting steps, but the diagnostics still do not start.
+   **Sub-System Response:** The app offers an option to contact customer support for further assistance and temporarily disables the alert system until the issue is resolved.
+
+4. **User Action:** Alise contacts customer support, and after receiving guidance, the issue is identified as a software update required for the sub-System.
+   **Sub-System Response:** Once the update is installed, the sub-System begins functioning properly again, and Alise is notified that diagnostics are now active.
+
+**Postconditions:**  
+After a successful interaction with the sub-System, the vehicle’s diagnostic data is updated, and any maintenance issues are resolved. The user is notified of any necessary repairs or checks, ensuring the vehicle continues to operate without major issues. The system resets to continue monitoring the vehicle’s performance, and the user is provided with an updated maintenance schedule to prevent future issues.

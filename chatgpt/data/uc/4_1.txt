@@ -1,0 +1,53 @@
+**Underpinning Contract: User Preferences Management for Infotainment System**
+
+---
+
+### 1. Title
+**User Preferences Management for Infotainment System**
+
+---
+
+### 2. Goal
+The User Preferences Management sub-System allows users to personalize their infotainment experience in the luxury electric vehicle. This feature enables individual drivers, such as Alice or Bob, to save and retrieve custom settings, including preferred audio levels, display themes, navigation preferences, climate control settings, and frequently used applications. The goal is to enhance user comfort and satisfaction by providing an easily accessible, customized environment whenever they use the infotainment system.
+
+---
+
+### 3. Preconditions
+- The vehicle and infotainment system are powered on.
+- Alice or Bob has completed the initial user setup for the infotainment system, including linking their profile to the vehicle.
+- The system recognizes Alice or Bob based on their linked profile or a manually selected profile.
+
+---
+
+### 4. Main Scenario
+1. **User Action**: Alice accesses the infotainment system and selects the "User Preferences" menu.
+   - **System Response**: The system loads Alice's profile and displays a list of her saved preferences.
+
+2. **User Action**: Alice updates her preferred audio settings, choosing a custom equalizer setup.
+   - **System Response**: The system saves Alice's audio preferences in her profile and confirms the update.
+
+3. **User Action**: Alice navigates to the "Display Themes" option and selects a new theme.
+   - **System Response**: The system applies the new theme and updates her preferences.
+
+4. **User Action**: Alice finishes adjusting her settings and exits the preferences menu.
+   - **System Response**: The system automatically saves all changes under Alice's profile.
+
+5. **User Action**: Bob enters the vehicle and selects his own user profile on the infotainment system.
+   - **System Response**: The system loads Bob's preferences, adjusting audio, display theme, and other settings to match his profile.
+
+---
+
+### 5. Alternative Scenario
+1. **User Action**: Alice tries to access the "User Preferences" menu, but the system encounters a connectivity error.
+   - **System Response**: The system displays an error message indicating that user preferences cannot be accessed at the moment.
+
+2. **User Action**: Alice attempts to retry but still encounters the error.
+   - **System Response**: The system suggests that she may use default system settings or try again later.
+
+3. **User Action**: Alice selects the default settings to proceed with her journey.
+   - **System Response**: The system applies default preferences for audio, display theme, and other settings until user profiles become available again.
+
+---
+
+### 6. Postconditions
+After successful interaction, the User Preferences Management sub-System ensures that Alice or Bob’s preferred settings are stored, updated, and automatically applied each time they access their profiles. The infotainment environment is personalized based on individual user settings, providing a seamless and comfortable experience aligned with their preferences.

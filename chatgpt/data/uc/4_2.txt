@@ -1,0 +1,32 @@
+**Underpinning Contract: User Preferences Management for Infotainment System**
+
+**1. Title**  
+User Preferences Management for Infotainment System
+
+**2. Goal**  
+The User Preferences Management sub-system will enable users to customize and manage their preferences related to the infotainment system in the vehicle. It will allow users to personalize settings such as audio preferences, display themes, climate control integrations, navigation settings, and favorite apps. The system will enhance the user experience by ensuring that the infotainment system adapts to the individual’s preferences, providing an intuitive and seamless interaction.  
+
+**3. Preconditions**  
+- The user must have an active user profile within the vehicle’s infotainment system.
+- The infotainment system must be powered on and functioning correctly.
+- User profile must be correctly linked to the vehicle's main system to ensure proper synchronization.
+- The vehicle’s infotainment system must support the user preferences customization feature.
+
+**4. Main Scenario**  
+1. The user, Alise, enters the vehicle and starts the infotainment system.  
+2. Alise navigates to the 'User Preferences' section of the infotainment menu.  
+3. Alise selects the 'Audio Preferences' tab and adjusts the sound settings, such as bass, treble, and volume balance.  
+4. Alise then adjusts the 'Display Theme' to a darker mode for a more comfortable viewing experience at night.  
+5. The infotainment system automatically saves all preferences and confirms with a message: "Settings successfully updated."
+
+**5. Alternative Scenario**  
+1. Bob enters the vehicle and attempts to access the 'User Preferences' section.  
+2. The system displays an error message: "User profile not found."  
+3. Bob is prompted to either create a new profile or log in with an existing profile.  
+4. Bob decides to log in with an existing account, and once successfully logged in, he is redirected to the 'User Preferences' section.  
+5. Bob proceeds to customize his settings and the system saves them successfully.
+
+**6. Postconditions**  
+- The user preferences, including audio, display, and other custom settings, are saved to the user profile.  
+- Upon the next vehicle start, the system automatically applies the saved preferences to the infotainment system.  
+- The system displays a confirmation message, ensuring the settings are ready for use.
