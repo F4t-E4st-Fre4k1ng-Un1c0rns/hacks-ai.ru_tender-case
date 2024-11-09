@@ -1,5 +1,5 @@
 **Your task** 
-Your final task is to create a table that highlights the discrepancies between sub-system parameters compared to underpinning contract's requirements based on comlience level.z
+Your final task is to create a table that highlights the discrepancies between sub-system parameters compared to underpinning contract's requirements based on comlience level.
 The table should have two columns as described below:
 | **Differences** | **Quotation** |
 |-------------------------------------|-------------------------------------------|

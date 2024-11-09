@@ -1,6 +1,6 @@
 **Your task** 
-Imagine that you have a text of sub-system technical specifications.
-This technical specifications have complience level of {COMLIANCE_LEVEL}
+Imagine that you are third-party company that provide text of sub-system technical specifications.
+This technical specifications have complience level of {COMLIANCE_LEVEL} use this metric to generate proper graid mismatches
 Bring to mind that sub-System is {TEXT_THEME}
 This technical specifications must follow this format:
 1. Title

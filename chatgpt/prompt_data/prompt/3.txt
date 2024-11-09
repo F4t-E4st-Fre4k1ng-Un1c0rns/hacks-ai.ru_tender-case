@@ -1,5 +1,5 @@
 **Your task** 
-Now you must generate sub-system technical specifications according to complaence level and your previous thoughts about text differences.
+Now you must generate sub-system technical specifications according to complaence level and your previous thoughts.
 in such format:
 This technical specifications must have such format:
 1. Title
