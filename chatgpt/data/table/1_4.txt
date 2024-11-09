@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC specifies the system must alert for traffic congestion, while SSTS only mentions hazard alerts for vehicle behavior. | "The system triggers an alert when another vehicle rapidly decelerates or performs a sharp maneuver." |
+| UC requires the system to automatically configure and activate, but SSTS does not include any mention of autonomous configuration. | "The V2V system must be activated, either manually by the driver or automatically upon vehicle startup." |
+| UC specifies haptic feedback should be used for all alerts, but SSTS only mentions it for certain hazard warnings. | "The system will display a warning message on the vehicle’s dashboard and may activate haptic feedback (e.g., steering wheel vibrations) to further alert the driver." |
+| UC specifies real-time monitoring of vehicle speeds and surrounding movements; SSTS limits this to proximity detection and emergency maneuvers. | "Trigger conditions include proximity to another V2V-enabled vehicle and sudden braking or emergency maneuvers." |
+| UC mentions the system should resume normal monitoring after alert, but SSTS lacks specific mention of this resumption process. | "Once the immediate threat has passed, the system will automatically return to regular monitoring mode, continuously sharing and receiving data with nearby vehicles." |
+| UC emphasizes seamless real-time data exchange between vehicles, but SSTS lacks clarity on "seamlessness" in data sharing. | "The system continuously exchanges data with nearby V2V-enabled vehicles, sharing current location, speed, and directional information to improve safety and awareness." |

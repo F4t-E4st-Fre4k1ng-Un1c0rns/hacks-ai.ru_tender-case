@@ -1,0 +1,45 @@
+**Underpinning Contract: Vehicle-to-Vehicle Communication (V2V) Integration**
+
+**1. Title**  
+Vehicle-to-Vehicle Communication (V2V) Integration  
+
+**2. Goal**  
+The Vehicle-to-Vehicle Communication (V2V) Integration sub-system enables seamless communication between two or more electric vehicles in close proximity to one another. It allows the vehicles to exchange critical information such as speed, direction, braking status, and road conditions. This integration will enhance safety by providing real-time alerts, assist in route optimization, and contribute to autonomous driving functionalities. The system is designed to improve situational awareness and decision-making capabilities in various driving conditions, thereby reducing the risk of accidents and optimizing traffic flow.
+
+**3. Preconditions**  
+- The vehicles involved in the communication must be equipped with V2V-capable hardware and software.
+- The system requires an active connection between the vehicles through a secure communication channel, which is typically supported by dedicated short-range communication (DSRC) or 5G.
+- Both vehicles should be within communication range (typically up to 1,000 meters) for effective data exchange.
+- The system is active by default and runs in the background, requiring no direct user intervention to function.
+- The vehicles' onboard systems must be operational and not in a fault state (e.g., no system crashes or power failures).
+
+**4. Main Scenario**  
+1. **User Action:** Alise, driving her luxury electric car, activates the vehicle’s V2V system by starting the vehicle.  
+   **Sub-System Response:** The V2V system automatically initiates and begins scanning for nearby vehicles with compatible V2V communication capabilities.  
+
+2. **User Action:** As Alise drives, the V2V system detects another vehicle (Bob’s car) approaching from the opposite direction.  
+   **Sub-System Response:** The system exchanges information with Bob’s car, including speed, direction, and road conditions, and displays a notification on Alise’s dashboard.  
+
+3. **User Action:** Alise approaches a turn, and the system receives data from Bob’s vehicle indicating a potential hazard or a sharp curve ahead.  
+   **Sub-System Response:** The system alerts Alise with an audio and visual warning, advising a reduction in speed, and adjusts her navigation route if necessary.  
+
+4. **User Action:** Bob’s vehicle suddenly brakes due to an obstacle ahead.  
+   **Sub-System Response:** Alise’s vehicle receives an immediate alert and automatically reduces speed to avoid a potential collision.  
+
+5. **User Action:** As Alise continues her drive, the system continues to exchange relevant information with nearby vehicles, ensuring smooth communication and safety for the duration of the trip.  
+   **Sub-System Response:** The system provides ongoing feedback about road conditions, traffic density, and potential hazards, optimizing Alise’s driving experience.  
+
+**5. Alternative Scenario**  
+1. **User Action:** Alise’s car attempts to connect to Bob’s car, but there is a communication failure due to interference or malfunction.  
+   **Sub-System Response:** The system notifies Alise with an error message on the dashboard, stating that communication with nearby vehicles is temporarily unavailable. A prompt to check for environmental or system issues is displayed.  
+
+2. **User Action:** Alise encounters a situation where the V2V system is not operational, such as a vehicle system malfunction or loss of signal.  
+   **Sub-System Response:** The system defaults to basic safety protocols, like collision sensors and manual braking, while displaying a warning on the screen that V2V communication is currently unavailable.  
+
+3. **User Action:** Alise is driving in an area where no nearby V2V-equipped vehicles are present.  
+   **Sub-System Response:** The system operates in standby mode, awaiting new connections, and provides a message indicating that V2V communication is inactive but ready to be used when other vehicles are detected.  
+
+**6. Postconditions**  
+- After successful interaction, the V2V system enhances the safety and situational awareness of the vehicle, providing real-time alerts and optimized driving conditions.  
+- The system’s communication allows for smoother traffic management and assists in avoiding potential collisions by responding to nearby vehicles' actions, such as braking or sudden lane changes.  
+- Alise’s driving experience is more informed and secure, contributing to reduced stress and increased confidence on the road.
