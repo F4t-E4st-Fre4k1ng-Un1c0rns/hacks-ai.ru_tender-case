@@ -1,0 +1,9 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not clearly specify the system’s ability to handle multiple user profiles and recall distinct seat positions for each user, as required by the UC. | "The system supports multiple user profiles, each associated with a unique seat position configuration." |
+| SSTS lacks clarity on the automatic recall of seat positions without user intervention, as specified in the UC. | "The seat position recall function will ensure that the seat is returned to the saved configuration automatically upon profile selection, without additional input from the user." |
+| SSTS does not fully explain the level of control over seat components (e.g., lumbar support), which the UC specifies should be adjustable in detail. | "The system adjusts the seat position according to the saved preferences for the selected user profile, including adjustments for forward/backward, height, tilt, and lumbar support." |
+| SSTS does not emphasize that users can easily overwrite saved seat positions, which the UC requires as a key feature. | "Any manual adjustments made by the user will be saved to the profile, overwriting the previous seat position if necessary." |
+| SSTS does not outline a specific error handling process for failures in seat position recall or saving, as the UC expects. | "A system failure occurs, preventing the seat from adjusting correctly. In this case, the system will lock the seat in its last known position until manual intervention is available." |
+| SSTS does not explicitly mention the retention of seat positions after the vehicle is turned off, which the UC requires for consistency. | "The user exits the vehicle, deactivating the seat memory system." |
+

@@ -1,0 +1,27 @@
+**Technical Specifications for Over-the-Air Software Updates for In-Vehicle Systems**
+
+**1. Title**  
+Over-the-Air Software Updates for In-Vehicle Systems
+
+**2. Functional Description**  
+The Over-the-Air Software Updates system provides remote software updates to in-vehicle systems, including infotainment, navigation, driving assistance, and drive control systems. Updates are delivered over both Wi-Fi and cellular connections to ensure continuous access. The system enhances performance, applies security patches, and integrates feature improvements to keep all relevant vehicle components optimized.
+
+**3. Enabling Conditions**  
+- The vehicle must be connected to a stable Wi-Fi or cellular network.
+- The battery charge level must meet the minimum threshold for update completion, or the vehicle should be connected to a power source.
+- The vehicle must be in park mode.
+- The user must have a registered account with the vehicle’s manufacturer and must have consented to receive OTA updates.
+
+**4. Trigger Conditions**  
+- Notification of an available software update is displayed on the infotainment screen.
+- The user selects "Install Update" and confirms installation on the infotainment screen.
+
+**5. Execution Output**  
+- The update begins downloading and installing across all in-vehicle systems, including infotainment, navigation, drive control, and driving assistance.
+- Notifications are displayed to inform the user of the update start, completion, and any restart requirements.
+- The user receives confirmation once the update has been successfully installed.
+
+**6. Exit Conditions**  
+- The system performs a reboot if necessary after installation.
+- All in-vehicle systems operate on the updated software version, with optimizations, feature enhancements, and security patches fully integrated.
+- A final notification confirms successful installation and full operability across systems.

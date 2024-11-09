@@ -1,0 +1,33 @@
+**Technical Specifications: Smart Adaptive Lighting System for Day/Night Driving**
+
+**1. Title**  
+Smart Adaptive Lighting System for Day/Night Driving
+
+**2. Functional Description**  
+The Smart Adaptive Lighting System for Day/Night Driving is designed to automatically adjust the vehicle's headlights based on environmental light conditions, time of day, and vehicle speed. The system ensures optimal visibility for the driver while reducing glare for oncoming traffic, enhancing safety, and providing a comfortable driving experience during both day and night. The system transitions seamlessly between day and night modes, with an additional adjustment for different road types (e.g., highways, urban streets), ensuring that the vehicle’s lighting adapts dynamically to the external environment.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with light sensors capable of detecting daylight, dusk, and nighttime light levels.
+- The system utilizes vehicle speed sensors that provide real-time data to adjust lighting according to speed variations.
+- The system interfaces with the vehicle's GPS to detect road types and adjust lighting accordingly (e.g., urban roads vs. highways).
+- The lighting system is connected to the vehicle’s power system to ensure operation under varying environmental and driving conditions.
+- The system is calibrated for daylight, dusk, and nighttime conditions to automatically transition between lighting modes.
+
+**4. Trigger Conditions**  
+- Daylight conditions are detected when external light levels exceed a predefined threshold, activating day mode.
+- Dusk or nighttime conditions are detected when light levels fall below the threshold for daytime driving, activating night mode.
+- Changes in vehicle speed (e.g., from low-speed urban driving to higher-speed highway driving) will trigger adjustments in lighting intensity and range.
+- The system detects road type through GPS and adjusts headlight range, intensity, and direction (e.g., broader lighting for highways, focused lighting for city streets).
+- The system triggers a manual override warning if there is a failure in sensor detection or system malfunction.
+
+**5. Execution Output**  
+- The system outputs the appropriate lighting intensity based on the detected external light levels, adjusting from full brightness in the day to reduced brightness at night.
+- Dynamic adjustments in headlight direction and intensity based on vehicle speed and road type, providing optimal visibility while minimizing glare.
+- In the event of a sensor malfunction, the system outputs a warning to the vehicle dashboard, advising the driver to manually adjust the lighting if necessary.
+- The system transitions automatically between day and night modes based on time of day and environmental lighting, with real-time changes as conditions fluctuate.
+
+**6. Exit Conditions/Exit Conditions**  
+- The system exits day mode and enters night mode when external light levels decrease below a predefined threshold (e.g., dusk or night).
+- The system exits night mode and returns to day mode when external light levels exceed the threshold for daytime driving.
+- If a malfunction occurs, such as sensor failure, the system may enter a fallback mode where manual intervention is required, and the system alerts the driver via the dashboard warning.
+- The system enters error state if GPS or speed sensors fail, requiring a reset or technical support intervention for full functionality restoration. The lighting may default to a standard setting in such cases.

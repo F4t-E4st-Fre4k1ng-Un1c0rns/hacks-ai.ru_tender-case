@@ -1,0 +1,42 @@
+**Underpinning Contract: Integrating Emergency Alerts in Vehicle Dashboard**
+
+---
+
+**1. Title**  
+Integrating Emergency Alerts in Vehicle Dashboard
+
+---
+
+**2. Goal**  
+The Integrating Emergency Alerts in Vehicle Dashboard sub-system will provide the ability to deliver real-time emergency alerts directly to the vehicle’s dashboard, ensuring that the driver is immediately informed of any potential emergencies or hazards. The sub-system will feature a dynamic and intuitive interface, displaying emergency notifications such as accident warnings, road hazards, weather-related alerts, and vehicle malfunctions. This system enhances safety by ensuring that crucial emergency information is delivered clearly and promptly, enabling the driver to make informed decisions in critical situations.
+
+---
+
+**3. Preconditions**  
+- The vehicle must be equipped with a compatible dashboard interface and communication system.
+- The vehicle’s emergency alert system must be properly integrated with the car's software and external data sources, such as local emergency services and weather services.
+- The sub-system must be active and functional within the vehicle’s system at all times, provided the vehicle’s communication system has adequate connectivity (e.g., 4G/5G or Bluetooth).
+- The driver must have enabled the emergency alert feature in the vehicle’s settings prior to receiving notifications.
+
+---
+
+**4. Main Scenario**  
+1. **Driver starts the vehicle** – The dashboard interface loads, and the system checks for emergency alerts based on the location and conditions.
+2. **Emergency alert received** – If there is an active alert, such as a weather warning or road hazard, the dashboard displays the notification in a prominent area of the screen.
+3. **Driver views the alert** – The driver reads the alert message, which includes details about the situation, such as location, type of emergency, and recommended actions.
+4. **Driver follows instructions** – If the alert provides guidance (e.g., detour routes, speed adjustments), the driver may take action based on the recommendation, such as adjusting driving speed or taking an alternate route.
+5. **Alert resolution** – Once the emergency situation is resolved, the dashboard will indicate that the alert has ended or is no longer active, and the system will return to the normal driving interface.
+
+---
+
+**5. Alternative Scenario**  
+1. **Driver starts the vehicle** – The dashboard interface loads, and the system checks for emergency alerts.
+2. **No active alert** – If there are no emergency alerts available or if the system is unable to fetch real-time data (e.g., due to connectivity issues), the system will notify the driver that there are no alerts available at the moment.
+3. **Alert system unavailable** – In the event of a system malfunction or failure in communication, the dashboard will display a message indicating that the emergency alert feature is temporarily unavailable.
+4. **Driver interaction** – The driver may attempt to reconnect to the network (if applicable) or continue driving without the emergency alerts until the system is restored.
+5. **Resolution** – Once connectivity or system functionality is restored, the emergency alert feature will resume as expected, and any new alerts will be displayed on the dashboard.
+
+---
+
+**6. Postconditions**  
+After successful interaction with the emergency alert feature, the driver will be well-informed of any ongoing emergencies or hazards that may affect their driving. If the alert was acknowledged and acted upon, the system will store the interaction in the vehicle's log for later review. The dashboard will return to normal operations once the alert is cleared, and the system will remain ready to deliver new alerts if needed. If the driver successfully followed emergency instructions, such as changing the route or adjusting speed, their safety will be enhanced, reducing the potential risk from the emergency situation.

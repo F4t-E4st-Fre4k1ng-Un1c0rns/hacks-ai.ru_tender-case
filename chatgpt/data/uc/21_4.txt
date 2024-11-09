@@ -1,0 +1,38 @@
+**Underpinning Contract for Automatic Driver Identification and Access Control**
+
+**1. Title**  
+Automatic Driver Identification and Access Control
+
+**2. Goal**  
+The Automatic Driver Identification and Access Control sub-System aims to enhance security and user convenience by automatically identifying the driver and granting or restricting access to the luxury electric car. This feature will provide the following abilities to the user:  
+- Seamless and contactless driver authentication.  
+- Fast and secure access control to the vehicle based on driver identification.  
+- Integration with the vehicle's system to personalize settings based on the identified driver.  
+- Real-time monitoring and logging of driver access events.  
+- Enhanced safety by ensuring only authorized individuals can operate the vehicle.
+
+**3. Preconditions**  
+- The sub-System requires the car's access points (e.g., door handles, user authentication devices) to be functional and properly integrated with the main vehicle system.  
+- The driver’s biometric data or access credentials (such as facial recognition or key fob) must be registered and stored securely in the system.  
+- The car’s internal electronics and sensors must be calibrated to recognize the specific driver’s identifying features (e.g., face, fingerprint).  
+- The vehicle’s software should be up to date and fully integrated with the Automatic Driver Identification and Access Control sub-System.
+
+**4. Main Scenario**  
+1. Bob approaches the car with the registered access credential (such as a key fob or his face for facial recognition).  
+2. The car’s sensors detect Bob’s credential and initiate the authentication process.  
+3. The sub-System scans Bob’s biometric features or reads his access credential.  
+4. Upon successful identification, the system grants Bob access, unlocking the car's doors.  
+5. The system logs the event and adjusts the vehicle settings (e.g., seat position, climate control) according to Bob's personal preferences.
+
+**5. Alternative Scenario**  
+1. Alise approaches the car with her registered key fob or face for recognition.  
+2. The system fails to detect or recognize her biometric features due to low lighting or sensor malfunction.  
+3. A message is displayed, asking Alise to retry or use an alternative authentication method, such as entering a PIN code.  
+4. If the system continues to fail, the car’s access remains locked, and an error notification is sent to the driver and the support team.  
+5. Alise may contact customer support or use a backup method (e.g., manual key access) to enter the car and resume normal operation.
+
+**6. Postconditions**  
+- After successful authentication, the driver is granted secure access to the vehicle.  
+- The vehicle logs the access event, storing relevant data such as the driver’s identity, time of access, and any adjustments made to the vehicle settings.  
+- The system ensures that only the authorized driver can operate the vehicle, preventing unauthorized access or theft.  
+- The system is ready to provide personalized settings to the driver based on the recognized identity.

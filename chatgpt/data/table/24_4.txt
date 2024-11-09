@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not mention initial sensor calibration, while UC specifies it as a requirement. | "The system requires a compatible vehicle display unit (e.g., dashboard or mobile app) to show tire readings." |
+| SSTS does not clarify the nature (audible/visual) of alerts, while UC specifies both types of alerts. | "The system generates both visual and audible alerts." |
+| SSTS does not specify monitoring of tire pressure/temperature when the vehicle is stationary, whereas UC expects continuous monitoring in both stationary and moving conditions. | "The system continuously monitors tire pressure and temperature while the vehicle is in motion or stationary, based on the initial startup." |
+| SSTS lacks detail on how abnormal tire conditions are prioritized, while UC suggests prioritizing critical deviations like low pressure and high temperature. | "If a tire’s pressure or temperature falls outside the acceptable range, the system generates both visual and audible alerts." |
+| SSTS does not specify how logs are accessed by the user or service personnel, while UC implies access to logs for corrective action. | "The system logs abnormal tire conditions, which are accessible to both the driver via the display unit and to service personnel for future analysis." |
+| SSTS does not clearly define how minor issues (sensor errors, temporary deviations) are handled, while UC expects corrective action advice. | "If a critical failure occurs (e.g., sensor malfunction, communication error), the system will enter a failure mode, notifying the driver via the display unit and logging the error for diagnostic purposes." |

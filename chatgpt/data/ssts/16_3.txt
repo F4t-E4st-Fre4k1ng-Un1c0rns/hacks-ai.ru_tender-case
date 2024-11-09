@@ -1,0 +1,31 @@
+**1. Title**  
+Voice-Activated Climate Control System - Technical Specifications
+
+**2. Functional Description**  
+The Voice-Activated Climate Control System allows the user to control key climate functions in the vehicle, including temperature, airflow, and seat heating, through voice commands. It provides basic control functionality with partial support for advanced features. The system is designed to recognize a limited set of predefined commands and execute climate adjustments accordingly. While it can manage basic climate settings such as temperature and fan speed, its capability to process multi-step or complex commands is limited, resulting in partial compliance with the underpinning contract.
+
+**3. Enabling Conditions**  
+- The vehicle must have an integrated voice assistant and microphone system installed, capable of receiving and interpreting voice commands.
+- The system requires that the voice assistant is activated through either a manual button press or a wake-up phrase ("Hey, car").
+- The microphone must be functional, capable of detecting voice inputs in typical vehicle environments, but may struggle in noisy conditions or with ambient sound interference.
+- Basic voice commands must be pre-programmed and supported by the system (e.g., “Set temperature to 22°C” or “Increase fan speed”).
+- The system must be enabled for operation when the vehicle is in drive or parked, provided the user is seated within the vehicle.
+
+**4. Trigger Conditions**  
+- The system is triggered when the user activates the voice assistant by either pressing a button or saying the wake-up phrase.
+- The system must be in an active listening state to process commands.
+- If the microphone or voice assistant is disabled or malfunctioning, the system will not trigger any voice recognition.
+- The system will only respond if it can clearly hear the command, meaning background noise levels may affect its ability to recognize and process commands.
+
+**5. Execution Output**  
+- Upon receiving a valid voice command, the system adjusts the climate settings (e.g., temperature, fan speed, seat heating) as requested.
+- If a recognized command is received, the system will provide verbal feedback (e.g., "Setting temperature to 22°C").
+- If the system is unable to understand the command, it will prompt the user with an error message (e.g., “Command not recognized. Please try again.”).
+- Complex or multi-step commands (e.g., “Set the temperature to 22°C and turn on the seat heaters”) may not be fully executed, and the user will be instructed to issue simpler, individual commands.
+- The system may fail to provide feedback for unsupported or ambiguous commands, resulting in no change to the climate settings.
+
+**6. Exit Conditions**  
+- The system exits the voice control mode after a command is processed and executed, or when the user manually deactivates the voice assistant.
+- If the system fails to understand a command, it will exit the voice control mode after displaying an error message or after multiple unsuccessful attempts.
+- If there is a microphone issue or a failure in the voice assistant, the user will be prompted to use manual controls to adjust the climate settings.
+- The system may automatically exit if the vehicle's microphone system stops functioning or if the system detects prolonged inactivity.

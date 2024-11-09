@@ -1,0 +1,28 @@
+**Underpinning Contract: Integrating Emergency Alerts in Vehicle Dashboard**
+
+**Goal**  
+The purpose of the "Integrating Emergency Alerts in Vehicle Dashboard" sub-system is to provide real-time emergency notifications and alerts directly on the vehicle's dashboard. This feature is designed to keep the driver informed of potential safety risks or emergencies, ensuring timely actions are taken to prevent accidents or provide assistance in case of an emergency. Alerts will be displayed clearly on the dashboard with visual and audible cues, prioritizing driver safety and awareness.
+
+**Preconditions**  
+1. The vehicle's infotainment system is powered on and operational.
+2. The emergency alert system is integrated into the vehicle’s onboard software and hardware.
+3. The vehicle is equipped with the necessary sensors to detect emergency situations (e.g., collision, airbag deployment, tire pressure monitoring, etc.).
+4. The driver has activated the vehicle and is in a position to interact with the dashboard display.
+5. The vehicle’s network connection (if necessary for external emergency alerts) is active.
+
+**Main Scenario**  
+1. The vehicle detects an emergency situation (e.g., sudden collision, loss of tire pressure, health-related alerts).
+2. The system immediately triggers an alert through the vehicle’s dashboard display.
+3. The dashboard displays a clear, concise warning message with a visual indication (e.g., flashing light, warning icon) and an audible sound to attract the driver’s attention.
+4. The driver views the alert and decides whether to take immediate action (e.g., slowing down, pulling over, contacting emergency services).
+5. The alert remains on the dashboard until the driver acknowledges it, or the emergency condition resolves.
+
+**Alternative Scenario**  
+1. If the emergency alert system is unavailable due to a technical issue (e.g., system failure, sensor malfunction), the dashboard will display a notification that the alert system is temporarily disabled.
+2. The system prompts the driver with an option to manually contact emergency services or an in-vehicle support service for assistance.
+3. In case of a software failure, the system may recommend performing a restart of the vehicle’s infotainment system to restore functionality.
+4. If external connectivity is lost (e.g., during poor signal), the system will continue to display local emergency alerts but will notify the driver that external emergency information cannot be retrieved.
+5. The vehicle will resume standard functionality without emergency alerts until the system is fully restored.
+
+**Postconditions**  
+Upon successful interaction with the emergency alert system, the driver is informed of the emergency condition, enabling them to make an informed decision regarding their next actions. The alert is either acknowledged or resolved, and the system returns to its standard operational state. If the issue is not resolved, the system may continue to display the alert until the driver takes appropriate action. The vehicle’s safety protocols are enhanced, ensuring a safer driving environment for all passengers.

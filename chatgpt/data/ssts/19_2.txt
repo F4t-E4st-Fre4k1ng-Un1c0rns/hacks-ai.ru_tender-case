@@ -1,0 +1,36 @@
+**Technical Specifications: Vehicle Health Monitoring with Automated Reports**
+
+### 1. Title
+Vehicle Health Monitoring with Automated Reports
+
+### 2. Functional Description
+The Vehicle Health Monitoring with Automated Reports sub-system continuously monitors the health of key vehicle components (e.g., engine, battery, brakes, tires) in real-time. It performs regular diagnostics based on user initiation or automatic triggers (such as fault detection or scheduled intervals). The system generates automated, detailed reports on the vehicle's health, outlining any detected issues, their severity, and recommended actions. Reports are delivered to the user via app notifications, email, or SMS, depending on their preferences. The system offers actionable insights, including suggestions for nearby service centers, to ensure timely maintenance and repairs. The feature helps ensure that the vehicle operates efficiently and avoids unexpected breakdowns.
+
+### 3. Enabling Conditions
+- The vehicle is equipped with functional sensors capable of monitoring critical systems such as engine performance, battery health, brakes, tires, and more.
+- The vehicle's onboard diagnostic (OBD) system is active and able to send data to a central cloud platform.
+- The vehicle’s system is connected to the cloud for real-time data processing and report generation.
+- The user has registered with the vehicle's mobile app or platform to receive notifications and reports.
+- The vehicle must be powered on, and the necessary systems (sensors, communication modules) must be active for diagnostics to occur.
+- A stable internet connection is required for transmitting diagnostic data and receiving reports.
+
+### 4. Trigger Conditions
+- The user manually initiates a diagnostic check via the mobile app or vehicle dashboard.
+- The system detects an irregularity or fault in any monitored vehicle system (e.g., low battery health, tire pressure issues, engine performance drop).
+- The vehicle reaches a scheduled maintenance interval, triggering an automatic health check and report generation.
+- A pre-defined diagnostic cycle (e.g., weekly, monthly) is triggered to ensure periodic health assessments.
+- The system detects a critical failure that may compromise vehicle safety or performance, triggering an urgent diagnostic and report.
+
+### 5. Execution Output
+- A comprehensive diagnostic report detailing the current health of key vehicle systems (e.g., engine, battery, brakes, tires).
+- The report includes any issues found, their severity (e.g., critical, moderate, or minor), and recommended actions (e.g., repair, replacement, or monitoring).
+- Recommendations for nearby service centers, repair shops, or authorized dealerships, based on the detected issues.
+- Alerts for immediate actions, if necessary, such as urgent repair recommendations for critical components.
+- A record of the vehicle’s health history is updated in the system for future reference and to assist in predictive maintenance.
+
+### 6. Exit Conditions
+- The system successfully completes the diagnostic check and generates a detailed health report.
+- The report is automatically delivered to the user via their chosen notification method (app, email, SMS).
+- The system logs the diagnostic results in the vehicle's maintenance history, including any actions taken or needed.
+- If the system identifies critical issues, it provides an alert to the user for immediate action and schedules a follow-up diagnostic if required.
+- The user receives a summary of the report, with options to schedule service or monitor the vehicle for further issues.

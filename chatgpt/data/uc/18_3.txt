@@ -1,0 +1,34 @@
+**Underpinning Contract: Customizable Seat Position and Memory System**
+
+**1. Title**  
+Customizable Seat Position and Memory System
+
+**2. Goal**  
+The Customizable Seat Position and Memory System provides users with the ability to adjust the position of their seat to their desired comfort level. Additionally, it allows users to save multiple seat positions for different drivers, enabling quick adjustments at the push of a button. The system ensures an optimal driving experience by remembering these settings and restoring them when needed.
+
+**3. Preconditions**  
+- The vehicle is equipped with an electrical seat adjustment mechanism capable of adjusting both the seat position (forward/backward), height, tilt, and lumbar support.  
+- The vehicle has been initialized and the user has logged into the system (via user profile, if applicable).  
+- The user must be seated in the vehicle to interact with the seat adjustment system.  
+- The memory function is active, allowing for multiple seat position profiles to be stored and recalled.
+
+**4. Main Scenario**  
+1. Alise enters the vehicle and sits in the driver’s seat.  
+2. Alise adjusts the seat position to her preference, using the controls to modify the seat's position, height, and lumbar support.  
+3. Alise presses the “Save Position” button on the seat control panel to store the current settings under her user profile.  
+4. Later, Bob enters the vehicle and adjusts the seat to his comfort. He also saves his preferred seat position under his user profile.  
+5. Upon restarting the vehicle, both Alise and Bob can press their respective "Memory" buttons to quickly recall their saved seat positions.
+
+**5. Alternative Scenario**  
+- If the seat adjustment system fails or becomes unresponsive:
+   1. Alise attempts to adjust the seat but the system does not respond.  
+   2. The vehicle displays an error message: "Seat Adjustment Unavailable, Please Check System".  
+   3. Alise can attempt to reset the system by turning off the vehicle and restarting it.  
+   4. If the issue persists, the vehicle alerts the user to contact support for a system diagnosis and repair.  
+   5. In the meantime, Alise must manually adjust the seat using the mechanical controls, if available.
+
+**6. Postconditions**  
+- After a successful interaction, the seat position is adjusted according to the user’s preference.  
+- The seat position is saved and associated with the user profile.  
+- The system is capable of recalling the saved position upon future use.  
+- If the seat adjustment was unsuccessful due to a system error, the vehicle notifies the user and temporarily reverts to manual control.

@@ -1,0 +1,33 @@
+**Technical Specifications for Sub-System: Integrating Emergency Alerts in Vehicle Dashboard**
+
+**1. Title**  
+Integrating Emergency Alerts in Vehicle Dashboard
+
+**2. Functional Description**  
+The Integrating Emergency Alerts in Vehicle Dashboard sub-system is designed to provide real-time notifications to the vehicle driver in the event of an emergency. The system will detect potential hazards such as collisions, mechanical failures, or environmental dangers, and alert the driver through both visual and auditory signals on the dashboard. The alerts will be presented in a clear and concise manner, allowing the driver to take necessary actions swiftly to ensure safety.
+
+**3. Enabling Conditions**  
+- The vehicle's dashboard display is operational and capable of rendering notifications.
+- The vehicle's onboard sensors (e.g., collision detection, braking sensors, and mechanical monitoring systems) are fully functional.
+- The vehicle is equipped with external data inputs (e.g., GPS, live traffic data) for enhanced situational awareness.
+- The emergency alert system is activated and connected to the vehicle's main control system.
+- The driver interface (buttons, touch screen, or other controls) is functioning, enabling acknowledgment or dismissal of alerts.
+
+**4. Trigger Conditions**  
+- Detection of an imminent hazard by onboard sensors (e.g., sudden braking, object detection, vehicle malfunction).
+- A predefined threshold for emergency events is met, such as a collision risk within a certain distance or mechanical failure exceeding safe limits.
+- Receipt of external hazard notifications (e.g., weather alerts, traffic updates, or accident reports) via connected systems.
+- The vehicle's onboard system detects a system malfunction, such as sensor failure or emergency system degradation.
+
+**5. Execution Output**  
+- When a trigger condition is met, the system immediately displays an emergency alert on the dashboard. This alert will include a clear visual icon (e.g., flashing red light or warning symbol) and a text message (e.g., “Collision Warning” or “Mechanical Failure”).
+- The alert will be accompanied by an optional audible signal, such as a beeping sound, to attract the driver’s attention.
+- The driver, upon receiving the alert, can acknowledge or dismiss the notification via the vehicle's interface (e.g., pressing a "Dismiss" button or tapping the screen).
+- If the driver takes no action, the alert will remain active until the emergency condition is resolved or the alert is dismissed manually.
+- The system logs the details of each emergency event, including the type of emergency, the time of occurrence, and the action taken by the driver (acknowledge/dismiss).
+
+**6. Exit Conditions/Exit Conditions**  
+- The alert is cleared from the dashboard once the emergency condition is resolved or the driver dismisses the notification.
+- In the case of a persistent emergency, the system will continue to display the alert until the situation is addressed (e.g., a critical malfunction cannot be cleared by the driver).
+- If the system detects that the alert cannot be triggered due to a malfunction in the alert system, a secondary notification will appear informing the driver of the failure. This alert will direct the driver to seek technical support or take necessary manual precautions.
+- The system logs the event and details of any failure or resolution for future diagnostics and review.

@@ -1,0 +1,30 @@
+**Title**  
+Vehicle Health Monitoring with Automated Reports - Technical Specifications  
+
+**Functional Description**  
+The Vehicle Health Monitoring with Automated Reports sub-system is designed to continuously monitor critical vehicle components, including battery, motor, brake system, and other relevant systems. The system captures real-time data from onboard sensors, processes this data, and generates automated health reports for the vehicle. These reports provide insights into the performance and condition of various components, along with maintenance recommendations and alerts if any system falls below acceptable thresholds. The reports are accessible through the vehicle’s interface, allowing the driver to take action or schedule maintenance when necessary.
+
+**Enabling Conditions**  
+- The vehicle must be equipped with the required sensors for health monitoring (e.g., battery voltage, motor performance, brake system, etc.).  
+- The vehicle’s onboard computer system must be integrated with the health monitoring software, capable of processing incoming data and generating reports.  
+- Network connectivity (Wi-Fi or cellular) must be available to transmit health data for processing and report generation.  
+- The user (vehicle driver) must have authenticated access to the vehicle’s interface or associated app to view and interact with generated reports.  
+- Sufficient power supply and operational status of all monitoring sensors are required for accurate data collection.
+
+**Trigger Conditions**  
+- The system continuously monitors the vehicle's health, triggering data collection for report generation at preset intervals (e.g., every 24 hours or when specific thresholds are met).  
+- If any critical parameters (e.g., battery health, motor performance, brake efficiency) fall below a predefined threshold, the system triggers an immediate report generation.  
+- User interaction, such as selecting the "Vehicle Health" option in the dashboard or requesting a manual health check, can also trigger the system to generate a report.  
+
+**Execution Output**  
+- The system generates a comprehensive health report detailing the current status of key vehicle components, such as battery charge, motor health, and braking system performance.  
+- The report includes predictive maintenance recommendations, such as “battery health at 85%, recommended check in 6 months,” or alerts for immediate action if critical failures are detected.  
+- The user is provided with actionable recommendations, including links to schedule a service appointment or follow-up actions.  
+- The system logs the report for future reference and updates the vehicle’s health history.  
+
+**Exit Conditions/Exit Conditions**  
+- The user successfully receives and reviews the health report, and the system exits the report generation process.  
+- If no critical issues are detected, the system exits with a message indicating that the vehicle’s systems are operating within normal parameters.  
+- In cases where connectivity or sensor issues prevent report generation, the system prompts the user with an error message and suggests next steps (e.g., verifying connectivity, checking sensor status, or contacting customer support).  
+- If the user schedules maintenance or follows through on recommendations, the system logs this action for future reference, and the vehicle health history is updated accordingly.  
+

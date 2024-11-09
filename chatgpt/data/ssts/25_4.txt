@@ -1,0 +1,36 @@
+**Technical Specifications: Smart Adaptive Lighting System for Day/Night Driving (Compliant)**
+
+---
+
+### 1. Title  
+**Smart Adaptive Lighting System for Day/Night Driving**
+
+### 2. Functional Description  
+The Smart Adaptive Lighting System for Day/Night Driving automatically adjusts the vehicle’s lighting based on real-time environmental factors, including light intensity, road curvature, and the presence of other vehicles. The system features automatic transitions between day and night modes, adaptive brightness control, glare reduction, and dynamic headlight adjustments to optimize visibility and minimize distraction for other drivers.
+
+### 3. Enabling Conditions  
+- The system is enabled when the vehicle’s main lighting control is set to "Auto" mode.
+- All sensors, including light sensors, GPS, and cameras, must be properly calibrated and functional.
+- The vehicle's software must be up-to-date to ensure compatibility with the adaptive lighting functions.
+- The Smart Adaptive Lighting System is only active when the vehicle is powered on and in motion.
+- The system will automatically enable itself after the vehicle starts, with no manual activation needed, provided the "Auto" setting is selected.
+
+### 4. Trigger Conditions  
+- The system triggers when the vehicle starts, automatically activating the "Auto" headlight mode.
+- Changes in ambient light (e.g., entering a tunnel, transitioning from day to night) will trigger the system to adjust the headlights accordingly.
+- The system detects road conditions such as curves, hills, or changes in elevation, adjusting the beam pattern to improve visibility.
+- Proximity to other vehicles triggers the system to adapt the light beam to reduce glare and improve safety.
+- In the event of significant changes in external lighting (e.g., streetlights, headlights from oncoming vehicles), the system will automatically adjust the headlight brightness and beam angle.
+
+### 5. Execution Output  
+- The system automatically adjusts the intensity of the headlights based on detected ambient light levels, ensuring optimal visibility.
+- When transitioning from daylight to night or entering low-light environments (e.g., tunnels), the system automatically activates or deactivates headlights, adjusting brightness levels to improve visibility.
+- The beam pattern dynamically changes when approaching curves or hills, illuminating the road more effectively and improving driver awareness.
+- The system adapts to the presence of other vehicles, reducing headlight glare for other drivers by adjusting the beam direction and intensity.
+- In case of an error, the system provides an alert to the driver and switches to a safe default mode until the issue is resolved.
+
+### 6. Exit Conditions  
+- The system exits the adaptive mode when the user manually switches to "Manual" lighting settings or deactivates the "Auto" mode.
+- If the system detects a malfunction or failure, it will notify the driver via visual and auditory alerts, then either deactivate the adaptive lighting function or switch to a safer manual mode.
+- Upon resolution of any malfunctions (e.g., sensor recalibration), the system will automatically return to normal operation without requiring further user input.
+- The system automatically disables if the vehicle is parked or powered off, with no adaptive lighting functions active while the vehicle is stationary.

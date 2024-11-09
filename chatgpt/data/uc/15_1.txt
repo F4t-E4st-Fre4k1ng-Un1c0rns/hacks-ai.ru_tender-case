@@ -1,0 +1,31 @@
+**Underpinning Contract for Over-the-Air Software Updates for In-Vehicle Systems**
+
+**1. Title**  
+Over-the-Air Software Updates for In-Vehicle Systems
+
+**2. Goal**  
+The Over-the-Air (OTA) Software Updates for In-Vehicle Systems feature will allow the luxury electric vehicle to receive software updates remotely, without the need for physical connection to a service center. This feature will enhance the vehicle's performance, ensure that it operates with the latest software improvements, security patches, and system optimizations, while providing convenience and reducing the need for manual intervention. The OTA system will provide seamless integration with the vehicle’s infotainment, navigation, and drive control systems, ensuring that all components are always up to date.
+
+**3. Preconditions**  
+- The vehicle must be connected to a reliable internet connection (Wi-Fi or cellular data).  
+- The vehicle’s system must support OTA updates.  
+- The user must have a registered account with the vehicle's manufacturer and have consented to receive OTA updates.  
+- There must be sufficient battery charge in the vehicle or the vehicle must be plugged into a power source to ensure the update can complete without interruption.  
+- The vehicle should be in park mode, with no ongoing critical tasks like navigation or driving assistance in use.
+
+**4. Main Scenario**  
+1. **Alise** receives a notification on the vehicle's infotainment screen stating that an OTA update is available.  
+2. Alise selects "Install Update" on the infotainment screen.  
+3. The vehicle’s system begins downloading the update over a Wi-Fi or cellular connection.  
+4. Once the download is complete, the system prompts Alise to confirm installation.  
+5. After confirmation, the vehicle restarts to apply the update, and Alise is notified once the update is successfully installed and the system is ready for use.
+
+**5. Alternative Scenario**  
+1. **Bob** receives a notification indicating that an OTA update is available, but the vehicle is not connected to a stable Wi-Fi or cellular network.  
+2. Bob attempts to start the update, but the system displays an error message, advising that a stable connection is required.  
+3. Bob ensures that the vehicle is connected to a Wi-Fi network or has cellular data enabled.  
+4. If the connection is restored, Bob can retry the update process.  
+5. If the connection cannot be established, the system will prompt Bob to try again later and will allow the option to schedule the update for a more convenient time.
+
+**6. Postconditions**  
+After a successful update, the vehicle’s in-vehicle systems will operate with the latest software versions, including performance enhancements, bug fixes, and security patches. The user will receive a confirmation notification, and the vehicle will function optimally with all new features enabled. The system will be fully up to date, ensuring the vehicle benefits from the most current improvements in user experience, safety, and efficiency.

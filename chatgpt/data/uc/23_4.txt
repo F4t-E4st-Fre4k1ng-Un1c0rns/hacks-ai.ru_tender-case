@@ -1,0 +1,36 @@
+**Title:**  
+Integration of Social Media Platforms into Infotainment
+
+**Goal:**  
+This subsystem allows users to seamlessly connect, view, and interact with their social media platforms through the vehicle’s infotainment system. It enables real-time access to notifications, messages, feeds, and posts without the need to use an external device. This enhances user convenience, keeps users engaged, and maintains a luxury user experience with minimal distractions.
+
+**Preconditions:**  
+- The user must have a compatible social media account (e.g., Facebook, Instagram, Twitter) and be logged in through the vehicle’s infotainment system.
+- The vehicle’s infotainment system must be connected to the internet, either via Wi-Fi or the vehicle’s mobile data connection.
+- The user has enabled necessary permissions for social media integration in the vehicle’s system settings.
+
+**Main Scenario:**  
+1. **User Action:** Alice selects the "Social Media" option on the infotainment screen.  
+   **System Response:** The system displays a list of available social media platforms integrated with the infotainment.
+
+2. **User Action:** Alice chooses a platform, such as Instagram, and taps to view her feed.  
+   **System Response:** The system retrieves and displays Alice’s recent Instagram feed in a simplified, non-distracting format.
+
+3. **User Action:** Alice taps on a post to view additional details or comments.  
+   **System Response:** The system expands the selected post, showing comments and basic engagement options (e.g., like, share, comment).
+
+4. **User Action:** Alice responds to a friend’s comment via voice command.  
+   **System Response:** The system converts Alice’s voice message to text and posts her response.
+
+5. **User Action:** Alice selects the "Close" button to return to the main infotainment screen.  
+   **System Response:** The system exits the social media platform view and returns to the main infotainment menu.
+
+**Alternative Scenario:**  
+- **Scenario:** Alice attempts to access her social media feed but the internet connection is unstable or unavailable.  
+  **Response:** The system displays a message indicating "Connection Unavailable. Please check your internet connection and try again." Alice can retry once the connection is restored or return to the main infotainment screen.
+
+- **Scenario:** The selected social media platform is undergoing maintenance.  
+  **Response:** The system displays a message: "Platform temporarily unavailable due to maintenance. Please try again later." Alice can exit or select another platform.
+
+**Postconditions:**  
+After interacting with the social media integration feature, Alice is able to stay updated with her social network without requiring her mobile device. The infotainment system exits smoothly to the main menu, ensuring no active social media sessions are left open and data privacy is preserved.

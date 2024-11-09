@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|------------------|--------------|
+| **1. Limited Access to Messaging Features**: UC specifies full interaction capabilities, including responding to messages, while SSTS restricts access to messaging features when the vehicle is in motion. | "Interactive functions are restricted for safety, with access primarily intended for stationary use." |
+| **2. Automatic Log-Out Requirement**: UC specifies that users remain logged in unless manually logging out, whereas SSTS requires re-authentication on each ignition cycle. | "Re-authentication is required upon each ignition cycle." |
+| **3. Feed Limitation on Rich Media**: UC states users should view full feeds with all post types, while SSTS only supports a limited feed without rich media content. | "The infotainment system displays a limited feed showing recent social media updates." |
+| **4. Automatic Log-Out Due to Inactivity**: UC requires log-out only when selected manually or at vehicle power-off, but SSTS specifies automatic log-out after 5 minutes of inactivity. | "The system logs the user out of social media applications automatically after 5 minutes of inactivity." |
+| **5. Restrictive Access Based on Environmental Safety**: UC permits full access to social media apps when stationary, while SSTS restricts access based on additional environmental conditions (e.g., low visibility or high passenger load). | "The system may limit access based on environmental safety conditions or high passenger load to reduce distractions." |

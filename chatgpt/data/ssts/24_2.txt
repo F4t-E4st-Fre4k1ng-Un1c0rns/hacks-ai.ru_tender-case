@@ -1,0 +1,33 @@
+**Technical Specifications for Automatic Detection of Tire Pressure & Temperature Sub-System**
+
+---
+
+**1. Title**  
+Technical Specifications for the Automatic Detection of Tire Pressure & Temperature Sub-System
+
+**2. Functional Description**  
+The Automatic Detection of Tire Pressure & Temperature sub-System is designed to continuously monitor the pressure and temperature of each tire in real-time. It provides real-time updates to the user through the vehicle's infotainment system and generates alerts when tire pressure or temperature falls outside the safe operating ranges. The system supports the vehicle's performance and safety by identifying potential tire issues before they become critical, helping ensure optimal vehicle handling and efficiency.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with tire sensors capable of measuring both tire pressure and temperature. These sensors must be correctly installed and calibrated according to the manufacturer’s specifications.  
+- The onboard diagnostic system (OBD) interface must be functional, allowing the vehicle’s sensors to communicate data to the infotainment and monitoring systems.  
+- The vehicle's electrical system must be capable of providing continuous power to the tire sensors and the system for real-time monitoring.  
+- The system should be integrated into the vehicle’s central user interface, allowing the driver to view tire status information directly on the dashboard display.  
+- The system must be able to operate under typical driving conditions, including varying speeds, temperatures, and external factors such as road surface conditions.
+
+**4. Trigger Conditions**  
+- A deviation in tire pressure or temperature from the predefined safe thresholds (e.g., tire pressure too high or too low, or tire temperature exceeding safe limits) will trigger an alert.  
+- On vehicle startup, the system will automatically perform a self-check, assessing each tire's pressure and temperature and displaying the current readings on the infotainment screen.  
+- Loss of communication between the sensors and the vehicle’s monitoring system will trigger a system error and notify the user via the display.  
+- When a tire issue is detected, the system will initiate an alert, including both visual and auditory signals, to prompt the user to take corrective action.
+
+**5. Execution Output**  
+- The system continuously monitors and updates the tire pressure and temperature readings, displaying the real-time data on the vehicle's dashboard.  
+- If an abnormal condition is detected (e.g., low tire pressure or high tire temperature), the system outputs a warning to the user, displaying the affected tire and the specific issue (e.g., "Low Pressure in Front Left Tire").  
+- In the event of a malfunction or sensor disconnection, the system outputs an error message advising the user to check sensor connections or consult the vehicle manual for troubleshooting.  
+- After resolving any issues, the system will automatically resume normal monitoring and display of tire conditions.
+
+**6. Exit Conditions/Exit Conditions**  
+- The system will exit the alert mode and return to normal monitoring once the tire pressure and temperature are within safe operating ranges. The tire condition data will be updated and displayed continuously.  
+- If a sensor malfunction or error occurs, the system will temporarily stop monitoring and exit the real-time data display. Once the issue is resolved (e.g., sensor reconnected, calibration complete), the system will automatically resume normal operation.  
+- If all tire conditions are optimal and no issues are detected, the system will continue to monitor and update tire status, with no further action required by the user.

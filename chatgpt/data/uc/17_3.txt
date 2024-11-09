@@ -1,0 +1,47 @@
+**Underpinning Contract: Remote Control of Vehicle Features via Mobile App**
+
+**1. Title**  
+Remote Control of Vehicle Features via Mobile App
+
+**2. Goal**  
+The sub-System "Remote Control of Vehicle Features via Mobile App" enables users to remotely control specific features of their luxury electric vehicle through a mobile application. This feature allows the user to interact with various vehicle functionalities such as locking/unlocking doors, adjusting climate control settings, activating headlights, and monitoring vehicle status, all from the convenience of their smartphone. The goal is to provide a seamless and intuitive user experience, enhancing convenience, security, and control for the vehicle owner.
+
+**3. Preconditions**  
+- The vehicle must be within range of a mobile network or Wi-Fi connection.
+- The user must have the mobile app installed and registered with their vehicle.
+- The mobile app must be connected to the vehicle via a secure and authorized Bluetooth or cellular connection.
+- The user must have valid login credentials and necessary permissions to access vehicle features remotely.
+
+**4. Main Scenario**  
+1. **User Action:** Alise opens the mobile app and logs into the account associated with her luxury electric vehicle.  
+   **Sub-System Response:** The app successfully authenticates Alise and connects to the vehicle’s system.  
+   
+2. **User Action:** Alise selects the "Climate Control" feature from the app's main menu.  
+   **Sub-System Response:** The app displays the current interior temperature of the vehicle and options to increase or decrease the temperature.  
+   
+3. **User Action:** Alise sets the desired temperature to 22°C.  
+   **Sub-System Response:** The vehicle’s climate control system adjusts the interior temperature to 22°C. The app shows confirmation that the change was successful.  
+   
+4. **User Action:** Alise taps the "Lock Doors" option to ensure the vehicle is secure.  
+   **Sub-System Response:** The vehicle locks all doors, and the app provides a notification confirming that the doors are locked.  
+   
+5. **User Action:** Alise checks the status of the vehicle’s battery charge via the app.  
+   **Sub-System Response:** The app displays the current battery charge level and estimated range, allowing Alise to monitor the vehicle’s energy status.
+
+**5. Alternative Scenario**  
+1. **User Action:** Bob opens the mobile app and tries to log in, but his credentials are incorrect.  
+   **Sub-System Response:** The app displays an error message stating, "Invalid login credentials," and prompts Bob to try again or reset his password.  
+   
+2. **User Action:** Bob attempts to connect to the vehicle, but the app shows "Vehicle Unavailable."  
+   **Sub-System Response:** The app notifies Bob that the vehicle is currently out of range or disconnected, and suggests ensuring that the vehicle is within range of a mobile network or Wi-Fi connection.  
+   
+3. **User Action:** Bob tries to use the "Climate Control" feature, but the app indicates "Feature temporarily unavailable."  
+   **Sub-System Response:** The app alerts Bob that the feature cannot be accessed due to a temporary system failure or network issue, and suggests trying again later.  
+   
+4. **User Action:** Bob attempts to lock the vehicle’s doors remotely, but receives a "Lock Failed" message.  
+   **Sub-System Response:** The app informs Bob that the locking mechanism could not be activated, possibly due to a network issue or vehicle malfunction, and provides troubleshooting instructions or alternative actions.
+
+**6. Postconditions**  
+- After successful interaction, the user’s desired action is completed. For example, if Alise adjusted the vehicle’s climate control to 22°C, the interior temperature will be set accordingly.
+- The vehicle’s status (locked, climate settings, battery charge, etc.) will be updated and reflected in real-time on the mobile app.
+- The user will receive appropriate confirmation notifications upon successful completion of each action, ensuring they are aware of the outcome.

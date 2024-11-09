@@ -1,0 +1,30 @@
+**Technical Specifications: Remote Engine Start/Stop via Mobile App**
+
+1. **Title**  
+   Remote Engine Start/Stop via Mobile App
+
+2. **Functional Description**  
+   The Remote Engine Start/Stop via Mobile App sub-system allows the user to remotely start and stop the vehicle’s engine through a dedicated mobile application. The system ensures that commands are executed under safe conditions, verifying that the vehicle is in a proper state (e.g., in "Park" mode and not in motion) before allowing remote engine control. The mobile app will provide real-time feedback on the vehicle’s status and confirm successful execution or report failure if conditions are not met.
+
+3. **Enabling Conditions**  
+   - The mobile app must be installed on a compatible device (smartphone or tablet).
+   - The user must be logged into the mobile app with valid credentials.
+   - The vehicle must be within a range that allows for a stable connection (e.g., sufficient mobile network signal).
+   - The vehicle must be in a state that allows engine start/stop (e.g., in "Park" mode, doors unlocked, and no safety restrictions).
+   - The vehicle’s system must have sufficient battery power and readiness to accept remote commands.
+
+4. **Trigger Conditions**  
+   - The user selects the "Start Engine" or "Stop Engine" button within the mobile app.
+   - The app establishes a secure and active connection to the vehicle, verifying that the vehicle is ready to receive the command.
+   - The vehicle is confirmed to be in a valid state for the command (e.g., in "Park" mode, doors unlocked, no other safety conditions preventing the action).
+   - If any required conditions are not met (e.g., the vehicle is moving, or there is a communication issue), the app will display a notification with instructions for resolving the issue.
+
+5. **Execution Output**  
+   - **Start Engine**: When the "Start Engine" command is successfully received and executed, the vehicle's engine will start, and the app will display a success notification along with real-time status updates (e.g., engine status, battery level).
+   - **Stop Engine**: When the "Stop Engine" command is successfully received and executed, the vehicle’s engine will turn off, and the app will display a success notification with an updated vehicle status.
+   - **Failure Notification**: If the command fails due to an unmet condition (e.g., vehicle is in motion, connectivity issue), the app will display an error message and offer troubleshooting steps or recommendations (e.g., check network connection, ensure the vehicle is in "Park" mode).
+
+6. **Exit Conditions**  
+   - After successful engine start/stop, the app will return to the main vehicle status page or log the user out, depending on their preferences.
+   - If the system encounters an error, the app will exit the remote control mode and prompt the user with an error notification, detailing the cause of failure and next steps (e.g., retry command, check vehicle state).
+   - The app ensures secure disconnection from the vehicle after each interaction, preventing unauthorized access.

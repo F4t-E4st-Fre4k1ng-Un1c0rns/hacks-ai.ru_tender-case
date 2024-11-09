@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The SSTS does not include a comprehensive battery level check before updates begin, while the UC specifies it. | "The battery charge must be above 15% to start the update process." |
+| The UC requires users to be able to "Schedule for Later" updates, but the SSTS only offers "Install Now." | "The user may manually initiate an update check via the vehicle’s infotainment display or mobile app." |
+| The SSTS lacks detailed progress indicators and does not provide download speed or time remaining, which are mentioned in the UC. | "The system displays progress indicators during the download and installation process, including percentage complete and estimated time remaining." |
+| The UC specifies that the system should resume downloads from the last known position after interruptions, whereas the SSTS restarts the process if interrupted. | "If a network issue or other interruption occurs, the system will attempt to resume the download from the last known position once connectivity is restored." |
+| The UC includes an option for a notification about specific features added or enhanced in the update, which is not mentioned in the SSTS. | "The vehicle displays a completion notification with an optional summary of the changes made by the update." |

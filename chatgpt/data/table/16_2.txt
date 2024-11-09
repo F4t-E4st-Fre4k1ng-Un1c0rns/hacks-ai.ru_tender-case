@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC expects natural language processing for voice commands, whereas SSTS specifies predefined commands. | "The system is expected to perform based on predefined commands rather than full natural language flexibility." |
+| The UC requires the system to activate automatically when the vehicle is in standby or operational mode, while SSTS only mentions activation via a button or prompt. | "The system must be activated by a user command or a manual button to engage the voice recognition feature." |
+| The UC expects clear feedback to the user after a command is executed, but the SSTS only states confirmation via display with no guarantee of immediate feedback. | "The system will output confirmation via the vehicle’s display, confirming the action has been performed." |
+| UC describes fallback actions for system failure, but SSTS provides limited error handling, with no mention of audible or visual cues for errors. | "In case of an error (e.g., invalid command, system malfunction), the system will notify the user via the vehicle’s display and exit to a manual control mode." |
+| The UC requires seamless integration, but the SSTS specifies a 2-3 second processing time, which may impact real-time control. | "The system should process the voice command within 2-3 seconds of receiving input and execute the corresponding action promptly." |

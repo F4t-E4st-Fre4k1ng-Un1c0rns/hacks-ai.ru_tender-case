@@ -1,0 +1,44 @@
+**Underpinning Contract for Real-Time Parking Availability Notifications**
+
+**1. Goal**  
+The Real-Time Parking Availability Notifications sub-System is designed to provide luxury electric vehicle (EV) owners with real-time updates on parking availability in their proximity. The sub-System will allow users to quickly determine whether parking spaces are available at nearby locations, ensuring convenience and enhancing the overall driving experience. It will notify users when parking spaces become available or are nearing full capacity, allowing for better planning and improved use of time.
+
+**2. Preconditions**  
+- The user must be registered in the system with a valid account and have the necessary permissions to use the parking notification feature.  
+- The vehicle must be equipped with the necessary hardware to interact with the sub-System, such as a compatible in-car system or mobile application.
+- The parking location data must be collected and processed by sensors, cameras, or external APIs integrated with the system for real-time updates.  
+- The system must have a stable network connection to receive real-time updates on parking availability.
+
+**3. Main Scenario**  
+1. **User Action**: Bob opens the luxury electric vehicle app on his smartphone or car interface.  
+   **System Response**: The app displays a list of nearby parking locations with real-time availability status (e.g., spaces available, almost full, full).  
+   
+2. **User Action**: Bob selects a parking location to view more details.  
+   **System Response**: The app provides additional information, such as the number of spaces available, proximity, parking fees (if applicable), and estimated time until spaces are full or freed up.  
+
+3. **User Action**: Bob chooses to receive notifications for a specific parking location.  
+   **System Response**: The system confirms that Bob will be notified when parking spaces become available or when the space is almost full.  
+
+4. **User Action**: Bob drives to the selected parking location.  
+   **System Response**: The system tracks Bob's progress and updates him with the status of the selected parking location in real-time (e.g., spaces available, spaces almost full).  
+
+5. **User Action**: Upon arrival, Bob receives a notification indicating that a parking space is available.  
+   **System Response**: The system confirms Bob’s ability to park in the available space, and provides directions for the best parking spot.
+
+**4. Alternative Scenario**  
+1. **User Action**: Alise opens the luxury electric vehicle app to check for parking availability, but the system is unable to retrieve real-time data due to a network failure.  
+   **System Response**: The app displays an error message indicating that parking availability cannot be updated at the moment and recommends checking the status later.  
+
+2. **User Action**: Alise selects a nearby parking location, but no parking spots are available or the location is too far.  
+   **System Response**: The system notifies Alise that there are no available spaces at the selected location and suggests alternative nearby parking options with available spaces.  
+
+3. **User Action**: Alise tries to enable notifications for a location, but the system cannot send notifications due to connectivity issues.  
+   **System Response**: The app informs Alise that notifications cannot be sent at the moment and that she should try again later.  
+
+4. **User Action**: Alise drives toward the parking location, but the system does not update in real-time due to GPS inaccuracies.  
+   **System Response**: The system provides a general status of parking availability without real-time updates, suggesting Alise use another method for confirmation.  
+
+**5. Postconditions**  
+- After successful interaction, Bob receives accurate and timely notifications about parking availability, ensuring a smooth parking experience.  
+- The system updates the status of the selected parking locations, ensuring that Bob and other users are informed of real-time changes in parking space availability.  
+- The app logs the user’s interaction, enabling future improvements in the system’s responsiveness and accuracy.  

@@ -1,0 +1,36 @@
+**Underpinning Contract: Remote Engine Start/Stop via Mobile App**
+
+1. **Goal**  
+   The Remote Engine Start/Stop via Mobile App feature will provide users with the ability to start and stop their luxury electric vehicle’s engine remotely through a mobile application. This will enable users to control their vehicle from a distance, enhancing convenience, comfort, and functionality.
+
+2. **Preconditions**  
+   - The vehicle must be within the coverage area for a stable mobile connection.  
+   - The user must have an active and valid account within the mobile application associated with the vehicle.  
+   - The vehicle must be in a state where remote starting and stopping is possible (e.g., no safety restrictions, such as the car being in gear or locked).  
+   - The user must have the mobile application installed on a compatible smartphone or device.
+
+3. **Main Scenario**  
+   1. **User Action**: Bob opens the mobile app and logs in with his credentials.  
+      **Sub-System Response**: The app authenticates Bob's credentials and displays a list of his connected vehicles.  
+   2. **User Action**: Bob selects his luxury electric vehicle from the list.  
+      **Sub-System Response**: The app establishes a secure connection with the vehicle, displaying the vehicle’s status (engine state, battery level, etc.).  
+   3. **User Action**: Bob taps the "Start Engine" button on the app to start the vehicle remotely.  
+      **Sub-System Response**: The app sends a signal to the vehicle to initiate the engine start, and the vehicle starts if all conditions are met. A confirmation message appears in the app.  
+   4. **User Action**: Bob taps the "Stop Engine" button on the app to turn off the vehicle.  
+      **Sub-System Response**: The app sends a signal to the vehicle to stop the engine. The vehicle's engine shuts off, and a confirmation message appears in the app.  
+   5. **User Action**: Bob logs out of the app or closes it after completing the interaction.  
+      **Sub-System Response**: The app disconnects from the vehicle and logs Bob out of his account, ensuring secure access.
+
+4. **Alternative Scenario**  
+   1. **User Action**: Bob attempts to start the vehicle remotely, but the app shows an error message.  
+      **Sub-System Response**: The app checks the vehicle's current status and displays an error if conditions prevent remote starting (e.g., vehicle is already running, or there is no mobile connection). A recommendation or instruction for resolving the issue (such as ensuring the vehicle is in "park" mode) is provided.  
+   2. **User Action**: Bob tries to stop the engine remotely, but the app indicates the vehicle is unreachable.  
+      **Sub-System Response**: The app displays a message stating that the vehicle cannot be contacted due to a poor mobile connection or another issue, and provides troubleshooting steps (e.g., ensuring the vehicle is within range or re-trying after a few moments).  
+   3. **User Action**: Bob faces repeated connection issues.  
+      **Sub-System Response**: The app suggests contacting technical support or checking the vehicle’s onboard system for connectivity issues.
+
+5. **Postconditions**  
+   After successful interaction with the sub-system:  
+   - If the engine has been started, the vehicle is running and ready for use.  
+   - If the engine has been stopped, the vehicle’s engine is turned off, and it is in a safe, idle state.  
+   - The mobile app confirms the action with a notification and logs the event for record-keeping, ensuring all actions are properly logged for security and user convenience.

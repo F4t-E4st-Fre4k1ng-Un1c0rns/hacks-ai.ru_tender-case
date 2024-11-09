@@ -1,0 +1,65 @@
+**Underpinning Contract: Voice-Activated Climate Control System**
+
+---
+
+**1. Goal**
+
+The Voice-Activated Climate Control System enables users to control the climate settings of their luxury electric vehicle through voice commands. This sub-system will allow users to adjust temperature, air conditioning, seat heating, and ventilation with ease, enhancing comfort and convenience while driving. The system is designed to understand and respond to a variety of natural language commands, providing an intuitive and hands-free user experience.
+
+---
+
+**2. Preconditions**
+
+- The Voice-Activated Climate Control System is pre-installed and fully integrated into the vehicle’s internal interface.
+- The user has activated the system by enabling the vehicle’s voice recognition feature, either through a dedicated button or voice prompt.
+- The system is connected to the vehicle’s climate control and sensors.
+- The vehicle must be in operation or in a standby mode with the climate control system powered on for the Voice-Activated Climate Control System to function properly.
+
+---
+
+**3. Main Scenario**
+
+1. **User Action**: Bob enters the vehicle and says, “Set the temperature to 22 degrees Celsius.”
+   - **Sub-System Response**: The system processes the command and adjusts the vehicle’s internal temperature to 22 degrees Celsius.
+
+2. **User Action**: Bob says, “Increase the air conditioning.”
+   - **Sub-System Response**: The system detects the command and increases the cooling level of the air conditioning.
+
+3. **User Action**: Bob says, “Turn on the seat heater to level 2.”
+   - **Sub-System Response**: The system adjusts the seat heater to the second level of warmth.
+
+4. **User Action**: Bob says, “Activate the ventilation in the front seats.”
+   - **Sub-System Response**: The system initiates the seat ventilation, ensuring air circulation for comfort.
+
+5. **User Action**: Bob says, “Turn off the air conditioning.”
+   - **Sub-System Response**: The system responds by deactivating the air conditioning, and the vehicle returns to the default climate settings.
+
+---
+
+**4. Alternative Scenario**
+
+1. **User Action**: Bob enters the vehicle and says, “Set the temperature to 22 degrees Celsius.”
+   - **Sub-System Response**: The system is unresponsive or fails to set the temperature due to a malfunction.
+   
+   **Fallback Action**: Bob manually adjusts the temperature through the vehicle’s touch-screen or physical buttons.
+
+2. **User Action**: Bob says, “Increase the air conditioning.”
+   - **Sub-System Response**: The system fails to recognize the command because of ambient noise or interference.
+   
+   **Fallback Action**: Bob repeats the command more clearly, or switches to manual control to adjust air conditioning.
+
+3. **User Action**: Bob says, “Activate the seat heater to level 3.”
+   - **Sub-System Response**: The system responds with an error message, indicating that the seat heating feature is temporarily unavailable due to a malfunction or system restriction.
+   
+   **Fallback Action**: Bob adjusts the seat heating through manual settings, or waits for the system to become operational again.
+
+4. **User Action**: Bob says, “Turn off the air conditioning,” but the system does not respond due to a connectivity issue.
+   - **Sub-System Response**: The system remains in its current state.
+   
+   **Fallback Action**: Bob manually switches off the air conditioning through the vehicle's control panel.
+
+---
+
+**5. Postconditions**
+
+After successful interaction with the Voice-Activated Climate Control System, the desired changes to the vehicle’s climate settings will be implemented. The system will adjust the temperature, air conditioning, seat heating, or ventilation according to the user’s voice command. These settings will remain in effect until modified again, either by voice command or manual adjustment by the user. The system will also provide visual feedback on the vehicle's display, confirming the applied changes.

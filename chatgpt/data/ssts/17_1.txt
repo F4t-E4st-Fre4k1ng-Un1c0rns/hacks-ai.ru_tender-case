@@ -1,0 +1,37 @@
+**1. Title**  
+Remote Control of Vehicle Features via Mobile App
+
+**2. Functional Description**  
+This sub-system enables users to remotely interact with their vehicle through a dedicated mobile app. It supports the following features:  
+- Locking and unlocking the vehicle  
+- Adjusting the climate control settings (e.g., temperature, fan speed)  
+- Monitoring the vehicle’s real-time location using GPS  
+- Enabling or disabling the vehicle’s security system  
+The mobile app allows seamless interaction with these features, providing users with a convenient way to manage their vehicle from anywhere with an internet connection.
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with the necessary hardware and software for remote communication, including GPS, cellular connectivity, and a secure communication interface for the mobile app.  
+- The user must have an authenticated account with the vehicle manufacturer’s mobile app platform, including appropriate permissions for remote access to the vehicle’s features.  
+- The user’s mobile device must be installed with the official app, and it must have an active internet connection (either Wi-Fi or cellular data).  
+- The vehicle must be within the operational range of the mobile app (e.g., the vehicle must be within a network range for cellular or Wi-Fi communication).  
+- The vehicle’s software must be up to date to ensure compatibility with the mobile app features.
+
+**4. Trigger Conditions**  
+- The user opens the mobile app and successfully logs in to their account.  
+- The user selects a vehicle from the list of available vehicles in the app.  
+- The user taps a control button on the app’s interface to initiate an action (e.g., locking the doors, adjusting the climate control, or tracking the vehicle’s location).  
+- A scheduled event, such as a set temperature adjustment or security system activation, triggers the system automatically if configured by the user.  
+- The user sends a voice command (if applicable) or a custom gesture to trigger a predefined vehicle action (e.g., remote start).
+
+**5. Execution Output**  
+- **Action Confirmation:** Upon the user initiating an action, the app will display a confirmation message that the command has been received by the vehicle. For example, if the user locks the vehicle, the app will show "Vehicle Locked" and update the status.  
+- **Status Updates:** The system will update the vehicle's status in real-time (e.g., showing whether the doors are locked or unlocked, the current temperature setting, or the vehicle’s location on a map).  
+- **Error Feedback:** If an action fails (e.g., vehicle out of range, connectivity issues), the app will display an appropriate error message, such as "Unable to connect to the vehicle" or "Action failed due to poor signal."  
+- **Real-time Tracking:** If the user checks the vehicle’s location, the app will display the vehicle's current location on a map with real-time GPS updates.  
+- **Security Notifications:** When the vehicle’s security system is enabled or disabled, the app will display a notification confirming the action, such as "Security System Activated."
+
+**6. Exit Conditions**  
+- **Successful Execution:** After the user performs an action (e.g., locking the vehicle), the vehicle's features are updated, and the app confirms the action with real-time feedback.  
+- **Completion of Scheduled Events:** For scheduled actions like pre-conditioning the cabin or setting security modes, once the action is performed, the app will notify the user that the event has been completed successfully.  
+- **Failed Execution:** If the action cannot be completed (e.g., due to network issues or vehicle inoperability), the app will provide the user with an error message, and the system will return to its previous state.  
+- **Session Termination:** When the user logs out of the mobile app or disconnects from the vehicle, the system will terminate the remote control session, ensuring the vehicle’s features are no longer remotely accessible until the user logs in again.

@@ -1,0 +1,39 @@
+**Underpinning Contract: Integrating Emergency Alerts in Vehicle Dashboard**
+
+---
+
+**Goal**  
+The "Integrating Emergency Alerts in Vehicle Dashboard" sub-system aims to provide an immediate and clear communication channel for the driver in case of an emergency, ensuring safety and timely action. It will feature visual and audible alerts for critical events such as accidents, sudden health issues, or vehicle malfunctions. The alerts will be displayed on the vehicle’s dashboard, alongside relevant action prompts, ensuring the driver is informed and can respond appropriately.
+
+---
+
+**Preconditions**  
+- The vehicle is equipped with an advanced digital dashboard system.
+- The emergency alert system is connected to vehicle sensors, external networks, and emergency service protocols.
+- The driver has enabled emergency alerts in the system settings, either through a first-time setup or as part of the vehicle's initial configuration.
+- The vehicle’s internal diagnostic systems are active and functional.
+
+---
+
+**Main Scenario**  
+1. **Driver starts the vehicle**: Alise enters the vehicle and starts the engine. The system initializes and ensures the emergency alert feature is active.
+2. **Emergency alert triggers**: Bob, while driving, experiences a sudden health issue (e.g., a heart attack). The system detects the emergency using biometric monitoring sensors integrated into the seat.
+3. **Emergency alert is displayed**: The vehicle’s dashboard lights up with a flashing red alert message: “Health Emergency Detected! Pull over and call for help.”
+4. **Driver interacts with the alert**: Bob presses the "Call Emergency Services" button on the dashboard. The system connects to the nearest emergency services and sends relevant data (location, health status).
+5. **Emergency response initiated**: The dashboard displays a confirmation message: “Emergency services have been contacted. Stay calm. Assistance is on the way.”
+
+---
+
+**Alternative Scenario**  
+1. **System failure or sensor issue**: Alise encounters an issue where the emergency alert system does not respond after a trigger event, such as an accident or health issue. 
+2. **Alert failure notification**: The dashboard displays an error message: “Emergency alert system is unavailable. Please manually contact emergency services.”
+3. **Manual action required**: Alise manually uses the vehicle’s communication system or her phone to dial emergency services.
+4. **Fallback procedure**: In the case of a malfunctioning system, Bob receives additional prompts to ensure emergency services are contacted through alternative means (e.g., phone connection to emergency service or roadside assistance).
+5. **Reactivation**: Once the emergency system is back online (via a system update or repair), the system will notify the driver and offer to restore normal alert operations.
+
+---
+
+**Postconditions**  
+- After successful interaction with the system, emergency services have been notified, and the vehicle has transmitted the relevant data (location, health status, vehicle diagnostics) to responders.
+- The driver is provided with a confirmation of action taken, and the system remains active in monitoring the vehicle’s safety status until the emergency is resolved.
+- If the emergency alert system fails and requires manual intervention, the driver has been instructed to contact emergency services directly, ensuring continuous support.

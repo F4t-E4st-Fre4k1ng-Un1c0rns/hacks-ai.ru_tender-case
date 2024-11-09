@@ -1,0 +1,29 @@
+**Underpinning Contract: Automatic Detection of Tire Pressure & Temperature**
+
+**1. Goal**
+The Automatic Detection of Tire Pressure & Temperature sub-System provides the ability to monitor the tire pressure and temperature of the vehicle in real-time. This system ensures the safety, performance, and efficiency of the luxury electric car by continuously assessing tire conditions and providing alerts for maintenance or adjustments as necessary. It enhances the driving experience by offering peace of mind to the driver through proactive monitoring.
+
+**2. Preconditions**
+- The vehicle is equipped with sensors installed in each tire to measure pressure and temperature.
+- The system is properly calibrated and connected to the car's onboard diagnostics and display systems.
+- The user has the car's infotainment system activated, allowing access to vehicle status and diagnostics.
+- The user is aware that the system continuously monitors tire conditions during driving and will provide alerts if any anomalies are detected.
+
+**3. Main Scenario**
+1. The user, Alise, starts the vehicle and activates the infotainment system.
+2. The Automatic Detection of Tire Pressure & Temperature sub-System performs an initial diagnostic check and displays the current tire pressure and temperature readings on the dashboard.
+3. While driving, the system continuously monitors tire conditions in real-time, displaying updated readings every few minutes on the infotainment screen.
+4. If any tire pressure or temperature reaches unsafe levels (too high or too low), the sub-System triggers a warning on the display and sends an audible alert to the user.
+5. Alise can choose to acknowledge the alert, and the system will log the issue for future reference and suggest possible actions, such as tire inflation or temperature adjustment.
+
+**4. Alternative Scenario**
+1. Bob starts the vehicle but notices that the tire pressure and temperature readings do not appear on the display screen.
+2. Bob checks the infotainment system, but the system indicates a communication error with the tire sensors.
+3. The sub-System displays a troubleshooting message advising Bob to check sensor connectivity or consult the vehicle manual.
+4. If the issue persists, Bob is instructed to contact customer support for further diagnostics or service.
+5. The system logs the error and ensures the user is aware of the need for system maintenance before normal functionality can resume.
+
+**5. Postconditions**
+- After successful interaction with the sub-System, the user is provided with updated and accurate tire pressure and temperature information, ensuring that the tires are in optimal condition for driving.
+- In the case of an alert, the user is informed of any necessary actions, such as inflating tires or managing tire temperature, to maintain safety and performance.
+- If any issues are resolved, the system returns to normal operation, continually monitoring and displaying tire conditions without errors.

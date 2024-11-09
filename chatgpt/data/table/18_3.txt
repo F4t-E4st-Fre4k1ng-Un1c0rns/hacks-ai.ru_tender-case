@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS supports storing only one seat position per user, whereas UC specifies multiple seat position profiles per user. | "The system supports only one seat position per user profile, not supporting the concurrent storage of positions for multiple users." |
+| UC specifies the seat adjustment should only be available when the user is seated, but SSTS does not mention this condition. | "The seat is in a neutral or default position at the start of configuration." |
+| SSTS lacks a comprehensive failure recovery process (e.g., manual seat adjustment storage), while UC describes detailed recovery steps for failure scenarios. | "In case of failure, the system displays an error message indicating the issue with seat adjustments, and manual controls may be used temporarily." |
+| UC requires the seat to be adjusted by multiple users with different profiles, but SSTS does not support multiple profiles or switching between them. | "The system supports only one seat position per user profile, rather than multiple positions for each user, as required by the contract." |
+| SSTS does not explicitly mention the need for a system reset or manual control as fallback during system failures, unlike UC which specifies these actions. | "The system detects a failure in the seat adjustment mechanism and displays an error message." |
+| SSTS does not clarify that the seat memory feature should work independently for each user’s profile as required by the UC. | "The system is designed to store one seat position per user profile." |

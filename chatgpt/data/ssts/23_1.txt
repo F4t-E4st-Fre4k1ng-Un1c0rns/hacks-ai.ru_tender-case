@@ -1,0 +1,31 @@
+**Title**  
+Technical Specifications for Integration of Social Media Platforms into Infotainment
+
+**Functional Description**  
+The **Integration of Social Media Platforms into Infotainment** sub-system enables users to seamlessly interact with their social media accounts through the vehicle’s infotainment system. It allows for viewing, liking, commenting, and sharing content from platforms such as Facebook, Instagram, and Twitter. The system is designed to function only when the vehicle is in "Park" mode, ensuring safe interaction. Real-time synchronization with social media is supported, and voice commands are enabled to minimize distraction. Additionally, notifications from social media platforms can be displayed as non-intrusive overlays, ensuring that the user can stay connected while maintaining focus on the driving experience.
+
+**Enabling Conditions**  
+- The vehicle’s infotainment system must be powered on and operational.
+- The vehicle must be connected to the internet via mobile hotspot or built-in connectivity.
+- The user must have active social media accounts and be logged into them through the infotainment system.
+- The vehicle must be in "Park" mode to allow full interaction with the social media integration.
+- The infotainment system should be running the latest software version that supports social media integration.
+
+**Trigger Conditions**  
+- The user selects the "Social Media" option from the infotainment main menu.
+- The system detects that the vehicle is in "Park" mode.
+- The user requests a social media action (e.g., like, comment, or share) using voice recognition or touch controls.
+- The system confirms that the vehicle is connected to the internet, either through a mobile hotspot or the vehicle’s integrated connectivity.
+
+**Execution Output**  
+- Display of social media feeds from the linked accounts on the infotainment screen, including posts, images, and videos.
+- Real-time interaction with social media, allowing the user to like, comment, and share posts through voice commands or touch interface.
+- Notifications from social media platforms displayed as unobtrusive overlays on the screen.
+- Successful synchronization of user actions with social media accounts, such as posting a comment, liking content, or sharing posts, in real-time.
+- The infotainment system confirms that the actions have been successfully completed through visual feedback.
+
+**Exit Conditions**  
+- The user selects the "Home" or "Exit" option to leave the social media interface.
+- The system automatically logs out the user after a predefined period of inactivity to ensure privacy and security.
+- The system returns to the main infotainment screen once the user exits the social media interface or the session ends.
+- The system securely logs out of the social media account when the user exits the social media interface or the vehicle is powered off.

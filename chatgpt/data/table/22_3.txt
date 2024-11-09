@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not mention the feature of providing an estimated time until a parking space is full or freed up, which is required by the UC. | "The system will send notifications when parking spaces become available, when spaces are almost full, or when parking locations are at capacity." |
+| SSTS does not specify the integration with third-party APIs for parking data, which is a requirement in the UC. | "The system must be integrated with local parking sensors, cameras, and third-party APIs that provide live data for parking space availability." |
+| SSTS lacks specific details on user interactions for enabling notifications or selecting parking locations, which is described in more detail in the UC. | "The user selects a specific parking location to monitor and enable notifications for real-time availability." |
+| SSTS does not mention the need for system performance tracking or logging user interactions, which is required by the UC for continuous improvement. | "The system logs the user’s interaction, including data on parking space usage and system performance, for future improvements." |
+| SSTS only mentions general notification outputs but does not specifically include proximity details or detailed status updates, which are required in the UC. | "Real-time status updates of nearby parking locations, indicating availability (e.g., 'Spaces available,' 'Almost full,' 'Full')." |

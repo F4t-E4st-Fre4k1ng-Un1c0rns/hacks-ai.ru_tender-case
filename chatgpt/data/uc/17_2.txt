@@ -1,0 +1,50 @@
+### **Underpinning Contract: Remote Control of Vehicle Features via Mobile App**
+
+---
+
+#### **Goal**
+The **Remote Control of Vehicle Features via Mobile App** sub-System will provide users with the ability to remotely interact with and control various features of their vehicle through a mobile application. The key features include:
+
+1. **Lock/Unlock Doors**: Users can lock or unlock vehicle doors remotely from their mobile app.
+2. **Start/Stop Engine**: Users can start or stop the engine remotely for convenience.
+3. **Climate Control**: Users can set or adjust the interior climate (temperature, air conditioning, etc.) of the vehicle before entering.
+4. **Location Tracking**: Users can view the real-time location of their vehicle on a map for safety and convenience.
+5. **Window Control**: Users can open or close vehicle windows remotely.
+
+---
+
+#### **Preconditions**
+
+1. The vehicle must be equipped with the necessary remote control system and connected to the mobile app.
+2. The mobile app must be installed on a compatible smartphone or tablet and linked to the user’s vehicle account.
+3. The user must have an active internet connection (Wi-Fi or mobile data) on their mobile device.
+4. The vehicle must have a functional battery and be within the range for remote communication to work (e.g., Bluetooth, LTE, or Wi-Fi range).
+5. The user must have proper authorization to access the remote control functions (e.g., valid login credentials, admin permissions for multiple users, etc.).
+
+---
+
+#### **Main Scenario**
+
+1. **Launch Mobile App**: The user, Alise, opens the vehicle’s mobile app on her smartphone.
+2. **Authenticate**: Alise logs into the app using her credentials, which authenticate her access to the vehicle's remote control features.
+3. **Select Desired Feature**: Alise selects the feature she wants to control, such as starting the engine or adjusting the climate.
+4. **Perform Action**: Alise presses the appropriate button on the app to initiate the action, such as pressing "Start Engine" or adjusting the climate settings.
+5. **Action Confirmation**: The system responds by confirming the action, e.g., “Engine Started” or “Climate Set to 72°F,” and displays feedback on the mobile app interface. The vehicle then performs the requested action.
+
+---
+
+#### **Alternative Scenario**
+
+1. **Launch Mobile App**: The user, Bob, opens the mobile app but notices that the vehicle is not responding.
+2. **Check Connectivity**: Bob checks the app and sees an error message indicating that the connection to the vehicle has been lost due to poor network coverage or a system malfunction.
+3. **Action Attempts**: Bob attempts to retry the action, but the vehicle still doesn’t respond. He sees a notification explaining that the remote features are unavailable due to an issue (e.g., connectivity, vehicle battery, or system fault).
+4. **User Prompt**: The app provides an alternative solution or prompts Bob to check the vehicle’s status, suggesting he manually address the issue or contact customer support.
+5. **End of Interaction**: Bob exits the app or retries the action after resolving the issue (e.g., reconnecting to the vehicle, or ensuring the vehicle is in an area with a stable network connection).
+
+---
+
+#### **Postconditions**
+
+- If the interaction is successful, the vehicle will have performed the requested action (e.g., engine started, doors unlocked, or climate adjusted) as confirmed by the mobile app.
+- The system will update the app interface with confirmation notifications and provide real-time feedback on the action taken.
+- The vehicle will maintain the state of the requested feature (e.g., engine remains on, doors remain locked/unlocked, or climate settings remain as configured) until manually changed or the vehicle is turned off.

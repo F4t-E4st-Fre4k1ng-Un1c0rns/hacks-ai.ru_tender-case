@@ -1,0 +1,22 @@
+**Title**  
+Technical Specifications for Integration of Social Media Platforms into Infotainment
+
+**Functional Description**  
+The Integration of Social Media Platforms into the infotainment system provides users with access to social media feeds and the ability to interact with posts directly through the in-car interface. Core interactions include viewing feeds, liking posts, and limited post updates via voice commands, with features designed to prioritize safe interaction.
+
+**Enabling Conditions**  
+- User has an active social media account and has logged into the platform(s) through the infotainment system.
+- The infotainment system is connected to the internet.
+- Necessary permissions are granted for accessing notifications and feeds from social media accounts.
+
+**Trigger Conditions**  
+- The user selects a social media platform via the infotainment menu.
+- The user utilizes voice commands to interact with content or post updates.
+
+**Execution Output**  
+- The infotainment system provides access to the user’s social media feed, enabling content viewing and simple interactions (like, comment, share).
+- For each action, visual confirmation is displayed to the user on the screen.
+
+**Exit Conditions**  
+- The system synchronizes any actions taken during the session with the social media platform.
+- The session remains active until manually logged out or until a preset inactivity timeout concludes.

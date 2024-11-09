@@ -1,0 +1,66 @@
+**Underpinning Contract: Voice-Activated Climate Control System**
+
+---
+
+**Goal:**
+
+The Voice-Activated Climate Control System allows the user to control the climate settings of the vehicle through voice commands. It provides the following abilities to the user:
+
+1. Adjust the cabin temperature by specifying desired temperature settings (e.g., “Set the temperature to 22°C”).
+2. Control air circulation modes such as fan speed, air conditioning, and heating with voice commands (e.g., “Turn on the air conditioning” or “Increase the fan speed”).
+3. Select specific areas of the cabin for air distribution (e.g., “Direct air to the feet” or “Activate the rear-seat air vents”).
+4. Control the defrosting system (e.g., “Defrost the windshield”).
+5. Provide status updates when asked (e.g., “What is the current temperature in the car?”).
+
+---
+
+**Preconditions:**
+
+1. The Voice-Activated Climate Control System is integrated into the vehicle’s main control unit and is activated upon vehicle start-up.
+2. The vehicle must be equipped with the necessary hardware (microphone, speakers, and climate control interface) for voice recognition.
+3. The system is trained to recognize a variety of commands in the user’s preferred language and accent.
+4. User has completed initial setup and calibration, linking their voice profile to the system for personalized responses.
+5. The vehicle must be in operation (engine running or in ‘accessory mode’) for climate control features to be functional.
+
+---
+
+**Main Scenario:**
+
+1. **User Action:** Bob says, "Set the temperature to 22°C."
+   - **Sub-System Response:** The system acknowledges the command and adjusts the cabin temperature to 22°C.
+   
+2. **User Action:** Bob asks, "Increase the fan speed."
+   - **Sub-System Response:** The system increases the fan speed in the cabin to the next level.
+   
+3. **User Action:** Bob commands, "Direct air to the feet."
+   - **Sub-System Response:** The system adjusts the air circulation to direct airflow to the feet area.
+   
+4. **User Action:** Bob requests, "Turn on the air conditioning."
+   - **Sub-System Response:** The system activates the air conditioning, adjusting the climate accordingly to maintain the set temperature.
+   
+5. **User Action:** Bob inquires, "What is the current temperature in the car?"
+   - **Sub-System Response:** The system responds with the current cabin temperature (e.g., “The current temperature is 21.5°C”).
+
+---
+
+**Alternative Scenario:**
+
+1. **User Action:** Bob says, "Set the temperature to 25°C," but the system does not respond.
+   - **Sub-System Response:** The system acknowledges an issue with the voice recognition and responds, "I’m sorry, I didn’t catch that. Please try again."
+   
+2. **User Action:** Bob repeats the command, but the system still fails to respond.
+   - **Sub-System Response:** The system responds, "There seems to be a temporary issue with the voice recognition system. Please adjust the climate manually using the vehicle controls."
+
+3. **User Action:** Bob says, "Turn on the air conditioning," but there is no change.
+   - **Sub-System Response:** The system informs the user, "The air conditioning is currently unavailable due to a system malfunction. Please try again later."
+
+4. **User Action:** Bob asks, "What is the current temperature in the car?" and gets no response.
+   - **Sub-System Response:** The system responds, "I am unable to provide the temperature at the moment. Please use the manual controls for this information."
+
+---
+
+**Postconditions:**
+
+1. If the user interacts successfully with the system, the desired climate setting (temperature, air circulation, fan speed, etc.) will be adjusted as instructed.
+2. The system will provide feedback confirming the completion of the action (e.g., “The temperature is now set to 22°C” or “Fan speed increased”).
+3. The system remains responsive to additional commands unless there is a failure or issue that requires user intervention (e.g., manual controls or system reset).

@@ -1,0 +1,31 @@
+**Title**  
+Voice-Activated Climate Control System
+
+**Goal**  
+The Voice-Activated Climate Control System will allow users to adjust the climate settings of their luxury electric vehicle hands-free, using simple voice commands. The system will enable control over the cabin temperature, airflow intensity, and air conditioning mode, providing an intuitive and effortless experience. Users will be able to modify settings such as temperature, seat heating, and air conditioning mode without needing to manually interact with the vehicle's controls, enhancing both comfort and convenience while driving.
+
+**Preconditions**  
+- The vehicle must be equipped with the Voice-Activated Climate Control System, fully installed and calibrated.  
+- The vehicle's microphone system must be functional, capable of clearly receiving voice commands even in noisy environments.  
+- The driver or passenger must activate the voice assistant by a specific command, such as "Hey, car" or by pressing the voice activation button.  
+- The system requires an internet connection to access advanced climate settings, such as weather data for optimal climate adjustment.  
+- User profiles should be set up to personalize the climate preferences (e.g., temperature settings, seat heating preferences) for each driver.
+
+**Main Scenario**  
+1. Bob activates the system by saying, "Hey, car," to wake up the voice assistant.  
+2. The Voice-Activated Climate Control System responds with a prompt, "How can I assist you with the climate today?"  
+3. Bob says, "Set the temperature to 22°C," and the system adjusts the cabin temperature accordingly.  
+4. Bob requests, "Turn on the seat heating," and the system activates the seat heaters.  
+5. Bob confirms, "Increase airflow," and the system adjusts the fan speed for improved ventilation.
+
+**Alternative Scenario**  
+1. Bob attempts to activate the system by saying, "Hey, car," but the system does not respond.  
+2. Bob checks the vehicle's microphone system and realizes it is turned off or malfunctioning.  
+3. Bob manually turns on the microphone or taps the activation button to use the voice assistant.  
+4. If the voice command still fails, Bob is prompted with an error message on the vehicle’s display screen: "Voice activation system not available. Please try again later."  
+5. Bob can manually adjust the climate settings using the physical controls in the vehicle.
+
+**Postconditions**  
+- After successful interaction with the system, the vehicle's climate settings are adjusted according to Bob’s voice commands.  
+- The cabin temperature, airflow, and air conditioning modes are set to the requested preferences, ensuring a comfortable driving experience.  
+- If any system failure occurs, the user is provided with an option to manually override the voice commands and adjust the settings via the vehicle's dashboard controls.

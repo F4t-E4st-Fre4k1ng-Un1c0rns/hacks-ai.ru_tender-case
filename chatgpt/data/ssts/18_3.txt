@@ -1,0 +1,38 @@
+**Technical Specifications: Customizable Seat Position and Memory System**  
+**Compliance Level: Partially Compliant**
+
+---
+
+**1. Title**  
+Customizable Seat Position and Memory System
+
+**2. Functional Description**  
+The Customizable Seat Position and Memory System allows users to adjust and store seat positions to enhance driving comfort. The system supports adjusting the seat's forward/backward position, height, tilt, and lumbar support. It is designed to store one seat position per user profile, enabling users to recall their preferred settings easily. The system includes a memory function activated by a button, allowing the driver to store and retrieve personalized seat configurations. However, the system supports only a single seat position per profile, and it does not yet fully support multiple profiles or complex user switching scenarios.
+
+**3. Enabling Conditions**  
+- The vehicle is powered on and the seat adjustment controls are active.  
+- The user is logged into the system (via user profile or manual input).  
+- The seat is in a neutral or default position at the start of configuration.  
+- The seat adjustment system is fully operational and free of faults.  
+- The memory function is activated, allowing seat positions to be stored and recalled.
+
+**4. Trigger Conditions**  
+- The user presses the "Save Position" button after adjusting the seat to their preferred configuration.  
+- The user presses the corresponding "Memory" button to recall a stored seat position.  
+- The system detects a failure in the seat adjustment mechanism and displays an error message.  
+
+**5. Execution Output**  
+- The seat position adjusts according to user input via seat controls.  
+- The system stores the seat position when the "Save Position" button is pressed.  
+- The saved seat position is recalled when the user presses the "Memory" button.  
+- In case of failure, the system displays an error message indicating the issue with seat adjustments, and manual controls may be used temporarily.
+
+**6. Exit Conditions**  
+- The seat position is successfully adjusted, stored, and recalled as per user action.  
+- The system exits memory mode after the seat position is successfully recalled or stored.  
+- If the system fails, the error message is displayed, and the vehicle reverts to manual seat adjustment, with the system in a fault state pending repair or troubleshooting.
+
+---
+
+**Summary of Compliance Level:**  
+This system is **Partially Compliant** as it meets basic functionality for adjusting and storing a single seat position but does not support multiple user profiles or complete failure recovery as described in the underpinning contract.

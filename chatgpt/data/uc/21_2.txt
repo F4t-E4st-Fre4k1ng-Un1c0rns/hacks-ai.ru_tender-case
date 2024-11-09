@@ -1,0 +1,31 @@
+**Title**  
+Automatic Driver Identification and Access Control
+
+**Goal**  
+The Automatic Driver Identification and Access Control sub-system enables secure and efficient identification of authorized drivers for luxury electric cars. It provides automatic recognition of the driver through advanced biometric or vehicle-specific authentication, granting access to the vehicle and personalized settings based on the driver's identity. The system ensures that only authorized individuals can start and drive the vehicle, while also offering personalized adjustments such as seat positioning, mirror adjustments, and infotainment preferences upon recognition.
+
+**Preconditions**  
+- The driver must have pre-registered their biometric data or vehicle-specific credentials (such as RFID cards or key fobs) in the system.
+- The vehicle’s Automatic Driver Identification and Access Control system must be powered on and active.
+- The driver must be within the proximity required by the system (e.g., within a few feet of the vehicle).
+- The vehicle's sensors or scanning equipment (such as facial recognition cameras or fingerprint scanners) must be operational.
+- The vehicle should be in a state ready to accept an authentication attempt (not in a locked or "sleep" mode).
+
+**Main Scenario**  
+1. Alise approaches the vehicle with her registered identification credentials (such as an RFID card or via biometric detection).  
+2. The system scans for her identification data, either via facial recognition, fingerprint scan, or RFID signal.  
+3. The system successfully identifies Alise as an authorized driver.  
+4. The vehicle’s access control unlocks, and her personalized settings (such as seat position, mirror adjustment, and infotainment preferences) are automatically adjusted.  
+5. Alise enters the vehicle, starts the engine, and begins her drive, with full access to vehicle functions.
+
+**Alternative Scenario**  
+1. Bob approaches the vehicle but is not carrying his registered RFID card or the system fails to recognize his biometric data.  
+2. The system displays an error message indicating that the identification attempt has failed.  
+3. Bob attempts another method of identification, such as trying a backup authentication method (e.g., manually entering a PIN or using a different RFID card).  
+4. If all attempts fail, the vehicle alerts Bob with a warning message that access is denied, and suggests contacting the vehicle’s support team for assistance.  
+5. Bob is unable to start the vehicle, and the system remains locked.
+
+**Postconditions**  
+- Upon successful identification, the system unlocks the vehicle, grants access to the driver, and applies personalized settings as per the registered profile.
+- If the identification fails, the vehicle remains locked, and the driver is denied access until successful authentication occurs.
+- The system logs all authentication attempts for security purposes, providing a record of each access event for later review.

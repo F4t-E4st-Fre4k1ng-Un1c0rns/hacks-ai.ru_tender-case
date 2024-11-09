@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not guarantee real-time alerting as required by UC. | "The system may experience delays in alerting the driver due to limited data refresh rates or communication issues between the sensors and the display." |
+| SSTS does not specify automatic recalibration of sensors, while UC assumes sensors will remain fully calibrated. | "Sensors must be properly calibrated and functioning before system operation." |
+| The SSTS mentions sensor latency or issues in data transmission, which could delay alerts, while UC specifies immediate detection of tire issues. | "Alerts may not be triggered immediately due to sensor latency or issues in data transmission." |
+| SSTS does not mention real-time display of tire conditions, as UC specifies real-time monitoring. | "The display may not update in real-time, as the system may refresh data intermittently based on the sensors' reporting intervals." |
+| SSTS does not specify a clear error notification process, while UC expects error notifications for system or sensor failures. | "The system will also exit if it detects a critical failure (e.g., sensor malfunction), and will notify the driver of the error, suggesting service or repair." |

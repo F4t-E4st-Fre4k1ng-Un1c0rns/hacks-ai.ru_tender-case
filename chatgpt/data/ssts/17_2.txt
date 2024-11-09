@@ -1,0 +1,53 @@
+### **Technical Specifications: Remote Control of Vehicle Features via Mobile App**
+
+---
+
+#### **1. Title**
+**Remote Control of Vehicle Features via Mobile App**
+
+---
+
+#### **2. Functional Description**
+The **Remote Control of Vehicle Features via Mobile App** sub-System enables vehicle owners to remotely control key vehicle functions using a dedicated mobile application. These features include unlocking and locking doors, starting and stopping the engine, adjusting the climate control system, tracking the vehicle’s location, and controlling windows. Communication between the mobile app and the vehicle is achieved through a secure internet connection, either via Wi-Fi or mobile data. The system is designed to provide users with enhanced convenience and security by allowing remote interaction with their vehicle, particularly in situations where immediate access or control is necessary.
+
+---
+
+#### **3. Enabling Conditions**
+
+- The vehicle must be equipped with the necessary hardware and software that allows for remote control via mobile application. This includes vehicle connectivity modules (e.g., Bluetooth, LTE, or Wi-Fi) that can communicate with the mobile device.
+- The user must have the mobile app installed on a compatible smartphone or tablet and have an active account linked to the vehicle.
+- A stable and secure internet connection (mobile data or Wi-Fi) is required for communication between the mobile app and the vehicle.
+- The user must have valid authentication credentials (username and password) to access remote control features.
+- The vehicle's battery must be sufficiently charged to allow for the remote operation of key features (e.g., starting the engine, locking/unlocking doors, etc.).
+
+---
+
+#### **4. Trigger Conditions**
+
+- **Trigger 1**: The mobile app is launched on a compatible mobile device, and the user successfully authenticates using valid credentials (username/password).
+- **Trigger 2**: The user selects a specific remote vehicle feature (e.g., lock doors, start engine, adjust climate) within the mobile app interface.
+- **Trigger 3**: The mobile app sends a remote command to the vehicle's embedded system, initiating the requested action (e.g., unlock doors, start engine).
+- **Trigger 4**: The vehicle receives the remote command and starts executing the action. The app will display status feedback (e.g., "Engine Started," "Climate Set to 72°F").
+
+---
+
+#### **5. Execution Output**
+
+- Upon receiving a command, the vehicle will execute the action and communicate the result back to the mobile app. For example:
+  - **Lock/Unlock Doors**: The doors of the vehicle will lock or unlock as requested, and the app will display a confirmation message (e.g., “Doors Unlocked”).
+  - **Start/Stop Engine**: The vehicle's engine will start or stop, with real-time status updates displayed on the app (e.g., “Engine Started” or “Engine Stopped”).
+  - **Adjust Climate Control**: The interior temperature or air conditioning settings will be adjusted according to user input, and the app will confirm the new settings (e.g., “Climate Set to 72°F”).
+  - **Location Tracking**: The app will display the real-time location of the vehicle on a map, with updates provided as the vehicle moves.
+  - **Control Windows**: The app will confirm whether the windows have been opened or closed (e.g., “Windows Closed” or “Windows Opened”).
+
+- If the action is successfully executed, the system will maintain the new state (e.g., the engine remains on, doors stay locked, climate control remains at the set temperature) until changed by the user or the vehicle is turned off.
+
+---
+
+#### **6. Exit Conditions**
+
+- The requested action is successfully completed (e.g., the engine starts, doors lock/unlock, climate control adjusts, or the vehicle's location is tracked), and the app displays a confirmation message.
+- The user may exit the mobile app or move to a different function within the app. Upon exiting, the system retains the updated state of the vehicle (e.g., the doors remain locked, the engine remains on, etc.).
+- If the action cannot be completed due to system failure, poor connectivity, or other issues (e.g., battery depletion, server error), the app will display an error message (e.g., “Action Failed - Vehicle Not Reachable” or “Action Cannot Be Completed”).
+- In case of partial success (e.g., engine started but doors not locked), the app will provide feedback indicating the status of each individual action (e.g., “Engine Started, Doors Failed to Lock”).
+

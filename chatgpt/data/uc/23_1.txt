@@ -1,0 +1,47 @@
+**Title**  
+Integration of Social Media Platforms into Infotainment
+
+**Goal**  
+The goal of this sub-system is to integrate social media platforms into the infotainment system of luxury electric cars. This feature will enable users to access and interact with their social media accounts directly from the infotainment screen. The user will be able to view posts, like and comment, and share content seamlessly while maintaining a smooth driving experience. The integration will enhance the overall driving experience by enabling social connectivity and entertainment.
+
+**Preconditions**  
+- The car's infotainment system must be powered on and functioning properly.
+- The user must have an active internet connection (via mobile hotspot or car's integrated system).
+- The user must have installed and logged into the desired social media accounts within the infotainment system.
+- The vehicle's software and social media integration system must be up to date.
+- The user must be seated and the car must be in "Park" mode for safety reasons.
+
+**Main Scenario**  
+1. **User Action:** Bob accesses the infotainment system from the main menu and selects the "Social Media" option.  
+   **System Response:** The system displays a list of available social media platforms linked to Bob’s account, such as Facebook, Instagram, and Twitter.  
+
+2. **User Action:** Bob selects Instagram and the system prompts him to view recent posts or browse his feed.  
+   **System Response:** The feed from Bob’s Instagram account appears on the infotainment screen, with options to scroll through posts.  
+
+3. **User Action:** Bob taps on a post to view it in more detail.  
+   **System Response:** The selected post is displayed in full size on the screen, and options to like, comment, or share the post appear.  
+
+4. **User Action:** Bob likes the post and comments on it using the voice recognition system.  
+   **System Response:** The system processes Bob’s voice command, applies the like, and posts the comment on his behalf.  
+
+5. **User Action:** Bob exits the social media interface by tapping "Home."  
+   **System Response:** The system returns to the main infotainment screen, confirming that all actions have been completed and no data is lost.
+
+**Alternative Scenario**  
+1. **User Action:** Bob tries to access Instagram, but the car’s internet connection is unavailable.  
+   **System Response:** The system displays an error message indicating no internet connection and offers the option to connect via a mobile hotspot.  
+
+2. **User Action:** Bob selects "Connect via Mobile Hotspot" and enters the required information.  
+   **System Response:** The system connects to the mobile hotspot, and the user is prompted to retry accessing social media.  
+
+3. **User Action:** Bob retries accessing Instagram.  
+   **System Response:** The system loads Instagram and allows Bob to interact with his feed as described in the main scenario.  
+
+4. **User Action:** If the connection fails again, the system provides a "Retry" or "Exit" option.  
+   **System Response:** Bob can either retry the connection or exit the social media integration and return to the main infotainment menu.  
+
+**Postconditions**  
+After a successful interaction with the system, the following outcomes occur:
+- Bob’s interactions with social media, such as liking, commenting, and sharing posts, are updated in real-time on his social media accounts.
+- The infotainment system saves the session progress, allowing Bob to continue where he left off if the system is used again later.
+- The system logs out of the social media account automatically after a period of inactivity to maintain privacy and security.

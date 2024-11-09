@@ -1,0 +1,63 @@
+**Underpinning Contract: Remote Control of Vehicle Features via Mobile App**
+
+---
+
+**1. Title:**
+Remote Control of Vehicle Features via Mobile App
+
+---
+
+**2. Goal:**
+The goal of this sub-system is to provide the user with the ability to remotely control key vehicle features through a mobile application. These features will allow the user to interact with their luxury electric vehicle in a convenient and intuitive manner, improving the overall ownership experience. Specifically, the sub-system will include remote control capabilities for functions such as:
+- Locking/unlocking the doors
+- Starting or stopping the engine
+- Adjusting climate control (heating, cooling, etc.)
+- Activating vehicle security systems
+- Monitoring the vehicle’s status (e.g., battery charge, tire pressure, etc.)
+
+---
+
+**3. Preconditions:**
+- The user must have a compatible mobile device with the application installed.
+- The vehicle must be within the communication range of the mobile device, typically relying on Bluetooth, Wi-Fi, or cellular connectivity.
+- The user must have an active account and be authorized to access the vehicle's remote control features.
+- The vehicle’s keyless entry and remote control features must be properly configured and activated within the system prior to use.
+- The mobile app should be up-to-date and connected to the vehicle's central control system.
+
+---
+
+**4. Main Scenario:**
+1. **User Action:** Bob opens the mobile app on his phone and logs in using his credentials.
+   - **Sub-System Response:** The app authenticates Bob and connects to his registered vehicle, displaying available remote features on the dashboard.
+   
+2. **User Action:** Bob selects the “Lock/Unlock Doors” feature on the app and taps "Unlock."
+   - **Sub-System Response:** The vehicle responds by unlocking the doors, and Bob receives a confirmation notification on his phone.
+
+3. **User Action:** Bob taps on the “Start Engine” button to begin pre-conditioning the vehicle.
+   - **Sub-System Response:** The vehicle starts remotely, and Bob receives a notification indicating the engine has started successfully.
+
+4. **User Action:** Bob adjusts the cabin temperature by selecting the climate control option and setting the temperature to 22°C.
+   - **Sub-System Response:** The vehicle’s climate control system adjusts to the specified temperature, and Bob receives an update on the app.
+
+5. **User Action:** Bob checks the vehicle’s battery level from the app’s status screen.
+   - **Sub-System Response:** The app displays the current battery charge percentage, indicating that the vehicle is at 80% charge.
+
+---
+
+**5. Alternative Scenario:**
+1. **User Action:** Bob opens the mobile app, but it fails to connect to the vehicle.
+   - **Sub-System Response:** The app displays an error message indicating a connectivity issue and suggests troubleshooting steps (e.g., check network settings, proximity to the vehicle, or ensure Bluetooth is enabled).
+   
+2. **User Action:** Bob attempts to unlock the doors but receives a failure notification.
+   - **Sub-System Response:** The app informs Bob that the vehicle’s remote unlocking feature is temporarily unavailable due to low battery or system error, and provides a link to customer support or further troubleshooting.
+
+3. **User Action:** Bob tries to start the engine remotely, but the app indicates that the feature is unavailable.
+   - **Sub-System Response:** The app displays a message stating that the remote start function cannot be performed because the vehicle is in a restricted mode (e.g., ignition safety feature, maintenance mode, etc.).
+
+---
+
+**6. Postconditions:**
+- **Successful Interaction:** After a successful remote action, such as locking/unlocking doors, starting the engine, or adjusting climate control, the user receives a confirmation in the app. The corresponding action is executed on the vehicle, and the system logs the event for future reference.
+- **Failure to Perform Action:** If the action cannot be completed, the user receives a notification explaining the issue and may be prompted to take corrective steps or contact customer support for resolution.
+
+---

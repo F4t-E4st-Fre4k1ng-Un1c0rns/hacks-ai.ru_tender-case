@@ -1,0 +1,35 @@
+**Underpinning Contract: Real-Time Parking Availability Notifications**
+
+**1. Goal**  
+The Real-Time Parking Availability Notifications sub-System will provide users with real-time updates about available parking spaces near their location. This feature ensures that drivers can efficiently find parking options as they approach their destinations, improving the convenience of their experience in a luxury electric car. The system will notify users of parking availability based on their location, preferences, and real-time data, helping them save time and reduce the stress of finding parking.
+
+**2. Preconditions**  
+- The user must be driving a luxury electric car equipped with the relevant software and hardware to access real-time parking information.  
+- The vehicle’s GPS and navigation system must be operational to allow the sub-System to accurately determine the user’s location.  
+- The user must have an active internet connection, either through mobile data or a connected Wi-Fi network.  
+- The parking data must be available through an integrated third-party service or internal network that provides accurate, up-to-date parking availability.
+
+**3. Main Scenario**  
+1. **User Action:** Bob activates the parking notification feature through the in-car infotainment system or mobile app.  
+   **Sub-System Response:** The system prompts Bob to confirm the preferred location and parking preferences (e.g., proximity, parking type, etc.).  
+2. **User Action:** Bob confirms his location and preferences, then initiates navigation to his destination.  
+   **Sub-System Response:** The sub-System begins monitoring nearby parking areas and gathers real-time availability data.  
+3. **User Action:** As Bob drives toward the destination, the system provides notifications about parking availability in the vicinity.  
+   **Sub-System Response:** The system notifies Bob of available parking spots and their distance from his destination.  
+4. **User Action:** Bob selects a preferred parking spot from the available options.  
+   **Sub-System Response:** The system updates Bob with additional details about the selected parking spot, such as pricing, opening hours, or special parking instructions.  
+5. **User Action:** Bob parks the car at the selected spot.  
+   **Sub-System Response:** The system confirms the parking availability and updates Bob on any relevant details, such as time limits or reservation options for future use.
+
+**4. Alternative Scenario**  
+1. **User Action:** Bob activates the parking notification feature, but the system cannot fetch parking data due to a poor internet connection.  
+   **Sub-System Response:** The system alerts Bob that parking availability information is temporarily unavailable due to connectivity issues and recommends he try again later.  
+2. **User Action:** Bob continues driving, but no nearby parking availability data is found as he approaches his destination.  
+   **Sub-System Response:** The system notifies Bob that no parking spaces are available at his destination and suggests alternative nearby areas or adjusts the navigation route to include more parking options.  
+3. **User Action:** Bob attempts to park at a selected spot, but the parking lot is full or unavailable upon arrival.  
+   **Sub-System Response:** The system immediately notifies Bob of the situation and provides alternative parking locations nearby.  
+4. **User Action:** Bob chooses an alternative parking spot.  
+   **Sub-System Response:** The system adjusts the navigation route and updates Bob with parking availability for the new location.
+
+**5. Postconditions**  
+After successful interaction with the sub-System, Bob has been notified about available parking options in real-time, allowing him to make an informed decision about where to park. The system updates the vehicle’s navigation and parking information accordingly, ensuring a seamless parking experience. If the parking spot is successfully occupied, the system records the action and will ensure that the parking information is updated for future users.

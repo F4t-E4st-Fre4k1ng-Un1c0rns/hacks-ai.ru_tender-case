@@ -1,0 +1,50 @@
+**Underpinning Contract for Real-Time Parking Availability Notifications**
+
+**1. Title**  
+Real-Time Parking Availability Notifications
+
+**2. Goal**  
+The Real-Time Parking Availability Notifications sub-system aims to provide users with up-to-the-minute information regarding the availability of parking spots at various locations. It will notify users when parking spaces are available or about to become available, helping them make informed decisions and reducing the time spent searching for parking. This system will enhance the convenience and user experience for luxury electric car owners by offering timely and accurate parking updates, thereby improving the overall driving experience.
+
+**3. Preconditions**  
+- The user must have the appropriate app installed on their mobile device or integrated system within their luxury electric car.  
+- The vehicle must be connected to the internet or the app must be capable of receiving push notifications.  
+- Parking availability data must be sourced from a reliable and real-time database, integrated with local parking facilities or sensors.  
+- The user must have granted location permissions for the app to provide real-time data specific to their vicinity.  
+
+**4. Main Scenario**  
+1. **User Action**: Alise opens the parking app on her mobile device while approaching a destination.  
+   **System Response**: The system detects her location and begins searching for available parking spaces nearby.  
+
+2. **User Action**: Alise selects her desired parking area from the suggested list.  
+   **System Response**: The system displays the available parking spots and provides an estimated time of availability if no spots are immediately free.  
+
+3. **User Action**: Alise chooses a parking spot and presses "Navigate to this spot."  
+   **System Response**: The system provides real-time navigation instructions to guide her to the selected parking location.  
+
+4. **User Action**: As Alise arrives at the parking area, the app sends a notification when a spot becomes available.  
+   **System Response**: The system confirms the availability of the parking spot and provides a visual indicator to show the exact location of the free spot.  
+
+5. **User Action**: Alise parks her car in the available spot.  
+   **System Response**: The system records the parking transaction and updates the parking availability status in real time.  
+
+**5. Alternative Scenario**  
+1. **User Action**: Bob opens the parking app and attempts to search for parking.  
+   **System Response**: The system cannot retrieve parking data due to a connectivity issue.  
+
+2. **User Action**: Bob attempts to refresh the parking availability list.  
+   **System Response**: The app displays a "Connection Error" message, advising him to check his network connection.  
+
+3. **User Action**: Bob tries to select a parking area, but the app displays that all spaces are currently occupied.  
+   **System Response**: The system suggests alternative parking areas within a reasonable radius, displaying their availability status.  
+
+4. **User Action**: Bob selects one of the suggested alternatives.  
+   **System Response**: The app provides updated directions and a real-time update of availability, if the situation changes.  
+
+5. **User Action**: Bob successfully navigates to the new parking area.  
+   **System Response**: The system confirms parking availability in the selected area and assists Bob with further navigation to the spot.  
+
+**6. Postconditions**  
+- After a successful interaction, Alise's parking space is confirmed, and her vehicle is parked in the selected location.  
+- The system updates the parking database to reflect the availability status of the spot and notifies other users accordingly.  
+- If the process was unsuccessful (e.g., no available spaces), the system will either suggest alternative parking options or notify the user when a spot becomes available.

@@ -1,0 +1,56 @@
+### **Underpinning Contract for Vehicle Health Monitoring with Automated Reports**
+
+---
+
+#### **1. Title**
+**Vehicle Health Monitoring with Automated Reports**
+
+---
+
+#### **2. Goal**
+The Vehicle Health Monitoring with Automated Reports sub-system aims to continuously monitor the health status of a luxury electric vehicle, providing the user with real-time insights into the vehicle's performance. The system will generate detailed reports, highlighting any potential issues or areas of concern related to the vehicle’s battery, motor, cooling system, tires, and overall diagnostics. The primary goal is to ensure the vehicle's optimal performance, increase the lifespan of critical components, and provide peace of mind to the vehicle owner.
+
+---
+
+#### **3. Preconditions**
+- The vehicle must be equipped with the necessary sensors and diagnostic tools for health monitoring.
+- The Vehicle Health Monitoring system must be properly integrated with the vehicle’s central computer system.
+- The user (e.g., Alise or Bob) must have access to the vehicle’s dashboard interface, either through a mobile app or an in-car display.
+- The system must be activated and fully functional, with internet connectivity enabled for remote data transmission and reporting.
+
+---
+
+#### **4. Main Scenario**
+1. **User Action**: Alise accesses the Vehicle Health Monitoring feature via the mobile app or in-car display.
+   - **System Response**: The system provides an overview of the current vehicle health status, displaying a summary of key performance metrics (e.g., battery charge, tire pressure, temperature).
+   
+2. **User Action**: Alise selects “Generate Health Report” to receive a detailed diagnostic report.
+   - **System Response**: The system starts collecting data from all monitored components and generates a comprehensive report detailing the status of the vehicle’s systems.
+   
+3. **User Action**: Alise reviews the automated report, which includes any recommendations for maintenance or urgent actions (if needed).
+   - **System Response**: The system displays the report on the app or in-car display, highlighting areas that require attention, such as low battery levels or cooling system inefficiencies.
+   
+4. **User Action**: Alise confirms receipt of the report and decides whether to schedule a service appointment through the app.
+   - **System Response**: The system offers the option to book a maintenance appointment with the nearest authorized service center.
+   
+5. **User Action**: Alise receives a confirmation of the scheduled appointment or chooses to postpone.
+   - **System Response**: The system updates the vehicle’s calendar with the scheduled maintenance or notes the postponement, ensuring follow-up reminders are sent.
+
+---
+
+#### **5. Alternative Scenario**
+1. **User Action**: Bob tries to access the Vehicle Health Monitoring feature but encounters a system error due to lack of internet connectivity.
+   - **System Response**: The system displays an error message indicating that the vehicle is unable to generate or send reports due to a lack of internet connection.
+   
+2. **User Action**: Bob tries to generate a health report, but some sensors are malfunctioning.
+   - **System Response**: The system notifies Bob of the specific sensors that are currently offline or malfunctioning and advises to perform a manual check of critical components until the sensors are repaired.
+   
+3. **User Action**: Bob presses the "Request Assistance" button to receive troubleshooting support.
+   - **System Response**: The system offers a contact link to customer support or an option to schedule a diagnostic checkup at an authorized service center.
+
+---
+
+#### **6. Postconditions**
+- After successful interaction with the Vehicle Health Monitoring system, the user (e.g., Alise or Bob) receives a detailed health report that outlines the current status of the vehicle.
+- If the report identifies any issues, the user has the option to take corrective action, either through remote diagnostics or by scheduling a maintenance appointment.
+- The system will log all actions and generate follow-up reminders based on the severity of the issues identified in the report (e.g., scheduling a service for urgent maintenance needs).

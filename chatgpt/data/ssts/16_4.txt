@@ -1,0 +1,30 @@
+**Title**  
+Voice-Activated Climate Control System – Technical Specifications (Compliant Use)
+
+**Functional Description**  
+The Voice-Activated Climate Control System allows users to control the climate settings of the vehicle's cabin via voice commands. It supports commands for adjusting temperature, fan speed, air quality control, and switching between different climate modes (e.g., cooling, heating). The system is designed for seamless integration with the vehicle’s existing climate control features, offering a hands-free and user-friendly experience that enhances comfort and convenience. It supports multi-zone climate control, enabling individual temperature adjustments for the driver, passenger, and rear seating areas.
+
+**Enabling Conditions**  
+1. The vehicle is powered on, and the climate control system is active.
+2. The microphone array and voice recognition module must be operational, calibrated, and configured to the vehicle's environment.
+3. The system supports speech in multiple languages and is capable of recognizing a range of accents and dialects.
+4. Background noise must be at a manageable level (typically below 50 dB) for optimal performance of voice recognition.
+5. The system will function without requiring an active internet connection for basic temperature and fan adjustments.
+
+**Trigger Conditions**  
+1. The system is triggered by a valid voice command. Commands must be clear and within the recognized syntax (e.g., “Set temperature to 22°C,” “Increase fan speed,” “Switch to heating mode”).
+2. The system will respond to commands after detecting the user’s voice within range (typically 1–2 meters from the microphone).
+3. If the system fails to recognize a command due to background noise or unrecognizable speech, it will prompt the user to repeat the command.
+
+**Execution Output**  
+1. Once a voice command is successfully recognized, the system will execute the corresponding action, such as adjusting the cabin temperature, changing fan speed, or switching air modes (cooling, heating, etc.).
+2. After a successful command execution, the system provides verbal feedback, such as "Temperature set to 22°C," or “Fan speed increased.”
+3. The system will also display the updated climate settings on the vehicle’s dashboard or control interface when available.
+4. If the system fails to process the command, it will provide an error message, such as “Sorry, I didn’t catch that. Could you repeat?” and prompt the user to issue the command again.
+5. If the system is unable to perform a function (e.g., due to a technical issue), it will notify the user, e.g., "Unable to adjust fan speed at this moment. Please try again later."
+
+**Exit Conditions**  
+1. The system successfully adjusts the requested climate settings (temperature, fan speed, air mode), and no further action is required.
+2. Once a command is executed successfully, the system exits voice mode and returns to standby, awaiting the next voice input.
+3. If the user chooses to manually adjust the climate settings, the system exits voice command mode and hands control back to the user via the manual interface.
+4. In case of a system failure or unrecognized command, the system will exit voice mode and prompt the user to either try again or switch to manual controls.

@@ -1,0 +1,48 @@
+**Technical Specifications for Over-the-Air Software Updates for In-Vehicle Systems**
+
+---
+
+**1. Title**  
+Over-the-Air Software Updates for In-Vehicle Systems
+
+---
+
+**2. Functional Description**  
+The Over-the-Air (OTA) Software Updates sub-System enables the remote delivery and installation of software updates to in-vehicle systems. This includes updates to navigation, infotainment, and driver assistance features. The sub-System ensures that updates are securely received, downloaded, and installed, providing the user with enhanced vehicle performance, safety, and new features without requiring a visit to a service center.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must be connected to a reliable internet source (Wi-Fi or cellular data) to receive software updates.  
+- The vehicle must have sufficient available storage to accommodate the update files.  
+- The update feature in the vehicle’s settings must be enabled by the user.  
+- The vehicle should be in a "ready state" (e.g., engine on or vehicle in standby mode) to begin and complete the update process.  
+- The user must have an active account with the vehicle manufacturer for authentication and update authorization.  
+- The vehicle should not be in an active state of use (e.g., driving) during the update.
+
+---
+
+**4. Trigger Conditions**  
+- A new software update package is made available by the manufacturer.  
+- The vehicle detects an active internet connection and checks for available updates.  
+- A notification is sent to the user’s vehicle interface or mobile app, informing them of the available update.  
+- The user opts to approve and schedule the update via the in-vehicle system or mobile app interface.  
+- If the vehicle is powered off, the update will automatically be scheduled to occur once the vehicle is powered on or is in a ready state.
+
+---
+
+**5. Execution Output**  
+- The update package is successfully downloaded over the internet to the vehicle’s system.  
+- The vehicle installs the update in the background while ensuring that all in-vehicle systems remain operational for the user.  
+- After installation, the vehicle’s updated systems (infotainment, navigation, driver assistance, etc.) are fully functional with the new features or improvements.  
+- The update status is logged in the system and is visible to the user via the in-vehicle display or mobile app.  
+- A confirmation notification is sent to the user upon successful installation of the update.
+
+---
+
+**6. Exit Conditions**  
+- The software update has been fully installed, and the vehicle’s systems are functioning as expected without errors.  
+- The update process is logged within the vehicle’s system, providing a record of the update history.  
+- The user receives a confirmation notification (via in-vehicle display, mobile app, or email) stating the successful update completion.  
+- All newly installed features and improvements are operational, and the vehicle performance is optimized.  
+- In case of installation failure, the system provides troubleshooting options and, if necessary, prompts the user to attempt the update at a later time.

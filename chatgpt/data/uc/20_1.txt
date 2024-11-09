@@ -1,0 +1,33 @@
+**Underpinning Contract for Sub-System: Integrating Emergency Alerts in Vehicle Dashboard**
+
+**1. Title**  
+Integrating Emergency Alerts in Vehicle Dashboard
+
+**2. Goal**  
+The Integrating Emergency Alerts in Vehicle Dashboard sub-system will provide real-time emergency alert notifications to the vehicle driver, ensuring they are informed of potential hazards, accidents, or critical system warnings. The alerts will be displayed in a clear and concise manner on the vehicle’s dashboard, enabling the driver to take timely and appropriate actions to ensure safety.
+
+**3. Preconditions**  
+- The vehicle is powered on and fully functional.  
+- The vehicle’s dashboard system is operational and can display notifications.  
+- The emergency alert system is integrated into the vehicle's onboard software and has access to real-time data feeds (e.g., GPS, sensors, traffic data).  
+- The driver has the ability to acknowledge or dismiss alerts via the dashboard interface.  
+- The emergency alert system is configured with relevant thresholds for different types of emergencies (e.g., collision, mechanical failure, weather hazards).
+
+**4. Main Scenario**  
+1. The vehicle’s sensors detect an emergency situation (e.g., sudden braking, obstacle detection, or critical mechanical failure).  
+2. The sub-system processes the data and triggers the appropriate emergency alert on the vehicle’s dashboard.  
+3. The alert appears as a visual notification, accompanied by an audible sound (if enabled). For example, a red flashing icon and text such as “Collision Warning Ahead”.  
+4. The driver, Bob, receives the notification and can either acknowledge the alert by pressing a “Dismiss” button or take action according to the situation.  
+5. If the alert is acknowledged or resolved, the alert disappears from the dashboard, and the system logs the event for future reference.  
+
+**5. Alternative Scenario**  
+1. The vehicle detects an emergency situation, but the emergency alert system is temporarily unavailable (e.g., system error or malfunction).  
+2. Bob receives no immediate alert on the dashboard, but the vehicle’s backup system (e.g., audible alarm, external lights) will activate to alert the driver.  
+3. A secondary notification, indicating the alert system is unavailable, will appear on the dashboard. Bob is instructed to take manual action and may contact support.  
+4. The vehicle logs the error and attempts to restore the alert system once conditions allow (e.g., after restarting the vehicle or system recovery).  
+5. Bob acknowledges the notification that the alert system is down and continues driving cautiously while awaiting system restoration.
+
+**6. Postconditions**  
+- Upon successful interaction with the emergency alert, the driver has been informed about a potential hazard or system failure.  
+- If the alert was acknowledged or resolved, the system resets and no longer displays the alert unless the emergency condition recurs.  
+- The system logs the alert details, including the type, time, and resolution status, for diagnostic and improvement purposes.

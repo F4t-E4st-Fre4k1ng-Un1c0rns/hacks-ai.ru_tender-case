@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies that the system should notify the user of an available update, but the SSTS does not explicitly mention how the user will be notified. | "A notification is sent to the user’s vehicle interface or mobile app, informing them of the available update." |
+| UC requires the update process to be seamless and automatic, whereas the SSTS allows for user intervention in certain steps of the update process. | "The user opts to approve and schedule the update via the in-vehicle system or mobile app interface." |
+| The UC mentions a “ready state” for the vehicle, but the SSTS does not define what constitutes a "ready state" for the update to proceed. | "The vehicle should be in a 'ready state' (e.g., engine on or vehicle in standby mode) to begin and complete the update process." |
+| The UC includes error handling and fallback mechanisms in case of failure, whereas the SSTS only mentions basic troubleshooting steps without detailed error recovery protocols. | "In case of installation failure, the system provides troubleshooting options and, if necessary, prompts the user to attempt the update at a later time." |
+| The UC specifies that there must be a minimum storage requirement for updates, but the SSTS does not define the storage space needed. | *No relevant quotation found in SSTS regarding the minimum storage requirement for updates.* |

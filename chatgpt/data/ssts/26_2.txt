@@ -1,0 +1,55 @@
+**Technical Specifications for Remote Engine Start/Stop via Mobile App**
+
+---
+
+**1. Title:**
+Remote Engine Start/Stop via Mobile App
+
+---
+
+**2. Functional Description:**
+
+The Remote Engine Start/Stop via Mobile App sub-system enables users to remotely control their vehicle’s engine through a mobile application. This feature provides the ability to start or stop the vehicle’s engine from a distance, enhancing convenience and control over the vehicle’s operation. It ensures that the vehicle can be remotely activated to warm up or cool down, or powered off if the user forgot to turn it off when leaving the vehicle. The system interfaces with the vehicle's onboard electronics to communicate engine status updates and allows the user to manage this feature securely through the mobile app.
+
+---
+
+**3. Enabling Conditions:**
+
+- The vehicle is paired with the mobile app and authenticated for secure remote access.
+- The mobile app is installed on the user's smartphone and updated to the latest version compatible with the remote engine control feature.
+- The vehicle must be within an operational communication range of the mobile app (e.g., Bluetooth or Wi-Fi).
+- The mobile app must have an active network connection (either cellular or Wi-Fi) to send requests to the vehicle.
+- The vehicle's engine control system must support remote operation.
+- The vehicle's security systems must permit remote activation and deactivation of the engine to prevent unauthorized use.
+- The vehicle is powered on, and no critical errors exist within the vehicle's system that would prevent engine control.
+
+---
+
+**4. Trigger Conditions:**
+
+- The user opens the mobile app and successfully logs into their account.
+- The user navigates to the “Engine Control” section of the app.
+- The user presses the "Start Engine" or "Stop Engine" button within the app.
+- The app establishes a successful communication link with the vehicle via the available network connection (Bluetooth/Wi-Fi).
+- The vehicle’s onboard system is in a state that allows remote start/stop commands to be executed.
+
+---
+
+**5. Execution Output:**
+
+- The mobile app sends a start or stop command to the vehicle’s engine control system.
+- The vehicle’s system receives the command, processes it, and activates or deactivates the engine accordingly.
+- Upon successful execution, the vehicle’s engine status is updated and logged in the vehicle’s system.
+- The mobile app receives feedback from the vehicle confirming the action (e.g., "Engine Started" or "Engine Stopped").
+- The mobile app displays a notification to the user confirming the action, such as “Engine Started Successfully” or “Engine Stopped Successfully.”
+- If the action was unsuccessful (e.g., due to network failure), the app informs the user with an appropriate error message, such as "Unable to connect to the vehicle. Please check your connection and try again."
+
+---
+
+**6. Exit Conditions:**
+
+- The engine has been successfully started or stopped based on the user’s request.
+- The mobile app receives a confirmation from the vehicle that the action has been completed successfully.
+- The communication link between the mobile app and the vehicle is terminated securely once the action is completed.
+- If the action fails, the app prompts the user to retry or provides an alternative action, such as contacting support or checking the connection.
+- The vehicle’s system logs the remote engine action for future reference or troubleshooting.

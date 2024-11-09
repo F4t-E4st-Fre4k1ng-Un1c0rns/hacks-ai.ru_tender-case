@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS allows manual mode activation, whereas the UC requires automatic operation without manual input. | "The system exits the adaptive mode when the user manually switches to 'Manual' lighting settings or deactivates the 'Auto' mode." |
+| UC specifies that the system should always prevent glare for other drivers, but SSTS indicates inconsistent glare reduction. | "The system adapts to the presence of other vehicles, reducing headlight glare for other drivers by adjusting the beam direction and intensity." |
+| UC demands automatic transition between day and night modes without failure, while SSTS acknowledges potential failure in transitions. | "The system is unable to consistently detect sudden transitions in environmental conditions such as tunnels or rapidly changing daylight." |
+| UC requires seamless light intensity and beam adjustments, but SSTS mentions delays and errors in output. | "The beam pattern dynamically changes when approaching curves or hills, illuminating the road more effectively and improving driver awareness." |
+| UC expects the system to activate automatically without the need for "Auto" mode, but SSTS limits activation to when the "Auto" mode is selected. | "The system triggers when the vehicle starts, automatically activating the 'Auto' headlight mode." |
+| UC calls for instant notification of failures, but SSTS specifies potential delays in failure alerts. | "When the system detects a failure (e.g., sensor malfunctions), it sometimes fails to notify the driver immediately or provides insufficient details about the nature of the problem." |

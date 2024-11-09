@@ -1,0 +1,29 @@
+**Title**  
+Automatic Detection of Tire Pressure & Temperature
+
+**Goal**  
+The goal of the Automatic Detection of Tire Pressure & Temperature sub-system is to provide real-time monitoring of the tire pressure and temperature in each of the vehicle's tires. This system will notify the driver of any deviations from the recommended pressure range or temperature, helping ensure optimal tire performance, safety, and longevity. The feature will provide alerts to the driver if the tire pressure is too high or too low, or if the tire temperature exceeds safe limits, allowing the user to take corrective action before any damage or safety issues occur.
+
+**Preconditions**  
+- The vehicle must be equipped with a fully functional Automatic Detection of Tire Pressure & Temperature system, installed during the manufacturing process.
+- The system requires an initial calibration to ensure accurate readings for each tire.
+- The vehicle's power must be on for the system to operate and detect tire pressure and temperature.
+- Each tire must have compatible sensors embedded or mounted to accurately measure pressure and temperature.
+
+**Main Scenario**  
+1. The driver, Bob, enters the vehicle and starts the engine.  
+2. The Automatic Detection of Tire Pressure & Temperature system initializes, displaying tire pressure and temperature readings for each tire on the dashboard or through a mobile app.  
+3. Bob notices that one of the tires has a lower pressure reading than the recommended level.  
+4. The system alerts Bob with a visual and audible warning indicating that the tire pressure is low and requires attention.  
+5. Bob, after receiving the alert, decides to pull over at a service station to address the issue.
+
+**Alternative Scenario**  
+1. Bob starts the vehicle, but the Automatic Detection of Tire Pressure & Temperature system fails to initialize due to a sensor malfunction.  
+2. The system displays a message on the dashboard or the app stating "Sensor Error - Unable to Detect Tire Pressure & Temperature."  
+3. Bob is advised to visit a service center for diagnosis and repair, with a recommendation to monitor tire pressure manually until the issue is resolved.  
+4. The system automatically logs the error and sends a report to the vehicle’s maintenance system for future reference.
+
+**Postconditions**  
+- After successful interaction with the system, Bob will have received accurate tire pressure and temperature information for all tires.  
+- If any abnormalities are detected, Bob will be alerted and can take corrective actions to prevent tire damage, ensuring a safe driving experience.  
+- In the case of a malfunction, the system will notify the driver of the issue and suggest the necessary actions for resolution.

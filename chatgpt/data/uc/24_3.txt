@@ -1,0 +1,31 @@
+**Underpinning Contract: Automatic Detection of Tire Pressure & Temperature**
+
+1. **Goal**  
+   The Automatic Detection of Tire Pressure & Temperature sub-system will provide real-time monitoring of the tire pressure and temperature for each tire of the vehicle. It will alert the driver if the pressure or temperature deviates from the optimal range, enhancing safety and performance. The system will ensure that the driver is informed immediately about any critical tire conditions, helping to prevent tire damage, increase fuel efficiency, and promote safe driving.
+
+2. **Preconditions**  
+   - The vehicle must be equipped with compatible sensors capable of detecting tire pressure and temperature.  
+   - The system should be fully integrated with the vehicle's onboard diagnostics and display systems.  
+   - The user (driver) must have access to the vehicle's dashboard or the dedicated mobile application (if applicable) for viewing tire status.  
+   - The sensors should be calibrated and functioning correctly at the start of the vehicle's use.  
+   - Alise or Bob (the driver) must have the necessary permissions or access rights to interact with the system and view tire status information.
+
+3. **Main Scenario**  
+   1. Alise (or Bob) starts the vehicle.  
+   2. The Automatic Detection sub-system initializes and begins monitoring the tire pressure and temperature in real-time.  
+   3. The system displays tire pressure and temperature data for each tire on the dashboard or mobile app.  
+   4. If any tire's pressure or temperature is outside the optimal range, the system triggers a visual and/or audible alert.  
+   5. Alise (or Bob) follows the alert’s recommendation, such as stopping at a service station for tire adjustment or inspection, as necessary.  
+
+4. **Alternative Scenario**  
+   1. The system fails to initialize due to a sensor malfunction.  
+   2. Alise (or Bob) notices the dashboard shows a "sensor error" message.  
+   3. The system advises the user to consult the vehicle manual or take the car to an authorized service center for sensor repair.  
+   4. The user is unable to access tire pressure and temperature data until the issue is resolved.  
+   5. Alise (or Bob) continues driving with the awareness that the system is currently non-functional and must seek repair at the earliest opportunity.
+
+5. **Postconditions**  
+   - After a successful interaction, Alise (or Bob) receives an accurate report of tire pressure and temperature for each tire.  
+   - If there were any issues detected, such as under-inflation or overheating, the system provides actionable information to the user (such as stopping the vehicle for tire adjustment).  
+   - The vehicle’s safety is ensured through continuous monitoring, and Alise (or Bob) can take preventative action to avoid potential damage or danger.  
+   - If a failure was detected and corrected, the system resumes normal operation and continues monitoring the tire conditions.

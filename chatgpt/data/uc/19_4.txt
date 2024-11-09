@@ -1,0 +1,58 @@
+**Underpinning Contract: Vehicle Health Monitoring with Automated Reports**
+
+---
+
+### Goal
+
+The Vehicle Health Monitoring with Automated Reports sub-system aims to provide the user with the ability to continuously monitor the health and performance of a luxury electric vehicle. This system will automatically generate detailed reports on the vehicle's status, including battery health, motor performance, system diagnostics, and any potential issues. The user will be able to access real-time data about the vehicle's condition, receive proactive alerts for maintenance needs, and obtain comprehensive reports at scheduled intervals. This will ensure a seamless driving experience with minimized risk of unexpected failures.
+
+---
+
+### Preconditions
+
+1. The user is a registered owner of a luxury electric vehicle equipped with the Vehicle Health Monitoring sub-system.
+2. The vehicle must be powered on or in standby mode to ensure that the monitoring systems are active.
+3. The vehicle must be connected to the company's central system via internet or Bluetooth to transmit health data.
+4. The system has been configured with the user's preferences for reporting frequency and type of alerts.
+5. The user must have access to the vehicle’s mobile app or dashboard interface to interact with the sub-system.
+
+---
+
+### Main Scenario
+
+1. **User Action**: Bob opens the vehicle's mobile app or dashboard interface to check the vehicle’s health status.
+   - **Sub-system Response**: The system displays an overview of the vehicle's health, including battery charge, motor status, tire pressure, and any detected errors.
+
+2. **User Action**: Bob selects the option to view the most recent automated report.
+   - **Sub-system Response**: The system generates and displays a detailed report containing insights on vehicle diagnostics, including performance metrics, identified issues, and recommendations for maintenance.
+
+3. **User Action**: Bob clicks on a specific diagnostic alert (e.g., a warning about low tire pressure).
+   - **Sub-system Response**: The system provides more details on the issue, including suggested actions and an option to schedule an appointment with a service center.
+
+4. **User Action**: Bob sets up a schedule for regular health reports (weekly, monthly, etc.).
+   - **Sub-system Response**: The system confirms the selected schedule and automatically sends future reports according to the chosen frequency.
+
+5. **User Action**: Bob receives an automated notification about a system update or critical issue requiring immediate attention (e.g., battery degradation).
+   - **Sub-system Response**: The system provides detailed instructions on how to address the issue and prompts Bob to contact customer support or a local service center for assistance.
+
+---
+
+### Alternative Scenario
+
+1. **User Action**: Bob attempts to access the health report, but the app indicates that the vehicle's health data is unavailable.
+   - **Sub-system Response**: The system displays a message informing Bob that the data is temporarily unavailable due to connectivity issues. The system prompts Bob to check the vehicle’s connection or try again later.
+
+2. **User Action**: Bob clicks on the "Retry" option.
+   - **Sub-system Response**: The system attempts to reconnect to the vehicle and retrieve the latest health data. If successful, the system displays the updated report. If not, the system advises Bob to contact customer support.
+
+3. **User Action**: Bob receives an alert that a critical issue with the vehicle is detected, but the system cannot generate a report due to a failure.
+   - **Sub-system Response**: The system notifies Bob of the failure, and a customer support representative is automatically contacted via phone or email to assist with troubleshooting and resolution.
+
+---
+
+### Postconditions
+
+- After successful interaction, Bob will have access to an up-to-date and accurate report of the vehicle's health, including any alerts, maintenance suggestions, and performance statistics.
+- The system will have automatically logged the interaction and updated the vehicle's health monitoring records.
+- If a critical issue is found, Bob will be provided with instructions for further action or contact with support.
+- Scheduled reports will be sent to Bob at the predefined intervals, ensuring continuous monitoring of the vehicle's health.

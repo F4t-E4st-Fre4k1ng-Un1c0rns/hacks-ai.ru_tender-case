@@ -1,0 +1,30 @@
+**Title:**  
+Real-Time Parking Availability Notifications
+
+**Goal:**  
+The Real-Time Parking Availability Notifications sub-system will provide users with up-to-date information about available parking spaces in the vicinity of their destination. This feature will allow users to receive real-time notifications on parking availability, reducing the time spent searching for parking and improving the overall experience of owning and using a luxury electric vehicle. Users will be notified of nearby open parking spots, including their distance from the vehicle’s current location, and will have the option to navigate to them.
+
+**Preconditions:**  
+1. The user must have a compatible luxury electric vehicle equipped with the necessary sensors and communication capabilities for the parking system.
+2. The user must have an active internet connection to receive real-time parking updates.
+3. The sub-system must be enabled within the vehicle’s infotainment or mobile application interface.
+4. The parking system relies on accurate and up-to-date location data provided by the vehicle's GPS and surrounding infrastructure, such as parking sensors or city databases.
+5. The vehicle’s owner or driver (e.g., Alise or Bob) must have the appropriate user account and permissions set up to use the feature.
+
+**Main Scenario:**  
+1. Alise (or Bob) drives their vehicle to a destination where they need parking.
+2. The vehicle’s system automatically detects the user’s location and checks for available parking spaces nearby.
+3. The system displays a list of available parking spaces with distance, availability status, and other relevant details on the vehicle’s dashboard or mobile app.
+4. Alise (or Bob) selects a parking spot and receives turn-by-turn directions to the chosen spot.
+5. Upon arrival at the parking space, the system confirms the spot’s availability and provides a notification that the parking space is ready for use.
+
+**Alternative Scenario:**  
+1. Alise (or Bob) drives to a destination, but the system is unable to detect any available parking spaces due to a network failure or lack of nearby data sources.
+2. The system displays a message notifying the user that parking availability information is currently unavailable.
+3. The system offers alternative suggestions, such as a nearby parking lot or a prompt to try again later.
+4. Alise (or Bob) chooses an alternative action, like manually searching for parking or continuing without the assistance of the real-time parking notifications.
+
+**Postconditions:**  
+1. If the parking spot was successfully found and selected, the user is guided to the chosen parking space and can park their vehicle without difficulty.
+2. The system logs the parking event, noting the location and time of arrival, providing the user with a history of parking events for future reference.
+3. If parking availability information was not received, the system records the failure and alerts the user that the feature was temporarily unavailable.

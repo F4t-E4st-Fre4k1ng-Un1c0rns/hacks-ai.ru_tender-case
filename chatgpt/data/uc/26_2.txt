@@ -1,0 +1,59 @@
+**Underpinning Contract for Remote Engine Start/Stop via Mobile App**
+
+---
+
+**1. Title:**
+Remote Engine Start/Stop via Mobile App
+
+---
+
+**2. Goal:**
+The goal of the Remote Engine Start/Stop via Mobile App sub-System is to allow users to remotely start and stop the engine of their luxury electric vehicle using a mobile application. This feature provides convenience, security, and flexibility by enabling users to control their vehicle’s engine from a distance, ensuring they can warm up or cool down the cabin, or ensure the car is off when they forget. The feature also aims to enhance the overall user experience by integrating with the vehicle's existing systems, offering seamless, easy-to-use controls.
+
+---
+
+**3. Preconditions:**
+- The user must have the mobile application installed and configured with their vehicle account.
+- The mobile application must be paired with the vehicle's onboard systems.
+- The vehicle must be within a designated range to ensure reliable communication for remote engine control.
+- The user must have an active internet or network connection for remote communication.
+- The mobile app must be updated to the latest version to ensure compatibility with the sub-System.
+
+---
+
+**4. Main Scenario:**
+
+1. **User opens the mobile app**: Alise opens the mobile application on her smartphone and logs into her account.
+   
+2. **User selects the "Engine Control" option**: Alise navigates to the engine control section in the app where she can see options to start or stop the engine.
+
+3. **User presses the "Start Engine" button**: Alise taps the “Start Engine” button, prompting the app to send a request to the vehicle to start the engine.
+
+4. **Vehicle starts the engine**: The vehicle receives the request and starts the engine remotely, with the app confirming the action by displaying a "Engine Started" notification on Alise’s screen.
+
+5. **User confirms the engine status**: Alise checks the app to confirm that the engine has successfully started, and the vehicle’s systems are operational. If desired, she can now adjust the cabin temperature or other settings via the app.
+
+---
+
+**5. Alternative Scenario:**
+
+1. **User opens the mobile app**: Bob opens the mobile app and logs into his account, but the app cannot connect to the vehicle.
+
+2. **Connection failure**: The app displays an error message such as "Unable to connect to vehicle" due to poor network coverage or the vehicle being outside the communication range.
+
+3. **User retries the action**: Bob tries again after moving closer to the vehicle or ensuring a stable internet connection.
+
+4. **User receives notification of failure**: If the connection attempt fails multiple times, Bob receives a notification informing him that the feature is unavailable at the moment due to technical issues or connectivity problems.
+
+5. **User selects alternative action**: Bob may choose to resolve the issue by checking his mobile network, updating the app, or waiting for the system to become available again.
+
+---
+
+**6. Postconditions:**
+
+After a successful interaction with the Remote Engine Start/Stop via Mobile App feature, the following results occur:
+
+- The vehicle's engine is started or stopped as per the user’s request.
+- The mobile app updates to reflect the current engine status (e.g., "Engine Started" or "Engine Stopped").
+- The user is notified of the successful action via the app, confirming that the vehicle is ready for use or that the engine has been turned off.
+- The system logs the action, storing it in the vehicle's history for reference and security purposes.

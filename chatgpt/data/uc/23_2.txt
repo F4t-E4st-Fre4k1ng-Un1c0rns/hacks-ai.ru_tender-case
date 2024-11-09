@@ -1,0 +1,52 @@
+---
+
+**Title**: Integration of Social Media Platforms into Infotainment
+
+---
+
+**Goal**:  
+This feature will enable users to access and interact with popular social media platforms directly through the vehicle’s infotainment system. Users will be able to view their feeds, post updates, respond to messages, and receive notifications without needing to check their personal devices, enhancing their in-car experience and helping them stay connected seamlessly.
+
+---
+
+**Preconditions**:  
+- The vehicle must be in a stationary or parked mode to access interactive features for safety.
+- The user must be logged into their social media accounts on the infotainment system to access personalized feeds and content.
+- Internet connectivity is required for social media features to be accessible.
+
+---
+
+**Main Scenario**:
+
+1. **User Action**: Alice selects the social media app on the infotainment screen.
+   - **System Response**: The system opens the chosen social media interface and displays the latest feed.
+
+2. **User Action**: Alice taps on a new notification to view a recent post or message.
+   - **System Response**: The system opens the specific post or message, allowing Alice to read it.
+
+3. **User Action**: Alice wants to post a status update and selects the "Post" option.
+   - **System Response**: The system provides a text input interface, and Alice types her update.
+
+4. **User Action**: Alice submits her status update.
+   - **System Response**: The system confirms the post was shared successfully.
+
+5. **User Action**: Alice taps "Log Out" after she is finished.
+   - **System Response**: The system logs Alice out from her social media accounts on the infotainment system.
+
+---
+
+**Alternative Scenario**:
+
+- If the vehicle is in motion, Alice tries to open a social media app:
+  - **System Response**: The system restricts access and displays a message: “Social media access is only available when the vehicle is stationary for safety reasons.”
+  
+- If there is no internet connectivity:
+  - **System Response**: The system displays an error message: “No internet connection. Please connect to access social media features.”
+
+---
+
+**Postconditions**:  
+- After successful interaction, the user has accessed or posted social media content directly from the vehicle's infotainment system.
+- User's social media updates or interactions are completed securely, and the system maintains user privacy by logging out as needed.
+  
+---

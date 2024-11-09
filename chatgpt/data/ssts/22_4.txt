@@ -1,0 +1,35 @@
+**Technical Specifications for Real-Time Parking Availability Notifications (Compliant Use)**
+
+**1. Title**  
+Real-Time Parking Availability Notifications
+
+**2. Functional Description**  
+The Real-Time Parking Availability Notifications sub-system provides users with up-to-the-minute information about parking space availability near their current location or chosen destination. By integrating with parking sensors and third-party data sources, the system delivers real-time updates to the user's mobile device or vehicle system, ensuring that users can quickly find available parking and navigate directly to it. Notifications are sent dynamically based on changes in parking status, enabling users to make informed decisions and reducing the time spent searching for parking.
+
+**3. Enabling Conditions**  
+- The user must have the Real-Time Parking Availability Notifications app installed on their mobile device or have the integrated system enabled in their vehicle.  
+- The system requires an active internet connection (mobile data or Wi-Fi) for real-time data transmission.  
+- The app or vehicle system must have location tracking enabled to detect nearby parking spaces based on the user’s current position.  
+- The system must be integrated with reliable third-party parking data providers and/or parking sensors to ensure real-time updates.  
+- The user must have granted the necessary permissions for location tracking and notifications to be received.  
+- The vehicle should be compatible with the integrated navigation system if in-vehicle navigation is used.
+
+**4. Trigger Conditions**  
+- The user opens the Real-Time Parking Availability Notifications app or activates the feature through their vehicle’s infotainment system.  
+- The system detects the user’s location through GPS or other location tracking methods.  
+- The user selects a parking area or a destination where they wish to park.  
+- The system queries the parking database and begins monitoring available spots in the selected area.  
+- The user sets preferences for receiving notifications about parking spot availability.
+
+**5. Execution Output**  
+- The system dynamically updates parking availability information in real-time, notifying the user of available parking spots or changes in parking status.  
+- The system provides accurate directions to the selected parking spot, using the vehicle’s navigation system or app-based navigation.  
+- If parking spaces are unavailable, the system sends alerts about the nearest available parking options.  
+- The system continuously monitors and updates parking spot availability as the user approaches the selected location.  
+- The system records the user’s parking transaction upon successful parking, and updates the availability status of the spot in real-time.
+
+**6. Exit Conditions/Exit Conditions**  
+- The user successfully parks in the chosen spot, and the system records the event, updating the parking status accordingly.  
+- The user exits the parking system by turning off the app or deactivating the feature on their vehicle’s system.  
+- The system is unable to provide real-time parking availability due to network or data source issues, in which case the user is notified, and the session is ended with an error message.  
+- The user opts to disable notifications or stops using the system, resulting in the termination of the session and deactivation of parking updates.

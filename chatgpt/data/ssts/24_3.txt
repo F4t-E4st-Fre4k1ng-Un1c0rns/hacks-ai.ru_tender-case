@@ -1,0 +1,25 @@
+**Technical Specifications: Automatic Detection of Tire Pressure & Temperature**
+
+1. **Functional Description**  
+   The Automatic Detection of Tire Pressure & Temperature sub-system is designed to monitor tire pressure and temperature in real-time. It alerts the driver when the tire pressure or temperature deviates from the optimal range, promoting vehicle safety and performance. The system works by utilizing sensors installed on each tire and continuously sending data to the vehicle's display system, where the driver can view tire conditions and take action as needed.
+
+2. **Enabling Conditions**  
+   - The vehicle is equipped with compatible tire pressure and temperature sensors.
+   - Sensors must be properly calibrated and functioning before system operation.
+   - The vehicle’s dashboard or a connected mobile app must support the display of tire pressure and temperature data.
+   - The system must be integrated into the vehicle’s onboard diagnostics, capable of receiving and transmitting tire data.
+   - The driver must have access to the vehicle’s display system to monitor tire conditions.
+
+3. **Trigger Conditions**  
+   - The system is activated when the vehicle is started.
+   - Tire pressure and temperature data from the sensors are continuously collected and processed.
+   - An alert is triggered if any tire’s pressure or temperature falls outside the optimal operating range.
+
+4. **Execution Output**  
+   - The system provides real-time tire pressure and temperature data for each tire on the dashboard or mobile app display.
+   - If tire pressure or temperature deviates from the set range, an alert is triggered (visual and/or audible) to inform the driver of the issue.
+   - The system logs tire condition data, which can be reviewed by the driver for maintenance or performance purposes.
+
+5. **Exit Conditions**  
+   - The system exits when the vehicle is turned off or when the driver manually disables the tire monitoring feature, if applicable.
+   - The system will also exit if it detects a critical failure (e.g., sensor malfunction), and will notify the driver of the error, suggesting service or repair.

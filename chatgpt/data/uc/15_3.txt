@@ -1,0 +1,48 @@
+**Underpinning Contract: Over-the-Air Software Updates for In-Vehicle Systems**
+
+---
+
+**Title**  
+Over-the-Air Software Updates for In-Vehicle Systems
+
+---
+
+**Goal**  
+The Over-the-Air (OTA) Software Update system will provide luxury electric vehicle owners with the ability to seamlessly download and install the latest software updates for their in-vehicle systems. This feature aims to enhance the overall vehicle experience by keeping in-vehicle software up-to-date, improving performance, security, and providing access to new features without requiring a visit to a service center.
+
+---
+
+**Preconditions**  
+1. The vehicle must have an active internet connection, either through a built-in cellular network or Wi-Fi.
+2. The user (e.g., Alice or Bob) must be registered as the owner or authorized user of the vehicle.
+3. Battery level of the vehicle should be above a certain threshold to ensure the update process is uninterrupted.
+4. The vehicle’s software must be compatible with OTA update capabilities.
+
+---
+
+**Main Scenario**  
+1. **User Action:** Alice receives a notification on her vehicle’s display indicating a new software update is available.
+   - **System Response:** The OTA system provides an option to "Install Now" or "Schedule for Later."
+2. **User Action:** Alice selects "Install Now."
+   - **System Response:** The system checks for internet connectivity and battery level.
+3. **User Action:** Alice confirms the installation.
+   - **System Response:** The OTA system begins downloading the update package.
+4. **User Action:** Alice waits as the system installs the update, and views progress indicators on the display.
+   - **System Response:** The OTA system completes the installation and prompts Alice that the update was successful.
+5. **User Action:** Alice restarts her vehicle as prompted.
+   - **System Response:** The vehicle reboots, and the updated software becomes active, showing new features or improvements.
+
+---
+
+**Alternative Scenario**  
+1. **User Action:** Bob attempts to start the OTA update but encounters a "Low Battery" warning.
+   - **System Response:** The OTA system prompts Bob to charge the vehicle and retry the update.
+2. **User Action:** Bob schedules the update for a later time when the battery is expected to be sufficiently charged.
+   - **System Response:** The system confirms the scheduled time and retries the update when conditions are met.
+3. **User Action:** If internet connectivity is lost during the download process, the system notifies Bob of the interruption.
+   - **System Response:** The OTA system saves the progress and resumes the download once the connection is reestablished.
+
+---
+
+**Postconditions**  
+After a successful interaction with the OTA system, the vehicle’s in-vehicle software is updated to the latest version. Alice or Bob can now experience new functionalities, enhanced performance, and improved security features, as well as smoother operation of the vehicle’s systems. The system records the update in the vehicle’s history for future reference.

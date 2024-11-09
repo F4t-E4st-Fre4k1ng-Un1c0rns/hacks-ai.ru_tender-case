@@ -1,0 +1,30 @@
+**Title:**  
+Real-Time Parking Availability Notifications - Technical Specifications
+
+**Functional Description:**  
+The Real-Time Parking Availability Notifications sub-system provides users with real-time, accurate information about available parking spaces near their destination. It utilizes the vehicle's GPS and external parking sensor data to detect and communicate the availability of parking spots. The system offers detailed information about each parking space, including distance from the vehicle, availability status, and any relevant restrictions (e.g., pricing or time limits). Users can view available parking spots on the vehicle's infotainment system or connected mobile app, and receive turn-by-turn navigation to the selected spot.
+
+**Enabling Conditions:**  
+1. The user must have an active internet connection to receive real-time parking updates.
+2. The vehicle must be equipped with GPS and location-tracking features to provide accurate positioning.
+3. The vehicle’s infotainment system or connected mobile app must support Real-Time Parking Availability Notifications and be properly configured.
+4. The system must have access to updated and accurate parking data from available sources, such as parking sensors or city databases.
+5. The user (e.g., Alise or Bob) must have a valid account and the necessary permissions to access the parking feature.
+
+**Trigger Conditions:**  
+1. The sub-system is activated automatically when the user starts their journey towards a destination where parking is required.
+2. The system detects the user’s location and proximity to potential parking spots.
+3. If the user manually selects a destination within the app or infotainment system, the system triggers the search for nearby parking spaces.
+4. The system continuously monitors for available parking as the vehicle approaches the destination and updates the user on available spots.
+
+**Execution Output:**  
+1. A list of nearby parking spaces, including distance from the current location, availability status, and any restrictions (e.g., pricing or time limits).
+2. Real-time notifications regarding the status of selected parking spots, including any updates (e.g., spot becomes unavailable).
+3. Directions to the selected parking space with turn-by-turn navigation, continuously updated based on real-time traffic and parking space status.
+4. A confirmation notification once the vehicle arrives at the selected parking space, confirming its availability and readiness.
+
+**Exit Conditions:**  
+1. The system confirms that the parking spot has been successfully reserved or that the user has parked their vehicle at the chosen spot.
+2. If no parking spots are available, the system provides a message notifying the user and suggests alternatives or displays the nearest available parking lot.
+3. The system records the parking event, including location, time, and status, for user reference and future tracking.
+4. If the user cancels the parking search or exits the navigation system, the system exits and stops providing parking notifications or guidance.

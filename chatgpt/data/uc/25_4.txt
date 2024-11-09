@@ -1,0 +1,54 @@
+**Underpinning Contract: Smart Adaptive Lighting System for Day/Night Driving**
+
+---
+
+### 1. Goal
+
+The Smart Adaptive Lighting System for Day/Night Driving is designed to enhance the driving experience by automatically adjusting the vehicle’s lighting based on environmental conditions. This system will optimize visibility and safety for the driver, offering features such as automatic adjustment of headlights between day and night modes, adaptive brightness based on ambient light, and intelligent response to road conditions. The system will also feature an adaptive beam pattern to prevent glare for other drivers.
+
+### 2. Preconditions
+
+- The Smart Adaptive Lighting System is integrated into the luxury electric car’s main control unit and activated when the vehicle is powered on.
+- The vehicle's sensors, including light sensors and GPS, must be functioning correctly for the system to operate effectively.
+- The driver has opted into the automatic lighting mode through the car’s settings.
+- The vehicle must be equipped with the necessary hardware for adaptive lighting, such as sensors, cameras, and adaptive LED headlights.
+
+### 3. Main Scenario
+
+1. **User Action**: Bob starts the vehicle and selects "Auto" mode for the headlights in the car's settings menu.
+   - **System Response**: The Smart Adaptive Lighting System is activated, and the car's headlights switch to the appropriate mode based on current light conditions.
+  
+2. **User Action**: While driving, Bob enters a tunnel.
+   - **System Response**: The system detects the change in light conditions and automatically turns on the headlights, adjusting their intensity for optimal visibility.
+
+3. **User Action**: Bob continues driving at night, approaching a car in front.
+   - **System Response**: The adaptive lighting system adjusts the beam pattern of the headlights to avoid blinding the driver ahead, focusing the light pattern downward and to the right.
+
+4. **User Action**: Bob exits the tunnel and the external lighting conditions change to daylight.
+   - **System Response**: The system detects the increased brightness and adjusts the headlights to a lower intensity or turns them off, as appropriate.
+
+5. **User Action**: Bob switches the car to manual mode for further customization of the lighting.
+   - **System Response**: The system allows Bob to manually adjust the headlight intensity and beam pattern as per his preference.
+
+### 4. Alternative Scenario
+
+1. **User Action**: Bob starts the vehicle, but the Smart Adaptive Lighting System fails to activate.
+   - **System Response**: The vehicle displays a warning message indicating a malfunction with the lighting system. Bob is prompted to check the vehicle's settings or visit a service center for repairs.
+
+2. **User Action**: Bob is driving at night, and the system’s sensors fail to detect ambient light properly.
+   - **System Response**: The car's lights remain on at a constant intensity, and Bob is alerted with a notification to check the system’s sensor alignment. The system may switch to manual mode until the sensors are recalibrated.
+
+3. **User Action**: Bob encounters a very bright streetlight and notices that the system does not adjust the headlights appropriately.
+   - **System Response**: The system alerts Bob that it is having trouble detecting the current lighting conditions, and suggests switching to manual mode to adjust the headlights as needed.
+
+4. **User Action**: Bob drives through a sudden heavy fog, and the adaptive system does not adjust for better visibility.
+   - **System Response**: The system notifies Bob of the issue, offering a suggestion to manually activate the fog lights or the high beam assist feature.
+
+### 5. Postconditions
+
+After successful interaction with the Smart Adaptive Lighting System:
+
+- Bob's headlights adjust seamlessly based on environmental lighting conditions, enhancing his driving visibility.
+- The system provides optimal lighting performance, minimizing glare to other drivers and ensuring safety during both day and night driving.
+- If any errors are corrected, the system will resume automatic operation once the issue is addressed, with Bob receiving confirmation of successful adjustment.
+- In cases where manual intervention is required, Bob can use the manual control mode to set the lighting preferences as desired.

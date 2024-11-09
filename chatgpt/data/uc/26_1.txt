@@ -1,0 +1,43 @@
+**Underpinning Contract for Remote Engine Start/Stop via Mobile App**
+
+1. **Title:**
+   Remote Engine Start/Stop via Mobile App
+
+2. **Goal:**
+   The Remote Engine Start/Stop feature allows users to start and stop the engine of their luxury electric car remotely via a mobile application. This functionality provides convenience and enhanced user control, enabling users to start their vehicle in advance for warming or cooling the cabin, or to stop the engine remotely when needed. The feature will work seamlessly via the mobile app, providing secure and immediate access to the vehicle’s engine control system.
+
+3. **Preconditions:**
+   - The vehicle must be equipped with the necessary hardware to support remote engine control.
+   - The user must have a registered account in the mobile app associated with the vehicle.
+   - The vehicle must be within the operational range for remote control via the mobile app.
+   - The mobile app must be installed and updated on the user’s device.
+   - The user must be authenticated in the mobile app (e.g., via username/password or biometric authentication).
+
+4. **Main Scenario:**
+   1. **User Action:** Bob opens the mobile app on his smartphone.
+      **Sub-System Response:** The app prompts Bob to log in if not already authenticated.
+   
+   2. **User Action:** Bob selects the "Engine Start/Stop" option from the app’s main menu.
+      **Sub-System Response:** The app displays a screen with the current status of the engine (started or stopped).
+   
+   3. **User Action:** Bob taps the “Start Engine” button.
+      **Sub-System Response:** The app sends a secure command to the vehicle’s system to start the engine.
+   
+   4. **User Action:** The vehicle’s engine starts, and the app displays a confirmation message, “Engine Started.”
+      **Sub-System Response:** The vehicle’s engine begins operating, and the cabin may begin to adjust the temperature based on settings.
+   
+   5. **User Action:** Bob taps the “Stop Engine” button once he is done.
+      **Sub-System Response:** The app sends a secure command to stop the engine, and the vehicle engine powers down.
+
+5. **Alternative Scenario:**
+   1. **User Action:** Alise attempts to start the engine using the mobile app.
+      **Sub-System Response:** The app checks the vehicle’s status and displays an error message if the vehicle is not in a condition to start remotely (e.g., low battery, vehicle locked).
+   
+   2. **User Action:** Alise sees an error message, “Engine start failed.”
+      **Sub-System Response:** The app prompts Alise with possible troubleshooting options (e.g., check vehicle battery, ensure vehicle is unlocked).
+   
+   3. **User Action:** Alise tries to perform the action again after addressing the issue.
+      **Sub-System Response:** The app attempts to send the engine start command again. If successful, the engine starts and the app displays a confirmation message.
+
+6. **Postconditions:**
+   After a successful interaction, the vehicle's engine will either be started or stopped remotely, as per the user's action. The mobile app will provide a confirmation notification on the user’s device to indicate the success of the operation. If the action is to start the engine, the vehicle may begin temperature adjustments depending on user settings. If the engine is stopped, the vehicle will power down appropriately, ensuring security and energy efficiency.

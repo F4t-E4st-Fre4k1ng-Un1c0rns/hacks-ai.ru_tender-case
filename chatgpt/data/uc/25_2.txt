@@ -1,0 +1,37 @@
+**Underpinning Contract: Smart Adaptive Lighting System for Day/Night Driving**
+
+**1. Title**  
+Smart Adaptive Lighting System for Day/Night Driving
+
+**2. Goal**  
+The Smart Adaptive Lighting System for Day/Night Driving is designed to enhance the driving experience by adjusting the vehicle's lighting system based on real-time environmental factors. The system will automatically switch between day and night driving modes, optimize visibility, and reduce glare, ensuring the driver’s comfort and safety during various lighting conditions. The system will feature:
+- Day mode: Full brightness for optimal visibility during daylight.
+- Night mode: Reduced brightness with adaptive functions to minimize glare for oncoming traffic.
+- Automatic adjustment based on time of day, external lighting conditions, and the vehicle’s speed.
+- A responsive lighting system that activates based on road type (e.g., city roads, highways) and external lighting intensity.
+
+**3. Preconditions**  
+- The vehicle is equipped with the Smart Adaptive Lighting System.
+- The system is calibrated to detect external light conditions such as daylight, dusk, and nighttime.
+- The vehicle's speed sensor is functioning correctly, as the system adjusts lighting based on the speed of the vehicle.
+- The vehicle's GPS system is active to identify road types (e.g., highways or city streets) to optimize the lighting based on the current road environment.
+
+**4. Main Scenario**  
+1. Bob enters the vehicle, starts the engine, and begins driving.
+2. The system automatically detects daylight and activates the appropriate high-brightness setting for day mode.
+3. As Bob drives, the system continuously monitors external light conditions, adjusting the brightness and direction of the headlights as needed.
+4. At dusk, the system detects the change in light levels and transitions to night mode, reducing the intensity of the headlights and adjusting for minimal glare.
+5. If Bob increases speed or drives on a highway, the system detects these changes and adjusts the lighting to optimize visibility, ensuring the best possible road illumination.
+
+**5. Alternative Scenario**  
+1. Alise enters the vehicle and starts the engine, but the Smart Adaptive Lighting System fails to detect the change in lighting conditions.
+2. The system remains stuck in day mode despite dusk approaching, resulting in discomfort due to excessive headlight glare.
+3. Alise notices the system malfunction and manually switches to night mode using the vehicle’s dashboard controls.
+4. The system’s backup lighting settings are activated, but the adjustment to external light conditions is delayed due to a sensor error.
+5. In case of continued malfunction, Alise contacts customer support for troubleshooting and repairs, and the system remains inactive until the issue is resolved.
+
+**6. Postconditions**  
+Upon successful interaction with the system:
+- The lighting adjusts dynamically according to time of day and environmental conditions, ensuring optimal visibility for the driver.
+- The driver experiences a smoother and more comfortable drive with minimal glare and enhanced road illumination.
+- Any adjustments to road type (e.g., highway vs. city) and vehicle speed result in corresponding changes in lighting, maintaining safety and comfort at all times.

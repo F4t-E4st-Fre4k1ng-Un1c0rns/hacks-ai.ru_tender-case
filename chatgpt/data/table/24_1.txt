@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not explicitly mention providing *immediate alerts* for tire anomalies, as required in the UC. | "The system will alert the driver to the affected tire(s) and recommend corrective actions." |
+| SSTS fails to mention the *manual check initiation* by the driver, which is part of the UC. | "The system is also manually triggered by the driver via the vehicle's interface to view real-time tire data." |
+| SSTS does not describe providing *specific corrective guidance* (e.g., "inflate the tire") when an issue is detected, which is required in the UC. | "The system will alert the driver to the affected tire(s) and recommend corrective actions." |
+| SSTS does not ensure that the system *automatically activates* each time the vehicle starts, as required in the UC. | "The system must be automatically activated upon vehicle startup." |
+| SSTS does not provide a clear process for *resetting the system* if there is a sensor or system failure, while the UC requires it. | "If the system encounters a failure, such as a sensor malfunction, an error message will be displayed on the dashboard or mobile app, indicating the issue and providing troubleshooting steps." |
+| SSTS does not include details on how *manual intervention* is handled when a failure occurs, which is expected in the UC. | "The system will enter a 'maintenance required' mode, and further professional intervention will be required to restore full functionality." |

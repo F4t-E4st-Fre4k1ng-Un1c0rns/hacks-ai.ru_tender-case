@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not explicitly mention support for dynamic, real-time user registration, which is required in the UC. | "The driver’s biometric data or access credentials must be pre-registered into the system through the vehicle's user interface or during the initial setup." |
+| SSTS lacks a detailed description of the necessary hardware reliability, particularly for proximity sensors, which is addressed in the UC. | "The system is activated when the driver approaches the vehicle, detected by proximity sensors." |
+| SSTS does not provide clear instructions for accessing or reviewing logs by the vehicle owner, as required in the UC. | "A log of successful and failed authentication attempts is stored within the vehicle’s onboard system for security auditing purposes." |
+| SSTS fails to provide robust failover mechanisms for alternative authentication methods in case of a system malfunction, as suggested by the UC. | "If the system detects an authentication failure, it will automatically prompt the driver to use an alternative verification method, such as a PIN code or mobile verification, if configured." |
+| SSTS lacks specific mention of remote management or contact with support directly from the system interface after multiple authentication failures, as required by the UC. | "The system will send a notification if an authentication failure reaches the defined threshold, prompting the driver to contact customer support." |

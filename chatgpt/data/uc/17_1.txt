@@ -1,0 +1,54 @@
+**Title**  
+Remote Control of Vehicle Features via Mobile App
+
+**Goal**  
+The goal of the "Remote Control of Vehicle Features via Mobile App" sub-system is to allow the user to remotely control various vehicle features through a mobile application. These features will include but are not limited to locking and unlocking the vehicle, controlling the climate control system, monitoring the vehicle's location, and enabling or disabling the vehicle’s security system. The primary objective is to enhance user convenience, safety, and vehicle management, offering seamless control from a mobile device.
+
+**Preconditions**  
+- The vehicle must be equipped with the necessary hardware and software to support remote control capabilities via the mobile app.
+- The user must have a registered and authenticated account with the company’s mobile app.
+- The mobile app must be installed on the user’s smartphone, and the smartphone must be connected to the internet (Wi-Fi or cellular data).
+- The vehicle must be in a location with an active cellular or Wi-Fi network for remote communication to function.
+- The user must have authorized access to control the vehicle (e.g., owner or authorized driver).
+
+**Main Scenario**  
+1. **Launch the Mobile App**  
+   The user, Alise, opens the mobile app on her smartphone.
+   - **System Response:** The app displays the main dashboard, showing the status of the vehicle (locked/unlocked, location, battery status, etc.).
+
+2. **Select Vehicle Features to Control**  
+   Alise taps on the vehicle's icon on the app to view available features for control (e.g., lock/unlock, climate control, location tracking).
+   - **System Response:** The app presents a list of controllable features available for the selected vehicle.
+
+3. **Activate or Adjust Desired Feature**  
+   Alise chooses to adjust the vehicle’s climate control system (e.g., set temperature to 72°F).
+   - **System Response:** The app sends a signal to the vehicle to adjust the climate control system to the selected temperature, and a confirmation notification is displayed.
+
+4. **Monitor Vehicle Location**  
+   Alise decides to check the current location of the vehicle.
+   - **System Response:** The app retrieves the GPS data from the vehicle and displays the vehicle’s real-time location on a map.
+
+5. **Lock the Vehicle Remotely**  
+   After checking the vehicle’s status, Alise taps the "Lock Vehicle" button to ensure it is secure.
+   - **System Response:** The app sends a command to the vehicle to lock all doors, and a notification confirms that the vehicle is now locked.
+
+**Alternative Scenario**  
+1. **App Not Connected to Vehicle**  
+   Alise tries to adjust the climate control but receives an error message stating that the vehicle is not reachable.
+   - **System Response:** The app notifies Alise that the vehicle is out of range, offline, or there is a connectivity issue, and provides suggestions (e.g., check internet connection, try again later).
+
+2. **Authentication Failure**  
+   Bob attempts to use the app but encounters an authentication error when logging in.
+   - **System Response:** The app displays an error message indicating incorrect login credentials or expired session and prompts Bob to re-enter the login details or reset the password.
+
+3. **Feature Disabled Due to Vehicle Status**  
+   Alise attempts to remotely unlock the vehicle, but the app informs her that unlocking is not possible due to the vehicle’s security settings (e.g., it is in "anti-theft" mode).
+   - **System Response:** The app displays a message that explains why the action is unavailable and offers troubleshooting options or contact support.
+
+**Postconditions**  
+- After successful interaction with the sub-system, the vehicle features are updated according to the user's actions.  
+  - If Alise successfully locked the vehicle, the vehicle will be securely locked, and the app will notify her with confirmation.
+  - If the climate control was adjusted, the vehicle’s interior temperature will reflect the user’s selection.
+  - The vehicle’s real-time location will be accurately displayed on the map, enabling Alise to track the vehicle's position.
+  
+These actions ensure that the user has full control and visibility of the vehicle’s status and features remotely, enhancing both convenience and security.

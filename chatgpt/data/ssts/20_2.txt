@@ -1,0 +1,44 @@
+**Technical Specifications: Integrating Emergency Alerts in Vehicle Dashboard**
+
+---
+
+**1. Title**  
+Integrating Emergency Alerts in Vehicle Dashboard
+
+---
+
+**2. Functional Description**  
+The "Integrating Emergency Alerts in Vehicle Dashboard" sub-system is designed to detect and respond to critical events such as health emergencies, accidents, or vehicle malfunctions. When a critical event is detected, the system triggers a visual and audible emergency alert on the vehicle’s dashboard. The system may also attempt to contact emergency services, providing them with the vehicle’s location and relevant emergency data, such as the vehicle’s status and potential health information, if available.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle’s digital dashboard is equipped with a display system capable of presenting emergency alerts clearly.
+- The vehicle is equipped with sensors such as accelerometers (for crash detection), biometric sensors (for health monitoring), and vehicle diagnostic systems (for detecting malfunctions).
+- The emergency alert system must be activated during the vehicle’s initial setup or via the system settings menu.
+- The vehicle must have an active communication system capable of connecting to emergency services, including GPS and data transmission capabilities.
+
+---
+
+**4. Trigger Conditions**  
+- The emergency alert system will be triggered by the detection of any of the following conditions:
+  - Health emergency (e.g., abnormal biometrics such as heart rate or detected medical anomalies).
+  - Vehicle crash (detected by impact sensors or collision detection systems).
+  - Malfunction or failure of critical vehicle systems (e.g., engine, brakes, electrical systems).
+  - Manual emergency activation by the driver (e.g., pressing a button on the dashboard or using voice commands).
+
+---
+
+**5. Execution Output**  
+- Once triggered, the system will display an emergency alert on the vehicle’s dashboard, with a corresponding visual message (e.g., “Health Emergency Detected! Pull over and call for help,” or “Crash Detected! Emergency services being contacted”).
+- The system will emit an audible alert (such as a siren or a voice prompt) to ensure the driver is aware of the emergency.
+- The system will attempt to contact emergency services, sending data including the vehicle’s GPS location, health status (if applicable), and other relevant diagnostic data. 
+- The driver will be presented with a confirmation message: “Emergency services have been contacted. Stay calm. Help is on the way.”
+  
+---
+
+**6. Exit Conditions**  
+- The emergency alert system has successfully contacted emergency services and transmitted critical data.
+- Once emergency services are en route and the critical event is addressed, the system will return to standby mode or indicate that the emergency has been resolved.
+- If the system fails (e.g., due to connectivity issues or sensor malfunction), the driver will be informed of the failure and prompted to manually contact emergency services. 
+- In the event of a system failure, the system will provide a fallback prompt: “Please manually call emergency services.”

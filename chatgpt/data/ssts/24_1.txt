@@ -1,0 +1,41 @@
+**Technical Specifications for Sub-System: Automatic Detection of Tire Pressure & Temperature**
+
+---
+
+**1. Title**  
+Automatic Detection of Tire Pressure & Temperature - Technical Specifications
+
+---
+
+**2. Functional Description**  
+This sub-system is responsible for the continuous monitoring of tire pressure and temperature for all four tires in the vehicle. It will display real-time data on the vehicle’s dashboard and mobile app, providing immediate alerts when tire pressure or temperature deviates from optimal levels. If an issue is detected, the system will alert the driver to the affected tire(s) and recommend corrective actions. The system is designed to improve safety, efficiency, and tire longevity by providing proactive warnings and allowing the driver to take preventive measures.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with compatible tire pressure and temperature sensors installed in each tire.  
+- The system must be automatically activated upon vehicle startup.  
+- The vehicle must have a functional power supply and communication system to ensure reliable data transmission.  
+- The dashboard and/or mobile app must support the display of real-time tire data, including pressure and temperature for each tire.  
+- The system must be able to receive software updates remotely to ensure compatibility with future vehicle software releases.
+
+---
+
+**4. Trigger Conditions**  
+- The system is triggered automatically when the vehicle is powered on, and it begins monitoring tire pressure and temperature.  
+- Trigger conditions include any deviation in tire pressure or temperature outside the predefined safe ranges. For example, a drop in tire pressure below a minimum threshold or a rise in tire temperature above a maximum limit will trigger an alert.  
+- The system is also manually triggered by the driver via the vehicle's interface to view real-time tire data.
+
+---
+
+**5. Execution Output**  
+- The system continuously displays the real-time tire pressure and temperature for each tire on the vehicle’s dashboard or mobile app.  
+- When tire pressure or temperature deviates from acceptable limits, the system triggers an alert, which includes the specific tire(s) affected and recommended actions (e.g., inflate the tire, allow it to cool down).  
+- If the system encounters a failure, such as a sensor malfunction, an error message will be displayed on the dashboard or mobile app, indicating the issue and providing troubleshooting steps.
+
+---
+
+**6. Exit Conditions**  
+- The exit condition occurs when the tire pressure and temperature return to normal operating ranges. If corrective actions are taken (e.g., inflating the tire or allowing it to cool), the system will resume normal monitoring.  
+- The system exits when the vehicle is powered off or the user exits the tire monitoring interface.  
+- If the system detects a critical failure, such as a persistent sensor malfunction that cannot be resolved through troubleshooting, the system will enter a "maintenance required" mode, and further professional intervention will be required to restore full functionality.

@@ -1,0 +1,32 @@
+**Underpinning Contract for Automatic Driver Identification and Access Control Sub-System**
+
+**1. Title**  
+Automatic Driver Identification and Access Control
+
+**2. Goal**  
+The Automatic Driver Identification and Access Control sub-system provides seamless, secure, and automated access control to vehicles. It allows authorized users to be identified automatically, ensuring that only registered drivers are granted access to the luxury electric cars. The system supports efficient identification using biometric features or RFID technology, streamlining the process of vehicle access without manual intervention, ensuring safety and ease of use.
+
+**3. Preconditions**  
+- The user must be registered in the system with relevant identification details (e.g., biometrics, RFID tags).
+- The vehicle must be equipped with the Automatic Driver Identification and Access Control system.
+- The sub-system is active and properly integrated with the vehicle's central control system.
+- The system has a reliable communication link between the vehicle's access control and the identification interface.
+
+**4. Main Scenario**  
+1. **User Approaches Vehicle**: Alise approaches the vehicle with the Automatic Driver Identification and Access Control system enabled.
+2. **System Scans for Identification**: The system automatically scans for the driver’s identification (biometric or RFID tag) as Alise is within proximity of the vehicle.
+3. **System Verifies Identity**: The system cross-references the scanned data with the registered user information.
+4. **Access Granted**: If Alise’s identity is verified, the system grants access, unlocking the vehicle.
+5. **Start Vehicle**: Alise enters the vehicle and starts it, with the system ensuring the appropriate permissions are active for the user.
+
+**5. Alternative Scenario**  
+1. **User Approaches Vehicle**: Bob approaches the vehicle with the Automatic Driver Identification and Access Control system enabled.
+2. **System Scans for Identification**: The system attempts to scan for Bob’s identification.
+3. **System Fails to Recognize Identification**: The system is unable to identify Bob due to a fault in the scanning technology or unregistered data.
+4. **Alternative Verification Requested**: The system prompts Bob to use an alternative identification method, such as manually entering a PIN or contacting support for further assistance.
+5. **Access Denied or Delayed**: If the alternative method fails or is unavailable, the system denies access or logs a request for the support team to address the issue.
+
+**6. Postconditions**  
+- After successful identification and access, the user (Alise or Bob) is granted secure access to the vehicle.
+- The system logs the access event for security and auditing purposes.
+- The vehicle’s system enables the authorized driver to operate the vehicle without further identity checks during the session, until the session ends or the vehicle is turned off.

@@ -1,0 +1,48 @@
+**Technical Specifications for Smart Adaptive Lighting System for Day/Night Driving**
+
+---
+
+**1. Title**  
+**Smart Adaptive Lighting System for Day/Night Driving**
+
+---
+
+**2. Functional Description**  
+The Smart Adaptive Lighting System is designed to automatically adjust the vehicle’s exterior lighting based on varying environmental conditions, including time of day, lighting intensity, and driving situation. The system enhances visibility and safety by regulating headlight intensity, beam direction, and activating appropriate auxiliary lights, while minimizing glare for other drivers. It also ensures energy efficiency by adapting the system’s usage to current conditions. Key functionalities include:
+
+- Automatic adjustment of headlight intensity according to ambient light levels.
+- High beam activation in low-light conditions and deactivation when oncoming traffic is detected.
+- Daytime Running Lights (DRLs) optimization based on daylight conditions.
+- Nighttime driving assistance through optimized road sign, obstacle, and lane marking visibility.
+- Energy-efficient lighting management.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle must be equipped with sensors including ambient light sensors, traffic detection systems, and camera-based systems for automatic high beam activation/deactivation.
+- The vehicle’s electrical and software systems must be fully functional and updated to support the Smart Adaptive Lighting System.
+- Calibration of the system’s sensors should be completed during the vehicle’s setup process or service updates to ensure correct system behavior.
+- The system requires the vehicle to be powered on to initiate automatic lighting adjustments during driving.
+
+---
+
+**4. Trigger Conditions**  
+- The system automatically activates the Daytime Running Lights (DRLs) when daylight conditions are detected to ensure maximum visibility.
+- The system will trigger high beam activation when driving in low-light conditions, and automatically deactivate the high beams when approaching or encountering oncoming traffic.
+- The system detects changes in ambient light intensity (e.g., dusk or dawn) to trigger automatic adjustments of headlight intensity.
+- The system responds to specific driving environments, adjusting beam direction to improve visibility, such as when approaching sharp curves or in rural areas.
+
+---
+
+**5. Execution Output**  
+- The system adjusts headlight intensity in response to ambient light changes, ensuring the vehicle’s lighting is optimized for the current driving conditions, such as transitioning from day to night.
+- When the system detects oncoming traffic or sufficiently lit roads, it switches from high beams to low beams to minimize glare for other drivers.
+- The system optimizes Daytime Running Lights (DRLs) to ensure they are bright enough for visibility without being excessive, adapting to the surrounding light conditions.
+- In low-light or night conditions, the system provides enhanced visibility through automatic beam adjustments to illuminate the road, signs, and obstacles effectively.
+
+---
+
+**6. Exit Conditions/Exit Criteria**  
+- The system exits automatic lighting control mode when the vehicle reaches a well-lit area, or when manual intervention is required due to system failure or sensor malfunction.
+- The system will deactivate when the vehicle is powered off or when the driver manually adjusts the lighting settings using the vehicle’s controls.
+- If the system detects a malfunction or fails to operate within expected parameters (e.g., sensor failure or improper lighting adjustment), it will notify the user with an alert and suggest corrective actions, including visiting a service center if necessary.

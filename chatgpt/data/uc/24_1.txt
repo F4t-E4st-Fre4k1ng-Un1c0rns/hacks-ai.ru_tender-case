@@ -1,0 +1,59 @@
+**Underpinning Contract for Sub-System: Automatic Detection of Tire Pressure & Temperature**
+
+---
+
+**1. Title**  
+Automatic Detection of Tire Pressure & Temperature
+
+---
+
+**2. Goal**  
+The Automatic Detection of Tire Pressure & Temperature sub-system is designed to provide real-time monitoring of the tire pressure and temperature in luxury electric vehicles. This sub-system will offer the following features to the user:  
+- Continuous tracking of tire pressure and temperature for all four tires.  
+- Instantaneous alerts when tire pressure or temperature deviates from optimal levels.  
+- Display of current tire status on the vehicle's dashboard or mobile app.  
+- Provide warnings in case of potential tire issues (e.g., low pressure or overheating).  
+- Ensure enhanced safety and tire longevity by maintaining optimal operating conditions.
+
+---
+
+**3. Preconditions**  
+- The vehicle must be equipped with compatible sensors in each tire for measuring pressure and temperature.  
+- The system must be activated through the vehicle's main interface or mobile app.  
+- The user must have a basic understanding of how to view tire pressure and temperature data on the vehicle’s dashboard or mobile app.  
+- The vehicle must be in an operational state (i.e., not in maintenance mode) for real-time tire monitoring.
+
+---
+
+**4. Main Scenario**  
+1. **User Action**: Bob starts the vehicle.  
+   **Sub-System Response**: The Automatic Detection of Tire Pressure & Temperature sub-system initializes and begins monitoring the tire pressure and temperature in real-time.  
+2. **User Action**: Bob checks the vehicle's dashboard for tire status.  
+   **Sub-System Response**: The sub-system displays the current tire pressure and temperature for each of the four tires on the dashboard.  
+3. **User Action**: Bob drives the vehicle, maintaining normal speed and driving conditions.  
+   **Sub-System Response**: The sub-system continuously monitors the tire data and updates the dashboard in real-time.  
+4. **User Action**: Bob receives an alert notification on the dashboard or mobile app indicating a potential issue (e.g., low tire pressure or high temperature).  
+   **Sub-System Response**: The system provides a clear visual and/or auditory warning along with the specific tire(s) affected and suggested actions.  
+5. **User Action**: Bob takes the necessary action (e.g., pulling over to check the tires, visiting a service station).  
+   **Sub-System Response**: The sub-system logs the alert and provides a summary of the condition for review at a later time, ensuring safety and awareness.
+
+---
+
+**5. Alternative Scenario**  
+1. **User Action**: Bob starts the vehicle, but the sub-system fails to initialize.  
+   **Sub-System Response**: The system displays an error message indicating a malfunction or failure of the tire monitoring sensors and suggests troubleshooting steps.  
+2. **User Action**: Bob checks the vehicle’s dashboard for tire status, but the data does not appear.  
+   **Sub-System Response**: A message on the dashboard notifies Bob of a temporary system failure, advising him to check the tire sensors or visit a service center.  
+3. **User Action**: Bob receives an alert on his mobile app stating that the tire monitoring system is unavailable.  
+   **Sub-System Response**: The system informs Bob that the issue may be due to a sensor malfunction or communication error and offers a recommendation to either reset the system or seek professional help.  
+4. **User Action**: Bob attempts to reset the system by restarting the vehicle or re-launching the mobile app.  
+   **Sub-System Response**: If the reset is successful, the system resumes monitoring. If the reset fails, the system directs Bob to the nearest service location for further assistance.  
+5. **User Action**: Bob visits a service center.  
+   **Sub-System Response**: The service center technician inspects the tire monitoring system, diagnoses the issue, and either repairs or replaces the necessary components to restore functionality.
+
+---
+
+**6. Postconditions**  
+- After successful interaction with the sub-system, Bob will have accurate, real-time data on the tire pressure and temperature for each tire, helping to ensure the vehicle operates within safe parameters.  
+- If a problem with the tire pressure or temperature is detected, the system will have provided timely alerts, allowing Bob to take action before a potential issue escalates.  
+- If the system fails or is unavailable, the user will have received proper notifications and guidance on troubleshooting or seeking professional help. The tire monitoring system will either be restored to full functionality or reported for further diagnosis and repair.

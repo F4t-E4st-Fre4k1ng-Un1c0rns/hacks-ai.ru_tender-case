@@ -1,0 +1,31 @@
+**Underpinning Contract for Over-the-Air Software Updates for In-Vehicle Systems**
+
+**1. Goal**  
+The Over-the-Air (OTA) Software Updates sub-System provides the ability to remotely update, upgrade, and maintain the software and firmware of in-vehicle systems without the need for the vehicle to visit a service center. This feature will ensure that the vehicle’s systems, including navigation, infotainment, and driver assistance software, remain current with the latest features, improvements, and bug fixes. It will also enhance the overall performance, safety, and user experience of the vehicle.
+
+**2. Preconditions**  
+- The vehicle must be connected to the internet via Wi-Fi or cellular data.
+- The user must have an active account with the vehicle manufacturer to receive software updates.
+- The vehicle must be powered on or in a ready state for updates to occur.
+- The user must have enabled OTA updates in the vehicle’s settings.
+- A sufficient amount of available storage space must be present in the vehicle’s system for the update file.
+
+**3. Main Scenario**  
+1. Bob, the vehicle owner, receives a notification on his vehicle’s dashboard screen, informing him that a software update is available.  
+2. Bob taps on the notification to view more details about the update, including the release notes and the estimated installation time.  
+3. After reviewing the details, Bob confirms that he wants to proceed with the update.  
+4. The vehicle begins the update process, downloading the necessary files over the internet.  
+5. Once the download is complete, the vehicle installs the update automatically, and Bob receives a notification when the update has been successfully applied.
+
+**4. Alternative Scenario**  
+1. Bob, the vehicle owner, receives a notification that a software update is available. However, Bob’s vehicle is not connected to Wi-Fi or cellular data at the moment.  
+2. The vehicle displays a message prompting Bob to connect to a Wi-Fi network or enable cellular data for the update to proceed.  
+3. If Bob cannot connect to the internet immediately, the update will be scheduled for a later time when a connection is available, and Bob is notified of the delay.  
+4. If the download fails, the system will prompt Bob to check the vehicle’s internet connection and try again.  
+5. If the update cannot be completed for any other reason (e.g., insufficient storage), the system will notify Bob of the issue and provide troubleshooting steps.
+
+**5. Postconditions**  
+- The vehicle’s software and firmware are successfully updated to the latest version.  
+- Any new features, improvements, and bug fixes included in the update are now active and functional within the vehicle’s systems.  
+- The vehicle’s performance and user experience are enhanced, and the update is recorded in the vehicle’s system log for future reference.  
+- Bob may also receive an email or mobile app notification confirming the successful update.

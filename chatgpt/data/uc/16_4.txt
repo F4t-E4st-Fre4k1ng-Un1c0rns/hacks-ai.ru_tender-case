@@ -1,0 +1,42 @@
+**Title**  
+Voice-Activated Climate Control System
+
+**Goal**  
+The Voice-Activated Climate Control System allows users to adjust the cabin's temperature, air quality, and ventilation settings within a luxury electric vehicle using voice commands. The system will provide a hands-free experience for the driver and passengers, enhancing comfort and convenience. Key features include adjusting temperature settings, controlling fan speeds, switching between air conditioning and heating modes, and setting personalized climate preferences for specific zones of the vehicle.
+
+**Preconditions**  
+- The vehicle is powered on and the Voice-Activated Climate Control System is properly initialized and connected.
+- The user is in a quiet environment with minimal background noise for optimal voice recognition performance.
+- The user must have a basic understanding of the available voice commands.
+- The system supports multi-language input and regional dialects.
+
+**Main Scenario**  
+1. **User Action**: The user, Bob, says "Set the cabin temperature to 22 degrees Celsius."
+   - **Sub-System Response**: The system processes the voice command and adjusts the temperature to 22°C.
+  
+2. **User Action**: Bob asks, "Increase the fan speed."
+   - **Sub-System Response**: The system increases the fan speed to the next available setting.
+
+3. **User Action**: Bob requests, "Switch to air conditioning mode."
+   - **Sub-System Response**: The system activates the air conditioning and adjusts settings accordingly.
+
+4. **User Action**: Bob says, "Set the passenger seat to 24 degrees."
+   - **Sub-System Response**: The system adjusts the temperature in the passenger seat area to 24°C, if dual-zone climate control is available.
+
+5. **User Action**: Bob asks, "Activate the air purifier."
+   - **Sub-System Response**: The system activates the air purifier function to improve air quality inside the cabin.
+
+**Alternative Scenario**  
+1. **User Action**: Bob asks, "Set the temperature to 30 degrees Celsius," but the system does not recognize the command due to high background noise.
+   - **Sub-System Response**: The system responds with, "I'm sorry, I couldn't hear your request. Could you please repeat it?"
+   
+2. **User Action**: Bob repeats the command, but the system still fails to understand due to a system malfunction.
+   - **Sub-System Response**: The system alerts Bob with, "I am currently experiencing difficulty processing your request. Please try again later or use manual controls."
+
+3. **User Action**: Bob says, "Increase the fan speed," but the system fails to make adjustments.
+   - **Sub-System Response**: The system responds, "Fan speed control is unavailable at the moment. Please try again or adjust manually."
+
+**Postconditions**  
+- After successful interaction, the system will reflect the user’s desired climate settings, such as temperature, fan speed, and air mode.
+- The system will provide a feedback confirmation for the user, either verbally or visually on the vehicle’s dashboard or control interface.
+- The system will maintain the last successful settings until a new voice command is issued or until manual adjustments are made by the user.

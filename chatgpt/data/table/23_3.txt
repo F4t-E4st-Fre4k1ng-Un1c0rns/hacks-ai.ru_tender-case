@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies that safe usage features, like automated restrictions while driving, should be implemented, but SSTS only partially addresses distraction reduction. | "Core interactions include viewing feeds, liking posts, and limited post updates via voice commands, with features designed to prioritize safe interaction." |
+| The UC includes permission requirements for notifications and specific connectivity checks, but SSTS provides only a general mention of account login and internet connection. | "User has an active social media account and has logged into the platform(s) through the infotainment system." |
+| UC requires full hands-free voice command options for all interactions, while SSTS relies on manual selection without fully supporting hands-free accessibility. | "The user selects a social media platform via the infotainment menu." |
+| The UC requires comprehensive engagement options, including the ability to view expanded post content upon selection, but SSTS specifies only basic interaction capabilities. | "The infotainment system provides access to the user’s social media feed, enabling content viewing and simple interactions (like, comment, share)." |
+| The UC specifies support for queuing actions during connectivity loss, while SSTS lacks specific details for offline synchronization of actions taken. | "The system synchronizes any actions taken during the session with the social media platform." |

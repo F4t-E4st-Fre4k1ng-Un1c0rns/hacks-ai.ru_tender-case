@@ -1,0 +1,40 @@
+**Underpinning Contract: Vehicle Health Monitoring with Automated Reports**
+
+### 1. Title
+Vehicle Health Monitoring with Automated Reports
+
+### 2. Goal
+The Vehicle Health Monitoring with Automated Reports sub-system provides the capability to monitor the health of the vehicle's components and systems in real-time, offering periodic automated reports to users. The feature will detect anomalies or potential issues, alerting the vehicle owner or operator of maintenance needs. Additionally, it will provide a detailed analysis of the vehicle’s performance, battery health, and overall mechanical condition, enhancing the user’s ability to maintain the vehicle and avoid unexpected breakdowns.
+
+### 3. Preconditions
+- The vehicle is equipped with the necessary sensors and diagnostic tools required to gather data on its health (e.g., engine, battery, brake, and tire health).
+- The vehicle's software system is connected to a secure cloud platform where data will be processed and reports generated.
+- The user (either Bob or Alise) has a registered account with the vehicle manufacturer’s app or platform, where reports will be sent and stored.
+- The system must be online and the vehicle must be powered on to allow the monitoring and reporting process to function.
+
+### 4. Main Scenario
+1. **User initiates health monitoring**: The user, Alise, opens the vehicle’s mobile app or dashboard and selects the option to run a health diagnostic.
+   - **Sub-system Response**: The vehicle’s sensors begin gathering data on the status of all monitored systems, including battery, engine, brakes, and tire conditions.
+
+2. **Diagnostic is completed**: The system runs a complete diagnostic check, verifying the health of each key vehicle component.
+   - **Sub-system Response**: The system processes the diagnostic data and generates an automated health report.
+
+3. **Automated report is generated**: The sub-system generates a detailed report, listing any potential issues or areas of concern, such as low battery health, required fluid changes, or tire wear.
+   - **Sub-system Response**: The report is displayed on Alise’s app and sent via email or text message for her review.
+
+4. **User reviews the report**: Alise reads the health report and notes any recommended actions (e.g., servicing or replacing a component).
+   - **Sub-system Response**: The app offers suggestions for nearby service centers or auto shops for any necessary repairs or maintenance.
+
+5. **User acknowledges the report**: Alise acknowledges the report and can either schedule maintenance or choose to monitor the situation.
+   - **Sub-system Response**: The system logs the acknowledgment and, if applicable, updates the vehicle’s maintenance schedule with future diagnostic reminders.
+
+### 5. Alternative Scenario
+1. **System failure or service unavailability**: If the vehicle’s diagnostic system fails or the vehicle is unable to connect to the server due to connectivity issues, Bob tries to initiate the health monitoring.
+   - **Sub-system Response**: The system displays an error message informing Bob of the failure to complete the diagnostic check due to a connectivity issue. The app recommends checking network settings or waiting until the system can re-establish a connection.
+
+2. **Insufficient data**: If one or more sensors are malfunctioning or the vehicle is unable to provide complete data (e.g., a sensor is broken or offline), Alise receives a partial report.
+   - **Sub-system Response**: The system generates an incomplete report, warning Alise that certain systems were unable to be checked. It suggests having the vehicle checked at a service center for a full diagnosis.
+
+### 6. Postconditions
+- After a successful interaction with the Vehicle Health Monitoring sub-system, Alise receives a detailed report with the status of her vehicle’s health. If any issues are detected, the report will include recommended maintenance actions or potential repairs.
+- The system updates the vehicle’s maintenance log and provides future reminders or alerts based on the severity of the reported issues.

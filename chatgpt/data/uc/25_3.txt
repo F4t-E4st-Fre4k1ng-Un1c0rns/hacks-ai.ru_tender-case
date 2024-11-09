@@ -1,0 +1,28 @@
+**Underpinning Contract for Smart Adaptive Lighting System for Day/Night Driving**
+
+1. **Goal**  
+The Smart Adaptive Lighting System for Day/Night Driving aims to enhance driving safety and comfort by automatically adjusting the car's exterior lighting based on environmental conditions, such as time of day and surrounding light levels. The system will enable seamless transitions between day and night driving, optimizing visibility, reducing glare, and improving the overall driving experience. Features will include adaptive headlights, automatic brightness control, and real-time light adjustments in response to various driving conditions.
+
+2. **Preconditions**  
+- The vehicle is equipped with the necessary sensors, cameras, and adaptive lighting components that support the Smart Adaptive Lighting System.
+- The system is activated at the start of the vehicle’s ignition process.
+- The vehicle's software is updated to the latest version supporting the Smart Adaptive Lighting System.
+- The driver has configured personal preferences (if applicable) for lighting settings, including brightness, light direction, and system responsiveness.
+- The vehicle's sensors are fully functional and are capable of detecting ambient light levels, road signs, and other vehicles.
+
+3. **Main Scenario**  
+1. Alise starts the vehicle, and the Smart Adaptive Lighting System automatically activates upon ignition.
+2. The system detects the current environmental lighting conditions—if it is daytime, the system adjusts the headlights to lower intensity or turns them off.
+3. As evening approaches, the system detects diminishing light levels and increases the headlight intensity for better visibility.
+4. While driving at night, the system adjusts the headlights' direction and range, ensuring optimal visibility without causing glare for other drivers.
+5. If the vehicle approaches a sharp curve or an intersection, the system automatically adjusts the lighting to illuminate the road more effectively, providing added safety.
+
+4. **Alternative Scenario**  
+1. Bob starts the vehicle, but the Smart Adaptive Lighting System does not activate due to a software malfunction or sensor failure.
+2. The system alerts Bob via the vehicle’s dashboard with a notification indicating the issue.
+3. Bob is prompted to follow troubleshooting instructions, which might include a system restart or visiting a service center.
+4. In case the system cannot be repaired on-site, the vehicle defaults to manual control, and the driver adjusts the headlights manually until the system is restored.
+5. Bob is advised to drive cautiously in low-light conditions as the automated system is temporarily unavailable.
+
+5. **Postconditions**  
+After a successful interaction with the Smart Adaptive Lighting System, the vehicle's lighting will automatically adapt to changing environmental conditions, ensuring optimal visibility for both the driver and other road users. The system will provide a seamless and safe driving experience, adjusting the headlights in response to factors like time of day, weather, road conditions, and nearby vehicles. If any issue arises, the driver will be informed and can take necessary action for troubleshooting or manual operation.

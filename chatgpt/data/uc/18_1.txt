@@ -1,0 +1,54 @@
+**Underpinning Contract for Customizable Seat Position and Memory System**
+
+### 1. Title  
+Customizable Seat Position and Memory System
+
+### 2. Goal  
+The Customizable Seat Position and Memory System is designed to enhance user comfort and convenience by allowing the driver and passengers to adjust and save personalized seating positions. This system will enable users to quickly return to their preferred seating positions with the press of a button, supporting multiple driver profiles. Features include:
+
+- **Seat Position Adjustment:** Allows the seat to be adjusted for comfort in multiple directions (forward/backward, up/down, tilt).
+- **Memory Function:** Enables saving of multiple seat configurations for different users or preferences.
+- **User Profiles:** Different settings can be saved for each user and recalled at any time.
+
+### 3. Preconditions  
+- The vehicle must be equipped with the Customizable Seat Position and Memory System.
+- The user must be logged into their driver profile (if applicable).
+- The system requires electrical power from the vehicle's battery and access to the vehicle's central control unit for seat adjustments and memory storage.
+- The seats must be in a non-restricted position before adjustments are made.
+- The system should be operational during regular vehicle use, excluding power failures or malfunctions.
+
+### 4. Main Scenario  
+1. **User action:** The user (e.g., Bob) enters the vehicle and selects their driver profile from the user interface.
+   - **Sub-System response:** The system loads the saved seating position for Bob and adjusts the seat automatically.
+   
+2. **User action:** If Bob wishes to make adjustments to the seating position, he uses the seat control buttons on the side of the seat or through the central dashboard interface to modify the seat's position (forward/backward, height, tilt).
+   - **Sub-System response:** The seat adjusts accordingly to the new requested position in real-time.
+
+3. **User action:** After adjusting the seat to the desired position, Bob presses the "Save Position" button on the interface to save the configuration.
+   - **Sub-System response:** The system stores the current seat position under Bob’s user profile for future use.
+
+4. **User action:** The next time Bob enters the vehicle, the system automatically recognizes his profile and adjusts the seat to his previously saved settings.
+   - **Sub-System response:** The seat returns to the saved position, providing a comfortable and consistent experience.
+
+5. **User action:** If Bob wants to switch to a different seating configuration, he selects an alternative profile or manually adjusts the seat position through the system.
+   - **Sub-System response:** The seat position is updated, either automatically or based on new input.
+
+### 5. Alternative Scenario  
+- **Scenario 1:** The system fails to detect Bob’s profile or memory settings due to a software issue.
+  - **User action:** Bob manually adjusts the seat position.
+  - **Sub-System response:** The seat adjusts to the desired position, but no memory profile is recalled. The system notifies Bob of the failure to load his profile.
+
+- **Scenario 2:** The system cannot adjust the seat due to a malfunction (e.g., electrical failure or mechanical issue).
+  - **User action:** Bob attempts to adjust the seat, but no movement occurs.
+  - **Sub-System response:** The system displays an error message, instructing Bob to check for potential mechanical or electrical issues. The system advises to visit service for diagnostics.
+
+- **Scenario 3:** The vehicle is powered off or the system is temporarily unavailable.
+  - **User action:** Bob tries to adjust the seat, but the system does not respond.
+  - **Sub-System response:** The seat adjustment controls remain inactive until the system is powered on or restored.
+
+### 6. Postconditions  
+After a successful interaction with the Customizable Seat Position and Memory System:
+
+- The seat position has been adjusted to the user's desired configuration.
+- If the user saved the seat position, the system successfully stores and associates the new settings with the user profile.
+- The seat will automatically return to the saved position in future sessions when the same user profile is selected, ensuring consistent comfort.

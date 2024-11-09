@@ -1,0 +1,27 @@
+**Title**  
+Automatic Detection of Tire Pressure & Temperature - Technical Specifications
+
+**Functional Description**  
+The Automatic Detection of Tire Pressure & Temperature sub-system is designed to continuously monitor tire pressure and temperature, providing real-time data to the vehicle’s onboard system. It ensures that any abnormal tire conditions (such as low pressure or high temperature) are immediately detected, and alerts the driver with both visual and audible notifications. The system supports sensor calibration, operates in both stationary and moving vehicle states, and logs any deviations for maintenance reference.
+
+**Enabling Conditions**  
+1. The vehicle must have properly calibrated sensors installed in each tire capable of detecting both pressure and temperature.
+2. The vehicle must be powered on for the system to operate and communicate with the tire sensors.
+3. The system requires a compatible vehicle display unit (e.g., dashboard or mobile app) to show tire readings.
+4. The vehicle software must be updated to support tire pressure and temperature monitoring.
+5. The system must be installed and activated during the vehicle manufacturing process or through authorized service centers.
+
+**Trigger Conditions**  
+1. The system is automatically triggered upon vehicle startup when the vehicle's power is on and the sensors are active.
+2. The system continuously monitors tire pressure and temperature while the vehicle is in motion or stationary, based on the initial startup.
+3. An alert is triggered when tire pressure or temperature readings deviate from predefined safe limits.
+
+**Execution Output**  
+1. The system provides real-time tire pressure and temperature data for all tires on the vehicle’s display unit.
+2. If a tire’s pressure or temperature falls outside the acceptable range, the system generates both visual and audible alerts. The alerts specify which tire is affected and the nature of the problem (e.g., "Low Tire Pressure" or "High Temperature").
+3. The system logs abnormal tire conditions, which are accessible to both the driver via the display unit and to service personnel for future analysis.
+
+**Exit Conditions**  
+1. The system stops operation when the vehicle is turned off or when the power supply is interrupted.
+2. If a critical failure occurs (e.g., sensor malfunction, communication error), the system will enter a failure mode, notifying the driver via the display unit and logging the error for diagnostic purposes.
+3. The system may temporarily stop monitoring if communication between the sensors and the vehicle’s onboard system is lost, prompting a service visit for repairs.

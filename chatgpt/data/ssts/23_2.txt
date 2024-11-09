@@ -1,0 +1,34 @@
+---
+
+**Title**: Technical Specifications for Integration of Social Media Platforms into Infotainment
+
+---
+
+**Functional Description**:  
+This subsystem provides users with access to select social media platform features through the vehicle's infotainment system, including viewing recent feeds and posting updates. Interactive functions are restricted for safety, with access primarily intended for stationary use. Some functions, such as rich media display and messaging, may have limited availability to maintain optimal performance and user safety.
+
+---
+
+**Enabling Conditions**:  
+- The vehicle must have an active internet connection for social media features to function.
+- The user must have logged into their social media accounts via the infotainment system. Re-authentication is required upon each ignition cycle.
+
+---
+
+**Trigger Conditions**:  
+- The social media application is selected from the infotainment menu while the vehicle is in a stationary or parked state.
+- The system may limit access based on environmental safety conditions or high passenger load to reduce distractions.
+
+---
+
+**Execution Output**:  
+- The infotainment system displays a limited feed showing recent social media updates, allowing the user to browse content in a safe manner.
+- Posting updates is restricted to text-only posts, and interactive notifications for new posts or messages may be delayed based on driving and environmental factors.
+
+---
+
+**Exit Conditions**:  
+- The system logs the user out of social media applications automatically after 5 minutes of inactivity or when the vehicle is powered off.
+- Logging out can also be done manually by the user through the "Log Out" option within the infotainment system.
+
+---

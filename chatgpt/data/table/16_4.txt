@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC specifies the system should operate in a "quiet environment" for optimal performance, but the SSTS includes strict decibel range requirements. | "Background noise must be at a manageable level (typically below 50 dB) for optimal performance of voice recognition." |
+| UC describes the system should provide multi-zone climate control, but SSTS lacks specific mention of multi-zone capabilities. | *No relevant quotation found in SSTS for multi-zone control specifics.* |
+| UC implies voice commands should be processed under typical vehicle conditions without failure, but SSTS limits functionality based on background noise thresholds and microphone sensitivity. | "Background noise must be at a manageable level (typically below 50 dB) for optimal performance." |
+| The UC suggests minimal error prompts, but the SSTS includes multiple error scenarios, which may cause confusion. | "Sorry, I didn’t catch that. Could you repeat?" |
+| UC mentions that the system should revert to a “successful state” after command completion, but SSTS includes logging and waiting for further commands, causing potential delays. | "The system logs the command history and exits the active voice command mode, awaiting the next command." |

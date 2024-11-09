@@ -1,0 +1,33 @@
+**Title**  
+Integration of Social Media Platforms into Infotainment
+
+**Goal**  
+This subsystem will enable users to access and interact with popular social media platforms directly from the infotainment system. It will allow users to view and interact with feeds, share content, receive notifications, and make quick posts or replies safely while driving. This feature aims to enhance the user experience by keeping drivers connected in a seamless, distraction-minimized way.
+
+**Preconditions**  
+- User (e.g., Bob or Alice) has a valid social media account(s) and has logged in through the infotainment system.
+- Infotainment system is connected to a stable internet source (e.g., vehicle Wi-Fi or mobile data).
+- User has granted permissions for access to notifications and the social media feed.
+- All necessary social media integrations are updated and functioning as expected.
+
+**Main Scenario**  
+1. **User Action**: Alice selects the “Social Media” option from the infotainment menu.  
+   **System Response**: The system displays a list of available social media platforms integrated into the infotainment interface.
+
+2. **User Action**: Alice selects a platform (e.g., Twitter).  
+   **System Response**: The system opens her Twitter feed and displays recent posts, with options to like, retweet, or comment.
+
+3. **User Action**: Alice clicks on a post to expand it.  
+   **System Response**: The system displays the full content of the post along with engagement options.
+
+4. **User Action**: Alice chooses to “like” a post.  
+   **System Response**: The system confirms the action with a subtle visual feedback.
+
+5. **User Action**: Alice uses voice command to post a quick update.  
+   **System Response**: The system transcribes the message, displays it for confirmation, and posts it after her approval.
+
+**Alternative Scenario**  
+If the internet connection is lost or the social media platform is unavailable, the system will display a notification indicating that the feature is temporarily inaccessible. Alice can opt to retry the connection or receive an alert when the platform is available again. Alternatively, if she tries to make a post or view content offline, the system will queue the action for the next available connection.
+
+**Postconditions**  
+Upon successful interaction, Alice’s selected social media actions (e.g., liking a post, sharing content, or posting an update) will be completed on the chosen platform. The infotainment system will display her social media feed in its latest form, allowing her to stay connected and engaged through a safe and integrated in-car experience.

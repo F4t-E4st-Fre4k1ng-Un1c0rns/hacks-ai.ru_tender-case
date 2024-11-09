@@ -1,0 +1,30 @@
+**Title**  
+Vehicle Health Monitoring with Automated Reports  
+
+**Goal**  
+The Vehicle Health Monitoring with Automated Reports sub-system aims to provide real-time health diagnostics for luxury electric vehicles, ensuring proactive maintenance and seamless driving experiences. It will monitor key vehicle systems such as battery health, motor performance, braking systems, and more, generating automated reports that can be accessed by the user (driver) or service teams for timely intervention and maintenance. This will enhance the vehicle's reliability and longevity, improving overall customer satisfaction.  
+
+**Preconditions**  
+- The vehicle must be equipped with the necessary hardware and sensors to track health data of critical systems (e.g., battery, motor, brake system).  
+- The user (driver) must be registered in the system with access credentials to receive and view health reports.  
+- The vehicle must be connected to a network (e.g., via Wi-Fi or cellular) to transmit health data to the central monitoring server for analysis and report generation.  
+- The system should be operational and integrated into the vehicle's onboard computer system.  
+
+**Main Scenario**  
+1. The user (Alise) logs into the vehicle's dashboard interface and selects the "Vehicle Health" option from the main menu.  
+2. The sub-system retrieves real-time data from various vehicle sensors and processes it to generate a health report.  
+3. The user receives an automated report, detailing the status of critical vehicle components, including battery charge, motor performance, and brake system efficiency.  
+4. Alise reviews the report, which includes recommendations for maintenance or alerts for potential issues (e.g., “battery health at 85%, recommended check in 6 months”).  
+5. If necessary, Alise schedules a service appointment through the interface based on the report’s suggestions.  
+
+**Alternative Scenario**  
+1. Alise logs into the vehicle's dashboard interface and selects the "Vehicle Health" option from the main menu.  
+2. The system fails to retrieve data from the sensors due to a connectivity issue (e.g., no network signal or sensor malfunction).  
+3. The interface displays an error message indicating that the vehicle health data cannot be retrieved at the moment (e.g., “Unable to access vehicle health data due to connectivity issues”).  
+4. Alise is prompted to either retry the request or check vehicle connectivity settings (e.g., "Please ensure the vehicle is connected to a network and try again").  
+5. If the issue persists, Alise is given the option to schedule an offline diagnostic check with a service provider, or to contact customer support for assistance.  
+
+**Postconditions**  
+- After successful interaction, Alise receives an accurate and comprehensive vehicle health report.  
+- If necessary, the user is notified of any required maintenance or potential issues and can take action by scheduling service or making repairs as suggested in the report.  
+- The vehicle's health status is updated in the system, ensuring continuous monitoring and the prevention of future issues.

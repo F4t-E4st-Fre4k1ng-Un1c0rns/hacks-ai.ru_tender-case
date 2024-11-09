@@ -10,10 +10,10 @@ import chime
 
 class Screen:
     def __init__(self):
-        self.new_chat_position = (344, 215)
-        self.start_prompt_position = (682, 604)
-        self.copy_result_position = (715, 785)
-        self.continue_prompt_position = (697, 950)
+        self.new_chat_position = (346, 170)
+        self.start_prompt_position = (750, 565)
+        self.copy_result_position = (713, 780)
+        self.continue_prompt_position = (813, 952)
 
 
         # self.current_handler = 0
@@ -23,47 +23,42 @@ class Screen:
         #     time.sleep(0.1)
         #     if self.current_handler > 4:
         #         listener.stop()
-        #         print(
-        #             self.new_chat_position,
-        #             self.start_prompt_position,
-        #             self.copy_result_position,
-        #             self.continue_prompt_position,
-        #             "\n",
-        #             "screen is ready"
-        #         )
         #         return
 
 
     def click_handler(self, position1, position2, button, is_pressed):
         if is_pressed:
             self.current_handler += 1
-            print(position1, position2, button, is_pressed)
             match self.current_handler:
                 case 1:
+                    print(f"self.new_chat_position = ({position1}, {position2})")
                     self.new_chat_position = (position1, position2)
                 case 2:
+                    print(f"self.start_prompt_position = ({position1}, {position2})")
                     self.start_prompt_position = (position1, position2)
                 case 3:
+                    print(f"self.copy_result_position = ({position1}, {position2})")
                     self.copy_result_position = (position1, position2)
                 case 4:
+                    print(f"self.continue_prompt_position = ({position1}, {position2})")
                     self.continue_prompt_position = (position1, position2)
                     self.current_handler += 1
                 case _:
                     return
                 
     def create_new_chat(self):
-        pyautogui.click(*self.new_chat_position, duration=randint(10,15))
+        pyautogui.click(*self.new_chat_position, duration=randint(1, 3))
         time.sleep(1)
     
     def start_prompt(self, prompt: str):
-        pyautogui.click(*self.start_prompt_position, duration=randint(5,10))
+        pyautogui.click(*self.start_prompt_position, duration=randint(1, 3))
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")
         time.sleep(1)
 
     def continue_prompt(self, prompt: str):
-        pyautogui.click(*self.continue_prompt_position, duration=randint(10,15))
+        pyautogui.click(*self.continue_prompt_position, duration=randint(1, 3))
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")
@@ -84,6 +79,24 @@ class Screen:
             time.sleep(0.1)
             pyautogui.scroll(-1000)
             pyautogui.click(*self.copy_result_position, duration=0.2)
+
+            pyautogui.click(
+                self.copy_result_position[0],
+                self.copy_result_position[1] - 50,
+                duration=0.05)
+            pyautogui.click(
+                self.copy_result_position[0],
+                self.copy_result_position[1] - 60,
+                duration=0.05)
+            pyautogui.click(
+                self.copy_result_position[0],
+                self.copy_result_position[1] - 70,
+                duration=0.05)
+            pyautogui.click(
+                self.copy_result_position[0],
+                self.copy_result_position[1] - 80,
+                duration=0.05)
+
             pyautogui.moveTo(
                 self.copy_result_position[0]+20,
                 self.copy_result_position[1]+60,
@@ -97,3 +110,7 @@ class Screen:
     def sleep_random(self, st=5, en=25):
         time.sleep(randint(st, en))
     
+
+
+# 24522452
+# 5785
