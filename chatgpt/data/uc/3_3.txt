@@ -1,0 +1,40 @@
+**Title:**  
+Adaptive Cruise Control System Customization
+
+**Goal:**  
+The Adaptive Cruise Control (ACC) System Customization allows the user to adjust and fine-tune the performance and behavior of the vehicle's cruise control system. It provides the ability to set parameters such as following distance, speed tolerance, and responsiveness to traffic conditions, ensuring a more comfortable and personalized driving experience. The system adapts to varying road conditions, offering a safer and smoother drive by maintaining an optimal distance from other vehicles and adjusting speed accordingly.
+
+**Preconditions:**  
+- The vehicle must be equipped with the Adaptive Cruise Control feature as part of its standard or optional packages.
+- The driver must be seated with the seatbelt fastened, and the vehicle must be in drive mode for the system to engage.
+- The road should be clear of obstructions, and the vehicle's sensors must be operational (no sensor malfunctions).
+- The driver should have access to the vehicle's infotainment system or steering wheel controls to interact with the ACC customization settings.
+
+**Main Scenario:**  
+1. **User Action:** Bob enters the vehicle and starts the engine.  
+   **Sub-System Response:** The system checks for the operational status of the ACC and initializes the customization settings screen on the infotainment display.
+  
+2. **User Action:** Bob selects the "ACC Customization" option from the menu.  
+   **Sub-System Response:** The system presents a list of adjustable parameters, including following distance, speed tolerance, and response speed.
+  
+3. **User Action:** Bob adjusts the following distance slider to a preferred distance, say "2 seconds."  
+   **Sub-System Response:** The system confirms the setting change and adjusts the ACC to maintain the selected distance from other vehicles on the road.
+  
+4. **User Action:** Bob sets the speed tolerance to "±5 km/h."  
+   **Sub-System Response:** The system stores the new tolerance setting and adjusts the ACC system to allow for speed variation within the set range.
+  
+5. **User Action:** Bob confirms all settings and activates the customized ACC.  
+   **Sub-System Response:** The system activates with the new custom settings and starts to maintain the distance and speed according to Bob's preferences.
+
+**Alternative Scenario:**  
+1. **User Action:** Bob tries to customize the ACC, but the system shows an error message: "Sensor Malfunction – ACC customization unavailable."  
+   **Sub-System Response:** The system alerts Bob to the malfunction of one or more sensors, preventing ACC customization until the issue is resolved.
+  
+2. **User Action:** Bob checks the vehicle’s system status, indicating that the sensor issue needs service.  
+   **Sub-System Response:** The system informs Bob that the ACC feature will be temporarily unavailable, and suggests scheduling a service appointment to restore full functionality.
+  
+3. **User Action:** Bob decides to disable the ACC temporarily and rely on manual cruise control.  
+   **Sub-System Response:** The system disables the ACC and switches to manual cruise control mode, allowing Bob to continue driving without the customized features.
+
+**Postconditions:**  
+After successfully interacting with the system, Bob's preferences are saved and activated. The ACC will now function according to his customized settings, including the chosen following distance, speed tolerance, and responsiveness to surrounding traffic. The vehicle will adjust its speed and maintain safe distances from other vehicles based on the newly set parameters, ensuring a personalized and enhanced driving experience.

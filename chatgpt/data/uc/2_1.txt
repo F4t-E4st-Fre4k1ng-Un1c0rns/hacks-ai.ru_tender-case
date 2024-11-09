@@ -1,0 +1,35 @@
+**Title**  
+Driver-Assisted Parking System (Automated Parking Assistance)
+
+**Goal**  
+The Driver-Assisted Parking System provides the user with the ability to automatically park their luxury electric vehicle in various parking situations. The system will assist with parallel parking, angle parking, and perpendicular parking, reducing the stress and effort involved in parking. The system will automatically control steering, acceleration, and braking, ensuring that the vehicle parks smoothly and safely in tight spaces. Additionally, it offers real-time feedback through visual and auditory signals, ensuring a seamless user experience.
+
+**Preconditions**  
+- The luxury electric vehicle is equipped with the Driver-Assisted Parking System.
+- The vehicle's sensors (cameras, radar, ultrasonic sensors) are functional and calibrated.
+- The parking area must be clear of obstacles or obstructions.
+- The system must be activated and properly set up before use.
+- The user (e.g., Alise or Bob) must be within the proximity of the vehicle with the key fob, or the vehicle must be in close proximity to the parking space.
+
+**Main Scenario**  
+1. **User Activation**: Alise approaches her vehicle and presses the "Park Assist" button on the dashboard.  
+   - *Sub-System Response*: The system activates, and a visual display appears on the dashboard showing available parking spaces nearby.
+2. **Selection of Parking Spot**: Alise selects an appropriate parking space on the screen.  
+   - *Sub-System Response*: The system scans the selected parking space and displays a confirmation message.
+3. **Parking Mode Activation**: Alise confirms the parking space selection and lets go of the steering wheel.  
+   - *Sub-System Response*: The system takes full control of the steering, brakes, and throttle to begin parking the vehicle.
+4. **Vehicle Parking**: The system slowly and carefully maneuvers the vehicle into the parking spot, adjusting speed as needed and utilizing sensors to detect obstacles.  
+   - *Sub-System Response*: A progress bar is shown on the display, and auditory signals notify Alise when the vehicle is nearly parked.
+5. **Completion of Parking**: Once the vehicle is fully parked, the system alerts Alise that the parking process is complete.  
+   - *Sub-System Response*: The system deactivates, and the vehicle is safely parked.
+
+**Alternative Scenario**  
+1. **System Failure or Inability to Park**: Bob attempts to use the parking assist, but the system detects an issue, such as insufficient space or malfunctioning sensors.  
+   - *Sub-System Response*: A warning message appears on the dashboard, indicating that parking assist is unavailable, and suggesting that Bob park manually.
+2. **User Decision**: Bob acknowledges the warning and attempts to park the vehicle manually.  
+   - *Sub-System Response*: The system deactivates the parking assist, and Bob resumes control of the vehicle's steering, acceleration, and braking.
+3. **Parking Attempt in Unclear Space**: If the parking space is not detected clearly (due to obstructions or poor visibility), the system will alert Bob that the space cannot be processed.  
+   - *Sub-System Response*: The system will prompt Bob to move the vehicle slightly or select another spot, if available.
+
+**Postconditions**  
+After successful interaction with the Driver-Assisted Parking System, the vehicle will be safely parked in the selected space, with all functions of the system disengaged. The vehicle is ready for the user to exit, and the system will log the parking action for future reference or performance improvement.

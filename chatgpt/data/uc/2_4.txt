@@ -1,0 +1,35 @@
+**Title: Driver-Assisted Parking System (Automated Parking Assistance)**
+
+**Goal:**
+The Driver-Assisted Parking System (Automated Parking Assistance) is designed to assist the driver in parking the vehicle safely and efficiently. This system allows the vehicle to autonomously park itself with minimal driver input, providing enhanced convenience, safety, and ease of use. The system will enable the following features:
+- Automatic detection of available parking spaces.
+- Autonomous vehicle maneuvering into a parking space.
+- Integration with vehicle sensors to prevent obstacles during parking.
+- Visual and auditory feedback to the driver to ensure a smooth parking process.
+
+**Preconditions:**
+- The vehicle must be equipped with the necessary hardware, including ultrasonic sensors, cameras, and a control system capable of processing parking data.
+- The vehicle must be within a parking environment with clear and sufficient space for the parking operation.
+- The Driver-Assisted Parking System is activated via the vehicle's infotainment system or through a dedicated button on the dashboard.
+- The driver must be seated in the vehicle, and the vehicle must be in 'Park' or 'Drive' mode.
+- The system will require clear visibility and working sensors (no obstruction or malfunctioning).
+
+**Main Scenario:**
+1. The driver activates the Driver-Assisted Parking System by pressing the parking assist button or selecting it from the vehicle’s menu.
+2. The system scans the surrounding area for available parking spaces, either parallel or perpendicular.
+3. Once an available space is detected, the system will alert the driver with a visual and auditory notification, asking if they want to proceed.
+4. The driver confirms the system’s parking choice by pressing a button or tapping the screen, allowing the system to take control.
+5. The vehicle autonomously maneuvers into the parking space, with the system continuously adjusting steering, speed, and braking. The driver may override the system at any time if necessary.
+
+**Alternative Scenario:**
+1. The driver activates the Driver-Assisted Parking System, but no parking spaces are detected, or the available spaces are not suitable for the vehicle.
+2. The system will display a message informing the driver that no suitable spaces were found and suggest to the driver to manually park the vehicle.
+3. If there is an issue with the vehicle’s sensors (e.g., dirt or obstruction on the cameras or ultrasonic sensors), the system will prompt the driver to check the sensors for potential issues.
+4. In the case of a system failure, such as a malfunction or an inability to detect obstacles properly, the system will alert the driver with a warning message and prompt them to disable the system.
+5. The driver will be advised to park the vehicle manually or wait for a system reset if necessary.
+
+**Postconditions:**
+- Upon successful completion of the parking process, the vehicle will be parked securely in the designated space.
+- The system will disengage automatically, leaving the vehicle in 'Park' mode, with the parking brake applied (if necessary).
+- The driver will receive a confirmation notification that the parking operation has been successfully completed, and the parking assistance system will return to standby mode for future use.
+- If the driver chose to override or cancel the parking process, the system will deactivate, and the driver can manually complete the parking.

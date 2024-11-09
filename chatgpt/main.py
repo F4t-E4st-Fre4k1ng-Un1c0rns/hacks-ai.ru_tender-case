@@ -1,42 +1,47 @@
+from pynput import mouse
+import pyautogui
+
+import time
+
 import clipboard
 import keyboard
 import chime  # sounds to know status of generating
 
 from helper import Helper
-
-
-def wait_gpt(prompt: str, button_wait: str):
-    clipboard.copy(prompt)
-    while True:
-        if keyboard.is_pressed(button_wait):
-            return clipboard.paste()
-
-
+from screen import Screen
 
 helper = Helper()
+clipboard.copy(helper.start_prompt())
+screen = Screen()
+
+
 
 for theme_id, complience_level_id in helper.queue:
     filename = f"{theme_id}_{complience_level_id}.txt"
 
-    prompt = helper.generate_prompt(1, theme_id, complience_level_id)
-    uc_response = wait_gpt(prompt, "1")
-    print("catch - 1 - uc")
+    screen.create_new_chat()
     chime.info()
+    prompt = helper.generate_prompt(1, theme_id, complience_level_id)
+    screen.start_prompt(prompt)
+    uc_response = screen.copy_response()
+    print("catch - 1 - uc")
+    
 
     prompt = helper.generate_prompt(2, theme_id, complience_level_id)
-    __skip = wait_gpt(prompt, "2")
+    screen.continue_prompt(prompt)
+    __skip = screen.copy_response()
     print("catch - 2 - skip")
-    chime.info()
+    
 
     prompt = helper.generate_prompt(3, theme_id, complience_level_id)
-    ssts_response = wait_gpt(prompt, "3")
+    screen.continue_prompt(prompt)
+    ssts_response = screen.copy_response()
     print("catch - 3 - ssts")
-    chime.info()
 
     prompt = helper.generate_prompt(4, theme_id, complience_level_id)
-    table_response = wait_gpt(prompt, "4")
+    screen.continue_prompt(prompt)
+    table_response = screen.copy_response()
     print("catch - 4 - table")
-    chime.info()
 
     # check to correct
 

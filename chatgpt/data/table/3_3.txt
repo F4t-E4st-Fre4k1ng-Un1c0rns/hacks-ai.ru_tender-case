@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC expects full customization control over all ACC parameters, but SSTS only allows partial customization. | "The system provides a balance between customization and automatic control, offering the driver a personalized experience while maintaining optimal safety and convenience." |
+| UC states that ACC customization should be available anytime in drive mode, but SSTS limits this to highway or similar contexts. | "The vehicle must be in an environment where the system is capable of detecting traffic, typically highway conditions or similar contexts." |
+| UC requires easy access to ACC settings via infotainment or steering wheel controls, but SSTS requires navigating through multiple layers of the infotainment system. | "The driver must access the ACC customization settings via the vehicle’s infotainment system or steering wheel controls." |
+| UC expects immediate application of settings, while SSTS indicates some settings may take a moment to apply. | "The customization changes are reflected immediately in the system, but certain adjustments may take a moment to fully apply." |
+| UC expects seamless return to the main interface after customization, while SSTS includes an additional confirmation step. | "A confirmation message will be displayed on the screen to inform the driver that the settings have been updated successfully." |

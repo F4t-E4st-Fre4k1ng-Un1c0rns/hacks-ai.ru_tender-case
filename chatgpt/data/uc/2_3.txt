@@ -1,0 +1,40 @@
+**Title**  
+Driver-Assisted Parking System (Automated Parking Assistance)
+
+**Goal**  
+The Driver-Assisted Parking System is designed to assist the user in parking their luxury electric car with minimal manual intervention. The system will enable automatic detection of available parking spaces, guide the vehicle into a designated spot, and assist with steering, braking, and acceleration during parking. The user will retain control over the vehicle’s speed and can override the system at any time. Key features include parallel and perpendicular parking, obstacle detection, and automatic correction of the vehicle's position when misaligned.
+
+**Preconditions**  
+- The luxury electric car is equipped with the Driver-Assisted Parking System and all sensors and cameras are functional.
+- The user is within the car and has activated the parking assistance mode using the vehicle’s infotainment or steering controls.
+- The car must be within a reasonable distance of a parking space for the system to begin its operation.
+- The car’s environment should be free from significant obstructions that might interfere with sensor readings (e.g., large objects or extreme weather conditions).
+
+**Main Scenario**  
+1. **User Action**: Alise drives the car to a parking space and activates the Driver-Assisted Parking System via the infotainment screen.
+   - **Sub-System Response**: The system identifies the parking space and confirms its availability. It begins to assess the area for obstacles and prepares to assist with parking.
+   
+2. **User Action**: Alise selects the desired parking mode (e.g., parallel or perpendicular parking).
+   - **Sub-System Response**: The system adjusts the vehicle’s steering and begins guiding it toward the parking spot, using sensors to maintain the optimal alignment.
+
+3. **User Action**: Alise releases the steering wheel and ensures the car’s speed remains low, allowing the system to manage the steering.
+   - **Sub-System Response**: The system autonomously steers the car into the parking spot, making necessary adjustments for correct alignment, while the car moves slowly forward or backward.
+   
+4. **User Action**: The system prompts Alise to press the brake pedal to stop once the car is correctly aligned in the parking space.
+   - **Sub-System Response**: The system stops the car automatically, confirming that the parking maneuver is complete and that the car is properly parked.
+
+5. **User Action**: Alise disengages the parking mode and exits the vehicle.
+   - **Sub-System Response**: The system confirms that parking is successfully completed and the car is secured in the spot, with no further action required.
+
+**Alternative Scenario**  
+1. **User Action**: Bob attempts to use the Driver-Assisted Parking System but the system fails to detect any available parking space.
+   - **Sub-System Response**: The system alerts Bob with a message indicating no suitable parking space is available and suggests manually parking the vehicle.
+
+2. **User Action**: Bob tries to activate the parking system, but an error message appears, indicating a malfunction in the system.
+   - **Sub-System Response**: The system advises Bob to check the sensors for any obstructions or malfunctions. It recommends turning off and on the system or contacting support for further assistance.
+
+3. **User Action**: Bob tries to park, but an obstacle is detected by the system during the parking process.
+   - **Sub-System Response**: The system halts the parking procedure and alerts Bob to the presence of an obstacle. It suggests attempting the parking maneuver in a different location or adjusting the vehicle’s position.
+
+**Postconditions**  
+After successful interaction with the Driver-Assisted Parking System, the car is securely parked in the chosen spot with its position confirmed through the system’s sensors. The user can safely exit the vehicle, and the parking process is considered complete. If any error occurs during the process, the system provides the necessary feedback or warnings to ensure the user can correct the situation or seek assistance.

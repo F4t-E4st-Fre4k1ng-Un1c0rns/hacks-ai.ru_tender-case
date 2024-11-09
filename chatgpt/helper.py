@@ -9,3 +9,6 @@ class Helper(Start):
             .replace("{TEXT_THEME}", self.themes[theme_id])
             .replace("{COMLIANCE_LEVEL}", self.colmpliance_levels[complience_level_id])
         )
+    
+    def start_prompt(self):
+        return self.generate_prompt(1, 1, 1)

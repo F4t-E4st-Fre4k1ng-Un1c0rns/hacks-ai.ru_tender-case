@@ -1,0 +1,31 @@
+**Title**  
+Driver-Assisted Parking System (Automated Parking Assistance) - Technical Specifications
+
+**Functional Description**  
+The Driver-Assisted Parking System (Automated Parking Assistance) allows the vehicle to autonomously park in various types of parking spaces, including parallel, angle, and perpendicular parking. The system utilizes an array of sensors, including cameras, ultrasonic sensors, and radar, to detect obstacles, parking spaces, and nearby vehicles. Upon activation, the system takes full control of the vehicle's steering, acceleration, and braking to guide the vehicle into the parking space while providing real-time feedback to the user through visual displays and auditory signals. Once the vehicle is fully parked, the system will notify the user of the successful parking completion.
+
+**Enabling Conditions**  
+- The vehicle is equipped with fully operational sensors (cameras, radar, ultrasonic) that are calibrated and free from obstructions.
+- The parking area must be clear of major obstacles such as other vehicles or objects that could impede the parking process.
+- The vehicle must be within close proximity to an available parking space (within a specified radius of approximately 5 meters).
+- The Driver-Assisted Parking System must be activated by the user via the dashboard or a dedicated button.
+- The vehicle key fob must be detected within range, or the user must be inside the vehicle to initiate the system.
+
+**Trigger Conditions**  
+- The Driver-Assisted Parking System is activated by the user through a button on the dashboard or infotainment system interface.
+- The system detects a suitable parking space based on its size and the available clearance.
+- The user selects a valid parking space on the display screen, and the system confirms the parking space's suitability.
+- The vehicle is at a complete stop or moving at a very slow speed within range of the selected parking space.
+- The system is ready to proceed with automated parking once these conditions are met and confirmed by the user.
+
+**Execution Output**  
+- Upon activation, the system takes full control of the vehicle's steering, acceleration, and braking to park the vehicle in the chosen space.
+- The system provides real-time feedback to the user via visual cues on the dashboard display (such as a progress bar) and auditory signals (beeping) as the vehicle is maneuvered into the parking space.
+- The system adjusts the vehicle’s position continuously, based on sensor feedback, to ensure optimal parking within the space.
+- As the parking maneuver is completed, the system signals the user with a visual and auditory alert to confirm that the parking is finished, and the vehicle is correctly positioned within the space.
+
+**Exit Conditions**  
+- The system deactivates once the parking process is complete, and the vehicle is fully parked within the selected space. The system will provide an audible notification and a visual confirmation on the dashboard.
+- If the system detects any issue during the parking process (such as insufficient space, sensor malfunction, or obstacles in the way), the system will stop and notify the user through visual and auditory alerts.
+- If the parking maneuver is unsuccessful, the system will automatically exit the parking mode, allowing the user to either manually park the vehicle or select another available parking space.
+- The system will log the parking event for future reference, including successful or unsuccessful completion, and will generate a report for diagnostics if an error occurred during the process.

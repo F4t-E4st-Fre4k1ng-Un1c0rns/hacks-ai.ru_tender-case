@@ -1,0 +1,29 @@
+**Title:**  
+Adaptive Cruise Control System Customization
+
+**Goal:**  
+The Adaptive Cruise Control (ACC) System Customization feature is designed to enhance the driving experience by allowing users to personalize the functionality of the ACC in their luxury electric vehicle. This system enables automatic adjustment of the vehicle's speed and distance from other vehicles on the road. Users will be able to tailor the sensitivity, speed preferences, and following distance, providing a seamless and customized driving experience that adapts to individual comfort and driving style.
+
+**Preconditions:**  
+- The vehicle must be equipped with an operational Adaptive Cruise Control system.  
+- The vehicle must be in motion, and the road must meet the necessary conditions for ACC operation (e.g., clear lanes, no obstacles, etc.).  
+- The user must have a valid user profile set up within the vehicle’s infotainment system.  
+- The vehicle must be in a condition to engage the Adaptive Cruise Control (e.g., no system errors or maintenance alerts).  
+
+**Main scenario:**  
+1. Alise starts driving the vehicle and activates the Adaptive Cruise Control feature via the dashboard touchscreen or steering wheel controls.  
+2. The system automatically detects the current speed and surrounding traffic conditions and adjusts the vehicle's speed to maintain a safe following distance.  
+3. Alise accesses the customization menu on the infotainment system and selects the desired settings for speed sensitivity and following distance.  
+4. The ACC system immediately applies Alise's selected preferences, adjusting the system’s behavior to her personalized settings.  
+5. Alise confirms that the system is operating as desired, ensuring comfort and safety while continuing her drive.
+
+**Alternative scenario:**  
+1. Bob attempts to activate the Adaptive Cruise Control but receives a warning that the system is unavailable due to road conditions (e.g., heavy traffic or curves).  
+2. Bob sees a notification on the dashboard indicating that the ACC feature is temporarily deactivated, with a recommendation to disable manual intervention for optimal control.  
+3. Bob decides to adjust the vehicle speed manually or use the standard cruise control if available.  
+4. Once the road conditions improve, Bob receives an alert on the screen that the ACC system is available again for use.  
+5. Bob re-engages the system, but the ACC customization options remain unavailable until the system recalibrates properly.
+
+**Postconditions:**  
+- After a successful interaction with the Adaptive Cruise Control System Customization feature, the vehicle's ACC system will operate according to the user’s personalized settings, ensuring optimal speed, distance management, and a comfortable driving experience.  
+- If the customization process is successful, the user will be able to maintain the adjusted settings for the duration of the trip unless manual changes are made.

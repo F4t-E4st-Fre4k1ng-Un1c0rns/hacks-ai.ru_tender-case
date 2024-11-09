@@ -1,0 +1,30 @@
+**Title:**  
+Driver-Assisted Parking System (Automated Parking Assistance) - Technical Specifications
+
+**1. Functional Description:**  
+The Driver-Assisted Parking System (Automated Parking Assistance) provides automated support for parking the vehicle in parallel, perpendicular, or angled parking spaces. The system uses a combination of sensors, cameras, and real-time processing algorithms to identify and analyze available parking spaces. It takes over the steering controls while the driver manages braking and acceleration. The system ensures safe parking by detecting obstacles and guiding the vehicle into the space with high precision. Upon successful parking, the system notifies the driver and deactivates, leaving the vehicle safely parked.
+
+**2. Enabling Conditions:**  
+- The vehicle must be equipped with operational parking sensors, cameras, and associated control systems.
+- The system must be manually activated by the driver via the vehicle's infotainment interface or through a dedicated button on the dashboard or steering wheel.
+- The vehicle must be traveling at a low speed (below 5 mph) when activating the system.
+- Sensors and cameras must have an unobstructed view of the surrounding environment to detect a valid parking space.
+- The vehicle must be within a detected range of an available parking space and in "Parking Mode" for the system to engage.
+
+**3. Trigger Conditions:**  
+- The system is triggered when the vehicle approaches a valid parking space and the driver activates the parking assistance mode using the vehicle’s interface.
+- The system will automatically trigger when the vehicle is moving at low speeds (typically under 5 mph) and a valid parking space is detected by the sensors and cameras.
+- The system can also be manually triggered by the driver via the dashboard or steering wheel buttons.
+
+**4. Execution Output:**  
+- Upon activation, the system provides visual prompts and audio notifications to the driver, confirming that a valid parking space has been detected.
+- The system takes over the steering control and guides the vehicle into the parking space, ensuring the vehicle aligns properly with the boundaries of the space.
+- The driver retains control over braking and acceleration to stop the vehicle at the correct position.
+- Once the system successfully parks the vehicle, it will stop the vehicle and notify the driver (via visual or auditory cue) that parking is complete.
+- The system deactivates automatically after the parking process is completed, and the vehicle remains parked in the space.
+
+**5. Exit Conditions:**  
+- The system automatically exits after successfully completing the parking procedure, leaving the vehicle safely parked.
+- If the system encounters an obstruction or a malfunction in the sensors or cameras, it will notify the driver and exit, requiring manual control to park.
+- If the system cannot detect a valid parking space, it will notify the driver and exit, prompting the driver to search for another space.
+- The system will also exit if it detects a safety issue, such as an object blocking the vehicle’s path during the parking process.

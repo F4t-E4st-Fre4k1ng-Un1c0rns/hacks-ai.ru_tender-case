@@ -1,0 +1,46 @@
+**Title:**  
+Driver-Assisted Parking System (Automated Parking Assistance)
+
+**Goal:**  
+The Driver-Assisted Parking System (Automated Parking Assistance) is designed to enable the driver to park the vehicle with minimal input, offering enhanced convenience and safety. This system provides automatic guidance to assist in parking the vehicle in parallel, perpendicular, or angled parking spaces. The system uses sensors, cameras, and real-time algorithms to detect obstacles and ensure that the vehicle parks safely and accurately.
+
+**Preconditions:**  
+- The Driver-Assisted Parking System is available and active in the vehicle.
+- The vehicle must be in close proximity to a parking space (parallel, perpendicular, or angled).
+- The system requires that the vehicle is moving at low speeds (typically below 5 mph).
+- All required sensors and cameras are functioning properly and unobstructed.
+- The vehicle is in "Parking Mode," and the parking space has been detected by the system.
+
+**Main Scenario:**  
+1. **User Action:** Bob drives the vehicle slowly towards a parking space.
+   - **System Response:** The system automatically detects the available parking space and notifies Bob with an on-screen prompt asking if he wishes to activate the parking assistance.
+   
+2. **User Action:** Bob confirms the prompt by pressing a button on the dashboard or steering wheel.
+   - **System Response:** The system activates, taking control of steering, while Bob is responsible for braking and accelerating, as necessary.
+   
+3. **User Action:** Bob releases the steering wheel, maintaining control of the brake pedal.
+   - **System Response:** The vehicle begins to maneuver into the parking space, using sensors and cameras to guide the car into position and detect obstacles.
+   
+4. **User Action:** Bob applies the brake when the system signals that parking is complete.
+   - **System Response:** The system stops the vehicle in the optimal position within the parking space and deactivates the parking assistance mode.
+   
+5. **User Action:** Bob exits the vehicle, ensuring it is safely parked.
+   - **System Response:** The system confirms the parking process is complete with a visual or auditory confirmation, and the vehicle remains parked.
+
+**Alternative Scenario:**  
+1. **User Action:** Alise begins driving toward a parking space, but there is a sudden obstacle, such as another car or an obstruction in the parking space.
+   - **System Response:** The system alerts Alise to the obstruction and will not activate the parking assistance until the space is cleared or safe to park.
+   
+2. **User Action:** Alise moves the vehicle further to find a new parking space.
+   - **System Response:** The system resumes scanning for an available parking space and waits for a clear area to activate the parking assistance.
+
+3. **User Action:** If the parking sensors or cameras malfunction, Alise is notified with an error message on the dashboard.
+   - **System Response:** The system advises Alise to park manually, as the automated parking assistance is temporarily unavailable due to sensor issues.
+
+4. **User Action:** Alise attempts to park using manual controls and the system remains inactive.
+   - **System Response:** The system confirms it is in a disabled state and provides an option to troubleshoot or visit the service center.
+
+**Postconditions:**  
+- After a successful interaction, Bob or Alise will have their vehicle parked securely and accurately in the selected parking space.
+- The Driver-Assisted Parking System will automatically disengage after completing the parking process.
+- The parking space will be confirmed as occupied in the vehicle’s system, and all associated sensors will remain active to monitor for any nearby movements until the driver exits the vehicle.

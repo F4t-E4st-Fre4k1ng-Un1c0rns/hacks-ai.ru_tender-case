@@ -1,0 +1,30 @@
+**Title**  
+Driver-Assisted Parking System (Automated Parking Assistance) - Technical Specifications
+
+**Functional Description**  
+The Driver-Assisted Parking System is designed to autonomously assist the driver in parking the luxury electric vehicle. The system scans for available parking spaces and provides automatic assistance in steering, acceleration, and braking to park the vehicle. It supports both parallel and perpendicular parking modes. The user can intervene at any time by overriding the system, maintaining control over the vehicle. Additionally, the system automatically corrects the vehicle’s alignment if it detects misalignment within the parking spot, ensuring optimal positioning.
+
+**Enabling Conditions**  
+1. The vehicle must be equipped with functional sensors (ultrasonic, radar, and cameras) and the necessary software that enables parking assistance.
+2. The parking space must be large enough to accommodate the vehicle’s dimensions and allow the system to maneuver without obstruction.
+3. The vehicle must be within proximity to the parking space for the system to activate (usually within 1 to 3 meters of the spot).
+4. The vehicle’s environment must be clear of significant obstacles that might interfere with sensor readings (e.g., large objects, nearby cars, or severe weather conditions).
+5. The system should be active and ready for use, which is initiated by the driver via the vehicle’s infotainment screen or steering controls.
+
+**Trigger Conditions**  
+1. The system is triggered when the driver activates the parking assistance feature via the vehicle’s control interface (infotainment system or physical button).
+2. The system automatically begins scanning for an available parking space once triggered, and it initiates the parking process when a suitable space is detected.
+3. The system detects that the vehicle is within a defined range (1-3 meters) of an available parking spot, and the system prepares to assist in the parking maneuver.
+
+**Execution Output**  
+1. Upon activation, the system scans the environment for available parking spaces, using sensors to detect empty spots.
+2. Once a space is detected, the system prompts the driver to select the preferred parking mode (e.g., parallel or perpendicular parking).
+3. The system automatically controls the steering, acceleration, and braking, guiding the vehicle into the parking spot.
+4. If the vehicle becomes misaligned during the parking process, the system will autonomously correct its position to ensure proper alignment within the parking space.
+5. The system provides feedback to the driver via visual and auditory alerts, notifying them of the progress and completion of the parking process.
+6. Upon successful parking, the system notifies the driver that the parking maneuver is complete and that the car is safely parked.
+
+**Exit Conditions**  
+1. The system exits parking mode when the vehicle is fully parked in the spot, and the system detects that all parking criteria (alignment and position) have been met.
+2. The system can be manually exited by the driver at any time by overriding the system using the steering wheel, brake pedal, or deactivating the parking assistance mode through the control interface.
+3. In case of a malfunction or failure, the system exits parking mode automatically and alerts the driver, prompting them to check the vehicle’s sensors or system status for issues.

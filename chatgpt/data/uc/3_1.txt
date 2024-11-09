@@ -1,0 +1,38 @@
+**Underpinning Contract for Adaptive Cruise Control System Customization**
+
+**1. Title**  
+Adaptive Cruise Control System Customization
+
+**2. Goal**  
+The Adaptive Cruise Control System Customization allows users to personalize and optimize their driving experience by adjusting the behavior of the adaptive cruise control system in a luxury electric vehicle. This customization feature enables users to set the following preferences:  
+- The distance between the vehicle and the car ahead.  
+- The level of sensitivity for speed adjustments based on traffic conditions.  
+- The responsiveness of acceleration and deceleration in varying traffic scenarios.  
+- The ability to switch between different driving modes (e.g., eco, standard, or sport mode).  
+These customizations ensure a smoother, safer, and more personalized driving experience.
+
+**3. Preconditions**  
+- The vehicle must be equipped with the Adaptive Cruise Control system as a standard or optional feature.  
+- The system must be enabled and active for the user to customize settings.  
+- The user must be familiar with basic vehicle controls or have received training on using the Adaptive Cruise Control system.  
+- The vehicle should be in motion or in a stationary condition with the engine running when making adjustments.  
+- The user profile must be set up for saving preferences to be applied across different driving sessions.
+
+**4. Main Scenario**  
+1. The user, Bob, starts driving the vehicle and activates the Adaptive Cruise Control via the steering wheel controls or touch screen.  
+2. Bob accesses the Adaptive Cruise Control settings menu through the vehicle's infotainment system and selects "Customization" to adjust the settings.  
+3. Bob chooses the desired following distance (e.g., close, medium, or far) using the on-screen options or voice command.  
+4. Bob adjusts the sensitivity of the system, choosing a level of speed adjustment based on traffic conditions (e.g., low, medium, or high).  
+5. The system applies the selected preferences, and Bob continues driving with the new settings, enjoying a more tailored driving experience.
+
+**5. Alternative Scenario**  
+1. Bob attempts to adjust the Adaptive Cruise Control settings while driving, but the system is temporarily unavailable due to a technical issue (e.g., sensor malfunction or software error).  
+2. The infotainment system displays an error message indicating that the Adaptive Cruise Control system is not functioning properly at the moment.  
+3. Bob is informed through the display that the system will resume functionality after a restart or when the issue is resolved.  
+4. Bob can still drive the vehicle using manual controls or with the cruise control system disabled until the system becomes operational again.  
+5. Once the issue is fixed or the vehicle is restarted, Bob is able to access and adjust the Adaptive Cruise Control settings as usual.
+
+**6. Postconditions**  
+- Upon successful interaction with the Adaptive Cruise Control System Customization, Bob will experience a vehicle that adapts to his preferred driving style.  
+- The system will maintain the set preferences until the user chooses to change them or until the vehicle is turned off, at which point settings may be reset to default or saved according to the user's profile.  
+- The vehicle's Adaptive Cruise Control will function more smoothly, adjusting the speed and distance according to Bob's personalized settings, ensuring a more comfortable and safer driving experience.
