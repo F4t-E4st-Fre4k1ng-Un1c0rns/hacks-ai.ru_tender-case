@@ -1,0 +1,47 @@
+**Technical Specifications for Driver Distraction Detection and Mitigation**  
+**Compliance Level**: Fully Compliant
+
+---
+
+**1. Title**  
+Driver Distraction Detection and Mitigation
+
+---
+
+**2. Functional Description**  
+The Driver Distraction Detection and Mitigation sub-system is designed to continuously monitor the driver's attention level while the vehicle is in motion. Using integrated facial recognition and eye-tracking technology, the system detects signs of driver distraction, including drowsiness, inattention, and other risky behaviors. When the system identifies a distraction, it triggers a series of pre-programmed alerts to mitigate the distraction, such as visual notifications on the dashboard, audible warnings, and vibrating seat feedback. The system aims to prevent accidents caused by distracted driving, ensuring a safer driving experience in luxury electric vehicles.
+
+---
+
+**3. Enabling Conditions**  
+- **Condition 1**: The system is enabled automatically when the vehicle is started, with the engine running, and remains active while the vehicle is in motion.
+- **Condition 2**: The driver’s seat must be occupied, and the driver must be within the detection range of the system’s cameras for accurate facial recognition.
+- **Condition 3**: The vehicle must be equipped with a high-definition camera system capable of facial recognition and eye-tracking sensors integrated into the central control unit for real-time data processing.
+
+---
+
+**4. Trigger Conditions**  
+- **Condition 1**: The system is triggered when the camera detects signs of driver distraction, such as prolonged eye closure, lack of head movement, or deviation from the road ahead for more than a set threshold (e.g., 5 seconds).
+- **Condition 2**: The system automatically activates as soon as the vehicle’s speed exceeds 5 km/h, or once the vehicle is moving after the engine is started.
+- **Condition 3**: The system will trigger an escalation if no action is taken by the driver within 10 seconds after an initial distraction warning.
+
+---
+
+**5. Execution Output**  
+- **Alert Mechanism**: Upon detection of distraction, the system triggers a combination of visual, audible, and haptic alerts. This includes:
+  - A visual warning on the dashboard with a flashing symbol and a text notification ("Driver Attention Required").
+  - A series of audible warnings (e.g., a repeating chime) to capture the driver's attention.
+  - A vibrating seat alert to provide physical feedback to the driver.
+- **Log Data**: Every event, including distraction detection and alert issuance, is logged with a timestamp for analysis, tracking system behavior, and improving future iterations of the system.
+- **Driver Interaction**: The driver is given 10 seconds to respond to the alerts by either manually acknowledging the warning via the interface or through voice command. If no response is detected, the system increases the alert intensity.
+
+---
+
+**6. Exit Conditions**  
+- **Condition 1**: Once the driver’s attention is restored (e.g., the system detects eye movement or head repositioning), the alerts stop, and the system returns to passive monitoring mode.
+- **Condition 2**: If the camera system or sensors malfunction, the system will immediately deactivate distraction monitoring, issue a failure notification to the driver, and log the error. The system will remain inactive until manual reactivation or repair.
+- **Condition 3**: The system will automatically deactivate when the vehicle comes to a complete stop (e.g., at a traffic light or parking) or when the engine is turned off. Upon restart, the system will re-enable automatically.
+
+--- 
+
+This set of technical specifications aligns fully with the requirements of the underpinning contract, ensuring the Driver Distraction Detection and Mitigation system operates reliably and effectively to enhance driving safety.

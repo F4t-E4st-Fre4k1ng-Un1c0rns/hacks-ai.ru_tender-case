@@ -1,0 +1,51 @@
+**Technical Specifications: Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+**1. Title**  
+Remote Unlocking and Locking of Vehicle via Smartphone - Technical Specifications
+
+---
+
+**2. Functional Description**  
+This subsystem enables the secure remote locking and unlocking of the vehicle using a smartphone application. The key functionalities of the subsystem include:
+- **Remote Unlocking:** The user can unlock the vehicle remotely via the smartphone app.
+- **Remote Locking:** The user can lock the vehicle remotely via the smartphone app.
+- **Real-Time Feedback:** The app provides real-time feedback on the vehicle’s lock status (locked/unlocked).
+- **Secure Communication:** The subsystem ensures secure, encrypted communication between the smartphone and the vehicle to prevent unauthorized access.
+- **Battery Monitoring:** The subsystem monitors the vehicle’s battery level to ensure the vehicle is capable of remote locking/unlocking operations.
+
+---
+
+**3. Enabling Conditions**  
+- The user’s smartphone must have the vehicle’s mobile app installed, with the app activated and linked to the vehicle’s Remote Unlocking and Locking subsystem.
+- The vehicle must be equipped with the Remote Unlocking and Locking subsystem, integrated with the vehicle’s security system, and capable of receiving remote commands via Bluetooth or Wi-Fi.
+- The smartphone must be within the operational range of the vehicle (Bluetooth or Wi-Fi).
+- The vehicle must have sufficient battery charge to support remote communication and locking/unlocking operations.
+- The user must authenticate through the mobile app (via PIN, password, or biometric authentication) to ensure secure access to the vehicle.
+- The vehicle’s security system must be active and operational to process remote commands.
+
+---
+
+**4. Trigger Conditions**  
+- The user opens the mobile app on their smartphone.
+- The user selects either the “Unlock” or “Lock” option in the app to remotely control the vehicle’s locks.
+- The smartphone establishes a connection to the vehicle via Bluetooth or Wi-Fi within an operational range.
+- The user enters security credentials (PIN, password, or biometric authentication) to confirm the request for remote unlocking or locking.
+  
+---
+
+**5. Execution Output**  
+- **Unlocking the Vehicle:** Upon selecting the "Unlock" command, the vehicle receives the request, verifies the user’s credentials, and disengages the lock mechanism. The app receives a confirmation of the unlocked status, which is updated in real-time.
+- **Locking the Vehicle:** Upon selecting the "Lock" command, the vehicle receives the request and engages the lock mechanism. The app receives a confirmation of the locked status, which is updated in real-time.
+- **Security and Feedback:** The communication between the smartphone and the vehicle is encrypted to prevent unauthorized access. The app continuously updates the user on the lock status (locked/unlocked).
+- **Battery Check:** The system monitors the vehicle's battery status and will notify the user if the battery is too low to perform remote operations.
+
+---
+
+**6. Exit Conditions**  
+- After a successful unlocking or locking command, the vehicle’s lock mechanism either disengages (unlock) or engages (lock) based on the user’s action.
+- The mobile app updates to show the current lock status (locked/unlocked) and provides real-time feedback on the success or failure of the operation.
+- If the operation was unsuccessful (e.g., due to poor connectivity or low vehicle battery), the user is notified via the app with troubleshooting steps or alternatives, such as manual unlocking or locking methods.
+- If the user’s credentials cannot be verified or the vehicle is outside the operational range, the app informs the user and prevents the action.
+- The system returns to an idle state after the operation, awaiting further user interaction.

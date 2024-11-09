@@ -1,0 +1,45 @@
+**Technical Specifications: Setting Geofences for Vehicle Tracking and Monitoring**
+
+---
+
+### 1. Title  
+*Setting Geofences for Vehicle Tracking and Monitoring*
+
+---
+
+### 2. Functional Description  
+The "Setting Geofences for Vehicle Tracking and Monitoring" sub-system allows users to create virtual geographic boundaries (geofences) around specific areas and monitor vehicles within those areas in real-time. Users can define and configure geofences using map tools or input coordinates. When a vehicle enters or exits a geofence, the system generates notifications and logs the event for tracking purposes. Additional trigger conditions such as vehicle speed or rapid geofence transitions can also be monitored. The system supports real-time updates, geofence event reports, and alerts for fleet management and security.
+
+---
+
+### 3. Enabling Conditions  
+- Users must have appropriate access rights (admin or fleet manager role) to create, configure, and manage geofences.  
+- The vehicle tracking platform must be integrated with GPS tracking devices for each vehicle to enable accurate location monitoring.  
+- Vehicles must be active in the system with real-time location data enabled.  
+- The user must be able to navigate and use the geofence creation tools, including map-based drawing or coordinate input.
+
+---
+
+### 4. Trigger Conditions  
+- A vehicle enters or exits a predefined geofence boundary.  
+- A vehicle exceeds the predefined speed limit within the geofence area.  
+- A vehicle crosses multiple geofences within a specified time frame (rapid transitions).  
+- The system detects a failure in GPS tracking or communication issues that could affect geofence monitoring.  
+- A vehicle enters a restricted or no-entry geofence zone.
+
+---
+
+### 5. Execution Output  
+- The system generates real-time notifications for the user when a vehicle enters or exits a geofence.  
+- A log entry is created for each geofence event, including vehicle ID, geofence ID, timestamp, and action (entry/exit).  
+- A visual update is shown on the map interface, confirming the creation or modification of geofences.  
+- Alerts are triggered based on user-configured parameters (e.g., vehicle speed, entry/exit events, or boundary violations).  
+- The system generates a report summarizing geofence events, including times and vehicle data.
+
+---
+
+### 6. Exit Conditions  
+- The geofence is successfully created or modified, and it begins to monitor the designated vehicles.  
+- Event logs and reports are available for review by the user, and alerts are sent according to the defined parameters.  
+- If a failure occurs (e.g., invalid geofence coordinates or connectivity issues), the system will notify the user and prevent activation until the issue is resolved.  
+- Geofence data is persisted in the system for future reference and management.

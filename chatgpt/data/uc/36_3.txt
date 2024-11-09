@@ -1,0 +1,50 @@
+**Underpinning Contract: Automatic Bluetooth Pairing for Multiple Devices**
+
+---
+
+**Goal**  
+The Automatic Bluetooth Pairing for Multiple Devices sub-System will enable users to seamlessly connect multiple Bluetooth devices to their luxury electric car’s infotainment system. This feature allows the system to automatically recognize and pair with Bluetooth-enabled devices, such as smartphones, tablets, and other compatible electronics, without the need for manual input each time a connection is made. The sub-System will enhance the user experience by ensuring continuous connectivity and a smooth transition between devices.
+
+---
+
+**Preconditions**  
+- The vehicle’s infotainment system must have Bluetooth enabled and be in an operational state.
+- The Bluetooth-enabled devices (e.g., smartphone, tablet) must have Bluetooth enabled and be in pairing mode.
+- The vehicle must be within range of the devices to establish a connection.
+- The sub-System must support multiple devices simultaneously for seamless switching.
+
+---
+
+**Main Scenario**  
+1. **User Action**: Alise enters the car and starts the engine.  
+   **Sub-System Response**: The system activates Bluetooth scanning mode automatically.
+
+2. **User Action**: Alise’s smartphone and tablet, both of which have Bluetooth enabled, are within range.  
+   **Sub-System Response**: The system detects both devices and displays them on the infotainment screen for pairing.
+
+3. **User Action**: Alise selects her smartphone from the list of available devices on the infotainment screen.  
+   **Sub-System Response**: The system automatically pairs with the smartphone and establishes a connection.
+
+4. **User Action**: Bob, who is also in the car, attempts to pair his tablet by selecting it from the available device list on the infotainment screen.  
+   **Sub-System Response**: The system automatically pairs with Bob’s tablet while maintaining the connection with Alise's smartphone.
+
+5. **User Action**: Alise receives an incoming call on her smartphone, and Bob is using the car’s audio system for navigation.  
+   **Sub-System Response**: The system seamlessly switches audio input between the devices (call on Alise's smartphone and navigation on Bob’s tablet) without requiring any manual intervention.
+
+---
+
+**Alternative Scenario**  
+1. **User Action**: Alise enters the car and starts the engine, but the system fails to detect any available Bluetooth devices.  
+   **Sub-System Response**: The system displays a notification prompting Alise to ensure her devices are within range and Bluetooth is enabled on both the vehicle and the devices.
+
+2. **User Action**: Bob attempts to connect his tablet, but the system shows a message that no devices are available for pairing.  
+   **Sub-System Response**: The system suggests troubleshooting steps, such as checking the Bluetooth settings or restarting the pairing process.
+
+3. **User Action**: Alise or Bob encounters an issue where the system only pairs with one device at a time, and cannot establish simultaneous connections.  
+   **Sub-System Response**: The system alerts the user to the limitation of the current pairing state and provides instructions to manually disconnect the current device before pairing a new one.
+
+---
+
+**Postconditions**  
+- After a successful pairing, the user’s devices are connected to the vehicle’s infotainment system, allowing access to features such as music, hands-free calls, and navigation controls from multiple Bluetooth devices.
+- The system will maintain the connections for the duration of the ride and automatically reconnect when the car is restarted, as long as the devices remain within range and Bluetooth is enabled on both ends.

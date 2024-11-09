@@ -1,0 +1,44 @@
+**Technical Specifications: Automatic Bluetooth Pairing for Multiple Devices**
+
+---
+
+**1. Title**  
+Automatic Bluetooth Pairing for Multiple Devices
+
+---
+
+**2. Functional Description**  
+The Automatic Bluetooth Pairing for Multiple Devices sub-System allows the seamless pairing of Bluetooth-enabled devices with the vehicle’s infotainment system. It is designed to automatically detect and connect up to two devices simultaneously. The system supports audio streaming, hands-free calls, and navigation integration from paired devices. However, the system is currently limited to managing two active Bluetooth connections at any given time, with manual intervention required to disconnect or swap devices.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle’s Bluetooth functionality must be enabled and fully operational.  
+- The infotainment system must be running the latest software version to support automatic Bluetooth pairing.  
+- Bluetooth-enabled devices (smartphones, tablets, etc.) must have Bluetooth enabled and be within the pairing range.  
+- The system supports the pairing of a maximum of two Bluetooth devices simultaneously.  
+- Devices must either be previously paired or be discoverable in order to initiate the pairing process.
+
+---
+
+**4. Trigger Conditions**  
+- The Bluetooth pairing process is triggered automatically when the vehicle is started and the infotainment system is activated.  
+- The system scans for Bluetooth devices as soon as the vehicle enters pairing mode.  
+- Bluetooth-enabled devices within range that are either paired or discoverable trigger the system to begin pairing attempts.
+
+---
+
+**5. Execution Output**  
+- The system displays available Bluetooth devices on the infotainment screen. The user may select a device to connect.  
+- The system automatically pairs with the selected device and provides confirmation through the infotainment screen.  
+- A maximum of two devices can be paired simultaneously. The system ensures that audio input is switched accordingly between paired devices (e.g., phone calls or music).  
+- If more than two devices are detected, the user must manually select which devices to connect or disconnect to ensure no more than two devices are active.  
+- The system provides clear feedback when devices are successfully paired or if pairing fails, including troubleshooting guidance.
+
+---
+
+**6. Exit Conditions**  
+- The system successfully exits pairing mode once two devices are paired, and the pairing session is completed.  
+- If no devices are available within range, or if the pairing attempt fails, the system exits pairing mode with an error notification.  
+- If the user manually cancels the pairing process, the system will exit pairing mode and return to the previous state.  
+- The system will exit pairing mode and stop attempting to pair devices once the maximum limit of two devices is reached.

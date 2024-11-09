@@ -1,0 +1,34 @@
+**Underpinning Contract: Driver Distraction Detection and Mitigation**
+
+**1. Title:**  
+Driver Distraction Detection and Mitigation
+
+**2. Goal:**  
+The Driver Distraction Detection and Mitigation sub-system is designed to detect and reduce driver distractions, enhancing safety and focus while driving luxury electric vehicles. The system utilizes a combination of facial recognition, eye-tracking technology, and environmental sensors to monitor driver attention levels. If the system detects signs of distraction or drowsiness, it will issue warnings and take corrective actions to mitigate risks. These actions may include audio or visual alerts, vibration feedback, or automatic system interventions like slowing down or steering adjustments.
+
+**3. Preconditions:**  
+- The driver must be seated in the driver’s seat, and the vehicle must be powered on.
+- The system will initially calibrate to the driver’s face and eye movement during the first use to ensure accurate detection.
+- The vehicle’s internal sensors (cameras, infrared sensors, etc.) must be operational for proper function.
+- Driver must allow the system access to monitor their facial expressions and eye movements for accurate distraction detection.
+- The system will be fully integrated with the vehicle’s infotainment and safety systems.
+
+**4. Main Scenario:**  
+1. **Bob enters the vehicle** and adjusts the seat and mirrors, ensuring the system has a clear view of his face.  
+2. **Bob starts driving** and the Driver Distraction Detection and Mitigation system begins monitoring his facial expressions, eye movement, and head position.  
+3. If **Bob looks away from the road for too long** (more than 2 seconds), the system detects this distraction.  
+4. The system **alerts Bob** with an audible warning and visual cues on the dashboard to refocus on the road.  
+5. If **Bob fails to respond** to the initial warning, the system may issue a stronger intervention, such as vibration feedback on the steering wheel or activating lane-keeping assistance to guide the vehicle safely.
+
+**5. Alternative Scenario:**  
+1. **Bob starts driving,** but the facial recognition system cannot detect his face due to a dirty camera lens or inadequate lighting.  
+2. The system **alerts Bob** with a notification on the dashboard, suggesting that the sensors need to be cleaned or the lighting conditions need to be adjusted.  
+3. In the absence of face detection, the system switches to a secondary monitoring method, such as monitoring steering wheel movements or external cameras, to detect signs of distraction.  
+4. If the system still cannot detect potential distractions, **Bob receives a message** indicating that the distraction mitigation features are temporarily unavailable due to sensor malfunctions.  
+5. Once the issue is resolved, the system resumes normal function, and **Bob is notified** that the system is operational again.
+
+**6. Postconditions:**  
+- If the system successfully detects and mitigates a distraction, the vehicle maintains safe driving conditions, reducing the likelihood of accidents caused by driver inattention.  
+- The system logs any warnings or interventions in the vehicle's data history, which can be reviewed later by the driver or a service technician for maintenance purposes.  
+- The driver, Bob, is prompted to continue driving with a focus on the road, and any corrective action taken by the system ensures that the car remains within safe operational parameters.
+

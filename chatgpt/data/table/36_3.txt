@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC requires seamless connectivity and switching between multiple devices, while SSTS limits the number of active device connections to two. | "The system supports the pairing of a maximum of two Bluetooth devices simultaneously." |
+| UC implies fully automatic pairing without user intervention, but SSTS specifies that devices must either be previously paired or be discoverable for automatic pairing. | "Devices must either be previously paired or be discoverable in order to initiate the pairing process." |
+| UC specifies the system should maintain multiple device connections simultaneously, but SSTS states that only two devices can be active at once. | "The system supports the pairing of a maximum of two Bluetooth devices simultaneously." |
+| UC suggests that the system should allow automatic switching between multiple devices without manual input, while SSTS requires manual selection of devices if more than two are detected. | "If more than two devices are detected, the user must manually select which devices to connect or disconnect." |
+| UC expects no limitations on the number of paired devices, whereas SSTS explicitly mentions a maximum of two devices. | "The system supports the pairing of a maximum of two Bluetooth devices simultaneously." |
+| UC implies a fully automatic pairing process, but SSTS suggests that pairing only occurs if devices are discoverable or previously paired. | "Bluetooth-enabled devices... must have Bluetooth enabled and be within the pairing range... Devices must either be previously paired or be discoverable." |

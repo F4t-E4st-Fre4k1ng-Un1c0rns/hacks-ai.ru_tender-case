@@ -1,0 +1,44 @@
+**Technical Specifications for Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+### 1. Title:
+**Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+### 2. Functional Description:
+The Remote Unlocking and Locking of Vehicle via Smartphone sub-System provides users with the ability to lock and unlock their vehicle remotely using a smartphone application. The system relies on Bluetooth and internet connectivity to transmit commands to the vehicle, ensuring remote access control. The application communicates securely with the vehicle’s system, verifying user identity and ensuring that commands are executed only by authenticated users. The system includes safety checks to ensure vehicle security and provides real-time feedback to the user.
+
+---
+
+### 3. Enabling Conditions:
+- The vehicle must be equipped with the necessary hardware and software to support Bluetooth and/or internet connectivity for communication with mobile devices.
+- The mobile application must be installed on a compatible smartphone and set up with user authentication (e.g., PIN code, biometric authentication).
+- The smartphone must have an active internet connection (for internet-based control) or be within Bluetooth range (for Bluetooth-based control).
+- The vehicle’s battery must have a minimum charge level to enable the locking/unlocking operations.
+- The user must grant the mobile app the necessary permissions to communicate with the vehicle (e.g., location, Bluetooth access, etc.).
+
+---
+
+### 4. Trigger Conditions:
+- The user opens the mobile application on the smartphone and successfully authenticates their identity.
+- The mobile app successfully detects the vehicle through Bluetooth or an internet connection.
+- The user selects either the "Unlock" or "Lock" button on the app interface.
+- The system verifies that the action requested is valid and authorized for the specific vehicle.
+
+---
+
+### 5. Execution Output:
+- Upon receiving an "Unlock" command, the system sends a signal to the vehicle, unlocking the doors, and a confirmation notification is displayed on the user’s smartphone.
+- Upon receiving a "Lock" command, the system sends a signal to the vehicle, locking the doors, and a confirmation notification is displayed on the user’s smartphone.
+- A log of the transaction is recorded for security and audit purposes, capturing details such as time, vehicle status, and user ID.
+- If an error occurs during execution (e.g., connection failure), the system provides the user with a clear error message and troubleshooting steps, if applicable.
+  
+---
+
+### 6. Exit Conditions:
+- After the command is executed (lock/unlock), the system returns to idle mode, awaiting further user action or app closure.
+- If an error occurs during the execution of the action, the system will enter a fallback state, prompting the user to retry or address the issue (e.g., reconnecting the smartphone to the vehicle).
+- The mobile app automatically logs out or closes the session after a successful transaction, ensuring the system is secure and no unauthorized actions can occur.
+- If connectivity is lost during the execution, the system attempts to reconnect, and if it remains unsuccessful, the app provides an error message indicating that the vehicle cannot be controlled remotely at the moment.

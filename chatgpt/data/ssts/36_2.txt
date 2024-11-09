@@ -1,0 +1,33 @@
+**Technical Specifications: Automatic Bluetooth Pairing for Multiple Devices**
+
+**1. Title**  
+Automatic Bluetooth Pairing for Multiple Devices
+
+**2. Functional Description**  
+The Automatic Bluetooth Pairing for Multiple Devices sub-system allows the vehicle’s infotainment system to automatically detect and pair with multiple Bluetooth-enabled devices (e.g., smartphones, tablets, smartwatches) within range. The system supports simultaneous connections, enabling users to perform different functions such as hands-free calling, media streaming, and navigation. Devices can be automatically switched based on user preferences, with priority given to the most recently connected device. The system ensures that pairing and switching between devices happen seamlessly without requiring manual intervention from the user.
+
+**3. Enabling Conditions**  
+- The vehicle’s infotainment system must have Bluetooth functionality enabled and be capable of pairing with multiple devices simultaneously.
+- Bluetooth-enabled devices to be paired must be within the effective range of the vehicle’s infotainment system and must have Bluetooth turned on and in discoverable mode.
+- The system must support Bluetooth versions compatible with the devices being used (Bluetooth 4.0 or higher).
+- Devices must be either pre-registered with the infotainment system or recognized by the system when entering the vehicle.
+- The system must prioritize the last connected device in the event of multiple devices entering range.
+
+**4. Trigger Conditions**  
+- A new device enters the vehicle’s Bluetooth range and becomes discoverable, triggering the system to initiate the pairing process.
+- A previously paired device returns to the vehicle’s range, triggering an automatic reconnection if no other device is actively using the system.
+- The system may also be triggered when a user manually switches between devices via the infotainment screen or voice command.
+- The system is triggered by the disconnect event when a device leaves the Bluetooth range or is powered off.
+
+**5. Execution Output**  
+- When a device enters range and is discoverable, the system automatically pairs with the device and establishes a connection without requiring user interaction.
+- If multiple devices are paired, the system will automatically prioritize the last connected device for functions such as media streaming or hands-free calling, but users can easily switch between devices as needed.
+- A confirmation message is displayed on the infotainment system’s screen upon successful connection.
+- The system will manage multiple devices for different functions, allowing simultaneous usage for audio streaming, navigation, and calls, where applicable.
+- If an error occurs (e.g., interference or failure to connect), the system will notify the user and provide troubleshooting options.
+
+**6. Exit Conditions**  
+- The system will exit pairing mode once a device is successfully connected, or if the user cancels the pairing request.
+- If a device is disconnected either manually by the user, or due to range loss or device shutdown, the system will notify the user and allow reconnection or automatic re-pairing if the device returns to range.
+- The system will automatically exit pairing mode after a specified timeout period if no devices are successfully paired or connected.
+- The system will exit an active connection state when a device is disconnected or turned off. If multiple devices are connected, the system will maintain the active connection to the remaining device(s).

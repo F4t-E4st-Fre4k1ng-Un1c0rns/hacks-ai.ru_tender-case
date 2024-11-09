@@ -1,0 +1,50 @@
+**Underpinning Contract: Real-Time Collision Avoidance and Warning System**
+
+**Goal:**
+
+The Real-Time Collision Avoidance and Warning System aims to enhance the safety of the vehicle by providing immediate alerts and automatic interventions in case of potential collisions. The system uses advanced sensors, cameras, and real-time data processing to monitor the surrounding environment of the vehicle. Key features include:
+
+1. Detection of obstacles and vehicles in the proximity of the car.
+2. Real-time warning alerts to the driver if a collision risk is detected.
+3. Automatic application of braking or steering intervention if necessary to avoid a collision.
+4. Continuous monitoring and adaptation to varying traffic conditions and driving environments.
+
+**Preconditions:**
+
+1. The vehicle is equipped with the necessary hardware, including cameras, radar sensors, and processors, for the Real-Time Collision Avoidance and Warning System to function.
+2. The system is activated and fully operational, with real-time environmental data being processed by the vehicle’s onboard systems.
+3. The driver has activated the feature either manually or as part of an automatic driving mode.
+4. The vehicle is in motion and the system is active during driving.
+
+**Main Scenario:**
+
+1. **Alise starts driving the vehicle on a highway.** The Real-Time Collision Avoidance and Warning System begins to scan the surroundings.
+   
+2. **Alise approaches a slow-moving vehicle in front of her.** The system detects the distance and speed differential between the two vehicles.
+
+3. **The system calculates a potential collision risk.** A warning light and a sound alert are triggered to notify Alise of the detected risk.
+
+4. **Alise responds by maintaining a safe distance.** The system continues to monitor and provides real-time updates. If the situation worsens, the system will automatically intervene.
+
+5. **If the risk is critical, the system automatically applies the brakes or adjusts the steering.** Alise is relieved as the system prevents a collision.
+
+**Alternative Scenario:**
+
+1. **Bob is driving, and the Real-Time Collision Avoidance and Warning System is active.** A heavy rainstorm causes the system's sensors to malfunction temporarily.
+
+2. **Bob notices the system fails to provide warnings.** The vehicle’s dashboard displays a message indicating that the collision avoidance system is unavailable due to poor sensor performance.
+
+3. **Bob decides to slow down and keep a safe distance manually.** He is aware that the system is temporarily inactive and takes extra care while driving.
+
+4. **Once the sensors stabilize, the system automatically reactivates.** The warning and collision avoidance features resume normal operation.
+
+5. **Bob is informed that the system is operational again via a dashboard alert.** He continues driving with the system fully functional.
+
+**Postconditions:**
+
+After a successful interaction with the Real-Time Collision Avoidance and Warning System:
+
+1. The vehicle maintains a safe distance from other objects and vehicles.
+2. If a collision was imminent, the system has either prevented the impact through automatic intervention or provided timely warnings, allowing the driver to take corrective action.
+3. The system logs all relevant data, including the nature of the warning, distance, speed, and any interventions made, for analysis and improvement of future vehicle safety systems.
+4. The vehicle continues to operate with enhanced safety, ensuring the driver’s awareness and security at all times.

@@ -1,0 +1,69 @@
+**Underpinning Contract: In-Car Payment System Integration for Toll and Parking**
+
+---
+
+**1. Title**  
+In-Car Payment System Integration for Toll and Parking
+
+---
+
+**2. Goal**  
+The goal of the In-Car Payment System Integration for Toll and Parking is to provide seamless, automated payment processing for tolls and parking fees directly from the luxury electric vehicle’s interface. The system enables users to quickly and securely pay for tolls and parking without the need for external devices or manual input, improving the driving experience by saving time and enhancing convenience.
+
+---
+
+**3. Preconditions**  
+- The vehicle must have a functional internet connection (either through built-in cellular data or Wi-Fi) to process payments.
+- The user must have registered payment methods (credit card, debit card, or digital wallet) linked to the vehicle’s payment system.
+- The toll and parking systems must support the integration of the in-car payment system for successful transaction processing.
+- The vehicle’s software must be up to date to ensure compatibility with the payment integration.
+- The user must be authenticated (e.g., via in-car login or biometric verification) to authorize payments.
+
+---
+
+**4. Main Scenario**  
+1. **User Action**: Alise enters a toll road or approaches a parking facility.  
+   **Sub-System Response**: The In-Car Payment System automatically detects the toll or parking entry and displays payment options on the vehicle's infotainment screen.
+
+2. **User Action**: Alise selects the preferred payment method displayed on the screen.  
+   **Sub-System Response**: The system processes the payment using the registered method and displays the transaction details (amount, confirmation, and transaction ID) on the screen.
+
+3. **User Action**: Alise confirms the payment and drives through the toll or parks the car in the parking area.  
+   **Sub-System Response**: The system sends a payment confirmation to the toll or parking system, allowing the barrier to lift or granting access to the parking area.
+
+4. **User Action**: Alise continues driving or parks the car.  
+   **Sub-System Response**: The system records the payment and provides an option to receive a digital receipt or send it to the user’s email.
+
+5. **User Action**: Alise drives away or exits the parking area.  
+   **Sub-System Response**: The system ensures that all relevant payment information is stored and available for future reference in the vehicle’s history log.
+
+---
+
+**5. Alternative Scenario**  
+- **Scenario 1: Payment Failure**  
+  1. **User Action**: Bob approaches a toll or parking area and attempts to use the in-car payment system.  
+     **Sub-System Response**: The system fails to detect the toll or parking system due to connectivity issues or incompatibility with the external payment infrastructure.  
+  2. **User Action**: Bob manually selects a backup payment option or exits the payment screen.  
+     **Sub-System Response**: The system offers an alternative payment method (e.g., using a smartphone app or physical payment at a toll booth or parking meter).  
+  3. **User Action**: Bob proceeds with the manual payment option.  
+     **Sub-System Response**: The system logs the error and notifies Bob that the payment was not processed through the in-car system but that the manual payment is accepted.
+
+- **Scenario 2: Insufficient Funds**  
+  1. **User Action**: Bob selects the payment option, but the system detects insufficient funds or an invalid payment method.  
+     **Sub-System Response**: The system alerts Bob of the payment failure and requests an alternative payment method.  
+  2. **User Action**: Bob updates payment information or selects another method.  
+     **Sub-System Response**: The system processes the new payment method and confirms the transaction.
+
+- **Scenario 3: System Unavailability**  
+  1. **User Action**: Bob approaches a toll or parking area, but the in-car payment system is temporarily unavailable (due to a software issue or connectivity loss).  
+     **Sub-System Response**: The system notifies Bob that the payment system is unavailable and provides an option to pay manually.  
+  2. **User Action**: Bob exits the payment interface and proceeds to a manual payment option.  
+     **Sub-System Response**: The system logs the downtime for future maintenance and ensures Bob’s experience is not hindered.
+
+---
+
+**6. Postconditions**  
+- Upon successful transaction completion, the user receives a confirmation of the payment through the vehicle’s interface, along with an option for a digital receipt.
+- The system updates the vehicle’s payment history log with details of the toll or parking transaction.
+- The user's payment method remains securely linked to the system for future use, ensuring fast and efficient transactions on subsequent tolls or parking entries.
+- If the payment was made via the in-car system, the appropriate access or action (e.g., toll gate opening or parking access) is granted, allowing the user to proceed with their journey without delay.

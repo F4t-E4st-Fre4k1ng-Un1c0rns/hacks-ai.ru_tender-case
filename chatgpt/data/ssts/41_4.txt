@@ -1,0 +1,34 @@
+**Technical Specifications for Setting Geofences for Vehicle Tracking and Monitoring**
+
+**1. Title**  
+Setting Geofences for Vehicle Tracking and Monitoring
+
+**2. Functional Description**  
+The Setting Geofences for Vehicle Tracking and Monitoring sub-System enables users to define virtual geographic boundaries, referred to as geofences, around specified areas. The system tracks vehicles equipped with GPS and sends alerts when these vehicles enter or exit the defined zones. The feature is integral to vehicle security, fleet management, and the monitoring of luxury electric vehicles. The system supports real-time tracking, customizable geofence areas, and flexible notification configurations.
+
+**3. Enabling Conditions**  
+- The user must have an active account with a subscription level that includes access to geofencing features (such as a premium or enterprise-level subscription).  
+- The vehicle(s) being monitored must have functional GPS tracking enabled and be connected to the tracking platform.  
+- The user must be logged into the vehicle tracking platform via a web or mobile application.  
+- The geofence management interface must be operational, and map services must be available for creating geofence boundaries.  
+- The notification system (email, SMS, or app push notifications) must be set up for the user to receive alerts.
+
+**4. Trigger Conditions**  
+- The user selects the option to create a new geofence and either manually draws a boundary on a map or inputs specific geographic coordinates.  
+- The vehicle's GPS system sends a real-time location update, which the system compares with the boundaries of the geofence.  
+- The vehicle enters or exits the defined geofence area, triggering the event.  
+- The alert conditions configured by the user are met (e.g., entry or exit of the vehicle within the geofence).  
+- If the system detects that the geofence is active and properly configured, it will monitor the vehicle’s movements and trigger alerts when necessary.
+
+**5. Execution Output**  
+- The system generates and sends a notification to the user when a vehicle enters or exits the defined geofence. Notifications can be sent via email, SMS, or app push, based on user preferences.  
+- Each geofence event (entry or exit) is logged in the system's database, creating a historical record for analysis or reporting purposes.  
+- If multiple vehicles are assigned to the same geofence, separate alerts are triggered for each vehicle when it crosses the geofence boundary.  
+- The system provides an activity summary report of all geofence events, available for review and export by the user.  
+- The user can modify, delete, or deactivate geofences through the management interface, which will stop further notifications from being sent.
+
+**6. Exit Conditions**  
+- The system successfully logs the vehicle's entry or exit event from the geofence and delivers the corresponding notification to the user.  
+- If the user deactivates or deletes a geofence, the system ensures that no further alerts or events related to that geofence are processed.  
+- The geofence data is removed from the system's active monitoring queue, and historical event logs remain available for reporting, depending on the system's retention policies.  
+- The system confirms the deactivation or deletion of the geofence to the user through a confirmation message or alert.

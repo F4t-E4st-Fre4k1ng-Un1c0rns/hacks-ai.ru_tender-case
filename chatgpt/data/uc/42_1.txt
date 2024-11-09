@@ -1,0 +1,32 @@
+**Underpinning Contract: Driver Distraction Detection and Mitigation**
+
+**1. Title**  
+Driver Distraction Detection and Mitigation
+
+**2. Goal**  
+The Driver Distraction Detection and Mitigation sub-system will monitor the driver’s attention and behavior, detecting signs of distraction and taking corrective actions to mitigate risks. The sub-system will improve safety by analyzing driver activity, such as eye movement, head positioning, and attention span, and will provide alerts and corrective feedback when necessary. In addition, the system will use sensor data to assess the environment and determine when driver assistance is needed, ensuring the driver remains focused on the road.
+
+**3. Preconditions**  
+- The sub-system is integrated into the vehicle's central computer and is activated at the start of the journey.
+- The vehicle must have functional cameras, sensors, and AI algorithms to analyze driver behavior.
+- The system requires the driver’s consent to activate monitoring.
+- The vehicle’s infotainment system should be operating, providing a display or auditory feedback interface for alerts.
+
+**4. Main Scenario**  
+1. Bob enters the vehicle and starts the engine.  
+2. The Driver Distraction Detection system activates automatically, using facial recognition and camera sensors to analyze Bob’s level of attention.  
+3. The system detects that Bob's eyes are wandering off the road for an extended period while listening to music and not paying attention.  
+4. The system issues a gentle auditory alert and a visual warning on the dashboard, prompting Bob to refocus on the road.  
+5. Bob responds by adjusting his position, refocusing on the road, and the system confirms the alert has been acknowledged, resuming monitoring mode.
+
+**5. Alternative Scenario**  
+1. Alise enters the vehicle and starts the engine.  
+2. The Driver Distraction Detection system activates, but due to a malfunction in the camera system, it fails to detect Alise's face properly.  
+3. The system is unable to analyze Alise's attention level, and instead of issuing a regular alert, the system notifies her via the infotainment screen that "Driver monitoring system is unavailable" and asks to visit the service center.  
+4. Alise acknowledges the issue and decides to continue driving without monitoring.  
+5. The system logs the error and alerts the vehicle's diagnostics to flag for repair during the next maintenance check.
+
+**6. Postconditions**  
+- After successful interaction with the system, Bob or Alise has been reminded or alerted to pay attention to the road, mitigating the risk of distracted driving.
+- The system logs all data related to distractions and mitigation actions for later analysis, improving future driver feedback.
+- If any system errors or malfunctions occur, the system documents the failure and communicates it to the driver, as well as to vehicle diagnostics for maintenance purposes.

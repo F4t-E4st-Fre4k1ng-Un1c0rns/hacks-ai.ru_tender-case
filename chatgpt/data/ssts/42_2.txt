@@ -1,0 +1,32 @@
+**1. Title**  
+Driver Distraction Detection and Mitigation - Technical Specifications
+
+**2. Functional Description**  
+The Driver Distraction Detection and Mitigation (DDDM) sub-system is designed to monitor the driver's attention, detecting signs of distraction or drowsiness using a combination of facial recognition, eye-tracking, and vehicle movement data. The system evaluates the driver’s focus in real time and intervenes when distraction is detected, issuing alerts and applying corrective actions such as steering adjustments or lane-keeping assistance. It aims to reduce the risk of accidents caused by driver inattention and maintain vehicle safety.
+
+**3. Enabling Conditions**  
+- **Vehicle Readiness:** The vehicle must be powered on and operational, with the driver seated in the driver's seat.
+- **Sensor Calibration:** The system must complete an initial calibration process to identify the driver’s facial features and set baseline data for distraction detection. This calibration ensures proper tracking of eye movement and head position.
+- **Environmental Conditions:** Sufficient lighting is required for the internal cameras to detect facial features. If nighttime driving is detected, the system will adjust the internal cabin lights automatically.
+- **Driver Consent:** The driver must provide consent for facial and eye-tracking data to be processed to enable distraction detection.
+- **Functional Sensors:** All required sensors, including facial recognition cameras, infrared sensors, and steering wheel sensors, must be fully operational and clean for optimal function.
+
+**4. Trigger Conditions**  
+- **Distraction Detection:** A distraction is triggered when the system detects that the driver’s gaze is off the road for more than 2 consecutive seconds. This is measured by the positioning of the driver's eyes and head using the infrared cameras.
+- **Drowsiness Detection:** Drowsiness is flagged when the system observes signs such as excessive blinking, yawning, heavy eyelids, or head nodding, based on facial recognition analysis.
+- **Sensor Malfunction:** The system will trigger a fault notification if any sensors (e.g., camera or infrared sensors) are obstructed, malfunctioning, or unable to detect necessary data due to poor conditions (e.g., dirty lens, improper lighting).
+
+**5. Execution Output**  
+- **Warning Alerts:** Upon detecting a distraction or drowsiness, the system will trigger an audible warning sound, display a visual alert on the dashboard (e.g., a "Stay Focused" message), and initiate haptic feedback (e.g., vibration in the steering wheel) to encourage the driver to refocus.
+- **Corrective Actions:** If the driver does not respond to the initial alert within 5 seconds, the system may take corrective actions, such as:
+  - Activating lane-keeping assistance to subtly steer the vehicle back into its lane.
+  - Adjusting the vehicle speed (e.g., reducing speed or increasing following distance).
+  - In severe cases, applying emergency braking if the system detects a high risk of collision.
+- **Data Logging:** All alerts, corrective actions, and detected malfunctions will be logged in the vehicle’s onboard memory, accessible for later review by the driver or service personnel.
+
+**6. Exit Conditions**  
+- **Distraction Mitigation:** The system exits the alert phase once the driver refocuses on the road, or if the system detects that the distraction (e.g., gaze off the road) has ended.
+- **Resolution of Drowsiness:** The system exits the drowsiness warning phase once the driver shows signs of regained alertness (e.g., no more yawning or head nodding detected).
+- **Sensor Functionality Restored:** If the system detects that a malfunctioning sensor has been restored to working condition (e.g., camera lens cleaned, lighting corrected), the system will notify the driver and resume normal operation.
+- **System Disengagement:** The system can be manually disengaged by the driver through the vehicle’s settings or infotainment menu. If disengaged, the system will cease monitoring and alerts until re-enabled.
+

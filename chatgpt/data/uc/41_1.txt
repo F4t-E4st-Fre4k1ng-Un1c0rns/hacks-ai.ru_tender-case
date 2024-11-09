@@ -1,0 +1,30 @@
+**Underpinning Contract: Setting Geofences for Vehicle Tracking and Monitoring**
+
+**1. Goal**  
+The Geofence Setting sub-System enables the user to define geographic boundaries (geofences) around specific areas for tracking and monitoring the luxury electric vehicle fleet. This functionality allows the vehicle owner or fleet manager to receive notifications and alerts when a vehicle enters or exits predefined geofences. Additionally, it provides real-time visibility and enhances vehicle security by preventing unauthorized movement outside of designated zones.
+
+**2. Preconditions**  
+- The user must have access to the vehicle fleet management platform with necessary permissions to set geofences.  
+- The vehicles to be monitored must be equipped with GPS tracking devices and connected to the system.  
+- The user should have an active internet connection to configure and manage the geofences via the platform.  
+- A registered account with valid login credentials is required for all users accessing the system.  
+
+**3. Main Scenario**  
+1. **User logs in** to the fleet management platform using their credentials (Alise or Bob).  
+2. **User selects the "Geofence" feature** from the dashboard and proceeds to the geofence settings section.  
+3. **User defines a geofence area** by selecting a location on the map and setting a radius (e.g., a 5-kilometer radius around a headquarters).  
+4. **User saves the geofence** by confirming the settings, which are then automatically linked to the vehicle(s) selected for monitoring.  
+5. **System activates geofence monitoring**, and notifications are set up to alert the user when any selected vehicle enters or exits the geofenced area.
+
+**4. Alternative Scenario**  
+1. **User logs in** to the fleet management platform using their credentials.  
+2. **User selects the "Geofence" feature** but encounters an error message indicating the geofence feature is unavailable due to a system issue.  
+3. **User contacts support** via the helpdesk or chat to report the issue.  
+4. **System provides an estimated resolution time** or alternative solutions, such as setting geofences manually or using basic tracking until the issue is resolved.  
+5. **User receives notification** when the geofence feature is restored and available for use again.
+
+**5. Postconditions**  
+- The geofence is successfully created and linked to the selected vehicles.  
+- The system continuously monitors the designated geofence area and sends notifications when any of the monitored vehicles cross the boundaries.  
+- The user receives a confirmation alert each time a vehicle enters or exits the geofence zone.  
+- The system logs all geofence-related activities for auditing and analysis purposes.

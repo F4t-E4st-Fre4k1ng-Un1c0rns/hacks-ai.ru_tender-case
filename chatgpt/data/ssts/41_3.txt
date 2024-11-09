@@ -1,0 +1,33 @@
+**Technical Specifications for Setting Geofences for Vehicle Tracking and Monitoring**
+
+**1. Title**  
+Setting Geofences for Vehicle Tracking and Monitoring
+
+**2. Functional Description**  
+The "Setting Geofences for Vehicle Tracking and Monitoring" sub-System allows users to create and manage geographic boundaries (geofences) around specified areas. The system uses real-time GPS data to track the vehicle’s location and sends alerts when the vehicle enters or exits these geofenced areas. The sub-System enhances security, operational efficiency, and fleet management by providing real-time notifications of vehicles crossing geofence boundaries.
+
+**3. Enabling Conditions**  
+- The user must have an active administrative account with valid credentials.  
+- The vehicle must be equipped with an operational GPS tracking device, capable of sending real-time location updates to the system.  
+- The geofencing feature must be activated in the system settings for the user.  
+- The system must have access to a map interface or GPS tool to define the geofence boundaries.  
+- The user should have basic knowledge of geographic coordinates and map-based tools to effectively configure geofences.
+
+**4. Trigger Conditions**  
+- The vehicle's GPS location updates in real-time, prompting the system to check whether the vehicle is inside or outside the geofence.  
+- A user creates or updates a geofence boundary through the map interface.  
+- The vehicle enters or exits the geofenced area, triggering an alert or notification to the user.  
+- The system detects a change in the GPS signal or location, prompting the system to re-evaluate the vehicle’s status in relation to the geofence.
+
+**5. Execution Output**  
+- **Real-Time Notifications**: The system sends immediate notifications to the user when a vehicle enters or exits a geofence, indicating the specific event (e.g., "Vehicle entered geofence" or "Vehicle exited geofence").  
+- **Location Updates**: The vehicle’s location on the map is updated in real-time, reflecting whether the vehicle is inside or outside the geofence.  
+- **Error Alerts**: If an invalid geofence boundary is set (e.g., overlapping areas or unreachable coordinates), the system will display an error message prompting the user to correct the configuration.  
+- **Geofence Status**: The system provides a status update showing whether the geofence is active or inactive for each vehicle it monitors. This status is displayed on the user's dashboard for easy management.
+
+**6. Exit Conditions**  
+- **End of Geofence Monitoring**: Geofencing tracking ends when the vehicle exits the boundary, and no further alerts are triggered unless the vehicle re-enters the geofence.  
+- **User-Initiated Deactivation**: The user may deactivate the geofence, either by manually disabling the geofence monitoring or by removing the vehicle from the geofence.  
+- **GPS Signal Loss**: If the vehicle’s GPS connection is lost, the geofence monitoring is temporarily suspended. Once the GPS signal is restored, the system automatically resumes tracking and alerts the user when the vehicle re-enters the geofence.  
+- **Geofence Deletion or Modification**: If a geofence is deleted or modified, the system will cease tracking based on the old boundaries and begin tracking according to the new configuration.
+

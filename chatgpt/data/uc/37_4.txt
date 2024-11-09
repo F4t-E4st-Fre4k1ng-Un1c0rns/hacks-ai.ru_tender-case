@@ -1,0 +1,65 @@
+**Underpinning Contract: Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+**1. Goal**
+
+The Remote Unlocking and Locking of Vehicle via Smartphone subsystem allows the user to conveniently lock and unlock their luxury electric vehicle using their smartphone. The feature enhances the user's experience by providing seamless access control, improving security, and offering easy operation through a mobile application. This subsystem will include the following abilities:
+- Unlock the vehicle remotely using the smartphone app.
+- Lock the vehicle remotely using the smartphone app.
+- Provide real-time feedback to the user on the status of the vehicle (locked/unlocked).
+- Offer a secure and encrypted connection for remote access to prevent unauthorized use.
+
+---
+
+**2. Preconditions**
+
+- The user must have a compatible smartphone with the required mobile app installed and activated.
+- The vehicle must be equipped with the Remote Unlocking and Locking subsystem and be connected to the user's smartphone.
+- The user must have valid credentials (e.g., account login, Bluetooth or Wi-Fi connection, etc.) to access the app and communicate with the vehicle.
+- The vehicle's battery must be charged sufficiently to support remote operations.
+- The smartphone must be within an operational range (either Bluetooth or Wi-Fi) to communicate with the vehicle.
+
+---
+
+**3. Main Scenario**
+
+1. **User Action:** Alise opens the mobile app on her smartphone.
+   - **Sub-System Response:** The app connects to the vehicle and displays the vehicle’s current lock status (locked/unlocked).
+
+2. **User Action:** Alise selects the "Unlock" option in the app to remotely unlock the vehicle.
+   - **Sub-System Response:** The vehicle receives the unlock request, verifies the user's credentials, and sends a confirmation back to the app.
+
+3. **User Action:** Alise receives a notification confirming the vehicle has been successfully unlocked.
+   - **Sub-System Response:** The vehicle’s lock mechanism disengages, allowing access to the vehicle. The app updates the status to "Unlocked."
+
+4. **User Action:** After entering the vehicle, Alise decides to lock it remotely via the app.
+   - **Sub-System Response:** The app sends a lock request to the vehicle. 
+
+5. **User Action:** Alise receives a confirmation that the vehicle is now locked.
+   - **Sub-System Response:** The vehicle’s lock mechanism engages, and the app updates the status to "Locked."
+
+---
+
+**4. Alternative Scenario**
+
+1. **User Action:** Bob opens the mobile app to unlock his vehicle but is unable to connect.
+   - **Sub-System Response:** The app displays an error message indicating "Connection Failed" or "No Signal."
+
+2. **User Action:** Bob attempts to unlock the vehicle again but receives the same error message.
+   - **Sub-System Response:** The system checks for possible issues such as weak Wi-Fi or Bluetooth signal, or vehicle status, and informs the user via a notification that the vehicle is temporarily unavailable for remote unlocking.
+
+3. **User Action:** Bob tries to restart the app and ensure his smartphone is within the operational range of the vehicle.
+   - **Sub-System Response:** If the issue persists, the app suggests troubleshooting steps such as checking the vehicle’s battery status, re-establishing Bluetooth connection, or contacting support.
+
+4. **User Action:** Bob is still unable to unlock the vehicle remotely.
+   - **Sub-System Response:** The vehicle remains locked, but the app provides Bob with alternative options to unlock it manually using traditional methods (e.g., physical key).
+
+---
+
+**5. Postconditions**
+
+- After a successful unlocking action, the vehicle’s lock mechanism is disengaged, allowing the user access to the vehicle.
+- After a successful locking action, the vehicle’s lock mechanism is engaged, and the vehicle is securely locked.
+- The mobile app provides real-time updates on the status of the vehicle (locked or unlocked), ensuring that the user is aware of the vehicle's security status at all times.
+- Any failed remote unlocking or locking attempts trigger alerts or notifications for the user to take corrective action or seek further assistance.

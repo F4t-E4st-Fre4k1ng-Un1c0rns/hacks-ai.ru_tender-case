@@ -1,0 +1,30 @@
+**Underpinning Contract: Setting Geofences for Vehicle Tracking and Monitoring**
+
+**1. Goal**  
+The "Setting Geofences for Vehicle Tracking and Monitoring" sub-System allows users to create and manage virtual boundaries around geographic areas. The feature enables real-time tracking of luxury electric vehicles, providing notifications when vehicles enter or exit pre-defined zones (geofences). It enhances vehicle security, monitoring, and fleet management by ensuring users are alerted to any unauthorized movements or when vehicles operate outside specified zones.
+
+**2. Preconditions**  
+- The user must have access to the vehicle tracking platform, with appropriate permissions to set geofences.  
+- The vehicle must be equipped with GPS tracking capabilities that allow for precise location tracking.  
+- The user must be logged in to the system, either via a web portal or mobile application.  
+- The system must have up-to-date maps for accurate geofence creation and monitoring.  
+- The geofence feature is available as part of a premium subscription or enterprise-level service.  
+
+**3. Main Scenario**  
+1. **User Logs In**: The user, such as Alise, logs into the vehicle tracking platform using their credentials.  
+2. **Access Geofence Feature**: Alise navigates to the “Geofence Management” section within the platform.  
+3. **Create New Geofence**: Alise selects the option to create a new geofence and defines the geographical area by either drawing a boundary on the map or entering coordinates.  
+4. **Configure Geofence Settings**: Alise sets the parameters for the geofence, such as alerts for when a vehicle enters or exits the area, and selects the relevant vehicle(s) to apply the geofence to.  
+5. **Save Geofence**: Alise saves the geofence, and the system begins tracking the defined area in real-time. Notifications will be sent based on the configured settings.
+
+**4. Alternative Scenario**  
+1. **User Logs In**: Bob attempts to log into the vehicle tracking platform but encounters an error due to incorrect login credentials.  
+2. **Geofence Feature Not Available**: Bob navigates to the “Geofence Management” section but receives an error stating that the feature is not available on his current plan.  
+3. **GPS Tracking Disabled**: Bob tries to set up a geofence for a vehicle, but the system reports that GPS tracking is disabled or unavailable on the vehicle.  
+4. **Geofence Creation Fails**: Bob attempts to create a new geofence but receives an error message indicating the map service is temporarily unavailable or the geofence exceeds system limits (e.g., too large or too complex).  
+5. **Resolution or Support**: Bob is prompted with troubleshooting steps or is directed to customer support for assistance in resolving the issue. 
+
+**5. Postconditions**  
+- If successful, the newly created geofence is stored in the system, and real-time monitoring begins. The user receives notifications when the vehicle enters or exits the defined zone.  
+- The system logs all geofence-related events (entry, exit, alerts) for future reference or reporting purposes.  
+- The user can edit, delete, or deactivate the geofence at any time through the management interface.

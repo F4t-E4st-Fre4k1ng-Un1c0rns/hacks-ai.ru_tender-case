@@ -1,0 +1,59 @@
+**Underpinning Contract: Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+### 1. Title:
+**Remote Unlocking and Locking of Vehicle via Smartphone**
+
+---
+
+### 2. Goal:
+The Remote Unlocking and Locking of Vehicle via Smartphone sub-System provides the user with the ability to lock and unlock their luxury electric vehicle remotely using a smartphone. This functionality ensures added convenience, security, and flexibility for users, allowing them to interact with their vehicle without the need for traditional physical keys. Users can operate the vehicle's locking system from a distance, enabling ease of access and peace of mind, whether they are at home, in a parking lot, or in any other location.
+
+---
+
+### 3. Preconditions:
+- The vehicle must be equipped with the necessary hardware and software to support remote locking and unlocking functionality.
+- The user must have installed the designated mobile application on a compatible smartphone.
+- The smartphone must be connected to the vehicle's network via Bluetooth or an internet connection (depending on the implementation).
+- The user must be authenticated through the app using secure login credentials (e.g., biometrics, PIN, or password).
+- The vehicle's battery and smartphone battery must have sufficient charge for the remote operation.
+
+---
+
+### 4. Main Scenario:
+1. **User Action**: Alice opens the smartphone app for her luxury electric vehicle.
+   - **Sub-System Response**: The app verifies her credentials and connects to the vehicle’s system.
+  
+2. **User Action**: Alice selects the "Unlock" button on the app interface.
+   - **Sub-System Response**: The vehicle receives the command and unlocks the doors remotely. A confirmation notification appears on the smartphone screen.
+  
+3. **User Action**: Alice approaches the vehicle and opens the door.
+   - **Sub-System Response**: The vehicle remains unlocked, and no further action is required for access.
+  
+4. **User Action**: After using the vehicle, Alice locks the doors using the smartphone app.
+   - **Sub-System Response**: The vehicle locks, and a confirmation message is sent to Alice's smartphone.
+  
+5. **User Action**: Alice closes the app after confirming that the vehicle is securely locked.
+   - **Sub-System Response**: The system ensures that the vehicle is in a locked state and powers down the app connection.
+
+---
+
+### 5. Alternative Scenario:
+1. **User Action**: Bob attempts to unlock the vehicle using his smartphone app but receives an error message stating that the vehicle cannot be connected.
+   - **Sub-System Response**: The app notifies Bob that there is an issue with the vehicle's connection (e.g., Bluetooth or internet connection failure). The app offers troubleshooting suggestions, such as checking the connection settings, ensuring the vehicle’s battery is sufficient, or confirming the app's permissions.
+
+2. **User Action**: Bob checks the vehicle's connectivity and realizes that it is out of range.
+   - **Sub-System Response**: The app provides a visual indicator showing that the vehicle is out of range, and suggests that Bob move closer to the vehicle for a successful connection.
+
+3. **User Action**: Bob tries again to unlock the vehicle after closing the app and reopening it.
+   - **Sub-System Response**: The app successfully re-establishes the connection, and Bob is able to unlock the vehicle remotely.
+
+---
+
+### 6. Postconditions:
+After successful interaction with the sub-System, the following results occur:
+- The vehicle's doors are locked or unlocked as per the user's command.
+- The smartphone app provides a confirmation of the vehicle's status (locked or unlocked).
+- The system logs the transaction for security and audit purposes.
+- The vehicle's security system is updated to reflect the current status (locked/unlocked).

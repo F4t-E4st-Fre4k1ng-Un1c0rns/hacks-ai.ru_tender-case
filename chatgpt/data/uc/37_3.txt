@@ -1,0 +1,28 @@
+**Title:** Remote Unlocking and Locking of Vehicle via Smartphone
+
+**Goal:**  
+The Remote Unlocking and Locking of Vehicle via Smartphone sub-system will enable users to unlock and lock their luxury electric vehicle remotely using a smartphone application. This feature will enhance user convenience, security, and ease of access, allowing users to operate the vehicle’s locking system from a distance, without needing to manually use a physical key or key fob.
+
+**Preconditions:**  
+1. The vehicle must be equipped with the necessary hardware to support remote locking and unlocking via a smartphone application.  
+2. The smartphone must have the official application installed and properly configured to connect to the vehicle.  
+3. The user must have an active and verified account with the application, with the vehicle associated to that account.  
+4. The vehicle must be within a specified range of the smartphone to ensure connectivity via Bluetooth, Wi-Fi, or cellular data.  
+5. The smartphone's battery must have enough charge to support the communication with the vehicle.
+
+**Main Scenario:**  
+1. Bob opens the official vehicle app on his smartphone.  
+2. Bob selects the "Unlock" option on the app to unlock the vehicle.  
+3. The sub-system establishes a secure connection between the smartphone and the vehicle.  
+4. The vehicle responds by unlocking the doors and signaling confirmation (e.g., light flashing or sound emitted).  
+5. Bob is able to enter the vehicle and start driving.
+
+**Alternative Scenario:**  
+1. Bob opens the official vehicle app on his smartphone but cannot connect to the vehicle due to poor signal.  
+2. The app notifies Bob that it cannot establish a connection and prompts him to check the vehicle's connectivity or ensure the smartphone is within range.  
+3. Bob is advised to try again or use the physical key fob as an alternative.  
+4. If the connection fails persistently, the app offers troubleshooting steps or directs Bob to customer support.  
+5. If the smartphone's battery is low, Bob is prompted to charge the phone or use alternative means to unlock the vehicle.
+
+**Postconditions:**  
+Upon successful interaction with the sub-system, the vehicle doors are securely unlocked or locked, depending on the action taken, and the user is notified of the successful status through the app or through vehicle confirmation signals. The system ensures that the vehicle remains secure after each operation.

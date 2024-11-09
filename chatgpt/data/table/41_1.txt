@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS includes backend and system-specific details that are not mentioned in the UC, such as system checks and geofence data logging. | "The system records and stores data on vehicle movements relative to geofence boundaries." |
+| The UC focuses on user-centric actions, such as creating and modifying geofences, while SSTS includes additional system-triggered actions like automatic geofence validation. | "A system event triggers an automatic revalidation or refresh of geofence boundaries." |
+| SSTS discusses the need for up-to-date maps and backend infrastructure, which is not explicitly covered in the UC. | "The system must have access to an up-to-date map of the geofenced areas, enabling accurate geofence creation." |
+| UC does not mention data logging for audit purposes, while SSTS specifies the logging of geofence-related actions. | "The system logs all geofence-related actions, including creation, modification, and vehicle entry/exit events, for audit and reporting purposes." |
+| SSTS outlines system failure and timeout conditions, but the UC does not explicitly mention these failure scenarios. | "System errors or connectivity issues result in the failure to provide real-time alerts or geofence status updates." |
+| The UC does not specify conditions for revalidation of geofences, while SSTS mentions system-initiated checks. | "A scheduled system check or error in GPS data triggers an update or verification of the geofencing parameters." |

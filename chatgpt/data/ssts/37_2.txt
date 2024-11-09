@@ -1,0 +1,31 @@
+**Technical Specifications: Remote Unlocking and Locking of Vehicle via Smartphone**
+
+1. **Functional Description**  
+The **Remote Unlocking and Locking of Vehicle via Smartphone** sub-system enables users to remotely lock and unlock their luxury electric vehicle using a dedicated smartphone application. The system is designed to function through both Bluetooth and internet connectivity, allowing users to interact with the vehicle in real-time. The application requires authentication for security purposes and provides feedback on the status of the vehicle, including notifications of successful actions. The system will also automatically lock the vehicle when the engine is started, as an additional security feature.
+
+2. **Enabling Conditions**  
+- The user must have the dedicated vehicle mobile application installed on a compatible smartphone.
+- The vehicle must be equipped with the necessary hardware and software to support remote locking and unlocking functionality.
+- The smartphone must have an active internet connection (Wi-Fi or mobile data) or Bluetooth connectivity enabled.
+- The vehicle and smartphone must be within the operational range for Bluetooth or internet communication, as specified by the system’s range capabilities.
+- The user must have valid authentication credentials linked to their account, including options for biometric or password authentication.
+
+3. **Trigger Conditions**  
+- The user opens the vehicle's mobile application on their smartphone.
+- The user selects the option to lock or unlock the vehicle via the app interface.
+- The system successfully verifies the user’s authentication credentials (password or biometric data).
+- The smartphone establishes a stable connection with the vehicle (either Bluetooth or internet).
+- The vehicle detects the request and is within range of the smartphone’s connectivity.
+
+4. **Execution Output**  
+- Upon successful action by the user (lock or unlock), the vehicle will respond by locking or unlocking the doors.
+- A notification will be sent to the user’s smartphone, confirming the successful execution of the command.
+- If the user initiates an unlock, the vehicle will notify that the doors are now open. If the user initiates a lock, the vehicle will confirm that the doors are now locked.
+- In the event of a failure (e.g., connectivity issue or incorrect credentials), an error message will be displayed, and the user will be given an option to retry the action or seek support.
+
+5. **Exit Conditions**  
+- Once the vehicle is locked or unlocked, the user is notified of the successful operation, and the app displays the updated vehicle status.
+- If the system fails to complete the requested action, the app provides an option to retry or contact support.
+- The vehicle is securely locked or unlocked as requested, ensuring user safety and security.
+- If the user exits the app or the connection is lost, the system will terminate the active session and update the vehicle status accordingly.
+- In cases of persistent failure (e.g., hardware malfunction), the app will recommend using a physical key as an alternative access method.

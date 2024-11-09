@@ -1,0 +1,8 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The SSTS does not explicitly require the user to have knowledge of geographic coordinates or mapping tools, which is mentioned as a prerequisite in the UC. | "The user should have basic knowledge of geographic coordinates and map-based tools to effectively configure geofences." |
+| The SSTS lacks a detailed step-by-step user interaction scenario, while the UC specifies a clear sequence of user actions for creating and managing geofences. | *No step-by-step process is provided in SSTS.* |
+| The SSTS does not address alternative scenarios for user errors, such as invalid coordinates or system errors, as the UC outlines. | *No mention of handling invalid geofences or incorrect user inputs.* |
+| The SSTS does not specify system feedback or alert behaviors for invalid geofence configurations, as described in the UC. | "If an invalid geofence boundary is set (e.g., overlapping areas or unreachable coordinates), the system will display an error message prompting the user to correct the configuration." |
+| The SSTS does not provide enough detail on post-interaction feedback, such as the vehicle’s location being displayed on the map, which is required in the UC. | "The vehicle’s location on the map is updated in real-time, reflecting whether the vehicle is inside or outside the geofence." |
+| The SSTS lacks clarity on the restoration of geofence tracking after GPS signal recovery, as mentioned in the UC. | "Once the GPS signal is restored, the system automatically resumes tracking and alerts the user when the vehicle re-enters the geofence." |

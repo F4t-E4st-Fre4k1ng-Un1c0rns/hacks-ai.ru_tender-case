@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not fully support simultaneous use of multiple devices for different functions, as described in the UC. | "The system will manage multiple devices for different functions, allowing simultaneous usage for audio streaming, navigation, and calls, where applicable." |
+| UC requires the system to prioritize the last connected device, but this is not clearly addressed in the SSTS. | "The system must prioritize the last connected device in the event of multiple devices entering range." |
+| UC specifies automatic reconnection of devices when they re-enter the vehicle, but SSTS lacks a detailed description of this behavior. | "A previously paired device returns to the vehicle’s range, triggering an automatic reconnection if no other device is actively using the system." |
+| UC specifies automatic switching between devices, while SSTS focuses more on manual switching and does not specify seamless automatic switching. | "Users can easily switch between devices as needed." |
+| UC does not mention an automatic timeout for pairing attempts, while SSTS includes a timeout feature after unsuccessful pairing. | "The system will automatically exit pairing mode after a specified timeout period if no devices are successfully paired or connected." |

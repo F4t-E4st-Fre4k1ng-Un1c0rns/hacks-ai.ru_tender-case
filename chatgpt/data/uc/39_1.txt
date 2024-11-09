@@ -1,0 +1,29 @@
+**Underpinning Contract: Real-Time Collision Avoidance and Warning System**
+
+**1. Goal**  
+The Real-Time Collision Avoidance and Warning System aims to enhance the safety and driving experience of luxury electric cars by providing real-time alerts and automatic interventions to avoid collisions. The system uses advanced sensors, cameras, and machine learning algorithms to detect obstacles, pedestrians, or other vehicles in the car's path and take proactive measures to prevent accidents. The system will offer both visual and audible warnings to the driver and, if necessary, automatically engage the brakes or steer the vehicle to avoid an imminent collision.
+
+**2. Preconditions**  
+- The Real-Time Collision Avoidance and Warning System must be installed and fully operational within the vehicle.
+- The system will rely on sensors, cameras, and radar installed around the vehicle, which must be properly calibrated before activation.
+- The vehicle's central control system must be compatible with the collision avoidance software.
+- The system will be activated automatically when the vehicle is in motion, and no additional user input is needed to engage it.
+
+**3. Main Scenario**  
+1. Bob starts driving his luxury electric car, and the Real-Time Collision Avoidance and Warning System is automatically activated once the vehicle begins to move.
+2. The system continuously scans the environment using its sensors and cameras for any potential obstacles, pedestrians, or other vehicles in the car’s path.
+3. If a potential collision is detected, the system will provide a visual and audible warning to Bob through the car’s dashboard and speakers.
+4. If the collision threat is imminent and Bob does not react to the warning, the system will automatically engage the brakes to slow down or steer the vehicle to avoid the obstacle.
+5. Once the collision threat is avoided, the system returns to its monitoring state and continues scanning the environment for any new risks.
+
+**4. Alternative Scenario**  
+1. Alise begins driving her luxury electric car, but the sensors of the Real-Time Collision Avoidance and Warning System experience a malfunction, causing the system to temporarily disable itself.
+2. The vehicle’s dashboard displays a warning message indicating that the system is currently unavailable.
+3. Alise continues driving, but is advised to manually monitor the surroundings and drive with extra caution.
+4. If the system failure persists, Alise can visit the service center for a diagnostic check and repair of the collision avoidance system.
+5. If the system is successfully repaired, it will automatically re-enable and resume its regular operation without requiring any additional setup from Alise.
+
+**5. Postconditions**  
+- After successful interaction with the Real-Time Collision Avoidance and Warning System, the vehicle will have safely avoided a collision, ensuring the protection of the driver, passengers, and other road users.
+- If no collision was imminent, the system will return to its normal monitoring state, ready to detect and respond to future risks.
+- If a collision avoidance maneuver was initiated, the system will log the incident for diagnostic purposes and future system optimizations.

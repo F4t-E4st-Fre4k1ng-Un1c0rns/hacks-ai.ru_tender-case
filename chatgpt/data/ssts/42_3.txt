@@ -1,0 +1,38 @@
+**Title:**  
+Driver Distraction Detection and Mitigation – Technical Specifications
+
+**Functional Description:**  
+The Driver Distraction Detection and Mitigation (DDDM) system is designed to monitor and detect driver distractions, drowsiness, or unsafe behavior through a combination of sensors, cameras, and artificial intelligence algorithms. The system identifies visual cues such as eye movement, facial expressions, and head positioning, which are indicative of distraction or drowsiness. When such behaviors are detected, the system issues alerts (visual, auditory, and haptic) to the driver. If the driver does not respond to the alerts, the system escalates the feedback and may take corrective actions, such as reducing the vehicle's speed or activating emergency stop procedures. The system is designed to enhance driver safety by ensuring that the driver remains focused on the road during vehicle operation.
+
+**Enabling Conditions:**  
+1. The system must be integrated with the vehicle’s primary control unit and sensor network, including cameras, radar, and infrared sensors.
+2. The system requires functional driver-facing cameras and sensors to monitor eye movement, facial expressions, and head position.
+3. The driver must be seated in the driver’s seat and have the seatbelt fastened for system activation.
+4. The system is enabled when the vehicle starts moving and the engine is running, with sensors actively monitoring the driver’s behavior.
+5. The system must operate with a current and validated software version. Any outdated or corrupted software will disable the system until updated.
+6. The climate control and infotainment systems must not cause interference with sensor operations.
+
+**Trigger Conditions:**  
+1. The system is activated when the vehicle is in motion and the driver is detected in the driver’s seat, with seatbelt fastened.
+2. The system continuously monitors the driver’s behavior, specifically focusing on eye movements, head position, and facial cues.
+3. Distraction or drowsiness detection is triggered when the system identifies a lack of attention, such as eye closure, prolonged inattention to the road, or signs of drowsiness (e.g., head nodding).
+4. If the driver interacts with in-vehicle systems (e.g., mobile phone usage, adjusting the infotainment screen), the system detects this behavior as a potential distraction.
+5. The system triggers an alert if the detected distraction exceeds a predefined threshold (e.g., prolonged inattention for 5 seconds or more).
+
+**Execution Output:**  
+1. Upon detecting distraction, the system issues an initial alert to the driver, which may include one or more of the following methods:  
+   - Visual: Flashing lights on the dashboard or instrument cluster.  
+   - Auditory: A warning chime or voice prompt.  
+   - Haptic: Vibration in the steering wheel or seat.
+2. If the driver fails to acknowledge or respond to the initial alert, the system escalates the alert by increasing the intensity or frequency of feedback.
+3. In cases of severe or prolonged distraction, the system may trigger safety mitigation measures, such as:  
+   - Gradually reducing the vehicle’s speed.  
+   - Initiating an emergency stop (e.g., activating the hazard lights and alerting emergency services if necessary).
+4. The system logs each event of distraction, along with the alert levels and any mitigation actions taken, for later review by the driver or service personnel.
+
+**Exit Conditions:**  
+1. The system exits the alert state when the driver regains full attention to the road, as evidenced by stable steering control, eye movement toward the road, and appropriate speed maintenance.
+2. If the system escalates to a safety mitigation action, it exits once the vehicle is safely slowed down, stopped, or when the driver acknowledges the alert (e.g., through a button press or voice command).
+3. The system will automatically reset and resume monitoring once the vehicle is stopped and restarted, or after a successful acknowledgment by the driver.
+4. If the system fails to detect the driver’s attention or fails to operate due to a malfunction, it will display an error message and prompt the driver to visit the service center for maintenance. The system cannot be reactivated until the issue is resolved.
+

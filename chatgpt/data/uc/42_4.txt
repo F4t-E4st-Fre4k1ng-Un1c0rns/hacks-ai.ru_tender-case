@@ -1,0 +1,44 @@
+**Underpinning Contract: Driver Distraction Detection and Mitigation**
+
+---
+
+**1. Title**  
+Driver Distraction Detection and Mitigation
+
+---
+
+**2. Goal**  
+The Driver Distraction Detection and Mitigation sub-system is designed to monitor and assess the driver’s focus and attention during vehicle operation. The system detects signs of distraction, such as yawning, drowsiness, or other behaviors that may indicate reduced focus. Once detected, the system will issue warnings and initiate mitigating actions (e.g., alert sounds, seat vibration, or visual prompts) to encourage the driver to refocus. The feature aims to enhance road safety by ensuring that drivers remain attentive while driving luxury electric vehicles.
+
+---
+
+**3. Preconditions**  
+- The vehicle must be in motion (i.e., the car is not parked or at a standstill).  
+- The driver’s seat should be occupied, and the driver’s face must be visible to the in-car camera system for accurate detection.  
+- The sub-system is activated by default upon engine start and is integrated with the vehicle’s central control system.  
+- The vehicle must be equipped with a facial recognition camera, eye-tracking sensors, and an alert system.
+
+---
+
+**4. Main Scenario**  
+1. **Driver enters the vehicle**: The system detects that the driver is present and initiates the distraction monitoring feature.  
+2. **System begins monitoring**: The in-car sensors (cameras, eye-tracking) start tracking the driver’s facial expressions, eye movements, and head position.  
+3. **Driver shows signs of distraction**: If the system detects signs of inattention, such as prolonged eye closure or a lack of eye movement, the system logs the event.  
+4. **Mitigation alert is triggered**: The system issues a series of alerts, such as a visual notification on the dashboard, a vibrating seat, or an audible warning to draw the driver's attention back to the road.  
+5. **Driver responds**: The driver refocuses, and the system continues monitoring. If no further distraction is detected, the system returns to its regular observation state.
+
+---
+
+**5. Alternative Scenario**  
+1. **Driver enters the vehicle**: The system detects the driver is present, but the facial recognition sensor fails to activate properly.  
+2. **System fails to detect driver’s distraction**: Due to a sensor malfunction, no distraction data is collected. The system logs the failure and alerts the driver that monitoring is temporarily unavailable.  
+3. **Alternative response**: The system notifies the driver that manual intervention (e.g., pressing a button or voice command) is required to re-enable the distraction detection features.  
+4. **Driver acknowledges**: The driver acknowledges the notification, either through voice command or touchscreen interface, to restart the system or continue driving without monitoring.  
+5. **Manual override**: If the system remains non-operational, the driver may continue driving, with a manual reminder to stay alert for safety purposes.
+
+---
+
+**6. Postconditions**  
+- If the distraction is successfully detected and mitigated, the driver is reminded to remain focused on the road, contributing to enhanced safety.  
+- If the system fails or is disabled, the driver is notified, and manual intervention is requested, allowing for continued driving but with an increased responsibility on the driver to remain alert.  
+- The system logs all activities, including distraction detection events and system status, for later analysis and improvements to the feature.

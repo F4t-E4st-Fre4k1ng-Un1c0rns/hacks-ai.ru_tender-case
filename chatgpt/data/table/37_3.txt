@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| UC requires full security features such as multi-factor authentication and encrypted communication, but SSTS does not specify these security measures in detail. | "The system communicates with the vehicle via Bluetooth, Wi-Fi, or cellular networks, ensuring that commands are securely transmitted." |
+| UC specifies that the app should always provide real-time, clear feedback to the user; however, SSTS mentions potential delays in feedback. | "The app provides feedback to the user, displaying the status as 'Vehicle Unlocked' or 'Vehicle Locked.'" |
+| UC states that the vehicle's connection should always be reliable, but SSTS mentions potential issues with connectivity in certain environments. | "The vehicle and smartphone must be within a supported range for Bluetooth, Wi-Fi, or cellular communication." |
+| UC requires that the system must always transition smoothly after an operation, but SSTS notes possible app failures to transition properly. | "The app may provide an error message and suggest troubleshooting steps, allowing the user to either retry or use alternative methods." |
+| UC requires the vehicle to lock and unlock securely after each operation, but SSTS does not fully clarify how the vehicle secures itself after an issue or failure. | "The system returns to a secure state, with the vehicle locked or unlocked as desired, and the user is notified of the completion." |

@@ -1,0 +1,29 @@
+**Title:**  
+Driver Distraction Detection and Mitigation
+
+**Goal:**  
+The Driver Distraction Detection and Mitigation system is designed to enhance driver safety by continuously monitoring the driver’s behavior and identifying signs of distraction or drowsiness. The system aims to alert the driver in real-time when it detects such behaviors, and if necessary, take automated actions to prevent potential accidents. This includes visual, auditory, or haptic feedback to regain the driver's attention, as well as the option to trigger safety measures like reducing the vehicle's speed or activating emergency alerts if the distraction persists.
+
+**Preconditions:**  
+1. The system is integrated into the vehicle's central control unit and linked to the car’s camera and sensor network.
+2. The driver’s seat, steering wheel, and camera sensors must be active and calibrated correctly.
+3. The driver must be seated in the driver’s seat with the seatbelt fastened for the system to operate.
+4. The system is initialized when the vehicle is in motion and the driver begins interacting with the vehicle.
+5. The driver must be aware of the system’s functionality and potential feedback methods, as outlined in the user manual.
+
+**Main Scenario:**  
+1. **Driver enters the vehicle** and starts the engine, ensuring the seatbelt is fastened.
+2. **System activates** automatically, beginning to monitor the driver’s behavior through cameras and sensors.
+3. **Driver begins to operate the vehicle** as usual, and the system continues to analyze their level of attention, facial expressions, and eye movement.
+4. **If the system detects signs of distraction** (e.g., head nodding, eye closure, lack of focus on the road), it sends an alert to the driver using visual (flashing light on the dashboard), auditory (chime or warning sound), or haptic (steering wheel vibration) cues.
+5. **If the distraction continues**, the system may escalate the alert, urging the driver to pull over, and in extreme cases, activate safety measures like gradually reducing speed until the vehicle is stopped safely.
+
+**Alternative Scenario:**  
+1. **Driver enters the vehicle** but the system fails to initialize properly, perhaps due to a sensor malfunction or calibration issue.
+2. The system **does not activate** or provides a failure message on the dashboard.
+3. **Driver attempts to start the vehicle**, but the system alerts the driver to the failure, requiring them to contact service or perform a system reset.
+4. The vehicle may still be driven, but the distraction detection feature will not be functional until the issue is resolved.
+5. If the system is not usable at the moment, the driver can opt to disable it manually through the vehicle’s settings, though this is not recommended for safety reasons.
+
+**Postconditions:**  
+After a successful interaction with the Driver Distraction Detection and Mitigation system, the driver will be notified of the system’s feedback, and corrective measures will be taken to ensure they remain focused on the road. If the system detected distraction or drowsiness, the alert was acknowledged, and the driver either resumed proper attention to the road or engaged with the mitigation measures. In the case of escalating distraction, the vehicle may have reduced speed to a safe stop, ensuring the driver’s safety and the safety of others on the road. The system will continue to monitor the driver’s behavior during the trip, providing ongoing protection.

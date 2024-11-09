@@ -1,0 +1,46 @@
+**Underpinning Contract: Setting Geofences for Vehicle Tracking and Monitoring**
+
+---
+
+**1. Title**  
+*Setting Geofences for Vehicle Tracking and Monitoring*
+
+---
+
+**2. Goal**  
+The "Setting Geofences for Vehicle Tracking and Monitoring" sub-system will enable the user to define virtual boundaries (geofences) around specific geographic areas. Once these geofences are established, the sub-system will monitor and track vehicles in real-time, providing alerts or notifications when a vehicle enters or exits the predefined zones. This feature enhances security, monitoring, and fleet management by ensuring vehicles remain within designated boundaries and allowing for immediate responses if they deviate.
+
+---
+
+**3. Preconditions**  
+- The user must have access to the vehicle tracking platform with the necessary administrative rights to configure geofences.
+- The vehicles to be tracked must be equipped with GPS tracking devices and integrated into the system.
+- The user must be familiar with basic map navigation and geofencing functionality within the platform interface.
+
+---
+
+**4. Main Scenario**  
+1. **User logs in** to the vehicle tracking system and navigates to the "Geofence Settings" section.  
+2. **User selects "Create New Geofence"** and defines the geographic area by either drawing a polygon on a map or entering coordinates for a circular geofence.  
+3. **User assigns the geofence** to specific vehicles or groups of vehicles within the fleet.  
+4. **User sets parameters** for alerts (e.g., notifications when vehicles enter or exit the geofence, speed limits, etc.).  
+5. **Sub-system activates the geofence**, and monitoring begins. The system will provide real-time updates on vehicle location relative to the geofence boundaries and trigger alerts as configured.
+
+---
+
+**5. Alternative Scenario**  
+1. **User logs in** to the system, but encounters an error message indicating that the geofence creation tool is unavailable.  
+2. **User attempts to reload** the page or access the feature again but still faces the same issue.  
+3. **User contacts support** for assistance, reporting the issue.  
+4. **Support team investigates** the issue and informs the user that the system is undergoing maintenance or there is a connectivity issue.  
+5. **User is provided with an estimated downtime** and is advised to try again once the issue is resolved.
+
+---
+
+**6. Postconditions**  
+After successfully setting the geofence:
+- The specified vehicle(s) are now continuously monitored within the defined boundary.
+- The system generates alerts and notifications as configured when the vehicle enters or exits the geofence.
+- The geofence is saved in the system and can be edited or deleted at any time.
+- The user receives real-time tracking data and security information related to the vehicle's geofenced area.
+

@@ -1,0 +1,38 @@
+**Underpinning Contract: Fuel Efficiency Tracking and Recommendations**
+
+1. **Title**  
+   Fuel Efficiency Tracking and Recommendations
+
+2. **Goal**  
+   The goal of this sub-System is to provide users with real-time tracking and optimization recommendations for fuel efficiency in luxury electric vehicles. The sub-System will monitor energy consumption patterns, offer insights into driving habits, and suggest improvements for maximizing energy efficiency. Users will be empowered to adjust their driving behaviors, which can lead to reduced energy consumption and enhanced vehicle range.
+
+3. **Preconditions**  
+   - The user must have an active account in the vehicle’s central system.
+   - The electric vehicle must be equipped with an operational energy tracking system and GPS data integration.
+   - The sub-System must be connected to the vehicle’s telemetry data to receive real-time usage statistics.
+   - The user must allow the vehicle system to gather data on driving behavior and energy consumption.
+
+4. **Main Scenario**  
+   1. **User Action:** The user (e.g., Alise) starts the vehicle and navigates to the "Fuel Efficiency" section in the vehicle's main dashboard.  
+      **Sub-System Response:** The system displays current energy usage, average consumption rate, and driving behavior statistics.  
+   2. **User Action:** Alise selects the "Recommendations" tab to view suggestions for optimizing fuel efficiency.  
+      **Sub-System Response:** The system generates tailored recommendations based on Alise's recent driving patterns, such as "Reduce sudden acceleration" or "Maintain a steady speed to conserve energy."  
+   3. **User Action:** Alise adjusts her driving based on the recommendations.  
+      **Sub-System Response:** The system provides real-time feedback on energy consumption, indicating whether the adjustments are improving fuel efficiency.  
+   4. **User Action:** Alise completes her journey and checks the summary of fuel efficiency for the trip.  
+      **Sub-System Response:** The system provides a detailed report on the energy consumption, how it compares to previous trips, and the estimated increase in range achieved through efficiency improvements.  
+   5. **User Action:** Alise saves the recommendations and performance summary to her profile for future reference.  
+      **Sub-System Response:** The system confirms that the data has been saved and offers the option to receive regular updates or alerts about efficiency improvements.
+
+5. **Alternative Scenario**  
+   1. **User Action:** Alise tries to access the "Fuel Efficiency" section, but the sub-System is not responding or is temporarily unavailable.  
+      **Sub-System Response:** A message appears stating, "Fuel Efficiency Tracking is temporarily unavailable. Please try again later."  
+   2. **User Action:** Alise decides to proceed without fuel efficiency recommendations and drives normally.  
+      **Sub-System Response:** The system continues to track energy consumption, but without offering optimization feedback.  
+   3. **User Action:** If the issue persists, Alise contacts customer support.  
+      **Sub-System Response:** Customer support informs Alise of the technical issue and provides an estimated resolution time. The system will resume functioning once the issue is resolved.  
+   4. **User Action:** If the sub-System returns online after a short period, Alise is notified and can resume accessing the fuel efficiency data and recommendations.  
+      **Sub-System Response:** The system allows Alise to access her saved data and continue receiving efficiency tracking and advice.
+
+6. **Postconditions**  
+   After successful interaction with the Fuel Efficiency Tracking and Recommendations sub-System, Alise will have a clear understanding of her energy consumption patterns, driving behaviors, and how adjustments made to her driving style are impacting overall fuel efficiency. She will be able to make informed decisions to maximize energy savings, reduce consumption, and extend the vehicle’s range, while also having a history of recommendations and performance reports available for future reference.

@@ -1,0 +1,29 @@
+**Underpinning Contract for Automatic Bluetooth Pairing for Multiple Devices**
+
+**1. Goal**  
+The Automatic Bluetooth Pairing for Multiple Devices sub-system aims to provide seamless and efficient connection management between multiple Bluetooth-enabled devices and the vehicle's infotainment system. This feature allows the user to automatically pair several devices (e.g., smartphones, tablets, or audio systems) without requiring manual intervention, ensuring uninterrupted connectivity. The system will automatically prioritize and switch between connected devices based on usage patterns, improving user convenience and experience.
+
+**2. Preconditions**  
+- The vehicle’s Bluetooth system is active and within range of the Bluetooth devices.
+- Bluetooth is enabled on the devices that the user wishes to pair with the vehicle (e.g., Alise’s smartphone, Bob’s tablet).
+- Devices have Bluetooth profiles compatible with the vehicle’s system.
+- The vehicle's infotainment system supports multiple device connections.
+- The user has previously paired at least one device with the vehicle.
+
+**3. Main Scenario**  
+1. The user, Alise, enters her vehicle with her smartphone and tablet, both of which have Bluetooth enabled.  
+2. Upon starting the vehicle, the Bluetooth system automatically detects and attempts to pair with both Alise's smartphone and Bob’s tablet.  
+3. The system pairs with Alise’s smartphone first, recognizing it as the primary device for calls and navigation.  
+4. Bob’s tablet is then paired, and the system prioritizes the tablet for music streaming.  
+5. The user, Alise, receives a notification on the infotainment screen confirming that both devices are successfully paired and active.
+
+**4. Alternative Scenario**  
+1. The user, Bob, enters the vehicle with his smartphone and a music player, but the Bluetooth system is not activated on the vehicle.  
+2. The vehicle’s infotainment system fails to detect any devices.  
+3. Bob receives a prompt on the screen asking him to enable Bluetooth on both the vehicle system and his devices.  
+4. After activating Bluetooth, Bob manually pairs his devices with the vehicle one by one.  
+5. Once both devices are paired, Bob receives a confirmation message on the screen.
+
+**5. Postconditions**  
+- Both of Alise's smartphone and Bob's tablet are successfully paired with the vehicle’s Bluetooth system, allowing them to seamlessly share different functionalities (calls, navigation, and media streaming).  
+- The Bluetooth system ensures that devices are automatically recognized and reconnected when the user enters the vehicle, enhancing ease of use and connectivity.

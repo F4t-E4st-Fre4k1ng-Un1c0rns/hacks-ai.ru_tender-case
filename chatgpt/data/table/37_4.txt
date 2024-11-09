@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not specify that the vehicle must have sufficient battery charge for remote operations, unlike the UC. | "The vehicle must have sufficient battery charge to support remote communication and locking/unlocking operations." |
+| SSTS lacks a clear requirement for proximity or range conditions for the smartphone to communicate with the vehicle, which is specified in the UC. | "The smartphone must be within the operational range of the vehicle (Bluetooth or Wi-Fi)." |
+| The SSTS does not emphasize secure communication or encryption of the remote unlocking and locking actions, which is a key requirement in the UC. | "The communication between the smartphone and the vehicle is encrypted to prevent unauthorized access." |
+| SSTS does not include alternative methods for unlocking/locking the vehicle in case of failure, as required by the UC. | "If the operation was unsuccessful (e.g., due to poor connectivity or low vehicle battery), the user is notified via the app with troubleshooting steps or alternatives, such as manual unlocking or locking methods." |
+| SSTS does not mention the need to check and notify users about the vehicle’s battery status before allowing remote operations, which is specified in the UC. | "The system monitors the vehicle's battery status and will notify the user if the battery is too low to perform remote operations." |

@@ -1,0 +1,31 @@
+**Title:** Technical Specifications for Remote Unlocking and Locking of Vehicle via Smartphone
+
+**Functional description:**  
+The Remote Unlocking and Locking of Vehicle via Smartphone sub-system enables users to remotely lock and unlock their vehicle through a smartphone application. The system communicates with the vehicle via Bluetooth, Wi-Fi, or cellular networks, ensuring that commands are securely transmitted. The app provides real-time feedback to the user, allowing them to perform the locking/unlocking operation from a distance, enhancing convenience and security.
+
+**Enabling conditions:**  
+1. The vehicle is equipped with the necessary hardware (Bluetooth, Wi-Fi, or cellular module) to support remote locking/unlocking functionality.  
+2. The smartphone app is installed, registered, and correctly configured to connect with the vehicle.  
+3. The smartphone and the vehicle are paired through a secure and authenticated connection via the app.  
+4. The vehicle and smartphone must be within a supported range for Bluetooth or Wi-Fi connection, or the smartphone must have a stable cellular connection for remote operation.  
+5. The vehicle and smartphone batteries must have adequate charge for communication to occur.
+
+**Trigger conditions:**  
+1. The user launches the smartphone app and selects the option to either lock or unlock the vehicle.  
+2. The vehicle is powered on and within the acceptable range for Bluetooth, Wi-Fi, or cellular communication.  
+3. The smartphone is powered on, the app is open, and it is connected to the vehicle.  
+4. The app verifies the vehicle’s status and sends the unlock/lock command securely to the vehicle.  
+5. The vehicle acknowledges the command request and prepares to execute the locking or unlocking action.
+
+**Execution output:**  
+1. Upon successful command execution, the vehicle either locks or unlocks as requested.  
+2. The vehicle emits a confirmation signal (e.g., flashing lights or sound) indicating that the action has been completed.  
+3. The app provides feedback to the user, displaying the status as "Vehicle Unlocked" or "Vehicle Locked."  
+4. The app logs the transaction for security and auditing purposes.  
+5. The vehicle returns to a secure state, either locked or unlocked, based on the user’s action.
+
+**Exit conditions:**  
+1. The vehicle’s locking or unlocking action is completed successfully, with confirmation from both the vehicle and the app.  
+2. The app returns to the home screen, and the user is ready to initiate a new command or exit the application.  
+3. The system returns to a secure state, with the vehicle locked or unlocked as desired, and the user is notified of the completion.  
+4. In case of failure, the app may provide an error message and suggest troubleshooting steps, allowing the user to either retry or use alternative methods.

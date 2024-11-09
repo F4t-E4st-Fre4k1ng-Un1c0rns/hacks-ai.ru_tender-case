@@ -1,0 +1,37 @@
+**Underpinning Contract: Remote Unlocking and Locking of Vehicle via Smartphone**
+
+1. **Goal**  
+The Remote Unlocking and Locking of Vehicle via Smartphone sub-System allows the user to remotely control the locking and unlocking of their luxury electric vehicle using a smartphone application. This feature enhances user convenience, security, and accessibility by providing a seamless, keyless entry and exit experience.
+
+2. **Preconditions**  
+- The user must have a smartphone with the vehicle’s dedicated mobile application installed and configured.
+- The smartphone must have an active internet connection (Wi-Fi or mobile data) to communicate with the vehicle.
+- The vehicle must be equipped with the necessary remote access hardware and software.
+- The user must have the correct access permissions and authentication credentials (e.g., login information, biometric data) linked to their account in the mobile app.
+- The vehicle must be within the range of the smartphone's connection capabilities (typically Bluetooth or internet connection).
+
+3. **Main Scenario**  
+1. **Action:** Alise opens the vehicle’s mobile app on her smartphone.  
+   **Response:** The app loads the vehicle’s status and available remote functions.  
+2. **Action:** Alise taps the “Unlock” button within the app.  
+   **Response:** The system verifies her credentials and sends a signal to the vehicle to unlock the doors.  
+3. **Action:** The vehicle responds by unlocking the doors and confirming the action with a notification on the app.  
+   **Response:** The app shows a confirmation message that the vehicle has been unlocked.  
+4. **Action:** Alise enters the vehicle, and the app automatically detects her presence and transitions to the “locked” mode when she starts the car.  
+   **Response:** The vehicle locks automatically once the engine is started, ensuring the car is secure.  
+5. **Action:** Upon leaving the vehicle, Alise uses the app again to lock the car remotely.  
+   **Response:** The vehicle locks, and the app displays a notification confirming the action.
+
+4. **Alternative Scenario**  
+1. **Action:** Bob opens the mobile app to remotely unlock his vehicle but is unable to connect.  
+   **Response:** The app displays an error message indicating that the connection failed due to poor internet or Bluetooth connectivity.  
+2. **Action:** Bob checks his internet connection or Bluetooth settings to ensure they are properly enabled.  
+   **Response:** The app allows Bob to retry the connection after confirming network settings.  
+3. **Action:** If the connection issue persists, Bob is given an option to contact customer support via the app.  
+   **Response:** The app provides a troubleshooting guide and contact details for technical assistance.  
+4. **Action:** In case of a malfunction with the vehicle’s remote access system, Bob is notified that the feature is temporarily unavailable.  
+   **Response:** The app informs Bob about the system downtime and offers alternative options, such as using the physical key or scheduling a service appointment.
+
+5. **Postconditions**  
+- Upon successful interaction, the vehicle is either locked or unlocked remotely, and the user receives a confirmation notification within the app.
+- The vehicle's status is updated, and any changes are reflected in real-time on the user’s smartphone. The vehicle remains secure as long as it is locked, and the user can safely enter or exit without using a physical key.

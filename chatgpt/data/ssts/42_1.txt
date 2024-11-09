@@ -1,0 +1,36 @@
+**Technical Specifications: Driver Distraction Detection and Mitigation**
+
+**1. Title**  
+Driver Distraction Detection and Mitigation
+
+**2. Functional Description**  
+The Driver Distraction Detection and Mitigation sub-system is designed to monitor the driver's attention level in real-time, utilizing a combination of advanced sensors and machine learning algorithms to detect and respond to signs of driver distraction. The system is capable of identifying visual cues such as eye movement, head position, and facial expressions, as well as interpreting behavioral patterns that suggest inattention. Upon detecting distraction, the system will provide progressive alerts to prompt the driver to refocus. If the distraction persists or is deemed critical, the system can initiate mitigation measures such as reducing vehicle speed, activating visual and auditory warnings, or engaging semi-autonomous control for safety. The overall goal is to reduce the risk of accidents caused by distracted driving through continuous monitoring and timely intervention.
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with high-definition in-cabin cameras, infrared sensors, and facial recognition technology to monitor the driver’s attention.
+- The vehicle’s central processing unit is capable of running real-time data analytics to assess the driver’s behavior and attention levels.
+- The system is integrated with the vehicle’s safety protocols, including emergency braking, lane-keeping assistance, and adaptive cruise control, for mitigation actions.
+- The driver has given consent for the activation of the driver monitoring system via an opt-in feature at vehicle startup.
+- The vehicle's infotainment system and display are operational to show visual alerts and provide feedback.
+- The vehicle has internet connectivity to enable remote diagnostics and software updates.
+
+**4. Trigger Conditions**  
+- The system is triggered when the vehicle is started, detecting the presence of the driver either through seat sensors or proximity sensors.
+- Upon detecting a valid driver presence, the system activates monitoring functions (e.g., eye-tracking, head movement detection) immediately upon the vehicle beginning to move.
+- The system will continuously evaluate driver focus and attention while the vehicle is in motion.
+- If the driver’s attention falls below a predefined threshold, such as looking away from the road for more than two seconds or appearing drowsy or inattentive, the system is triggered to issue a warning.
+- The system is also triggered if environmental conditions (e.g., road hazards) require additional alerting to ensure the driver’s focus is appropriately directed.
+
+**5. Execution Output**  
+- Upon detection of driver distraction, the system will initiate a progressive series of alerts:  
+   1. **Initial Alert**: A mild auditory alert (e.g., a chime or beep) and a message on the infotainment display urging the driver to pay attention to the road.
+   2. **Secondary Alert**: If the distraction continues for more than 3 seconds, a louder auditory warning (e.g., a repeated warning sound) will be issued, and a more prominent visual alert (e.g., a flashing icon on the dashboard) will be displayed.
+   3. **Continued Distraction**: If the distraction persists, the system will activate haptic feedback (vibrations through the steering wheel or seat) and a verbal reminder through the vehicle’s speakers, saying, "Please focus on the road."
+   4. **Critical Distraction**: If the driver fails to refocus after extended distraction (e.g., 8–10 seconds), the system will reduce the vehicle’s speed by up to 10%, if safe to do so, and/or engage safety features like lane-keeping assistance or adaptive cruise control.
+   5. **Emergency Intervention**: If necessary, the system may also trigger emergency safety responses, including pre-emptive braking or lane departure warnings to mitigate potential accidents. 
+
+**6. Exit Conditions**  
+- The system will exit the distraction detection mode when the driver refocuses on the road, as indicated by changes in eye-tracking or head position that meet predefined attention criteria.
+- The system will also reset to monitoring mode once the driver acknowledges the warning, either by manually adjusting their driving posture or interacting with the vehicle’s controls (e.g., pressing a button to dismiss the alert).
+- If the system encounters a malfunction (e.g., failure of the cameras, sensors, or software), it will log the error and notify the driver through the infotainment display that monitoring is temporarily unavailable. The system will exit and enter a diagnostic mode, allowing for troubleshooting by a service technician.
+- The system can be deactivated manually by the driver via the vehicle’s settings menu, in which case the monitoring mode will exit until the system is reactivated at the next vehicle startup.

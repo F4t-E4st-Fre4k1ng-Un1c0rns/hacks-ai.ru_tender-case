@@ -1,0 +1,37 @@
+**Underpinning Contract for Setting Geofences for Vehicle Tracking and Monitoring**
+
+**1. Title**  
+Setting Geofences for Vehicle Tracking and Monitoring
+
+**2. Goal**  
+The goal of the "Setting Geofences for Vehicle Tracking and Monitoring" sub-System is to enable users to define geographic boundaries or zones for vehicle tracking. This feature allows the company to monitor the location of luxury electric vehicles in real-time, track their entry or exit from pre-defined areas, and enhance security and fleet management. The system will provide real-time notifications when a vehicle crosses the geofence boundaries, giving the user better control over vehicle movements and location data.
+
+**3. Preconditions**  
+- The user must have administrative access to the system.
+- The user must have a valid account in the system and be logged in.
+- The vehicle must be equipped with the necessary tracking hardware and have an active GPS connection.
+- The user must have a basic understanding of geographic coordinates and mapping tools.
+- The sub-System should be properly integrated with the vehicle's tracking system.
+
+**4. Main Scenario**  
+1. The user (Bob) logs into the vehicle tracking platform using their credentials.  
+2. Bob selects the "Geofence Management" option from the main menu.  
+3. Bob defines the geographic boundaries for the geofence by either selecting a pre-set zone from the map or manually inputting the coordinates.  
+4. Bob saves the geofence configuration and assigns it to the specific vehicle(s) he wishes to monitor.  
+5. The system confirms the successful creation of the geofence and begins real-time tracking of the vehicle’s location in relation to the geofence.
+
+**5. Alternative Scenario**  
+- **Scenario 1: Geofence creation fails due to invalid coordinates**  
+   1. Bob attempts to define the geofence area but enters invalid or unreachable coordinates.  
+   2. The system alerts Bob with a message: "Invalid coordinates. Please check the input."  
+   3. Bob is prompted to correct the coordinates and try again.  
+
+- **Scenario 2: GPS signal loss**  
+   1. Bob sets a geofence, but the vehicle temporarily loses its GPS connection.  
+   2. The system notifies Bob with a warning: "GPS signal lost. Geofence tracking is temporarily unavailable."  
+   3. Once the GPS signal is restored, the system automatically resumes geofence monitoring and notifies Bob of the restoration.
+
+**6. Postconditions**  
+- After a successful interaction with the sub-System, the user will have a geofence actively monitoring the designated vehicle(s).  
+- The system will send real-time notifications to the user whenever the vehicle enters or exits the defined geofence boundaries.  
+- The user can view the vehicle's location on the map and track its movements in relation to the geofence at any time.

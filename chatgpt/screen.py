@@ -10,10 +10,10 @@ import chime
 
 class Screen:
     def __init__(self):
-        self.new_chat_position = (336, 221)
-        self.start_prompt_position = (707, 608)
-        self.copy_result_position = (709, 782)
-        self.continue_prompt_position = (754, 962)
+        self.new_chat_position = (334, 183)
+        self.start_prompt_position = (799, 572)
+        self.copy_result_position = (708, 783)
+        self.continue_prompt_position = (748, 944)
 
 
         # self.current_handler = 0
@@ -47,18 +47,18 @@ class Screen:
                     return
                 
     def create_new_chat(self):
-        pyautogui.click(*self.new_chat_position, duration=randint(1, 3))
+        pyautogui.click(*self.new_chat_position, duration=1)
         time.sleep(1)
     
     def start_prompt(self, prompt: str):
-        pyautogui.click(*self.start_prompt_position, duration=randint(1, 3))
+        pyautogui.click(*self.start_prompt_position, duration=1)
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")
         time.sleep(1)
 
     def continue_prompt(self, prompt: str):
-        pyautogui.click(*self.continue_prompt_position, duration=randint(1, 3))
+        pyautogui.click(*self.continue_prompt_position, duration=1)
         clipboard.copy(prompt)
         pyautogui.hotkey("ctrl", "v")
         pyautogui.hotkey("enter")
@@ -70,10 +70,10 @@ class Screen:
         
 
         while True:
-            if 3*60 > (time.time() - start_time) > 1.5*60:
+            if 2*60 > (time.time() - start_time) > 1*60:
                 chime.warning()
-                self.sleep_random(25, 30)
-            if (time.time() - start_time) > 3*60:
+                self.sleep_random(10, 15)
+            if (time.time() - start_time) > 2*60:
                 chime.error()
 
             time.sleep(0.1)

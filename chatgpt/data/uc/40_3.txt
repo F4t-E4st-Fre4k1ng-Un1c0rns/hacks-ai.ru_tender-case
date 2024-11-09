@@ -1,0 +1,44 @@
+**Underpinning Contract: In-Car Payment System Integration for Toll and Parking**
+
+---
+
+**1. Goal**
+
+The In-Car Payment System Integration for Toll and Parking will enable the vehicle to seamlessly interact with toll booths and parking systems, allowing the driver to make automated payments for toll fees and parking charges directly from the vehicle’s interface. This system is designed to enhance user convenience, reduce the need for manual transactions, and offer a streamlined experience when using toll roads and parking facilities. It will support various payment methods including credit/debit cards, digital wallets, and prepaid accounts, ensuring flexibility and ease of use.
+
+---
+
+**2. Preconditions**
+
+- The vehicle is equipped with the In-Car Payment System Integration for Toll and Parking, which has been installed and activated as part of the vehicle's software system.
+- The vehicle's payment system must be linked to an active user account containing valid payment information, such as a credit card or digital wallet.
+- The toll or parking facility must support electronic payment methods compatible with the vehicle's payment system (e.g., RFID, contactless, or mobile payment systems).
+- The vehicle’s connectivity to mobile networks or dedicated infrastructure (e.g., GPS, NFC, or Bluetooth) is active and functional.
+
+---
+
+**3. Main Scenario**
+
+1. **User Approach**: Alise approaches a toll booth or parking gate in the vehicle.
+2. **System Detection**: The In-Car Payment System automatically detects the presence of the toll or parking facility and begins the payment process.
+3. **Payment Confirmation**: The system displays a payment prompt on the vehicle's dashboard, showing the amount to be paid and available payment options (e.g., credit card, wallet).
+4. **User Action**: Alise selects her preferred payment method using the in-car touchscreen interface.
+5. **Payment Processing**: The system processes the payment and confirms successful completion, displaying a receipt on the dashboard. The toll or parking barrier opens automatically, allowing Alise to continue her journey.
+
+---
+
+**4. Alternative Scenario**
+
+1. **User Approach**: Bob approaches a toll booth or parking gate in his vehicle.
+2. **System Detection**: The In-Car Payment System fails to detect the toll or parking system due to a technical issue (e.g., connectivity failure or incompatible payment method).
+3. **Error Message**: The system displays an error message on the dashboard, informing Bob of the issue and suggesting possible actions (e.g., use manual payment, check vehicle connectivity).
+4. **Manual Payment**: Bob is prompted to pay manually through an alternative method, such as using a physical card or mobile app, while the system logs the failure for later review.
+5. **Payment Failure**: If manual payment is unsuccessful, Bob is instructed to contact customer support for assistance or seek an alternative route.
+
+---
+
+**5. Postconditions**
+
+- Upon successful payment, the vehicle receives confirmation that the toll or parking fee has been paid, and the barrier or gate is automatically lifted, allowing the user to continue their journey.
+- A digital receipt is generated and displayed on the vehicle's dashboard, providing a record of the transaction.
+- The user’s account is updated with the new payment information, and any associated discounts or loyalty points are applied, if applicable.

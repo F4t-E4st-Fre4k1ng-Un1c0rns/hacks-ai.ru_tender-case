@@ -1,0 +1,48 @@
+**Technical Specifications for Real-Time Collision Avoidance and Warning System**
+
+---
+
+### 1. Title  
+**Real-Time Collision Avoidance and Warning System**
+
+---
+
+### 2. Functional Description  
+The Real-Time Collision Avoidance and Warning System is designed to enhance vehicle safety by detecting potential collision threats in real-time and providing timely alerts and automatic corrective actions. The system utilizes a combination of cameras, radar, and sensors to monitor the environment around the vehicle. Upon detecting a collision risk, the system issues visual and audible warnings to the driver. If the driver does not respond in time, the system can automatically apply the brakes or make steering adjustments to avoid or mitigate the collision. The system continuously operates while the vehicle is in motion and aims to prevent accidents by actively responding to imminent threats.
+
+---
+
+### 3. Enabling Conditions  
+- The vehicle must be equipped with high-precision sensors, cameras, and radar for comprehensive environmental monitoring.
+- The system requires an operational power supply, which is sourced from the vehicle's main battery.
+- The vehicle’s onboard central processing unit (CPU) must be capable of handling real-time data analysis from the sensors.
+- All system components must be properly integrated with the vehicle's existing safety systems, including the braking and steering systems.
+- The system must be pre-installed, calibrated, and tested before activation to ensure compatibility and functionality.
+- The vehicle's operational speed should be within the system’s range (typically between 10 km/h and 200 km/h).
+
+---
+
+### 4. Trigger Conditions  
+- The system automatically activates when the vehicle begins to move and the sensors are ready.
+- The system constantly monitors for obstacles, pedestrians, other vehicles, and sudden road changes within the vehicle’s vicinity.
+- If an object enters a predefined proximity range (e.g., 2 meters for pedestrians, 5 meters for other vehicles), the system begins assessing collision risk.
+- The system triggers an alert when it detects that the vehicle’s trajectory is on a potential collision course with an obstacle or other vehicle.
+- If the risk is deemed imminent (based on speed, proximity, and trajectory), the system triggers an intervention, such as automatic braking or steering.
+
+---
+
+### 5. Execution Output  
+- The system will generate visual alerts on the vehicle’s dashboard or heads-up display, indicating the location and nature of the detected hazard.
+- Audible alerts will activate, such as a beeping sound or voice message, to warn the driver of the imminent danger.
+- If the driver does not respond to the warning in time, the system will engage the vehicle’s braking system to slow the vehicle or perform emergency braking if necessary.
+- The system may also automatically adjust the steering to avoid a collision, particularly at lower speeds or in tight spaces.
+- The system logs each intervention, including the detected threat, the system's response, and whether a collision was avoided, for diagnostic and improvement purposes.
+
+---
+
+### 6. Exit Conditions  
+- The system exits the active state once the threat is no longer within the critical zone (i.e., the obstacle is no longer in the vehicle’s immediate path).
+- If the driver successfully intervenes by steering or braking, the system exits its active state.
+- The system will also deactivate if the vehicle's speed drops below a predefined threshold (e.g., 10 km/h), at which point collision risks are lower.
+- If a system malfunction is detected (e.g., sensor failure or loss of signal), the system will disable itself, and a warning will be displayed on the dashboard, prompting the driver to seek assistance.
+- If the vehicle reaches a safe distance from the detected hazard, the system returns to its monitoring state, ready for further threat detection.

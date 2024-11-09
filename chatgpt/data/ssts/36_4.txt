@@ -1,0 +1,32 @@
+**Technical Specifications for Automatic Bluetooth Pairing for Multiple Devices**
+
+**1. Title**  
+Technical Specifications for Automatic Bluetooth Pairing for Multiple Devices
+
+**2. Functional Description**  
+The Automatic Bluetooth Pairing for Multiple Devices sub-system is designed to allow seamless, automatic pairing and management of multiple Bluetooth-enabled devices with the vehicle’s infotainment system. This feature ensures that multiple devices, such as smartphones, tablets, and other Bluetooth-capable devices, can be connected to the vehicle simultaneously, with automatic prioritization and switching based on usage context. The system supports uninterrupted connectivity for calls, media streaming, and navigation, while also allowing automatic reconnection when the vehicle is powered on.
+
+**3. Enabling Conditions**  
+- The vehicle’s Bluetooth system must be active and configured to support multiple simultaneous device connections.
+- Bluetooth must be enabled on the devices (e.g., smartphones, tablets) that the user wishes to pair with the vehicle.
+- The vehicle must be within Bluetooth range of the devices.
+- At least one device must have been previously paired with the vehicle system.
+- The devices must be compatible with the vehicle’s Bluetooth profiles, supporting necessary functions such as calls, media streaming, and navigation.
+
+**4. Trigger Conditions**  
+- The Bluetooth system is triggered automatically when the vehicle is powered on or in ignition mode.
+- The system will scan for available Bluetooth devices within range and initiate the pairing process when Bluetooth is enabled on the devices.
+- Devices will automatically attempt to pair with the vehicle’s system upon detection, starting with previously connected devices.
+- In cases where multiple devices are detected, the system will attempt to pair them sequentially, prioritizing the device for calls, followed by devices for media streaming or navigation.
+
+**5. Execution Output**  
+- Upon successful pairing, the system will establish a stable connection with the devices, enabling respective functionalities (e.g., calls, media streaming, navigation).
+- The system will provide a visual or auditory confirmation on the infotainment screen once devices are paired, indicating which device is connected for which functionality.
+- The system will automatically switch between connected devices based on usage context, such as switching from media streaming to incoming calls, without requiring user input.
+- The infotainment screen will display real-time status of the connected devices and the functionalities they are handling (e.g., “Device 1 – Navigation, Device 2 – Media Streaming”).
+
+**6. Exit Conditions**  
+- The devices are successfully paired and connected to the vehicle’s system, with each device performing its designated function (calls, media, or navigation).
+- If the vehicle is powered off or Bluetooth is disabled, the system will disconnect from all paired devices, returning to standby mode.
+- If a device is disconnected or out of range, the system will remove it from the active connections list and attempt to reconnect with the remaining devices.
+- Upon entering the vehicle in future, the system will automatically attempt to reconnect to previously paired devices, providing a seamless transition from disconnection to active use.

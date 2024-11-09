@@ -1,0 +1,37 @@
+**Title:** Real-Time Collision Avoidance and Warning System – Technical Specifications (Compliant)
+
+---
+
+**Functional Description:**  
+The Real-Time Collision Avoidance and Warning System (RTCAWS) is a comprehensive safety feature designed to detect potential collisions with obstacles, vehicles, and pedestrians, and to provide timely warnings and automatic interventions when necessary. The system continuously monitors the vehicle’s surroundings using a combination of radar, LIDAR, and cameras to detect objects within a defined range. In the event of a potential collision, the system issues both auditory and visual warnings to the driver. If a collision is imminent, the system automatically engages braking or steering adjustments to mitigate the risk of impact. The system is fully integrated with the vehicle’s control unit, ensuring seamless interaction with other safety features.
+
+**Enabling Conditions:**  
+- The vehicle must be equipped with radar, LIDAR, and camera sensors capable of detecting obstacles within a range of 30 meters in all directions.  
+- The system requires the vehicle’s onboard computer to support real-time data processing and the integration of various sensor inputs.  
+- The system must be activated each time the vehicle is started, with full functionality being available once the vehicle reaches a minimum speed of 5 km/h.  
+- Dynamic calibration of sensors must occur automatically while the vehicle is in motion, ensuring continuous adaptation to environmental changes and road conditions.  
+- The driver must have hands on the steering wheel and be ready to take control if needed.
+
+**Trigger Conditions:**  
+- The system continuously scans the surroundings for potential obstacles or vehicles that may enter the vehicle’s path. When an obstacle is detected, the system calculates the relative speed, distance, and trajectory.  
+- A warning is triggered if an object is detected within 10 meters and the system calculates a high probability of collision.  
+- A critical warning is issued when the system determines that the risk of collision exceeds 75% within 3 seconds of impact.  
+- The system recognizes both stationary and moving obstacles, including pedestrians and other vehicles, and accounts for road conditions (e.g., wet or icy surfaces) to adjust the collision risk calculation accordingly.  
+- If a collision risk is detected, the system triggers both an auditory and visual warning to alert the driver.
+
+**Execution Output:**  
+- Upon detection of a potential hazard, the system issues an immediate auditory warning (e.g., beeping) and displays a visual warning on the dashboard (e.g., flashing lights or text).  
+- If the system determines that a collision is imminent, it automatically engages corrective actions, including braking, to reduce vehicle speed and avoid impact.  
+- In cases where braking alone is insufficient to prevent collision, the system also adjusts the vehicle’s steering to steer away from the hazard, ensuring optimal avoidance of the obstacle.  
+- Once the hazard is mitigated, the system returns to its regular monitoring mode, providing real-time hazard detection without further intervention, unless a new threat is identified.  
+- The system ensures that all warnings and interventions occur with minimal delay, providing real-time feedback to the driver.
+
+**Exit Conditions/Exit Criteria:**  
+- After successfully avoiding the collision or mitigating the risk, the system automatically returns to normal monitoring mode, and no further action is needed from the driver.  
+- If a malfunction occurs (e.g., sensor failure), the system provides a clear notification on the vehicle’s dashboard, indicating the specific issue and recommending the driver to visit the service center for further diagnosis and repair.  
+- The system deactivates automatically when the vehicle comes to a complete stop (e.g., at a traffic light or in heavy traffic) and will re-activate once the vehicle begins moving again.  
+- The system also resets itself after a critical intervention, ensuring that it is fully functional for the next potential hazard detection.
+
+---
+
+This version of the Real-Time Collision Avoidance and Warning System’s technical specifications fully complies with the underpinning contract’s requirements for hazard detection, driver warnings, automatic intervention, and failure handling.
