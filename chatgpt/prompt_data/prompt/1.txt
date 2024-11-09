@@ -1,0 +1,22 @@
+**Your task** 
+Generate a underpinning contract to get a sub-System for a company developing luxury electric cars.
+The sub-System is {TEXT_THEME}
+Underpinning contract must contain such parts:
+1. Title
+  - Write a title of the underpinning contract that is identical to the given sub-System
+2. Goal
+  - here you have to describe which abilities or features will this exaсt element feature will provide to the user. 
+3. Preconditions
+  - Write some initial data about usage of this sub-System
+4. Main scenario
+  - Describe how user interrats with this feature in a regural way, write a numbered list up to 5 points with simple user action and sub-System responses.
+5. Alternative scenario
+  - Describe how would user interract with a feature if something fails or if it is not usable at the moment.
+6. Postconditions
+  - Here you have to write a description of an result of an action after successful interraction with the sub-System.
+Now just prosceed to only writing a text based on a template.
+
+**Formattings requrements**
+- Your answer must only be a text based on a template.
+- Use a clean and orginized text
+- If required use names Alise or Bob

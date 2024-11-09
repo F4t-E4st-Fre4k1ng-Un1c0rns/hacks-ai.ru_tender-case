@@ -1,0 +1,28 @@
+**Your task** 
+Your final task is to create a table that highlights the discrepancies between these two documents based on comlience level.
+The table should have two columns as described below:
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| - Briefly describe each discrepancy between UC and SSTS. | - Provide exact quotations from the SSTS that do not align with the UC. |
+
+**Guidelines:**
+
+- **Differences Between UC and SSTS:**
+  - Clearly and concisely describe each mismatch or inconsistency between the Technical Requirements (UC) and the Technical Documentation (SSTS).
+  - Focus on key differences without unnecessary detail.
+
+- **SSTS Quotations with Non-Matching Data:**
+  - Extract and present verbatim excerpts from the SSTS that contradict or do not meet the specifications outlined in the UC.
+  - Ensure quotations are accurate and directly relevant to the identified discrepancies.
+
+**Formatting Requirements:**
+
+- Use a clean and organized table format as shown above.
+- Ensure all statements are brief, clear, and to the point.
+
+**Example:**
+
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTs only mentions sending the incoming call status signal to vehicle/cabin/lights/atmosphere/ambient-callin/req but does not specify changing the interior ambient light | "The interior ambient light (out_12) changes color to signal the incoming call." |
+| UC requires data encryption at rest, whereas SSTS does not mention encryption. | *No relevant quotation found in SSTS regarding data encryption.* |

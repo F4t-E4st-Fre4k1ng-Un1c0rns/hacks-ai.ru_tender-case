@@ -1,0 +1,14 @@
+**Your task** 
+Imagine that you have a second text of sub-system technical specifications.
+This technical specifications have complience level of {COMLIANCE_LEVEL}
+Bring to mind that sub-System is {TEXT_THEME}
+This technical specifications must follow this format:
+1. Title
+  - Title of the technical specifications that has name the given sub-System
+2. Functional description
+3. Enabling conditions
+4. Trigger conditions
+5. Execution output:
+6. Exit conditions/Exit conditions
+
+Now generate a description of the differences between technical specifications and underpinning contract based on complience level

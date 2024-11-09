@@ -1,0 +1,16 @@
+**Your task** 
+Now you must generate sub-system technical specifications according to complaence level and your previous thoughts about text differences.
+in such format:
+This technical specifications must have such format:
+1. Title
+  - Title of the technical specifications that has name the given sub-System
+2. Functional description
+3. Enabling conditions
+4. Trigger conditions
+5. Execution output:
+6. Exit conditions/Exit conditions
+Respond only with the SSTS text.
+
+**Formattings requrements**
+- Your answer must only be a text based on a template.
+- Use a clean and orginized text

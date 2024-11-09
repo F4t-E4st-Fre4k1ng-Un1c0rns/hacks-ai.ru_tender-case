@@ -1,0 +1,6 @@
+Differences	Quotation
+SSTS provides technical detail about communication protocols and data exchange intervals, while UC only broadly describes system functionality.	“This system operates on dedicated short-range communication (DSRC) and/or cellular V2X protocols, allowing vehicles to transmit critical information such as speed, position, direction, and hazard data.”
+UC focuses on user interaction scenarios, whereas SSTS specifies technical enabling conditions like range and signal requirements.	“Vehicles must be within a 300-meter range for data transmission stability.”
+UC describes general alert scenarios, but SSTS includes precise trigger conditions, such as speed thresholds and environmental constraints.	“Vehicle speed exceeding 10 km/h to enable dynamic hazard and speed data exchange.”
+UC lists outcome for drivers (e.g., warning prompts), while SSTS details specific data transmission intervals and latency requirements.	“Real-time transmission of vehicle data, including speed, direction, and location, at intervals of 100 ms.”
+UC discusses fallback behavior in case of failure, but SSTS specifies exit conditions based on hardware faults, signal strength, and security protocols.	“Security protocols detect unauthorized access attempts or data irregularities, leading to session termination for safety.”

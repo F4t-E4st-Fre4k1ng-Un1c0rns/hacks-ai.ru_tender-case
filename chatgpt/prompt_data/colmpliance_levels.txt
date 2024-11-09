@@ -1,0 +1,4 @@
+1.Fully compliant 
+2.Largely compliant
+3.Partially compliant
+4.Non-compliant
