@@ -1,10 +1,4 @@
-from pynput import mouse
-import pyautogui
-
-import time
-
 import clipboard
-import keyboard
 import chime  # sounds to know status of generating
 
 from helper import Helper

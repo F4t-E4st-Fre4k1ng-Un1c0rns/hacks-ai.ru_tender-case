@@ -1,3 +1,4 @@
 clipboard
-keyboard
+pyautogui
+pynput
 chime
