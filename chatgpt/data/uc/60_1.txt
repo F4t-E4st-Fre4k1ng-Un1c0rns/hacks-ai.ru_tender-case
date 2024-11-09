@@ -1,0 +1,40 @@
+**Title:**  
+Personalized In-Car Ambient Lighting Control
+
+**Goal:**  
+The Personalized In-Car Ambient Lighting Control subsystem enables users to adjust and customize the lighting within the interior of the luxury electric car. This feature provides an array of ambient light settings, allowing users to select from various colors, intensities, and mood lighting presets to enhance their driving experience. The system is designed to create a personalized atmosphere within the car, tailored to the driver’s preferences, whether for relaxation, focus, or an energetic vibe. Users can easily control and modify the lighting to suit different times of day, moods, or occasions.
+
+**Preconditions:**  
+- The vehicle is equipped with the latest version of the Personalized In-Car Ambient Lighting Control system.
+- The user has access to the in-car control interface, either through the infotainment system or a dedicated mobile application.
+- The vehicle’s power system is on, allowing the lighting subsystem to function.
+- The user has selected the appropriate mode to interact with the lighting system, either through voice, touch screen, or mobile app.
+
+**Main scenario:**  
+1. **User Action:** Alise sits in the car and turns on the ignition, activating the ambient lighting control system.
+   - **Sub-System Response:** The system starts with the default lighting mode, displaying a soft white glow across the car’s interior.
+  
+2. **User Action:** Alise accesses the ambient lighting settings through the infotainment system screen.
+   - **Sub-System Response:** The system presents various lighting options, such as color palette, brightness control, and preset mood settings.
+
+3. **User Action:** Alise selects the "Relax" mood preset, which dims the lights and turns them to a soft blue hue.
+   - **Sub-System Response:** The system applies the selected preset, adjusting the light intensity and color accordingly to create a calming environment.
+
+4. **User Action:** Alise uses the slider to adjust the brightness level, increasing it for better visibility.
+   - **Sub-System Response:** The system dynamically adjusts the lighting intensity, responding in real-time to the user’s input.
+
+5. **User Action:** Alise decides to save this setting for future use by naming it "Evening Drive."
+   - **Sub-System Response:** The system saves the custom lighting configuration under the name "Evening Drive" and allows for easy access in future sessions.
+
+**Alternative scenario:**  
+1. **User Action:** Bob sits in the car but the ambient lighting system fails to activate due to a technical malfunction.
+   - **Sub-System Response:** The system displays an error message on the infotainment screen, indicating that the ambient lighting system is temporarily unavailable and recommends restarting the system.
+
+2. **User Action:** Bob tries restarting the system by turning the vehicle off and on.
+   - **Sub-System Response:** The system fails to resolve the issue and continues to display the error message.
+
+3. **User Action:** Bob contacts customer support via the car’s assistance system.
+   - **Sub-System Response:** The system provides Bob with troubleshooting steps and suggests scheduling a service appointment for a more in-depth check-up of the lighting system.
+
+**Postconditions:**  
+After successful interaction with the system, Alise's custom ambient lighting settings, including the selected mood and brightness adjustments, are stored and applied. The vehicle’s interior lighting is personalized according to Alise’s preferences, contributing to a comfortable and tailored in-car experience. The settings will be saved for future use, allowing for quick retrieval and application in future driving sessions.

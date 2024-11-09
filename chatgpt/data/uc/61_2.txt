@@ -1,0 +1,29 @@
+**Title:**
+Automated Navigation Re-routing Based on Traffic Conditions
+
+**Goal:**
+The Automated Navigation Re-routing Based on Traffic Conditions sub-System aims to enhance the driving experience by dynamically adjusting the navigation route of the luxury electric car in response to real-time traffic data. This sub-system will provide the user with optimized routes, ensuring a more efficient and time-saving journey by avoiding congested areas, accidents, or road closures. The system will automatically evaluate traffic conditions and suggest the best alternative route based on user preferences or predefined settings.
+
+**Preconditions:**
+1. The luxury electric car is equipped with the necessary hardware, including GPS, real-time traffic data integration, and navigation software.
+2. The user has enabled the automated navigation re-routing feature within the car's infotainment or navigation system.
+3. A stable internet connection is available to receive live traffic updates.
+4. The user has set the destination and selected preferences such as fastest or most scenic route.
+5. The car's navigation system is functioning correctly, and traffic data from external sources is up-to-date.
+
+**Main Scenario:**
+1. Alise enters the desired destination into the navigation system of the car.
+2. The sub-system processes the current traffic conditions and identifies the best route to reach the destination.
+3. While driving, the system detects traffic congestion ahead, such as a traffic jam or road blockage.
+4. The system automatically calculates alternative routes in real time and presents the best available option to Alise on the navigation screen.
+5. Alise accepts the suggested re-route, and the navigation system guides her along the new path, keeping her informed of any further changes in traffic conditions.
+
+**Alternative Scenario:**
+1. Bob enters the destination into the navigation system, but due to a lack of real-time traffic data (e.g., poor internet connection or data feed failure), the system cannot access the necessary information.
+2. The sub-system notifies Bob of the issue with a message indicating that traffic updates are unavailable at the moment.
+3. Bob is given the option to manually adjust the route or continue on the original path.
+4. The system will continue to guide Bob based on the available map data, but without real-time traffic re-routing assistance.
+5. Once the system regains access to traffic data, it will resume monitoring traffic conditions and suggest new routes as necessary.
+
+**Postconditions:**
+After a successful interaction with the sub-system, the luxury electric car's navigation system has adjusted the driving route to reflect current traffic conditions. Alise or Bob is directed along a more efficient route, potentially saving time and avoiding traffic-related delays. The system continues to monitor traffic conditions throughout the journey, automatically re-routing if new traffic issues arise, ensuring a smooth and optimized driving experience.

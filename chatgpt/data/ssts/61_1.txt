@@ -1,0 +1,32 @@
+**Technical Specifications: Automated Navigation Re-routing Based on Traffic Conditions**
+
+1. **Title**  
+   Automated Navigation Re-routing Based on Traffic Conditions
+
+2. **Functional Description**  
+   The Automated Navigation Re-routing Based on Traffic Conditions sub-system dynamically adjusts the vehicle’s navigation route based on real-time traffic information. It continuously monitors traffic conditions such as congestion, accidents, road closures, or other disruptions along the route. Upon detecting any traffic-related issues, the system calculates and suggests an alternative route to optimize travel time. The system provides real-time updates to the user, notifying them of changes to the original route and ensuring the most efficient path is followed throughout the journey.
+
+3. **Enabling Conditions**  
+   - The vehicle must be equipped with a functioning GPS system and a communication module capable of receiving real-time traffic data.
+   - The vehicle’s navigation system must be activated and fully operational.
+   - The vehicle must be moving for the system to be engaged; it will remain inactive while stationary.
+   - The vehicle must have access to real-time traffic data from external sources (e.g., traffic monitoring services, cloud-based systems).
+   - The user must have granted permission for the system to access and use real-time traffic data.
+
+4. **Trigger Conditions**  
+   - The vehicle begins moving, and the navigation system is activated.
+   - The system detects a change in traffic conditions, such as congestion, accidents, road closures, or other delays along the current route.
+   - Traffic data becomes available or is updated, indicating a need to re-route.
+   - The user manually requests a re-route, or the system autonomously triggers the re-routing process when it determines a faster or less congested route is available.
+
+5. **Execution Output**  
+   - The system calculates and generates a new route based on the current traffic conditions.
+   - The navigation system updates the vehicle's map and provides updated turn-by-turn directions for the new route.
+   - The system notifies the user via visual and auditory alerts regarding the route change.
+   - The system continues to monitor traffic conditions and will re-evaluate the route if further changes are detected, providing continuous updates as necessary.
+
+6. **Exit Conditions**  
+   - The user reaches the destination, or the user manually disables the navigation system.
+   - The system loses access to real-time traffic data (e.g., internet connectivity failure, GPS malfunction), and as a result, the navigation system defaults to the original route without re-routing capabilities.
+   - The user manually overrides the system’s re-routing suggestions and chooses an alternate route.
+   - The vehicle becomes stationary for a prolonged period, automatically deactivating the navigation system until movement resumes.

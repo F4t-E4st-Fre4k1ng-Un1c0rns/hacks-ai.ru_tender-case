@@ -1,0 +1,49 @@
+**Technical Specifications: Automated Navigation Re-routing Based on Traffic Conditions**  
+*Compliance Level: Partially Compliant*
+
+---
+
+**1. Title**  
+Automated Navigation Re-routing Based on Traffic Conditions
+
+---
+
+**2. Functional Description**  
+The Automated Navigation Re-routing Based on Traffic Conditions sub-system is designed to optimize vehicle navigation by dynamically adjusting the route based on live traffic data. The system processes real-time traffic information, including accidents, congestion, and road closures, to provide updated route recommendations. However, the system may face limitations due to occasional delays in data updates, incomplete traffic data, or network connectivity issues. This may result in suboptimal routing decisions or a lack of re-routing in some cases.
+
+---
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with a compatible GPS navigation system.
+- The system is connected to a data service for live traffic information, with an active subscription or data plan.
+- The user has entered a destination into the navigation system and initiated route guidance.
+- The vehicle's GPS and sensor systems are fully operational.
+- The navigation system must be capable of processing and displaying updated routes based on traffic data.
+
+---
+
+**4. Trigger Conditions**  
+- Detection of traffic congestion, accidents, or road closures that impact the user’s current route.
+- Significant deviation between the estimated and actual travel time due to traffic conditions.
+- Activation of the navigation system with a set destination.
+- Availability of live traffic data, though interruptions or inaccuracies may occur.
+- User manual request to reroute after noticing delays or traffic issues.
+
+---
+
+**5. Execution Output**  
+- The system recalculates and presents an alternative route based on updated traffic conditions, if applicable.
+- A notification is displayed to the user, providing the option to accept or decline the new route.
+- After accepting the rerouted route, the system updates turn-by-turn directions with the new path and estimated arrival time.
+- In case of failure to reroute, the system reverts to the original route, informing the user of the issue.
+- If traffic data is unavailable, the system will continue using the initial route based on historical data without live adjustments.
+
+---
+
+**6. Exit Conditions**  
+- The user successfully follows the rerouted path to the destination, if a route change was made.
+- The user completes the journey using the original route if the system fails to reroute or provide real-time traffic data.
+- The system returns to the primary route if traffic data is insufficient or unavailable.
+- The system provides appropriate notifications in case of a malfunction or failure in the rerouting process, maintaining a functional navigation experience with the least disruption.
+
+---

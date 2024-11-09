@@ -1,0 +1,59 @@
+**Underpinning Contract: Automated Navigation Re-routing Based on Traffic Conditions**
+
+---
+
+**1. Title:**  
+Automated Navigation Re-routing Based on Traffic Conditions
+
+---
+
+**2. Goal:**  
+The goal of the Automated Navigation Re-routing Based on Traffic Conditions system is to enhance the driving experience by dynamically adjusting the vehicle's navigation route in response to real-time traffic data. This sub-system will provide users with the ability to receive updated and optimized route suggestions, ensuring reduced travel time, avoidance of congested areas, and improved overall efficiency of the journey. By processing live traffic conditions, road closures, accidents, and other factors, the system will ensure the vehicle stays on the best possible route.
+
+---
+
+**3. Preconditions:**  
+- The vehicle is equipped with the necessary navigation hardware and software.
+- The system has access to live traffic data through an integrated connectivity service.
+- The user has activated the vehicle's navigation system and inputted a destination.
+- The vehicle’s GPS system is functioning properly.
+- The system is capable of detecting traffic conditions such as road closures, slow traffic, and accidents in real time.
+
+---
+
+**4. Main Scenario:**  
+1. **User action:** Bob enters the destination address into the vehicle's navigation system.  
+   **System response:** The navigation system calculates an initial route based on the most efficient path available at that moment.
+   
+2. **User action:** While driving, Bob continues his journey as the system tracks his current location and monitors traffic conditions.  
+   **System response:** The sub-system continuously monitors live traffic data, identifying changes in traffic flow such as accidents or heavy congestion.
+
+3. **User action:** Bob encounters heavy traffic or an accident along his route.  
+   **System response:** The system identifies the issue and proposes an alternative route with less traffic, providing Bob with a notification and asking if he would like to accept the new route.
+
+4. **User action:** Bob selects "Yes" to accept the suggested reroute.  
+   **System response:** The system recalculates the route based on the updated traffic conditions and provides Bob with the new directions.
+
+5. **User action:** Bob follows the updated route to his destination.  
+   **System response:** The system continues to provide turn-by-turn directions, ensuring Bob arrives at his destination in the most efficient way possible.
+
+---
+
+**5. Alternative Scenario:**  
+1. **User action:** Bob enters the destination, but there is a temporary loss of connectivity or the traffic data is unavailable.  
+   **System response:** The system alerts Bob that live traffic data is unavailable and defaults to the original route calculation based on standard maps and historical data.
+
+2. **User action:** Bob decides to continue driving despite the lack of updated traffic information.  
+   **System response:** The navigation system proceeds with the original route, but continues to check periodically for any traffic updates as the journey progresses.
+
+3. **User action:** Bob experiences an error with the GPS or the rerouting feature is not functioning properly.  
+   **System response:** The system notifies Bob of the malfunction and suggests he manually follow the suggested route on the map or pull over to resolve the issue.
+
+---
+
+**6. Postconditions:**  
+- After a successful interaction, Bob will be rerouted to a new, optimized path, potentially saving time and avoiding traffic delays.
+- The system will ensure continuous navigation guidance, updating directions based on real-time traffic conditions, ensuring a smooth journey to the destination.
+- If the rerouting was unsuccessful due to technical issues, the system will notify the user and may ask for manual intervention, preserving the integrity of the trip despite any malfunctions.
+
+---

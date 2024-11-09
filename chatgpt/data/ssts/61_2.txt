@@ -1,0 +1,33 @@
+**1. Title**  
+Automated Navigation Re-routing Based on Traffic Conditions – Technical Specifications  
+
+**2. Functional Description**  
+The Automated Navigation Re-routing Based on Traffic Conditions sub-system is designed to dynamically adjust the vehicle's route based on real-time traffic data. The system continuously monitors traffic conditions, including congestion, accidents, and road closures, and automatically adjusts the driving route to avoid delays and optimize travel time. While the system strives for automation, it provides the user with the option to manually override suggested routes if necessary. The system depends on external data sources for traffic information, and may not function optimally in areas with poor connectivity or absent data feeds.  
+
+**3. Enabling Conditions**  
+- The vehicle is equipped with GPS, real-time traffic data integration, and navigation software capable of processing traffic information.  
+- A stable internet connection is available to access external traffic data services (e.g., Google Traffic, Waze, or similar).  
+- The user has enabled the automated re-routing feature within the vehicle's navigation settings.  
+- The vehicle’s navigation system is functional and displaying the current route to the driver.  
+- The destination has been entered into the navigation system.  
+- The system has access to current external traffic data to process and analyze route adjustments.  
+
+**4. Trigger Conditions**  
+- Traffic congestion, accidents, or road closures are detected on the current route based on real-time traffic data.  
+- The system identifies a faster or more efficient route to the destination due to traffic disruptions.  
+- The user manually triggers a re-routing request via the navigation interface.  
+- The system detects a road closure, hazard, or obstruction on the planned route.  
+- The system recognizes an interruption in internet connectivity or GPS data, leading to potential limitations in real-time traffic data access.  
+
+**5. Execution Output**  
+- The system provides a new route to the user, factoring in real-time traffic conditions and suggesting the most efficient path to the destination.  
+- The navigation screen displays the updated route, including new travel time and distance estimates.  
+- Audio or visual cues are updated to guide the user along the new route.  
+- Notifications of potential future traffic disruptions on the new route are presented to the user.  
+- In case of connectivity issues, the system may switch to the previous route or prompt the user to select a manual route if traffic data is unavailable.  
+
+**6. Exit Conditions**  
+- The system successfully guides the user along the updated route, reaching the destination as planned.  
+- The user cancels the re-routing process or manually overrides the suggested route, exiting the automated re-routing mode.  
+- The system resumes the previous route if real-time traffic data is temporarily unavailable, allowing the user to continue without interruptions.  
+- The system exits the re-routing process once the destination is reached, or if the user opts to disable the feature for the remainder of the journey.

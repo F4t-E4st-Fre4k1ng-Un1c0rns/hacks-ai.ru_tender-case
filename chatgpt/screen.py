@@ -10,10 +10,10 @@ import chime
 
 class Screen:
     def __init__(self):
-        self.new_chat_position = (337, 219)
-        self.start_prompt_position = (713, 614)
-        self.copy_result_position = (714, 784)
-        self.continue_prompt_position = (761, 953)
+        self.new_chat_position = (333, 176)
+        self.start_prompt_position = (696, 587)
+        self.copy_result_position = (710, 777)
+        self.continue_prompt_position = (755, 960)
 
 
         # self.current_handler = 0

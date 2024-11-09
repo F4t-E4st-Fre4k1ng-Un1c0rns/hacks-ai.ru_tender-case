@@ -1,0 +1,26 @@
+**Underpinning Contract: Personalized In-Car Ambient Lighting Control**
+
+**1. Goal**  
+The Personalized In-Car Ambient Lighting Control system enables users to customize the ambient lighting inside the car according to their preferences. It offers the ability to adjust the color, brightness, and intensity of lighting across various zones of the car's interior, enhancing the overall user experience. This feature aims to create an immersive atmosphere by allowing the driver and passengers to set the lighting to match their mood, the time of day, or the driving environment.
+
+**2. Preconditions**  
+- The vehicle must be equipped with the necessary hardware for in-car lighting control (ambient lighting system).
+- The user must have access to the vehicle's central control interface (either through the in-car display, mobile app, or voice command system).
+- The system should be fully powered on and functional.
+- The user (Alise or Bob) must be seated inside the vehicle with all necessary settings (e.g., climate control, seat positioning) already adjusted for normal use.
+
+**3. Main Scenario**  
+1. The user (Alise or Bob) enters the vehicle and starts the engine or powers up the system.
+2. The user accesses the lighting control system via the central control panel (screen or mobile app).
+3. The user selects the option to adjust the ambient lighting, choosing from available presets or selecting custom settings.
+4. The user adjusts the lighting color, brightness, and zone selection (e.g., dashboard, footwell, door panels) to their preference.
+5. The system confirms the changes by displaying a visual update of the lighting inside the vehicle, which immediately reflects the user's preferences.
+
+**4. Alternative Scenario**  
+1. The user attempts to access the ambient lighting control system, but the system is temporarily unresponsive (e.g., due to a software error or malfunction).
+2. The system displays an error message, such as “Lighting control unavailable at this moment” or “System not responding”.
+3. The user attempts to reset the system by either restarting the vehicle or using a manual override option if available.
+4. If the issue persists, the user is prompted to contact customer support or schedule a vehicle diagnostic to resolve the issue.
+
+**5. Postconditions**  
+After a successful interaction with the Personalized In-Car Ambient Lighting Control system, the vehicle’s interior lighting is updated according to the user's settings. The new lighting configuration remains active until the user decides to adjust it again, ensuring a dynamic and personalized in-car atmosphere. If the system was adjusted successfully, a visual confirmation of the updated lighting will be visible within the car’s interior.

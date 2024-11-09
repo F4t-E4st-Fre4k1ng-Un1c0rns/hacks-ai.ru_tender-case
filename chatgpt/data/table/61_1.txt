@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| SSTS does not explicitly mention the requirement for an active internet connection for receiving real-time traffic data. | "The vehicle must have access to real-time traffic data from external sources (e.g., traffic monitoring services, cloud-based systems)." |
+| SSTS lacks clear mention of specific triggers for road closures or detours in addition to traffic jams and accidents. | "The system detects a change in traffic conditions, such as congestion, accidents, road closures, or other delays along the current route." |
+| SSTS does not specify the type of user notifications (visual/audio) or their details, as required in the UC. | "The system notifies the user via visual and auditory alerts regarding the route change." |
+| SSTS does not provide specific details regarding a manual override scenario, which is addressed in the UC. | "The user manually overrides the system’s re-routing suggestions and chooses an alternate route." |
+| SSTS does not define how the system behaves in case real-time traffic data is unavailable, unlike the UC that addresses this case explicitly. | "The system calculates and generates a new route based on the current traffic conditions." |

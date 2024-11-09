@@ -1,0 +1,48 @@
+**Underpinning Contract for Personalized In-Car Ambient Lighting Control**
+
+---
+
+### 1. Title
+**Personalized In-Car Ambient Lighting Control**
+
+### 2. Goal
+The Personalized In-Car Ambient Lighting Control feature provides users with the ability to customize and adjust the lighting ambiance within the car's cabin. It allows users to modify the color, brightness, and intensity of the lighting, creating a personalized and luxurious driving experience. The system will offer multiple preset lighting moods, as well as manual controls for creating a unique atmosphere. Additionally, it will include automatic adjustments based on time of day, weather conditions, and the driving mode selected.
+
+### 3. Preconditions
+- The car must be equipped with an in-car ambient lighting system that supports personalization.
+- The user must have access to the car’s central control interface (either through a touchscreen, voice commands, or a mobile application).
+- The system must be powered on and functioning normally, with sufficient battery or vehicle power.
+- The user must have basic knowledge of how to access and interact with the car's infotainment system or controls.
+  
+### 4. Main Scenario
+1. **User Action**: Alise enters the car and starts the engine.
+   - **System Response**: The car’s lighting system activates, displaying the default ambient lighting preset (e.g., soft white light).
+  
+2. **User Action**: Alise accesses the car’s control interface via the touchscreen and navigates to the "Ambient Lighting" settings.
+   - **System Response**: The system displays available lighting modes, including preset themes like "Relax," "Sport," and "Focus," as well as manual color and brightness sliders.
+
+3. **User Action**: Alise selects the "Relax" preset and adjusts the brightness to 50%.
+   - **System Response**: The system adjusts the lighting to the "Relax" preset, setting the color to a soft blue and adjusting brightness to the selected level of 50%.
+
+4. **User Action**: Alise further customizes the lighting by choosing a deep purple hue and a brightness level of 30%.
+   - **System Response**: The system immediately applies the custom settings, changing the color to deep purple and adjusting the brightness to 30%.
+
+5. **User Action**: Alise finishes the adjustment and exits the settings.
+   - **System Response**: The system saves the new settings as the default ambient lighting profile and returns to the main menu.
+
+### 5. Alternative Scenario
+1. **User Action**: Bob enters the car and tries to adjust the lighting.
+   - **System Response**: The system shows an error message indicating that the ambient lighting system is temporarily unavailable due to a software issue.
+
+2. **User Action**: Bob attempts to reset the system by rebooting the car’s infotainment interface.
+   - **System Response**: The system reboots, but the lighting control still remains inaccessible.
+
+3. **User Action**: Bob contacts customer support or visits the service center.
+   - **System Response**: A technician confirms that the issue is due to a temporary software bug and schedules a fix via an over-the-air update.
+
+4. **User Action**: Bob waits for the update to be installed.
+   - **System Response**: After the update, Bob can access the lighting control feature again and resume personalized adjustments.
+
+### 6. Postconditions
+- After a successful interaction with the Personalized In-Car Ambient Lighting Control, Alise’s chosen lighting settings are saved and actively applied, ensuring the desired ambiance during her drive.
+- If Bob encounters a failure, the issue will be resolved upon completion of necessary software updates or repairs, and the lighting system will be fully operational again, ready for customization.

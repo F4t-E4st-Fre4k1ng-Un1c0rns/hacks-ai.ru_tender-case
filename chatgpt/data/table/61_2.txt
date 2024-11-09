@@ -1,0 +1,7 @@
+| **Differences** | **Quotation** |
+|-------------------------------------|-------------------------------------------|
+| The UC expects full automation for re-routing, while SSTS allows user intervention to override the route. | "The system provides the user with the option to manually override suggested routes if necessary." |
+| The UC implies continuous real-time traffic updates, but SSTS depends on external data sources that may be interrupted. | "A stable internet connection is available to access external traffic data services (e.g., Google Traffic, Waze, or similar)." |
+| The UC anticipates seamless, uninterrupted re-routing, but SSTS mentions fallback to previous routes during connectivity loss. | "In case of connectivity issues, the system may switch to the previous route or prompt the user to select a manual route if traffic data is unavailable." |
+| The UC requires automatic and consistent re-routing based on traffic data, while SSTS includes conditions where the system may fail to trigger re-routing. | "The system recognizes an interruption in internet connectivity or GPS data, leading to potential limitations in real-time traffic data access." |
+| The UC expects the sub-system to always optimize the journey without fallback options, while SSTS outlines fallback modes in cases of connectivity loss. | "The system resumes the previous route if real-time traffic data is temporarily unavailable, allowing the user to continue without interruptions." |

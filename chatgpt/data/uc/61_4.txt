@@ -1,0 +1,44 @@
+**Underpinning Contract: Automated Navigation Re-routing Based on Traffic Conditions**
+
+---
+
+### 1. Title
+Automated Navigation Re-routing Based on Traffic Conditions
+
+---
+
+### 2. Goal
+The Automated Navigation Re-routing Based on Traffic Conditions sub-system aims to provide the user with real-time navigation adjustments, enhancing the driving experience by automatically re-routing the vehicle when there are traffic delays, road blockages, or other disruptions. The system ensures the vehicle reaches its destination via the most efficient and timely route, accounting for real-time traffic updates, road conditions, and alternative pathways.
+
+---
+
+### 3. Preconditions
+- The vehicle must be equipped with the Automated Navigation Re-routing system.
+- The driver must have an active route set on the vehicle’s navigation system.
+- The system requires a stable internet connection to fetch real-time traffic data.
+- The vehicle’s GPS system must be functioning correctly to assess current location and traffic conditions.
+- The user (Alise or Bob) must have accepted the navigation terms and granted permission for real-time data access.
+
+---
+
+### 4. Main Scenario
+1. **User sets a destination**: Alise or Bob enters their destination into the vehicle’s navigation system.
+2. **Navigation system calculates the route**: The system computes the optimal route based on current road conditions and traffic data.
+3. **System monitors traffic in real time**: The sub-system continually monitors traffic conditions and road updates.
+4. **System detects traffic disruption**: If a traffic jam, accident, or road closure is detected along the route, the system will evaluate alternative routes.
+5. **Re-routing recommendation**: The system automatically suggests a new route to Alise or Bob, guiding them to avoid the disruption and reach the destination more efficiently.
+
+---
+
+### 5. Alternative Scenario
+1. **User sets a destination**: Alise or Bob enters their destination into the vehicle’s navigation system.
+2. **No real-time data available**: The system is unable to access real-time traffic information due to an internet or GPS failure.
+3. **System notifies the user**: The system informs Alise or Bob that it cannot fetch live traffic data and recommends they manually check for route changes.
+4. **User follows the default route**: In the absence of traffic information, the system suggests the default route to the destination based on the last available data.
+5. **System continuously monitors**: Once the internet or GPS connection is restored, the system will begin monitoring traffic conditions again and alert the user if re-routing is required.
+
+---
+
+### 6. Postconditions
+- The navigation system successfully re-routes the vehicle based on real-time traffic conditions, ensuring Alise or Bob can reach their destination in the shortest possible time.
+- In the event of a failure, the system defaults to the most recent route available and notifies the user of any limitations, such as a lack of real-time data. Once the issue is resolved, the system resumes normal operation, continuing to optimize the route based on traffic data.

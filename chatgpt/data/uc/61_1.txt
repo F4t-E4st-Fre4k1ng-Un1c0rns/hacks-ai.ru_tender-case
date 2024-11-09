@@ -1,0 +1,43 @@
+**Underpinning Contract: Automated Navigation Re-routing Based on Traffic Conditions**
+
+**Goal**  
+The Automated Navigation Re-routing Based on Traffic Conditions sub-system aims to provide the user with an intelligent routing experience by automatically adjusting the vehicle's navigation based on real-time traffic data. This feature ensures optimal travel routes by considering traffic congestion, road closures, accidents, or other events that may delay the user’s journey. The system will improve travel efficiency, reduce travel time, and enhance overall driving convenience for users of luxury electric cars.
+
+**Preconditions**  
+- The vehicle is equipped with an active GPS and internet connectivity to receive real-time traffic updates.
+- The vehicle’s navigation system is running and fully functional.
+- The user has authorized the system to receive and process traffic information, including data from external sources such as traffic monitoring services.
+- The user is actively driving the vehicle with the navigation system enabled.
+- The sub-system must be initialized and activated when the vehicle is in motion.
+
+**Main Scenario**  
+1. **User Action**: Bob starts driving his vehicle, and the navigation system is activated, displaying the planned route.  
+   **Sub-System Response**: The sub-system begins monitoring traffic conditions along the route in real-time.  
+   
+2. **User Action**: Bob encounters a traffic jam or accident along the route.  
+   **Sub-System Response**: The system detects the traffic issue and evaluates alternative routes.  
+   
+3. **User Action**: Bob continues driving, and the system presents an updated route with a better travel time.  
+   **Sub-System Response**: The navigation system automatically re-routes Bob to the new, optimized route, with the user notified of the change on the screen.  
+   
+4. **User Action**: Bob accepts the new route or the system confirms it as the best option.  
+   **Sub-System Response**: The system provides turn-by-turn directions for the updated route.  
+   
+5. **User Action**: Bob continues on the new route, and the system continues to monitor traffic conditions.  
+   **Sub-System Response**: If any further changes in traffic conditions are detected, the system will update the route again as needed to maintain the most efficient travel path.
+
+**Alternative Scenario**  
+1. **User Action**: Bob starts driving, but there is no active internet connection or traffic data is unavailable.  
+   **Sub-System Response**: The system defaults to the originally planned route without considering real-time traffic conditions.  
+   
+2. **User Action**: Bob encounters heavy traffic or delays, but the system cannot re-route due to lack of traffic data.  
+   **Sub-System Response**: The navigation system alerts Bob that real-time traffic data is unavailable and prompts him to follow the current route or use an alternative navigation tool.  
+   
+3. **User Action**: Bob continues driving, and the system eventually detects available traffic data after a brief period.  
+   **Sub-System Response**: Once traffic data is restored, the system checks for new traffic conditions and may prompt Bob to re-route if a better option is available.  
+   
+4. **User Action**: Bob chooses not to re-route and follows the current route manually.  
+   **Sub-System Response**: The system continues monitoring traffic and will notify Bob if any significant changes occur.
+
+**Postconditions**  
+After a successful interaction with the Automated Navigation Re-routing Based on Traffic Conditions sub-system, Bob’s travel time is optimized by providing a route that bypasses traffic delays and other obstacles. The system ensures that the user receives the most efficient path available based on real-time traffic information. If a re-routing is necessary, the system will promptly update the navigation and provide the user with accurate, updated directions. The vehicle’s navigation continues to run smoothly, delivering a comfortable and timely driving experience.

@@ -1,0 +1,31 @@
+**Title:**  
+Technical Specifications for Personalized In-Car Ambient Lighting Control
+
+**Functional Description:**  
+The Personalized In-Car Ambient Lighting Control subsystem allows users to adjust and personalize the lighting environment within the interior of the luxury electric vehicle. The system offers multiple adjustable settings including color selection, brightness control, and various mood-specific presets. Users can control the lighting through the car’s infotainment system, voice commands, or a dedicated mobile application. The system supports the creation of user-specific profiles that can save preferred lighting settings, enabling automatic adjustment of the lighting environment based on the user’s preferences or environmental conditions such as time of day, vehicle speed, or driving mode.
+
+**Enabling Conditions:**  
+- The vehicle’s electrical system must be fully operational, providing sufficient power to the ambient lighting subsystem.
+- The infotainment system must be functional, allowing the user to interact with the lighting control interface via touchscreen, voice commands, or a mobile app.
+- The system requires an active internet connection for cloud-based storage of user preferences and settings, if applicable.
+- The ambient lighting control system must be initialized when the vehicle is powered on, with the lights set to the default or previously saved user settings.
+- The system is compatible with both user-specific settings saved locally in the vehicle and any cloud-stored preferences linked to the user’s profile.
+
+**Trigger Conditions:**  
+- The system is triggered when the vehicle is powered on, and the lighting subsystem activates to the default or user-preferred setting.
+- The user can manually trigger the system by accessing the lighting controls through the infotainment system, voice control, or mobile application.
+- The system may also trigger automatically based on environmental inputs, such as adjusting the lighting based on the time of day (e.g., activating a "night mode" preset), weather conditions, or driving mode (e.g., sport mode triggering high-intensity lighting).
+- Failure to initialize the system properly will trigger an error message or diagnostic alert on the display, indicating a malfunction in the ambient lighting control subsystem.
+
+**Execution Output:**  
+- Upon activation, the system will display available lighting options on the infotainment screen or mobile app, including color choices, intensity control sliders, and mood presets.
+- The system responds to user input in real time, adjusting the lighting color and intensity to the selected setting.
+- Any changes made by the user, including selecting preset lighting modes or adjusting the intensity or color, are immediately reflected in the car's lighting.
+- User-defined settings, including custom color combinations and lighting modes, are saved under the user’s profile for future use. These settings will automatically apply upon the next vehicle startup, ensuring the lighting environment is tailored to the user’s preferences.
+- The system offers preset modes such as "Relax," "Focus," and "Drive," as well as the ability to create and name custom lighting configurations for easy retrieval.
+
+**Exit Conditions:**  
+- The system ensures that any user-selected changes, including custom lighting settings and adjustments to intensity or color, are saved and applied to the vehicle’s profile.
+- When the vehicle is powered off, the system automatically saves the current lighting settings, ensuring that the same settings are used during the next drive session.
+- In the event of a failure or malfunction, the system will display an error message, and the user will be prompted to restart the system or contact support for troubleshooting. In such cases, the previous user settings will not be retained until the issue is resolved.
+- Upon system shutdown, any unsaved settings or adjustments will be discarded unless manually saved to the user’s profile.

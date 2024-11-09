@@ -1,0 +1,30 @@
+**Technical Specifications for Personalized In-Car Ambient Lighting Control**
+
+---
+
+### 1. Title
+**Personalized In-Car Ambient Lighting Control**
+
+### 2. Functional Description
+The Personalized In-Car Ambient Lighting Control subsystem allows users to customize and adjust the lighting within the car’s interior. The system supports preset lighting modes (e.g., "Relax," "Sport," "Focus"), manual adjustments of color, brightness, and intensity, and the ability to save custom lighting configurations. While it features some automatic adjustments based on time of day, the system does not consistently adapt to driving mode or weather conditions. The user interacts with the subsystem via a touchscreen, voice commands, or mobile application.
+
+### 3. Enabling Conditions
+- The vehicle must be equipped with an operational in-car ambient lighting system integrated with the infotainment system.
+- The car’s central control interface (touchscreen or mobile app) must be functioning and accessible to the user.
+- The lighting system must be powered on and connected to the vehicle’s main software.
+- The user must have access to the car's interface and basic knowledge of system navigation.
+
+### 4. Trigger Conditions
+- The user accesses the central control interface to change the lighting settings.
+- Input from the user is received via touch, voice, or app to select a preset mode or make manual adjustments to color, brightness, or intensity.
+- The system detects time of day to apply minimal adjustments to the lighting, though further automatic adjustments (based on weather or driving mode) are not consistently supported.
+
+### 5. Execution Output
+- The system processes user input and applies the selected preset or custom lighting settings. It adjusts the color, brightness, and intensity according to user specifications.
+- The system saves user preferences and recalls them on subsequent uses, although this functionality may experience occasional errors.
+- Lighting transitions occur, though there may be delays or disruptions, particularly with manual customization.
+
+### 6. Exit Conditions
+- Once the user exits the lighting settings, the system saves the changes or returns to the default lighting mode if no changes were made.
+- If there is a failure or issue with saving settings, the system may not store the customized preferences, and the user may need to adjust settings again upon restarting the car.
+- The system will notify the user of any malfunctions or incomplete actions, prompting the user to contact customer support if necessary.

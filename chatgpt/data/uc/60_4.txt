@@ -1,0 +1,29 @@
+**Title: Personalized In-Car Ambient Lighting Control**
+
+**Goal:**
+The Personalized In-Car Ambient Lighting Control sub-system provides users with the ability to customize and adjust the lighting inside their luxury electric car, creating a personalized, ambient atmosphere. The system offers various lighting colors, intensities, and modes that can be tailored to suit the user’s preferences, mood, and environmental conditions. It enhances the driving experience by offering visual comfort and supporting different driving scenarios, such as night driving, relaxation, or focus mode.
+
+**Preconditions:**
+- The Personalized In-Car Ambient Lighting Control system is integrated into the vehicle’s central control system.
+- The vehicle is powered on and operational.
+- The system can be accessed via the car’s central touchscreen or voice command interface.
+- The user, such as Alise or Bob, has configured their user profile to enable personalized settings for the lighting control system.
+
+**Main Scenario:**
+1. Alise or Bob enters the car and sits in the driver’s seat.
+2. The user interacts with the central touchscreen or uses a voice command to open the Ambient Lighting Control system.
+3. The system displays a menu with options for color, intensity, and mood settings.
+4. The user selects a desired lighting color, adjusts the intensity, and chooses a preferred lighting mode (e.g., Relax, Sport, Focus, or Custom).
+5. The system confirms the selection by changing the lighting to the selected settings and provides a visual cue on the touchscreen to confirm the changes.
+
+**Alternative Scenario:**
+1. If the Personalized In-Car Ambient Lighting Control system is not responding or has an error, Alise or Bob tries to reboot the system using the car’s reset function.
+2. If rebooting does not solve the issue, the user can attempt to control the lighting using the voice command interface.
+3. If the voice command is also unresponsive, the user is notified that the ambient lighting control system is unavailable and should contact customer support or visit a service center for assistance.
+4. The system provides an error message on the screen, offering the user alternative instructions on how to proceed.
+5. If the system fails completely, the user is provided with a manual override to control basic cabin lights.
+
+**Postconditions:**
+- After successfully interacting with the Personalized In-Car Ambient Lighting Control system, the user’s selected lighting preferences are applied to the car’s interior.
+- The system confirms the changes visually, ensuring that the interior lighting matches the user’s selected settings, enhancing the atmosphere inside the car.
+- The user’s preferences are stored in their profile for future sessions, allowing for quick access to personalized settings.
