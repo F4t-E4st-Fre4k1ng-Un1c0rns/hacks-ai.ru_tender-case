@@ -14,7 +14,6 @@ def wait_gpt(prompt: str, button_wait: str):
 
 
 helper = Helper()
-chime.success()
 
 for theme_id, complience_level_id in helper.queue:
     filename = f"{theme_id}_{complience_level_id}.txt"

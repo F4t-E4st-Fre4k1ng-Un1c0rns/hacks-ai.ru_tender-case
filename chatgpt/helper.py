@@ -1,8 +1,6 @@
 from starting import Start
 
 class Helper(Start):
-    # def __init__(self):
-    #     super().__init__()
 
     def generate_prompt(self, prompt_num: int, theme_id: int, complience_level_id: int):
         template_of_prompt = self.prompts[prompt_num]
