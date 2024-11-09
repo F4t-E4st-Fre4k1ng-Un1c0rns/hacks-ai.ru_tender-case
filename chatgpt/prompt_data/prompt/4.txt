@@ -1,5 +1,5 @@
 **Your task** 
-Your final task is to create a table that highlights the discrepancies between these two documents based on comlience level.
+Your final task is to create a table that highlights the discrepancies between sub-system parameters compared to underpinning contract's requirements based on comlience level.z
 The table should have two columns as described below:
 | **Differences** | **Quotation** |
 |-------------------------------------|-------------------------------------------|
@@ -19,6 +19,7 @@ The table should have two columns as described below:
 
 - Use a clean and organized table format as shown above.
 - Ensure all statements are brief, clear, and to the point.
+- Focus only on factical differences of the sub-system parameters and uc requirements
 
 **Example:**
 

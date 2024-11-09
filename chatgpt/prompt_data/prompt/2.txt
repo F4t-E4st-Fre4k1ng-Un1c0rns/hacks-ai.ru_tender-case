@@ -1,5 +1,5 @@
 **Your task** 
-Imagine that you have a second text of sub-system technical specifications.
+Imagine that you have a text of sub-system technical specifications.
 This technical specifications have complience level of {COMLIANCE_LEVEL}
 Bring to mind that sub-System is {TEXT_THEME}
 This technical specifications must follow this format:
@@ -11,4 +11,4 @@ This technical specifications must follow this format:
 5. Execution output:
 6. Exit conditions/Exit conditions
 
-Now generate a description of the differences between technical specifications and underpinning contract based on complience level
+Now generate mismatches of the sub-system parameters compared to  underpinning contract's requirements based on complience level. 

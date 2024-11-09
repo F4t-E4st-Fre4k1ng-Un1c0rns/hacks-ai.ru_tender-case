@@ -1,7 +1,0 @@
-| **Differences** | **Quotation** |
-|-------------------------------------|-------------------------------------------|
-| UC describes user actions for triggering the system, while SSTS focuses on sensor triggers, omitting user initiation. | "The system is triggered when the driver activates the parking mode, either by pressing the parking button in the vehicle's interface or through voice command." |
-| UC specifies user feedback through the infotainment system after successful parking, while SSTS mentions visual and auditory feedback but not user confirmation. | "After successfully completing the parking process, the system will display a confirmation message on the infotainment screen, signaling that the vehicle is parked correctly." |
-| SSTS includes technical details on sensor types and environmental conditions that are absent in UC. | "The vehicle is equipped with necessary sensors, including ultrasonic sensors, radar, and cameras for detecting obstacles, parking lines, and available spaces." |
-| SSTS provides detailed system failure scenarios, while UC focuses more on user actions in case of failure. | "The system will exit automatically if the parking process is interrupted by a sensor failure, obstruction, or if the system detects an issue that prevents safe parking." |
-| SSTS includes the vehicle's operational modes (engine, battery charge, etc.), which are not explicitly covered in UC. | "The vehicle must be in a fully operational mode with the engine on, and the driver must be seated with the seatbelt fastened." |
